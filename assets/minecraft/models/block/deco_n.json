@@ -1,0 +1,12 @@
+{
+    "ambientocclusion": true,
+    "elements": [
+        {
+            "from": [ 0, 0.0, 0.10 ],
+            "to": [ 16, 16.0, 0.20 ],
+            "faces": {
+                "south": { "uv": [ 0.0, 0.0, 16.0, 16.0 ], "texture": "#details", "rotation": 180 }
+            }
+        }
+    ]
+}

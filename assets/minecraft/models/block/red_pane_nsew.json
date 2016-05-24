@@ -1,0 +1,7 @@
+{
+    "parent": "block/pane_nsew",
+    "textures": {
+        "edge": "blocks/iron_bars_3",
+        "pane": "blocks/iron_bars_3"
+    }
+}
