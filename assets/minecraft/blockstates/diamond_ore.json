@@ -1,0 +1,11 @@
+{
+    "variants": {
+        "normal": [
+        { "model": "mithril_ore/1" },
+        { "model": "mithril_ore/2" },
+        { "model": "mithril_ore/3" },
+        { "model": "mithril_ore/4" },
+        { "model": "mithril_ore/5" }
+        ]
+    }
+}

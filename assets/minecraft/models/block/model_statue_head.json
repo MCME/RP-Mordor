@@ -1,0 +1,143 @@
+{
+    "ambientocclusion": false,
+    "elements": [
+        {
+            "from": [ 2.99, 6.89, -2.46 ],
+            "to": [ 5.29, 13.79, 5.77 ],
+            "faces": {
+                "west": { "uv": [ 0.0, 8.0, 6.0, 15.0 ], "texture": "#statue_details", "rotation": 0 },
+                "north": { "uv": [ 3.0, 1.0, 6.0, 6.0 ], "texture": "#statue_details", "rotation": 180 },
+                "east": { "uv": [ 0.0, 8.0, 6.0, 15.0 ], "texture": "#statue_details", "rotation": 180 },
+                "south": { "uv": [ 3.0, 1.0, 6.0, 6.0 ], "texture": "#statue_details", "rotation": 180 },
+                "down": { "uv": [ 2.0, 2.0, 7.0, 5.0 ], "texture": "#statue_details", "rotation": 90 },
+                "up": { "uv": [ 2.0, 2.0, 7.0, 5.0 ], "texture": "#statue_details", "rotation": 270 }
+            }
+        },
+        {
+            "from": [ 12.05, 7.57, -1.3 ],
+            "to": [ 13.83, 12.88, 5.03 ],
+            "faces": {
+                "west": { "uv": [ 0.0, 8.0, 6.0, 15.0 ], "texture": "#statue_details", "rotation": 180 },
+                "north": { "uv": [ 3.0, 1.0, 6.0, 6.0 ], "texture": "#statue_details", "rotation": 180 },
+                "east": { "uv": [ 0.0, 8.0, 6.0, 15.0 ], "texture": "#statue_details", "rotation": 180 },
+                "south": { "uv": [ 3.0, 1.0, 6.0, 6.0 ], "texture": "#statue_details", "rotation": 180 },
+                "down": { "uv": [ 2.0, 2.0, 7.0, 5.0 ], "texture": "#statue_details", "rotation": 90 },
+                "up": { "uv": [ 2.0, 2.0, 7.0, 5.0 ], "texture": "#statue_details", "rotation": 270 }
+            }
+        },
+        {
+            "from": [ 4.14, 14.49, -2.83 ],
+            "to": [ 5.91, 15.82, 3.61 ],
+            "faces": {
+                "west": { "uv": [ 2.0, 2.0, 14.0, 5.0 ], "texture": "#statue_details", "rotation": 180 },
+                "north": { "uv": [ 6.0, 8.0, 10.0, 12.0 ], "texture": "#statue_details", "rotation": 180 },
+                "east": { "uv": [ 2.0, 2.0, 14.0, 5.0 ], "texture": "#statue_details", "rotation": 180 },
+                "south": { "uv": [ 6.0, 8.0, 10.0, 12.0 ], "texture": "#statue_details", "rotation": 180 },
+                "down": { "uv": [ 2.0, 2.0, 14.0, 5.0 ], "texture": "#statue_details", "rotation": 90 },
+                "up": { "uv": [ 2.0, 2.0, 14.0, 5.0 ], "texture": "#statue_details", "rotation": 270 }
+            }
+        },
+        {
+            "from": [ 10.18, 14.49, -2.83 ],
+            "to": [ 11.96, 15.82, 3.61 ],
+            "faces": {
+                "west": { "uv": [ 2.0, 2.0, 14.0, 5.0 ], "texture": "#statue_details", "rotation": 180 },
+                "north": { "uv": [ 6.0, 8.0, 10.0, 12.0 ], "texture": "#statue_details", "rotation": 180 },
+                "east": { "uv": [ 2.0, 2.0, 14.0, 5.0 ], "texture": "#statue_details", "rotation": 180 },
+                "south": { "uv": [ 6.0, 8.0, 10.0, 12.0 ], "texture": "#statue_details", "rotation": 180 },
+                "down": { "uv": [ 2.0, 2.0, 14.0, 5.0 ], "texture": "#statue_details", "rotation": 90 },
+                "up": { "uv": [ 2.0, 2.0, 14.0, 5.0 ], "texture": "#statue_details", "rotation": 270 }
+            }
+        },
+        {
+            "from": [ 0.0, 0.01, 0.0 ],
+            "to": [ 16.0, 16.01, 16.0 ],
+            "faces": {
+                "west": { "uv": [ 0.0, 0.0, 16.0, 16.0 ], "texture": "#statue_body", "rotation": 180 },
+                "north": { "uv": [ 0.0, 0.0, 16.0, 16.0 ], "texture": "#statue_body", "rotation": 180 },
+                "east": { "uv": [ 0.0, 0.0, 16.0, 16.0 ], "texture": "#statue_body", "rotation": 180 },
+                "south": { "uv": [ 0.0, 0.0, 16.0, 16.0 ], "texture": "#statue_body", "rotation": 180 },
+                "down": { "uv": [ 0.0, 0.0, 16.0, 16.0 ], "texture": "#statue_body", "rotation": 90 },
+                "up": { "uv": [ 0.0, 0.0, 16.0, 16.0 ], "texture": "#statue_body", "rotation": 270 }
+            }
+        },
+        {
+            "from": [ 4.62, 0.04, -2.98 ],
+            "to": [ 11.38, 8.8, 0.5 ],
+            "faces": {
+                "west": { "uv": [ 6.0, 0.0, 10.0, 16.0 ], "texture": "#statue_body", "rotation": 180 },
+                "north": { "uv": [ 2.0, 1.0, 15.0, 15.0 ], "texture": "#statue_beard", "rotation": 180 },
+                "east": { "uv": [ 6.0, 0.0, 10.0, 16.0 ], "texture": "#statue_body", "rotation": 180 },
+                "south": { "uv": [ 2.0, 1.0, 15.0, 15.0 ], "texture": "#statue_beard", "rotation": 180 },
+                "down": { "uv": [ 3.0, 0.0, 13.0, 16.0 ], "texture": "#statue_body", "rotation": 90 },
+                "up": { "uv": [ 3.0, 0.0, 13.0, 16.0 ], "texture": "#statue_body", "rotation": 270 }
+            }
+        },
+        {
+            "from": [ 2.35, 7.68, -0.88 ],
+            "to": [ 4.12, 12.99, 5.45 ],
+            "faces": {
+                "west": { "uv": [ 0.0, 8.0, 6.0, 15.0 ], "texture": "#statue_details", "rotation": 0 },
+                "north": { "uv": [ 3.0, 1.0, 6.0, 6.0 ], "texture": "#statue_details", "rotation": 180 },
+                "east": { "uv": [ 0.0, 8.0, 6.0, 15.0 ], "texture": "#statue_details", "rotation": 180 },
+                "south": { "uv": [ 3.0, 1.0, 6.0, 6.0 ], "texture": "#statue_details", "rotation": 180 },
+                "down": { "uv": [ 2.0, 2.0, 7.0, 5.0 ], "texture": "#statue_details", "rotation": 90 },
+                "up": { "uv": [ 2.0, 2.0, 7.0, 5.0 ], "texture": "#statue_details", "rotation": 270 }
+            }
+        },
+        {
+            "from": [ 10.91, 6.67, -1.9 ],
+            "to": [ 13.09, 13.78, 4.43 ],
+            "faces": {
+                "west": { "uv": [ 0.0, 8.0, 6.0, 15.0 ], "texture": "#statue_details", "rotation": 180 },
+                "north": { "uv": [ 3.0, 1.0, 6.0, 6.0 ], "texture": "#statue_details", "rotation": 180 },
+                "east": { "uv": [ 0.0, 8.0, 6.0, 15.0 ], "texture": "#statue_details", "rotation": 180 },
+                "south": { "uv": [ 3.0, 1.0, 6.0, 6.0 ], "texture": "#statue_details", "rotation": 180 },
+                "down": { "uv": [ 2.0, 2.0, 7.0, 5.0 ], "texture": "#statue_details", "rotation": 90 },
+                "up": { "uv": [ 2.0, 2.0, 7.0, 5.0 ], "texture": "#statue_details", "rotation": 270 }
+            }
+        },
+        {
+            "from": [ 7.11, 14.49, -2.83 ],
+            "to": [ 8.89, 15.82, 3.61 ],
+            "faces": {
+                "west": { "uv": [ 2.0, 2.0, 14.0, 5.0 ], "texture": "#statue_details", "rotation": 180 },
+                "north": { "uv": [ 6.0, 8.0, 10.0, 12.0 ], "texture": "#statue_details", "rotation": 180 },
+                "east": { "uv": [ 2.0, 2.0, 14.0, 5.0 ], "texture": "#statue_details", "rotation": 180 },
+                "south": { "uv": [ 6.0, 8.0, 10.0, 12.0 ], "texture": "#statue_details", "rotation": 180 },
+                "down": { "uv": [ 2.0, 2.0, 14.0, 5.0 ], "texture": "#statue_details", "rotation": 90 },
+                "up": { "uv": [ 2.0, 2.0, 14.0, 5.0 ], "texture": "#statue_details", "rotation": 270 }
+            }
+        },
+        {
+            "from": [ 3.56, 11.83, -3.04 ],
+            "to": [ 12.44, 14.49, 5.83 ],
+            "faces": {
+                "west": { "uv": [ 6.0, 12.0, 16.0, 16.0 ], "texture": "#statue_details", "rotation": 180 },
+                "north": { "uv": [ 6.0, 12.0, 16.0, 16.0 ], "texture": "#statue_details", "rotation": 180 },
+                "east": { "uv": [ 6.0, 12.0, 16.0, 16.0 ], "texture": "#statue_details", "rotation": 180 },
+                "south": { "uv": [ 6.0, 12.0, 16.0, 16.0 ], "texture": "#statue_details", "rotation": 180 },
+                "down": { "uv": [ 3.0, 5.0, 16.0, 16.0 ], "texture": "#statue_body", "rotation": 90 },
+                "up": { "uv": [ 3.0, 5.0, 16.0, 16.0 ], "texture": "#statue_body", "rotation": 270 }
+            }
+        },
+        {
+            "from": [ 3.97, 5.63, -2.64 ],
+            "to": [ 12.03, 13.69, 5.42 ],
+            "faces": {
+                "west": { "uv": [ 0.0, 0.0, 16.0, 16.0 ], "texture": "#statue_body", "rotation": 180 },
+                "north": { "uv": [ 0.0, 0.0, 16.0, 13.0 ], "texture": "#statue_face", "rotation": 0 },
+                "east": { "uv": [ 0.0, 0.0, 16.0, 16.0 ], "texture": "#statue_body", "rotation": 180 },
+                "south": { "uv": [ 0.0, 0.0, 16.0, 13.0 ], "texture": "#statue_face", "rotation": 0 },
+                "down": { "uv": [ 0.0, 0.0, 16.0, 16.0 ], "texture": "#statue_body", "rotation": 90 },
+                "up": { "uv": [ 0.0, 0.0, 16.0, 16.0 ], "texture": "#statue_body", "rotation": 270 }
+            }
+        }
+    ],
+    "textures": {
+        "statue_details": "blocks/models/statue_details",
+        "statue_body": "blocks/stonebrick",
+        "statue_beard": "blocks/models/statue_beard",
+        "statue_face": "blocks/models/statue_face",        "particle": "blocks/models/statue_details"
+    }
+}
