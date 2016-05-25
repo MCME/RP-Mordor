@@ -1,0 +1,7 @@
+{
+    "parent": "block/pane_ns",
+    "textures": {
+        "edge": "blocks/models/col_deco6_top",
+        "pane": "blocks/models/col_deco6"
+    }
+}

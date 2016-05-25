@@ -1,0 +1,44 @@
+{
+    "ambientocclusion": false,
+    "textures": {
+        "particle": "#stone"
+    },
+    "elements": [
+        {
+            "from": [ 6.39, 22.32, 6.32 ],
+            "to": [ 9.75, 31.99, 9.68 ],
+            "faces": {
+                "west": { "uv": [ 5.0, 0.0, 11.0, 16.0 ], "texture": "#stone", "rotation": 180 },
+                "north": { "uv": [ 5.0, 0.0, 11.0, 16.0 ], "texture": "#stone", "rotation": 180 },
+                "east": { "uv": [ 5.0, 0.0, 11.0, 16.0 ], "texture": "#stone", "rotation": 180 },
+                "south": { "uv": [ 5.0, 0.0, 11.0, 16.0 ], "texture": "#stone", "rotation": 180 },
+                "down": { "uv": [ 0.0, 0.0, 16.0, 16.0 ], "texture": "#stone", "rotation": 90 },
+                "up": { "uv": [ 0.0, 0.0, 16.0, 16.0 ], "texture": "#stone", "rotation": 270 }
+            }
+        },
+        {
+            "from": [ 4.64, 12.75, 4.64 ],
+            "to": [ 11.36, 22.35, 11.36 ],
+            "faces": {
+                "west": { "uv": [ 3.0, 0.0, 13.0, 16.0 ], "texture": "#stone", "rotation": 180 },
+                "north": { "uv": [ 3.0, 0.0, 13.0, 16.0 ], "texture": "#stone", "rotation": 180 },
+                "east": { "uv": [ 3.0, 0.0, 13.0, 16.0 ], "texture": "#stone", "rotation": 180 },
+                "south": { "uv": [ 3.0, 0.0, 13.0, 16.0 ], "texture": "#stone", "rotation": 180 },
+                "down": { "uv": [ 0.0, 0.0, 16.0, 16.0 ], "texture": "#stone", "rotation": 90 },
+                "up": { "uv": [ 0.0, 0.0, 16.0, 16.0 ], "texture": "#stone", "rotation": 270 }
+            }
+        },
+        {
+            "from": [ 3.2, 0.02, 3.2 ],
+            "to": [ 12.8, 12.76, 12.8 ],
+            "faces": {
+                "west": { "uv": [ 0.0, 0.0, 16.0, 16.0 ], "texture": "#stone", "rotation": 180 },
+                "north": { "uv": [ 0.0, 0.0, 16.0, 16.0 ], "texture": "#stone", "rotation": 180 },
+                "east": { "uv": [ 0.0, 0.0, 16.0, 16.0 ], "texture": "#stone", "rotation": 180 },
+                "south": { "uv": [ 0.0, 0.0, 16.0, 16.0 ], "texture": "#stone", "rotation": 180 },
+                "down": { "uv": [ 0.0, 0.0, 16.0, 16.0 ], "texture": "#stone", "rotation": 90 },
+                "up": { "uv": [ 0.0, 0.0, 16.0, 16.0 ], "texture": "#stone", "rotation": 270 }
+            }
+        }
+    ]
+}
