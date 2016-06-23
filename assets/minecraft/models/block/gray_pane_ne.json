@@ -1,0 +1,8 @@
+{    "parent": "block/diagonal",
+    "textures": {
+        "bottom": "blocks/models/col_deco1_vert",
+        "invisible": "blocks/models/invisible",
+        "side": "blocks/models/col_deco1_side",
+        "particle":"blocks/models/col_deco1_vert"
+    }
+}

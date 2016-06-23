@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=north": { "model": "model_statue_head" },
+        "facing=south": { "model": "model_statue_head", "y": 180 },
+        "facing=west":  { "model": "model_statue_head", "y": 270 },
+        "facing=east":  { "model": "model_statue_head", "y": 90 }
+    }
+}

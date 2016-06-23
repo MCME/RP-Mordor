@@ -1,0 +1,11 @@
+{
+    "variants": {
+        "normal": [
+        { "model": "gems/1" },
+        { "model": "gems/2" },
+        { "model": "gems/3" },
+        { "model": "gems/4" },
+        { "model": "gems/5" }
+        ]
+    }
+}
