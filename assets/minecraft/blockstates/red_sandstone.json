@@ -1,5 +1,14 @@
 {
-    "variants": {
-        "normal": { "model": "red_sandstone_normal" }
+    "variants": 
+    {
+        "normal":
+		[
+			{ "model": "red_sandstone_normal/red_sandstone_normal1" },
+			{ "model": "red_sandstone_normal/red_sandstone_normal2" },
+			{ "model": "red_sandstone_normal/red_sandstone_normal3" },
+			{ "model": "red_sandstone_normal/red_sandstone_normal4" },
+			{ "model": "red_sandstone_normal/red_sandstone_normal5" },
+			{ "model": "red_sandstone_normal/red_sandstone_normal6" }
+		]
     }
 }
