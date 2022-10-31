@@ -1,9 +1,9 @@
 {
   "pack": {
-    "pack_format": 8,
-    "description": "MCME MORDOR 2.0 SNAPSHOT 01"
+    "pack_format": 6,
+    "description": "MCME Gondor 3.0 SNAPSHOT Mordor"
   },
   "meta": {
-    "game_version": "1.18"
+    "game_version": "1.16"
   }
 }
