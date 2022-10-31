@@ -1,5 +1,11 @@
 {
     "variants": {
-        "normal": { "model": "mossy_cobblestone" }
+        "": [
+		{ "model": "block/mossy_cobblestone" },
+		{ "model": "block/mossy_cobblestone_2" },
+		{ "model": "block/mossy_cobblestone_3" },
+		{ "model": "block/mossy_cobblestone_4" },
+		{ "model": "block/mossy_cobblestone_5" }
+		]
     }
 }

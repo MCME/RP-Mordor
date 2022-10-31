@@ -1,11 +1,10 @@
 {
     "variants": {
-        "normal": [
-        { "model": "mithril_ore/1" },
-        { "model": "mithril_ore/2" },
-        { "model": "mithril_ore/3" },
-        { "model": "mithril_ore/4" },
-        { "model": "mithril_ore/5" }
+        "": [
+            { "model": "block/diamond_ore" },
+            { "model": "block/diamond_ore", "y": 90 },
+            { "model": "block/diamond_ore", "y": 180 },
+            { "model": "block/diamond_ore", "y": 270 }
         ]
     }
 }

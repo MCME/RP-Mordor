@@ -1,7 +1,0 @@
-{
-    "parent": "block/pane_nse",
-    "textures": {
-        "edge": "blocks/iron_bars_1",
-        "pane": "blocks/iron_bars_1"
-    }
-}

@@ -1,9 +1,13 @@
 {
-    "variants": {
-        "facing=down": { "model": "hopper_down" },
-        "facing=north": { "model": "hopper_side" },
-        "facing=south": { "model": "hopper_side", "y": 180 },
-        "facing=west": { "model": "hopper_side", "y": 270 },
-        "facing=east": { "model": "hopper_side", "y": 90 }
+  "variants": {
+    "enabled=true,facing=down": {
+      "model": "minecraft:block/hopper_light_gray_large_doric"
+    },
+	"enabled=true,facing=north": {
+      "model": "minecraft:block/hopper_light_gray_ionic"
+    },
+	"enabled=true,facing=east": {
+      "model": "minecraft:block/hopper_light_gray_ionic", "y": 90
     }
+  }
 }
