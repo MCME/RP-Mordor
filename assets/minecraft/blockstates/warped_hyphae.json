@@ -1,7 +1,13 @@
 {
     "variants": {
-        "":[
+  "axis=y": [
 		{ "model": "block/warped_hyphae" }
-		]
+  ],
+          "axis=z": [
+		{ "model": "block/warped_hyphae", "x": 90 }
+	],
+	        "axis=x": [    
+		{ "model": "block/warped_hyphae", "x": 90, "y": 90 }
+			]
 	}
 }

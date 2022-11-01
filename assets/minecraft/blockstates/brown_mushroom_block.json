@@ -181,6 +181,10 @@
       "apply": {
       "model": "block/stucco_red"
     }},
+	    { "when": {"north": true, "west": true, "south": true, "east": false, "up": true, "down": false },
+      "apply": {
+      "model": "block/brown_mushroom_block_nswu"
+    }},
     { "when": {"north": true, "west": true, "south": true, "east": false, "up": false, "down": false },
       "apply": {
       "model": "block/large_small_sandstone_combo", "y": 90
@@ -519,13 +523,6 @@
       "apply": {
       "model": "block/red_mushroom_block_seu"
     }},
-{ "when": {"north": true, "west": true, "south": true, "east": false, "up": true, "down": false },
-      "apply": {
-      "model": "block/red_mushroom_block_seu",
-      "x": 90,
-      "y": 90
-    }},
-
 	{"when":{"down":false,"east":true,"north":true,"south":true,"up":false,"west":false},
 	  "apply":{"model":"block/red_mushroom_block_nwd", "x": 90 }
 	},

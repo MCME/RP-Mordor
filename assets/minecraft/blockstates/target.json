@@ -54,7 +54,11 @@
 			{ "model": "minecraft:block/target_block_power7" },
 			{ "model": "minecraft:block/target_block_power7_2" },
 			{ "model": "minecraft:block/target_block_power7_3" },
-			{ "model": "minecraft:block/target_block_power7_4" }
+			{ "model": "minecraft:block/target_block_power7_4" },
+			{ "model": "minecraft:block/target_block_power7_5" },
+			{ "model": "minecraft:block/target_block_power7_6" },
+			{ "model": "minecraft:block/target_block_power7_7" },
+			{ "model": "minecraft:block/target_block_power7_8" }
 			],
 	"power=8": [
 			{ "model": "minecraft:block/target_block_power7", "y": 90 },

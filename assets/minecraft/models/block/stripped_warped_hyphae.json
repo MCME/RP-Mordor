@@ -1,6 +1,7 @@
 {
-  "parent": "block/cube_all",
+  "parent": "block/cube_column",
   "textures": {
-    "all": "block/stripped_warped_hyphae"
+    "end": "block/stripped_warped_hyphae_end",
+	"side": "block/stripped_warped_hyphae"
   }
 }

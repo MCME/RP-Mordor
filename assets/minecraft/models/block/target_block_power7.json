@@ -1,7 +1,6 @@
 {
-    "parent": "block/stacked_logs_parent",
+    "parent": "block/cube_all",
     "textures": {
-        "end": "block/target_block_power7_side",
-		"side": "block/target_block_power7"
+        "all": "block/target_block_power7"
     }
 }

@@ -1,6 +1,7 @@
 {
-  "parent": "block/cube_all",
+  "parent": "block/cube_column",
   "textures": {
-    "all": "block/brown_mushroom_block_neu_2"
+	"end": "block/brown_mushroom_block_newd_2",
+    "side": "block/brown_mushroom_block_neu_2"
   }
 }
