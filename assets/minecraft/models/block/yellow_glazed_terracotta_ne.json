@@ -1,12 +1,12 @@
 {
   "parent": "block/cube",
   "textures": {
-    "particle": "block/stucco_pink",
-    "down": "block/stucco_pink",
-    "up": "block/sandstone",
-    "north": "block/glazed_terracotta_yellow_ne_ns",
-    "east": "block/glazed_terracotta_yellow_ne_we",
-    "south": "block/glazed_terracotta_yellow_ne_ns",
-    "west": "block/glazed_terracotta_yellow_ne_we"
+    "particle": "block/quartz_bricks",
+    "down": "block/quartz_bricks",
+    "up": "block/yellow_glazed_terracotta_top",
+    "north": "block/yellow_glazed_terracotta_side",
+    "east": "block/quartz_bricks",
+    "south": "block/yellow_glazed_terracotta_side",
+    "west": "block/quartz_bricks"
   }
 }

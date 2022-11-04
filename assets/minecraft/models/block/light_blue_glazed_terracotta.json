@@ -1,12 +1,12 @@
 {
   "parent": "block/cube",
   "textures": {
-    "particle": "block/stucco_lime",
-    "down": "block/stucco_lime",
-    "up": "block/stucco_lime",
-    "north": "block/stucco_lime",
-    "east": "block/glazed_terracotta_light_blue_side_1",
-    "south": "block/red_sandstone",
-    "west": "block/glazed_terracotta_light_blue_side_2"
+    "particle": "block/quartz_bricks",
+    "down": "block/quartz_bricks_4",
+    "up": "block/light_blue_glazed_terracotta",
+    "north": "block/light_blue_glazed_terracotta_alt",
+    "east": "block/light_blue_glazed_terracotta",
+    "south": "block/quartz_bricks_4",
+    "west": "block/quartz_bricks_4"
   }
 }
