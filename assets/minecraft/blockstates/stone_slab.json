@@ -1,6 +1,18 @@
 {
     "variants": {
-        "half=bottom": { "model": "half_slab_stone" },
-        "half=top": { "model": "upper_slab_stone" }
+        "type=bottom": [
+			{ "model": "block/stone_slab" },
+			{ "model": "block/stone_slab_2" },
+			{ "model": "block/stone_slab_3" },
+			{ "model": "block/stone_slab_4" },
+			{ "model": "block/stone_slab_5" }
+			],
+        "type=top": [
+			{ "model": "block/stone_slab", "x": 180 },
+			{ "model": "block/stone_slab_2", "x": 180 },
+			{ "model": "block/stone_slab_3", "x": 180 },
+			{ "model": "block/stone_slab_4", "x": 180 },
+			{ "model": "block/stone_slab_5", "x": 180 }
+			]
     }
 }

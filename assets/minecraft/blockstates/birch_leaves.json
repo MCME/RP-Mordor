@@ -1,5 +1,17 @@
 {
     "variants": {
-        "normal": { "model": "birch_leaves" }
+        "distance=1,persistent=false": { "model": "block/birch_leaves_pillar_thick" },
+		"distance=2,persistent=false": { "model": "block/upwards_spike_large_south" },
+		"distance=3,persistent=false": { "model": "block/upwards_spike_large_east" },
+		"distance=4,persistent=false": { "model": "block/upwards_spike_large_west" },
+		"distance=5,persistent=false": { "model": "block/upwards_spike_small_north" },
+		"distance=6,persistent=false": { "model": "block/upwards_spike_small_south" },
+		"distance=7,persistent=false": { "model": "block/upwards_spike_large_north" },
+		"distance=6,persistent=true": {"model": "block/birch_leaves_pillar_thick_bottom" },
+		"distance=7,persistent=true": { "model": "block/upwards_spike_small_west" },
+		"distance=2,persistent=true": { "model": "itemblock/barrel_water_full_item" },
+		"distance=3,persistent=true": { "model": "itemblock/barrel_water_half_item" },
+		"distance=4,persistent=true": { "model": "block/upwards_spike_small_east" },
+		"distance=5,persistent=true": { "model": "block/upwards_spike_xl" }
     }
 }

@@ -1,22 +1,21 @@
 {
     "variants": {
-        "half=bottom": 
-		[
-			{ "model": "half_slab_red_sandstone/half_slab_red_sandstone1" },
-			{ "model": "half_slab_red_sandstone/half_slab_red_sandstone2" },
-			{ "model": "half_slab_red_sandstone/half_slab_red_sandstone3" },
-			{ "model": "half_slab_red_sandstone/half_slab_red_sandstone4" },
-			{ "model": "half_slab_red_sandstone/half_slab_red_sandstone5" },
-			{ "model": "half_slab_red_sandstone/half_slab_red_sandstone6" }
-		],
-        "half=top": 
-		[
-			{ "model": "upper_slab_red_sandstone/upper_slab_red_sandstone1" },
-			{ "model": "upper_slab_red_sandstone/upper_slab_red_sandstone2" },
-			{ "model": "upper_slab_red_sandstone/upper_slab_red_sandstone3" },
-			{ "model": "upper_slab_red_sandstone/upper_slab_red_sandstone4" },
-			{ "model": "upper_slab_red_sandstone/upper_slab_red_sandstone5" },
-			{ "model": "upper_slab_red_sandstone/upper_slab_red_sandstone6" }
-		]
+        "type=bottom": { "model": "block/red_sandstone_slab" },
+        "type=top": { "model": "block/red_sandstone_slab_top" },
+        "type=double": [
+            { "model": "block/double_slab_red_sandstone" },
+            { "model": "block/double_slab_red_sandstone_1" },
+            { "model": "block/double_slab_red_sandstone_2" },
+            { "model": "block/double_slab_red_sandstone_3" },
+            { "model": "block/double_slab_red_sandstone_4" },
+            { "model": "block/double_slab_red_sandstone_5" },
+            { "model": "block/double_slab_red_sandstone_6" },
+			{ "model": "block/double_slab_red_sandstone_7" },
+            { "model": "block/double_slab_red_sandstone_8" },
+            { "model": "block/double_slab_red_sandstone_9" },
+            { "model": "block/double_slab_red_sandstone_10" },
+            { "model": "block/double_slab_red_sandstone_11" },
+            { "model": "block/double_slab_red_sandstone_12" }
+        ]
     }
 }

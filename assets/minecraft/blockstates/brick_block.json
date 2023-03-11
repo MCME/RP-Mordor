@@ -1,8 +1,0 @@
-{
-    "variants": {
-        "normal": [
-        { "model": "brick", "weight":10 },
-        { "model": "brick_cracked" }
-        ]
-    }
-}

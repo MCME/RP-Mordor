@@ -1,8 +1,0 @@
-{
-    "parent": "block/bookshelf/pillar",
-    "textures": {
-        "normal": "blocks/bookshelf/normal",
-        "side": "blocks/bookshelf/12",
-        "particle":"blocks/bookshelf/normal"
-    }
-}

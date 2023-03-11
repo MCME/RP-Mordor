@@ -1,6 +1,10 @@
 {
     "variants": {
-        "normal": { "model": "quartz_chiseled" }
-    }
+        "":[
+		{ "model": "block/chiseled_quartz_block" },
+		{ "model": "block/chiseled_quartz_block_2" },
+		{ "model": "block/chiseled_quartz_block_3" },
+		{ "model": "block/chiseled_quartz_block_4" }
+		]
+	}
 }
-
