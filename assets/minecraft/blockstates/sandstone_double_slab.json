@@ -1,6 +1,10 @@
 {
-    "variants": {
-        "normal": { "model": "sandstone_normal" },
-        "all":    { "model": "sandstone_all" }
+  "variants": {
+    "all": {
+      "model": "block/smooth_sandstone"
+    },
+    "": {
+      "model": "block/double_slab_sandstone"
     }
+  }
 }

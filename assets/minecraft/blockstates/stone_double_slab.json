@@ -1,6 +1,10 @@
 {
-    "variants": {
-        "normal": { "model": "double_stone" },
-        "all":    { "model": "double_stone_top" }
+  "variants": {
+    "all": {
+      "model": "block/smooth_stone"
+    },
+    "": {
+      "model": "block/double_slab_stone"
     }
+  }
 }
