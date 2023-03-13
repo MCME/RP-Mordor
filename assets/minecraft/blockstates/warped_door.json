@@ -523,7 +523,7 @@
         "powered": "true"
       },
       "apply": {
-        "model": "block/warped_door_top_rh_powered"
+        "model": "block/unused_block_0"
       }
     },
     {
@@ -535,7 +535,7 @@
         "powered": "true"
       },
       "apply": {
-        "model": "block/warped_door_top_rh_powered",
+        "model": "block/unused_block_0",
         "y": 90
       }
     },
@@ -548,7 +548,7 @@
         "powered": "true"
       },
       "apply": {
-        "model": "block/warped_door_top_rh_powered",
+        "model": "block/unused_block_0",
         "y": 180
       }
     },
@@ -561,7 +561,7 @@
         "powered": "true"
       },
       "apply": {
-        "model": "block/warped_door_top_rh_powered",
+        "model": "block/unused_block_0",
         "y": 270
       }
     },
@@ -630,7 +630,7 @@
         "powered": "true"
       },
       "apply": {
-        "model": "block/warped_door_top_powered",
+        "model": "block/unused_block_0",
         "y": 270
       }
     },
@@ -643,7 +643,7 @@
         "powered": "true"
       },
       "apply": {
-        "model": "block/warped_door_top_powered"
+        "model": "block/unused_block_0"
       }
     },
     {
@@ -655,7 +655,7 @@
         "powered": "true"
       },
       "apply": {
-        "model": "block/warped_door_top_powered",
+        "model": "block/unused_block_0",
         "y": 90
       }
     },
@@ -668,7 +668,7 @@
         "powered": "true"
       },
       "apply": {
-        "model": "block/warped_door_top_powered",
+        "model": "block/unused_block_0",
         "y": 180
       }
     }

@@ -42,7 +42,7 @@
         "weight": 1
       },
       {
-        "model": "block/brown_mushroom_block_nw_1",
+        "model": "block/unused_block_0",
         "weight": 1
       },
       {
@@ -66,11 +66,11 @@
         "weight": 1
       },
       {
-        "model": "block/brown_mushroom_block_nw_7",
+        "model": "block/unused_block_0",
         "weight": 1
       },
       {
-        "model": "block/brown_mushroom_block_nw_8",
+        "model": "block/unused_block_0",
         "weight": 1
       }
     ]
