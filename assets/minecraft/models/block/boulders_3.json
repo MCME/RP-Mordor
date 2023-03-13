@@ -2,14 +2,14 @@
 	"credit": "Made with Blockbench",
 	"ambientocclusion": false,
 	"textures": {
-		"particle": "texture",
-		"stone": "texture",
-		"stone_1": "texture",
-		"stone_2": "texture",
-		"stone_3": "texture",
-		"stone_4": "texture",
-		"stone_5": "texture",
-		"base": "texture"
+		"particle": "block/unusedb00",
+		"stone": "block/unusedb00",
+		"stone_1": "block/unusedb00",
+		"stone_2": "block/unusedb00",
+		"stone_3": "block/unusedb00",
+		"stone_4": "block/unusedb00",
+		"stone_5": "block/unusedb00",
+		"base": "block/unusedb00"
 	},
 	"elements": [
 		{
