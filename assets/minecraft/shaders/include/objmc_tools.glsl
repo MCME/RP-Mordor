@@ -36,6 +36,14 @@ ivec2 getvert(ivec2 topleft, int w, int h, int index) {
     );
 }
 
+ivec2 huv(int id) {
+  if (id < 1056)
+    return ivec2((32 + id % 32), (id/32));
+  else
+    id -= 1056;
+    return ivec2((id % 64), 33 + int(id/64));
+}
+
 bool getb(int i, int b) {
     return bool((i>>b)&1);
 }
@@ -58,11 +66,11 @@ mat3 rotate(vec3 angles) {
 
 //gui item model detection from Onnowhere
 bool isgui(mat4 ProjMat) {
-    return ProjMat[3][2] == -2.0;
+    return ProjMat[2][3] == 0.0;
 }
 //first person hand item model detection from esben
-bool ishand(float FogStart) {
-    return FogStart*0.000001 > 1;
+bool ishand(float FogStart, mat4 ProjMat) {
+    return (FogStart > 3e38) && (ProjMat[2][3] != 0);
 }
 
 //hue to rgb

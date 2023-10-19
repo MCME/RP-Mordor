@@ -1,0 +1,24 @@
+{
+  "variants": {
+	"age=1,leaves=none,stage=0": [
+    { "model": "mcme:block/eye_banner_1"},
+	{ "model": "mcme:block/eye_banner_2"},
+	{ "model": "mcme:block/eye_banner_3"}
+	  ],
+	 "age=0,leaves=none,stage=0": [
+      { "model": "mcme:block/eye_banner_1_4"},
+	{ "model": "mcme:block/eye_banner_2_4"},
+	{ "model": "mcme:block/eye_banner_3_4"}
+	  ],
+	 "age=0,leaves=small,stage=0": [
+      { "model": "mcme:block/eye_banner_1_2" },
+	  { "model": "mcme:block/eye_banner_2_2" },
+	  { "model": "mcme:block/eye_banner_3_2" }
+	  ],
+	 "age=0,leaves=large,stage=0": [
+      { "model": "mcme:block/eye_banner_1_3" },
+	  { "model": "mcme:block/eye_banner_2_3" },
+	  { "model": "mcme:block/eye_banner_3_3" }
+	  ]
+ }
+}

@@ -27,7 +27,6 @@ out vec4 vertexColor;
 out vec4 lightColor;
 out vec4 overlayColor;
 out vec2 texCoord;
-out vec2 texCoord2;
 out vec3 Pos;
 out float transition;
 
@@ -48,7 +47,8 @@ void main() {
 
     //objmc
     #define ENTITY
-    #moj_import <objmc_main.glsl>
+    #define HEAD
+    #moj_import<objmc_head.glsl>
 
     gl_Position = ProjMat * ModelViewMat * vec4(Pos, 1.0);
     vertexDistance = fog_distance(ModelViewMat, IViewRotMat * Pos, FogShape);
