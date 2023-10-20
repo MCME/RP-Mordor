@@ -1,0 +1,7 @@
+{
+  "parent": "mcme:block/blank_parent",
+  "textures": {
+    "0": "mcme:block/blank",
+	"particle": "mcme:block/blank"
+  }
+}

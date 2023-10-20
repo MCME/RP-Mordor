@@ -1,0 +1,15 @@
+{
+	"credit": "Made with Blockbench",
+	"elements": [
+		{
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [85, 0, 0]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [85, 0, 0]
+		}
+	}
+}

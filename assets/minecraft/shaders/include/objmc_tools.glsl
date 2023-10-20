@@ -36,6 +36,14 @@ ivec2 getvert(ivec2 topleft, int w, int h, int index) {
     );
 }
 
+ivec2 huv(int id) {
+  if (id < 1056)
+    return ivec2((32 + id % 32), (id/32));
+  else
+    id -= 1056;
+    return ivec2((id % 64), 33 + int(id/64));
+}
+
 bool getb(int i, int b) {
     return bool((i>>b)&1);
 }
@@ -58,11 +66,11 @@ mat3 rotate(vec3 angles) {
 
 //gui item model detection from Onnowhere
 bool isgui(mat4 ProjMat) {
-    return ProjMat[3][2] == -2.0;
+    return ProjMat[2][3] == 0.0;
 }
 //first person hand item model detection from esben
-bool ishand(float FogStart) {
-    return FogStart*0.000001 > 1;
+bool ishand(float FogStart, mat4 ProjMat) {
+    return (FogStart > 3e38) && (ProjMat[2][3] != 0);
 }
 
 //hue to rgb
@@ -80,4 +88,18 @@ vec3 bezb(vec3 a, vec3 b, vec3 c, vec3 d, float t) {
 }
 vec3 bezier(vec3 a, vec3 b, vec3 c, vec3 d, float t) {
     return bezb(b,b+(c-a)/6,c-(d-b)/6,c,t);
+}
+
+#define NCOLOR normalize(vec3(42.0 / 255.0, 42.0 / 255.0, 72.0 / 255.0))
+#define DCOLOR normalize(vec3(1.0))
+
+float getSun(sampler2D lightMap) {
+    vec3 sunlight = normalize(texture(lightMap, vec2(0.5 / 16.0, 15.5 / 16.0)).rgb);
+    return clamp(pow(length(sunlight - NCOLOR) / length(DCOLOR - NCOLOR), 4.0), 0.0, 1.0);
+}
+
+vec4 sample_lightmap(sampler2D lightMap, ivec2 uv) {
+    float sun = 1.0 - uv.y / 256.0 * getSun(lightMap);
+
+    return texture(lightMap, clamp(uv / 256.0, vec2(0.8 / 16.0), vec2(15.5 / 16.0))) * mix(vec4(1.0), vec4(1.2, 0.80, 0.60, 1.0), uv.x / 256.0 * sun); // x is torch, y is sun
 }
