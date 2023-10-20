@@ -1,0 +1,18 @@
+{
+  "parent": "special-model-loader:builtin/obj",
+  "flip_v": true,
+  "model": "mcme:models/block/horn_s.obj",
+  "ambientocclusion": true
+  
+"display": {
+        "firstperson_righthand": {
+            "translation": [3.5, 0, 0],
+            "scale": [0.5, 0.5, 0.5]
+        },
+        "world": {
+            "rotation": [0, 45, 0],
+            "translation": [0, 0, 0],
+            "scale": [0, 0, 0]
+        }
+    }
+}
