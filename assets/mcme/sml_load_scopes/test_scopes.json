@@ -9,6 +9,13 @@
 	"mcme:block/upwards_spike_large",
 	"mcme:block/pointy_spike_small",
 	"mcme:block/pointy_spike_large",
-	"mcme:block/metal_panel"
+	"mcme:block/metal_panel",
+	"mcme:block/eye_banner_1",
+	"mcme:block/eye_banner_2",
+ 	"mcme:block/eye_banner_3",
+ 	"mcme:block/horn_s",
+ 	"mcme:block/horn_s_2",
+ 	"mcme:block/horn_s_r",
+ 	"mcme:block/horn_s_r_2"
   ]
 }
