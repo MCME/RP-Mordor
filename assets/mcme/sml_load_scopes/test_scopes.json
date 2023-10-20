@@ -2,6 +2,9 @@
   "version": 1,
   "entry": [
 	"mcme:block/rusty_metal_diagonal_block",
-	"mcme:block/metal_diagonal_block"
+	"mcme:block/metal_diagonal_block",
+	"mcme:block/eye_banner_1",
+	"mcme:block/eye_banner_2",
+	"mcme:block/eye_banner_3"
   ]
 }
