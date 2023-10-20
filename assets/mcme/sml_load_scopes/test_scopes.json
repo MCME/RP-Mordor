@@ -2,6 +2,13 @@
   "version": 1,
   "entry": [
 	"mcme:block/rusty_metal_diagonal_block",
-	"mcme:block/metal_diagonal_block"
+	"mcme:block/metal_diagonal_block",
+	"mcme:block/horizontal_spike_small",
+	"mcme:block/horizontal_spike_large",
+	"mcme:block/upwards_spike_small",
+	"mcme:block/upwards_spike_large",
+	"mcme:block/pointy_spike_small",
+	"mcme:block/pointy_spike_large",
+	"mcme:block/metal_panel"
   ]
 }
