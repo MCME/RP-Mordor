@@ -42,7 +42,7 @@
     ]},
     { "when": {"north": false, "west": true, "south": true, "east": true, "up": true, "down": true },
       "apply":[
-		{ "model": "block/stucco_white"}
+		{ "model": "block/brown_mushroom_block_eswud"}
 		]
 	},
     { "when": {"north": false, "west": false, "south": false, "east": true, "up": false, "down": false },
@@ -52,58 +52,38 @@
     { "when": {"north": false, "west": true, "south": true, "east": true, "up": false, "down": false },
       "apply": [
       {
-        "model": "block/hardened_clay_magenta",
+        "model": "block/brown_mushroom_block_esw",
         "weight": 1
       },
       {
-        "model": "block/hardened_clay_magenta_1",
-        "weight": 1
-      },
-      {
-        "model": "block/hardened_clay_magenta_2",
-        "weight": 1
-      },
-      {
-        "model": "block/hardened_clay_magenta_3",
-        "weight": 1
-      },
-      {
-        "model": "block/hardened_clay_magenta_4",
-        "weight": 1
-      },
-      {
-        "model": "block/hardened_clay_magenta_5",
+        "model": "block/brown_mushroom_block_esw_2",
         "weight": 1
       }
 	]},
     { "when": {"north": false, "west": false, "south": true, "east": true, "up": true, "down": true },
       "apply": [
       {
-        "model": "block/hardened_clay_light_blue",
+        "model": "block/brown_mushroom_block_esud",
         "weight": 1
       },
       {
-        "model": "block/hardened_clay_light_blue_1",
+        "model": "block/brown_mushroom_block_esud_2",
         "weight": 1
       },
       {
-        "model": "block/hardened_clay_light_blue_2",
+        "model": "block/brown_mushroom_block_esud_3",
         "weight": 1
       },
       {
-        "model": "block/hardened_clay_light_blue_3",
+        "model": "block/brown_mushroom_block_esud_4",
         "weight": 1
       },
       {
-        "model": "block/hardened_clay_light_blue_4",
+        "model": "block/brown_mushroom_block_esud_5",
         "weight": 1
       },
       {
-        "model": "block/hardened_clay_light_blue_5",
-        "weight": 1
-      },
-      {
-        "model": "block/hardened_clay_light_blue_6",
+        "model": "block/brown_mushroom_block_esud_6",
         "weight": 1
       }
 	]},
@@ -318,72 +298,14 @@
     { "when": {"north": true, "west": false, "south": false, "east": false, "up": false, "down": true },
       "apply": [
       {
-        "model": "block/brown_concrete_0",
-        "y": 180
-      },
-      {
-        "model": "block/brown_concrete_1",
-        "y": 180
-      },
-      {
-        "model": "block/brown_concrete_2",
-        "y": 180
-      },
-      {
-        "model": "block/brown_concrete_3",
-        "y": 180
-      },
-      {
-        "model": "block/brown_concrete_4",
-        "y": 180
-      },
-      {
-        "model": "block/brown_concrete_5",
-        "y": 180
-      },
-      {
-        "model": "block/brown_concrete_6",
-        "y": 180
-      },
-      {
-        "model": "block/brown_concrete_7",
-        "y": 180
+        "model": "block/brown_mushroom_block_nd"
       }
     ]},
     { "when": {"north": true, "west": false, "south": false, "east": false, "up": false, "down": false },
       "apply": [
       {
-        "model": "block/brown_concrete_0",
-        "y": 270
-      },
-      {
-        "model": "block/brown_concrete_1",
-        "y": 270
-      },
-      {
-        "model": "block/brown_concrete_2",
-        "y": 270
-      },
-      {
-        "model": "block/brown_concrete_3",
-        "y": 270
-      },
-      {
-        "model": "block/brown_concrete_4",
-        "y": 270
-      },
-      {
-        "model": "block/brown_concrete_5",
-        "y": 270
-      },
-      {
-        "model": "block/brown_concrete_6",
-        "y": 270
-      },
-      {
-        "model": "block/brown_concrete_7",
-        "y": 270
-      }
+        "model": "block/brown_mushroom_block_n"
+		}
     ]},
 	
     { "when": {"north": true, "west": true, "south": false, "east": true, "up": true, "down": false },
@@ -446,8 +368,7 @@
     { "when": {"north": false, "west": true, "south": true, "east": true, "up": false, "down": true },
       "apply": [
       {
-        "model": "block/cyan_concrete_powder_0",
-        "y": 90
+        "model": "block/brown_mushroom_block_eswd"
       }
     ]},
 	
@@ -658,24 +579,6 @@
     { "model": "block/brown_mushroom_block_nesud_2"},
     { "model": "block/brown_mushroom_block_nesud_3"},
     { "model": "block/brown_mushroom_block_nesud_4"}
-		]},
-    { "when": {"north": false, "west": false, "south":true, "east": true, "up":true, "down": true },
-		"apply": [
-		{ "model": "block/brown_mushroom_block_esud"},
-    { "model": "block/brown_mushroom_block_esud_2"},
-    { "model": "block/brown_mushroom_block_esud_3"},
-    { "model": "block/brown_mushroom_block_esud_4"},
-    { "model": "block/brown_mushroom_block_esud_5"},
-    { "model": "block/brown_mushroom_block_esud_6"}
-		]},
-    { "when": {"north": false, "west": true, "south":true, "east": true, "up":false, "down": true },
-		"apply": [
-		{ "model": "block/brown_mushroom_block_eswd"}
-		]},
-    { "when": {"north": false, "west": true, "south":true, "east": true, "up":false, "down": false },
-		"apply": [
-		{ "model": "block/brown_mushroom_block_esw"},
-    { "model": "block/brown_mushroom_block_esw_2"}
 		]}
 	
 	

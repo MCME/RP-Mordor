@@ -22,20 +22,20 @@
     ],
     "facing\u003dnorth": [
       {
-        "model": "block/magenta_glazed_terracotta",
+        "model": "block/magenta_glazed_terracotta_wood",
         "y": 270
       },
       {
-        "model": "block/magenta_glazed_terracotta_1",
+        "model": "block/magenta_glazed_terracotta_wood_1",
         "y": 270
       }
     ],
     "facing\u003deast": [
       {
-        "model": "block/magenta_glazed_terracotta"
+        "model": "block/magenta_glazed_terracotta_wood"
       },
       {
-        "model": "block/magenta_glazed_terracotta_1"
+        "model": "block/magenta_glazed_terracotta_wood_1"
       }
     ]
   }
