@@ -8,6 +8,9 @@
 		"instrument=harp,note=5,powered=false,": { "model":"block/marker_info" },
 		"instrument=harp,note=6,powered=false,": { "model":"block/reinforced_wood_topper" },
 		"instrument=harp,note=7,powered=false,": { "model":"block/reinforced_wood_bottom" },
+		"instrument=harp,note=8,powered=false,": { "model":"mcme:block/spiked_log" },
+		
+		
 		"instrument=basedrum,note=0,powered=false,": [
 			{ "model":"block/note_block_1" },
 			{ "model":"block/note_block_2", "y":-90 },

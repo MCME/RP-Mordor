@@ -22,6 +22,7 @@
 	"mcme:block/tusk_s_r",
 	"mcme:block/tusk_s_r_2",
 	"mcme:block/small_horn",
-	"mcme:block/small_horn_up"
+	"mcme:block/small_horn_up",
+	"mcme:block/spiked_log"
   ]
 }
