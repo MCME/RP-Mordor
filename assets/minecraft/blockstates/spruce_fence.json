@@ -1,0 +1,70 @@
+{
+  "multipart": [
+    {
+      "apply": [
+	  {"model": "block/beam_core_steel", "y":270},
+	  {"model": "block/beam_core_steel_2", "y":270},
+	  {"model": "block/beam_core_steel_3", "y":270}
+	  ],
+      "when": {"north": "false", "east": "false", "south": "false", "west": "true"}
+    },
+	{
+      "apply": [
+	  {"model": "block/beam_core_steel"},
+	  {"model": "block/beam_core_steel_2"},
+	  {"model": "block/beam_core_steel_3"}
+	  ],
+      "when": {"north": "true", "east": "false", "south": "false", "west": "false"}
+    },
+	{
+      "apply": [
+	  {"model": "block/beam_core_steel", "y":90},
+	  {"model": "block/beam_core_steel_2", "y":90},
+	  {"model": "block/beam_core_steel_3", "y":90}
+	  ],
+      "when": {"north": "false", "east": "true", "south": "false", "west": "false"}
+    },
+	{
+      "apply": [
+	  {"model": "block/beam_core_steel", "y":180},
+	  {"model": "block/beam_core_steel_2", "y":180},
+	  {"model": "block/beam_core_steel_3", "y":180}
+	  ],
+      "when": {"north": "false", "east": "false", "south": "true", "west": "false"}
+    },
+	{
+      "apply": [
+	  {"model": "block/beam_core_rusty", "y":270},
+	  {"model": "block/beam_side_rusty_2", "y":270},
+	  {"model": "block/beam_side_rusty_3", "y":270}
+	  ],
+      "when": {"north": "false", "east": "false", "south": "false", "west": "false"}
+    },
+	
+		{
+      "apply": [
+	  {"model": "block/beam_core_rusty"},
+	  {"model": "block/beam_side_rusty_2"},
+	  {"model": "block/beam_side_rusty_3"}
+	  ],
+      "when": {"north": "true", "east": "false", "south": "true", "west": "true"}
+    },
+	
+	{
+      "apply": [
+	  {"model": "block/beam_core_rusty", "y":90},
+	  {"model": "block/beam_side_rusty_2", "y": 90},
+	  {"model": "block/beam_side_rusty_3", "y":90}
+	  ],
+      "when": {"north": "true", "east": "true", "south": "false", "west": "false"}
+    },
+	{
+      "apply": [
+	  {"model": "block/beam_core_rusty", "y":180},
+	  {"model": "block/beam_side_rusty_2", "y":180},
+	  {"model": "block/beam_side_rusty_3", "y":180}
+	  ],
+      "when": {"north": "false", "east": "true", "south": "true", "west": "false"}
+    }
+  ]
+}
