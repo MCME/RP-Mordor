@@ -16,6 +16,10 @@
  	"mcme:block/horn_s",
  	"mcme:block/horn_s_2",
  	"mcme:block/horn_s_r",
- 	"mcme:block/horn_s_r_2"
+ 	"mcme:block/horn_s_r_2",
+	"mcme:block/tusk_s",
+	"mcme:block/tusk_s_2",
+	"mcme:block/tusk_s_r",
+	"mcme:block/tusk_s_r_2"
   ]
 }
