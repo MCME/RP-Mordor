@@ -1,0 +1,103 @@
+{
+  "variants": {
+    "face=ceiling,facing=east,powered=false": {
+      "model": "minecraft:block/reinforced_strip_ceyling_deco"
+    },
+    "face=ceiling,facing=east,powered=true": {
+      "model": "minecraft:block/reinforced_strip_ceyling"
+    },
+    "face=ceiling,facing=north,powered=false": {
+      "model": "minecraft:block/reinforced_rod_end_ceyling"
+    },
+    "face=ceiling,facing=north,powered=true": {
+      "model": "minecraft:block/reinforced_strip_ceyling_deco",
+      "y": 90
+    },
+    "face=ceiling,facing=south,powered=false": {
+      "model": "minecraft:block/reinforced_strip_ceyling_wide",
+      "y": 90
+    },
+    "face=ceiling,facing=south,powered=true": {
+      "model": "minecraft:block/reinforced_strip_ceyling",
+      "y": 90
+    },
+    "face=ceiling,facing=west,powered=false": {
+      "model": "minecraft:block/reinforced_strip_ceyling_wide"
+    },
+    "face=ceiling,facing=west,powered=true": {
+      "model": "minecraft:block/acacia_button_pressed",
+      "y": 90,
+      "x": 180
+    },
+    "face=floor,facing=east,powered=false": {
+      "model": "minecraft:block/reinforced_strip_floor_deco"
+    },
+    "face=floor,facing=east,powered=true": {
+      "model": "minecraft:block/reinforced_strip_floor"
+    },
+    "face=floor,facing=north,powered=false": {
+      "model": "minecraft:block/reinforced_rod_end_floor"
+    },
+    "face=floor,facing=north,powered=true": {
+      "model": "minecraft:block/reinforced_strip_floor_deco",
+      "y": 90
+    },
+    "face=floor,facing=south,powered=false": {
+      "model": "minecraft:block/reinforced_strip_floor_wide",
+      "y": 90
+    },
+    "face=floor,facing=south,powered=true": {
+      "model": "minecraft:block/reinforced_strip_floor",
+      "y": 90
+    },
+    "face=floor,facing=west,powered=false": {
+      "model": "minecraft:block/reinforced_strip_floor_wide"
+    },
+    "face=floor,facing=west,powered=true": {
+      "model": "minecraft:block/acacia_button_pressed",
+      "y": 270
+    },
+    "face=wall,facing=east,powered=false": {
+      "model": "minecraft:block/acacia_button",
+      "y": 90,
+      "x": 90,
+      "uvlock": true
+    },
+    "face=wall,facing=east,powered=true": {
+      "model": "minecraft:block/reinforced_rod_end",
+      "y": 90,
+      "uvlock": true
+    },
+    "face=wall,facing=north,powered=false": {
+      "model": "minecraft:block/reinforced_rod_end",
+      "uvlock": true
+    },
+    "face=wall,facing=north,powered=true": {
+      "model": "minecraft:block/acacia_button_pressed",
+      "x": 90,
+      "uvlock": true
+    },
+    "face=wall,facing=south,powered=false": {
+      "model": "minecraft:block/reinforced_rod_end",
+      "y": 180,
+      "uvlock": true
+    },
+    "face=wall,facing=south,powered=true": {
+      "model": "minecraft:block/acacia_button_pressed",
+      "y": 180,
+      "x": 90,
+      "uvlock": true
+    },
+    "face=wall,facing=west,powered=false": {
+      "model": "minecraft:block/reinforced_rod_end",
+      "y": 270,
+      "uvlock": true
+    },
+    "face=wall,facing=west,powered=true": {
+      "model": "minecraft:block/acacia_button_pressed",
+      "y": 270,
+      "x": 90,
+      "uvlock": true
+    }
+  }
+}

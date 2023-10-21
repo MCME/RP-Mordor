@@ -1,49 +1,49 @@
 {
   "variants": {
     "age\u003d0,facing\u003dsouth": {
-      "model": "block/cocoa_stage0"
+      "model": "block/reinforced_strip_wall"
     },
     "age\u003d0,facing\u003dwest": {
-      "model": "block/cocoa_stage0",
+      "model": "block/reinforced_strip_wall",
       "y": 90
     },
     "age\u003d0,facing\u003dnorth": {
-      "model": "block/cocoa_stage0",
+      "model": "block/reinforced_strip_wall",
       "y": 180
     },
     "age\u003d0,facing\u003deast": {
-      "model": "block/cocoa_stage0",
+      "model": "block/reinforced_strip_wall",
       "y": 270
     },
     "age\u003d1,facing\u003dnorth": {
-      "model": "block/cocoa_stage1"
+      "model": "block/reinforced_strip_wall_deco",
+      "y": 180
     },
     "age\u003d1,facing\u003deast": {
-      "model": "block/cocoa_stage1",
-      "y": 90
+      "model": "block/reinforced_strip_wall_deco",
+      "y": 270
     },
     "age\u003d1,facing\u003dsouth": {
-      "model": "block/cocoa_stage1",
-      "y": 180
+      "model": "block/reinforced_strip_wall_deco"
     },
     "age\u003d1,facing\u003dwest": {
-      "model": "block/cocoa_stage1",
-      "y": 270
-    },
-    "age\u003d2,facing\u003dnorth": {
-      "model": "block/cocoa_stage2"
-    },
-    "age\u003d2,facing\u003deast": {
-      "model": "block/cocoa_stage2",
+      "model": "block/reinforced_strip_wall_deco",
       "y": 90
     },
-    "age\u003d2,facing\u003dsouth": {
-      "model": "block/cocoa_stage2",
+    "age\u003d2,facing\u003dnorth": {
+      "model": "block/reinforced_strip_wall_wide",
       "y": 180
     },
-    "age\u003d2,facing\u003dwest": {
-      "model": "block/cocoa_stage2",
+    "age\u003d2,facing\u003deast": {
+      "model": "block/reinforced_strip_wall_wide",
       "y": 270
+    },
+    "age\u003d2,facing\u003dsouth": {
+      "model": "block/reinforced_strip_wall_wide"
+    },
+    "age\u003d2,facing\u003dwest": {
+      "model": "block/reinforced_strip_wall_wide",
+      "y": 90
     }
   }
 }
