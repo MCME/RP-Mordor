@@ -1,5 +1,5 @@
 {
-  "parent": "block/vertical_slab",
+  "parent": "block/slab",
   "textures": {
     "bottom": "block/nether_bricks",
     "top": "block/nether_bricks",

@@ -19,11 +19,11 @@
 		
         "facing=north,half=bottom,open=false,powered=true": { "model": "block/trapdoor_mossy_large_white_brick_bottom" },
         "facing=south,half=bottom,open=false,powered=true": { "model": "block/unused_cross_0" },
-        "facing=east,half=bottom,open=false,powered=true": { "model": "block/trapdoor_smooth_white_stone_bottom" },
+        "facing=east,half=bottom,open=false,powered=true": { "model": "block/trapdoor_red_black_bricks_bottom" },
         "facing=west,half=bottom,open=false,powered=true": { "model": "block/unused_cross_0" },
         "facing=north,half=top,open=false,powered=true": { "model": "block/trapdoor_mossy_large_white_brick_top" },
         "facing=south,half=top,open=false,powered=true": { "model": "block/unused_cross_0" },
-        "facing=east,half=top,open=false,powered=true": { "model": "block/trapdoor_smooth_white_stone_top" },
+        "facing=east,half=top,open=false,powered=true": { "model": "block/trapdoor_red_black_bricks_top" },
         "facing=west,half=top,open=false,powered=true": { "model": "block/unused_cross_0" },
         "facing=north,half=bottom,open=true,powered=true": { "model": "block/trapdoor_mossy_large_white_brick_open" },
         "facing=south,half=bottom,open=true,powered=true": { "model": "block/trapdoor_mossy_large_white_brick_open", "y": 180 },
