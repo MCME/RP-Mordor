@@ -38,7 +38,11 @@
 	"mcme:block/blade2x1_decorational",
 	"mcme:block/corbel_large",
 	"mcme:block/corbel_large_top",
-	"mcme:block/corbel_large_extension"
+	"mcme:block/corbel_large_extension",
+	"mcme:block/angled_spikes",
+	"mcme:block/angled_spikes_2",
+	"mcme:block/angled_spikes_3",
+	"mcme:block/spiked_log"
 
   ]
 }

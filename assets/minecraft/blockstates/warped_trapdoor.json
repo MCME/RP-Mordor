@@ -1,0 +1,24 @@
+{
+  "variants": {
+	  "facing=north,half=bottom,open=true,powered=false": [
+	  {"model": "mcme:block/angled_spikes"},
+	  {"model": "mcme:block/angled_spikes_2"},
+	  {"model": "mcme:block/angled_spikes_3"}
+	  ],
+	   "facing=east,half=bottom,open=true,powered=false": [
+	  {"model": "mcme:block/angled_spikes", "y":90},
+	  {"model": "mcme:block/angled_spikes_2", "y":90},
+	  {"model": "mcme:block/angled_spikes_3", "y":90}
+	  ],
+	   "facing=south,half=bottom,open=true,powered=false": [
+	  {"model": "mcme:block/angled_spikes", "y":180},
+	  {"model": "mcme:block/angled_spikes_2", "y":180},
+	  {"model": "mcme:block/angled_spikes_3", "y":180}
+	  ],
+	   "facing=west,half=bottom,open=true,powered=false": [
+	  {"model": "mcme:block/angled_spikes", "y":270},
+	  {"model": "mcme:block/angled_spikes_2", "y":270},
+	  {"model": "mcme:block/angled_spikes_3", "y":270}
+	  ]
+  }
+}
