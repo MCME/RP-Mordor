@@ -23,6 +23,22 @@
 	"mcme:block/tusk_s_r_2",
 	"mcme:block/small_horn",
 	"mcme:block/small_horn_up",
-	"mcme:block/spiked_log"
+	"mcme:block/decorational_spike_small",
+	"mcme:block/decorational_spike_large",
+	"mcme:block/wall_spike_large",
+	"mcme:block/horizontal_spike_thin",
+	"mcme:block/spike_corbel",
+	"mcme:block/spike_corbel_top",
+	"mcme:block/spike_corbel_extension",
+	"mcme:block/blade1x1",
+	"mcme:block/blade1x2",
+	"mcme:block/blade2x1",
+	"mcme:block/blade1x1_arch",
+	"mcme:block/blade1x2_decorational",
+	"mcme:block/blade2x1_decorational",
+	"mcme:block/corbel_large",
+	"mcme:block/corbel_large_top",
+	"mcme:block/corbel_large_extension"
+
   ]
 }

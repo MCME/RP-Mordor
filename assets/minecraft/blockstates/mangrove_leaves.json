@@ -1,0 +1,14 @@
+{
+  "variants": {
+	"distance=7,persistent=false": { "model": "mcme:block/corbel_large", "y": 180 },
+	"distance=1,persistent=false": { "model": "mcme:block/corbel_large", "y": 270 },
+	"distance=2,persistent=false": { "model": "mcme:block/corbel_large_top" },
+	"distance=3,persistent=false": { "model": "mcme:block/corbel_large_top", "y": 90 },
+	"distance=4,persistent=false": { "model": "mcme:block/corbel_large_top", "y": 180 },
+	"distance=5,persistent=false": { "model": "mcme:block/corbel_large_top", "y": 270 },
+	"distance=6,persistent=false": { "model": "mcme:block/corbel_large_extension" },
+	"distance=7,persistent=true": { "model": "mcme:block/corbel_large_extension", "y": 90 },
+	"distance=1,persistent=true": { "model": "mcme:block/corbel_large_extension", "y": 180 },
+	"distance=2,persistent=true": { "model": "mcme:block/corbel_large_extension", "y": 270 }
+  }
+}
