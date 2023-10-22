@@ -24,6 +24,12 @@
 			{ "model": "block/oak_log_transition_3"},
 			{ "model": "block/oak_log_transition_4"}
 	  ]},
+	  	   {"when": { "up": "true", "north": "none", "east": "none", "south": "none", "west": "none" },
+      "apply": [
+			{ "model": "block/oak_log_transition_s" },
+			{ "model": "block/oak_log_transition_s_2"},
+			{ "model": "block/oak_log_transition_s_3"}
+	  ]},
 	{"when": { "up": "false", "north": "low", "east": "low", "south": "none", "west": "none" },
       "apply": [
 			{ "model": "minecraft:block/beam_core", "y": 90 },

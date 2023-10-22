@@ -38,7 +38,7 @@
 	  {"model": "block/beam_side_rusty_2", "y":270},
 	  {"model": "block/beam_side_rusty_3", "y":270}
 	  ],
-      "when": {"north": "false", "east": "false", "south": "false", "west": "false"}
+      "when": {"north": "false", "east": "false", "south": "true", "west": "true"}
     },
 	
 		{
