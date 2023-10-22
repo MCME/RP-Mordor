@@ -6,6 +6,24 @@
 			{ "model": "minecraft:block/beam_core_2" },
 			{ "model": "minecraft:block/beam_core_3" }
 	  ]},
+	  {"when": { "up": "true", "north": "tall", "east": "tall", "south": "tall", "west": "tall" },
+      "apply": [
+			{ "model": "mcme:block/wooden_spike_extra_large" },
+			{ "model": "mcme:block/wooden_spike_extra_large", "y":90 },
+			{ "model": "mcme:block/wooden_spike_extra_large", "y":180 },
+			{ "model": "mcme:block/wooden_spike_extra_large", "y":270 },
+			{ "model": "mcme:block/wooden_spike_extra_large_2" },
+			{ "model": "mcme:block/wooden_spike_extra_large_2", "y":90 },
+			{ "model": "mcme:block/wooden_spike_extra_large_2", "y":180 },
+			{ "model": "mcme:block/wooden_spike_extra_large_2", "y":270 }
+	  ]},
+	   {"when": { "up": "false", "north": "tall", "east": "tall", "south": "tall", "west": "tall" },
+      "apply": [
+			{ "model": "block/oak_log_transition" },
+			{ "model": "block/oak_log_transition_2"},
+			{ "model": "block/oak_log_transition_3"},
+			{ "model": "block/oak_log_transition_4"}
+	  ]},
 	{"when": { "up": "false", "north": "low", "east": "low", "south": "none", "west": "none" },
       "apply": [
 			{ "model": "minecraft:block/beam_core", "y": 90 },
