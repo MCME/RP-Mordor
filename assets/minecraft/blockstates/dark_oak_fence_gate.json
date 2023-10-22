@@ -59,7 +59,7 @@
         "powered": "false"
       },
       "apply": {
-        "model": "block/vertical_slab_double_slab_sandstone_seamless",
+        "model": "block/vertical_slab_black_bricks_seamless",
         "uvlock": true
       }
     },
@@ -71,7 +71,7 @@
         "powered": "false"
       },
       "apply": {
-        "model": "block/vertical_slab_double_slab_sandstone_seamless",
+        "model": "block/vertical_slab_black_bricks_seamless",
         "uvlock": true,
         "y": 90
       }
@@ -84,7 +84,7 @@
         "powered": "false"
       },
       "apply": {
-        "model": "block/vertical_slab_double_slab_sandstone_seamless",
+        "model": "block/vertical_slab_black_bricks_seamless",
         "uvlock": true,
         "y": 180
       }
@@ -97,7 +97,7 @@
         "powered": "false"
       },
       "apply": {
-        "model": "block/vertical_slab_double_slab_sandstone_seamless",
+        "model": "block/vertical_slab_black_bricks_seamless",
         "uvlock": true,
         "y": 270
       }
