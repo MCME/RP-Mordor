@@ -58,14 +58,15 @@
       "y": 270
     },
     "face=wall,facing=east,powered=false": {
-      "model": "minecraft:block/acacia_button",
+      "model": "minecraft:block/reinforced_rod_end",
       "y": 90,
-      "x": 90,
+     
       "uvlock": true
     },
     "face=wall,facing=east,powered=true": {
-      "model": "minecraft:block/reinforced_rod_end",
+      "model": "minecraft:block/acacia_button_pressed",
       "y": 90,
+	  "x": 90,
       "uvlock": true
     },
     "face=wall,facing=north,powered=false": {
