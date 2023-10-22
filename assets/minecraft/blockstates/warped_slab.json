@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "type=bottom": { "model": "block/warped_slab" },
+        "type=top": { "model": "block/warped_slab", "x": 180 },
+        "type=double,waterlogged=false": { "model": "block/replace" },
+        "type=double,waterlogged=true": { "model": "block/replace" }
+    }
+}

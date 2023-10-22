@@ -161,7 +161,7 @@
         "powered": "false"
       },
       "apply": {
-        "model": "block/vertical_slab_smooth_quartz",
+        "model": "block/vertical_slab_green_bricks",
         "uvlock": true
       }
     },
@@ -173,7 +173,7 @@
         "powered": "false"
       },
       "apply": {
-        "model": "block/vertical_slab_smooth_quartz",
+        "model": "block/vertical_slab_green_bricks",
         "uvlock": true,
         "y": 90
       }
@@ -186,7 +186,7 @@
         "powered": "false"
       },
       "apply": {
-        "model": "block/vertical_slab_smooth_quartz",
+        "model": "block/vertical_slab_green_bricks",
         "uvlock": true,
         "y": 180
       }
@@ -199,7 +199,7 @@
         "powered": "false"
       },
       "apply": {
-        "model": "block/vertical_slab_smooth_quartz",
+        "model": "block/vertical_slab_green_bricks",
         "uvlock": true,
         "y": 270
       }
