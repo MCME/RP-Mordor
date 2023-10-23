@@ -1,6 +1,7 @@
 {
-  "parent": "block/cube_all",
+  "parent": "block/connected_edge_block_parent",
   "textures": {
-    "all": "block/black_terracotta"
+    "0": "block/crimson_planks_double_slab",
+	"1": "block/connected_wood_edge"
   }
 }
