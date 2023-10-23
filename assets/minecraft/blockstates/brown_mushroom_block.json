@@ -49,9 +49,15 @@
     "north=false,east=true,south=false,west=true,up=true,down=true": [
       {"model": "block/purple_concrete_powder_0"}
     ],
-    "north=false,east=true,south=true,west=false,up=false,down=false": {"model": "block/stucco_pink"},
+    "north=false,east=true,south=true,west=false,up=false,down=false": [
+	  {"model": "block/brown_mushroom_block_es"},
+	  {"model": "block/brown_mushroom_block_es_2"},
+	  {"model": "block/brown_mushroom_block_es_3"}
+	  ],
     "north=false,east=true,south=true,west=false,up=false,down=true": [
-      {"model": "block/green_concrete_powder_0", "y": 90}
+      {"model": "block/brown_mushroom_block_esd"},
+	  {"model": "block/brown_mushroom_block_esd_2"},
+	  {"model": "block/brown_mushroom_block_esd_3"}
     ],
     "north=false,east=true,south=true,west=false,up=true,down=false": [
 	  {"model": "block/brown_mushroom_block_esu"}, 
