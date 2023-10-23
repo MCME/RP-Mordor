@@ -1,9 +1,8 @@
 {
   "variants": {
     "": [
-      {
-        "model": "block/replace"
-      }
+      { "model": "block/pink_terracotta"}
+
     ]
   }
 }
