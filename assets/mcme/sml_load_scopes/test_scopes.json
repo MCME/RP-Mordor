@@ -52,7 +52,8 @@
 	"mcme:block/wooden_catwalk",
 	"mcme:block/wooden_catwalk_2",
 	"mcme:block/wooden_catwalk_wide",
-	"mcme:block/wooden_catwalk_wide_2"
+	"mcme:block/wooden_catwalk_wide_2",
+	"mcme:block/large_rivet"
 
   ]
 }
