@@ -1,6 +1,6 @@
 {
   "parent": "block/trapdoor_bottom",
   "textures": {
-    "texture": "block/sandstone"
+    "texture": "block/iron_block"
   }
 }
