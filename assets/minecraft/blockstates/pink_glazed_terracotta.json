@@ -16,15 +16,15 @@
     ],
     "facing\u003dnorth": [
       
-	  { "model": "block/pink_glazed_terracotta_ne" },
-		  {"model": "block/pink_glazed_terracotta_ne_2"}
+	  { "model": "block/pink_glazed_terracotta_sw" },
+		  {"model": "block/pink_glazed_terracotta_sw_2"}
       
     ],
     "facing\u003dwest": [
       
-      {  "model": "block/pink_glazed_terracotta_ne",
+      {  "model": "block/pink_glazed_terracotta_sw",
 	  "y": 90 },
-	  {	"model": "block/pink_glazed_terracotta_ne_2",
+	  {	"model": "block/pink_glazed_terracotta_sw_2",
         "y": 90
       }
     ]

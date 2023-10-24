@@ -1,12 +1,12 @@
 {
-  "parent": "block/cube_mirrored",
+  "parent": "block/cube",
   "textures": {
-    "particle": "block/stucco_pink",
-    "down": "block/stucco_pink",
-    "up": "block/stucco_pink",
-    "north": "block/stucco_pink",
-    "east": "block/glazed_terracotta_gray_side_2",
-    "south": "block/red_sandstone",
-    "west": "block/glazed_terracotta_gray_side_1"
+    "particle": "block/bricks",
+    "down": "block/bricks",
+    "up": "block/gray_glazed_terracotta_side_2",
+    "north": "block/gray_glazed_terracotta_side_alt_2",
+    "east": "block/gray_glazed_terracotta_side_2",
+    "south": "block/bricks",
+    "west": "block/bricks"
   }
 }
