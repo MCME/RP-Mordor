@@ -332,10 +332,12 @@
           "open": "false",
           "powered": "true"
         },
-        "apply": {
-          "model": "block/replace",
-          "uvlock": true
-        }
+        "apply": [
+		{ "model": "block/vertical_slab_dried_kelp_block", "uvlock": true },
+		{ "model": "block/vertical_slab_dried_kelp_block_2", "uvlock": true },
+		{ "model": "block/vertical_slab_dried_kelp_block_3", "uvlock": true },
+		{ "model": "block/vertical_slab_dried_kelp_block_4", "uvlock": true }
+		]
       },
       {
         "when": {
@@ -344,11 +346,12 @@
           "open": "false",
           "powered": "true"
         },
-        "apply": {
-          "model": "block/replace",
-          "uvlock": true,
-          "y": 90
-        }
+        "apply": [
+	  { "model": "block/vertical_slab_dried_kelp_block", "uvlock": true, "y":90 },
+	  { "model": "block/vertical_slab_dried_kelp_block_2", "uvlock": true, "y":90},
+	  { "model": "block/vertical_slab_dried_kelp_block_3", "uvlock": true, "y":90 },
+	  { "model": "block/vertical_slab_dried_kelp_block_4", "uvlock": true, "y":90 }
+      ]
       },
       {
         "when": {
@@ -357,11 +360,12 @@
           "open": "false",
           "powered": "true"
         },
-        "apply": {
-          "model": "block/replace",
-          "uvlock": true,
-          "y": 180
-        }
+        "apply": [
+	  { "model": "block/vertical_slab_dried_kelp_block", "uvlock": true, "y":180 },
+	  { "model": "block/vertical_slab_dried_kelp_block_2", "uvlock": true, "y":180},
+	  { "model": "block/vertical_slab_dried_kelp_block_3", "uvlock": true, "y":180 },
+	  { "model": "block/vertical_slab_dried_kelp_block_4", "uvlock": true, "y":180 }
+      ]
       },
       {
         "when": {
@@ -370,11 +374,12 @@
           "open": "false",
           "powered": "true"
         },
-        "apply": {
-          "model": "block/replace",
-          "uvlock": true,
-          "y": 270
-        }
+        "apply": [
+	  { "model": "block/vertical_slab_dried_kelp_block", "uvlock": true, "y":270 },
+	  { "model": "block/vertical_slab_dried_kelp_block_2", "uvlock": true, "y":270},
+	  { "model": "block/vertical_slab_dried_kelp_block_3", "uvlock": true, "y":270 },
+	  { "model": "block/vertical_slab_dried_kelp_block_4", "uvlock": true, "y":270 }
+      ]
       },
       {
         "when": {
@@ -383,10 +388,12 @@
           "open": "true",
           "powered": "true"
         },
-        "apply": {
-          "model": "block/replace",
-          "uvlock": true
-        }
+        "apply": [
+		{ "model": "block/vertical_slab_lapis_block", "uvlock": true },
+		{ "model": "block/vertical_slab_lapis_block_2", "uvlock": true },
+		{ "model": "block/vertical_slab_lapis_block_3", "uvlock": true },
+		{ "model": "block/vertical_slab_lapis_block_4", "uvlock": true }
+		]
       },
       {
         "when": {
@@ -395,11 +402,12 @@
           "open": "true",
           "powered": "true"
         },
-        "apply": {
-          "model": "block/replace",
-          "uvlock": true,
-          "y": 90
-        }
+        "apply": [
+	  { "model": "block/vertical_slab_lapis_block", "uvlock": true, "y":90 },
+	  { "model": "block/vertical_slab_lapis_block_2", "uvlock": true, "y":90},
+	  { "model": "block/vertical_slab_lapis_block_3", "uvlock": true, "y":90 },
+	  { "model": "block/vertical_slab_lapis_block_4", "uvlock": true, "y":90 }
+      ]
       },
       {
         "when": {
@@ -408,10 +416,12 @@
           "open": "true",
           "powered": "true"
         },
-        "apply": {
-          "model": "block/replace",
-          "uvlock": true
-        }
+        "apply": [
+	  { "model": "block/vertical_slab_lapis_block", "uvlock": true, "y":180 },
+	  { "model": "block/vertical_slab_lapis_block_2", "uvlock": true, "y":180},
+	  { "model": "block/vertical_slab_lapis_block_3", "uvlock": true, "y":180 },
+	  { "model": "block/vertical_slab_lapis_block_4", "uvlock": true, "y":180 }
+      ]
       },
       {
         "when": {
@@ -420,11 +430,12 @@
           "open": "true",
           "powered": "true"
         },
-        "apply": {
-          "model": "block/replace",
-          "uvlock": true,
-          "y": 90
-        }
+        "apply": [
+	  { "model": "block/vertical_slab_lapis_block", "uvlock": true, "y":270 },
+	  { "model": "block/vertical_slab_lapis_block_2", "uvlock": true, "y":270},
+	  { "model": "block/vertical_slab_lapis_block_3", "uvlock": true, "y":270 },
+	  { "model": "block/vertical_slab_lapis_block_4", "uvlock": true, "y":270 }
+      ]
       }
     ]
   }
