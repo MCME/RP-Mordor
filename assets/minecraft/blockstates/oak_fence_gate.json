@@ -110,7 +110,7 @@
         "powered": "false"
       },
       "apply": {
-        "model": "block/vertical_slab_double_slab_planks_dark_oak",
+        "model": "block/vertical_slab_green_bricks_small",
         "uvlock": true
       }
     },
@@ -122,7 +122,7 @@
         "powered": "false"
       },
       "apply": {
-        "model": "block/vertical_slab_double_slab_planks_dark_oak",
+        "model": "block/vertical_slab_green_bricks_small",
         "uvlock": true,
         "y": 90
       }
@@ -135,7 +135,7 @@
         "powered": "false"
       },
       "apply": {
-        "model": "block/vertical_slab_double_slab_planks_dark_oak",
+        "model": "block/vertical_slab_green_bricks_small",
         "uvlock": true,
         "y": 180
       }
@@ -148,7 +148,7 @@
         "powered": "false"
       },
       "apply": {
-        "model": "block/vertical_slab_double_slab_planks_dark_oak",
+        "model": "block/vertical_slab_green_bricks_small",
         "uvlock": true,
         "y": 270
       }
