@@ -2,6 +2,7 @@
   "parent": "block/connected_edge_block_parent",
   "textures": {
     "0": "block/oak_planks",
-	"1": "block/edge_texture"
+	"1": "block/metal_edge_texture",
+	"2": "block/metal_inner_edge_texture"
   }
 }
