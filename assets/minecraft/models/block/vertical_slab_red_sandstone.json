@@ -1,5 +1,5 @@
 {
-  "parent": "block/slab",
+  "parent": "block/vertical_slab",
   "textures": {
     "bottom": "block/brown_mushroom_block_nud",
     "top": "block/brown_mushroom_block_nud",
