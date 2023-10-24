@@ -51,6 +51,57 @@
         "y": 270
       }
     },
+	    {
+      "when": {
+        "facing": "south",
+        "in_wall": "false",
+        "open": "false",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/vertical_slab_small_dark_bricks",
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "in_wall": "false",
+        "open": "false",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/vertical_slab_small_dark_bricks",
+        "uvlock": true,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "in_wall": "false",
+        "open": "false",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/vertical_slab_small_dark_bricks",
+        "uvlock": true,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "in_wall": "false",
+        "open": "false",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "block/vertical_slab_small_dark_bricks",
+        "uvlock": true,
+        "y": 270
+      }
+    },
     {
       "when": {
         "facing": "south",
