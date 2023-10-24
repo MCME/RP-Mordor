@@ -53,7 +53,10 @@
 	"mcme:block/wooden_catwalk_2",
 	"mcme:block/wooden_catwalk_wide",
 	"mcme:block/wooden_catwalk_wide_2",
-	"mcme:block/large_rivet"
+	"mcme:block/large_rivet",
+	"mcme:block/red_cloth_up",
+	"mcme:block/red_cloth_vert",
+	"mcme:block/red_cloth_straight"
 
   ]
 }
