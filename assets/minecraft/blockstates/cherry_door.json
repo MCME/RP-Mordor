@@ -315,7 +315,7 @@
         "powered": "false"
       },
       "apply": {
-        "model": "block/replace",
+        "model": "mcme:block/red_cloth_up_diagonal",
         "y": 90
       }
     },
@@ -328,7 +328,7 @@
         "powered": "false"
       },
       "apply": {
-        "model": "block/replace",
+        "model": "mcme:block/red_cloth_up_diagonal",
         "y": 180
       }
     },
@@ -341,7 +341,7 @@
         "powered": "false"
       },
       "apply": {
-        "model": "block/replace",
+        "model": "mcme:block/red_cloth_up_diagonal",
         "y": 270
       }
     },
@@ -354,7 +354,7 @@
         "powered": "false"
       },
       "apply": {
-        "model": "block/replace"
+        "model": "mcme:block/red_cloth_up_diagonal"
       }
     },
     {
