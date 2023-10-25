@@ -56,7 +56,8 @@
 	"mcme:block/large_rivet",
 	"mcme:block/red_cloth_up",
 	"mcme:block/red_cloth_vert",
-	"mcme:block/red_cloth_straight"
+	"mcme:block/red_cloth_straight",
+	"mcme:block/red_cloth_diagonal_v"
 
   ]
 }
