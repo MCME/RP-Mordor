@@ -366,7 +366,7 @@
         "powered": "false"
       },
       "apply": {
-        "model": "block/replace",
+        "model": "mcme:block/red_cloth_22_diagonal",
         "y": 270
       }
     },
@@ -379,7 +379,7 @@
         "powered": "false"
       },
       "apply": {
-        "model": "block/replace"
+        "model": "mcme:block/red_cloth_22_diagonal"
       }
     },
     {
@@ -391,7 +391,7 @@
         "powered": "false"
       },
       "apply": {
-        "model": "block/replace",
+        "model": "mcme:block/red_cloth_22_diagonal",
         "y": 90
       }
     },
@@ -404,7 +404,7 @@
         "powered": "false"
       },
       "apply": {
-        "model": "block/replace",
+        "model": "mcme:block/red_cloth_22_diagonal",
         "y": 180
       }
     },
@@ -417,7 +417,7 @@
         "powered": "true"
       },
       "apply": {
-        "model": "block/replace"
+        "model": "mcme:block/red_cloth_45_diagonal"
       }
     },
     {
@@ -429,7 +429,7 @@
         "powered": "true"
       },
       "apply": {
-        "model": "block/replace",
+        "model": "mcme:block/red_cloth_45_diagonal",
         "y": 90
       }
     },
@@ -442,7 +442,7 @@
         "powered": "true"
       },
       "apply": {
-        "model": "block/replace",
+        "model": "mcme:block/red_cloth_45_diagonal",
         "y": 180
       }
     },
@@ -455,7 +455,7 @@
         "powered": "true"
       },
       "apply": {
-        "model": "block/replace",
+        "model": "mcme:block/red_cloth_45_diagonal",
         "y": 270
       }
     },

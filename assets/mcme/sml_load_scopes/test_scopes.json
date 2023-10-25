@@ -59,8 +59,10 @@
 	"mcme:block/red_cloth_straight",
 	"mcme:block/red_cloth_diagonal_v",
 	"mcme:block/red_cloth_22",
+	"mcme:block/red_cloth_22_diagonal",
 	"mcme:block/red_cloth_up_diagonal",
-	"mcme:block/red_cloth_45"
+	"mcme:block/red_cloth_45",
+	"mcme:block/red_cloth_45_diagonal"
 
   ]
 }
