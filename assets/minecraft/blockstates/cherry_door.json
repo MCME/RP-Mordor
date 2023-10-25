@@ -213,7 +213,7 @@
         "powered": "false"
       },
       "apply": {
-        "model": "block/replace"
+        "model": "mcme:block/red_cloth_22"
       }
     },
     {
@@ -225,7 +225,7 @@
         "powered": "false"
       },
       "apply": {
-        "model": "block/replace",
+        "model": "mcme:block/red_cloth_22",
         "y": 90
       }
     },
@@ -238,7 +238,7 @@
         "powered": "false"
       },
       "apply": {
-        "model": "block/replace",
+        "model": "mcme:block/red_cloth_22",
         "y": 180
       }
     },
@@ -251,7 +251,7 @@
         "powered": "false"
       },
       "apply": {
-        "model": "block/replace",
+        "model": "mcme:block/red_cloth_22",
         "y": 270
       }
     },
