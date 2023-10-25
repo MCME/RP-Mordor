@@ -774,7 +774,7 @@
         "powered": "true"
       },
       "apply": {
-        "model": "block/replace",
+        "model": "mcme:block/horizontal_tusk",
         "y": 270
       }
     },
@@ -787,7 +787,7 @@
         "powered": "true"
       },
       "apply": {
-        "model": "block/replace"
+        "model": "mcme:block/horizontal_tusk"
       }
     },
     {
@@ -799,7 +799,7 @@
         "powered": "true"
       },
       "apply": {
-        "model": "block/replace",
+        "model": "mcme:block/horizontal_tusk",
         "y": 90
       }
     },
@@ -812,7 +812,7 @@
         "powered": "true"
       },
       "apply": {
-        "model": "block/replace",
+        "model": "mcme:block/horizontal_tusk",
         "y": 180
       }
     }
