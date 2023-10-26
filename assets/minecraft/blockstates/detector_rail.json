@@ -27,6 +27,16 @@
       "model": "block/rope_diagonal",
       "y": 90
     },
+	    "powered\u003dtrue,shape\u003dascending_north": {
+      "model": "mcme:block/rope_2tall"
+    },
+		    "powered\u003dtrue,shape\u003dascending_south": {
+      "model": "mcme:block/rope_2tall", "y":180
+    },
+    "powered\u003dtrue,shape\u003dascending_west": {
+      "model": "mcme:block/rope_2tall",
+      "y": 90
+    },
     "powered\u003dtrue,shape\u003dascending_east": [
 		{"model": "block/rope"},
 		{"model": "block/rope_2"}

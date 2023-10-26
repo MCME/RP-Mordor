@@ -15,7 +15,7 @@
       "y": 90
     },
     "powered\u003dfalse,shape\u003dascending_north": {
-      "model": "block/unused_cross_0"
+      "model": "mcme:block/rope_2tall", "y":270
     },
     "powered\u003dfalse,shape\u003dascending_south": {
       "model": "block/unused_cross_0"
