@@ -9,6 +9,10 @@
 	"distance=6,persistent=false": { "model": "mcme:block/corbel_large_extension" },
 	"distance=7,persistent=true": { "model": "mcme:block/corbel_large_extension", "y": 90 },
 	"distance=1,persistent=true": { "model": "mcme:block/corbel_large_extension", "y": 180 },
-	"distance=2,persistent=true": { "model": "mcme:block/corbel_large_extension", "y": 270 }
+	"distance=2,persistent=true": { "model": "mcme:block/corbel_large_extension", "y": 270 },
+	"distance=6,persistent=false": { "model": "mcme:block/wall_spike_large", "x": 90 },
+	"distance=7,persistent=true": { "model": "mcme:block/wall_spike_large", "x": 90, "y": 90 },
+	"distance=1,persistent=true": { "model": "mcme:block/wall_spike_large", "x": 270 },
+	"distance=2,persistent=true": { "model": "mcme:block/wall_spike_large", "x": 270, "y": 90 }
   }
 }
