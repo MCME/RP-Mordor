@@ -18,7 +18,7 @@
       "model": "mcme:block/rope_2tall", "y":270
     },
     "powered\u003dfalse,shape\u003dascending_south": {
-      "model": "block/unused_cross_0"
+      "model": "mcme:block/rope_2wide", "y":270
     },
     "powered\u003dtrue,shape\u003dnorth_south": {
       "model": "block/activator_rail",
@@ -37,10 +37,10 @@
       "y": 270
     },
     "powered\u003dtrue,shape\u003dascending_north": {
-      "model": "block/unused_cross_0"
+      "model": "mcme:block/rope_2wide", "y":180
     },
     "powered\u003dtrue,shape\u003dascending_south": {
-      "model": "block/unused_cross_0"
+      "model": "mcme:block/rope_2wide", "y":90
     }
   }
 }
