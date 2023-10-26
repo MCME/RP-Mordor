@@ -264,7 +264,7 @@
         "powered": "false"
       },
       "apply": {
-        "model": "mcme:block/red_cloth_45"
+        "model": "block/replace"
       }
     },
     {
@@ -276,7 +276,7 @@
         "powered": "false"
       },
       "apply": {
-        "model": "mcme:block/red_cloth_45",
+        "model": "block/replace",
         "y": 90
       }
     },
@@ -289,7 +289,7 @@
         "powered": "false"
       },
       "apply": {
-        "model": "mcme:block/red_cloth_45",
+        "model": "block/replace",
         "y": 180
       }
     },
@@ -302,7 +302,7 @@
         "powered": "false"
       },
       "apply": {
-        "model": "mcme:block/red_cloth_45",
+        "model": "block/replace",
         "y": 270
       }
     },
@@ -519,7 +519,7 @@
         "powered": "true"
       },
       "apply": {
-        "model": "mcme:block/red_cloth_22small",
+        "model": "mcme:block/red_cloth_22_small",
         "y": 90
       }
     },
@@ -532,7 +532,7 @@
         "powered": "true"
       },
       "apply": {
-        "model": "mcme:block/red_cloth_22small",
+        "model": "mcme:block/red_cloth_22_small",
         "y": 180
       }
     },
@@ -545,7 +545,7 @@
         "powered": "true"
       },
       "apply": {
-        "model": "mcme:block/red_cloth_22small",
+        "model": "mcme:block/red_cloth_22_small",
         "y": 270
       }
     },
@@ -558,7 +558,7 @@
         "powered": "true"
       },
       "apply": {
-        "model": "mcme:block/red_cloth_22small"
+        "model": "mcme:block/red_cloth_22_small"
       }
     },
     {
@@ -621,7 +621,7 @@
         "powered": "true"
       },
       "apply": {
-        "model": "block/replace"
+        "model": "mcme:block/red_cloth_22_small_diagonal"
       }
     },
     {
@@ -633,7 +633,7 @@
         "powered": "true"
       },
       "apply": {
-        "model": "block/replace",
+        "model": "mcme:block/red_cloth_22_small_diagonal",
         "y": 90
       }
     },
@@ -646,7 +646,7 @@
         "powered": "true"
       },
       "apply": {
-        "model": "block/replace",
+        "model": "mcme:block/red_cloth_22_small_diagonal",
         "y": 180
       }
     },
@@ -659,7 +659,7 @@
         "powered": "true"
       },
       "apply": {
-        "model": "block/replace",
+        "model": "mcme:block/red_cloth_22_small_diagonal",
         "y": 270
       }
     },
