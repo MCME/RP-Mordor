@@ -24,6 +24,12 @@
 	   "powered\u003dtrue,shape\u003dascending_west": {
       "model": "mcme:block/rope_2wide"
     },
+		   "powered\u003dtrue,shape\u003dascending_south": {
+      "model": "mcme:block/rope_2wide_diag"
+    },
+		   "powered\u003dtrue,shape\u003dascending_north": {
+      "model": "mcme:block/rope_2wide_diag", "y":90
+    },
     "powered\u003dtrue,shape\u003dnorth_south": {
       "model": "block/golden_rail_flat_diagonal"
     },

@@ -72,7 +72,8 @@
 	"mcme:block/wood_nail_3",
 	"mcme:block/wall_spike_large_vert",
 	"mcme:block/rope_2tall",
-	"mcme:block/rope_2wide"
+	"mcme:block/rope_2wide",
+	"mcme:block/rope_2wide_diag"
 
   ]
 }
