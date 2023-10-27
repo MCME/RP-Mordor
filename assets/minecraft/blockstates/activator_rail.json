@@ -14,12 +14,14 @@
       "model": "block/activator_rail_diagonal",
       "y": 90
     },
-    "powered\u003dfalse,shape\u003dascending_north": {
-      "model": "mcme:block/rope_2tall", "y":270
-    },
-    "powered\u003dfalse,shape\u003dascending_south": {
-      "model": "mcme:block/rope_2wide", "y":270
-    },
+    "powered\u003dfalse,shape\u003dascending_north": [
+	{"model": "block/rope_corner"},
+	{"model": "block/rope_corner_2"}
+],
+    "powered\u003dfalse,shape\u003dascending_south": [
+	{"model": "block/rope_corner", "y":180 },
+	{"model": "block/rope_corner_2", "y":180}
+],
     "powered\u003dtrue,shape\u003dnorth_south": {
       "model": "block/activator_rail",
       "y": 180
@@ -36,11 +38,13 @@
       "model": "block/activator_rail_diagonal",
       "y": 270
     },
-    "powered\u003dtrue,shape\u003dascending_north": {
-      "model": "mcme:block/rope_2wide", "y":180
-    },
-    "powered\u003dtrue,shape\u003dascending_south": {
-      "model": "mcme:block/rope_2wide", "y":90
-    }
+    "powered\u003dtrue,shape\u003dascending_north": [
+	{"model": "block/rope_corner", "y":90 },
+	{"model": "block/rope_corner_2", "y":90}
+],
+    "powered\u003dtrue,shape\u003dascending_south": [
+	{"model": "block/rope_corner", "y":270 },
+	{"model": "block/rope_corner_2", "y":270}
+]
   }
 }

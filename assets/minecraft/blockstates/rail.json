@@ -19,21 +19,21 @@
       "y": 90
     },
     "shape=north_east": {
-      "model": "minecraft:block/rail_corner",
+      "model": "minecraft:block/rope_asc_right",
       "y": 270
     },
     "shape=north_south": {
       "model": "minecraft:block/rail"
     },
     "shape=north_west": {
-      "model": "minecraft:block/rail_corner",
+      "model": "minecraft:block/rope_asc_right",
       "y": 180
     },
     "shape=south_east": {
-      "model": "minecraft:block/rail_corner"
+      "model": "minecraft:block/rope_asc_right"
     },
     "shape=south_west": {
-      "model": "minecraft:block/rail_corner",
+      "model": "minecraft:block/rope_asc_right",
       "y": 90
     }
   }

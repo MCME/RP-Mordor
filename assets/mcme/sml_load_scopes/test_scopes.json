@@ -73,7 +73,9 @@
 	"mcme:block/wall_spike_large_vert",
 	"mcme:block/rope_2tall",
 	"mcme:block/rope_2wide",
-	"mcme:block/rope_2wide_diag"
+	"mcme:block/rope_2wide_diag",
+	"mcme:block/rope_2wide_right",
+	"mcme:block/rope_2tall_right"
 
   ]
 }

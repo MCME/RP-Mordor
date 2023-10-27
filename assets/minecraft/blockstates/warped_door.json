@@ -213,7 +213,7 @@
         "powered": "false"
       },
       "apply": {
-        "model": "block/warped_door_top"
+        "model": "mcme:block/rope_2tall"
       }
     },
     {
@@ -225,7 +225,7 @@
         "powered": "false"
       },
       "apply": {
-        "model": "block/warped_door_top",
+        "model": "mcme:block/rope_2tall",
         "y": 90
       }
     },
@@ -238,7 +238,7 @@
         "powered": "false"
       },
       "apply": {
-        "model": "block/warped_door_top",
+        "model": "mcme:block/rope_2tall",
         "y": 180
       }
     },
@@ -251,33 +251,8 @@
         "powered": "false"
       },
       "apply": {
-        "model": "block/warped_door_top",
+        "model": "mcme:block/rope_2tall",
         "y": 270
-      }
-    },
-    {
-      "when": {
-        "facing": "east",
-        "half": "upper",
-        "hinge": "right",
-        "open": "false",
-        "powered": "false"
-      },
-      "apply": {
-        "model": "block/warped_door_top_hinge"
-      }
-    },
-    {
-      "when": {
-        "facing": "south",
-        "half": "upper",
-        "hinge": "right",
-        "open": "false",
-        "powered": "false"
-      },
-      "apply": {
-        "model": "block/warped_door_top_hinge",
-        "y": 90
       }
     },
     {
@@ -289,72 +264,97 @@
         "powered": "false"
       },
       "apply": {
-        "model": "block/warped_door_top_hinge",
+        "model": "mcme:block/rope_2wide_right"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "half": "upper",
+        "hinge": "right",
+        "open": "false",
+        "powered": "false"
+      },
+      "apply": {
+        "model": "mcme:block/rope_2wide_right",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "half": "upper",
+        "hinge": "right",
+        "open": "false",
+        "powered": "false"
+      },
+      "apply": {
+        "model": "mcme:block/rope_2wide_right",
         "y": 180
       }
     },
     {
       "when": {
-        "facing": "north",
+        "facing": "south",
         "half": "upper",
         "hinge": "right",
         "open": "false",
         "powered": "false"
       },
       "apply": {
-        "model": "block/warped_door_top_hinge",
+        "model": "mcme:block/rope_2wide_right",
         "y": 270
       }
     },
     {
       "when": {
-        "facing": "east",
+        "facing": "west",
         "half": "upper",
         "hinge": "left",
         "open": "true",
         "powered": "false"
       },
       "apply": {
-        "model": "block/warped_door_top_rh_open",
+        "model": "mcme:block/rope_2tall_right",
         "y": 90
       }
     },
     {
       "when": {
-        "facing": "south",
+        "facing": "north",
         "half": "upper",
         "hinge": "left",
         "open": "true",
         "powered": "false"
       },
       "apply": {
-        "model": "block/warped_door_top_rh_open",
+        "model": "mcme:block/rope_2tall_right",
         "y": 180
       }
     },
     {
       "when": {
-        "facing": "west",
+        "facing": "east",
         "half": "upper",
         "hinge": "left",
         "open": "true",
         "powered": "false"
       },
       "apply": {
-        "model": "block/warped_door_top_rh_open",
+        "model": "mcme:block/rope_2tall_right",
         "y": 270
       }
     },
     {
       "when": {
-        "facing": "north",
+        "facing": "south",
         "half": "upper",
         "hinge": "left",
         "open": "true",
         "powered": "false"
       },
       "apply": {
-        "model": "block/warped_door_top_rh_open"
+        "model": "mcme:block/rope_2tall_right"
       }
     },
     {
@@ -366,7 +366,7 @@
         "powered": "false"
       },
       "apply": {
-        "model": "block/warped_door_top_open",
+        "model": "mcme:block/rope_2wide",
         "y": 270
       }
     },
@@ -379,7 +379,7 @@
         "powered": "false"
       },
       "apply": {
-        "model": "block/warped_door_top_open"
+        "model": "mcme:block/rope_2wide"
       }
     },
     {
@@ -391,7 +391,7 @@
         "powered": "false"
       },
       "apply": {
-        "model": "block/warped_door_top_open",
+        "model": "mcme:block/rope_2wide",
         "y": 90
       }
     },
@@ -404,7 +404,7 @@
         "powered": "false"
       },
       "apply": {
-        "model": "block/warped_door_top_open",
+        "model": "mcme:block/rope_2wide",
         "y": 180
       }
     },
