@@ -35,10 +35,7 @@
 	{"model": "block/rope_flat", "y":180 },
 	{"model": "block/rope_flat_2", "y":180}
 ],
-    "powered\u003dtrue,shape\u003dascending_west": {
-      "model": "mcme:block/rope_2tall",
-      "y": 90
-    },
+
     "powered\u003dtrue,shape\u003dascending_east": [
 		{"model": "block/rope"},
 		{"model": "block/rope_2"}
