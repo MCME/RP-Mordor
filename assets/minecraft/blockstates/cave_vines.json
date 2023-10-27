@@ -1,0 +1,120 @@
+{
+  "variants": {
+	"berries=false,age=0": [
+	{ "model": "minecraft:block/web_1x3", "x":180 },
+	{ "model": "minecraft:block/web_1x3_2", "x":180 },
+	{ "model": "minecraft:block/web_1x3_3", "x":180 },
+	{ "model": "minecraft:block/web_1x3_4", "x":180 },
+	{ "model": "minecraft:block/web_1x3_5", "x":180 }
+	],
+	"berries=false,age=1": [
+	{ "model": "minecraft:block/web_1x3", "x":180, "y":90 },
+	{ "model": "minecraft:block/web_1x3_2", "x":180, "y":90 },
+	{ "model": "minecraft:block/web_1x3_3", "x":180, "y":90 },
+	{ "model": "minecraft:block/web_1x3_4", "x":180, "y":90 },
+	{ "model": "minecraft:block/web_1x3_5", "x":180, "y":90 }
+	],
+	"berries=false,age=2": [
+	{ "model": "minecraft:block/web_1x3", "x":180, "y":180 },
+	{ "model": "minecraft:block/web_1x3_2", "x":180, "y":180 },
+	{ "model": "minecraft:block/web_1x3_3", "x":180, "y":180 },
+	{ "model": "minecraft:block/web_1x3_4", "x":180, "y":180 },
+	{ "model": "minecraft:block/web_1x3_5", "x":180, "y":180 }
+	],
+	"berries=false,age=3": [
+	{ "model": "minecraft:block/web_1x3", "x":180, "y":270 },
+	{ "model": "minecraft:block/web_1x3_2", "x":180, "y":270 },
+	{ "model": "minecraft:block/web_1x3_3", "x":180, "y":270 },
+	{ "model": "minecraft:block/web_1x3_4", "x":180, "y":270 },
+	{ "model": "minecraft:block/web_1x3_5", "x":180, "y":270 }
+	],
+	"berries=false,age=4": [
+	{ "model": "minecraft:block/web_1x1", "x":180 },
+	{ "model": "minecraft:block/web_1x1_2", "x":180 },
+	{ "model": "minecraft:block/web_1x1_3", "x":180 },
+	{ "model": "minecraft:block/web_1x1_4", "x":180 },
+	{ "model": "minecraft:block/web_1x1_5", "x":180 }
+	],
+	"berries=false,age=5": [
+	{ "model": "minecraft:block/web_1x1", "x":180, "y":90 },
+	{ "model": "minecraft:block/web_1x1_2", "x":180, "y":90 },
+	{ "model": "minecraft:block/web_1x1_3", "x":180, "y":90 },
+	{ "model": "minecraft:block/web_1x1_4", "x":180, "y":90 },
+	{ "model": "minecraft:block/web_1x1_5", "x":180, "y":90 }
+	],
+	"berries=false,age=6": [
+	{ "model": "minecraft:block/web_1x1", "x":180, "y":180 },
+	{ "model": "minecraft:block/web_1x1_2", "x":180, "y":180 },
+	{ "model": "minecraft:block/web_1x1_3", "x":180, "y":180 },
+	{ "model": "minecraft:block/web_1x1_4", "x":180, "y":180 },
+	{ "model": "minecraft:block/web_1x1_5", "x":180, "y":180 }
+	],
+	"berries=false,age=7": [
+	{ "model": "minecraft:block/web_1x1", "x":180, "y":270 },
+	{ "model": "minecraft:block/web_1x1_2", "x":180, "y":270 },
+	{ "model": "minecraft:block/web_1x1_3", "x":180, "y":270 },
+	{ "model": "minecraft:block/web_1x1_4", "x":180, "y":270 },
+	{ "model": "minecraft:block/web_1x1_5", "x":180, "y":270 }
+	],
+	"berries=false,age=8": [
+	{ "model": "minecraft:block/web_1x2", "x":180 },
+	{ "model": "minecraft:block/web_1x2_2", "x":180 },
+	{ "model": "minecraft:block/web_1x2_3", "x":180 },
+	{ "model": "minecraft:block/web_1x2_4", "x":180 },
+	{ "model": "minecraft:block/web_1x2_5", "x":180 }
+	],
+	"berries=false,age=9": [
+	{ "model": "minecraft:block/web_1x2", "x":180, "y":90 },
+	{ "model": "minecraft:block/web_1x2_2", "x":180, "y":90 },
+	{ "model": "minecraft:block/web_1x2_3", "x":180, "y":90 },
+	{ "model": "minecraft:block/web_1x2_4", "x":180, "y":90 },
+	{ "model": "minecraft:block/web_1x2_5", "x":180, "y":90 }
+	],
+		"berries=false,age=10": [
+	{ "model": "minecraft:block/web_1x2", "x":180, "y":180 },
+	{ "model": "minecraft:block/web_1x2_2", "x":180, "y":180 },
+	{ "model": "minecraft:block/web_1x2_3", "x":180, "y":180 },
+	{ "model": "minecraft:block/web_1x2_4", "x":180, "y":180 },
+	{ "model": "minecraft:block/web_1x2_5", "x":180, "y":180 }
+	],
+		"berries=false,age=11": [
+	{ "model": "minecraft:block/web_1x2", "x":180, "y":270 },
+	{ "model": "minecraft:block/web_1x2_2", "x":180, "y":270 },
+	{ "model": "minecraft:block/web_1x2_3", "x":180, "y":270 },
+	{ "model": "minecraft:block/web_1x2_4", "x":180, "y":270 },
+	{ "model": "minecraft:block/web_1x2_5", "x":180, "y":270 }
+	],
+		"berries=false,age=12": [
+	{ "model": "minecraft:block/web_2x2", "x":180 },
+	{ "model": "minecraft:block/web_2x2_2", "x":180 },
+	{ "model": "minecraft:block/web_2x2_3", "x":180 },
+	{ "model": "minecraft:block/web_2x2_4", "x":180 },
+	{ "model": "minecraft:block/web_2x2_5", "x":180 }
+	],
+		"berries=false,age=13": [
+	{ "model": "minecraft:block/web_2x2", "x":180, "y":90 },
+	{ "model": "minecraft:block/web_2x2_2", "x":180, "y":90 },
+	{ "model": "minecraft:block/web_2x2_3", "x":180, "y":90 },
+	{ "model": "minecraft:block/web_2x2_4", "x":180, "y":90 },
+	{ "model": "minecraft:block/web_2x2_5", "x":180, "y":90 }
+	],
+		"berries=false,age=14": [
+	{ "model": "minecraft:block/web_2x2", "x":180, "y":180 },
+	{ "model": "minecraft:block/web_2x2_2", "x":180, "y":180 },
+	{ "model": "minecraft:block/web_2x2_3", "x":180, "y":180 },
+	{ "model": "minecraft:block/web_2x2_4", "x":180, "y":180 },
+	{ "model": "minecraft:block/web_2x2_5", "x":180, "y":180 }
+	],
+		"berries=false,age=15": [
+	{ "model": "minecraft:block/web_2x2", "x":180, "y":270 },
+	{ "model": "minecraft:block/web_2x2_2", "x":180, "y":270 },
+	{ "model": "minecraft:block/web_2x2_3", "x":180, "y":270 },
+	{ "model": "minecraft:block/web_2x2_4", "x":180, "y":270 },
+	{ "model": "minecraft:block/web_2x2_5", "x":180, "y":270 }
+	],
+
+    "berries=true": {
+      "model": "minecraft:block/cave_vines_lit"
+    }
+  }
+}
