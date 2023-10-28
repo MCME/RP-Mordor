@@ -2,18 +2,18 @@
   "variants": {
     "": [
       {
-        "model": "block/replace"
+        "model": "block/cage"
       },
       {
-        "model": "block/replace",
+        "model": "block/cage",
         "y": 90
       },
       {
-        "model": "block/replace",
+        "model": "block/cage",
         "y": 180
       },
       {
-        "model": "block/replace",
+        "model": "block/cage",
         "y": 270
       }
     ]

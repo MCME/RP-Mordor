@@ -77,7 +77,11 @@
 	"mcme:block/rope_2wide_right",
 	"mcme:block/rope_2tall_right",
 	"mcme:block/metal_arch",
-	"mcme:block/metal_arch_2"
+	"mcme:block/metal_arch_2",
+	"mcme:block/bones",
+	"mcme:block/bones_2",
+	"mcme:block/bone_dense",
+	"mcme:block/bone_dense_2"
 
   ]
 }
