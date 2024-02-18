@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "block/quartz_bricks"
+    "all": "block/smooth_sandstone_5"
   }
 }
