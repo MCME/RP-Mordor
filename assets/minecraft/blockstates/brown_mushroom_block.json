@@ -44,10 +44,16 @@
       {"model": "block/hardened_clay_purple_5"}
 	],
     "north=false,east=true,south=false,west=true,up=true,down=false": [
-      {"model": "block/blue_concrete_powder_0", "y": 90}
+      {"model": "block/blue_concrete_powder_0" },
+	  {"model": "block/blue_concrete_powder_1" },
+	  {"model": "block/blue_concrete_powder_2" },
+	  {"model": "block/blue_concrete_powder_3" }
     ],
     "north=false,east=true,south=false,west=true,up=true,down=true": [
-      {"model": "block/purple_concrete_powder_0"}
+      {"model": "block/purple_concrete_powder_0"},
+	  {"model": "block/purple_concrete_powder_1"},
+	  {"model": "block/purple_concrete_powder_2"},
+	  {"model": "block/purple_concrete_powder_3"}
     ],
     "north=false,east=true,south=true,west=false,up=false,down=false": [
 	  {"model": "block/brown_mushroom_block_es"},
@@ -205,9 +211,21 @@
 	],
     "north=true,east=true,south=true,west=false,up=true,down=true": [
 	  {"model": "block/brown_mushroom_block_nesud"},
+	  {"model": "block/brown_mushroom_block_nesud", "y": 90 },
+	  {"model": "block/brown_mushroom_block_nesud", "y": 180 },
+	  {"model": "block/brown_mushroom_block_nesud", "y": 270 },
       {"model": "block/brown_mushroom_block_nesud_2"},
+	  {"model": "block/brown_mushroom_block_nesud_2", "y": 90 },
+	  {"model": "block/brown_mushroom_block_nesud_2", "y": 180 },
+	  {"model": "block/brown_mushroom_block_nesud_2", "y": 270 },
       {"model": "block/brown_mushroom_block_nesud_3"},
-      {"model": "block/brown_mushroom_block_nesud_4"}
+	  {"model": "block/brown_mushroom_block_nesud_3", "y": 90 },
+	  {"model": "block/brown_mushroom_block_nesud_3", "y": 180 },
+	  {"model": "block/brown_mushroom_block_nesud_3", "y": 270 },
+      {"model": "block/brown_mushroom_block_nesud_4"},
+	  {"model": "block/brown_mushroom_block_nesud_4", "y": 90 },
+	  {"model": "block/brown_mushroom_block_nesud_4", "y": 180 },
+	  {"model": "block/brown_mushroom_block_nesud_4", "y": 270 }
 	],
     "north=true,east=true,south=true,west=true,up=false,down=false": [
 	  {"model": "block/brown_mushroom_block_nesw"}, 
