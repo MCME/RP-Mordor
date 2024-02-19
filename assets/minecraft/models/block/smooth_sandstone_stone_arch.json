@@ -1,6 +1,6 @@
 {
   "parent": "block/stone_slab_arch_parent",
   "textures": {
-    "0": "block/quartz_brick_composite"
+    "0": "block/smooth_sandstone_composite"
   }
 }

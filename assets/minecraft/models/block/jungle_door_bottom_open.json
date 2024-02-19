@@ -1,7 +1,7 @@
 {
   "parent": "block/door_unused",
   "textures": {
-    "bottom": "block/nether_bricks",
-    "top": "block/nether_bricks"
+    "bottom": "block/smooth_sandstone",
+    "top": "block/smooth_sandstone"
   }
 }
