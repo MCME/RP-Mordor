@@ -110,10 +110,10 @@
         "powered": "false"
       },
       "apply": [
-		{ "model": "block/vertical_slab_quartz_block", "uvlock": true },
-		{ "model": "block/vertical_slab_quartz_block_2", "uvlock": true },
-		{ "model": "block/vertical_slab_quartz_block_3", "uvlock": true },
-		{ "model": "block/vertical_slab_quartz_block_4", "uvlock": true }
+		{ "model": "block/vertical_slab_exposed_cut_copper", "uvlock": true },
+		{ "model": "block/vertical_slab_exposed_cut_copper_2", "uvlock": true },
+		{ "model": "block/vertical_slab_exposed_cut_copper_3", "uvlock": true },
+		{ "model": "block/vertical_slab_exposed_cut_copper_4", "uvlock": true }
 		]
     },
     {
@@ -124,10 +124,10 @@
         "powered": "false"
       },
       "apply": [
-	  { "model": "block/vertical_slab_quartz_block", "uvlock": true, "y":90 },
-	  { "model": "block/vertical_slab_quartz_block_2", "uvlock": true, "y":90},
-	  { "model": "block/vertical_slab_quartz_block_3", "uvlock": true, "y":90 },
-	  { "model": "block/vertical_slab_quartz_block_4", "uvlock": true, "y":90 }
+	  { "model": "block/vertical_slab_exposed_cut_copper", "uvlock": true, "y":90 },
+	  { "model": "block/vertical_slab_exposed_cut_copper_2", "uvlock": true, "y":90},
+	  { "model": "block/vertical_slab_exposed_cut_copper_3", "uvlock": true, "y":90 },
+	  { "model": "block/vertical_slab_exposed_cut_copper_4", "uvlock": true, "y":90 }
       ]
     },
     {
@@ -138,10 +138,10 @@
         "powered": "false"
       },
       "apply": [
-	  { "model": "block/vertical_slab_quartz_block", "uvlock": true, "y":180 },
-	  { "model": "block/vertical_slab_quartz_block_2", "uvlock": true, "y":180},
-	  { "model": "block/vertical_slab_quartz_block_3", "uvlock": true, "y":180 },
-	  { "model": "block/vertical_slab_quartz_block_4", "uvlock": true, "y":180 }
+	  { "model": "block/vertical_slab_exposed_cut_copper", "uvlock": true, "y":180 },
+	  { "model": "block/vertical_slab_exposed_cut_copper_2", "uvlock": true, "y":180},
+	  { "model": "block/vertical_slab_exposed_cut_copper_3", "uvlock": true, "y":180 },
+	  { "model": "block/vertical_slab_exposed_cut_copper_4", "uvlock": true, "y":180 }
       ]
     },
     {
@@ -152,10 +152,10 @@
         "powered": "false"
       },
       "apply": [
-	  { "model": "block/vertical_slab_quartz_block", "uvlock": true, "y":270 },
-	  { "model": "block/vertical_slab_quartz_block_2", "uvlock": true, "y":270},
-	  { "model": "block/vertical_slab_quartz_block_3", "uvlock": true, "y":270 },
-	  { "model": "block/vertical_slab_quartz_block_4", "uvlock": true, "y":270 }
+	  { "model": "block/vertical_slab_exposed_cut_copper", "uvlock": true, "y":270 },
+	  { "model": "block/vertical_slab_exposed_cut_copper_2", "uvlock": true, "y":270},
+	  { "model": "block/vertical_slab_exposed_cut_copper_3", "uvlock": true, "y":270 },
+	  { "model": "block/vertical_slab_exposed_cut_copper_4", "uvlock": true, "y":270 }
       ]
     },
     {

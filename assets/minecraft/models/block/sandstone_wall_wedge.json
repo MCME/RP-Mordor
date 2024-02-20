@@ -3,6 +3,6 @@
 	"parent": "block/diagonal_wedge",
 	"texture_size": [16, 16],
 	"textures": {
-		"side": "block/quartz_block"
+		"side": "block/exposed_cut_copper"
 	}
 }

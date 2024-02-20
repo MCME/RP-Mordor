@@ -1,11 +1,11 @@
 {
   "parent": "block/block",
   "textures": {
-    "particle": "block/quartz_block",
-    "bottom": "block/quartz_block",
-    "top": "block/quartz_block",
-    "side": "block/quartz_block",
-    "eye": "block/quartz_block"
+    "particle": "block/exposed_cut_copper",
+    "bottom": "block/exposed_cut_copper",
+    "top": "block/exposed_cut_copper",
+    "side": "block/exposed_cut_copper",
+    "eye": "block/exposed_cut_copper"
   },
   "elements": [
     {
