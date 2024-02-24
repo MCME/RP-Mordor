@@ -83,7 +83,14 @@
 	"mcme:block/bone_dense",
 	"mcme:block/bone_dense_2",
 	"mcme:block/black_pillar_topper",
-	"mcme:block/darker_pillar_topper"
+	"mcme:block/darker_pillar_topper",
+	"mcme:block/animal_skull",
+	"mcme:block/animal_skull_1",
+	"mcme:block/animal_skull_2",
+	"mcme:block/animal_skull_3",
+	"mcme:block/animal_skull_4",
+	"mcme:block/animal_skull_5",
+	"mcme:block/animal_skull_6"
 
   ]
 }
