@@ -90,7 +90,9 @@
 	"mcme:block/animal_skull_3",
 	"mcme:block/animal_skull_4",
 	"mcme:block/animal_skull_5",
-	"mcme:block/animal_skull_6"
+	"mcme:block/animal_skull_6",
+	"mcme:block/animal_skull_7",
+	"mcme:block/animal_skull_8"
 
   ]
 }

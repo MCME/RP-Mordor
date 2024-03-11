@@ -9,6 +9,12 @@
       },
       {
         "model": "block/red_sandstone_normal_3"
+      },
+	  {
+        "model": "block/red_sandstone_normal_4"
+      },
+	  {
+        "model": "block/red_sandstone_normal_5"
       }
     ]
   }

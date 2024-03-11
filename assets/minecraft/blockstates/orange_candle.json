@@ -61,6 +61,24 @@
             "model": "mcme:block/animal_skull_3", "y": 180 },
             { 
             "model": "mcme:block/animal_skull_3", "y": 270 }
+		],
+    "candles=4,lit=false":    [
+            { 
+            "model": "mcme:block/animal_skull_7" },
+            { 
+            "model": "mcme:block/animal_skull_7", "y": 90 },
+            { 
+            "model": "mcme:block/animal_skull_7", "y": 180 },
+            { 
+            "model": "mcme:block/animal_skull_7", "y": 270 },
+			{ 
+            "model": "mcme:block/animal_skull_8" },
+            { 
+            "model": "mcme:block/animal_skull_8", "y": 90 },
+            { 
+            "model": "mcme:block/animal_skull_8", "y": 180 },
+            { 
+            "model": "mcme:block/animal_skull_8", "y": 270 }
 		]
 	}
 
