@@ -5,7 +5,7 @@
         "age": 0
       },
       "apply": {
-        "model": "block/cactus_stage0"
+        "model": "block/chair"
       }
     },
     {
@@ -20,9 +20,10 @@
       "when": {
         "age": 2
       },
-      "apply": {
-        "model": "block/cactus_stage2"
-      }
+      "apply": [
+        { "model": "block/stool" },
+        { "model": "block/stool" }
+      ]
     },
     {
       "when": {
@@ -52,16 +53,16 @@
       "when": {
         "age": 6
       },
-      "apply": {
-        "model": "block/cactus_stage6"
-      }
-    },
+      "apply": [
+        { "model": "block/chair" }
+      ]
+      },
     {
       "when": {
         "age": 7
       },
       "apply": {
-        "model": "block/cactus_stage6",
+        "model": "block/chair",
         "y": 90
       }
     },
@@ -70,7 +71,7 @@
         "age": 8
       },
       "apply": {
-        "model": "block/cactus_stage6",
+        "model": "block/chair",
         "y": 180
       }
     },
@@ -79,56 +80,30 @@
         "age": 9
       },
       "apply": {
-        "model": "block/cactus_stage6",
+        "model": "block/chair",
         "y": 270
       }
     },
     {
       "when": {
-        "OR": [
-          {
-            "age": "10"
-          },
-          {
-            "age": "11"
-          },
-          {
-            "age": "12"
-          },
-          {
-            "age": "13"
-          },
-          {
-            "age": "14"
-          }
-        ]
+        "age": 10
       },
-      "apply": {
-        "model": "block/tree_spruce_middle"
-      }
+      "apply": [
+        { "model": "block/small_table" },
+        { "model": "block/small_table_2" }
+      ]
+    },
+    {
+      "when": {
+        "age": 11
+      },
+      "apply": [
+        { "model": "block/tree_spruce_sides" }
+      ]
     },
     {
       "when": {
         "OR": [
-          {
-            "age": "10"
-          },
-          {
-            "age": "13"
-          }
-        ]
-      },
-      "apply": {
-        "model": "block/tree_spruce_sides",
-        "x": 90
-      }
-    },
-    {
-      "when": {
-        "OR": [
-          {
-            "age": "11"
-          },
           {
             "age": "13"
           },
