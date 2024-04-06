@@ -22,7 +22,8 @@
       },
       "apply": [
         { "model": "block/stool" },
-        { "model": "block/stool" }
+        { "model": "block/stool_2" },
+        { "model": "block/stool_3" }
       ]
     },
     {
@@ -103,36 +104,26 @@
     },
     {
       "when": {
-        "OR": [
-          {
-            "age": "13"
-          },
-          {
-            "age": "14"
-          }
-        ]
+        "age": 12
       },
-      "apply": {
-        "model": "block/tree_spruce_sides",
-        "y": 90
-      }
+      "apply": [
+        { "model": "block/large_table" }
+      ]
     },
     {
       "when": {
-        "OR": [
-          {
-            "age": "12"
-          },
-          {
-            "age": "13"
-          },
-          {
-            "age": "14"
-          }
-        ]
+        "age": 13
+      },
+      "apply": [
+        { "model": "block/bench" }
+      ]
+    },
+    {
+      "when": {
+        "age": 14
       },
       "apply": {
-        "model": "block/tree_spruce_sides"
+        "model": "block/bench"
       }
     },
     {
@@ -140,7 +131,8 @@
         "age": 15
       },
       "apply": {
-        "model": "block/barrel"
+        "model": "block/bench",
+        "y": 90
       }
     }
   ]
