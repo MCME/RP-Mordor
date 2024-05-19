@@ -723,7 +723,7 @@
         "powered": "true"
       },
       "apply": {
-        "model": "block/replace",
+        "model": "block/birch_door_top",
         "y": 90
       }
     },
@@ -736,7 +736,7 @@
         "powered": "true"
       },
       "apply": {
-        "model": "block/replace",
+        "model": "block/birch_door_top",
         "y": 180
       }
     },
@@ -749,7 +749,7 @@
         "powered": "true"
       },
       "apply": {
-        "model": "block/replace",
+        "model": "block/birch_door_top",
         "y": 270
       }
     },
@@ -762,7 +762,7 @@
         "powered": "true"
       },
       "apply": {
-        "model": "block/replace"
+        "model": "block/birch_door_top"
       }
     },
     {

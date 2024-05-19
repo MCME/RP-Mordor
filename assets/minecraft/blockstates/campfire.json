@@ -1,9 +1,9 @@
 {
     "variants": {
-        "facing=north,lit=true,signal_fire=false": { "model": "block/campfire", "y": 180 },
-        "facing=south,lit=true,signal_fire=false": { "model": "block/campfire" },
-        "facing=east,lit=true,signal_fire=false": { "model": "block/campfire", "y": 270 },
-        "facing=west,lit=true,signal_fire=false": { "model": "block/campfire", "y": 90 },
+        "facing=north,lit=true,signal_fire=false": { "model": "block/replace_luminous", "y": 180 },
+        "facing=south,lit=true,signal_fire=false": { "model": "block/replace_luminous" },
+        "facing=east,lit=true,signal_fire=false": { "model": "block/replace_luminous", "y": 270 },
+        "facing=west,lit=true,signal_fire=false": { "model": "block/replace_luminous", "y": 90 },
       "facing=north,lit=false,signal_fire=false": [
 					{ "model": "block/boulders_mossy" },
 					{ "model": "block/boulders_mossy", "y": 90 },
@@ -108,13 +108,13 @@
 					{ "model": "block/boulders_mixed_6", "y": 180 },
 					{ "model": "block/boulders_mixed_6", "y": 270 }
 					],
-        "facing=north,lit=true,signal_fire=true": { "model": "block/campfire", "y": 180 },
-        "facing=south,lit=true,signal_fire=true": { "model": "block/campfire" },
-        "facing=east,lit=true,signal_fire=true": { "model": "block/campfire", "y": 270 },
-        "facing=west,lit=true,signal_fire=true": { "model": "block/campfire", "y": 90 },
+        "facing=north,lit=true,signal_fire=true": { "model": "block/replace_luminous", "y": 180 },
+        "facing=south,lit=true,signal_fire=true": { "model": "block/replace_luminous" },
+        "facing=east,lit=true,signal_fire=true": { "model": "block/replace_luminous", "y": 270 },
+        "facing=west,lit=true,signal_fire=true": { "model": "block/replace_luminous", "y": 90 },
         "facing=north,lit=false,signal_fire=true": { "model": "itemblock/bed_blue_half" },
         "facing=south,lit=false,signal_fire=true": { "model": "itemblock/bed_green_half" },
         "facing=east,lit=false,signal_fire=true": { "model": "itemblock/bed_grey_half" },
-        "facing=west,lit=false,signal_fire=true": { "model": "block/campfire_off", "y": 90 }
+        "facing=west,lit=false,signal_fire=true": { "model": "block/replace_slab", "y": 90 }
     }
 }

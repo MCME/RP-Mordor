@@ -1,0 +1,7 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "top": "block/replace",
+	"side": "block/replace"
+  }
+}

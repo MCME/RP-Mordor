@@ -13,7 +13,7 @@
         "age": 1
       },
       "apply": {
-        "model": "block/cactus_stage1"
+        "model": "block/replace_cutout"
       }
     },
     {
@@ -31,7 +31,7 @@
         "age": 3
       },
       "apply": {
-        "model": "block/cactus_stage3"
+        "model": "block/replace_cutout"
       }
     },
     {
@@ -39,7 +39,7 @@
         "age": 4
       },
       "apply": {
-        "model": "block/cactus_stage4"
+        "model": "block/replace_cutout"
       }
     },
     {
@@ -47,7 +47,7 @@
         "age": 5
       },
       "apply": {
-        "model": "block/cactus_stage5"
+        "model": "block/replace_cutout"
       }
     },
     {
@@ -99,7 +99,7 @@
         "age": 11
       },
       "apply": [
-        { "model": "block/tree_spruce_sides" }
+        { "model": "block/replace_cutout" }
       ]
     },
     {
