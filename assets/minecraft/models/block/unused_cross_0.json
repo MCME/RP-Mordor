@@ -1,6 +1,6 @@
 {
   "parent": "block/cross",
   "textures": {
-    "cross": "block/unusedb00"
+    "cross": "block/replace"
   }
 }

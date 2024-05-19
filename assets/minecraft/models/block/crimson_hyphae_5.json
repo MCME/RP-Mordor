@@ -3,7 +3,7 @@
   "textures": {
     "particle": "block/crimson_hyphae_6",
     "down": "block/crimson_hyphae_6",
-    "up": "block/brown_mushroom_block_ne",
+    "up": "block/brown_mushroom_block_newd_top_1",
     "north": "block/crimson_hyphae_6",
     "east": "block/crimson_hyphae_6",
     "south": "block/crimson_hyphae_6",

@@ -89,6 +89,33 @@
         "y": 90,
         "x": 90
       }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "triggered": "true"
+      },
+      "apply": {
+        "model": "block/replace_tile_entity"
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "triggered": "true"
+      },
+      "apply": {
+        "model": "block/replace_tile_entity"
+      }
+    },
+    {
+      "when": {
+        "facing": "up",
+        "triggered": "true"
+      },
+      "apply": {
+        "model": "block/replace_tile_entity"
+      }
     }
   ]
 }
