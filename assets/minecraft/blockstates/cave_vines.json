@@ -113,8 +113,27 @@
 	{ "model": "minecraft:block/web_2x2_5", "x":180, "y":270 }
 	],
 
-    "berries=true": {
-      "model": "minecraft:block/cave_vines_lit"
-    }
+   "berries=true,age=1": [
+	{  "model": "minecraft:block/chandelier"},
+	{  "model": "minecraft:block/chandelier", "y": 90},
+	{  "model": "minecraft:block/chandelier", "y": 180},
+	{  "model": "minecraft:block/chandelier", "y": 270}
+	],
+	"berries=true,age=2": [
+	{  "model": "minecraft:block/chandelier_big"},
+	{  "model": "minecraft:block/chandelier_big", "y": 90},
+	{  "model": "minecraft:block/chandelier_big", "y": 180},
+	{  "model": "minecraft:block/chandelier_big", "y": 270}
+	],
+	"berries=true,age=3": [
+	{  "model": "minecraft:block/brazier"},
+	{  "model": "minecraft:block/brazier", "y": 90},
+	{  "model": "minecraft:block/brazier", "y": 180},
+	{  "model": "minecraft:block/brazier", "y": 270}
+	],
+	"berries=false,age=16": [{ "model": "minecraft:block/leaning_ladder" },{ "model": "minecraft:block/leaning_ladder_3" }],
+	"berries=false,age=17": [{ "model": "minecraft:block/leaning_ladder_2"},{ "model": "minecraft:block/leaning_ladder_4"}],
+	"berries=false,age=18": [{ "model": "minecraft:block/leaning_ladder", "y": 180 },{ "model": "minecraft:block/leaning_ladder_3", "y": 180 }],
+	"berries=false,age=19": [{ "model": "minecraft:block/leaning_ladder_2", "y": 180 },{ "model": "minecraft:block/leaning_ladder_4", "y": 180 }]
   }
 }
