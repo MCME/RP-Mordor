@@ -8,7 +8,7 @@
         "west": "false"
       },
       "apply": {
-        "model": "block/tree_thin_oak_vertical"
+        "model": "block/replace_fence"
       }
     },
     {
@@ -26,7 +26,7 @@
         ]
       },
       "apply": {
-        "model": "block/tree_thin_oak_horizontal",
+        "model": "block/replace_fence",
         "uvlock": true
       }
     },
@@ -45,7 +45,7 @@
         ]
       },
       "apply": {
-        "model": "block/tree_thin_oak_horizontal",
+        "model": "block/replace_fence",
         "y": 90,
         "uvlock": true
       }
@@ -65,7 +65,7 @@
         ]
       },
       "apply": {
-        "model": "block/tree_thin_oak_horizontal",
+        "model": "block/replace_fence",
         "y": 180,
         "uvlock": true
       }
@@ -85,7 +85,7 @@
         ]
       },
       "apply": {
-        "model": "block/tree_thin_oak_horizontal",
+        "model": "block/replace_fence",
         "y": 270,
         "uvlock": true
       }
@@ -128,7 +128,7 @@
         ]
       },
       "apply": {
-        "model": "block/tree_thin_oak_center"
+        "model": "block/replace_fence"
       }
     },
     {
@@ -139,7 +139,7 @@
         "west": "false"
       },
       "apply": {
-        "model": "block/tree_thin_oak_center_alt"
+        "model": "block/replace_fence"
       }
     },
     {
@@ -150,7 +150,7 @@
         "west": "false"
       },
       "apply": {
-        "model": "block/tree_thin_oak_center_alt",
+        "model": "block/replace_fence",
         "y": 90,
         "uvlock": true
       }
@@ -163,7 +163,7 @@
         "west": "true"
       },
       "apply": {
-        "model": "block/tree_thin_oak_center_alt",
+        "model": "block/replace_fence",
         "y": 180,
         "uvlock": true
       }
@@ -176,7 +176,7 @@
         "west": "true"
       },
       "apply": {
-        "model": "block/tree_thin_oak_center_alt",
+        "model": "block/replace_fence",
         "y": 270,
         "uvlock": true
       }

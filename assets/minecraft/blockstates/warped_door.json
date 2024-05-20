@@ -9,7 +9,7 @@
         "powered": "false"
       },
       "apply": {
-        "model": "block/warped_door_bottom"
+        "model": "block/door_unused"
       }
     },
     {
@@ -21,7 +21,7 @@
         "powered": "false"
       },
       "apply": {
-        "model": "block/warped_door_bottom",
+        "model": "block/door_unused",
         "y": 90
       }
     },
@@ -34,7 +34,7 @@
         "powered": "false"
       },
       "apply": {
-        "model": "block/warped_door_bottom",
+        "model": "block/door_unused",
         "y": 180
       }
     },
@@ -47,7 +47,7 @@
         "powered": "false"
       },
       "apply": {
-        "model": "block/warped_door_bottom",
+        "model": "block/door_unused",
         "y": 270
       }
     },
@@ -60,7 +60,7 @@
         "powered": "false"
       },
       "apply": {
-        "model": "block/warped_door_bottom_hinge"
+        "model": "block/door_unused"
       }
     },
     {
@@ -72,7 +72,7 @@
         "powered": "false"
       },
       "apply": {
-        "model": "block/warped_door_bottom_hinge",
+        "model": "block/door_unused",
         "y": 90
       }
     },
@@ -85,7 +85,7 @@
         "powered": "false"
       },
       "apply": {
-        "model": "block/warped_door_bottom_hinge",
+        "model": "block/door_unused",
         "y": 180
       }
     },
@@ -98,7 +98,7 @@
         "powered": "false"
       },
       "apply": {
-        "model": "block/warped_door_bottom_hinge",
+        "model": "block/door_unused",
         "y": 270
       }
     },
@@ -111,7 +111,7 @@
         "powered": "false"
       },
       "apply": {
-        "model": "block/warped_door_bottom_rh_open",
+        "model": "block/door_unused",
         "y": 90
       }
     },
@@ -124,7 +124,7 @@
         "powered": "false"
       },
       "apply": {
-        "model": "block/warped_door_bottom_rh_open",
+        "model": "block/door_unused",
         "y": 180
       }
     },
@@ -137,7 +137,7 @@
         "powered": "false"
       },
       "apply": {
-        "model": "block/warped_door_bottom_rh_open",
+        "model": "block/door_unused",
         "y": 270
       }
     },
@@ -150,7 +150,7 @@
         "powered": "false"
       },
       "apply": {
-        "model": "block/warped_door_bottom_rh_open"
+        "model": "block/door_unused"
       }
     },
     {
@@ -162,7 +162,7 @@
         "powered": "false"
       },
       "apply": {
-        "model": "block/warped_door_bottom_open",
+        "model": "block/door_unused",
         "y": 270
       }
     },
@@ -175,7 +175,7 @@
         "powered": "false"
       },
       "apply": {
-        "model": "block/warped_door_bottom_open"
+        "model": "block/door_unused"
       }
     },
     {
@@ -187,7 +187,7 @@
         "powered": "false"
       },
       "apply": {
-        "model": "block/warped_door_bottom_open",
+        "model": "block/door_unused",
         "y": 90
       }
     },
@@ -200,7 +200,7 @@
         "powered": "false"
       },
       "apply": {
-        "model": "block/warped_door_bottom_open",
+        "model": "block/door_unused",
         "y": 180
       }
     },
@@ -412,6 +412,138 @@
       "when": {
         "facing": "east",
         "half": "lower",
+        "hinge": "left",
+        "open": "false",
+        "powered": "true"
+      },
+      "apply": [
+	{ "model": "minecraft:block/door_unused" }]
+    },
+    {
+      "when": {
+        "facing": "south",
+        "half": "lower",
+        "hinge": "left",
+        "open": "false",
+        "powered": "true"
+      },
+      "apply": [
+	{ "model": "minecraft:block/door_unused", "y": 90 }]
+    },
+    {
+      "when": {
+        "facing": "west",
+        "half": "lower",
+        "hinge": "left",
+        "open": "false",
+        "powered": "true"
+      },
+      "apply": [
+	{ "model": "minecraft:block/door_unused", "y": 180 }]
+    },
+    {
+      "when": {
+        "facing": "north",
+        "half": "lower",
+        "hinge": "left",
+        "open": "false",
+        "powered": "true"
+      },
+      "apply": [
+	{ "model": "minecraft:block/door_unused", "y": 270 }]
+    },
+    {
+      "when": {
+        "facing": "east",
+        "half": "lower",
+        "hinge": "left",
+        "open": "true",
+        "powered": "true"
+      },
+      "apply": [
+	{ "model": "minecraft:block/door_unused", "y": 90 }]
+    },
+    {
+      "when": {
+        "facing": "south",
+        "half": "lower",
+        "hinge": "left",
+        "open": "true",
+        "powered": "true"
+      },
+      "apply": [
+	{ "model": "minecraft:block/door_unused", "y": 180  }]
+    },
+    {
+      "when": {
+        "facing": "west",
+        "half": "lower",
+        "hinge": "left",
+        "open": "true",
+        "powered": "true"
+      },
+      "apply": [
+	{ "model": "minecraft:block/door_unused", "y": 270 }]
+    },
+    {
+      "when": {
+        "facing": "north",
+        "half": "lower",
+        "hinge": "left",
+        "open": "true",
+        "powered": "true"
+      },
+      "apply": [
+	{ "model": "minecraft:block/door_unused" }]
+    },
+    {
+      "when": {
+        "facing": "east",
+        "half": "lower",
+        "hinge": "right",
+        "open": "false",
+        "powered": "true"
+      },
+      "apply": [
+	{ "model": "minecraft:block/door_unused" }]
+    },
+    {
+      "when": {
+        "facing": "south",
+        "half": "lower",
+        "hinge": "right",
+        "open": "false",
+        "powered": "true"
+      },
+      "apply": [
+	{ "model": "minecraft:block/door_unused", "y": 90  }]
+    },
+    {
+      "when": {
+        "facing": "west",
+        "half": "lower",
+        "hinge": "right",
+        "open": "false",
+        "powered": "true"
+      },
+      "apply": [
+	{ "model": "minecraft:block/door_unused", "y": 180 }]
+    },
+    {
+      "when": {
+        "facing": "north",
+        "half": "lower",
+        "hinge": "right",
+        "open": "false",
+        "powered": "true"
+      },
+      "apply": [
+	{ "model": "minecraft:block/door_unused", "y": 270 }]
+    },
+    {
+      "when": {
+        "facing": "east",
+        "half": "lower",
         "hinge": "right",
         "open": "true",
         "powered": "true"
@@ -523,7 +655,7 @@
         "powered": "true"
       },
       "apply": {
-        "model": "block/unused_block_0"
+        "model": "block/door_unused"
       }
     },
     {
@@ -535,7 +667,7 @@
         "powered": "true"
       },
       "apply": {
-        "model": "block/unused_block_0",
+        "model": "block/door_unused",
         "y": 90
       }
     },
@@ -548,7 +680,7 @@
         "powered": "true"
       },
       "apply": {
-        "model": "block/unused_block_0",
+        "model": "block/door_unused",
         "y": 180
       }
     },
@@ -561,7 +693,7 @@
         "powered": "true"
       },
       "apply": {
-        "model": "block/unused_block_0",
+        "model": "block/door_unused",
         "y": 270
       }
     },
@@ -630,7 +762,7 @@
         "powered": "true"
       },
       "apply": {
-        "model": "block/unused_block_0",
+        "model": "block/door_unused",
         "y": 270
       }
     },
@@ -643,7 +775,7 @@
         "powered": "true"
       },
       "apply": {
-        "model": "block/unused_block_0"
+        "model": "block/door_unused"
       }
     },
     {
@@ -655,7 +787,7 @@
         "powered": "true"
       },
       "apply": {
-        "model": "block/unused_block_0",
+        "model": "block/door_unused",
         "y": 90
       }
     },
@@ -668,7 +800,7 @@
         "powered": "true"
       },
       "apply": {
-        "model": "block/unused_block_0",
+        "model": "block/door_unused",
         "y": 180
       }
     }

@@ -15,6 +15,7 @@
 		],
     "moisture\u003d4": { "model": "block/replace" },
     "moisture\u003d5": { "model": "block/replace" },
-    "moisture\u003d6": { "model": "block/replace" }
+    "moisture\u003d6": { "model": "block/replace" },
+    "moisture\u003d7": { "model": "block/replace" }
   }
 }

@@ -8,7 +8,7 @@
         "powered": "false"
       },
       "apply": {
-        "model": "block/birch_fence_gate",
+        "model": "block/replace_vertical_slab",
         "uvlock": true
       }
     },
@@ -20,7 +20,7 @@
         "powered": "false"
       },
       "apply": {
-        "model": "block/birch_fence_gate",
+        "model": "block/replace_vertical_slab",
         "uvlock": true,
         "y": 90
       }
@@ -33,7 +33,7 @@
         "powered": "false"
       },
       "apply": {
-        "model": "block/birch_fence_gate",
+        "model": "block/replace_vertical_slab",
         "uvlock": true,
         "y": 180
       }
@@ -46,7 +46,7 @@
         "powered": "false"
       },
       "apply": {
-        "model": "block/birch_fence_gate",
+        "model": "block/replace_vertical_slab",
         "uvlock": true,
         "y": 270
       }
@@ -71,7 +71,7 @@
         "powered": "false"
       },
       "apply": {
-        "model": "block/birch_fence_gate_open",
+        "model": "block/replace_vertical_slab",
         "uvlock": true,
         "y": 90
       }
@@ -84,7 +84,7 @@
         "powered": "false"
       },
       "apply": {
-        "model": "block/birch_fence_gate_open",
+        "model": "block/replace_vertical_slab",
         "uvlock": true,
         "y": 180
       }
@@ -97,7 +97,7 @@
         "powered": "false"
       },
       "apply": {
-        "model": "block/birch_fence_gate_open",
+        "model": "block/replace_vertical_slab",
         "uvlock": true,
         "y": 270
       }
@@ -161,7 +161,7 @@
         "powered": "false"
       },
       "apply": {
-        "model": "block/birch_fence_gate_wall_open",
+        "model": "block/replace_vertical_slab",
         "uvlock": true
       }
     },
@@ -173,7 +173,7 @@
         "powered": "false"
       },
       "apply": {
-        "model": "block/birch_fence_gate_wall_open",
+        "model": "block/replace_vertical_slab",
         "uvlock": true,
         "y": 90
       }
@@ -186,7 +186,7 @@
         "powered": "false"
       },
       "apply": {
-        "model": "block/birch_fence_gate_wall_open",
+        "model": "block/replace_vertical_slab",
         "uvlock": true,
         "y": 180
       }
@@ -199,7 +199,7 @@
         "powered": "false"
       },
       "apply": {
-        "model": "block/birch_fence_gate_wall_open",
+        "model": "block/replace_vertical_slab",
         "uvlock": true,
         "y": 270
       }
@@ -264,36 +264,7 @@
       },
       "apply": [
         {
-          "model": "block/clothesline_socks",
-          "weight": 1
-        },
-        {
-          "model": "block/clothesline_socks_1",
-          "weight": 1
-        },
-        {
-          "model": "block/clothesline_socks_2",
-          "weight": 1
-        },
-        {
-          "model": "block/clothesline_socks_3",
-          "weight": 1
-        },
-        {
-          "model": "block/clothesline_socks_4",
-          "weight": 1
-        },
-        {
-          "model": "block/clothesline_socks_5",
-          "weight": 1
-        },
-        {
-          "model": "block/clothesline_socks_6",
-          "weight": 1
-        },
-        {
-          "model": "block/clothesline_socks_7",
-          "weight": 1
+          "model": "block/replace_vertical_slab"
         }
       ]
     },
@@ -306,34 +277,7 @@
       },
       "apply": [
         {
-          "model": "block/clothesline_pants",
-          "weight": 1,
-          "y": 90
-        },
-        {
-          "model": "block/clothesline_pants_1",
-          "weight": 1,
-          "y": 90
-        },
-        {
-          "model": "block/clothesline_pants_2",
-          "weight": 1,
-          "y": 90
-        },
-        {
-          "model": "block/clothesline_pants_3",
-          "weight": 1,
-          "y": 90
-        },
-        {
-          "model": "block/clothesline_pants_4",
-          "weight": 1,
-          "y": 90
-        },
-        {
-          "model": "block/clothesline_pants_5",
-          "weight": 1,
-          "y": 90
+          "model": "block/replace_vertical_slab"
         }
       ]
     },
@@ -346,28 +290,7 @@
       },
       "apply": [
         {
-          "model": "block/clothesline_pants",
-          "weight": 1
-        },
-        {
-          "model": "block/clothesline_pants_1",
-          "weight": 1
-        },
-        {
-          "model": "block/clothesline_pants_2",
-          "weight": 1
-        },
-        {
-          "model": "block/clothesline_pants_3",
-          "weight": 1
-        },
-        {
-          "model": "block/clothesline_pants_4",
-          "weight": 1
-        },
-        {
-          "model": "block/clothesline_pants_5",
-          "weight": 1
+          "model": "block/replace_vertical_slab"
         }
       ]
     },
@@ -380,44 +303,7 @@
       },
       "apply": [
         {
-          "model": "block/clothesline_socks",
-          "weight": 1,
-          "y": 90
-        },
-        {
-          "model": "block/clothesline_socks_1",
-          "weight": 1,
-          "y": 90
-        },
-        {
-          "model": "block/clothesline_socks_2",
-          "weight": 1,
-          "y": 90
-        },
-        {
-          "model": "block/clothesline_socks_3",
-          "weight": 1,
-          "y": 90
-        },
-        {
-          "model": "block/clothesline_socks_4",
-          "weight": 1,
-          "y": 90
-        },
-        {
-          "model": "block/clothesline_socks_5",
-          "weight": 1,
-          "y": 90
-        },
-        {
-          "model": "block/clothesline_socks_6",
-          "weight": 1,
-          "y": 90
-        },
-        {
-          "model": "block/clothesline_socks_7",
-          "weight": 1,
-          "y": 90
+          "model": "block/replace_vertical_slab"
         }
       ]
     },
@@ -481,60 +367,7 @@
       },
       "apply": [
         {
-          "model": "block/clothesline_rag",
-          "weight": 1
-        },
-        {
-          "model": "block/clothesline_rag_1",
-          "weight": 1
-        },
-        {
-          "model": "block/clothesline_rag_2",
-          "weight": 1
-        },
-        {
-          "model": "block/clothesline_rag_3",
-          "weight": 1
-        },
-        {
-          "model": "block/clothesline_rag_4",
-          "weight": 1
-        },
-        {
-          "model": "block/clothesline_rag_5",
-          "weight": 1
-        },
-        {
-          "model": "block/clothesline_rag_6",
-          "weight": 1
-        },
-        {
-          "model": "block/clothesline_rag_7",
-          "weight": 1
-        },
-        {
-          "model": "block/clothesline_rag_8",
-          "weight": 1
-        },
-        {
-          "model": "block/clothesline_rag_9",
-          "weight": 1
-        },
-        {
-          "model": "block/clothesline_rag_10",
-          "weight": 1
-        },
-        {
-          "model": "block/clothesline_rag_11",
-          "weight": 1
-        },
-        {
-          "model": "block/clothesline_rag_12",
-          "weight": 1
-        },
-        {
-          "model": "block/clothesline_rag_13",
-          "weight": 1
+          "model": "block/replace_vertical_slab"
         }
       ]
     },
@@ -547,34 +380,7 @@
       },
       "apply": [
         {
-          "model": "block/clothesline_sheet",
-          "weight": 1,
-          "y": 90
-        },
-        {
-          "model": "block/clothesline_sheet_1",
-          "weight": 1,
-          "y": 90
-        },
-        {
-          "model": "block/clothesline_sheet_2",
-          "weight": 1,
-          "y": 90
-        },
-        {
-          "model": "block/clothesline_sheet_3",
-          "weight": 1,
-          "y": 90
-        },
-        {
-          "model": "block/clothesline_sheet_4",
-          "weight": 1,
-          "y": 90
-        },
-        {
-          "model": "block/clothesline_sheet_5",
-          "weight": 1,
-          "y": 90
+          "model": "block/replace_vertical_slab"
         }
       ]
     },
@@ -587,28 +393,7 @@
       },
       "apply": [
         {
-          "model": "block/clothesline_sheet",
-          "weight": 1
-        },
-        {
-          "model": "block/clothesline_sheet_1",
-          "weight": 1
-        },
-        {
-          "model": "block/clothesline_sheet_2",
-          "weight": 1
-        },
-        {
-          "model": "block/clothesline_sheet_3",
-          "weight": 1
-        },
-        {
-          "model": "block/clothesline_sheet_4",
-          "weight": 1
-        },
-        {
-          "model": "block/clothesline_sheet_5",
-          "weight": 1
+          "model": "block/replace_vertical_slab"
         }
       ]
     },
@@ -621,74 +406,20 @@
       },
       "apply": [
         {
-          "model": "block/clothesline_rag",
-          "weight": 1,
-          "y": 90
-        },
+          "model": "block/replace_vertical_slab"
+        }
+      ]
+    },
+    {
+      "when": {
+        "facing": "south",
+        "in_wall": "false",
+        "open": "true",
+        "powered": "false"
+      },
+      "apply": [
         {
-          "model": "block/clothesline_rag_1",
-          "weight": 1,
-          "y": 90
-        },
-        {
-          "model": "block/clothesline_rag_2",
-          "weight": 1,
-          "y": 90
-        },
-        {
-          "model": "block/clothesline_rag_3",
-          "weight": 1,
-          "y": 90
-        },
-        {
-          "model": "block/clothesline_rag_4",
-          "weight": 1,
-          "y": 90
-        },
-        {
-          "model": "block/clothesline_rag_5",
-          "weight": 1,
-          "y": 90
-        },
-        {
-          "model": "block/clothesline_rag_6",
-          "weight": 1,
-          "y": 90
-        },
-        {
-          "model": "block/clothesline_rag_7",
-          "weight": 1,
-          "y": 90
-        },
-        {
-          "model": "block/clothesline_rag_8",
-          "weight": 1,
-          "y": 90
-        },
-        {
-          "model": "block/clothesline_rag_9",
-          "weight": 1,
-          "y": 90
-        },
-        {
-          "model": "block/clothesline_rag_10",
-          "weight": 1,
-          "y": 90
-        },
-        {
-          "model": "block/clothesline_rag_11",
-          "weight": 1,
-          "y": 90
-        },
-        {
-          "model": "block/clothesline_rag_12",
-          "weight": 1,
-          "y": 90
-        },
-        {
-          "model": "block/clothesline_rag_13",
-          "weight": 1,
-          "y": 90
+          "model": "block/replace_vertical_slab"
         }
       ]
     }

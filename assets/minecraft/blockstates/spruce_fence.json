@@ -65,6 +65,54 @@
 	  {"model": "block/beam_side_rusty_3", "y":180}
 	  ],
       "when": {"north": "false", "east": "true", "south": "true", "west": "false"}
+    },
+	{
+      "apply": [
+	  {"model": "block/replace_fence" }
+	  ],
+      "when": {"north": "false", "east": "false", "south": "false", "west": "false"}
+    },
+	{
+      "apply": [
+	  {"model": "block/replace_fence" }
+	  ],
+      "when": {"north": "false", "east": "true", "south": "false", "west": "true"}
+    },
+	{
+      "apply": [
+	  {"model": "block/replace_fence" }
+	  ],
+      "when": {"north": "false", "east": "true", "south": "true", "west": "true"}
+    },
+	{
+      "apply": [
+	  {"model": "block/replace_fence" }
+	  ],
+      "when": {"north": "true", "east": "false", "south": "false", "west": "true"}
+    },
+	{
+      "apply": [
+	  {"model": "block/replace_fence" }
+	  ],
+      "when": {"north": "true", "east": "false", "south": "true", "west": "false"}
+    },
+	{
+      "apply": [
+	  {"model": "block/replace_fence" }
+	  ],
+      "when": {"north": "true", "east": "true", "south": "false", "west": "true"}
+    },
+	{
+      "apply": [
+	  {"model": "block/replace_fence" }
+	  ],
+      "when": {"north": "true", "east": "true", "south": "true", "west": "false"}
+    },
+	{
+      "apply": [
+	  {"model": "block/replace_fence" }
+	  ],
+      "when": {"north": "true", "east": "true", "south": "true", "west": "true"}
     }
   ]
 }
