@@ -1,16 +1,60 @@
 {
-  "variants": {
-    "bottom=false,distance=7": { "model": "minecraft:block/scaffolding_1x1arch" },
-	"bottom=false,distance=0": { "model": "minecraft:block/scaffolding_1x1arch", "y":90 },
-	"bottom=false,distance=1": { "model": "minecraft:block/scaffolding_stone_window", "y":90 },
-	"bottom=false,distance=2": { "model": "minecraft:block/scaffolding_stone_window" },
-	"bottom=false,distance=3": { "model": "minecraft:block/scaffolding_stone_window", "y":90, "x":180 },
-	"bottom=false,distance=4": { "model": "minecraft:block/scaffolding_stone_window", "x":180 },
-	"bottom=false,distance=5": { "model": "minecraft:block/dark_stone_arch" },
-	"bottom=false,distance=6": { "model": "minecraft:block/dark_stone_arch", "y":90  },
-	"bottom=true,distance=7": { "model": "minecraft:block/smooth_sandstone_stone_arch" },
-	"bottom=true,distance=0": { "model": "minecraft:block/smooth_sandstone_stone_arch", "y":90  },
-	"bottom=true,distance=1": { "model": "minecraft:block/nether_bricks_stone_arch" },
-	"bottom=true,distance=2": { "model": "minecraft:block/nether_bricks_stone_arch", "y":90  }
-  }
+    "variants": {
+        "bottom=false,distance=7": {
+            "model": "minecraft:block/scaffolding_1x1arch"
+        },
+        "bottom=false,distance=0": {
+            "model": "minecraft:block/scaffolding_1x1arch",
+            "y": 90
+        },
+        "bottom=false,distance=1": {
+            "model": "minecraft:block/scaffolding_stone_window",
+            "y": 90
+        },
+        "bottom=false,distance=2": {
+            "model": "minecraft:block/scaffolding_stone_window"
+        },
+        "bottom=false,distance=3": {
+            "model": "minecraft:block/scaffolding_stone_window",
+            "y": 90,
+            "x": 180
+        },
+        "bottom=false,distance=4": {
+            "model": "minecraft:block/scaffolding_stone_window",
+            "x": 180
+        },
+        "bottom=false,distance=5": {
+            "model": "minecraft:block/dark_stone_arch"
+        },
+        "bottom=false,distance=6": {
+            "model": "minecraft:block/dark_stone_arch",
+            "y": 90
+        },
+        "bottom=true,distance=7": {
+            "model": "minecraft:block/replace_cutout"
+        },
+        "bottom=true,distance=0": {
+            "model": "minecraft:block/smooth_sandstone_stone_arch",
+            "y": 90
+        },
+        "bottom=true,distance=1": {
+            "model": "minecraft:block/nether_bricks_stone_arch"
+        },
+        "bottom=true,distance=2": {
+            "model": "minecraft:block/nether_bricks_stone_arch",
+            "y": 90
+        },
+        "bottom=true,distance=3": {
+            "model": "minecraft:block/replace_cutout"
+        },
+        "bottom=true,distance=4": {
+            "model": "minecraft:block/replace_cutout"
+        },
+        "bottom=true,distance=5": {
+            "model": "minecraft:block/replace_cutout"
+        },
+        "bottom=true,distance=6": {
+            "model": "minecraft:block/replace_cutout"
+        }
+    }
 }

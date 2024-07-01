@@ -1,7 +1,9 @@
 {
-  "variants": {
-    "": [
-      { "model": "block/light_blue_concrete_powder" }
-    ]
-  }
+    "variants": {
+        "": [
+            {
+                "model": "block/light_blue_concrete_powder"
+            }
+        ]
+    }
 }

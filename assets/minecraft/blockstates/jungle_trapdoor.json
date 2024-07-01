@@ -1,37 +1,113 @@
 {
     "variants": {
-        "facing=north,half=bottom,open=false,powered=false": { "model": "block/trapdoor_black_brick_bottom" },
-        "facing=south,half=bottom,open=false,powered=false": { "model": "block/trapdoor_large_white_brick_bottom" },
-        "facing=east,half=bottom,open=false,powered=false": { "model": "block/trapdoor_cracked_small_white_brick_bottom" },
-        "facing=west,half=bottom,open=false,powered=false": { "model": "block/trapdoor_dark_brick_bottom" },
-        "facing=north,half=top,open=false,powered=false": { "model": "block/trapdoor_black_brick_top" },
-        "facing=south,half=top,open=false,powered=false": { "model": "block/trapdoor_large_white_brick_top"},
-        "facing=east,half=top,open=false,powered=false": { "model": "block/trapdoor_cracked_small_white_brick_top" },
-        "facing=west,half=top,open=false,powered=false": { "model": "block/trapdoor_dark_brick_top" },
-        "facing=north,half=bottom,open=true,powered=false": { "model": "block/trapdoor_cracked_small_white_brick_open", "y": 0 },
-        "facing=south,half=bottom,open=true,powered=false": { "model": "block/trapdoor_cracked_small_white_brick_open",  "y": 180 },
-        "facing=east,half=bottom,open=true,powered=false": { "model": "block/trapdoor_cracked_small_white_brick_open",  "y": 90 },
-        "facing=west,half=bottom,open=true,powered=false": { "model": "block/trapdoor_cracked_small_white_brick_open",  "y": 270 },
-        "facing=north,half=top,open=true,powered=false": { "model": "block/trapdoor_black_cobble_open" },
-        "facing=south,half=top,open=true,powered=false": { "model": "block/trapdoor_black_cobble_open", "y": 180 },
-        "facing=east,half=top,open=true,powered=false": { "model": "block/trapdoor_black_cobble_open", "y": 90 },
-        "facing=west,half=top,open=true,powered=false": { "model": "block/trapdoor_black_cobble_open", "y": 270 },
-		
-        "facing=north,half=bottom,open=false,powered=true": { "model": "block/trapdoor_green_brick_bottom" },
-        "facing=south,half=bottom,open=false,powered=true": { "model": "block/trapdoor_black_cobble_bottom" },
-        "facing=east,half=bottom,open=false,powered=true": { "model": "block/trapdoor_red_black_bricks_bottom" },
-        "facing=west,half=bottom,open=false,powered=true": { "model": "block/trapdoor_dark_cobble_bottom" },
-        "facing=north,half=top,open=false,powered=true": { "model": "block/trapdoor_green_brick_top" },
-        "facing=south,half=top,open=false,powered=true": { "model": "block/trapdoor_black_cobble_top" },
-        "facing=east,half=top,open=false,powered=true": { "model": "block/trapdoor_red_black_bricks_top" },
-        "facing=west,half=top,open=false,powered=true": { "model": "block/trapdoor_dark_cobble_top" },
-        "facing=north,half=bottom,open=true,powered=true": { "model": "block/trapdoor_green_brick_open" },
-        "facing=south,half=bottom,open=true,powered=true": { "model": "block/trapdoor_green_brick_open", "y": 180 },
-        "facing=east,half=bottom,open=true,powered=true": { "model": "block/trapdoor_green_brick_open", "y": 90 },
-        "facing=west,half=bottom,open=true,powered=true": { "model": "block/trapdoor_green_brick_open", "y": 270 },
-        "facing=north,half=top,open=true,powered=true": { "model": "block/trapdoor_smooth_white_stone_open" },
-        "facing=south,half=top,open=true,powered=true": { "model": "block/trapdoor_smooth_white_stone_open", "y": 180 },
-        "facing=east,half=top,open=true,powered=true": { "model": "block/trapdoor_smooth_white_stone_open", "y": 90 },
-        "facing=west,half=top,open=true,powered=true": { "model": "block/trapdoor_smooth_white_stone_open",  "y": 270 }
+        "facing=north,half=bottom,open=false,powered=false": {
+            "model": "block/trapdoor_black_brick_bottom"
+        },
+        "facing=south,half=bottom,open=false,powered=false": {
+            "model": "block/trapdoor_large_white_brick_bottom"
+        },
+        "facing=east,half=bottom,open=false,powered=false": {
+            "model": "block/trapdoor_cracked_small_white_brick_bottom"
+        },
+        "facing=west,half=bottom,open=false,powered=false": {
+            "model": "block/trapdoor_dark_brick_bottom"
+        },
+        "facing=north,half=top,open=false,powered=false": {
+            "model": "block/trapdoor_black_brick_top"
+        },
+        "facing=south,half=top,open=false,powered=false": {
+            "model": "block/trapdoor_large_white_brick_top"
+        },
+        "facing=east,half=top,open=false,powered=false": {
+            "model": "block/trapdoor_cracked_small_white_brick_top"
+        },
+        "facing=west,half=top,open=false,powered=false": {
+            "model": "block/trapdoor_dark_brick_top"
+        },
+        "facing=north,half=bottom,open=true,powered=false": {
+            "model": "block/trapdoor_cracked_small_white_brick_open",
+            "y": 0
+        },
+        "facing=south,half=bottom,open=true,powered=false": {
+            "model": "block/trapdoor_cracked_small_white_brick_open",
+            "y": 180
+        },
+        "facing=east,half=bottom,open=true,powered=false": {
+            "model": "block/trapdoor_cracked_small_white_brick_open",
+            "y": 90
+        },
+        "facing=west,half=bottom,open=true,powered=false": {
+            "model": "block/trapdoor_cracked_small_white_brick_open",
+            "y": 270
+        },
+        "facing=north,half=top,open=true,powered=false": {
+            "model": "block/trapdoor_black_cobble_open"
+        },
+        "facing=south,half=top,open=true,powered=false": {
+            "model": "block/trapdoor_black_cobble_open",
+            "y": 180
+        },
+        "facing=east,half=top,open=true,powered=false": {
+            "model": "block/trapdoor_black_cobble_open",
+            "y": 90
+        },
+        "facing=west,half=top,open=true,powered=false": {
+            "model": "block/trapdoor_black_cobble_open",
+            "y": 270
+        },
+        "facing=north,half=bottom,open=false,powered=true": {
+            "model": "block/trapdoor_green_brick_bottom"
+        },
+        "facing=south,half=bottom,open=false,powered=true": {
+            "model": "block/trapdoor_black_cobble_bottom"
+        },
+        "facing=east,half=bottom,open=false,powered=true": {
+            "model": "block/trapdoor_red_black_bricks_bottom"
+        },
+        "facing=west,half=bottom,open=false,powered=true": {
+            "model": "block/trapdoor_dark_cobble_bottom"
+        },
+        "facing=north,half=top,open=false,powered=true": {
+            "model": "block/trapdoor_green_brick_top"
+        },
+        "facing=south,half=top,open=false,powered=true": {
+            "model": "block/trapdoor_black_cobble_top"
+        },
+        "facing=east,half=top,open=false,powered=true": {
+            "model": "block/trapdoor_red_black_bricks_top"
+        },
+        "facing=west,half=top,open=false,powered=true": {
+            "model": "block/trapdoor_dark_cobble_top"
+        },
+        "facing=north,half=bottom,open=true,powered=true": {
+            "model": "block/trapdoor_green_brick_open"
+        },
+        "facing=south,half=bottom,open=true,powered=true": {
+            "model": "block/trapdoor_green_brick_open",
+            "y": 180
+        },
+        "facing=east,half=bottom,open=true,powered=true": {
+            "model": "block/trapdoor_green_brick_open",
+            "y": 90
+        },
+        "facing=west,half=bottom,open=true,powered=true": {
+            "model": "block/trapdoor_green_brick_open",
+            "y": 270
+        },
+        "facing=north,half=top,open=true,powered=true": {
+            "model": "block/trapdoor_smooth_white_stone_open"
+        },
+        "facing=south,half=top,open=true,powered=true": {
+            "model": "block/trapdoor_smooth_white_stone_open",
+            "y": 180
+        },
+        "facing=east,half=top,open=true,powered=true": {
+            "model": "block/trapdoor_smooth_white_stone_open",
+            "y": 90
+        },
+        "facing=west,half=top,open=true,powered=true": {
+            "model": "block/trapdoor_smooth_white_stone_open",
+            "y": 270
+        }
     }
 }

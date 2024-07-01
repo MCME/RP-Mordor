@@ -1,62 +1,62 @@
 {
-  "variants": {
-    "axis=x": [
-      {
-        "model": "minecraft:block/replace",
-        "x": 90,
-        "y": 90
-      },
-      {
-        "model": "minecraft:block/replace",
-        "x": 90,
-        "y": 90
-      },
-      {
-        "model": "minecraft:block/replace",
-        "x": 90,
-        "y": 90
-      },
-      {
-        "model": "minecraft:block/replace",
-        "x": 90,
-        "y": 90
-      }
-    ],
-    "axis=y": [
-      {
-        "model": "minecraft:block/replace"
-      },
-      {
-        "model": "minecraft:block/replace"
-      },
-      {
-        "model": "minecraft:block/replace",
-        "y": 180
-      },
-      {
-        "model": "minecraft:block/replace",
-        "y": 180
-      }
-    ],
-    "axis=z": [
-      {
-        "model": "minecraft:block/replace",
-        "x": 90
-      },
-      {
-        "model": "minecraft:block/replace",
-        "x": 90
-      },
-      {
-        "model": "minecraft:block/replace",
-        "x": 90,
-        "y": 180
-      },
-      {
-        "model": "minecraft:block/replace",
-        "x": 90,
-        "y": 180
-      }
-    ]
-  }
+    "variants": {
+        "axis=x": [
+            {
+                "model": "minecraft:block/replace",
+                "x": 90,
+                "y": 90
+            },
+            {
+                "model": "minecraft:block/replace",
+                "x": 90,
+                "y": 90
+            },
+            {
+                "model": "minecraft:block/replace",
+                "x": 90,
+                "y": 90
+            },
+            {
+                "model": "minecraft:block/replace",
+                "x": 90,
+                "y": 90
+            }
+        ],
+        "axis=y": [
+            {
+                "model": "minecraft:block/replace"
+            },
+            {
+                "model": "minecraft:block/replace"
+            },
+            {
+                "model": "minecraft:block/replace",
+                "y": 180
+            },
+            {
+                "model": "minecraft:block/replace",
+                "y": 180
+            }
+        ],
+        "axis=z": [
+            {
+                "model": "minecraft:block/replace",
+                "x": 90
+            },
+            {
+                "model": "minecraft:block/replace",
+                "x": 90
+            },
+            {
+                "model": "minecraft:block/replace",
+                "x": 90,
+                "y": 180
+            },
+            {
+                "model": "minecraft:block/replace",
+                "x": 90,
+                "y": 180
+            }
+        ]
+    }
 }

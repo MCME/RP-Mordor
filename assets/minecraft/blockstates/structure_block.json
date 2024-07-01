@@ -1,16 +1,16 @@
 {
-  "variants": {
-    "mode=corner": {
-      "model": "minecraft:block/do_not_use"
-    },
-    "mode=data": {
-      "model": "minecraft:block/do_not_use"
-    },
-    "mode=load": {
-      "model": "minecraft:block/do_not_use"
-    },
-    "mode=save": {
-      "model": "minecraft:block/do_not_use"
+    "variants": {
+        "mode=corner": {
+            "model": "minecraft:block/do_not_use"
+        },
+        "mode=data": {
+            "model": "minecraft:block/do_not_use"
+        },
+        "mode=load": {
+            "model": "minecraft:block/do_not_use"
+        },
+        "mode=save": {
+            "model": "minecraft:block/do_not_use"
+        }
     }
-  }
 }

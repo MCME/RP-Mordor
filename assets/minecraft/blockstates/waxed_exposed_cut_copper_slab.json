@@ -1,14 +1,29 @@
 {
     "variants": {
         "type=bottom": [
-			{ "model": "block/black_small_bricks_slab" },
-			{ "model": "block/black_small_bricks_slab_2" },
-			{ "model": "block/black_small_bricks_slab_3" }
-			],
+            {
+                "model": "block/black_small_bricks_slab"
+            },
+            {
+                "model": "block/black_small_bricks_slab_2"
+            },
+            {
+                "model": "block/black_small_bricks_slab_3"
+            }
+        ],
         "type=top": [
-			{ "model": "block/black_small_bricks_slab", "x": 180 },
-			{ "model": "block/black_small_bricks_slab_2", "x": 180 },
-			{ "model": "block/black_small_bricks_slab_3", "x": 180 }
-			]
+            {
+                "model": "block/black_small_bricks_slab",
+                "x": 180
+            },
+            {
+                "model": "block/black_small_bricks_slab_2",
+                "x": 180
+            },
+            {
+                "model": "block/black_small_bricks_slab_3",
+                "x": 180
+            }
+        ]
     }
 }

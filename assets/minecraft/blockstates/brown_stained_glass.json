@@ -1,21 +1,9 @@
 {
-  "variants": {
-    "": [
-      {
-        "model": "block/replace"
-      },
-      {
-        "model": "block/replace",
-        "y": 90
-      },
-      {
-        "model": "block/replace",
-        "y": 180
-      },
-      {
-        "model": "block/replace",
-        "y": 270
-      }
-    ]
-  }
+    "variants": {
+        "": [
+            {
+                "model": "block/replace_transparent"
+            }
+        ]
+    }
 }

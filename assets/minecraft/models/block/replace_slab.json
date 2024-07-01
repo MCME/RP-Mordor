@@ -2,6 +2,7 @@
   "parent": "block/slab",
   "textures": {
     "top": "block/replace",
-	"side": "block/replace"
+	"side": "block/replace",
+	"bottom": "block/replace"
   }
 }

@@ -1,26 +1,26 @@
 {
-  "variants": {
-    "facing=down": {
-      "model": "minecraft:block/replace_tile_entity",
-      "x": 180
-    },
-    "facing=east": {
-      "model": "minecraft:block/replace_tile_entity",
-      "y": 90
-    },
-    "facing=north": {
-      "model": "minecraft:block/replace_tile_entity"
-    },
-    "facing=south": {
-      "model": "minecraft:block/replace_tile_entity",
-      "y": 180
-    },
-    "facing=up": {
-      "model": "minecraft:block/replace_tile_entity"
-    },
-    "facing=west": {
-      "model": "minecraft:block/replace_tile_entity",
-      "y": 270
+    "variants": {
+        "facing=down": {
+            "model": "minecraft:block/replace_tile_entity",
+            "x": 180
+        },
+        "facing=east": {
+            "model": "minecraft:block/replace_tile_entity",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "minecraft:block/replace_tile_entity"
+        },
+        "facing=south": {
+            "model": "minecraft:block/replace_tile_entity",
+            "y": 180
+        },
+        "facing=up": {
+            "model": "minecraft:block/replace_tile_entity"
+        },
+        "facing=west": {
+            "model": "minecraft:block/replace_tile_entity",
+            "y": 270
+        }
     }
-  }
 }

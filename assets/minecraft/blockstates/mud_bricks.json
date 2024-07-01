@@ -1,7 +1,9 @@
 {
-  "variants": {
-    "": [
-      {"model": "minecraft:block/replace"}
-    ]
-  }
+    "variants": {
+        "": [
+            {
+                "model": "minecraft:block/replace"
+            }
+        ]
+    }
 }

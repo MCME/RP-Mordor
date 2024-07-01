@@ -1,7 +1,7 @@
 {
-  "variants": {
-    "": {
-      "model": "minecraft:block/unused_cross_cutout"
+    "variants": {
+        "": {
+            "model": "minecraft:block/unused_cross_cutout"
+        }
     }
-  }
 }

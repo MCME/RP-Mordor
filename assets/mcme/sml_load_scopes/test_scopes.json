@@ -92,7 +92,15 @@
 	"mcme:block/animal_skull_5",
 	"mcme:block/animal_skull_6",
 	"mcme:block/animal_skull_7",
-	"mcme:block/animal_skull_8"
+	"mcme:block/animal_skull_8",
+	"mcme:block/floortwig",
+	"mcme:block/floortwig_2",
+	"mcme:block/floortwig_3",
+	"mcme:block/floortwig_4",
+	"mcme:block/floortwig_5",
+	"mcme:block/floortwig_6",
+	"mcme:block/floortwig_7",
+	"mcme:block/floortwig_8"
 
   ]
 }

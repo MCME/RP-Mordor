@@ -1,252 +1,581 @@
 {
-  "variants": {
-    "north=false,east=false,south=false,west=false,up=false,down=false": [
-      {"model": "block/replace"}
-    ],
-    "north=false,east=false,south=false,west=false,up=false,down=true": {"model": "block/replace"},
-    "north=false,east=false,south=false,west=false,up=true,down=false": {"model": "block/replace"},
-    "north=false,east=false,south=false,west=false,up=true,down=true": {"model": "block/replace"},
-    "north=false,east=false,south=false,west=true,up=false,down=false": {"model": "block/replace"},
-    "north=false,east=false,south=false,west=true,up=false,down=true": {"model": "block/replace"},
-    "north=false,east=false,south=false,west=true,up=true,down=false": [ 
-      {"model": "block/replace"}
-	],
-    "north=false,east=false,south=false,west=true,up=true,down=true": {"model": "block/replace"},
-    "north=false,east=false,south=true,west=false,up=false,down=false": {"model": "block/replace"},
-    "north=false,east=false,south=true,west=false,up=false,down=true": {"model": "block/replace"},
-    "north=false,east=false,south=true,west=false,up=true,down=false": {"model": "block/replace"},
-    "north=false,east=false,south=true,west=false,up=true,down=true": {"model": "block/replace"},
-    "north=false,east=false,south=true,west=true,up=false,down=false": {"model": "block/stucco_lime"},
-    "north=false,east=false,south=true,west=true,up=false,down=true": {"model": "block/stucco_light_gray"},
-    "north=false,east=false,south=true,west=true,up=true,down=false": {"model": "block/stucco_gray"},
-    "north=false,east=false,south=true,west=true,up=true,down=true": {"model": "block/stucco_yellow"},
-    "north=false,east=true,south=false,west=false,up=false,down=false": {"model": "block/stucco_orange"},
-    "north=false,east=true,south=false,west=false,up=false,down=true": {"model": "block/stucco_red"},
-    "north=false,east=true,south=false,west=false,up=true,down=false": [
-      {"model": "block/stucco_blue_inside","y": 90}
-    ],
-    "north=false,east=true,south=false,west=false,up=true,down=true": [
-      {"model": "block/red_concrete_powder_0"}
-    ],
-    "north=false,east=true,south=false,west=true,up=false,down=false": [
-      {"model": "block/hardened_clay_blue"},
-      {"model": "block/hardened_clay_blue_1"},
-      {"model": "block/hardened_clay_blue_2"},
-      {"model": "block/hardened_clay_blue_3"},
-      {"model": "block/hardened_clay_blue_4"}
-	],
-    "north=false,east=true,south=false,west=true,up=false,down=true": [
-      {"model": "block/hardened_clay_purple"},
-      {"model": "block/hardened_clay_purple_1"},
-      {"model": "block/hardened_clay_purple_2"},
-      {"model": "block/hardened_clay_purple_3"},
-      {"model": "block/hardened_clay_purple_4"},
-      {"model": "block/hardened_clay_purple_5"}
-	],
-    "north=false,east=true,south=false,west=true,up=true,down=false": [
-      {"model": "block/blue_concrete_powder_0" },
-	  {"model": "block/blue_concrete_powder_1" },
-	  {"model": "block/blue_concrete_powder_2" },
-	  {"model": "block/blue_concrete_powder_3" }
-    ],
-    "north=false,east=true,south=false,west=true,up=true,down=true": [
-      {"model": "block/purple_concrete_powder_0"},
-	  {"model": "block/purple_concrete_powder_1"},
-	  {"model": "block/purple_concrete_powder_2"},
-	  {"model": "block/purple_concrete_powder_3"}
-    ],
-    "north=false,east=true,south=true,west=false,up=false,down=false": [
-	  {"model": "block/brown_mushroom_block_es"},
-	  {"model": "block/brown_mushroom_block_es_2"},
-	  {"model": "block/brown_mushroom_block_es_3"}
-	  ],
-    "north=false,east=true,south=true,west=false,up=false,down=true": [
-      {"model": "block/brown_mushroom_block_esd"},
-	  {"model": "block/brown_mushroom_block_esd_2"},
-	  {"model": "block/brown_mushroom_block_esd_3"}
-    ],
-    "north=false,east=true,south=true,west=false,up=true,down=false": [
-	  {"model": "block/brown_mushroom_block_esu"}, 
-	  {"model": "block/brown_mushroom_block_esu_2"}
-	],
-    "north=false,east=true,south=true,west=false,up=true,down=true": [
-      {"model": "block/brown_mushroom_block_esud"},
-      {"model": "block/brown_mushroom_block_esud_2"}
-	],
-    "north=false,east=true,south=true,west=true,up=false,down=false": [
-      {"model": "block/brown_mushroom_block_esw"},
-      {"model": "block/brown_mushroom_block_esw_2"}
-	],
-    "north=false,east=true,south=true,west=true,up=false,down=true": [
-      {"model": "block/brown_mushroom_block_eswd"}
-    ],
-    "north=false,east=true,south=true,west=true,up=true,down=false": [
-      {"model": "block/brown_mushroom_block_esudb"},
-	  {"model": "block/brown_mushroom_block_esudb_2"}
-    ],
-    "north=false,east=true,south=true,west=true,up=true,down=true": [
-	  {"model": "block/brown_mushroom_block_eswud"}
-	],
-    "north=true,east=false,south=false,west=false,up=false,down=false":{"model": "minecraft:block/brown_mushroom_block_n"},
-    "north=true,east=false,south=false,west=false,up=false,down=true": {"model": "minecraft:block/brown_mushroom_block_nd"},
-    "north=true,east=false,south=false,west=false,up=true,down=false": [
-	  {"model": "block/brown_mushroom_block_nu"}, 
-	  {"model": "block/brown_mushroom_block_nu_2"}, 
-	  {"model": "block/brown_mushroom_block_nu_3"},
-	  {"model": "block/brown_mushroom_block_nu_4"},
-	  {"model": "block/brown_mushroom_block_nu_5"}
-    ],
-    "north=true,east=false,south=false,west=false,up=true,down=true": [
- 	  {"model": "block/brown_mushroom_block_nud"}, 
-      {"model": "block/brown_mushroom_block_nud_2"}, 
-      {"model": "block/brown_mushroom_block_nud_3"}
-    ],
-    "north=true,east=false,south=false,west=true,up=false,down=false": [
- 	  {"model": "block/brown_mushroom_block_nw"}, 
-      {"model": "block/brown_mushroom_block_nw_2"}, 
-      {"model": "block/brown_mushroom_block_nw_3"}
-    ],
-    "north=true,east=false,south=false,west=true,up=false,down=true": [
-	  {"model": "block/brown_mushroom_block_nwd"}, 
-      {"model": "block/brown_mushroom_block_nwd_2"}, 
-      {"model": "block/brown_mushroom_block_nwd_3"},
-      {"model": "block/brown_mushroom_block_nwd_4"},
-      {"model": "block/brown_mushroom_block_nwd_5"}
-    ],
-    "north=true,east=false,south=false,west=true,up=true,down=false": [
-	  {"model": "block/brown_mushroom_block_nwu"},
-      {"model": "block/brown_mushroom_block_nwu_2"}
-	],
-    "north=true,east=false,south=false,west=true,up=true,down=true": [
-	  {"model": "block/brown_mushroom_block_nwud"}
-	],
-    "north=true,east=false,south=true,west=false,up=false,down=false": [
-	  {"model": "block/brown_mushroom_block_ns"}, 
-      {"model": "block/brown_mushroom_block_ns_2"}
-	],
-    "north=true,east=false,south=true,west=false,up=false,down=true": [
-	  {"model": "block/brown_mushroom_block_nsd"}, 
-      {"model": "block/brown_mushroom_block_nsd_2"}
-	],
-    "north=true,east=false,south=true,west=false,up=true,down=false": [
-	  {"model": "block/brown_mushroom_block_nsu"}, 
-      {"model": "block/brown_mushroom_block_nsu_2"}, 
-      {"model": "block/brown_mushroom_block_nsu_3"},
-      {"model": "block/brown_mushroom_block_nsu_4"},
-      {"model": "block/brown_mushroom_block_nsu_5"}
-	],
-    "north=true,east=false,south=true,west=false,up=true,down=true": [
-	  {"model": "block/brown_mushroom_block_nsud"}, 
-      {"model": "block/brown_mushroom_block_nsud_2"}, 
-      {"model": "block/brown_mushroom_block_nsud_3"}
-	],
-    "north=true,east=false,south=true,west=true,up=false,down=false": [
-	  {"model": "block/brown_mushroom_block_nsw"}, 
-      {"model": "block/brown_mushroom_block_nsw_2"}, 
-      {"model": "block/brown_mushroom_block_nsw_3"}
-	],
-    "north=true,east=false,south=true,west=true,up=false,down=true": [
-	{"model": "block/brown_mushroom_block_nswd"},
-	{"model": "block/brown_mushroom_block_nswd_2"}
-	],
-    "north=true,east=false,south=true,west=true,up=true,down=false": {"model": "block/brown_mushroom_block_nswu"},
-    "north=true,east=false,south=true,west=true,up=true,down=true": [
-	  {"model": "block/brown_mushroom_block_eswu"}, 
-	  {"model": "block/brown_mushroom_block_eswu_2"}
-	],
-    "north=true,east=true,south=false,west=false,up=false,down=false": [
-	  {"model": "block/brown_mushroom_block_ne"}, 
-	  {"model": "block/brown_mushroom_block_ne_2"}
-	],
-    "north=true,east=true,south=false,west=false,up=false,down=true": [
-	  {"model": "block/brown_mushroom_block_ned"} 
-	],
-    "north=true,east=true,south=false,west=false,up=true,down=false": [
-	  {"model": "block/brown_mushroom_block_neu"}, 
-	  {"model": "block/brown_mushroom_block_neu_2"}
-	],
-    "north=true,east=true,south=false,west=false,up=true,down=true": [
-	  {"model": "block/brown_mushroom_block_neud"}, 
-	  {"model": "block/brown_mushroom_block_neud_2"}, 
-	  {"model": "block/brown_mushroom_block_neud_3"},
-	  {"model": "block/brown_mushroom_block_neud_4"},
-	  {"model": "block/brown_mushroom_block_neud_5"}
-	],
-    "north=true,east=true,south=false,west=true,up=false,down=false": [
-	  {"model": "block/brown_mushroom_block_new"}, 
-	  {"model": "block/brown_mushroom_block_new_2"}, 
-	  {"model": "block/brown_mushroom_block_new_3"}
-	],
-    "north=true,east=true,south=false,west=true,up=false,down=true": [
-	  {"model": "block/brown_mushroom_block_newd"}, 
-	  {"model": "block/brown_mushroom_block_newd_2"}, 
-	  {"model": "block/brown_mushroom_block_newd_3"}
-	],
-    "north=true,east=true,south=false,west=true,up=true,down=false": [
-	  {"model": "block/brown_mushroom_block_newu"}, 
-	  {"model": "block/brown_mushroom_block_newu_2"}, 
-	  {"model": "block/brown_mushroom_block_newu_3"}
-	],
-    "north=true,east=true,south=false,west=true,up=true,down=true": [
-	  {"model": "block/brown_mushroom_block_newud"}, 
-	  {"model": "block/brown_mushroom_block_newud_2"}, 
-	  {"model": "block/brown_mushroom_block_newud_3"},
-	  {"model": "block/brown_mushroom_block_newud_4"},
-	  {"model": "block/brown_mushroom_block_newud_5"}
-	],
-    "north=true,east=true,south=true,west=false,up=false,down=false": [
-	  {"model": "block/brown_mushroom_block_nes"}, 
-	  {"model": "block/brown_mushroom_block_nes_2"}, 
-	  {"model": "block/brown_mushroom_block_nes_3"}
-	],
-    "north=true,east=true,south=true,west=false,up=false,down=true": [
-	  {"model": "block/brown_mushroom_block_nesd"}, 
-	  {"model": "block/brown_mushroom_block_nesd_2"}, 
-	  {"model": "block/brown_mushroom_block_nesd_3"},
-      {"model": "block/brown_mushroom_block_nesd_4"}
-	],
-    "north=true,east=true,south=true,west=false,up=true,down=false": [
-	  {"model": "block/brown_mushroom_block_nesu"}, 
-	  {"model": "block/brown_mushroom_block_nesu_2"}
-	],
-    "north=true,east=true,south=true,west=false,up=true,down=true": [
-	  {"model": "block/brown_mushroom_block_nesud"},
-	  {"model": "block/brown_mushroom_block_nesud", "y": 90 },
-	  {"model": "block/brown_mushroom_block_nesud", "y": 180 },
-	  {"model": "block/brown_mushroom_block_nesud", "y": 270 },
-      {"model": "block/brown_mushroom_block_nesud_2"},
-	  {"model": "block/brown_mushroom_block_nesud_2", "y": 90 },
-	  {"model": "block/brown_mushroom_block_nesud_2", "y": 180 },
-	  {"model": "block/brown_mushroom_block_nesud_2", "y": 270 },
-      {"model": "block/brown_mushroom_block_nesud_3"},
-	  {"model": "block/brown_mushroom_block_nesud_3", "y": 90 },
-	  {"model": "block/brown_mushroom_block_nesud_3", "y": 180 },
-	  {"model": "block/brown_mushroom_block_nesud_3", "y": 270 },
-      {"model": "block/brown_mushroom_block_nesud_4"},
-	  {"model": "block/brown_mushroom_block_nesud_4", "y": 90 },
-	  {"model": "block/brown_mushroom_block_nesud_4", "y": 180 },
-	  {"model": "block/brown_mushroom_block_nesud_4", "y": 270 }
-	],
-    "north=true,east=true,south=true,west=true,up=false,down=false": [
-	  {"model": "block/brown_mushroom_block_nesw"}, 
-	  {"model": "block/brown_mushroom_block_nesw_2"}
-	],
-    "north=true,east=true,south=true,west=true,up=false,down=true": [
-	  {"model": "block/brown_mushroom_block_neswd"}, 
-	  {"model": "block/brown_mushroom_block_neswd_2"}, 
-	  {"model": "block/brown_mushroom_block_neswd_3"},
-      {"model": "block/brown_mushroom_block_neswd_4"},
-      {"model": "block/brown_mushroom_block_neswd_5"}
-	],
-    "north=true,east=true,south=true,west=true,up=true,down=false": [
-	  {"model": "block/brown_mushroom_block_neswu"}, 
-	  {"model": "block/brown_mushroom_block_neswu_2"}, 
-	  {"model": "block/brown_mushroom_block_neswu_3"}
-	],
-    "north=true,east=true,south=true,west=true,up=true,down=true": [
-	  {"model": "block/brown_mushroom_block_neswud"}, 
-	  {"model": "block/brown_mushroom_block_neswud_2"}, 
-	  {"model": "block/brown_mushroom_block_neswud_3"}
-	]
-  }
+    "variants": {
+        "north=false,east=false,south=false,west=false,up=false,down=false": [
+            {
+                "model": "block/replace"
+            }
+        ],
+        "north=false,east=false,south=false,west=false,up=false,down=true": {
+            "model": "block/replace"
+        },
+        "north=false,east=false,south=false,west=false,up=true,down=false": {
+            "model": "block/replace"
+        },
+        "north=false,east=false,south=false,west=false,up=true,down=true": {
+            "model": "block/replace"
+        },
+        "north=false,east=false,south=false,west=true,up=false,down=false": {
+            "model": "block/replace"
+        },
+        "north=false,east=false,south=false,west=true,up=false,down=true": {
+            "model": "block/replace"
+        },
+        "north=false,east=false,south=false,west=true,up=true,down=false": [
+            {
+                "model": "block/replace"
+            }
+        ],
+        "north=false,east=false,south=false,west=true,up=true,down=true": {
+            "model": "block/replace"
+        },
+        "north=false,east=false,south=true,west=false,up=false,down=false": {
+            "model": "block/replace"
+        },
+        "north=false,east=false,south=true,west=false,up=false,down=true": {
+            "model": "block/replace"
+        },
+        "north=false,east=false,south=true,west=false,up=true,down=false": {
+            "model": "block/replace"
+        },
+        "north=false,east=false,south=true,west=false,up=true,down=true": {
+            "model": "block/replace"
+        },
+        "north=false,east=false,south=true,west=true,up=false,down=false": {
+            "model": "block/stucco_lime"
+        },
+        "north=false,east=false,south=true,west=true,up=false,down=true": {
+            "model": "block/stucco_light_gray"
+        },
+        "north=false,east=false,south=true,west=true,up=true,down=false": {
+            "model": "block/stucco_gray"
+        },
+        "north=false,east=false,south=true,west=true,up=true,down=true": {
+            "model": "block/stucco_yellow"
+        },
+        "north=false,east=true,south=false,west=false,up=false,down=false": {
+            "model": "block/stucco_orange"
+        },
+        "north=false,east=true,south=false,west=false,up=false,down=true": {
+            "model": "block/stucco_red"
+        },
+        "north=false,east=true,south=false,west=false,up=true,down=false": [
+            {
+                "model": "block/stucco_blue_inside",
+                "y": 90
+            }
+        ],
+        "north=false,east=true,south=false,west=false,up=true,down=true": [
+            {
+                "model": "block/red_concrete_powder_0"
+            }
+        ],
+        "north=false,east=true,south=false,west=true,up=false,down=false": [
+            {
+                "model": "block/hardened_clay_blue"
+            },
+            {
+                "model": "block/hardened_clay_blue_1"
+            },
+            {
+                "model": "block/hardened_clay_blue_2"
+            },
+            {
+                "model": "block/hardened_clay_blue_3"
+            },
+            {
+                "model": "block/hardened_clay_blue_4"
+            }
+        ],
+        "north=false,east=true,south=false,west=true,up=false,down=true": [
+            {
+                "model": "block/hardened_clay_purple"
+            },
+            {
+                "model": "block/hardened_clay_purple_1"
+            },
+            {
+                "model": "block/hardened_clay_purple_2"
+            },
+            {
+                "model": "block/hardened_clay_purple_3"
+            },
+            {
+                "model": "block/hardened_clay_purple_4"
+            },
+            {
+                "model": "block/hardened_clay_purple_5"
+            }
+        ],
+        "north=false,east=true,south=false,west=true,up=true,down=false": [
+            {
+                "model": "block/blue_concrete_powder_0"
+            },
+            {
+                "model": "block/blue_concrete_powder_1"
+            },
+            {
+                "model": "block/blue_concrete_powder_2"
+            },
+            {
+                "model": "block/blue_concrete_powder_3"
+            }
+        ],
+        "north=false,east=true,south=false,west=true,up=true,down=true": [
+            {
+                "model": "block/purple_concrete_powder_0"
+            },
+            {
+                "model": "block/purple_concrete_powder_1"
+            },
+            {
+                "model": "block/purple_concrete_powder_2"
+            },
+            {
+                "model": "block/purple_concrete_powder_3"
+            }
+        ],
+        "north=false,east=true,south=true,west=false,up=false,down=false": [
+            {
+                "model": "block/brown_mushroom_block_es"
+            },
+            {
+                "model": "block/brown_mushroom_block_es_2"
+            },
+            {
+                "model": "block/brown_mushroom_block_es_3"
+            }
+        ],
+        "north=false,east=true,south=true,west=false,up=false,down=true": [
+            {
+                "model": "block/brown_mushroom_block_esd"
+            },
+            {
+                "model": "block/brown_mushroom_block_esd_2"
+            },
+            {
+                "model": "block/brown_mushroom_block_esd_3"
+            }
+        ],
+        "north=false,east=true,south=true,west=false,up=true,down=false": [
+            {
+                "model": "block/brown_mushroom_block_esu"
+            },
+            {
+                "model": "block/brown_mushroom_block_esu_2"
+            }
+        ],
+        "north=false,east=true,south=true,west=false,up=true,down=true": [
+            {
+                "model": "block/brown_mushroom_block_esud"
+            },
+            {
+                "model": "block/brown_mushroom_block_esud_2"
+            }
+        ],
+        "north=false,east=true,south=true,west=true,up=false,down=false": [
+            {
+                "model": "block/brown_mushroom_block_esw"
+            },
+            {
+                "model": "block/brown_mushroom_block_esw_2"
+            }
+        ],
+        "north=false,east=true,south=true,west=true,up=false,down=true": [
+            {
+                "model": "block/brown_mushroom_block_eswd"
+            }
+        ],
+        "north=false,east=true,south=true,west=true,up=true,down=false": [
+            {
+                "model": "block/brown_mushroom_block_esudb"
+            },
+            {
+                "model": "block/brown_mushroom_block_esudb_2"
+            }
+        ],
+        "north=false,east=true,south=true,west=true,up=true,down=true": [
+            {
+                "model": "block/brown_mushroom_block_eswud"
+            }
+        ],
+        "north=true,east=false,south=false,west=false,up=false,down=false": {
+            "model": "minecraft:block/brown_mushroom_block_n"
+        },
+        "north=true,east=false,south=false,west=false,up=false,down=true": {
+            "model": "minecraft:block/brown_mushroom_block_nd"
+        },
+        "north=true,east=false,south=false,west=false,up=true,down=false": [
+            {
+                "model": "block/brown_mushroom_block_nu"
+            },
+            {
+                "model": "block/brown_mushroom_block_nu_2"
+            },
+            {
+                "model": "block/brown_mushroom_block_nu_3"
+            },
+            {
+                "model": "block/brown_mushroom_block_nu_4"
+            },
+            {
+                "model": "block/brown_mushroom_block_nu_5"
+            }
+        ],
+        "north=true,east=false,south=false,west=false,up=true,down=true": [
+            {
+                "model": "block/brown_mushroom_block_nud"
+            },
+            {
+                "model": "block/brown_mushroom_block_nud_2"
+            },
+            {
+                "model": "block/brown_mushroom_block_nud_3"
+            }
+        ],
+        "north=true,east=false,south=false,west=true,up=false,down=false": [
+            {
+                "model": "block/brown_mushroom_block_nw"
+            },
+            {
+                "model": "block/brown_mushroom_block_nw_2"
+            },
+            {
+                "model": "block/brown_mushroom_block_nw_3"
+            }
+        ],
+        "north=true,east=false,south=false,west=true,up=false,down=true": [
+            {
+                "model": "block/brown_mushroom_block_nwd"
+            },
+            {
+                "model": "block/brown_mushroom_block_nwd_2"
+            },
+            {
+                "model": "block/brown_mushroom_block_nwd_3"
+            },
+            {
+                "model": "block/brown_mushroom_block_nwd_4"
+            },
+            {
+                "model": "block/brown_mushroom_block_nwd_5"
+            }
+        ],
+        "north=true,east=false,south=false,west=true,up=true,down=false": [
+            {
+                "model": "block/brown_mushroom_block_nwu"
+            },
+            {
+                "model": "block/brown_mushroom_block_nwu_2"
+            }
+        ],
+        "north=true,east=false,south=false,west=true,up=true,down=true": [
+            {
+                "model": "block/brown_mushroom_block_nwud"
+            }
+        ],
+        "north=true,east=false,south=true,west=false,up=false,down=false": [
+            {
+                "model": "block/brown_mushroom_block_ns"
+            },
+            {
+                "model": "block/brown_mushroom_block_ns_2"
+            }
+        ],
+        "north=true,east=false,south=true,west=false,up=false,down=true": [
+            {
+                "model": "block/brown_mushroom_block_nsd"
+            },
+            {
+                "model": "block/brown_mushroom_block_nsd_2"
+            }
+        ],
+        "north=true,east=false,south=true,west=false,up=true,down=false": [
+            {
+                "model": "block/brown_mushroom_block_nsu"
+            },
+            {
+                "model": "block/brown_mushroom_block_nsu_2"
+            },
+            {
+                "model": "block/brown_mushroom_block_nsu_3"
+            },
+            {
+                "model": "block/brown_mushroom_block_nsu_4"
+            },
+            {
+                "model": "block/brown_mushroom_block_nsu_5"
+            }
+        ],
+        "north=true,east=false,south=true,west=false,up=true,down=true": [
+            {
+                "model": "block/brown_mushroom_block_nsud"
+            },
+            {
+                "model": "block/brown_mushroom_block_nsud_2"
+            },
+            {
+                "model": "block/brown_mushroom_block_nsud_3"
+            }
+        ],
+        "north=true,east=false,south=true,west=true,up=false,down=false": [
+            {
+                "model": "block/brown_mushroom_block_nsw"
+            },
+            {
+                "model": "block/brown_mushroom_block_nsw_2"
+            },
+            {
+                "model": "block/brown_mushroom_block_nsw_3"
+            }
+        ],
+        "north=true,east=false,south=true,west=true,up=false,down=true": [
+            {
+                "model": "block/brown_mushroom_block_nswd"
+            },
+            {
+                "model": "block/brown_mushroom_block_nswd_2"
+            }
+        ],
+        "north=true,east=false,south=true,west=true,up=true,down=false": {
+            "model": "block/brown_mushroom_block_nswu"
+        },
+        "north=true,east=false,south=true,west=true,up=true,down=true": [
+            {
+                "model": "block/brown_mushroom_block_eswu"
+            },
+            {
+                "model": "block/brown_mushroom_block_eswu_2"
+            }
+        ],
+        "north=true,east=true,south=false,west=false,up=false,down=false": [
+            {
+                "model": "block/brown_mushroom_block_ne"
+            },
+            {
+                "model": "block/brown_mushroom_block_ne_2"
+            }
+        ],
+        "north=true,east=true,south=false,west=false,up=false,down=true": [
+            {
+                "model": "block/brown_mushroom_block_ned"
+            }
+        ],
+        "north=true,east=true,south=false,west=false,up=true,down=false": [
+            {
+                "model": "block/brown_mushroom_block_neu"
+            },
+            {
+                "model": "block/brown_mushroom_block_neu_2"
+            }
+        ],
+        "north=true,east=true,south=false,west=false,up=true,down=true": [
+            {
+                "model": "block/brown_mushroom_block_neud"
+            },
+            {
+                "model": "block/brown_mushroom_block_neud_2"
+            },
+            {
+                "model": "block/brown_mushroom_block_neud_3"
+            },
+            {
+                "model": "block/brown_mushroom_block_neud_4"
+            },
+            {
+                "model": "block/brown_mushroom_block_neud_5"
+            }
+        ],
+        "north=true,east=true,south=false,west=true,up=false,down=false": [
+            {
+                "model": "block/brown_mushroom_block_new"
+            },
+            {
+                "model": "block/brown_mushroom_block_new_2"
+            },
+            {
+                "model": "block/brown_mushroom_block_new_3"
+            }
+        ],
+        "north=true,east=true,south=false,west=true,up=false,down=true": [
+            {
+                "model": "block/brown_mushroom_block_newd"
+            },
+            {
+                "model": "block/brown_mushroom_block_newd_2"
+            },
+            {
+                "model": "block/brown_mushroom_block_newd_3"
+            }
+        ],
+        "north=true,east=true,south=false,west=true,up=true,down=false": [
+            {
+                "model": "block/brown_mushroom_block_newu"
+            },
+            {
+                "model": "block/brown_mushroom_block_newu_2"
+            },
+            {
+                "model": "block/brown_mushroom_block_newu_3"
+            }
+        ],
+        "north=true,east=true,south=false,west=true,up=true,down=true": [
+            {
+                "model": "block/brown_mushroom_block_newud"
+            },
+            {
+                "model": "block/brown_mushroom_block_newud_2"
+            },
+            {
+                "model": "block/brown_mushroom_block_newud_3"
+            },
+            {
+                "model": "block/brown_mushroom_block_newud_4"
+            },
+            {
+                "model": "block/brown_mushroom_block_newud_5"
+            }
+        ],
+        "north=true,east=true,south=true,west=false,up=false,down=false": [
+            {
+                "model": "block/brown_mushroom_block_nes"
+            },
+            {
+                "model": "block/brown_mushroom_block_nes_2"
+            },
+            {
+                "model": "block/brown_mushroom_block_nes_3"
+            }
+        ],
+        "north=true,east=true,south=true,west=false,up=false,down=true": [
+            {
+                "model": "block/brown_mushroom_block_nesd"
+            },
+            {
+                "model": "block/brown_mushroom_block_nesd_2"
+            },
+            {
+                "model": "block/brown_mushroom_block_nesd_3"
+            },
+            {
+                "model": "block/brown_mushroom_block_nesd_4"
+            }
+        ],
+        "north=true,east=true,south=true,west=false,up=true,down=false": [
+            {
+                "model": "block/brown_mushroom_block_nesu"
+            },
+            {
+                "model": "block/brown_mushroom_block_nesu_2"
+            }
+        ],
+        "north=true,east=true,south=true,west=false,up=true,down=true": [
+            {
+                "model": "block/brown_mushroom_block_nesud"
+            },
+            {
+                "model": "block/brown_mushroom_block_nesud",
+                "y": 90
+            },
+            {
+                "model": "block/brown_mushroom_block_nesud",
+                "y": 180
+            },
+            {
+                "model": "block/brown_mushroom_block_nesud",
+                "y": 270
+            },
+            {
+                "model": "block/brown_mushroom_block_nesud_2"
+            },
+            {
+                "model": "block/brown_mushroom_block_nesud_2",
+                "y": 90
+            },
+            {
+                "model": "block/brown_mushroom_block_nesud_2",
+                "y": 180
+            },
+            {
+                "model": "block/brown_mushroom_block_nesud_2",
+                "y": 270
+            },
+            {
+                "model": "block/brown_mushroom_block_nesud_3"
+            },
+            {
+                "model": "block/brown_mushroom_block_nesud_3",
+                "y": 90
+            },
+            {
+                "model": "block/brown_mushroom_block_nesud_3",
+                "y": 180
+            },
+            {
+                "model": "block/brown_mushroom_block_nesud_3",
+                "y": 270
+            },
+            {
+                "model": "block/brown_mushroom_block_nesud_4"
+            },
+            {
+                "model": "block/brown_mushroom_block_nesud_4",
+                "y": 90
+            },
+            {
+                "model": "block/brown_mushroom_block_nesud_4",
+                "y": 180
+            },
+            {
+                "model": "block/brown_mushroom_block_nesud_4",
+                "y": 270
+            }
+        ],
+        "north=true,east=true,south=true,west=true,up=false,down=false": [
+            {
+                "model": "block/brown_mushroom_block_nesw"
+            },
+            {
+                "model": "block/brown_mushroom_block_nesw_2"
+            }
+        ],
+        "north=true,east=true,south=true,west=true,up=false,down=true": [
+            {
+                "model": "block/brown_mushroom_block_neswd"
+            },
+            {
+                "model": "block/brown_mushroom_block_neswd_2"
+            },
+            {
+                "model": "block/brown_mushroom_block_neswd_3"
+            },
+            {
+                "model": "block/brown_mushroom_block_neswd_4"
+            },
+            {
+                "model": "block/brown_mushroom_block_neswd_5"
+            }
+        ],
+        "north=true,east=true,south=true,west=true,up=true,down=false": [
+            {
+                "model": "block/brown_mushroom_block_neswu"
+            },
+            {
+                "model": "block/brown_mushroom_block_neswu_2"
+            },
+            {
+                "model": "block/brown_mushroom_block_neswu_3"
+            }
+        ],
+        "north=true,east=true,south=true,west=true,up=true,down=true": [
+            {
+                "model": "block/brown_mushroom_block_neswud"
+            },
+            {
+                "model": "block/brown_mushroom_block_neswud_2"
+            },
+            {
+                "model": "block/brown_mushroom_block_neswud_3"
+            }
+        ]
+    }
 }

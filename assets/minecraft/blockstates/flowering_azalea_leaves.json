@@ -1,18 +1,56 @@
 {
-  "variants": {
-    "distance=7,persistent=false": { "model": "mcme:block/pointy_spike_large" },
-	"distance=1,persistent=false": { "model": "mcme:block/pointy_spike_large", "y": 90 },
-	"distance=2,persistent=false": { "model": "mcme:block/pointy_spike_large", "y": 180 },
-	"distance=3,persistent=false": { "model": "mcme:block/pointy_spike_large", "y": 270 },
-	"distance=4,persistent=false": { "model": "mcme:block/decorational_spike_large" },
-	"distance=5,persistent=false": { "model": "mcme:block/decorational_spike_large", "y": 90 },
-	"distance=6,persistent=false": { "model": "mcme:block/decorational_spike_large", "y": 180 },
-	"distance=7,persistent=true": { "model": "mcme:block/decorational_spike_large", "y": 270 },
-	"distance=1,persistent=true": { "model": "mcme:block/decorational_spike_small" },
-	"distance=2,persistent=true": { "model": "mcme:block/decorational_spike_small", "y": 90 },
-	"distance=3,persistent=true": { "model": "mcme:block/decorational_spike_small", "y": 180 },
-	"distance=4,persistent=true": { "model": "mcme:block/decorational_spike_small", "y": 270 },
-	"distance=5,persistent=true": { "model": "mcme:block/wall_spike_large"},
-	"distance=6,persistent=true": { "model": "mcme:block/wall_spike_large", "y": 90 }
-  }
+    "variants": {
+        "distance=7,persistent=false": {
+            "model": "mcme:block/pointy_spike_large"
+        },
+        "distance=1,persistent=false": {
+            "model": "mcme:block/pointy_spike_large",
+            "y": 90
+        },
+        "distance=2,persistent=false": {
+            "model": "mcme:block/pointy_spike_large",
+            "y": 180
+        },
+        "distance=3,persistent=false": {
+            "model": "mcme:block/pointy_spike_large",
+            "y": 270
+        },
+        "distance=4,persistent=false": {
+            "model": "mcme:block/decorational_spike_large"
+        },
+        "distance=5,persistent=false": {
+            "model": "mcme:block/decorational_spike_large",
+            "y": 90
+        },
+        "distance=6,persistent=false": {
+            "model": "mcme:block/decorational_spike_large",
+            "y": 180
+        },
+        "distance=7,persistent=true": {
+            "model": "mcme:block/decorational_spike_large",
+            "y": 270
+        },
+        "distance=1,persistent=true": {
+            "model": "mcme:block/decorational_spike_small"
+        },
+        "distance=2,persistent=true": {
+            "model": "mcme:block/decorational_spike_small",
+            "y": 90
+        },
+        "distance=3,persistent=true": {
+            "model": "mcme:block/decorational_spike_small",
+            "y": 180
+        },
+        "distance=4,persistent=true": {
+            "model": "mcme:block/decorational_spike_small",
+            "y": 270
+        },
+        "distance=5,persistent=true": {
+            "model": "mcme:block/wall_spike_large"
+        },
+        "distance=6,persistent=true": {
+            "model": "mcme:block/wall_spike_large",
+            "y": 90
+        }
+    }
 }
