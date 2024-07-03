@@ -1,0 +1,72 @@
+{
+  "variants": {
+    "candles=1,lit=false": [
+      {"model": "minecraft:block/planks"},
+      {"model": "minecraft:block/planks", "y": 90},
+      {"model": "minecraft:block/planks", "y": 180},
+      {"model": "minecraft:block/planks", "y": 270},
+      {"model": "minecraft:block/planks_2"},
+      {"model": "minecraft:block/planks_2", "y": 90},
+      {"model": "minecraft:block/planks_2", "y": 180},
+      {"model": "minecraft:block/planks_2", "y": 270},
+      {"model": "minecraft:block/planks_3"},
+      {"model": "minecraft:block/planks_3", "y": 90},
+      {"model": "minecraft:block/planks_3", "y": 180},
+      {"model": "minecraft:block/planks_3", "y": 270}
+     ],
+    "candles=1,lit=true": [
+      {"model": "minecraft:block/black_candle_one_candle_lit"}
+    ],
+    "candles=2,lit=false": [
+        {"model": "minecraft:block/planks_stack2"},
+        {"model": "minecraft:block/planks_stack2", "y": 90},
+        {"model": "minecraft:block/planks_stack2", "y": 180},
+        {"model": "minecraft:block/planks_stack2", "y": 270},
+        {"model": "minecraft:block/planks_stack2_2"},
+        {"model": "minecraft:block/planks_stack2_2", "y": 90},
+        {"model": "minecraft:block/planks_stack2_2", "y": 180},
+        {"model": "minecraft:block/planks_stack2_2", "y": 270},
+        {"model": "minecraft:block/planks_stack2_3"},
+        {"model": "minecraft:block/planks_stack2_3", "y": 90},
+        {"model": "minecraft:block/planks_stack2_3", "y": 180},
+        {"model": "minecraft:block/planks_stack2_3", "y": 270}
+    ],
+    "candles=2,lit=true": {
+      "model": "minecraft:block/black_candle_two_candles_lit"
+    },
+    "candles=3,lit=false": [
+        {"model": "minecraft:block/planks_stack3"},
+        {"model": "minecraft:block/planks_stack3", "y": 90},
+        {"model": "minecraft:block/planks_stack3", "y": 180},
+        {"model": "minecraft:block/planks_stack3", "y": 270},
+        {"model": "minecraft:block/planks_stack3_2"},
+        {"model": "minecraft:block/planks_stack3_2", "y": 90},
+        {"model": "minecraft:block/planks_stack3_2", "y": 180},
+        {"model": "minecraft:block/planks_stack3_2", "y": 270},
+        {"model": "minecraft:block/planks_stack3_3"},
+        {"model": "minecraft:block/planks_stack3_3", "y": 90},
+        {"model": "minecraft:block/planks_stack3_3", "y": 180},
+        {"model": "minecraft:block/planks_stack3_3", "y": 270}
+    ],
+    "candles=3,lit=true": {
+      "model": "minecraft:block/black_candle_three_candles_lit"
+    },
+    "candles=4,lit=false": [
+        {"model": "minecraft:block/planks_stack4"},
+        {"model": "minecraft:block/planks_stack4", "y": 90},
+        {"model": "minecraft:block/planks_stack4", "y": 180},
+        {"model": "minecraft:block/planks_stack4", "y": 270},
+        {"model": "minecraft:block/planks_stack4_2"},
+        {"model": "minecraft:block/planks_stack4_2", "y": 90},
+        {"model": "minecraft:block/planks_stack4_2", "y": 180},
+        {"model": "minecraft:block/planks_stack4_2", "y": 270},
+        {"model": "minecraft:block/planks_stack4_3"},
+        {"model": "minecraft:block/planks_stack4_3", "y": 90},
+        {"model": "minecraft:block/planks_stack4_3", "y": 180},
+        {"model": "minecraft:block/planks_stack4_3", "y": 270}
+    ],
+    "candles=4,lit=true": {
+      "model": "minecraft:block/black_candle_four_candles_lit"
+    }
+  }
+}

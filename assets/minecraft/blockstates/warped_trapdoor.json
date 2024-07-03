@@ -19,6 +19,22 @@
 	  {"model": "mcme:block/angled_spikes", "y":270},
 	  {"model": "mcme:block/angled_spikes_2", "y":270},
 	  {"model": "mcme:block/angled_spikes_3", "y":270}
+	  ],
+	  "facing=south,half=top,open=true,powered=false": [
+	  {"model": "minecraft:block/hanging_pans"},
+	  {"model": "minecraft:block/hanging_pans_2"}
+	  ],
+    "facing=east,half=top,open=true,powered=false": [
+	  {"model": "minecraft:block/hanging_pans", "y":270},
+	  {"model": "minecraft:block/hanging_pans_2", "y":270}
+	  ],
+    "facing=north,half=top,open=true,powered=false": [
+	  {"model": "minecraft:block/hanging_pans", "y":180},
+	  {"model": "minecraft:block/hanging_pans_2", "y":180}
+	  ],
+    "facing=west,half=top,open=true,powered=false": [
+	  {"model": "minecraft:block/hanging_pans", "y":90},
+	  {"model": "minecraft:block/hanging_pans_2", "y":90}
 	  ]
   }
 }

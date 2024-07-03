@@ -19,6 +19,11 @@
       { "model": "mcme:block/eye_banner_1", "y":270 },
 	  { "model": "mcme:block/eye_banner_2", "y":270 },
 	  { "model": "mcme:block/eye_banner_3", "y":270 }
+	  ],
+	  "age=1,leaves=large,stage=0": [
+      { "model": "mcme:block/putrid_stump" },
+	  { "model": "mcme:block/putrid_stump_2" },
+	  { "model": "mcme:block/putrid_stump_3" }
 	  ]
  }
 }

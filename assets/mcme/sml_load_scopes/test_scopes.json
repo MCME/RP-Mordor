@@ -92,7 +92,10 @@
 	"mcme:block/animal_skull_5",
 	"mcme:block/animal_skull_6",
 	"mcme:block/animal_skull_7",
-	"mcme:block/animal_skull_8"
+	"mcme:block/animal_skull_8",
+	"mcme:block/putrid_stump", 
+	"mcme:block/putrid_stump_2",
+	"mcme:block/putrid_stump_3"
 
   ]
 }
