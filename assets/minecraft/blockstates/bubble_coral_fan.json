@@ -1,7 +1,10 @@
 {
     "variants": {
-        "": {
-            "model": "minecraft:block/unused_cross_cutout"
-        }
+        "": [
+		{  "model": "minecraft:block/putrid_top_cover" },
+		{  "model": "minecraft:block/putrid_top_cover", "y":90 },
+		{  "model": "minecraft:block/putrid_top_cover", "y":90 },
+		{  "model": "minecraft:block/putrid_top_cover", "y":90 }
+		]
     }
 }
