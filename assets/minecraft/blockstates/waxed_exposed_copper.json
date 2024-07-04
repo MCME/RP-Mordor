@@ -1,18 +1,51 @@
 {
-  "variants": {
-    "": [
-	{ "model": "minecraft:block/waxed_exposed_copper" },
-	{ "model": "minecraft:block/waxed_exposed_copper", "y": 90 },
-	{ "model": "minecraft:block/waxed_exposed_copper", "y": 180 },
-	{ "model": "minecraft:block/waxed_exposed_copper", "y": 270 },
-	{ "model": "minecraft:block/waxed_exposed_copper_2" },
-	{ "model": "minecraft:block/waxed_exposed_copper_2", "y": 90 },
-	{ "model": "minecraft:block/waxed_exposed_copper_2", "y": 180 },
-	{ "model": "minecraft:block/waxed_exposed_copper_2", "y": 270 },
-	{ "model": "minecraft:block/waxed_exposed_copper_3" },
-	{ "model": "minecraft:block/waxed_exposed_copper_3", "y": 90 },
-	{ "model": "minecraft:block/waxed_exposed_copper_3", "y": 180 },
-	{ "model": "minecraft:block/waxed_exposed_copper_3", "y": 270 }
-	]
-  }
+    "variants": {
+        "": [
+            {
+                "model": "minecraft:block/waxed_exposed_copper"
+            },
+            {
+                "model": "minecraft:block/waxed_exposed_copper",
+                "y": 90
+            },
+            {
+                "model": "minecraft:block/waxed_exposed_copper",
+                "y": 180
+            },
+            {
+                "model": "minecraft:block/waxed_exposed_copper",
+                "y": 270
+            },
+            {
+                "model": "minecraft:block/waxed_exposed_copper_2"
+            },
+            {
+                "model": "minecraft:block/waxed_exposed_copper_2",
+                "y": 90
+            },
+            {
+                "model": "minecraft:block/waxed_exposed_copper_2",
+                "y": 180
+            },
+            {
+                "model": "minecraft:block/waxed_exposed_copper_2",
+                "y": 270
+            },
+            {
+                "model": "minecraft:block/waxed_exposed_copper_3"
+            },
+            {
+                "model": "minecraft:block/waxed_exposed_copper_3",
+                "y": 90
+            },
+            {
+                "model": "minecraft:block/waxed_exposed_copper_3",
+                "y": 180
+            },
+            {
+                "model": "minecraft:block/waxed_exposed_copper_3",
+                "y": 270
+            }
+        ]
+    }
 }

@@ -1,10 +1,18 @@
 {
-  "variants": {
-    "": [
-      { "model": "block/cyan_terracotta"},
-	  { "model": "block/cyan_terracotta_2"},
-	  { "model": "block/cyan_terracotta_3"},
-	  { "model": "block/cyan_terracotta_4"}
-    ]
-  }
+    "variants": {
+        "": [
+            {
+                "model": "block/cyan_terracotta"
+            },
+            {
+                "model": "block/cyan_terracotta_2"
+            },
+            {
+                "model": "block/cyan_terracotta_3"
+            },
+            {
+                "model": "block/cyan_terracotta_4"
+            }
+        ]
+    }
 }

@@ -1,22 +1,66 @@
 {
     "variants": {
-        "":[
-		{ "model": "block/chiseled_quartz_block" },
-		{ "model": "block/chiseled_quartz_block", "y": 90 },
-		{ "model": "block/chiseled_quartz_block", "y": 180 },
-		{ "model": "block/chiseled_quartz_block", "y": 270 },
-		{ "model": "block/chiseled_quartz_block_2" },
-		{ "model": "block/chiseled_quartz_block_2", "y": 90 },
-		{ "model": "block/chiseled_quartz_block_2", "y": 180 },
-		{ "model": "block/chiseled_quartz_block_2", "y": 270 },
-		{ "model": "block/chiseled_quartz_block_3" },
-		{ "model": "block/chiseled_quartz_block_3", "y": 90 },
-		{ "model": "block/chiseled_quartz_block_3", "y": 180 },
-		{ "model": "block/chiseled_quartz_block_3", "y": 270 },
-		{ "model": "block/chiseled_quartz_block_4" },
-		{ "model": "block/chiseled_quartz_block_4", "y": 90 },
-		{ "model": "block/chiseled_quartz_block_4", "y": 180 },
-		{ "model": "block/chiseled_quartz_block_4", "y": 270 }
-		]
-	}
+        "": [
+            {
+                "model": "block/chiseled_quartz_block"
+            },
+            {
+                "model": "block/chiseled_quartz_block",
+                "y": 90
+            },
+            {
+                "model": "block/chiseled_quartz_block",
+                "y": 180
+            },
+            {
+                "model": "block/chiseled_quartz_block",
+                "y": 270
+            },
+            {
+                "model": "block/chiseled_quartz_block_2"
+            },
+            {
+                "model": "block/chiseled_quartz_block_2",
+                "y": 90
+            },
+            {
+                "model": "block/chiseled_quartz_block_2",
+                "y": 180
+            },
+            {
+                "model": "block/chiseled_quartz_block_2",
+                "y": 270
+            },
+            {
+                "model": "block/chiseled_quartz_block_3"
+            },
+            {
+                "model": "block/chiseled_quartz_block_3",
+                "y": 90
+            },
+            {
+                "model": "block/chiseled_quartz_block_3",
+                "y": 180
+            },
+            {
+                "model": "block/chiseled_quartz_block_3",
+                "y": 270
+            },
+            {
+                "model": "block/chiseled_quartz_block_4"
+            },
+            {
+                "model": "block/chiseled_quartz_block_4",
+                "y": 90
+            },
+            {
+                "model": "block/chiseled_quartz_block_4",
+                "y": 180
+            },
+            {
+                "model": "block/chiseled_quartz_block_4",
+                "y": 270
+            }
+        ]
+    }
 }

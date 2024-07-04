@@ -1,21 +1,21 @@
 {
-  "variants": {
-    "": [
-      {
-        "model": "block/cage"
-      },
-      {
-        "model": "block/cage",
-        "y": 90
-      },
-      {
-        "model": "block/cage",
-        "y": 180
-      },
-      {
-        "model": "block/cage",
-        "y": 270
-      }
-    ]
-  }
+    "variants": {
+        "": [
+            {
+                "model": "block/cage"
+            },
+            {
+                "model": "block/cage",
+                "y": 90
+            },
+            {
+                "model": "block/cage",
+                "y": 180
+            },
+            {
+                "model": "block/cage",
+                "y": 270
+            }
+        ]
+    }
 }

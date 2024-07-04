@@ -1,10 +1,10 @@
 {
-  "variants": {
-    "lit=false": {
-      "model": "minecraft:block/replace"
-    },
-    "lit=true": {
-      "model": "minecraft:block/replace_luminous"
+    "variants": {
+        "lit=false": {
+            "model": "minecraft:block/replace"
+        },
+        "lit=true": {
+            "model": "minecraft:block/replace_luminous"
+        }
     }
-  }
 }

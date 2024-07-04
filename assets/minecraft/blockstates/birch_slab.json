@@ -1,12 +1,22 @@
 {
     "variants": {
         "type=bottom": [
-			{ "model": "block/birch_slab" },
-			{ "model": "block/birch_slab_2" },
-			{ "model": "block/birch_slab_3" },
-			{ "model": "block/birch_slab_4" },
-			{ "model": "block/birch_slab_5" }
-		],
+            {
+                "model": "block/birch_slab"
+            },
+            {
+                "model": "block/birch_slab_2"
+            },
+            {
+                "model": "block/birch_slab_3"
+            },
+            {
+                "model": "block/birch_slab_4"
+            },
+            {
+                "model": "block/birch_slab_5"
+            }
+        ],
         "type=top": [
 			{ "model": "block/birch_slab_top" },
 			{ "model": "block/birch_slab_top_2" },

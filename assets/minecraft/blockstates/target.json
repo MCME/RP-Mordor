@@ -1,71 +1,195 @@
 {
-  "variants": {
-    "power=0": [
-			{ "model": "minecraft:block/target_block_power0" },
-			{ "model": "minecraft:block/target_block_power0_2" },
-			{ "model": "minecraft:block/target_block_power0_3" },
-			{ "model": "minecraft:block/target_block_power0_4" }
-			],
-	"power=1":[
-			{ "model": "minecraft:block/target_block_power1" },
-			{ "model": "minecraft:block/target_block_power1_2" },
-			{ "model": "minecraft:block/target_block_power1_3" },
-			{ "model": "minecraft:block/target_block_power1_4" },
-			{ "model": "minecraft:block/target_block_power1_5" },
-			{ "model": "minecraft:block/target_block_power1_6" }
-			],
-	"power=2": [
-			{ "model": "minecraft:block/target_block_power2" },
-			{ "model": "minecraft:block/target_block_power2_2" },
-			{ "model": "minecraft:block/target_block_power2_3" },
-			{ "model": "minecraft:block/target_block_power2_4" }
-			],
-	"power=3": [
-			{ "model": "minecraft:block/target_block_power0", "y": 90 },
-			{ "model": "minecraft:block/target_block_power0_2", "y": 90 },
-			{ "model": "minecraft:block/target_block_power0_3", "y": 90 },
-			{ "model": "minecraft:block/target_block_power0_4", "y": 90 }
-			],
-	"power=4": [
-			{ "model": "minecraft:block/target_block_power4" },
-			{ "model": "minecraft:block/target_block_power4_2" },
-			{ "model": "minecraft:block/target_block_power4_3" },
-			{ "model": "minecraft:block/target_block_power4_4" }
-			],
-	"power=5": [
-			{ "model": "minecraft:block/target_block_power5" },
-			{ "model": "minecraft:block/target_block_power5_2" },
-			{ "model": "minecraft:block/target_block_power5_3" },
-			{ "model": "minecraft:block/target_block_power5_4" }
-			],
-	"power=6": [
-			{ "model": "minecraft:block/target_block_power6"},
-			{ "model": "minecraft:block/target_block_power6_2"},
-			{ "model": "minecraft:block/target_block_power6_3"},
-			{ "model": "minecraft:block/target_block_power6_4"}
-			],
-	 "power=7": [
-			{ "model": "minecraft:block/target_block_power7" },
-			{ "model": "minecraft:block/target_block_power7_2" },
-			{ "model": "minecraft:block/target_block_power7_3" },
-			{ "model": "minecraft:block/target_block_power7_4" },
-			{ "model": "minecraft:block/target_block_power7_5" },
-			{ "model": "minecraft:block/target_block_power7_6" },
-			{ "model": "minecraft:block/target_block_power7_7" },
-			{ "model": "minecraft:block/target_block_power7_8" }
-			],
-	"power=8": [
-			{ "model": "minecraft:block/target_block_power6", "y": 90 },
-			{ "model": "minecraft:block/target_block_power6_2", "y": 90 },
-			{ "model": "minecraft:block/target_block_power6_3", "y": 90 },
-			{ "model": "minecraft:block/target_block_power6_4", "y": 90 }
-			],
-	"power=9": [
-			{ "model": "minecraft:block/target_block_power9", "weight": 1 },
-			{ "model": "minecraft:block/target_block_power9_2", "weight": 2 },
-			{ "model": "minecraft:block/target_block_power9_3", "weight": 1 },
-			{ "model": "minecraft:block/target_block_power9_4", "weight": 1 },
-			{ "model": "minecraft:block/target_block_power9_5", "weight": 1 }
-			]
-  }
+    "variants": {
+        "power=0": [
+            {
+                "model": "minecraft:block/target_block_power0"
+            },
+            {
+                "model": "minecraft:block/target_block_power0_2"
+            },
+            {
+                "model": "minecraft:block/target_block_power0_3"
+            },
+            {
+                "model": "minecraft:block/target_block_power0_4"
+            }
+        ],
+        "power=1": [
+            {
+                "model": "minecraft:block/target_block_power1"
+            },
+            {
+                "model": "minecraft:block/target_block_power1_2"
+            },
+            {
+                "model": "minecraft:block/target_block_power1_3"
+            },
+            {
+                "model": "minecraft:block/target_block_power1_4"
+            },
+            {
+                "model": "minecraft:block/target_block_power1_5"
+            },
+            {
+                "model": "minecraft:block/target_block_power1_6"
+            }
+        ],
+        "power=2": [
+            {
+                "model": "minecraft:block/target_block_power2"
+            },
+            {
+                "model": "minecraft:block/target_block_power2_2"
+            },
+            {
+                "model": "minecraft:block/target_block_power2_3"
+            },
+            {
+                "model": "minecraft:block/target_block_power2_4"
+            }
+        ],
+        "power=3": [
+            {
+                "model": "minecraft:block/target_block_power0",
+                "y": 90
+            },
+            {
+                "model": "minecraft:block/target_block_power0_2",
+                "y": 90
+            },
+            {
+                "model": "minecraft:block/target_block_power0_3",
+                "y": 90
+            },
+            {
+                "model": "minecraft:block/target_block_power0_4",
+                "y": 90
+            }
+        ],
+        "power=4": [
+            {
+                "model": "minecraft:block/target_block_power4"
+            },
+            {
+                "model": "minecraft:block/target_block_power4_2"
+            },
+            {
+                "model": "minecraft:block/target_block_power4_3"
+            },
+            {
+                "model": "minecraft:block/target_block_power4_4"
+            }
+        ],
+        "power=5": [
+            {
+                "model": "minecraft:block/target_block_power5"
+            },
+            {
+                "model": "minecraft:block/target_block_power5_2"
+            },
+            {
+                "model": "minecraft:block/target_block_power5_3"
+            },
+            {
+                "model": "minecraft:block/target_block_power5_4"
+            }
+        ],
+        "power=6": [
+            {
+                "model": "minecraft:block/target_block_power6"
+            },
+            {
+                "model": "minecraft:block/target_block_power6_2"
+            },
+            {
+                "model": "minecraft:block/target_block_power6_3"
+            },
+            {
+                "model": "minecraft:block/target_block_power6_4"
+            }
+        ],
+        "power=7": [
+            {
+                "model": "minecraft:block/target_block_power7"
+            },
+            {
+                "model": "minecraft:block/target_block_power7_2"
+            },
+            {
+                "model": "minecraft:block/target_block_power7_3"
+            },
+            {
+                "model": "minecraft:block/target_block_power7_4"
+            },
+            {
+                "model": "minecraft:block/target_block_power7_5"
+            },
+            {
+                "model": "minecraft:block/target_block_power7_6"
+            },
+            {
+                "model": "minecraft:block/target_block_power7_7"
+            },
+            {
+                "model": "minecraft:block/target_block_power7_8"
+            }
+        ],
+        "power=8": [
+            {
+                "model": "minecraft:block/replace"
+            }
+        ],
+        "power=9": [
+            {
+                "model": "minecraft:block/target_block_power9",
+                "weight": 1
+            },
+            {
+                "model": "minecraft:block/target_block_power9_2",
+                "weight": 2
+            },
+            {
+                "model": "minecraft:block/target_block_power9_3",
+                "weight": 1
+            },
+            {
+                "model": "minecraft:block/target_block_power9_4",
+                "weight": 1
+            },
+            {
+                "model": "minecraft:block/target_block_power9_5",
+                "weight": 1
+            }
+        ],
+        "power=10": [
+            {
+                "model": "minecraft:block/replace"
+            }
+        ],
+        "power=11": [
+            {
+                "model": "minecraft:block/replace"
+            }
+        ],
+        "power=12": [
+            {
+                "model": "minecraft:block/replace"
+            }
+        ],
+        "power=13": [
+            {
+                "model": "minecraft:block/replace"
+            }
+        ],
+        "power=14": [
+            {
+                "model": "minecraft:block/replace"
+            }
+        ],
+        "power=15": [
+            {
+                "model": "minecraft:block/replace"
+            }
+        ]
+    }
 }

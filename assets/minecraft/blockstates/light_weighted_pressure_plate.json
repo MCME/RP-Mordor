@@ -135,10 +135,9 @@
 	{ "model": "block/pan_4", "y":270 }
 	],
     "power\u003d14": {
-      "model": "block/replace"
+      "model": "block/replace_pressure_plate"
     },
     "power\u003d15": {
-      "model": "block/replace"
+      "model": "block/replace_pressure_plate"
     }
-  }
 }

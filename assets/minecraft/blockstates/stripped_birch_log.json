@@ -1,13 +1,13 @@
 {
-  "variants": {
-    "axis=x": {
-      "model": "mcme:block/darker_pillar_topper" },
-    "axis=y": [
-		{ "model": "mcme:block/black_pillar_topper"}
-		],
-    "axis=z": {
-      "model": "minecraft:block/stripped_birch_log_horizontal",
-      "x": 90
+    "variants": {
+        "axis=x": {
+            "model": "minecraft:block/replace"
+        },
+        "axis=y": {
+            "model": "minecraft:block/replace"
+        },
+        "axis=z": {
+            "model": "minecraft:block/replace"
+        }
     }
-  }
 }

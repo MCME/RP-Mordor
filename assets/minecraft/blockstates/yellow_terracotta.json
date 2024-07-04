@@ -1,7 +1,9 @@
 {
-  "variants": {
-    "": [
-      { "model": "block/replace" }
-    ]
-  }
+    "variants": {
+        "": [
+            {
+                "model": "block/replace"
+            }
+        ]
+    }
 }

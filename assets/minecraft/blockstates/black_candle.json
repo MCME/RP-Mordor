@@ -15,7 +15,7 @@
       {"model": "minecraft:block/planks_3", "y": 270}
      ],
     "candles=1,lit=true": [
-      {"model": "minecraft:block/black_candle_one_candle_lit"}
+      {"model": "minecraft:block/unused_cross_luminous"}
     ],
     "candles=2,lit=false": [
         {"model": "minecraft:block/planks_stack2"},
@@ -32,7 +32,7 @@
         {"model": "minecraft:block/planks_stack2_3", "y": 270}
     ],
     "candles=2,lit=true": {
-      "model": "minecraft:block/black_candle_two_candles_lit"
+      "model": "minecraft:block/unused_cross_luminous"
     },
     "candles=3,lit=false": [
         {"model": "minecraft:block/planks_stack3"},
@@ -49,7 +49,7 @@
         {"model": "minecraft:block/planks_stack3_3", "y": 270}
     ],
     "candles=3,lit=true": {
-      "model": "minecraft:block/black_candle_three_candles_lit"
+      "model": "minecraft:block/unused_cross_luminous"
     },
     "candles=4,lit=false": [
         {"model": "minecraft:block/planks_stack4"},
@@ -66,7 +66,7 @@
         {"model": "minecraft:block/planks_stack4_3", "y": 270}
     ],
     "candles=4,lit=true": {
-      "model": "minecraft:block/black_candle_four_candles_lit"
+      "model": "minecraft:block/unused_cross_luminous"
     }
   }
 }

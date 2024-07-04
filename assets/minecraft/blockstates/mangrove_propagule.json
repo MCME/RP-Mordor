@@ -10,28 +10,28 @@
 	{ "model": "minecraft:block/candle_holder", "y": 270 },
 	{ "model": "minecraft:block/candle_holder_2", "y": 270 }
 	],
-    "age=0,stage=1": { "model": "block/replace", "y": 270 },
-    "age=1,stage=0": { "model": "block/replace", "y": 270 },
+    "age=0,stage=1": { "model": "block/unused_cross_cutout", "y": 270 },
+    "age=1,stage=0": { "model": "block/unused_cross_cutout", "y": 270 },
     "age=1,stage=1": {
-      "model": "minecraft:block/mangrove_propagule_hanging_1"
+      "model": "minecraft:block/unused_cross_cutout"
     },
     "age=2,stage=0": {
-      "model": "minecraft:block/mangrove_propagule"
+      "model": "minecraft:block/unused_cross_cutout"
     },
     "age=2,stage=1": {
-      "model": "minecraft:block/mangrove_propagule_hanging_2"
+      "model": "minecraft:block/unused_cross_cutout"
     },
     "age=3,stage=0": {
-      "model": "minecraft:block/mangrove_propagule"
+      "model": "minecraft:block/unused_cross_cutout"
     },
     "age=3,stage=1": {
-      "model": "minecraft:block/mangrove_propagule_hanging_3"
+      "model": "minecraft:block/unused_cross_cutout"
     },
     "age=4,stage=0": {
-      "model": "minecraft:block/mangrove_propagule"
+      "model": "minecraft:block/unused_cross_cutout"
     },
     "age=4,stage=1": {
-      "model": "minecraft:block/mangrove_propagule_hanging_4"
+      "model": "minecraft:block/unused_cross_cutout"
     }
   }
 }

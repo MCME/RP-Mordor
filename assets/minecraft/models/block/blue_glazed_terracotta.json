@@ -6,7 +6,7 @@
     "up": "block/stucco_light_blue",
     "north": "block/stucco_light_blue",
     "east": "block/glazed_terracotta_blue_side_1",
-    "south": "block/red_sandstone",
+    "south": "block/replace",
     "west": "block/glazed_terracotta_blue_side_2"
   }
 }

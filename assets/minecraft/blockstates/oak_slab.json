@@ -1,12 +1,22 @@
 {
     "variants": {
         "type=bottom": [
-			{ "model": "block/oak_slab" },
-			{ "model": "block/oak_slab_2" },
-			{ "model": "block/oak_slab_3" },
-			{ "model": "block/oak_slab_4" },
-			{ "model": "block/oak_slab_5" }
-		],
+            {
+                "model": "block/oak_slab"
+            },
+            {
+                "model": "block/oak_slab_2"
+            },
+            {
+                "model": "block/oak_slab_3"
+            },
+            {
+                "model": "block/oak_slab_4"
+            },
+            {
+                "model": "block/oak_slab_5"
+            }
+        ],
         "type=top": [
 			{ "model": "block/oak_slab_top" },
 			{ "model": "block/oak_slab_top_2" },
