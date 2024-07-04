@@ -3,8 +3,8 @@
         "": [
 		{  "model": "minecraft:block/putrid_top_cover" },
 		{  "model": "minecraft:block/putrid_top_cover", "y":90 },
-		{  "model": "minecraft:block/putrid_top_cover", "y":90 },
-		{  "model": "minecraft:block/putrid_top_cover", "y":90 }
+		{  "model": "minecraft:block/putrid_top_cover", "y":180 },
+		{  "model": "minecraft:block/putrid_top_cover", "y":270 }
 		]
     }
 }
