@@ -1,0 +1,2305 @@
+{
+    "multipart": [
+        {
+            "when": {
+                "up": "false",
+                "north": "low",
+                "east": "none",
+                "south": "none",
+                "west": "low"
+            },
+            "apply": [
+                {
+                    "model": "block/beam_core_rope"
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "false",
+                "north": "low",
+                "east": "low",
+                "south": "none",
+                "west": "none"
+            },
+            "apply": [
+                {
+                    "model": "block/beam_core_rope",
+                    "y": 90
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "false",
+                "north": "none",
+                "east": "low",
+                "south": "low",
+                "west": "none"
+            },
+            "apply": [
+                {
+                    "model": "block/beam_core_rope",
+                    "y": 180
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "false",
+                "north": "none",
+                "east": "none",
+                "south": "low",
+                "west": "low"
+            },
+            "apply": [
+                {
+                    "model": "block/beam_core_rope",
+                    "y": 270
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "false",
+                "north": "none",
+                "east": "tall",
+                "south": "none",
+                "west": "low"
+            },
+            "apply": [
+                {
+                    "model": "block/beam_diagonal_rope_e"
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "false",
+                "north": "low",
+                "east": "none",
+                "south": "tall",
+                "west": "none"
+            },
+            "apply": [
+                {
+                    "model": "block/beam_diagonal_rope_e",
+                    "y": 90
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "false",
+                "north": "none",
+                "east": "low",
+                "south": "none",
+                "west": "tall"
+            },
+            "apply": [
+                {
+                    "model": "block/beam_diagonal_rope_e",
+                    "y": 180
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "false",
+                "north": "tall",
+                "east": "none",
+                "south": "low",
+                "west": "none"
+            },
+            "apply": [
+                {
+                    "model": "block/beam_diagonal_rope_e",
+                    "y": 270
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "false",
+                "north": "none",
+                "east": "low",
+                "south": "none",
+                "west": "low"
+            },
+            "apply": [
+                {
+                    "model": "block/beam_diagonal_rope_e_down"
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "false",
+                "north": "low",
+                "east": "none",
+                "south": "low",
+                "west": "none"
+            },
+            "apply": [
+                {
+                    "model": "block/beam_diagonal_rope_e_down",
+                    "y": 90
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "true",
+                "north": "none",
+                "east": "low",
+                "south": "none",
+                "west": "low"
+            },
+            "apply": [
+                {
+                    "model": "block/beam_diagonal_rope_e_down",
+                    "y": 180
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "true",
+                "north": "low",
+                "east": "none",
+                "south": "low",
+                "west": "none"
+            },
+            "apply": [
+                {
+                    "model": "block/beam_diagonal_rope_e_down",
+                    "y": 270
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "true",
+                "north": "low",
+                "east": "none",
+                "south": "tall",
+                "west": "none"
+            },
+            "apply": [
+                {
+                    "model": "block/beam_diagonal_rope_s"
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "true",
+                "north": "none",
+                "east": "low",
+                "south": "none",
+                "west": "tall"
+            },
+            "apply": [
+                {
+                    "model": "block/beam_diagonal_rope_s",
+                    "y": 90
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "true",
+                "north": "tall",
+                "east": "none",
+                "south": "low",
+                "west": "none"
+            },
+            "apply": [
+                {
+                    "model": "block/beam_diagonal_rope_s",
+                    "y": 180
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "true",
+                "north": "none",
+                "east": "tall",
+                "south": "none",
+                "west": "low"
+            },
+            "apply": [
+                {
+                    "model": "block/beam_diagonal_rope_s",
+                    "y": 270
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "false",
+                "north": "low",
+                "east": "none",
+                "south": "low",
+                "west": "low"
+            },
+            "apply": [
+                {
+                    "model": "block/beam_diagonal_rope_s_down"
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "false",
+                "north": "low",
+                "east": "low",
+                "south": "none",
+                "west": "low"
+            },
+            "apply": [
+                {
+                    "model": "block/beam_diagonal_rope_s_down",
+                    "y": 90
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "false",
+                "north": "low",
+                "east": "low",
+                "south": "low",
+                "west": "none"
+            },
+            "apply": [
+                {
+                    "model": "block/beam_diagonal_rope_s_down",
+                    "y": 180
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "false",
+                "north": "none",
+                "east": "low",
+                "south": "low",
+                "west": "low"
+            },
+            "apply": [
+                {
+                    "model": "block/beam_diagonal_rope_s_down",
+                    "y": 270
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "false",
+                "north": "none",
+                "east": "none",
+                "south": "none",
+                "west": "tall"
+            },
+            "apply": [
+                {
+                    "model": "block/beam_diagonal_rope_w"
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "false",
+                "north": "tall",
+                "east": "none",
+                "south": "none",
+                "west": "none"
+            },
+            "apply": [
+                {
+                    "model": "block/beam_diagonal_rope_w",
+                    "y": 90
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "false",
+                "north": "none",
+                "east": "tall",
+                "south": "none",
+                "west": "none"
+            },
+            "apply": [
+                {
+                    "model": "block/beam_diagonal_rope_w",
+                    "y": 180
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "false",
+                "north": "none",
+                "east": "none",
+                "south": "tall",
+                "west": "none"
+            },
+            "apply": [
+                {
+                    "model": "block/beam_diagonal_rope_w",
+                    "y": 270
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "false",
+                "north": "none",
+                "east": "none",
+                "south": "none",
+                "west": "low"
+            },
+            "apply": [
+                {
+                    "model": "block/beam_diagonal_rope_w_down"
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "false",
+                "north": "low",
+                "east": "none",
+                "south": "none",
+                "west": "none"
+            },
+            "apply": [
+                {
+                    "model": "block/beam_diagonal_rope_w_down",
+                    "y": 90
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "false",
+                "north": "none",
+                "east": "low",
+                "south": "none",
+                "west": "none"
+            },
+            "apply": [
+                {
+                    "model": "block/beam_diagonal_rope_w_down",
+                    "y": 180
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "false",
+                "north": "none",
+                "east": "none",
+                "south": "low",
+                "west": "none"
+            },
+            "apply": [
+                {
+                    "model": "block/beam_diagonal_rope_w_down",
+                    "y": 270
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "true",
+                "north": "tall",
+                "east": "none",
+                "south": "none",
+                "west": "none"
+            },
+            "apply": [
+                {
+                    "model": "block/beam_diagonal_rope_n"
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "true",
+                "north": "none",
+                "east": "tall",
+                "south": "none",
+                "west": "none"
+            },
+            "apply": [
+                {
+                    "model": "block/beam_diagonal_rope_n",
+                    "y": 90
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "true",
+                "north": "none",
+                "east": "none",
+                "south": "tall",
+                "west": "none"
+            },
+            "apply": [
+                {
+                    "model": "block/beam_diagonal_rope_n",
+                    "y": 180
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "true",
+                "north": "none",
+                "east": "none",
+                "south": "none",
+                "west": "tall"
+            },
+            "apply": [
+                {
+                    "model": "block/beam_diagonal_rope_n",
+                    "y": 270
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "true",
+                "north": "low",
+                "east": "none",
+                "south": "none",
+                "west": "none"
+            },
+            "apply": [
+                {
+                    "model": "block/beam_diagonal_rope_n_down"
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "true",
+                "north": "none",
+                "east": "low",
+                "south": "none",
+                "west": "none"
+            },
+            "apply": [
+                {
+                    "model": "block/beam_diagonal_rope_n_down",
+                    "y": 90
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "true",
+                "north": "none",
+                "east": "none",
+                "south": "low",
+                "west": "none"
+            },
+            "apply": [
+                {
+                    "model": "block/beam_diagonal_rope_n_down",
+                    "y": 180
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "true",
+                "north": "none",
+                "east": "none",
+                "south": "none",
+                "west": "low"
+            },
+            "apply": [
+                {
+                    "model": "block/beam_diagonal_rope_n_down",
+                    "y": 270
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "true",
+                "north": "tall",
+                "east": "none",
+                "south": "none",
+                "west": "tall"
+            },
+            "apply": [
+                {
+                    "model": "block/beam_diagonal_rope_n_support"
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "true",
+                "north": "tall",
+                "east": "tall",
+                "south": "none",
+                "west": "none"
+            },
+            "apply": [
+                {
+                    "model": "block/beam_diagonal_rope_n_support",
+                    "y": 90
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "true",
+                "north": "none",
+                "east": "tall",
+                "south": "tall",
+                "west": "none"
+            },
+            "apply": [
+                {
+                    "model": "block/beam_diagonal_rope_n_support",
+                    "y": 180
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "true",
+                "north": "none",
+                "east": "none",
+                "south": "tall",
+                "west": "tall"
+            },
+            "apply": [
+                {
+                    "model": "block/beam_diagonal_rope_n_support",
+                    "y": 270
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "false",
+                "north": "low",
+                "east": "none",
+                "south": "none",
+                "west": "tall"
+            },
+            "apply": [
+                {
+                    "model": "block/beam_diagonal_rope_w_support"
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "false",
+                "north": "tall",
+                "east": "low",
+                "south": "none",
+                "west": "none"
+            },
+            "apply": [
+                {
+                    "model": "block/beam_diagonal_rope_w_support",
+                    "y": 90
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "false",
+                "north": "none",
+                "east": "tall",
+                "south": "low",
+                "west": "none"
+            },
+            "apply": [
+                {
+                    "model": "block/beam_diagonal_rope_w_support",
+                    "y": 180
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "false",
+                "north": "none",
+                "east": "none",
+                "south": "tall",
+                "west": "low"
+            },
+            "apply": [
+                {
+                    "model": "block/beam_diagonal_rope_w_support",
+                    "y": 270
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "false",
+                "north": "tall",
+                "east": "none",
+                "south": "tall",
+                "west": "tall"
+            },
+            "apply": [
+                {
+                    "model": "block/beam_core_metal"
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "false",
+                "north": "tall",
+                "east": "tall",
+                "south": "none",
+                "west": "tall"
+            },
+            "apply": [
+                {
+                    "model": "block/beam_core_metal",
+                    "y": 90
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "false",
+                "north": "tall",
+                "east": "tall",
+                "south": "tall",
+                "west": "none"
+            },
+            "apply": [
+                {
+                    "model": "block/beam_core_metal",
+                    "y": 180
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "false",
+                "north": "none",
+                "east": "tall",
+                "south": "tall",
+                "west": "tall"
+            },
+            "apply": [
+                {
+                    "model": "block/beam_core_metal",
+                    "y": 270
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "true",
+                "north": "low",
+                "east": "none",
+                "south": "low",
+                "west": "low"
+            },
+            "apply": [
+                {
+                    "model": "block/beam_diagonal_metal_e_support"
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "true",
+                "north": "low",
+                "east": "low",
+                "south": "none",
+                "west": "low"
+            },
+            "apply": [
+                {
+                    "model": "block/beam_diagonal_metal_e_support",
+                    "y": 90
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "true",
+                "north": "low",
+                "east": "low",
+                "south": "low",
+                "west": "none"
+            },
+            "apply": [
+                {
+                    "model": "block/beam_diagonal_metal_e_support",
+                    "y": 180
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "true",
+                "north": "none",
+                "east": "low",
+                "south": "low",
+                "west": "low"
+            },
+            "apply": [
+                {
+                    "model": "block/beam_diagonal_metal_e_support",
+                    "y": 270
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "false",
+                "north": "tall",
+                "east": "none",
+                "south": "none",
+                "west": "tall"
+            },
+            "apply": [
+                {
+                    "model": "block/beam_diagonal_metal_e"
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "false",
+                "north": "tall",
+                "east": "tall",
+                "south": "none",
+                "west": "none"
+            },
+            "apply": [
+                {
+                    "model": "block/beam_diagonal_metal_e",
+                    "y": 90
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "false",
+                "north": "none",
+                "east": "tall",
+                "south": "tall",
+                "west": "none"
+            },
+            "apply": [
+                {
+                    "model": "block/beam_diagonal_metal_e",
+                    "y": 180
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "false",
+                "north": "none",
+                "east": "none",
+                "south": "tall",
+                "west": "tall"
+            },
+            "apply": [
+                {
+                    "model": "block/beam_diagonal_metal_e",
+                    "y": 270
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "true",
+                "north": "low",
+                "east": "none",
+                "south": "none",
+                "west": "low"
+            },
+            "apply": [
+                {
+                    "model": "block/beam_diagonal_metal_e_down"
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "true",
+                "north": "low",
+                "east": "low",
+                "south": "none",
+                "west": "none"
+            },
+            "apply": [
+                {
+                    "model": "block/beam_diagonal_metal_e_down",
+                    "y": 90
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "true",
+                "north": "none",
+                "east": "low",
+                "south": "low",
+                "west": "none"
+            },
+            "apply": [
+                {
+                    "model": "block/beam_diagonal_metal_e_down",
+                    "y": 180
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "true",
+                "north": "none",
+                "east": "none",
+                "south": "low",
+                "west": "low"
+            },
+            "apply": [
+                {
+                    "model": "block/beam_diagonal_metal_e_down",
+                    "y": 270
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "false",
+                "north": "low",
+                "east": "tall",
+                "south": "none",
+                "west": "tall"
+            },
+            "apply": [
+                {
+                    "model": "block/beam_diagonal_metal_n"
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "false",
+                "north": "tall",
+                "east": "low",
+                "south": "tall",
+                "west": "none"
+            },
+            "apply": [
+                {
+                    "model": "block/beam_diagonal_metal_n",
+                    "y": 90
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "false",
+                "north": "none",
+                "east": "tall",
+                "south": "low",
+                "west": "tall"
+            },
+            "apply": [
+                {
+                    "model": "block/beam_diagonal_metal_n",
+                    "y": 180
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "false",
+                "north": "tall",
+                "east": "none",
+                "south": "tall",
+                "west": "low"
+            },
+            "apply": [
+                {
+                    "model": "block/beam_diagonal_metal_n",
+                    "y": 270
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "false",
+                "north": "tall",
+                "east": "low",
+                "south": "none",
+                "west": "low"
+            },
+            "apply": [
+                {
+                    "model": "block/beam_diagonal_metal_n_down"
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "false",
+                "north": "low",
+                "east": "tall",
+                "south": "low",
+                "west": "none"
+            },
+            "apply": [
+                {
+                    "model": "block/beam_diagonal_metal_n_down",
+                    "y": 90
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "false",
+                "north": "none",
+                "east": "low",
+                "south": "tall",
+                "west": "low"
+            },
+            "apply": [
+                {
+                    "model": "block/beam_diagonal_metal_n_down",
+                    "y": 180
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "false",
+                "north": "low",
+                "east": "none",
+                "south": "low",
+                "west": "tall"
+            },
+            "apply": [
+                {
+                    "model": "block/beam_diagonal_metal_n_down",
+                    "y": 270
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "false",
+                "north": "none",
+                "east": "tall",
+                "south": "none",
+                "west": "tall"
+            },
+            "apply": [
+                {
+                    "model": "block/beam_diagonal_metal_n_support"
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "false",
+                "north": "tall",
+                "east": "none",
+                "south": "tall",
+                "west": "none"
+            },
+            "apply": [
+                {
+                    "model": "block/beam_diagonal_metal_n_support",
+                    "y": 90
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "true",
+                "north": "none",
+                "east": "tall",
+                "south": "none",
+                "west": "tall"
+            },
+            "apply": [
+                {
+                    "model": "block/beam_diagonal_metal_n_support",
+                    "y": 180
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "true",
+                "north": "tall",
+                "east": "none",
+                "south": "tall",
+                "west": "none"
+            },
+            "apply": [
+                {
+                    "model": "block/beam_diagonal_metal_n_support",
+                    "y": 270
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "true",
+                "north": "tall",
+                "east": "low",
+                "south": "none",
+                "west": "low"
+            },
+            "apply": [
+                {
+                    "model": "block/beam_diagonal_metal_s_support"
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "true",
+                "north": "low",
+                "east": "tall",
+                "south": "low",
+                "west": "none"
+            },
+            "apply": [
+                {
+                    "model": "block/beam_diagonal_metal_s_support",
+                    "y": 90
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "true",
+                "north": "none",
+                "east": "low",
+                "south": "tall",
+                "west": "low"
+            },
+            "apply": [
+                {
+                    "model": "block/beam_diagonal_metal_s_support",
+                    "y": 180
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "true",
+                "north": "low",
+                "east": "none",
+                "south": "low",
+                "west": "tall"
+            },
+            "apply": [
+                {
+                    "model": "block/beam_diagonal_metal_s_support",
+                    "y": 270
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "true",
+                "north": "tall",
+                "east": "none",
+                "south": "tall",
+                "west": "tall"
+            },
+            "apply": [
+                {
+                    "model": "block/beam_diagonal_metal_s"
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "true",
+                "north": "tall",
+                "east": "tall",
+                "south": "none",
+                "west": "tall"
+            },
+            "apply": [
+                {
+                    "model": "block/beam_diagonal_metal_s",
+                    "y": 90
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "true",
+                "north": "tall",
+                "east": "tall",
+                "south": "tall",
+                "west": "none"
+            },
+            "apply": [
+                {
+                    "model": "block/beam_diagonal_metal_s",
+                    "y": 180
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "true",
+                "north": "none",
+                "east": "tall",
+                "south": "tall",
+                "west": "tall"
+            },
+            "apply": [
+                {
+                    "model": "block/beam_diagonal_metal_s",
+                    "y": 270
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "true",
+                "north": "tall",
+                "east": "none",
+                "south": "low",
+                "west": "tall"
+            },
+            "apply": [
+                {
+                    "model": "block/beam_diagonal_metal_s_down"
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "true",
+                "north": "tall",
+                "east": "tall",
+                "south": "none",
+                "west": "low"
+            },
+            "apply": [
+                {
+                    "model": "block/beam_diagonal_metal_s_down",
+                    "y": 90
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "true",
+                "north": "low",
+                "east": "tall",
+                "south": "tall",
+                "west": "none"
+            },
+            "apply": [
+                {
+                    "model": "block/beam_diagonal_metal_s_down",
+                    "y": 180
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "true",
+                "north": "none",
+                "east": "low",
+                "south": "tall",
+                "west": "tall"
+            },
+            "apply": [
+                {
+                    "model": "block/beam_diagonal_metal_s_down",
+                    "y": 270
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "false",
+                "north": "none",
+                "east": "low",
+                "south": "low",
+                "west": "tall"
+            },
+            "apply": [
+                {
+                    "model": "block/beam_diagonal_metal_w"
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "false",
+                "north": "tall",
+                "east": "none",
+                "south": "low",
+                "west": "low"
+            },
+            "apply": [
+                {
+                    "model": "block/beam_diagonal_metal_w",
+                    "y": 90
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "false",
+                "north": "low",
+                "east": "tall",
+                "south": "none",
+                "west": "low"
+            },
+            "apply": [
+                {
+                    "model": "block/beam_diagonal_metal_w",
+                    "y": 180
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "false",
+                "north": "low",
+                "east": "low",
+                "south": "tall",
+                "west": "none"
+            },
+            "apply": [
+                {
+                    "model": "block/beam_diagonal_metal_w",
+                    "y": 270
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "true",
+                "north": "none",
+                "east": "low",
+                "south": "low",
+                "west": "tall"
+            },
+            "apply": [
+                {
+                    "model": "block/beam_diagonal_metal_w_down"
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "true",
+                "north": "tall",
+                "east": "none",
+                "south": "low",
+                "west": "low"
+            },
+            "apply": [
+                {
+                    "model": "block/beam_diagonal_metal_w_down",
+                    "y": 90
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "true",
+                "north": "low",
+                "east": "tall",
+                "south": "none",
+                "west": "low"
+            },
+            "apply": [
+                {
+                    "model": "block/beam_diagonal_metal_w_down",
+                    "y": 180
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "true",
+                "north": "low",
+                "east": "low",
+                "south": "tall",
+                "west": "none"
+            },
+            "apply": [
+                {
+                    "model": "block/beam_diagonal_metal_w_down",
+                    "y": 270
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "true",
+                "north": "low",
+                "east": "none",
+                "south": "none",
+                "west": "tall"
+            },
+            "apply": [
+                {
+                    "model": "block/beam_diagonal_metal_w_support"
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "true",
+                "north": "tall",
+                "east": "low",
+                "south": "none",
+                "west": "none"
+            },
+            "apply": [
+                {
+                    "model": "block/beam_diagonal_metal_w_support",
+                    "y": 90
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "true",
+                "north": "none",
+                "east": "tall",
+                "south": "low",
+                "west": "none"
+            },
+            "apply": [
+                {
+                    "model": "block/beam_diagonal_metal_w_support",
+                    "y": 180
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "true",
+                "north": "none",
+                "east": "none",
+                "south": "tall",
+                "west": "low"
+            },
+            "apply": [
+                {
+                    "model": "block/beam_diagonal_metal_w_support",
+                    "y": 270
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "true",
+                "north": "tall",
+                "east": "none",
+                "south": "none",
+                "west": "low"
+            },
+            "apply": [
+                {
+                    "model": "block/beam_diagonal_metal_ns"
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "true",
+                "north": "low",
+                "east": "tall",
+                "south": "none",
+                "west": "none"
+            },
+            "apply": [
+                {
+                    "model": "block/beam_diagonal_metal_ns",
+                    "y": 90
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "true",
+                "north": "none",
+                "east": "low",
+                "south": "tall",
+                "west": "none"
+            },
+            "apply": [
+                {
+                    "model": "block/beam_diagonal_metal_ns",
+                    "y": 180
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "true",
+                "north": "none",
+                "east": "none",
+                "south": "low",
+                "west": "tall"
+            },
+            "apply": [
+                {
+                    "model": "block/beam_diagonal_metal_ns",
+                    "y": 270
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "false",
+                "north": "tall",
+                "east": "low",
+                "south": "none",
+                "west": "tall"
+            },
+            "apply": [
+                {
+                    "model": "block/beam_diagonal_metal_we"
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "false",
+                "north": "tall",
+                "east": "tall",
+                "south": "low",
+                "west": "none"
+            },
+            "apply": [
+                {
+                    "model": "block/beam_diagonal_metal_we",
+                    "y": 90
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "false",
+                "north": "none",
+                "east": "tall",
+                "south": "tall",
+                "west": "low"
+            },
+            "apply": [
+                {
+                    "model": "block/beam_diagonal_metal_we",
+                    "y": 180
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "false",
+                "north": "low",
+                "east": "none",
+                "south": "tall",
+                "west": "tall"
+            },
+            "apply": [
+                {
+                    "model": "block/beam_diagonal_metal_we",
+                    "y": 270
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "true",
+                "north": "tall",
+                "east": "low",
+                "south": "none",
+                "west": "tall"
+            },
+            "apply": [
+                {
+                    "model": "block/replace_wall"
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "true",
+                "north": "tall",
+                "east": "tall",
+                "south": "low",
+                "west": "none"
+            },
+            "apply": [
+                {
+                    "model": "block/replace_wall",
+                    "y": 90
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "true",
+                "north": "none",
+                "east": "tall",
+                "south": "tall",
+                "west": "low"
+            },
+            "apply": [
+                {
+                    "model": "block/replace_wall",
+                    "y": 180
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "true",
+                "north": "low",
+                "east": "none",
+                "south": "tall",
+                "west": "tall"
+            },
+            "apply": [
+                {
+                    "model": "block/replace_wall",
+                    "y": 270
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "false",
+                "north": "low",
+                "east": "none",
+                "south": "tall",
+                "west": "low"
+            },
+            "apply": [
+                {
+                    "model": "block/replace_wall"
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "false",
+                "north": "low",
+                "east": "low",
+                "south": "none",
+                "west": "tall"
+            },
+            "apply": [
+                {
+                    "model": "block/replace_wall",
+                    "y": 90
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "false",
+                "north": "tall",
+                "east": "low",
+                "south": "low",
+                "west": "none"
+            },
+            "apply": [
+                {
+                    "model": "block/replace_wall",
+                    "y": 180
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "false",
+                "north": "none",
+                "east": "tall",
+                "south": "low",
+                "west": "low"
+            },
+            "apply": [
+                {
+                    "model": "block/replace_wall",
+                    "y": 270
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "true",
+                "north": "low",
+                "east": "low",
+                "south": "none",
+                "west": "tall"
+            },
+            "apply": [
+                {
+                    "model": "block/replace_wall"
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "true",
+                "north": "tall",
+                "east": "low",
+                "south": "low",
+                "west": "none"
+            },
+            "apply": [
+                {
+                    "model": "block/replace_wall",
+                    "y": 90
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "true",
+                "north": "none",
+                "east": "tall",
+                "south": "low",
+                "west": "low"
+            },
+            "apply": [
+                {
+                    "model": "block/replace_wall",
+                    "y": 180
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "true",
+                "north": "low",
+                "east": "none",
+                "south": "tall",
+                "west": "low"
+            },
+            "apply": [
+                {
+                    "model": "block/replace_wall",
+                    "y": 270
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "false",
+                "north": "tall",
+                "east": "low",
+                "south": "low",
+                "west": "tall"
+            },
+            "apply": [
+                {
+                    "model": "block/replace_wall"
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "false",
+                "north": "tall",
+                "east": "tall",
+                "south": "low",
+                "west": "low"
+            },
+            "apply": [
+                {
+                    "model": "block/replace_wall",
+                    "y": 90
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "false",
+                "north": "low",
+                "east": "tall",
+                "south": "tall",
+                "west": "low"
+            },
+            "apply": [
+                {
+                    "model": "block/replace_wall",
+                    "y": 180
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "false",
+                "north": "low",
+                "east": "low",
+                "south": "tall",
+                "west": "tall"
+            },
+            "apply": [
+                {
+                    "model": "block/replace_wall",
+                    "y": 270
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "true",
+                "north": "tall",
+                "east": "low",
+                "south": "low",
+                "west": "tall"
+            },
+            "apply": [
+                {
+                    "model": "block/replace_wall"
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "true",
+                "north": "tall",
+                "east": "tall",
+                "south": "low",
+                "west": "low"
+            },
+            "apply": [
+                {
+                    "model": "block/replace_wall",
+                    "y": 90
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "true",
+                "north": "low",
+                "east": "tall",
+                "south": "tall",
+                "west": "low"
+            },
+            "apply": [
+                {
+                    "model": "block/replace_wall",
+                    "y": 180
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "true",
+                "north": "low",
+                "east": "low",
+                "south": "tall",
+                "west": "tall"
+            },
+            "apply": [
+                {
+                    "model": "block/replace_wall",
+                    "y": 270
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "false",
+                "north": "tall",
+                "east": "tall",
+                "south": "none",
+                "west": "low"
+            },
+            "apply": [
+                {
+                    "model": "block/beam_diagonal_rope_e_support"
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "false",
+                "north": "low",
+                "east": "tall",
+                "south": "tall",
+                "west": "none"
+            },
+            "apply": [
+                {
+                    "model": "block/beam_diagonal_rope_e_support",
+                    "y": 90
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "false",
+                "north": "none",
+                "east": "low",
+                "south": "tall",
+                "west": "tall"
+            },
+            "apply": [
+                {
+                    "model": "block/beam_diagonal_rope_e_support",
+                    "y": 180
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "false",
+                "north": "tall",
+                "east": "none",
+                "south": "low",
+                "west": "tall"
+            },
+            "apply": [
+                {
+                    "model": "block/beam_diagonal_rope_e_support",
+                    "y": 270
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "true",
+                "north": "tall",
+                "east": "none",
+                "south": "tall",
+                "west": "low"
+            },
+            "apply": [
+                {
+                    "model": "block/beam_diagonal_rope_s_support"
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "true",
+                "north": "low",
+                "east": "tall",
+                "south": "none",
+                "west": "tall"
+            },
+            "apply": [
+                {
+                    "model": "block/beam_diagonal_rope_s_support",
+                    "y": 90
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "true",
+                "north": "tall",
+                "east": "low",
+                "south": "tall",
+                "west": "none"
+            },
+            "apply": [
+                {
+                    "model": "block/beam_diagonal_rope_s_support",
+                    "y": 180
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "true",
+                "north": "none",
+                "east": "tall",
+                "south": "low",
+                "west": "tall"
+            },
+            "apply": [
+                {
+                    "model": "block/beam_diagonal_rope_s_support",
+                    "y": 270
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "false",
+                "north": "tall",
+                "east": "none",
+                "south": "none",
+                "west": "low"
+            },
+            "apply": [
+                {
+                    "model": "block/replace_wall"
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "false",
+                "north": "low",
+                "east": "tall",
+                "south": "none",
+                "west": "none"
+            },
+            "apply": [
+                {
+                    "model": "block/replace_wall",
+                    "y": 90
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "false",
+                "north": "none",
+                "east": "low",
+                "south": "tall",
+                "west": "none"
+            },
+            "apply": [
+                {
+                    "model": "block/replace_wall",
+                    "y": 180
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "false",
+                "north": "none",
+                "east": "none",
+                "south": "low",
+                "west": "tall"
+            },
+            "apply": [
+                {
+                    "model": "block/replace_wall",
+                    "y": 270
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "false",
+                "north": "tall",
+                "east": "tall",
+                "south": "tall",
+                "west": "low"
+            },
+            "apply": [
+                {
+                    "model": "block/replace_wall"
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "false",
+                "north": "low",
+                "east": "tall",
+                "south": "tall",
+                "west": "tall"
+            },
+            "apply": [
+                {
+                    "model": "block/replace_wall",
+                    "y": 90
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "false",
+                "north": "tall",
+                "east": "low",
+                "south": "tall",
+                "west": "tall"
+            },
+            "apply": [
+                {
+                    "model": "block/replace_wall",
+                    "y": 180
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "false",
+                "north": "tall",
+                "east": "tall",
+                "south": "low",
+                "west": "tall"
+            },
+            "apply": [
+                {
+                    "model": "block/replace_wall",
+                    "y": 270
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "true",
+                "north": "low",
+                "east": "tall",
+                "south": "low",
+                "west": "low"
+            },
+            "apply": [
+                {
+                    "model": "block/replace_wall"
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "true",
+                "north": "low",
+                "east": "low",
+                "south": "tall",
+                "west": "low"
+            },
+            "apply": [
+                {
+                    "model": "block/replace_wall",
+                    "y": 90
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "true",
+                "north": "low",
+                "east": "low",
+                "south": "low",
+                "west": "tall"
+            },
+            "apply": [
+                {
+                    "model": "block/replace_wall",
+                    "y": 180
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "true",
+                "north": "tall",
+                "east": "low",
+                "south": "low",
+                "west": "low"
+            },
+            "apply": [
+                {
+                    "model": "block/replace_wall",
+                    "y": 270
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "false",
+                "north": "low",
+                "east": "low",
+                "south": "low",
+                "west": "tall"
+            },
+            "apply": [
+                {
+                    "model": "block/replace_wall"
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "false",
+                "north": "tall",
+                "east": "low",
+                "south": "low",
+                "west": "low"
+            },
+            "apply": [
+                {
+                    "model": "block/replace_wall",
+                    "y": 90
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "false",
+                "north": "low",
+                "east": "tall",
+                "south": "low",
+                "west": "low"
+            },
+            "apply": [
+                {
+                    "model": "block/replace_wall",
+                    "y": 180
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "false",
+                "north": "low",
+                "east": "low",
+                "south": "tall",
+                "west": "low"
+            },
+            "apply": [
+                {
+                    "model": "block/replace_wall",
+                    "y": 270
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "true",
+                "north": "tall",
+                "east": "tall",
+                "south": "tall",
+                "west": "low"
+            },
+            "apply": [
+                {
+                    "model": "block/replace_wall"
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "true",
+                "north": "low",
+                "east": "tall",
+                "south": "tall",
+                "west": "tall"
+            },
+            "apply": [
+                {
+                    "model": "block/replace_wall",
+                    "y": 90
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "true",
+                "north": "tall",
+                "east": "low",
+                "south": "tall",
+                "west": "tall"
+            },
+            "apply": [
+                {
+                    "model": "block/replace_wall",
+                    "y": 180
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "true",
+                "north": "tall",
+                "east": "tall",
+                "south": "low",
+                "west": "tall"
+            },
+            "apply": [
+                {
+                    "model": "block/replace_wall",
+                    "y": 270
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "false",
+                "north": "low",
+                "east": "tall",
+                "south": "low",
+                "west": "tall"
+            },
+            "apply": [
+                {
+                    "model": "block/replace_wall"
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "false",
+                "north": "tall",
+                "east": "low",
+                "south": "tall",
+                "west": "low"
+            },
+            "apply": [
+                {
+                    "model": "block/replace_wall",
+                    "y": 90
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "true",
+                "north": "low",
+                "east": "tall",
+                "south": "low",
+                "west": "tall"
+            },
+            "apply": [
+                {
+                    "model": "block/replace_wall",
+                    "y": 180
+                }
+            ]
+        },
+        {
+            "when": {
+                "up": "true",
+                "north": "tall",
+                "east": "low",
+                "south": "tall",
+                "west": "low"
+            },
+            "apply": [
+                {
+                    "model": "block/replace_wall",
+                    "y": 270
+                }
+            ]
+        }
+    ]
+}

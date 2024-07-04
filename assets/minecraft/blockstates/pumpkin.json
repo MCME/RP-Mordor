@@ -1,5 +1,7 @@
 {
     "variants": {
-        "": { "model": "block/pumpkin"}
+        "": {
+            "model": "block/pumpkin"
+        }
     }
 }

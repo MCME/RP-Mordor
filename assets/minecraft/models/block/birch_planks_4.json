@@ -1,7 +1,6 @@
 {
-  "parent": "block/planks",
+  "parent": "block/cube_all",
   "textures": {
-    "all": "block/birch_planks_4",
-    "particle": "block/birch_planks_4"
+    "all": "block/birch_planks_4"
   }
 }

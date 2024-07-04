@@ -1,49 +1,270 @@
 {
-  "multipart": [
-    {
-      "when": {
-        "north": true
-      },
-      "apply": {
-        "model": "block/glass_pane_half_right_orange"
-      }
-    },
-    {
-      "when": {
-        "east": true
-      },
-      "apply": {
-        "model": "block/glass_pane_half_right_orange",
-        "y": 90
-      }
-    },
-    {
-      "when": {
-        "south": true
-      },
-      "apply": {
-        "model": "block/glass_pane_half_left_orange"
-      }
-    },
-    {
-      "when": {
-        "west": true
-      },
-      "apply": {
-        "model": "block/glass_pane_half_left_orange",
-        "y": 90
-      }
-    },
-    {
-      "when": {
-        "north": false,
-        "east": false,
-        "south": false,
-        "west": false
-      },
-      "apply": {
-        "model": "block/unused_cross_0"
-      }
-    }
-  ]
+    "multipart": [
+        {
+            "when": {
+                "east": false,
+                "south": true,
+                "north": false,
+                "west": false
+            },
+            "apply": [
+                {
+                    "model": "minecraft:block/sewage_marks",
+                    "y": 270
+                },
+                {
+                    "model": "minecraft:block/sewage_marks_2",
+                    "y": 270
+                },
+                {
+                    "model": "minecraft:block/sewage_marks_3",
+                    "y": 270
+                }
+            ]
+        },
+        {
+            "when": {
+                "east": false,
+                "south": false,
+                "north": false,
+                "west": true
+            },
+            "apply": [
+                {
+                    "model": "minecraft:block/sewage_marks"
+                },
+                {
+                    "model": "minecraft:block/sewage_marks_2"
+                },
+                {
+                    "model": "minecraft:block/sewage_marks_3"
+                }
+            ]
+        },
+        {
+            "when": {
+                "east": false,
+                "south": false,
+                "north": true,
+                "west": false
+            },
+            "apply": [
+                {
+                    "model": "minecraft:block/sewage_marks",
+                    "y": 90
+                },
+                {
+                    "model": "minecraft:block/sewage_marks_2",
+                    "y": 90
+                },
+                {
+                    "model": "minecraft:block/sewage_marks_3",
+                    "y": 90
+                }
+            ]
+        },
+        {
+            "when": {
+                "east": true,
+                "south": false,
+                "north": false,
+                "west": false
+            },
+            "apply": [
+                {
+                    "model": "minecraft:block/sewage_marks",
+                    "y": 180
+                },
+                {
+                    "model": "minecraft:block/sewage_marks_2",
+                    "y": 180
+                },
+                {
+                    "model": "minecraft:block/sewage_marks_3",
+                    "y": 180
+                }
+            ]
+        },
+        {
+            "when": {
+                "east": true,
+                "south": true,
+                "north": false,
+                "west": false
+            },
+            "apply": [
+                {
+                    "model": "minecraft:block/weathering_marks",
+                    "y": 270
+                },
+                {
+                    "model": "minecraft:block/weathering_marks_2",
+                    "y": 270
+                },
+                {
+                    "model": "minecraft:block/weathering_marks_3",
+                    "y": 270
+                }
+            ]
+        },
+        {
+            "when": {
+                "east": false,
+                "south": false,
+                "north": true,
+                "west": true
+            },
+            "apply": [
+                {
+                    "model": "minecraft:block/weathering_marks",
+                    "y": 90
+                },
+                {
+                    "model": "minecraft:block/weathering_marks_2",
+                    "y": 90
+                },
+                {
+                    "model": "minecraft:block/weathering_marks_3",
+                    "y": 90
+                }
+            ]
+        },
+        {
+            "when": {
+                "east": false,
+                "south": true,
+                "north": false,
+                "west": true
+            },
+            "apply": [
+                {
+                    "model": "minecraft:block/weathering_marks"
+                },
+                {
+                    "model": "minecraft:block/weathering_marks_2"
+                },
+                {
+                    "model": "minecraft:block/weathering_marks_3"
+                }
+            ]
+        },
+        {
+            "when": {
+                "east": true,
+                "south": false,
+                "north": true,
+                "west": false
+            },
+            "apply": [
+                {
+                    "model": "minecraft:block/weathering_marks",
+                    "y": 180
+                },
+                {
+                    "model": "minecraft:block/weathering_marks_2",
+                    "y": 180
+                },
+                {
+                    "model": "minecraft:block/weathering_marks_3",
+                    "y": 180
+                }
+            ]
+        },
+        {
+            "when": {
+                "east": false,
+                "south": true,
+                "north": true,
+                "west": true
+            },
+            "apply": [
+                {
+                    "model": "minecraft:block/burn_marks"
+                },
+                {
+                    "model": "minecraft:block/burn_marks_2"
+                },
+                {
+                    "model": "minecraft:block/burn_marks_3"
+                }
+            ]
+        },
+        {
+            "when": {
+                "east": true,
+                "south": true,
+                "north": true,
+                "west": false
+            },
+            "apply": [
+                {
+                    "model": "minecraft:block/burn_marks",
+                    "y": 180
+                },
+                {
+                    "model": "minecraft:block/burn_marks_2",
+                    "y": 180
+                },
+                {
+                    "model": "minecraft:block/burn_marks_3",
+                    "y": 180
+                }
+            ]
+        },
+        {
+            "when": {
+                "east": true,
+                "south": true,
+                "north": false,
+                "west": true
+            },
+            "apply": [
+                {
+                    "model": "minecraft:block/burn_marks",
+                    "y": 270
+                },
+                {
+                    "model": "minecraft:block/burn_marks_2",
+                    "y": 270
+                },
+                {
+                    "model": "minecraft:block/burn_marks_3",
+                    "y": 270
+                }
+            ]
+        },
+        {
+            "when": {
+                "east": true,
+                "south": false,
+                "north": true,
+                "west": true
+            },
+            "apply": [
+                {
+                    "model": "minecraft:block/burn_marks",
+                    "y": 90
+                },
+                {
+                    "model": "minecraft:block/burn_marks_2",
+                    "y": 90
+                },
+                {
+                    "model": "minecraft:block/burn_marks_3",
+                    "y": 90
+                }
+            ]
+        },
+        {
+            "when": {
+                "north": false,
+                "east": false,
+                "south": false,
+                "west": false
+            },
+            "apply": {
+                "model": "block/unused_cross_0"
+            }
+        }
+    ]
 }

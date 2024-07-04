@@ -1,0 +1,28 @@
+{
+    "variants": {
+        "candles=1,lit=false": {
+            "model": "minecraft:block/unused_cross_0"
+        },
+        "candles=1,lit=true": {
+            "model": "minecraft:block/unused_cross_luminous"
+        },
+        "candles=2,lit=false": {
+            "model": "minecraft:block/unused_cross_0"
+        },
+        "candles=2,lit=true": {
+            "model": "minecraft:block/unused_cross_luminous"
+        },
+        "candles=3,lit=false": {
+            "model": "minecraft:block/unused_cross_0"
+        },
+        "candles=3,lit=true": {
+            "model": "minecraft:block/unused_cross_luminous"
+        },
+        "candles=4,lit=false": {
+            "model": "minecraft:block/unused_cross_0"
+        },
+        "candles=4,lit=true": {
+            "model": "minecraft:block/unused_cross_luminous"
+        }
+    }
+}

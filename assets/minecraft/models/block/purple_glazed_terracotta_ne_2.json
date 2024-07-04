@@ -1,12 +1,12 @@
 {
   "parent": "block/cube",
   "textures": {
-    "particle": "block/quartz_bricks_4",
-    "down": "block/quartz_bricks_4",
+    "particle": "block/nether_bricks_4",
+    "down": "block/nether_bricks_4",
     "up": "block/purple_glazed_terracotta_top_2",
     "north": "block/purple_glazed_terracotta_side_2",
-    "east": "block/quartz_bricks_4",
+    "east": "block/nether_bricks_4",
     "south": "block/purple_glazed_terracotta_side_2",
-    "west": "block/quartz_bricks_4"
+    "west": "block/nether_bricks_4"
   }
 }

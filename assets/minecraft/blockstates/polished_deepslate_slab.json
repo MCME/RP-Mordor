@@ -1,0 +1,14 @@
+{
+    "variants": {
+        "type=bottom": {
+            "model": "minecraft:block/replace_slab"
+        },
+        "type=double": {
+            "model": "minecraft:block/replace"
+        },
+        "type=top": {
+            "model": "minecraft:block/replace_slab",
+            "x": 180
+        }
+    }
+}

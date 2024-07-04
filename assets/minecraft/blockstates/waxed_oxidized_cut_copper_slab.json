@@ -1,0 +1,36 @@
+{
+    "variants": {
+        "type=bottom": [
+            {
+                "model": "block/lapis_slab"
+            },
+            {
+                "model": "block/lapis_slab_2"
+            },
+            {
+                "model": "block/lapis_slab_3"
+            },
+            {
+                "model": "block/lapis_slab_4"
+            }
+        ],
+        "type=top": [
+            {
+                "model": "block/lapis_slab",
+                "x": 180
+            },
+            {
+                "model": "block/lapis_slab_2",
+                "x": 180
+            },
+            {
+                "model": "block/lapis_slab_3",
+                "x": 180
+            },
+            {
+                "model": "block/lapis_slab_4",
+                "x": 180
+            }
+        ]
+    }
+}

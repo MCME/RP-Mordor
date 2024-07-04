@@ -1,9 +1,9 @@
 {
   "ambientocclusion": false,
   "textures": {
-    "texture": "block/stripped_oak_log",
-    "inside": "block/stripped_oak_log",
-    "particle": "block/stripped_oak_log"
+    "texture": "block/replace",
+    "inside": "block/replace",
+    "particle": "block/replace"
   },
   "elements": [
     {

@@ -3,9 +3,9 @@
 	"ambientocclusion": false,
 	"textures": {
 		"1": "block/spike_middle",
-		"3": "block/quartz_block_2",
+		"3": "block/exposed_cut_copper_2",
 		"4": "block/spike_side_small",
-		"5": "block/quartz_block",
+		"5": "block/exposed_cut_copper",
 		"6": "block/dried_kelp_block",
 		"particle": "block/blue_stained_glass_pane_ne_side"
 	},

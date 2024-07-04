@@ -1,17 +1,52 @@
 {
     "variants": {
-        "distance=2,persistent=false": { "model": "block/big_barrel", "x":90, "y":90 },
-		"distance=3,persistent=false": { "model": "block/big_barrel", "x":90 },
-		"distance=4,persistent=false": { "model": "block/big_barrel" },
-		"distance=5,persistent=false": { "model": "block/upwards_spike_xl", "y": 180 },
-		"distance=6,persistent=false": { "model": "block/upwards_spike_xl", "y": 270 },
-		"distance=7,persistent=false": { "model": "itemblock/barrel_coal_full_item" },
-		"distance=1,persistent=false": { "model": "itemblock/barrel_coal_half_item" },
-		"distance=2,persistent=true": { "model": "block/upwards_spike_xl", "y": 90 },
-		"distance=3,persistent=true": { "model": "block/crenelation_spike_north" },
-		"distance=4,persistent=true": { "model": "block/crenelation_spike_south" },
-		"distance=5,persistent=true": { "model": "block/crenelation_spike_west" },
-		"distance=6,persistent=true": { "model": "block/crenelation_spike_east" },
-		"distance=7,persistent=true": { "model": "itemblock/barrel_meat_half_item" }
+        "distance=2,persistent=false": {
+            "model": "block/big_barrel",
+            "x": 90,
+            "y": 90
+        },
+        "distance=3,persistent=false": {
+            "model": "block/big_barrel",
+            "x": 90
+        },
+        "distance=4,persistent=false": {
+            "model": "block/big_barrel"
+        },
+        "distance=5,persistent=false": {
+            "model": "mcme:block/pointy_spike_small",
+            "y": 180
+        },
+        "distance=6,persistent=false": {
+            "model": "mcme:block/pointy_spike_small",
+            "y": 270
+        },
+        "distance=7,persistent=false": {
+            "model": "itemblock/barrel_coal_full_item"
+        },
+        "distance=1,persistent=false": {
+            "model": "itemblock/barrel_coal_half_item"
+        },
+        "distance=2,persistent=true": {
+            "model": "mcme:block/pointy_spike_small",
+            "y": 90
+        },
+        "distance=3,persistent=true": {
+            "model": "mcme:block/metal_panel"
+        },
+        "distance=4,persistent=true": {
+            "model": "mcme:block/metal_panel",
+            "y": 180
+        },
+        "distance=5,persistent=true": {
+            "model": "mcme:block/metal_panel",
+            "y": 270
+        },
+        "distance=6,persistent=true": {
+            "model": "mcme:block/metal_panel",
+            "y": 90
+        },
+        "distance=7,persistent=true": {
+            "model": "itemblock/barrel_meat_half_item"
+        }
     }
 }

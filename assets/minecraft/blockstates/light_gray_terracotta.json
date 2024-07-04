@@ -1,11 +1,21 @@
 {
-  "variants": {
-    "": [
-      { "model": "block/light_gray_terracotta"},
-	  { "model": "block/light_gray_terracotta_2"},
-	  { "model": "block/light_gray_terracotta_3"},
-	  { "model": "block/light_gray_terracotta_4"},
-	  { "model": "block/light_gray_terracotta_5"}
-    ]
-  }
+    "variants": {
+        "": [
+            {
+                "model": "block/light_gray_terracotta"
+            },
+            {
+                "model": "block/light_gray_terracotta_2"
+            },
+            {
+                "model": "block/light_gray_terracotta_3"
+            },
+            {
+                "model": "block/light_gray_terracotta_4"
+            },
+            {
+                "model": "block/light_gray_terracotta_5"
+            }
+        ]
+    }
 }

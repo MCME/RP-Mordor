@@ -1,0 +1,50 @@
+{
+  "variants": {
+	"age=1,leaves=none,stage=0": [
+    { "model": "mcme:block/eye_banner_1"},
+	{ "model": "mcme:block/eye_banner_2"},
+	{ "model": "mcme:block/eye_banner_3"}
+	  ],
+	 "age=0,leaves=none,stage=0": [
+      { "model": "mcme:block/eye_banner_1", "y":90},
+	{ "model": "mcme:block/eye_banner_2", "y":90},
+	{ "model": "mcme:block/eye_banner_3", "y":90}
+	  ],
+	 "age=0,leaves=small,stage=0": [
+      { "model": "mcme:block/eye_banner_1", "y":180 },
+	  { "model": "mcme:block/eye_banner_2", "y":180 },
+	  { "model": "mcme:block/eye_banner_3", "y":180 }
+	  ],
+	 "age=0,leaves=large,stage=0": [
+      { "model": "mcme:block/eye_banner_1", "y":270 },
+	  { "model": "mcme:block/eye_banner_2", "y":270 },
+	  { "model": "mcme:block/eye_banner_3", "y":270 }
+	  ],
+	  "age=1,leaves=large,stage=0": [
+      { "model": "mcme:block/putrid_stump" },
+	  { "model": "mcme:block/putrid_stump_2" },
+	  { "model": "mcme:block/putrid_stump_3" }
+	  ],
+	  "age=1,leaves=small,stage=0": {
+		"model": "block/unused_cross_cutout"
+	  },
+	  "age=0,leaves=none,stage=1": {
+		"model": "block/unused_cross_cutout"
+	  },
+	  "age=0,leaves=small,stage=1": {
+		"model": "block/unused_cross_cutout"
+	  },
+	  "age=0,leaves=large,stage=1": {
+		"model": "block/unused_cross_cutout"
+	  },
+	  "age=01,leaves=none,stage=1": {
+		"model": "block/unused_cross_cutout"
+	  },
+	  "age=1,leaves=small,stage=1": {
+		"model": "block/unused_cross_cutout"
+	  },
+	  "age=1,leaves=large,stage=1": {
+		"model": "block/unused_cross_cutout"
+	  }
+ }
+}

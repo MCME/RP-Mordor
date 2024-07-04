@@ -1,49 +1,49 @@
 {
-  "variants": {
-    "age\u003d0,facing\u003dsouth": {
-      "model": "block/cocoa_stage0"
-    },
-    "age\u003d0,facing\u003dwest": {
-      "model": "block/cocoa_stage0",
-      "y": 90
-    },
-    "age\u003d0,facing\u003dnorth": {
-      "model": "block/cocoa_stage0",
-      "y": 180
-    },
-    "age\u003d0,facing\u003deast": {
-      "model": "block/cocoa_stage0",
-      "y": 270
-    },
-    "age\u003d1,facing\u003dnorth": {
-      "model": "block/cocoa_stage1"
-    },
-    "age\u003d1,facing\u003deast": {
-      "model": "block/cocoa_stage1",
-      "y": 90
-    },
-    "age\u003d1,facing\u003dsouth": {
-      "model": "block/cocoa_stage1",
-      "y": 180
-    },
-    "age\u003d1,facing\u003dwest": {
-      "model": "block/cocoa_stage1",
-      "y": 270
-    },
-    "age\u003d2,facing\u003dnorth": {
-      "model": "block/cocoa_stage2"
-    },
-    "age\u003d2,facing\u003deast": {
-      "model": "block/cocoa_stage2",
-      "y": 90
-    },
-    "age\u003d2,facing\u003dsouth": {
-      "model": "block/cocoa_stage2",
-      "y": 180
-    },
-    "age\u003d2,facing\u003dwest": {
-      "model": "block/cocoa_stage2",
-      "y": 270
+    "variants": {
+        "age=0,facing=south": {
+            "model": "block/reinforced_strip_wall"
+        },
+        "age=0,facing=west": {
+            "model": "block/reinforced_strip_wall",
+            "y": 90
+        },
+        "age=0,facing=north": {
+            "model": "block/reinforced_strip_wall",
+            "y": 180
+        },
+        "age=0,facing=east": {
+            "model": "block/reinforced_strip_wall",
+            "y": 270
+        },
+        "age=1,facing=north": {
+            "model": "block/reinforced_strip_wall_deco",
+            "y": 180
+        },
+        "age=1,facing=east": {
+            "model": "block/reinforced_strip_wall_deco",
+            "y": 270
+        },
+        "age=1,facing=south": {
+            "model": "block/reinforced_strip_wall_deco"
+        },
+        "age=1,facing=west": {
+            "model": "block/reinforced_strip_wall_deco",
+            "y": 90
+        },
+        "age=2,facing=north": {
+            "model": "block/reinforced_strip_wall_wide",
+            "y": 180
+        },
+        "age=2,facing=east": {
+            "model": "block/reinforced_strip_wall_wide",
+            "y": 270
+        },
+        "age=2,facing=south": {
+            "model": "block/reinforced_strip_wall_wide"
+        },
+        "age=2,facing=west": {
+            "model": "block/reinforced_strip_wall_wide",
+            "y": 90
+        }
     }
-  }
 }

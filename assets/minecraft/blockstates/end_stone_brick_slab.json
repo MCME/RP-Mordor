@@ -1,13 +1,19 @@
 {
     "variants": {
         "type=bottom": [
-			{ "model": "block/end_stone_slab" }
-		],
+            {
+                "model": "block/end_stone_slab"
+            }
+        ],
         "type=top": [
-			{ "model": "block/end_stone_slab_top" }
-		],
+            {
+                "model": "block/end_stone_slab_top"
+            }
+        ],
         "type=double": [
-            { "model": "block/double_slab_end_stone" }
+            {
+                "model": "block/double_slab_end_stone"
+            }
         ]
     }
 }

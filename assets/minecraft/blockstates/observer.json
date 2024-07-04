@@ -1,0 +1,50 @@
+{
+    "variants": {
+        "facing=down,powered=false": {
+            "model": "minecraft:block/replace",
+            "x": 90
+        },
+        "facing=down,powered=true": {
+            "model": "minecraft:block/replace",
+            "x": 90
+        },
+        "facing=east,powered=false": {
+            "model": "minecraft:block/replace",
+            "y": 90
+        },
+        "facing=east,powered=true": {
+            "model": "minecraft:block/replace",
+            "y": 90
+        },
+        "facing=north,powered=false": {
+            "model": "minecraft:block/replace"
+        },
+        "facing=north,powered=true": {
+            "model": "minecraft:block/replace"
+        },
+        "facing=south,powered=false": {
+            "model": "minecraft:block/replace",
+            "y": 180
+        },
+        "facing=south,powered=true": {
+            "model": "minecraft:block/replace",
+            "y": 180
+        },
+        "facing=up,powered=false": {
+            "model": "minecraft:block/replace",
+            "x": 270
+        },
+        "facing=up,powered=true": {
+            "model": "minecraft:block/replace",
+            "x": 270
+        },
+        "facing=west,powered=false": {
+            "model": "minecraft:block/replace",
+            "y": 270
+        },
+        "facing=west,powered=true": {
+            "model": "minecraft:block/replace",
+            "y": 270
+        }
+    }
+}
