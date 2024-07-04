@@ -1,8 +1,0 @@
-{
-  "parent": "block/door_thin_wall",
-  "textures": {
-    "particle": "block/replace_cutout",
-    "bottom": "block/replace_cutout",
-    "top": "block/replace_cutout"
-  }
-}

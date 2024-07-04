@@ -1,8 +1,0 @@
-{
-  "parent": "block/vertical_slab",
-  "textures": {
-    "bottom": "block/dried_kelp_block_4",
-    "top": "block/dried_kelp_block_4",
-    "side": "block/dried_kelp_block_4"
-  }
-}

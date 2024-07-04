@@ -1,7 +1,0 @@
-{
-  "parent": "block/deco_nse",
-  "textures": {
-    "details": "block/unusedb00",
-    "particle": "block/unusedb00"
-  }
-}

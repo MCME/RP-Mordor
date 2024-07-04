@@ -1,6 +1,0 @@
-{
-  "parent": "block/weathering_marks_parent",
-  "textures": {
-    	"0": "block/weathering_marks_3"
-  }
-}

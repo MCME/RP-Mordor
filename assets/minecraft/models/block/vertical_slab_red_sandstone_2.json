@@ -1,8 +1,0 @@
-{
-  "parent": "block/vertical_slab",
-  "textures": {
-    "bottom": "block/brown_mushroom_block_nud_2",
-    "top": "block/brown_mushroom_block_nud_2",
-    "side": "block/brown_mushroom_block_nud_2"
-  }
-}

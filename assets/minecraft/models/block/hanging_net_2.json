@@ -1,6 +1,0 @@
-{
-  "parent": "block/hanging_net_parent",
-  "textures": {
-    	"0": "block/hanging_net_2"
-  }
-}

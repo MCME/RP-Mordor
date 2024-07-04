@@ -1,8 +1,0 @@
-{
-  "parent": "block/door_thin_wall",
-  "textures": {
-    "particle": "block/exposed_cut_copper",
-    "bottom": "block/exposed_cut_copper",
-    "top": "block/exposed_cut_copper"
-  }
-}

@@ -1,8 +1,0 @@
-{
-    "parent": "block/inner_stairs",
-    "textures": {
-        "bottom": "block/dried_kelp_block_3",
-        "top": "block/dried_kelp_block_3",
-        "side": "block/dried_kelp_block_3"
-    }
-}
