@@ -23,6 +23,15 @@
 	  { "model": "minecraft:block/wooden_bowl_5", "y": 270 }
     ],
     "eggs=2,hatch=1": { "model": "minecraft:block/sawhorse", "y": 90 },
-    "eggs=2,hatch=2": { "model": "minecraft:block/sawhorse" }
+    "eggs=2,hatch=2": { "model": "minecraft:block/sawhorse" },
+    "eggs=1,hatch=0": { "model": "minecraft:block/unused_cross_cutout" },
+    "eggs=1,hatch=1": { "model": "minecraft:block/unused_cross_cutout" },
+    "eggs=1,hatch=2": { "model": "minecraft:block/unused_cross_cutout" },
+    "eggs=3,hatch=0": { "model": "minecraft:block/unused_cross_cutout" },
+    "eggs=3,hatch=1": { "model": "minecraft:block/unused_cross_cutout" },
+    "eggs=3,hatch=2": { "model": "minecraft:block/unused_cross_cutout" },
+    "eggs=4,hatch=0": { "model": "minecraft:block/unused_cross_cutout" },
+    "eggs=4,hatch=1": { "model": "minecraft:block/unused_cross_cutout" },
+    "eggs=4,hatch=2": { "model": "minecraft:block/unused_cross_cutout" }
   }
 }

@@ -412,6 +412,9 @@
                 "y": 270
             }
         ],
+        "berries=true,age=0": {
+                "model": "block/unused_cross_luminous_cutout"
+        },
         "berries=true,age=1": [
             {
                 "model": "minecraft:block/chandelier"
@@ -463,6 +466,72 @@
                 "y": 270
             }
         ],
+        "berries=true,age=4": {
+                "model": "block/unused_cross_luminous_cutout"
+        },
+        "berries=true,age=5": {
+                "model": "block/unused_cross_luminous_cutout"
+        },
+        "berries=true,age=6": {
+                "model": "block/unused_cross_luminous_cutout"
+        },
+        "berries=true,age=7": {
+                "model": "block/unused_cross_luminous_cutout"
+        },
+        "berries=true,age=8": {
+                "model": "block/unused_cross_luminous_cutout"
+        },
+        "berries=true,age=9": {
+                "model": "block/unused_cross_luminous_cutout"
+        },
+        "berries=true,age=10": {
+                "model": "block/unused_cross_luminous_cutout"
+        },
+        "berries=true,age=11": {
+                "model": "block/unused_cross_luminous_cutout"
+        },
+        "berries=true,age=12": {
+                "model": "block/unused_cross_luminous_cutout"
+        },
+        "berries=true,age=13": {
+                "model": "block/unused_cross_luminous_cutout"
+        },
+        "berries=true,age=14": {
+                "model": "block/unused_cross_luminous_cutout"
+        },
+        "berries=true,age=15": {
+                "model": "block/unused_cross_luminous_cutout"
+        },
+        "berries=true,age=16": {
+                "model": "block/unused_cross_luminous_cutout"
+        },
+        "berries=true,age=17": {
+                "model": "block/unused_cross_luminous_cutout"
+        },
+        "berries=true,age=18": {
+                "model": "block/unused_cross_luminous_cutout"
+        },
+        "berries=true,age=19": {
+                "model": "block/unused_cross_luminous_cutout"
+        },
+        "berries=true,age=20": {
+                "model": "block/unused_cross_luminous_cutout"
+        },
+        "berries=true,age=21": {
+                "model": "block/unused_cross_luminous_cutout"
+        },
+        "berries=true,age=22": {
+                "model": "block/unused_cross_luminous_cutout"
+        },
+        "berries=true,age=23": {
+                "model": "block/unused_cross_luminous_cutout"
+        },
+        "berries=true,age=24": {
+                "model": "block/unused_cross_luminous_cutout"
+        },
+        "berries=true,age=25": {
+                "model": "block/unused_cross_luminous_cutout"
+        },
         "berries=false,age=16": [
             {
                 "model": "minecraft:block/leaning_ladder"
@@ -498,6 +567,24 @@
                 "model": "minecraft:block/leaning_ladder_4",
                 "y": 180
             }
-        ]
+        ],
+        "berries=false,age=20": {
+                "model": "block/unused_cross_cutout"
+        },
+        "berries=false,age=21": {
+                "model": "block/unused_cross_cutout"
+        },
+        "berries=false,age=22": {
+                "model": "block/unused_cross_cutout"
+        },
+        "berries=false,age=23": {
+                "model": "block/unused_cross_cutout"
+        },
+        "berries=false,age=24": {
+                "model": "block/unused_cross_cutout"
+        },
+        "berries=false,age=25": {
+                "model": "block/unused_cross_cutout"
+        }
     }
 }
