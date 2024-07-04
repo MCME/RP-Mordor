@@ -1,0 +1,6 @@
+{
+  "parent": "block/stone_slab_arch_parent",
+  "textures": {
+    "0": "block/dark_stone_bricks_composite"
+  }
+}

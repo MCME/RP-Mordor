@@ -1,30 +1,135 @@
 {
-  "variants": {
-    "distance=5,persistent=true": [
-			{ "model": "block/dark_oak_leaves_grass_soil" },
-            { "model": "block/dark_oak_leaves_grass_soil", "y": 90 },
-            { "model": "block/dark_oak_leaves_grass_soil", "y": 180 },
-            { "model": "block/dark_oak_leaves_grass_soil", "y": 270 },
-			{ "model": "block/dark_oak_leaves_grass_soil_2" },
-            { "model": "block/dark_oak_leaves_grass_soil_2", "y": 90 },
-            { "model": "block/dark_oak_leaves_grass_soil_2", "y": 180 },
-            { "model": "block/dark_oak_leaves_grass_soil_2", "y": 270 },
-			{ "model": "block/dark_oak_leaves_grass_soil_3" },
-            { "model": "block/dark_oak_leaves_grass_soil_3", "y": 90 },
-            { "model": "block/dark_oak_leaves_grass_soil_3", "y": 180 },
-            { "model": "block/dark_oak_leaves_grass_soil_3", "y": 270 },
-			{ "model": "block/dark_oak_leaves_grass_soil_4" },
-            { "model": "block/dark_oak_leaves_grass_soil_4", "y": 90 },
-            { "model": "block/dark_oak_leaves_grass_soil_4", "y": 180 },
-            { "model": "block/dark_oak_leaves_grass_soil_4", "y": 270 },
-			{ "model": "block/dark_oak_leaves_grass_soil_5" },
-            { "model": "block/dark_oak_leaves_grass_soil_5", "y": 90 },
-            { "model": "block/dark_oak_leaves_grass_soil_5", "y": 180 },
-            { "model": "block/dark_oak_leaves_grass_soil_5", "y": 270 },
-			{ "model": "block/dark_oak_leaves_grass_soil_6" },
-            { "model": "block/dark_oak_leaves_grass_soil_6", "y": 90 },
-            { "model": "block/dark_oak_leaves_grass_soil_6", "y": 180 },
-            { "model": "block/dark_oak_leaves_grass_soil_6", "y": 270 }
-			]
-  }
+    "variants": {
+        "distance=5,persistent=true": [
+            {
+                "model": "block/dark_oak_leaves_grass_soil"
+            },
+            {
+                "model": "block/dark_oak_leaves_grass_soil",
+                "y": 90
+            },
+            {
+                "model": "block/dark_oak_leaves_grass_soil",
+                "y": 180
+            },
+            {
+                "model": "block/dark_oak_leaves_grass_soil",
+                "y": 270
+            },
+            {
+                "model": "block/dark_oak_leaves_grass_soil_2"
+            },
+            {
+                "model": "block/dark_oak_leaves_grass_soil_2",
+                "y": 90
+            },
+            {
+                "model": "block/dark_oak_leaves_grass_soil_2",
+                "y": 180
+            },
+            {
+                "model": "block/dark_oak_leaves_grass_soil_2",
+                "y": 270
+            },
+            {
+                "model": "block/dark_oak_leaves_grass_soil_3"
+            },
+            {
+                "model": "block/dark_oak_leaves_grass_soil_3",
+                "y": 90
+            },
+            {
+                "model": "block/dark_oak_leaves_grass_soil_3",
+                "y": 180
+            },
+            {
+                "model": "block/dark_oak_leaves_grass_soil_3",
+                "y": 270
+            },
+            {
+                "model": "block/dark_oak_leaves_grass_soil_4"
+            },
+            {
+                "model": "block/dark_oak_leaves_grass_soil_4",
+                "y": 90
+            },
+            {
+                "model": "block/dark_oak_leaves_grass_soil_4",
+                "y": 180
+            },
+            {
+                "model": "block/dark_oak_leaves_grass_soil_4",
+                "y": 270
+            },
+            {
+                "model": "block/dark_oak_leaves_grass_soil_5"
+            },
+            {
+                "model": "block/dark_oak_leaves_grass_soil_5",
+                "y": 90
+            },
+            {
+                "model": "block/dark_oak_leaves_grass_soil_5",
+                "y": 180
+            },
+            {
+                "model": "block/dark_oak_leaves_grass_soil_5",
+                "y": 270
+            },
+            {
+                "model": "block/dark_oak_leaves_grass_soil_6"
+            },
+            {
+                "model": "block/dark_oak_leaves_grass_soil_6",
+                "y": 90
+            },
+            {
+                "model": "block/dark_oak_leaves_grass_soil_6",
+                "y": 180
+            },
+            {
+                "model": "block/dark_oak_leaves_grass_soil_6",
+                "y": 270
+            }
+        ],
+        "distance=3,persistent=true": {
+            "model": "mcme:block/wall_spike_large_vert"
+        },
+        "distance=4,persistent=true": {
+            "model": "mcme:block/wall_spike_large_vert",
+            "x": 180
+        },
+        "distance=1,persistent=true": {
+            "model": "mcme:block/metal_arch"
+        },
+        "distance=2,persistent=true": {
+            "model": "mcme:block/metal_arch",
+            "y": 90
+        },
+        "distance=6,persistent=true": {
+            "model": "mcme:block/metal_arch",
+            "x": 180
+        },
+        "distance=7,persistent=true": {
+            "model": "mcme:block/metal_arch",
+            "y": 90,
+            "x": 180
+        },
+        "distance=7,persistent=false": {
+            "model": "mcme:block/metal_arch_2"
+        },
+        "distance=1,persistent=false": {
+            "model": "mcme:block/metal_arch_2",
+            "y": 90
+        },
+        "distance=2,persistent=false": {
+            "model": "mcme:block/metal_arch_2",
+            "x": 180
+        },
+        "distance=3,persistent=false": {
+            "model": "mcme:block/metal_arch_2",
+            "y": 90,
+            "x": 180
+        }
+    }
 }

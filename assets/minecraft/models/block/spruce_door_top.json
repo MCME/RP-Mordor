@@ -1,7 +1,7 @@
 {
   "parent": "block/door_unused",
   "textures": {
-    "bottom": "block/unusedb00",
-    "top": "block/unusedb00"
+    "bottom": "block/replace_cutout",
+    "top": "block/replace_cutout"
   }
 }

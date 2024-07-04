@@ -1,0 +1,39 @@
+{
+    "variants": {
+        "shape=ascending_east": {
+            "model": "mcme:block/rope_2wide_diag",
+            "y": 270
+        },
+        "shape=ascending_north": {
+            "model": "mcme:block/rope_2wide_diag",
+            "y": 180
+        },
+        "shape=ascending_south": {
+            "model": "minecraft:block/unused_cross_cutout"
+        },
+        "shape=ascending_west": {
+            "model": "minecraft:block/unused_cross_cutout"
+        },
+        "shape=east_west": {
+            "model": "minecraft:block/unused_cross_cutout"
+        },
+        "shape=north_east": {
+            "model": "minecraft:block/rope_asc_right",
+            "y": 270
+        },
+        "shape=north_south": {
+            "model": "minecraft:block/unused_cross_cutout"
+        },
+        "shape=north_west": {
+            "model": "minecraft:block/rope_asc_right",
+            "y": 180
+        },
+        "shape=south_east": {
+            "model": "minecraft:block/rope_asc_right"
+        },
+        "shape=south_west": {
+            "model": "minecraft:block/rope_asc_right",
+            "y": 90
+        }
+    }
+}

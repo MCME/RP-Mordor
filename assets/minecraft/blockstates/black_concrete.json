@@ -1,10 +1,10 @@
 {
-  "variants": {
-    "": [
-      {
-        "model": "block/replace",
-        "y": 270
-      }
-    ]
-  }
+    "variants": {
+        "": [
+            {
+                "model": "block/replace",
+                "y": 270
+            }
+        ]
+    }
 }

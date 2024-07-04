@@ -1,7 +1,7 @@
 {
-  "variants": {
-    "": {
-      "model": "block/monster_egg_stone"
+    "variants": {
+        "": {
+            "model": "block/monster_egg_stone"
+        }
     }
-  }
 }

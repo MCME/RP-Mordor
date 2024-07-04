@@ -1,11 +1,11 @@
 {
-  "variants": {
-    "all": {
-      "model": "block/double_slab_wood_old",
-      "y": 90
-    },
-    "": {
-      "model": "block/double_slab_wood_old"
+    "variants": {
+        "all": {
+            "model": "block/double_slab_wood_old",
+            "y": 90
+        },
+        "": {
+            "model": "block/double_slab_wood_old"
+        }
     }
-  }
 }

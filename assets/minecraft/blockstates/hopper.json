@@ -1,13 +1,22 @@
 {
-  "variants": {
-    "enabled=true,facing=down": {
-      "model": "minecraft:block/hopper_light_gray_large_doric"
-    },
-	"enabled=true,facing=north": {
-      "model": "minecraft:block/hopper_light_gray_ionic"
-    },
-	"enabled=true,facing=east": {
-      "model": "minecraft:block/hopper_light_gray_ionic", "y": 90
+    "variants": {
+        "facing=down": {
+            "model": "minecraft:block/replace_fence"
+        },
+        "facing=east": {
+            "model": "minecraft:block/replace_fence",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "minecraft:block/replace_fence"
+        },
+        "facing=south": {
+            "model": "minecraft:block/replace_fence",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "minecraft:block/replace_fence",
+            "y": 270
+        }
     }
-  }
 }

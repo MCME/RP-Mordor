@@ -1,0 +1,6 @@
+{
+  "parent": "block/hanging_cloth_parent",
+  "textures": {
+    	"0": "block/hanging_cloth"
+  }
+}

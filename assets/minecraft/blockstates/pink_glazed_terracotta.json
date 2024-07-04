@@ -1,32 +1,40 @@
 {
-  "variants": {
-    "facing\u003dsouth": [
-      
-	  {   "model": "block/pink_glazed_terracotta_ne" },
-		  {	"model": "block/pink_glazed_terracotta_ne_2"}
-      
-    ],
-    "facing\u003deast": [
-      
-	  { "model": "block/pink_glazed_terracotta_ne",
-	  "y": 90 },
-	  {	"model": "block/pink_glazed_terracotta_ne_2",
-        "y": 90
-      }
-    ],
-    "facing\u003dnorth": [
-      
-	  { "model": "block/pink_glazed_terracotta_ne" },
-		  {"model": "block/pink_glazed_terracotta_ne_2"}
-      
-    ],
-    "facing\u003dwest": [
-      
-      {  "model": "block/pink_glazed_terracotta_ne",
-	  "y": 90 },
-	  {	"model": "block/pink_glazed_terracotta_ne_2",
-        "y": 90
-      }
-    ]
-  }
+    "variants": {
+        "facing=south": [
+            {
+                "model": "block/pink_glazed_terracotta_ne"
+            },
+            {
+                "model": "block/pink_glazed_terracotta_ne_2"
+            }
+        ],
+        "facing=east": [
+            {
+                "model": "block/pink_glazed_terracotta_ne",
+                "y": 90
+            },
+            {
+                "model": "block/pink_glazed_terracotta_ne_2",
+                "y": 90
+            }
+        ],
+        "facing=north": [
+            {
+                "model": "block/pink_glazed_terracotta_sw"
+            },
+            {
+                "model": "block/pink_glazed_terracotta_sw_2"
+            }
+        ],
+        "facing=west": [
+            {
+                "model": "block/pink_glazed_terracotta_sw",
+                "y": 90
+            },
+            {
+                "model": "block/pink_glazed_terracotta_sw_2",
+                "y": 90
+            }
+        ]
+    }
 }

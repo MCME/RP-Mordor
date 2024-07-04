@@ -1,8 +1,16 @@
 {
     "variants": {
-		"facing=north": { "model": "block/table_low_1"},
-        "facing=east": { "model": "block/table_low_2"},
-		"facing=south": { "model": "block/unused_block_0"},
-		"facing=west": { "model": "block/unused_block_0" }
+        "facing=north": {
+            "model": "block/replace_slab"
+        },
+        "facing=east": {
+            "model": "block/replace_slab"
+        },
+        "facing=south": {
+            "model": "block/replace_slab"
+        },
+        "facing=west": {
+            "model": "block/replace_slab"
+        }
     }
 }

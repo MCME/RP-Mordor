@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "berries=false": {
+            "model": "minecraft:block/unused_cross_cutout"
+        },
+        "berries=true": {
+            "model": "minecraft:block/unused_cross_luminous_cutout"
+        }
+    }
+}

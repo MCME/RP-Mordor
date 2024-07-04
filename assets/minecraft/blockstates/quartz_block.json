@@ -1,10 +1,7 @@
 {
     "variants": {
-        "":[
-		{ "model": "block/quartz_block" },
-		{ "model": "block/quartz_block_2" },
-		{ "model": "block/quartz_block_3" },
-		{ "model": "block/quartz_block_4" }
-		]
+        "": {
+            "model": "minecraft:block/replace"
+        }
     }
 }

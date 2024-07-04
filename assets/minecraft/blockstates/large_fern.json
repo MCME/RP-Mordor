@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "half=lower": {
+            "model": "minecraft:block/unused_cross_cutout"
+        },
+        "half=upper": {
+            "model": "minecraft:block/unused_cross_cutout"
+        }
+    }
+}
