@@ -1,8 +1,0 @@
-{
-  "parent": "block/vertical_slab",
-  "textures": {
-    "bottom": "block/exposed_cut_copper_3",
-    "top": "block/exposed_cut_copper_3",
-    "side": "block/exposed_cut_copper_3"
-  }
-}

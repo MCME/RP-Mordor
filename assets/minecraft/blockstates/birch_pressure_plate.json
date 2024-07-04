@@ -1,6 +1,0 @@
-{
-  "variants": {
-    "powered=false": { "model" : "block/thick_chain_side" },
-    "powered=true": { "model" : "block/thick_chain_side", "y":90 }
-  }
-}

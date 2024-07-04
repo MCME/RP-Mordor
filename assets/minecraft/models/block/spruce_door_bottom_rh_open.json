@@ -1,7 +1,0 @@
-{
-  "parent": "block/door_thin_wall",
-  "textures": {
-    "bottom": "block/brown_mushroom_block_newd",
-    "top": "block/brown_mushroom_block_newd"
-  }
-}

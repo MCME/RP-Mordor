@@ -1,7 +1,0 @@
-{
-  "parent": "block/door_unused",
-  "textures": {
-    "bottom": "block/brown_mushroom_block_nud",
-    "top": "block/brown_mushroom_block_nud"
-  }
-}
