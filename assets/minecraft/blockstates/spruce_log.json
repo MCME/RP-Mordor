@@ -1,13 +1,31 @@
 {
-    "variants": {
-        "axis=x": {
-            "model": "minecraft:block/replace"
-        },
-        "axis=y": {
-            "model": "minecraft:block/replace"
-        },
-        "axis=z": {
-            "model": "minecraft:block/replace"
-        }
-    }
+  "variants": {
+    "axis=y": [
+      { "model": "block/spruce_log" },
+      { "model": "block/spruce_log_2" },
+      { "model": "block/spruce_log_3" },
+      { "model": "block/spruce_log_4" },
+      { "model": "block/spruce_log_5" },
+      { "model": "block/spruce_log_6" },
+      { "model": "block/spruce_log_7" }
+    ],
+    "axis=z": [
+      { "model": "block/spruce_log", "x": 90 },
+      { "model": "block/spruce_log_2", "x": 90 },
+      { "model": "block/spruce_log_3", "x": 90 },
+      { "model": "block/spruce_log_4", "x": 90 },
+      { "model": "block/spruce_log_5", "x": 90 },
+      { "model": "block/spruce_log_6", "x": 90 },
+      { "model": "block/spruce_log_7", "x": 90 }
+    ],
+    "axis=x": [ 
+      { "model": "block/spruce_log", "x": 90, "y": 90 },
+      { "model": "block/spruce_log_2", "x": 90, "y": 90 },
+      { "model": "block/spruce_log_3", "x": 90, "y": 90 },
+      { "model": "block/spruce_log_4", "x": 90, "y": 90 },
+      { "model": "block/spruce_log_5", "x": 90, "y": 90 },
+      { "model": "block/spruce_log_6", "x": 90, "y": 90 },
+      { "model": "block/spruce_log_7", "x": 90, "y": 90 }
+    ]
+  }
 }

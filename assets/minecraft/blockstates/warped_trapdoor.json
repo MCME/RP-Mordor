@@ -1,182 +1,146 @@
 {
-    "variants": {
-        "facing=north,half=bottom,open=true,powered=false": [
-            {
-                "model": "mcme:block/angled_spikes"
-            },
-            {
-                "model": "mcme:block/angled_spikes_2"
-            },
-            {
-                "model": "mcme:block/angled_spikes_3"
-            }
-        ],
-        "facing=east,half=bottom,open=true,powered=false": [
-            {
-                "model": "mcme:block/angled_spikes",
-                "y": 90
-            },
-            {
-                "model": "mcme:block/angled_spikes_2",
-                "y": 90
-            },
-            {
-                "model": "mcme:block/angled_spikes_3",
-                "y": 90
-            }
-        ],
-        "facing=south,half=bottom,open=true,powered=false": [
-            {
-                "model": "mcme:block/angled_spikes",
-                "y": 180
-            },
-            {
-                "model": "mcme:block/angled_spikes_2",
-                "y": 180
-            },
-            {
-                "model": "mcme:block/angled_spikes_3",
-                "y": 180
-            }
-        ],
-        "facing=west,half=bottom,open=true,powered=false": [
-            {
-                "model": "mcme:block/angled_spikes",
-                "y": 270
-            },
-            {
-                "model": "mcme:block/angled_spikes_2",
-                "y": 270
-            },
-            {
-                "model": "mcme:block/angled_spikes_3",
-                "y": 270
-            }
-        ],
-        "facing=east,half=bottom,open=false,powered=false": {
-            "model": "minecraft:block/replace_thin_slab",
-            "y": 90
-        },
-        "facing=east,half=top,open=false,powered=false": {
-            "model": "minecraft:block/replace_thin_slab",
-            "x": 180,
-            "y": 90
-        },
-        "facing=east,half=top,open=true,powered=false": {
-            "model": "minecraft:block/replace_thin_slab",
-            "x": 90,
-            "y": 90
-        },
-        "facing=north,half=bottom,open=false,powered=false": {
-            "model": "minecraft:block/replace_thin_slab"
-        },
-        "facing=north,half=top,open=false,powered=false": {
-            "model": "minecraft:block/replace_thin_slab",
-            "x": 180
-        },
-        "facing=north,half=top,open=true,powered=false": {
-            "model": "minecraft:block/replace_thin_slab",
-            "x": 90
-        },
-        "facing=south,half=bottom,open=false,powered=false": {
-            "model": "minecraft:block/replace_thin_slab",
-            "y": 180
-        },
-        "facing=south,half=top,open=false,powered=false": {
-            "model": "minecraft:block/replace_thin_slab",
-            "x": 180,
-            "y": 180
-        },
-        "facing=south,half=top,open=true,powered=false": {
-            "model": "minecraft:block/replace_thin_slab",
-            "x": 90,
-            "y": 180
-        },
-        "facing=west,half=bottom,open=false,powered=false": {
-            "model": "minecraft:block/replace_thin_slab",
-            "y": 270
-        },
-        "facing=west,half=top,open=false,powered=false": {
-            "model": "minecraft:block/replace_thin_slab",
-            "x": 180,
-            "y": 270
-        },
-        "facing=west,half=top,open=true,powered=false": {
-            "model": "minecraft:block/replace_thin_slab",
-            "x": 90,
-            "y": 270
-        },
-        "facing=east,half=bottom,open=false,powered=true": {
-            "model": "minecraft:block/replace_thin_slab",
-            "y": 90
-        },
-        "facing=east,half=bottom,open=true,powered=true": {
-            "model": "minecraft:block/replace_thin_slab",
-            "x": 90,
-            "y": 90
-        },
-        "facing=east,half=top,open=false,powered=true": {
-            "model": "minecraft:block/replace_thin_slab",
-            "x": 180,
-            "y": 90
-        },
-        "facing=east,half=top,open=true,powered=true": {
-            "model": "minecraft:block/replace_thin_slab",
-            "x": 90,
-            "y": 90
-        },
-        "facing=north,half=bottom,open=false,powered=true": {
-            "model": "minecraft:block/replace_thin_slab"
-        },
-        "facing=north,half=bottom,open=true,powered=true": {
-            "model": "minecraft:block/replace_thin_slab",
-            "x": 90
-        },
-        "facing=north,half=top,open=false,powered=true": {
-            "model": "minecraft:block/replace_thin_slab",
-            "x": 180
-        },
-        "facing=north,half=top,open=true,powered=true": {
-            "model": "minecraft:block/replace_thin_slab",
-            "x": 90
-        },
-        "facing=south,half=bottom,open=false,powered=true": {
-            "model": "minecraft:block/replace_thin_slab",
-            "y": 180
-        },
-        "facing=south,half=bottom,open=true,powered=true": {
-            "model": "minecraft:block/replace_thin_slab",
-            "x": 90,
-            "y": 180
-        },
-        "facing=south,half=top,open=false,powered=true": {
-            "model": "minecraft:block/replace_thin_slab",
-            "x": 180,
-            "y": 180
-        },
-        "facing=south,half=top,open=true,powered=true": {
-            "model": "minecraft:block/replace_thin_slab",
-            "x": 90,
-            "y": 180
-        },
-        "facing=west,half=bottom,open=false,powered=true": {
-            "model": "minecraft:block/replace_thin_slab",
-            "y": 270
-        },
-        "facing=west,half=bottom,open=true,powered=true": {
-            "model": "minecraft:block/replace_thin_slab",
-            "x": 90,
-            "y": 270
-        },
-        "facing=west,half=top,open=false,powered=true": {
-            "model": "minecraft:block/replace_thin_slab",
-            "x": 180,
-            "y": 270
-        },
-        "facing=west,half=top,open=true,powered=true": {
-            "model": "minecraft:block/replace_thin_slab",
-            "x": 90,
-            "y": 270
-        }
-    }
+  "variants": {
+	  "facing=north,half=bottom,open=true,powered=false": [
+	  {"model": "mcme:block/angled_spikes"},
+	  {"model": "mcme:block/angled_spikes_2"},
+	  {"model": "mcme:block/angled_spikes_3"}
+	  ],
+	   "facing=east,half=bottom,open=true,powered=false": [
+	  {"model": "mcme:block/angled_spikes", "y":90},
+	  {"model": "mcme:block/angled_spikes_2", "y":90},
+	  {"model": "mcme:block/angled_spikes_3", "y":90}
+	  ],
+	   "facing=south,half=bottom,open=true,powered=false": [
+	  {"model": "mcme:block/angled_spikes", "y":180},
+	  {"model": "mcme:block/angled_spikes_2", "y":180},
+	  {"model": "mcme:block/angled_spikes_3", "y":180}
+	  ],
+	   "facing=west,half=bottom,open=true,powered=false": [
+	  {"model": "mcme:block/angled_spikes", "y":270},
+	  {"model": "mcme:block/angled_spikes_2", "y":270},
+	  {"model": "mcme:block/angled_spikes_3", "y":270}
+	  ],
+	  "facing=south,half=top,open=true,powered=false": [
+	  {"model": "minecraft:block/hanging_pans"},
+	  {"model": "minecraft:block/hanging_pans_2"}
+	  ],
+    "facing=east,half=top,open=true,powered=false": [
+	  {"model": "minecraft:block/hanging_pans", "y":270},
+	  {"model": "minecraft:block/hanging_pans_2", "y":270}
+	  ],
+    "facing=north,half=top,open=true,powered=false": [
+	  {"model": "minecraft:block/hanging_pans", "y":180},
+	  {"model": "minecraft:block/hanging_pans_2", "y":180}
+	  ],
+    "facing=west,half=top,open=true,powered=false": [
+	  {"model": "minecraft:block/hanging_pans", "y":90},
+	  {"model": "minecraft:block/hanging_pans_2", "y":90}
+	  ],
+      "facing=east,half=bottom,open=false,powered=false": {
+          "model": "minecraft:block/replace_thin_slab",
+          "y": 90
+      },
+      "facing=east,half=top,open=false,powered=false": {
+          "model": "minecraft:block/replace_thin_slab",
+          "x": 180,
+          "y": 90
+      },
+      "facing=north,half=bottom,open=false,powered=false": {
+          "model": "minecraft:block/replace_thin_slab"
+      },
+      "facing=north,half=top,open=false,powered=false": {
+          "model": "minecraft:block/replace_thin_slab",
+          "x": 180
+      },
+      "facing=south,half=bottom,open=false,powered=false": {
+          "model": "minecraft:block/replace_thin_slab",
+          "y": 180
+      },
+      "facing=south,half=top,open=false,powered=false": {
+          "model": "minecraft:block/replace_thin_slab",
+          "x": 180,
+          "y": 180
+      },
+      "facing=west,half=bottom,open=false,powered=false": {
+          "model": "minecraft:block/replace_thin_slab",
+          "y": 270
+      },
+      "facing=west,half=top,open=false,powered=false": {
+          "model": "minecraft:block/replace_thin_slab",
+          "x": 180,
+          "y": 270
+      },
+      "facing=east,half=bottom,open=false,powered=true": {
+          "model": "minecraft:block/replace_thin_slab",
+          "y": 90
+      },
+      "facing=east,half=bottom,open=true,powered=true": {
+          "model": "minecraft:block/replace_thin_slab",
+          "x": 90,
+          "y": 90
+      },
+      "facing=east,half=top,open=false,powered=true": {
+          "model": "minecraft:block/replace_thin_slab",
+          "x": 180,
+          "y": 90
+      },
+      "facing=east,half=top,open=true,powered=true": {
+          "model": "minecraft:block/replace_thin_slab",
+          "x": 90,
+          "y": 90
+      },
+      "facing=north,half=bottom,open=false,powered=true": {
+          "model": "minecraft:block/replace_thin_slab"
+      },
+      "facing=north,half=bottom,open=true,powered=true": {
+          "model": "minecraft:block/replace_thin_slab",
+          "x": 90
+      },
+      "facing=north,half=top,open=false,powered=true": {
+          "model": "minecraft:block/replace_thin_slab",
+          "x": 180
+      },
+      "facing=north,half=top,open=true,powered=true": {
+          "model": "minecraft:block/replace_thin_slab",
+          "x": 90
+      },
+      "facing=south,half=bottom,open=false,powered=true": {
+          "model": "minecraft:block/replace_thin_slab",
+          "y": 180
+      },
+      "facing=south,half=bottom,open=true,powered=true": {
+          "model": "minecraft:block/replace_thin_slab",
+          "x": 90,
+          "y": 180
+      },
+      "facing=south,half=top,open=false,powered=true": {
+          "model": "minecraft:block/replace_thin_slab",
+          "x": 180,
+          "y": 180
+      },
+      "facing=south,half=top,open=true,powered=true": {
+          "model": "minecraft:block/replace_thin_slab",
+          "x": 90,
+          "y": 180
+      },
+      "facing=west,half=bottom,open=false,powered=true": {
+          "model": "minecraft:block/replace_thin_slab",
+          "y": 270
+      },
+      "facing=west,half=bottom,open=true,powered=true": {
+          "model": "minecraft:block/replace_thin_slab",
+          "x": 90,
+          "y": 270
+      },
+      "facing=west,half=top,open=false,powered=true": {
+          "model": "minecraft:block/replace_thin_slab",
+          "x": 180,
+          "y": 270
+      },
+      "facing=west,half=top,open=true,powered=true": {
+          "model": "minecraft:block/replace_thin_slab",
+          "x": 90,
+          "y": 270
+      }
+  }
 }

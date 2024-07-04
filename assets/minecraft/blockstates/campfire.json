@@ -407,9 +407,67 @@
         "facing=east,lit=false,signal_fire=true": {
             "model": "itemblock/bed_grey_half"
         },
-        "facing=west,lit=false,signal_fire=true": {
-            "model": "block/replace_slab",
-            "y": 90
-        }
+        "facing=west,lit=false,signal_fire=true": [
+            {
+                "model": "block/burnt_firepit"
+            },
+            {
+                "model": "block/burnt_firepit",
+                "y": 90
+            },
+            {
+                "model": "block/burnt_firepit",
+                "y": 180
+            },
+            {
+                "model": "block/burnt_firepit",
+                "y": 270
+            },
+            {
+                "model": "block/burnt_firepit_2"
+            },
+            {
+                "model": "block/burnt_firepit_2",
+                "y": 90
+            },
+            {
+                "model": "block/burnt_firepit_2",
+                "y": 180
+            },
+            {
+                "model": "block/burnt_firepit_2",
+                "y": 270
+            },
+            {
+                "model": "block/burnt_firepit_3"
+            },
+            {
+                "model": "block/burnt_firepit_3",
+                "y": 90
+            },
+            {
+                "model": "block/burnt_firepit_3",
+                "y": 180
+            },
+            {
+                "model": "block/burnt_firepit_3",
+                "y": 270
+            },
+            {
+                "model": "block/burnt_firepit_4"
+            },
+            {
+                "model": "block/burnt_firepit_4",
+                "y": 90
+            },
+            {
+                "model": "block/burnt_firepit_4",
+                "y": 180
+            },
+            {
+                "model": "block/burnt_firepit_4",
+                "y": 270
+            }
+        ]
     }
 }

@@ -100,7 +100,10 @@
 	"mcme:block/floortwig_5",
 	"mcme:block/floortwig_6",
 	"mcme:block/floortwig_7",
-	"mcme:block/floortwig_8"
+	"mcme:block/floortwig_8",
+	"mcme:block/putrid_stump", 
+	"mcme:block/putrid_stump_2",
+	"mcme:block/putrid_stump_3"
 
   ]
 }
