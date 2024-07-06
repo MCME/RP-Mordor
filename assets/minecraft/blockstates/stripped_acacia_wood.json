@@ -1,13 +1,31 @@
 {
-    "variants": {
-        "axis=x": {
-            "model": "minecraft:block/replace"
-        },
-        "axis=y": {
-            "model": "minecraft:block/replace"
-        },
-        "axis=z": {
-            "model": "minecraft:block/replace"
-        }
-    }
+  "variants": {
+      "axis=y": [
+  { "model": "block/stripped_acacia_wood" },
+  { "model": "block/stripped_acacia_wood_3" },
+  { "model": "block/stripped_acacia_wood_4" },
+  { "model": "block/stripped_acacia_wood_5" },
+  { "model": "block/stripped_acacia_wood_6" },
+  { "model": "block/stripped_acacia_wood_7" },
+  { "model": "block/stripped_acacia_wood_8" }
+  ],
+      "axis=z": [
+        { "model": "block/stripped_acacia_wood" },
+        { "model": "block/stripped_acacia_wood_3" },
+        { "model": "block/stripped_acacia_wood_4" },
+        { "model": "block/stripped_acacia_wood_5" },
+        { "model": "block/stripped_acacia_wood_6" },
+        { "model": "block/stripped_acacia_wood_7" },
+        { "model": "block/stripped_acacia_wood_8" }
+  ],
+      "axis=x": [    
+        { "model": "block/stripped_acacia_wood" },
+        { "model": "block/stripped_acacia_wood_3" },
+        { "model": "block/stripped_acacia_wood_4" },
+        { "model": "block/stripped_acacia_wood_5" },
+        { "model": "block/stripped_acacia_wood_6" },
+        { "model": "block/stripped_acacia_wood_7" },
+        { "model": "block/stripped_acacia_wood_8" }
+  ]
+  }
 }
