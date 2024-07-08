@@ -1,16 +1,10 @@
 {
     "multipart": [
         {
-            "apply": [
-	  { "model": "block/burnt_tree_trunk_thin" },
-      { "model": "block/burnt_tree_trunk_thin", "y": 90 },
-      { "model": "block/burnt_tree_trunk_thin", "y": 180 },
-      { "model": "block/burnt_tree_trunk_thin", "y": 270 },
-	  { "model": "block/burnt_tree_trunk_thin_2" },
-      { "model": "block/burnt_tree_trunk_thin_2", "y": 90 },
-      { "model": "block/burnt_tree_trunk_thin_2", "y": 180 },
-      { "model": "block/burnt_tree_trunk_thin_2", "y": 270 }
-	  ]},
+            "apply": {
+                "model": "minecraft:block/replace_fence"
+            }
+        },
         {
             "apply": {
                 "model": "minecraft:block/replace_fence",
