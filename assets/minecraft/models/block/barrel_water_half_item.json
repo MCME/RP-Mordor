@@ -1,0 +1,6 @@
+{
+  "parent": "block/barrel_half_item",
+  "textures": {
+    "content": "block/water_still"
+  }
+}

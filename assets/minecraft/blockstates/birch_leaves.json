@@ -33,10 +33,10 @@
             "y": 270
         },
         "distance=2,persistent=true": {
-            "model": "itemblock/barrel_water_full_item"
+            "model": "block/barrel_water_full_item"
         },
         "distance=3,persistent=true": {
-            "model": "itemblock/barrel_water_half_item"
+            "model": "block/barrel_water_half_item"
         },
         "distance=4,persistent=true": {
             "model": "mcme:block/upwards_spike_small",

@@ -21,7 +21,7 @@
             }
         ],
         "type=top": {
-            "model": "itemblock/upper_slab_double_slab_planks_acacia"
+            "model": "block/upper_slab_double_slab_planks_acacia"
         },
         "type=double": [
             {
