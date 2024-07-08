@@ -31,7 +31,7 @@
             "y": 90
         },
         "bottom=true,distance=7": {
-            "model": "minecraft:block/replace_cutout"
+            "model": "minecraft:block/smooth_sandstone_stone_arch"
         },
         "bottom=true,distance=0": {
             "model": "minecraft:block/smooth_sandstone_stone_arch",

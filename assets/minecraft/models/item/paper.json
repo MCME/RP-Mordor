@@ -1,0 +1,116 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/paper"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 1
+      },
+      "model": "gui/page_up"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2
+      },
+      "model": "gui/page_down"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3
+      },
+      "model": "gui/page_left"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 4
+      },
+      "model": "gui/page_right"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 5
+      },
+      "model": "gui/terra"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6
+      },
+      "model": "gui/terra_alt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 7
+      },
+      "model": "gui/terra_det"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8
+      },
+      "model": "gui/terra_det_alt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 9
+      },
+      "model": "gui/struct_rud"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10
+      },
+      "model": "gui/struct_rud_alt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 11
+      },
+      "model": "gui/struct_maso"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 12
+      },
+      "model": "gui/struct_maso_alt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 13
+      },
+      "model": "gui/struct_metal"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 14
+      },
+      "model": "gui/struct_metal_alt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 15
+      },
+      "model": "gui/orc"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 16
+      },
+      "model": "gui/orc_alt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 17
+      },
+      "model": "gui/misc"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 18
+      },
+      "model": "gui/misc_alt"
+    }
+  ]
+}

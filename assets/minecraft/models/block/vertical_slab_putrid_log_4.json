@@ -1,8 +1,0 @@
-{
-  "parent": "block/vertical_slab",
-  "textures": {
-    "bottom": "block/putrid_log_4",
-    "top": "block/putrid_log_4",
-    "side": "block/putrid_log_4"
-  }
-}

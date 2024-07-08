@@ -1,5 +1,5 @@
 {
-  "parent": "itemblock/trapdoor_top",
+  "parent": "block/trapdoor_top",
   "textures": {
     "texture": "block/nether_bricks"
   }

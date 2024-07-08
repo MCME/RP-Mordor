@@ -1,5 +1,5 @@
 {
-  "parent": "itemblock/trapdoor_top",
+  "parent": "block/trapdoor_top",
   "textures": {
     "texture": "block/double_slab_cobblestone_seamless"
   }

@@ -4,28 +4,9 @@
             "model": "minecraft:block/unused_cross_cutout",
             "y": 90
         },
-        "facing=north": [
-	{"model": "minecraft:block/dead_heather" },
-	{"model": "minecraft:block/dead_heather", "y":90 },
-	{"model": "minecraft:block/dead_heather", "y":180 },
-	{"model": "minecraft:block/dead_heather", "y":270 },
-	{"model": "minecraft:block/dead_heather_2" },
-	{"model": "minecraft:block/dead_heather_2", "y":90 },
-	{"model": "minecraft:block/dead_heather_2", "y":180 },
-	{"model": "minecraft:block/dead_heather_2", "y":270 },
-	{"model": "minecraft:block/dead_heather_3" },
-	{"model": "minecraft:block/dead_heather_3", "y":90 },
-	{"model": "minecraft:block/dead_heather_3", "y":180 },
-	{"model": "minecraft:block/dead_heather_3", "y":270 },
-	{"model": "minecraft:block/dead_heather_4" },
-	{"model": "minecraft:block/dead_heather_4", "y":90 },
-	{"model": "minecraft:block/dead_heather_4", "y":180 },
-	{"model": "minecraft:block/dead_heather_4", "y":270 },
-	{"model": "minecraft:block/dead_heather_5" },
-	{"model": "minecraft:block/dead_heather_5", "y":90 },
-	{"model": "minecraft:block/dead_heather_5", "y":180 },
-	{"model": "minecraft:block/dead_heather_5", "y":270 }
-	],
+        "facing=north": {
+            "model": "minecraft:block/unused_cross_cutout"
+        },
         "facing=south": {
             "model": "minecraft:block/unused_cross_cutout",
             "y": 180
