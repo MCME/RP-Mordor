@@ -399,13 +399,13 @@
             "y": 90
         },
         "facing=north,lit=false,signal_fire=true": {
-            "model": "itemblock/bed_blue_half"
+            "model": "block/bed_blue_half"
         },
         "facing=south,lit=false,signal_fire=true": {
-            "model": "itemblock/bed_green_half"
+            "model": "block/bed_green_half"
         },
         "facing=east,lit=false,signal_fire=true": {
-            "model": "itemblock/bed_grey_half"
+            "model": "block/bed_grey_half"
         },
         "facing=west,lit=false,signal_fire=true": [
             {

@@ -199,10 +199,10 @@
             }
         ],
         "north=true,east=false,south=false,west=false,up=false,down=false": {
-            "model": "minecraft:block/brown_mushroom_block_n"
+            "model": "block/brown_mushroom_block_n"
         },
         "north=true,east=false,south=false,west=false,up=false,down=true": {
-            "model": "minecraft:block/brown_mushroom_block_nd"
+            "model": "block/brown_mushroom_block_nd"
         },
         "north=true,east=false,south=false,west=false,up=true,down=false": [
             {

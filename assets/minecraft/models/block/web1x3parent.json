@@ -1,10 +1,8 @@
 {
-	"credit": "Made with Blockbench",
-	"parent": "block/web1x3parent",
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "0",
-		"particles": "0"
+		"0": "#0",
+		"particles": "#0"
 	},
 	"elements": [
 		{

@@ -1,7 +1,7 @@
 {
     "variants": {
         "type=top": {
-            "model": "itemblock/upper_slab_double_slab_quartz_seamless"
+            "model": "block/upper_slab_double_slab_quartz_seamless"
         },
         "type=double": [
             {
