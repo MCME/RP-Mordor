@@ -21,10 +21,10 @@
             "y": 270
         },
         "distance=7,persistent=false": {
-            "model": "itemblock/barrel_coal_full_item"
+            "model": "block/barrel_coal_full_item"
         },
         "distance=1,persistent=false": {
-            "model": "itemblock/barrel_coal_half_item"
+            "model": "block/barrel_coal_half_item"
         },
         "distance=2,persistent=true": {
             "model": "mcme:block/pointy_spike_small",
@@ -46,7 +46,7 @@
             "y": 90
         },
         "distance=7,persistent=true": {
-            "model": "itemblock/barrel_meat_half_item"
+            "model": "block/barrel_meat_half_item"
         }
     }
 }

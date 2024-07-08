@@ -1,8 +1,0 @@
-{
-  "parent": "itemblock/inverted_inner_stairs",
-  "textures": {
-    "bottom": "block/unusedb00",
-    "top": "block/unusedb00",
-    "side": "block/unusedb00"
-  }
-}
