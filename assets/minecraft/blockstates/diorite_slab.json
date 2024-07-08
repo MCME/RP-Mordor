@@ -4,7 +4,7 @@
             "model": "block/diorite"
         },
         "type=top": {
-            "model": "block/upper_slab_diorite"
+            "model": "itemblock/upper_slab_diorite"
         },
         "type=bottom": [
             {
