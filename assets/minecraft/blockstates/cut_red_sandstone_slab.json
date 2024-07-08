@@ -4,7 +4,7 @@
             "model": "block/replace_slab"
         },
         "type=top": {
-            "model": "block/upper_slab_double_slab_nether_brick_seamless"
+            "model": "itemblock/upper_slab_double_slab_nether_brick_seamless"
         },
         "type=double": {
             "model": "block/replace"

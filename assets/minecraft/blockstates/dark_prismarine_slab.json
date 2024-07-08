@@ -22,7 +22,7 @@
         ],
         "type=top": [
             {
-                "model": "block/upper_slab_double_slab_planks_dark_oak"
+                "model": "itemblock/upper_slab_double_slab_planks_dark_oak"
             }
         ],
         "type=double": [

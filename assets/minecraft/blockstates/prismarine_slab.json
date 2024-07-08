@@ -79,7 +79,7 @@
             }
         ],
         "type=top": {
-            "model": "block/upper_slab_emerald_ore"
+            "model": "itemblock/upper_slab_emerald_ore"
         }
     }
 }

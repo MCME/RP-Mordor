@@ -1,6 +1,0 @@
-{
-  "parent": "block/barrel_full_item",
-  "textures": {
-    "content": "block/water_still"
-  }
-}
