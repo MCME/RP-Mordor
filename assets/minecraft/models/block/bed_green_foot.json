@@ -1,5 +1,5 @@
 {
-  "parent": "block/block_item",
+  "parent": "itemblock/block_item",
   "textures": {
     "particle": "block/bed_green_feet_top",
     "top": "block/bed_green_feet_top",
