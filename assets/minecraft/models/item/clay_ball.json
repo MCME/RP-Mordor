@@ -125,6 +125,48 @@
   },
   {
     "predicate": {
+      "custom_model_data": 100
+    },
+    "name": 100,
+    "model": "block/marker_accepted"
+  },
+  {
+    "predicate": {
+      "custom_model_data": 101
+    },
+    "name": 101,
+    "model": "block/marker_declined"
+  },
+  {
+    "predicate": {
+      "custom_model_data": 102
+    },
+    "name": 102,
+    "model": "block/marker_finished"
+  },
+  {
+    "predicate": {
+      "custom_model_data": 103
+    },
+    "name": 103,
+    "model": "block/marker_wip"
+  },
+  {
+    "predicate": {
+      "custom_model_data": 104
+    },
+    "name": 104,
+    "model": "block/marker_comment"
+  },
+  {
+    "predicate": {
+      "custom_model_data": 105
+    },
+    "name": 105,
+    "model": "block/marker_info"
+  },
+  {
+    "predicate": {
       "custom_model_data": 125
     },
     "name": 125,
