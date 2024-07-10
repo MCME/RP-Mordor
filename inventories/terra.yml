@@ -1458,3 +1458,8 @@ Items:
     blockData: minecraft:lava[level=7]
     collection:
       indirect: lava0
+  Sulfur:
+    itemMaterial: CHISELED_RED_SANDSTONE
+    display: Sulfur
+    category: Terra
+    type: BLOCK
