@@ -28,9 +28,15 @@
         "north=false,east=false,south=false,west=true,up=true,down=true": {
             "model": "block/replace"
         },
-        "north=false,east=false,south=true,west=false,up=false,down=false": {
-            "model": "block/replace"
-        },
+        "north=false,east=false,south=true,west=false,up=false,down=false": [
+      
+		{ "model": "minecraft:block/putrid_log" },
+		{ "model": "minecraft:block/putrid_log_2" },
+		{ "model": "minecraft:block/putrid_log_3" },
+		{ "model": "minecraft:block/putrid_log_4" },
+		{ "model": "minecraft:block/putrid_log_5" }
+		
+    ],
         "north=false,east=false,south=true,west=false,up=false,down=true": {
             "model": "block/replace"
         },

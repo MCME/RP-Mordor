@@ -385,6 +385,22 @@
                 "y": 180
             }
         ],
+		"berries=false,age=22": [
+	{ "model": "mcme:block/burnt_branches" },
+	{ "model": "mcme:block/burnt_branches_2" }
+	],
+	"berries=false,age=23": [
+	{ "model": "mcme:block/burnt_branches", "y":90 },
+	{ "model": "mcme:block/burnt_branches_2", "y":90 }
+	],
+	"berries=false,age=24": [
+	{ "model": "mcme:block/burnt_branches", "y":180 },
+	{ "model": "mcme:block/burnt_branches_2", "y":180 }
+	],
+	"berries=false,age=25": [
+	{ "model": "mcme:block/burnt_branches", "y":270 },
+	{ "model": "mcme:block/burnt_branches_2", "y":270 }
+	],
         "berries=false,age=15": [
             {
                 "model": "minecraft:block/web_2x2",
@@ -572,18 +588,6 @@
                 "model": "block/unused_cross_cutout"
         },
         "berries=false,age=21": {
-                "model": "block/unused_cross_cutout"
-        },
-        "berries=false,age=22": {
-                "model": "block/unused_cross_cutout"
-        },
-        "berries=false,age=23": {
-                "model": "block/unused_cross_cutout"
-        },
-        "berries=false,age=24": {
-                "model": "block/unused_cross_cutout"
-        },
-        "berries=false,age=25": {
                 "model": "block/unused_cross_cutout"
         }
     }
