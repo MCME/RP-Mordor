@@ -48,6 +48,13 @@
   },
   {
     "predicate": {
+      "custom_model_data": 7
+    },
+    "name": 7,
+    "model": "item/mist_inventory"
+  },
+  {
+    "predicate": {
       "custom_model_data": 16
     },
     "name": 16,
