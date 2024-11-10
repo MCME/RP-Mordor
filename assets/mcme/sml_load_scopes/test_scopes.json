@@ -103,7 +103,6 @@
 	"mcme:block/floortwig_8",
 	"mcme:block/putrid_stump", 
 	"mcme:block/putrid_stump_2",
-	"mcme:block/putrid_stump_3",
 	"mcme:block/putrid_sticks",
 	"mcme:block/putrid_sticks_2",
 	"mcme:block/putrid_sticks_3",
@@ -118,7 +117,9 @@
 	"mcme:block/charred_fern_4",
 	"mcme:block/mist",
 	"mcme:block/mist_2",
-	"mcme:block/mist_3"
+	"mcme:block/mist_3",
+	"mcme:block/burnt_branches",
+	"mcme:block/burnt_branches_2"
 
   ]
 }
