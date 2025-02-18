@@ -1,6 +1,6 @@
 {
   "parent": "block/trapdoor_top",
   "textures": {
-    "texture": "block/quartz_block"
+    "texture": "block/exposed_cut_copper"
   }
 }
