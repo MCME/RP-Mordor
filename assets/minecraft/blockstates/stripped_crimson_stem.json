@@ -1,0 +1,34 @@
+{
+    "variants": {
+        "axis=y": [
+            {
+                "model": "block/stripped_crimson_stem"
+            },
+            {
+                "model": "block/stripped_crimson_stem_2"
+            }
+        ],
+        "axis=z": [
+            {
+                "model": "block/stripped_crimson_stem",
+                "x": 90
+            },
+            {
+                "model": "block/stripped_crimson_stem_2",
+                "x": 90
+            }
+        ],
+        "axis=x": [
+            {
+                "model": "block/stripped_crimson_stem",
+                "x": 90,
+                "y": 90
+            },
+            {
+                "model": "block/stripped_crimson_stem_2",
+                "x": 90,
+                "y": 90
+            }
+        ]
+    }
+}

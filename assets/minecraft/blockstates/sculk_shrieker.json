@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "can_summon=false": {
+            "model": "minecraft:block/replace_slab"
+        },
+        "can_summon=true": {
+            "model": "minecraft:block/replace_slab"
+        }
+    }
+}

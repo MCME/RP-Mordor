@@ -1,0 +1,6 @@
+{
+  "parent": "block/burn_marks_parent",
+  "textures": {
+    	"0": "block/burn_marks_3"
+  }
+}

@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "axis=x": [
+            {
+                "model": "minecraft:block/replace"
+            }
+        ],
+        "axis=y": [
+            {
+                "model": "minecraft:block/deepslate"
+            }
+        ],
+        "axis=z": [
+            {
+                "model": "minecraft:block/replace"
+            }
+        ]
+    }
+}

@@ -1,0 +1,52 @@
+{
+    "variants": {
+        "distance=2,persistent=false": {
+            "model": "block/big_barrel",
+            "x": 90,
+            "y": 90
+        },
+        "distance=3,persistent=false": {
+            "model": "block/big_barrel",
+            "x": 90
+        },
+        "distance=4,persistent=false": {
+            "model": "block/big_barrel"
+        },
+        "distance=5,persistent=false": {
+            "model": "mcme:block/pointy_spike_small",
+            "y": 180
+        },
+        "distance=6,persistent=false": {
+            "model": "mcme:block/pointy_spike_small",
+            "y": 270
+        },
+        "distance=7,persistent=false": {
+            "model": "block/barrel_coal_full_item"
+        },
+        "distance=1,persistent=false": {
+            "model": "block/barrel_coal_half_item"
+        },
+        "distance=2,persistent=true": {
+            "model": "mcme:block/pointy_spike_small",
+            "y": 90
+        },
+        "distance=3,persistent=true": {
+            "model": "mcme:block/metal_panel"
+        },
+        "distance=4,persistent=true": {
+            "model": "mcme:block/metal_panel",
+            "y": 180
+        },
+        "distance=5,persistent=true": {
+            "model": "mcme:block/metal_panel",
+            "y": 270
+        },
+        "distance=6,persistent=true": {
+            "model": "mcme:block/metal_panel",
+            "y": 90
+        },
+        "distance=7,persistent=true": {
+            "model": "block/barrel_meat_half_item"
+        }
+    }
+}

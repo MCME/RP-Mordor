@@ -1,0 +1,13 @@
+{
+    "variants": {
+        "level=1": {
+            "model": "minecraft:block/replace"
+        },
+        "level=2": {
+            "model": "minecraft:block/replace"
+        },
+        "level=3": {
+            "model": "minecraft:block/replace"
+        }
+    }
+}

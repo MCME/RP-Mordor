@@ -1,0 +1,68 @@
+{
+    "variants": {
+        "stage=0": [
+            {
+                "model": "mcme:block/wooden_spike_small"
+            },
+            {
+                "model": "mcme:block/wooden_spike_small",
+                "y": 90
+            },
+            {
+                "model": "mcme:block/wooden_spike_small",
+                "y": 180
+            },
+            {
+                "model": "mcme:block/wooden_spike_small",
+                "y": 270
+            },
+            {
+                "model": "mcme:block/wooden_spike_small_2"
+            },
+            {
+                "model": "mcme:block/wooden_spike_small_2",
+                "y": 90
+            },
+            {
+                "model": "mcme:block/wooden_spike_small_2",
+                "y": 180
+            },
+            {
+                "model": "mcme:block/wooden_spike_small_2",
+                "y": 270
+            }
+        ],
+        "stage=1": [
+            {
+                "model": "mcme:block/wooden_spike_large"
+            },
+            {
+                "model": "mcme:block/wooden_spike_large",
+                "y": 90
+            },
+            {
+                "model": "mcme:block/wooden_spike_large",
+                "y": 180
+            },
+            {
+                "model": "mcme:block/wooden_spike_large",
+                "y": 270
+            },
+            {
+                "model": "mcme:block/wooden_spike_large_2"
+            },
+            {
+                "model": "mcme:block/wooden_spike_large_2",
+                "y": 90
+            },
+            {
+                "model": "mcme:block/wooden_spike_large_2",
+                "y": 180
+            },
+            {
+                "model": "mcme:block/wooden_spike_large_2",
+                "y": 270
+            }
+        ]
+    }
+}

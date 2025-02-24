@@ -1,0 +1,33 @@
+{
+    "variants": {
+        "facing=south": [
+            {
+                "model": "block/lime_glazed_terracotta_ne"
+            },
+            {
+                "model": "block/lime_glazed_terracotta_ne_2"
+            }
+        ],
+        "facing=east": [
+            {
+                "model": "block/lime_glazed_terracotta_ne",
+                "y": 90
+            },
+            {
+                "model": "block/lime_glazed_terracotta_ne_2",
+                "y": 90
+            }
+        ],
+        "facing=north": [
+            {
+                "model": "block/lime_glazed_terracotta_sw"
+            }
+        ],
+        "facing=west": [
+            {
+                "model": "block/lime_glazed_terracotta_sw",
+                "y": 90
+            }
+        ]
+    }
+}

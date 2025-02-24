@@ -1,0 +1,21 @@
+{
+    "variants": {
+        "": [
+            {
+                "model": "block/deepslate_tiles"
+            },
+            {
+                "model": "block/deepslate_tiles_2"
+            },
+            {
+                "model": "block/deepslate_tiles_3"
+            },
+            {
+                "model": "block/deepslate_tiles_4"
+            },
+            {
+                "model": "block/deepslate_tiles_5"
+            }
+        ]
+    }
+}

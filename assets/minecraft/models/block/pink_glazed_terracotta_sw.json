@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "particle": "block/stone_bricks",
+    "down": "block/stone_bricks",
+    "up": "block/pink_glazed_terracotta_top_bricks",
+    "north": "block/pink_glazed_terracotta_side_bricks",
+    "east": "block/stone_bricks",
+    "south": "block/pink_glazed_terracotta_side_bricks",
+    "west": "block/stone_bricks"
+  }
+}

@@ -1,0 +1,29 @@
+{
+    "variants": {
+        "type=bottom": [
+            {
+                "model": "block/red_sandstone_slab"
+            },
+            {
+                "model": "block/red_sandstone_slab_2"
+            },
+            {
+                "model": "block/red_sandstone_slab_3"
+            }
+        ],
+        "type=top": [
+            {
+                "model": "block/red_sandstone_slab",
+                "x": 180
+            },
+            {
+                "model": "block/red_sandstone_slab_2",
+                "x": 180
+            },
+            {
+                "model": "block/red_sandstone_slab_3",
+                "x": 180
+            }
+        ]
+    }
+}

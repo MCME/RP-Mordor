@@ -1,0 +1,7 @@
+{
+  "parent": "block/door_unused",
+  "textures": {
+    "bottom": "block/smooth_sandstone",
+    "top": "block/smooth_sandstone"
+  }
+}

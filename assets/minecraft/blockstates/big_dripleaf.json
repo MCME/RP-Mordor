@@ -1,0 +1,64 @@
+{
+    "variants": {
+        "facing=east,tilt=full": {
+            "model": "minecraft:block/unused_cross_cutout",
+            "y": 90
+        },
+        "facing=east,tilt=none": {
+            "model": "minecraft:block/unused_cross_cutout",
+            "y": 90
+        },
+        "facing=east,tilt=partial": {
+            "model": "minecraft:block/unused_cross_cutout",
+            "y": 90
+        },
+        "facing=east,tilt=unstable": {
+            "model": "minecraft:block/unused_cross_cutout",
+            "y": 90
+        },
+        "facing=north,tilt=full": {
+            "model": "minecraft:block/unused_cross_cutout"
+        },
+        "facing=north,tilt=none": {
+            "model": "minecraft:block/unused_cross_cutout"
+        },
+        "facing=north,tilt=partial": {
+            "model": "minecraft:block/unused_cross_cutout"
+        },
+        "facing=north,tilt=unstable": {
+            "model": "minecraft:block/unused_cross_cutout"
+        },
+        "facing=south,tilt=full": {
+            "model": "minecraft:block/unused_cross_cutout",
+            "y": 180
+        },
+        "facing=south,tilt=none": {
+            "model": "minecraft:block/unused_cross_cutout",
+            "y": 180
+        },
+        "facing=south,tilt=partial": {
+            "model": "minecraft:block/unused_cross_cutout",
+            "y": 180
+        },
+        "facing=south,tilt=unstable": {
+            "model": "minecraft:block/unused_cross_cutout",
+            "y": 180
+        },
+        "facing=west,tilt=full": {
+            "model": "minecraft:block/unused_cross_cutout",
+            "y": 270
+        },
+        "facing=west,tilt=none": {
+            "model": "minecraft:block/unused_cross_cutout",
+            "y": 270
+        },
+        "facing=west,tilt=partial": {
+            "model": "minecraft:block/unused_cross_cutout",
+            "y": 270
+        },
+        "facing=west,tilt=unstable": {
+            "model": "minecraft:block/unused_cross_cutout",
+            "y": 270
+        }
+    }
+}

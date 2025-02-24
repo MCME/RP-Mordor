@@ -1,0 +1,13 @@
+{
+    "variants": {
+        "axis=x": {
+            "model": "minecraft:block/replace_luminous"
+        },
+        "axis=y": {
+            "model": "minecraft:block/replace_luminous"
+        },
+        "axis=z": {
+            "model": "minecraft:block/replace_luminous"
+        }
+    }
+}

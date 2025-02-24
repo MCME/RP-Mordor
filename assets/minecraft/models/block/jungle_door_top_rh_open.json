@@ -1,0 +1,7 @@
+{
+  "parent": "block/door_unused",
+  "textures": {
+    "bottom": "block/dried_kelp_block",
+    "top": "block/dried_kelp_block"
+  }
+}

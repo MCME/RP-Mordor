@@ -1,0 +1,8 @@
+{
+  "parent": "block/connected_edge_block_parent",
+  "textures": {
+    "0": "block/crimson_planks_double_slab",
+	"1": "block/wood_edge_texture",
+	"2": "block/wood_inner_edge_texture"
+  }
+}
