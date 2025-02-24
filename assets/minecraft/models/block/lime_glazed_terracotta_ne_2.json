@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "particle": "block/chiseled_polished_blackstone_3",
+    "down": "block/chiseled_polished_blackstone_3",
+    "up": "block/chiseled_polished_blackstone_3",
+    "north": "block/lime_glazed_terracotta_2",
+    "east": "block/lime_glazed_terracotta_alt_2",
+    "south": "block/lime_glazed_terracotta_2",
+    "west": "block/lime_glazed_terracotta_alt_2"
+  }
+}
