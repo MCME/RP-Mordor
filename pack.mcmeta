@@ -1,9 +1,25 @@
 {
   "pack": {
+<<<<<<< HEAD
+<<<<<<< HEAD
+    "pack_format": 34,
+    "description": "MCME Mordor Snapshot 02"
+  },
+  "meta": {
+    "game_version": "1.21.1"
+=======
     "pack_format": 46,
     "description": "MCME Mordor Snapshot 02"
   },
   "meta": {
     "game_version": "1.21.4"
+>>>>>>> common-final-final
+=======
+    "pack_format": 46,
+    "description": "MCME Mordor Snapshot 02"
+  },
+  "meta": {
+    "game_version": "1.21.4"
+>>>>>>> 9e176b3035888ef9b8523d552301d3f537b66eab
   }
 }
