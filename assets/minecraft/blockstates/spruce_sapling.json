@@ -1,0 +1,11 @@
+{
+    "variants": {
+        "stage=0": {
+            "model": "mcme:block/red_cloth_summit"
+        },
+        "stage=1": {
+            "model": "mcme:block/red_cloth_summit",
+            "y": 90
+        }
+    }
+}

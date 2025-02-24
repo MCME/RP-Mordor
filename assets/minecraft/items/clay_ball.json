@@ -1,0 +1,754 @@
+{
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "fallback": {
+            "type": "model",
+            "model": "minecraft:item/clay_ball"
+        },
+        "entries": [
+            {
+                "threshold": 1,
+                "model": {
+                    "type": "model",
+                    "model": "block/farmland_moisture0"
+                }
+            },
+            {
+                "threshold": 2,
+                "model": {
+                    "type": "model",
+                    "model": "block/farmland_moisture1"
+                }
+            },
+            {
+                "threshold": 3,
+                "model": {
+                    "type": "model",
+                    "model": "block/farmland_moisture2"
+                }
+            },
+            {
+                "threshold": 4,
+                "model": {
+                    "type": "model",
+                    "model": "block/farmland_moisture3"
+                }
+            },
+            {
+                "threshold": 5,
+                "model": {
+                    "type": "model",
+                    "model": "block/oak_sapling_stage1"
+                }
+            },
+            {
+                "threshold": 6,
+                "model": {
+                    "type": "model",
+                    "model": "block/spruce_sapling_stage1"
+                }
+            },
+            {
+                "threshold": 7,
+                "model": {
+                    "type": "model",
+                    "model": "item/mist_inventory"
+                }
+            },
+            {
+                "threshold": 16,
+                "model": {
+                    "type": "model",
+                    "model": "block/birch_wood"
+                }
+            },
+            {
+                "threshold": 18,
+                "model": {
+                    "type": "model",
+                    "model": "block/acacia_wood"
+                }
+            },
+            {
+                "threshold": 20,
+                "model": {
+                    "type": "model",
+                    "model": "item/tree_spruce_inventory_y"
+                }
+            },
+            {
+                "threshold": 22,
+                "model": {
+                    "type": "model",
+                    "model": "item/tree_spruce_inventory_z"
+                }
+            },
+            {
+                "threshold": 24,
+                "model": {
+                    "type": "model",
+                    "model": "item/tree_spruce_inventory_cross_flat"
+                }
+            },
+            {
+                "threshold": 25,
+                "model": {
+                    "type": "model",
+                    "model": "item/grass_block_patches_inventory"
+                }
+            },
+            {
+                "threshold": 26,
+                "model": {
+                    "type": "model",
+                    "model": "item/grass_block_stones_inventory"
+                }
+            },
+            {
+                "threshold": 43,
+                "model": {
+                    "type": "model",
+                    "model": "block/onions_red_stage0"
+                }
+            },
+            {
+                "threshold": 45,
+                "model": {
+                    "type": "model",
+                    "model": "block/onions_red_stage2"
+                }
+            },
+            {
+                "threshold": 47,
+                "model": {
+                    "type": "model",
+                    "model": "block/onions_white_stage0"
+                }
+            },
+            {
+                "threshold": 51,
+                "model": {
+                    "type": "model",
+                    "model": "block/beetroots_stage0"
+                }
+            },
+            {
+                "threshold": 100,
+                "model": {
+                    "type": "model",
+                    "model": "block/marker_accepted"
+                }
+            },
+            {
+                "threshold": 101,
+                "model": {
+                    "type": "model",
+                    "model": "block/marker_declined"
+                }
+            },
+            {
+                "threshold": 102,
+                "model": {
+                    "type": "model",
+                    "model": "block/marker_finished"
+                }
+            },
+            {
+                "threshold": 103,
+                "model": {
+                    "type": "model",
+                    "model": "block/marker_wip"
+                }
+            },
+            {
+                "threshold": 104,
+                "model": {
+                    "type": "model",
+                    "model": "block/marker_comment"
+                }
+            },
+            {
+                "threshold": 105,
+                "model": {
+                    "type": "model",
+                    "model": "block/marker_info"
+                }
+            },
+            {
+                "threshold": 125,
+                "model": {
+                    "type": "model",
+                    "model": "block/grass_block_white_concrete_inventory"
+                }
+            },
+            {
+                "threshold": 158,
+                "model": {
+                    "type": "model",
+                    "model": "item/redstone_dust_power4_center"
+                }
+            },
+            {
+                "threshold": 159,
+                "model": {
+                    "type": "model",
+                    "model": "item/redstone_dust_power5_center"
+                }
+            },
+            {
+                "threshold": 160,
+                "model": {
+                    "type": "model",
+                    "model": "block/grass_block_dirt_inventory"
+                }
+            },
+            {
+                "threshold": 161,
+                "model": {
+                    "type": "model",
+                    "model": "block/grass_block_bubble_coral_inventory"
+                }
+            },
+            {
+                "threshold": 162,
+                "model": {
+                    "type": "model",
+                    "model": "block/grass_block_gray_terracotta_inventory"
+                }
+            },
+            {
+                "threshold": 179,
+                "model": {
+                    "type": "model",
+                    "model": "block/podzol_snowy"
+                }
+            },
+            {
+                "threshold": 180,
+                "model": {
+                    "type": "model",
+                    "model": "block/grass_block_red_concrete_inventory"
+                }
+            },
+            {
+                "threshold": 181,
+                "model": {
+                    "type": "model",
+                    "model": "block/grass_block_orange_concrete_inventory"
+                }
+            },
+            {
+                "threshold": 188,
+                "model": {
+                    "type": "model",
+                    "model": "block/grass_block_green_concrete_inventory"
+                }
+            },
+            {
+                "threshold": 189,
+                "model": {
+                    "type": "model",
+                    "model": "block/grass_block_stone_inventory"
+                }
+            },
+            {
+                "threshold": 209,
+                "model": {
+                    "type": "model",
+                    "model": "block/powered_repeater_delay3_e"
+                }
+            },
+            {
+                "threshold": 210,
+                "model": {
+                    "type": "model",
+                    "model": "block/powered_repeater_delay4_s"
+                }
+            },
+            {
+                "threshold": 211,
+                "model": {
+                    "type": "model",
+                    "model": "block/powered_repeater_delay4_w"
+                }
+            },
+            {
+                "threshold": 212,
+                "model": {
+                    "type": "model",
+                    "model": "block/powered_repeater_delay4_n"
+                }
+            },
+            {
+                "threshold": 213,
+                "model": {
+                    "type": "model",
+                    "model": "block/powered_repeater_delay4_e"
+                }
+            },
+            {
+                "threshold": 214,
+                "model": {
+                    "type": "model",
+                    "model": "block/comparator_compare_s"
+                }
+            },
+            {
+                "threshold": 215,
+                "model": {
+                    "type": "model",
+                    "model": "block/comparator_compare_w"
+                }
+            },
+            {
+                "threshold": 216,
+                "model": {
+                    "type": "model",
+                    "model": "block/comparator_compare_n"
+                }
+            },
+            {
+                "threshold": 217,
+                "model": {
+                    "type": "model",
+                    "model": "block/comparator_compare_e"
+                }
+            },
+            {
+                "threshold": 218,
+                "model": {
+                    "type": "model",
+                    "model": "block/comparator_subtract_s"
+                }
+            },
+            {
+                "threshold": 219,
+                "model": {
+                    "type": "model",
+                    "model": "block/comparator_subtract_w"
+                }
+            },
+            {
+                "threshold": 220,
+                "model": {
+                    "type": "model",
+                    "model": "block/comparator_subtract_n"
+                }
+            },
+            {
+                "threshold": 221,
+                "model": {
+                    "type": "model",
+                    "model": "block/comparator_subtract_e"
+                }
+            },
+            {
+                "threshold": 222,
+                "model": {
+                    "type": "model",
+                    "model": "block/comparator_powered_compare_s"
+                }
+            },
+            {
+                "threshold": 223,
+                "model": {
+                    "type": "model",
+                    "model": "block/comparator_powered_compare_w"
+                }
+            },
+            {
+                "threshold": 224,
+                "model": {
+                    "type": "model",
+                    "model": "block/comparator_powered_compare_n"
+                }
+            },
+            {
+                "threshold": 225,
+                "model": {
+                    "type": "model",
+                    "model": "block/comparator_powered_compare_e"
+                }
+            },
+            {
+                "threshold": 227,
+                "model": {
+                    "type": "model",
+                    "model": "block/comparator_powered_subtract_w"
+                }
+            },
+            {
+                "threshold": 265,
+                "model": {
+                    "type": "model",
+                    "model": "block/heavy_pressure_plate_power6"
+                }
+            },
+            {
+                "threshold": 269,
+                "model": {
+                    "type": "model",
+                    "model": "block/heavy_pressure_plate_power10"
+                }
+            },
+            {
+                "threshold": 279,
+                "model": {
+                    "type": "model",
+                    "model": "block/polished_diorite_slab_double"
+                }
+            },
+            {
+                "threshold": 314,
+                "model": {
+                    "type": "model",
+                    "model": "block/boulders_light"
+                }
+            },
+            {
+                "threshold": 315,
+                "model": {
+                    "type": "model",
+                    "model": "block/boulders_dark"
+                }
+            },
+            {
+                "threshold": 316,
+                "model": {
+                    "type": "model",
+                    "model": "block/boulders_mixed"
+                }
+            },
+            {
+                "threshold": 317,
+                "model": {
+                    "type": "model",
+                    "model": "block/boulders_mossy"
+                }
+            },
+            {
+                "threshold": 319,
+                "model": {
+                    "type": "model",
+                    "model": "block/grass_block_polished_andesite_inventory"
+                }
+            },
+            {
+                "threshold": 339,
+                "model": {
+                    "type": "model",
+                    "model": "item/stationary_lava"
+                }
+            },
+            {
+                "threshold": 340,
+                "model": {
+                    "type": "model",
+                    "model": "item/stationary_lava_height2"
+                }
+            },
+            {
+                "threshold": 341,
+                "model": {
+                    "type": "model",
+                    "model": "item/stationary_water"
+                }
+            },
+            {
+                "threshold": 342,
+                "model": {
+                    "type": "model",
+                    "model": "item/stationary_water_height2"
+                }
+            },
+            {
+                "threshold": 343,
+                "model": {
+                    "type": "model",
+                    "model": "item/stationary_water_height4"
+                }
+            },
+            {
+                "threshold": 344,
+                "model": {
+                    "type": "model",
+                    "model": "item/stationary_water_height6"
+                }
+            },
+            {
+                "threshold": 345,
+                "model": {
+                    "type": "model",
+                    "model": "item/stationary_water_height8"
+                }
+            },
+            {
+                "threshold": 346,
+                "model": {
+                    "type": "model",
+                    "model": "item/stationary_water_height10"
+                }
+            },
+            {
+                "threshold": 347,
+                "model": {
+                    "type": "model",
+                    "model": "item/stationary_water_height12"
+                }
+            },
+            {
+                "threshold": 348,
+                "model": {
+                    "type": "model",
+                    "model": "item/stationary_water_height14"
+                }
+            },
+            {
+                "threshold": 349,
+                "model": {
+                    "type": "model",
+                    "model": "block/double_slab_planks_jungle_1"
+                }
+            },
+            {
+                "threshold": 353,
+                "model": {
+                    "type": "model",
+                    "model": "block/brown_mushroom_block_ne"
+                }
+            },
+            {
+                "threshold": 355,
+                "model": {
+                    "type": "model",
+                    "model": "item/stationary_lava_height4"
+                }
+            },
+            {
+                "threshold": 356,
+                "model": {
+                    "type": "model",
+                    "model": "item/stationary_lava_height6"
+                }
+            },
+            {
+                "threshold": 357,
+                "model": {
+                    "type": "model",
+                    "model": "item/stationary_lava_height8"
+                }
+            },
+            {
+                "threshold": 358,
+                "model": {
+                    "type": "model",
+                    "model": "item/stationary_lava_height10"
+                }
+            },
+            {
+                "threshold": 359,
+                "model": {
+                    "type": "model",
+                    "model": "item/stationary_lava_height12"
+                }
+            },
+            {
+                "threshold": 360,
+                "model": {
+                    "type": "model",
+                    "model": "item/stationary_lava_height14"
+                }
+            },
+            {
+                "threshold": 363,
+                "model": {
+                    "type": "model",
+                    "model": "block/repeater_delay2_n"
+                }
+            },
+            {
+                "threshold": 364,
+                "model": {
+                    "type": "model",
+                    "model": "block/repeater_delay2_e"
+                }
+            },
+            {
+                "threshold": 366,
+                "model": {
+                    "type": "model",
+                    "model": "block/note_block_1"
+                }
+            },
+            {
+                "threshold": 367,
+                "model": {
+                    "type": "model",
+                    "model": "block/note_block_7"
+                }
+            },
+            {
+                "threshold": 368,
+                "model": {
+                    "type": "model",
+                    "model": "block/note_block_13"
+                }
+            },
+            {
+                "threshold": 369,
+                "model": {
+                    "type": "model",
+                    "model": "block/note_block_19"
+                }
+            },
+            {
+                "threshold": 374,
+                "model": {
+                    "type": "model",
+                    "model": "block/red_mushroom_block_es"
+                }
+            },
+            {
+                "threshold": 396,
+                "model": {
+                    "type": "model",
+                    "model": "item/waterlogged_sand_slab"
+                }
+            },
+            {
+                "threshold": 402,
+                "model": {
+                    "type": "model",
+                    "model": "item/grass_block_stones_only_inventory"
+                }
+            },
+            {
+                "threshold": 442,
+                "model": {
+                    "type": "model",
+                    "model": "block/mycelium_snow"
+                }
+            },
+            {
+                "threshold": 458,
+                "model": {
+                    "type": "model",
+                    "model": "item/dark_oak_leaves_grass_soil_inventory"
+                }
+            },
+            {
+                "threshold": 644,
+                "model": {
+                    "type": "model",
+                    "model": "block/vertical_slab_stone"
+                }
+            },
+            {
+                "threshold": 807,
+                "model": {
+                    "type": "model",
+                    "model": "block/vertical_slab_polished_andesite"
+                }
+            },
+            {
+                "threshold": 808,
+                "model": {
+                    "type": "model",
+                    "model": "block/stone_bricks_large"
+                }
+            },
+            {
+                "threshold": 809,
+                "model": {
+                    "type": "model",
+                    "model": "block/double_slab_stonebrick"
+                }
+            },
+            {
+                "threshold": 810,
+                "model": {
+                    "type": "model",
+                    "model": "block/red_mushroom_block_esd"
+                }
+            },
+            {
+                "threshold": 811,
+                "model": {
+                    "type": "model",
+                    "model": "block/red_mushroom_block_newud"
+                }
+            },
+            {
+                "threshold": 812,
+                "model": {
+                    "type": "model",
+                    "model": "block/red_mushroom_block_nsd"
+                }
+            },
+            {
+                "threshold": 813,
+                "model": {
+                    "type": "model",
+                    "model": "block/red_mushroom_block_nsw"
+                }
+            },
+            {
+                "threshold": 814,
+                "model": {
+                    "type": "model",
+                    "model": "block/red_mushroom_block_neu"
+                }
+            },
+            {
+                "threshold": 815,
+                "model": {
+                    "type": "model",
+                    "model": "block/pink_glazed_terracotta_sw"
+                }
+            },
+            {
+                "threshold": 816,
+                "model": {
+                    "type": "model",
+                    "model": "block/yellow_glazed_terracotta_sw"
+                }
+            },
+            {
+                "threshold": 817,
+                "model": {
+                    "type": "model",
+                    "model": "block/birch_leaves_pillar_thick_bottom"
+                }
+            },
+            {
+                "threshold": 818,
+                "model": {
+                    "type": "model",
+                    "model": "block/birch_leaves_pillar_thick"
+                }
+            },
+            {
+                "threshold": 819,
+                "model": {
+                    "type": "model",
+                    "model": "block/scaffolding_1x1arch"
+                }
+            },
+            {
+                "threshold": 820,
+                "model": {
+                    "type": "model",
+                    "model": "block/acacia_door_1x3arch"
+                }
+            },
+            {
+                "threshold": 821,
+                "model": {
+                    "type": "model",
+                    "model": "block/dark_oak_button_1x3arch_top"
+                }
+            }
+        ]
+    }
+}

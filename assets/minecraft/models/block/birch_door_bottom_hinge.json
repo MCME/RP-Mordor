@@ -1,0 +1,7 @@
+{
+  "parent": "block/door_double_bottom",
+  "textures": {
+    "bottom_lower": "block/replace_cutout",
+    "bottom_upper": "block/replace_cutout"
+  }
+}

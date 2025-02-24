@@ -1,0 +1,12 @@
+{
+    "parent": "block/cube",
+    "textures": {
+        "particle": "block/brown_mushroom_block_esud",
+		"up": "block/brown_mushroom_block_esud",
+		"down": "block/brown_mushroom_block_esud",
+		"north": "block/brown_mushroom_block_esudb",
+		"south": "block/brown_mushroom_block_esudb",
+		"east": "block/brown_mushroom_block_esudb",
+		"west": "block/brown_mushroom_block_esudb"
+}
+}

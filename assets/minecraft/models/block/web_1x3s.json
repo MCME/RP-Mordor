@@ -1,0 +1,6 @@
+{
+  "parent": "block/web1x3parent",
+  "textures": {
+    	"0": "block/web_s1x3_1"
+  }
+}

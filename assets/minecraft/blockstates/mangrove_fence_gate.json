@@ -1,0 +1,157 @@
+{
+    "variants": {
+        "facing=east,in_wall=false,open=false,powered=false": {
+            "model": "mcme:block/blade1x1"
+        },
+        "facing=north,in_wall=false,open=false,powered=false": {
+            "model": "mcme:block/blade1x1",
+            "y": 90,
+            "uvlock": true
+        },
+        "facing=west,in_wall=false,open=false,powered=false": {
+            "model": "mcme:block/blade1x1",
+            "y": 180,
+            "uvlock": true
+        },
+        "facing=south,in_wall=false,open=false,powered=false": {
+            "model": "mcme:block/blade1x1",
+            "y": 270,
+            "uvlock": true
+        },
+        "facing=east,in_wall=true,open=false,powered=false": {
+            "model": "mcme:block/blade1x1_arch"
+        },
+        "facing=north,in_wall=false,open=true,powered=false": {
+            "model": "block/replace_vertical_slab"
+        },
+        "facing=east,in_wall=false,open=true,powered=false": {
+            "model": "block/replace_vertical_slab",
+            "y": 90
+        },
+        "facing=south,in_wall=false,open=true,powered=false": {
+            "model": "block/replace_vertical_slab",
+            "y": 180
+        },
+        "facing=west,in_wall=false,open=true,powered=false": {
+            "model": "block/replace_vertical_slab",
+            "y": 270
+        },
+        "facing=north,in_wall=true,open=false,powered=false": {
+            "model": "mcme:block/blade1x1_arch",
+            "y": 90,
+            "uvlock": true
+        },
+        "facing=west,in_wall=true,open=false,powered=false": {
+            "model": "mcme:block/blade1x1_arch",
+            "y": 180,
+            "uvlock": true
+        },
+        "facing=south,in_wall=true,open=false,powered=false": {
+            "model": "mcme:block/blade1x1_arch",
+            "y": 270,
+            "uvlock": true
+        },
+        "facing=north,in_wall=false,open=true,powered=true": [
+		{ "model": "block/vertical_slab_putrid_log"},
+		{ "model": "block/vertical_slab_putrid_log_2"},
+		{ "model": "block/vertical_slab_putrid_log_3"},
+		{ "model": "block/vertical_slab_putrid_log_4"},
+		{ "model": "block/vertical_slab_putrid_log_5"}
+		],
+        "facing=east,in_wall=false,open=true,powered=true": [
+		{ "model": "block/vertical_slab_putrid_log", "y": 90},
+		{ "model": "block/vertical_slab_putrid_log_2", "y": 90},
+		{ "model": "block/vertical_slab_putrid_log_3", "y": 90},
+		{ "model": "block/vertical_slab_putrid_log_4", "y": 90},
+		{ "model": "block/vertical_slab_putrid_log_5", "y": 90}
+		],
+        "facing=south,in_wall=false,open=true,powered=true": [
+		{ "model": "block/vertical_slab_putrid_log", "y": 180},
+		{ "model": "block/vertical_slab_putrid_log_2", "y": 180},
+		{ "model": "block/vertical_slab_putrid_log_3", "y": 180},
+		{ "model": "block/vertical_slab_putrid_log_4", "y": 180},
+		{ "model": "block/vertical_slab_putrid_log_5", "y": 180}
+		],
+        "facing=west,in_wall=false,open=true,powered=true": [
+		{ "model": "block/vertical_slab_putrid_log", "y": 270},
+		{ "model": "block/vertical_slab_putrid_log_2", "y": 270},
+		{ "model": "block/vertical_slab_putrid_log_3", "y": 270},
+		{ "model": "block/vertical_slab_putrid_log_4", "y": 270},
+		{ "model": "block/vertical_slab_putrid_log_5", "y": 270}
+		],
+        "facing=north,in_wall=true,open=true,powered=false": {
+            "model": "block/replace_vertical_slab"
+        },
+        "facing=east,in_wall=true,open=true,powered=false": {
+            "model": "block/replace_vertical_slab",
+            "y": 90
+        },
+        "facing=south,in_wall=true,open=true,powered=false": {
+            "model": "block/replace_vertical_slab",
+            "y": 180
+        },
+        "facing=west,in_wall=true,open=true,powered=false": {
+            "model": "block/replace_vertical_slab",
+            "y": 270
+        },
+        "facing=north,in_wall=true,open=true,powered=true": {
+            "model": "block/replace_vertical_slab"
+        },
+        "facing=east,in_wall=true,open=true,powered=true": {
+            "model": "block/replace_vertical_slab",
+            "y": 90
+        },
+        "facing=south,in_wall=true,open=true,powered=true": {
+            "model": "block/replace_vertical_slab",
+            "y": 180
+        },
+        "facing=west,in_wall=true,open=true,powered=true": {
+            "model": "block/replace_vertical_slab",
+            "y": 270
+        },
+        "facing=east,in_wall=false,open=false,powered=true": {
+            "model": "mcme:block/blade1x1",
+            "x": 180
+        },
+        "facing=north,in_wall=false,open=false,powered=true": {
+            "model": "mcme:block/blade1x1",
+            "x": 180,
+            "y": 90,
+            "uvlock": true
+        },
+        "facing=west,in_wall=false,open=false,powered=true": {
+            "model": "mcme:block/blade1x1",
+            "x": 180,
+            "y": 180,
+            "uvlock": true
+        },
+        "facing=south,in_wall=false,open=false,powered=true": {
+            "model": "mcme:block/blade1x1",
+            "x": 180,
+            "y": 270,
+            "uvlock": true
+        },
+        "facing=east,in_wall=true,open=false,powered=true": {
+            "model": "mcme:block/blade1x1_arch",
+            "x": 180
+        },
+        "facing=north,in_wall=true,open=false,powered=true": {
+            "model": "mcme:block/blade1x1_arch",
+            "x": 180,
+            "y": 90,
+            "uvlock": true
+        },
+        "facing=west,in_wall=true,open=false,powered=true": {
+            "model": "mcme:block/blade1x1_arch",
+            "x": 180,
+            "y": 180,
+            "uvlock": true
+        },
+        "facing=south,in_wall=true,open=false,powered=true": {
+            "model": "mcme:block/blade1x1_arch",
+            "x": 180,
+            "y": 270,
+            "uvlock": true
+        }
+    }
+}

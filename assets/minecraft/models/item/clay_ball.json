@@ -1,0 +1,645 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/clay_ball"
+  },
+    "overrides": [
+  {
+    "predicate": {
+      "custom_model_data": 1
+    },
+    "name": 1,
+    "model": "block/farmland_moisture0"
+  },
+  {
+    "predicate": {
+      "custom_model_data": 2
+    },
+    "name": 2,
+    "model": "block/farmland_moisture1"
+  },
+  {
+    "predicate": {
+      "custom_model_data": 3
+    },
+    "name": 3,
+    "model": "block/farmland_moisture2"
+  },
+  {
+    "predicate": {
+      "custom_model_data": 4
+    },
+    "name": 4,
+    "model": "block/farmland_moisture3"
+  },
+  {
+    "predicate": {
+      "custom_model_data": 5
+    },
+    "name": 5,
+    "model": "block/oak_sapling_stage1"
+  },
+  {
+    "predicate": {
+      "custom_model_data": 6
+    },
+    "name": 6,
+    "model": "block/spruce_sapling_stage1"
+  },
+  {
+    "predicate": {
+      "custom_model_data": 7
+    },
+    "name": 7,
+    "model": "item/mist_inventory"
+  },
+  {
+    "predicate": {
+      "custom_model_data": 16
+    },
+    "name": 16,
+    "model": "block/birch_wood"
+  },
+  {
+    "predicate": {
+      "custom_model_data": 18
+    },
+    "name": 18,
+    "model": "block/acacia_wood"
+  },
+  {
+    "predicate": {
+      "custom_model_data": 20
+    },
+    "name": 20,
+    "model": "item/tree_spruce_inventory_y"
+  },
+  {
+    "predicate": {
+      "custom_model_data": 22
+    },
+    "name": 22,
+    "model": "item/tree_spruce_inventory_z"
+  },
+  {
+    "predicate": {
+      "custom_model_data": 24
+    },
+    "name": 24,
+    "model": "item/tree_spruce_inventory_cross_flat"
+  },
+  {
+    "predicate": {
+      "custom_model_data": 25
+    },
+    "name": 25,
+    "model": "item/grass_block_patches_inventory"
+  },
+  {
+    "predicate": {
+      "custom_model_data": 26
+    },
+    "name": 26,
+    "model": "item/grass_block_stones_inventory"
+  },
+  {
+    "predicate": {
+      "custom_model_data": 43
+    },
+    "name": 43,
+    "model": "block/onions_red_stage0"
+  },
+  {
+    "predicate": {
+      "custom_model_data": 45
+    },
+    "name": 45,
+    "model": "block/onions_red_stage2"
+  },
+  {
+    "predicate": {
+      "custom_model_data": 47
+    },
+    "name": 47,
+    "model": "block/onions_white_stage0"
+  },
+  {
+    "predicate": {
+      "custom_model_data": 51
+    },
+    "name": 51,
+    "model": "block/beetroots_stage0"
+  },
+  {
+    "predicate": {
+      "custom_model_data": 100
+    },
+    "name": 100,
+    "model": "block/marker_accepted"
+  },
+  {
+    "predicate": {
+      "custom_model_data": 101
+    },
+    "name": 101,
+    "model": "block/marker_declined"
+  },
+  {
+    "predicate": {
+      "custom_model_data": 102
+    },
+    "name": 102,
+    "model": "block/marker_finished"
+  },
+  {
+    "predicate": {
+      "custom_model_data": 103
+    },
+    "name": 103,
+    "model": "block/marker_wip"
+  },
+  {
+    "predicate": {
+      "custom_model_data": 104
+    },
+    "name": 104,
+    "model": "block/marker_comment"
+  },
+  {
+    "predicate": {
+      "custom_model_data": 105
+    },
+    "name": 105,
+    "model": "block/marker_info"
+  },
+  {
+    "predicate": {
+      "custom_model_data": 125
+    },
+    "name": 125,
+    "model": "block/grass_block_white_concrete_inventory"
+  },
+  {
+    "predicate": {
+      "custom_model_data": 158
+    },
+    "name": 158,
+    "model": "item/redstone_dust_power4_center"
+  },
+  {
+    "predicate": {
+      "custom_model_data": 159
+    },
+    "name": 159,
+    "model": "item/redstone_dust_power5_center"
+  },
+  {
+    "predicate": {
+      "custom_model_data": 160
+    },
+    "name": 160,
+    "model": "block/grass_block_dirt_inventory"
+  },
+  {
+    "predicate": {
+      "custom_model_data": 161
+    },
+    "name": 161,
+    "model": "block/grass_block_bubble_coral_inventory"
+  },
+  {
+    "predicate": {
+      "custom_model_data": 162
+    },
+    "name": 162,
+    "model": "block/grass_block_gray_terracotta_inventory"
+  },
+  {
+    "predicate": {
+      "custom_model_data": 179
+    },
+    "name": 179,
+    "model": "block/podzol_snowy"
+  },
+  {
+    "predicate": {
+      "custom_model_data": 180
+    },
+    "name": 180,
+    "model": "block/grass_block_red_concrete_inventory"
+  },
+  {
+    "predicate": {
+      "custom_model_data": 181
+    },
+    "name": 181,
+    "model": "block/grass_block_orange_concrete_inventory"
+  },
+  {
+    "predicate": {
+      "custom_model_data": 188
+    },
+    "name": 188,
+    "model": "block/grass_block_green_concrete_inventory"
+  },
+  {
+    "predicate": {
+      "custom_model_data": 189
+    },
+    "name": 189,
+    "model": "block/grass_block_stone_inventory"
+  },
+  {
+    "predicate": {
+      "custom_model_data": 209
+    },
+    "name": 209,
+    "model": "block/powered_repeater_delay3_e"
+  },
+  {
+    "predicate": {
+      "custom_model_data": 210
+    },
+    "name": 210,
+    "model": "block/powered_repeater_delay4_s"
+  },
+  {
+    "predicate": {
+      "custom_model_data": 211
+    },
+    "name": 211,
+    "model": "block/powered_repeater_delay4_w"
+  },
+  {
+    "predicate": {
+      "custom_model_data": 212
+    },
+    "name": 212,
+    "model": "block/powered_repeater_delay4_n"
+  },
+  {
+    "predicate": {
+      "custom_model_data": 213
+    },
+    "name": 213,
+    "model": "block/powered_repeater_delay4_e"
+  },
+  {
+    "predicate": {
+      "custom_model_data": 214
+    },
+    "name": 214,
+    "model": "block/comparator_compare_s"
+  },
+  {
+    "predicate": {
+      "custom_model_data": 215
+    },
+    "name": 215,
+    "model": "block/comparator_compare_w"
+  },
+  {
+    "predicate": {
+      "custom_model_data": 216
+    },
+    "name": 216,
+    "model": "block/comparator_compare_n"
+  },
+  {
+    "predicate": {
+      "custom_model_data": 217
+    },
+    "name": 217,
+    "model": "block/comparator_compare_e"
+  },
+  {
+    "predicate": {
+      "custom_model_data": 218
+    },
+    "name": 218,
+    "model": "block/comparator_subtract_s"
+  },
+  {
+    "predicate": {
+      "custom_model_data": 219
+    },
+    "name": 219,
+    "model": "block/comparator_subtract_w"
+  },
+  {
+    "predicate": {
+      "custom_model_data": 220
+    },
+    "name": 220,
+    "model": "block/comparator_subtract_n"
+  },
+  {
+    "predicate": {
+      "custom_model_data": 221
+    },
+    "name": 221,
+    "model": "block/comparator_subtract_e"
+  },
+  {
+    "predicate": {
+      "custom_model_data": 222
+    },
+    "name": 222,
+    "model": "block/comparator_powered_compare_s"
+  },
+  {
+    "predicate": {
+      "custom_model_data": 223
+    },
+    "name": 223,
+    "model": "block/comparator_powered_compare_w"
+  },
+  {
+    "predicate": {
+      "custom_model_data": 224
+    },
+    "name": 224,
+    "model": "block/comparator_powered_compare_n"
+  },
+  {
+    "predicate": {
+      "custom_model_data": 225
+    },
+    "name": 225,
+    "model": "block/comparator_powered_compare_e"
+  },
+  {
+    "predicate": {
+      "custom_model_data": 227
+    },
+    "name": 227,
+    "model": "block/comparator_powered_subtract_w"
+  },
+  {
+    "predicate": {
+      "custom_model_data": 265
+    },
+    "name": 265,
+    "model": "block/heavy_pressure_plate_power6"
+  },
+  {
+    "predicate": {
+      "custom_model_data": 269
+    },
+    "name": 269,
+    "model": "block/heavy_pressure_plate_power10"
+  },
+  {
+    "predicate": {
+      "custom_model_data": 279
+    },
+    "name": 279,
+    "model": "block/polished_diorite_slab_double"
+  },
+  {
+    "predicate": {
+      "custom_model_data": 314
+    },
+    "name": 314,
+    "model": "block/boulders_light"
+  },
+  {
+    "predicate": {
+      "custom_model_data": 315
+    },
+    "name": 315,
+    "model": "block/boulders_dark"
+  },
+  {
+    "predicate": {
+      "custom_model_data": 316
+    },
+    "name": 316,
+    "model": "block/boulders_mixed"
+  },
+  {
+    "predicate": {
+      "custom_model_data": 317
+    },
+    "name": 317,
+    "model": "block/boulders_mossy"
+  },
+  {
+    "predicate": {
+      "custom_model_data": 319
+    },
+    "name": 319,
+    "model": "block/grass_block_polished_andesite_inventory"
+  },
+  {
+    "predicate": {
+      "custom_model_data": 339
+    },
+    "name": 339,
+    "model": "item/stationary_lava"
+  },
+  {
+    "predicate": {
+      "custom_model_data": 340
+    },
+    "name": 340,
+    "model": "item/stationary_lava_height2"
+  },
+  {
+    "predicate": {
+      "custom_model_data": 341
+    },
+    "name": 341,
+    "model": "item/stationary_water"
+  },
+  {
+    "predicate": {
+      "custom_model_data": 342
+    },
+    "name": 342,
+    "model": "item/stationary_water_height2"
+  },
+  {
+    "predicate": {
+      "custom_model_data": 343
+    },
+    "name": 343,
+    "model": "item/stationary_water_height4"
+  },
+  {
+    "predicate": {
+      "custom_model_data": 344
+    },
+    "name": 344,
+    "model": "item/stationary_water_height6"
+  },
+  {
+    "predicate": {
+      "custom_model_data": 345
+    },
+    "name": 345,
+    "model": "item/stationary_water_height8"
+  },
+  {
+    "predicate": {
+      "custom_model_data": 346
+    },
+    "name": 346,
+    "model": "item/stationary_water_height10"
+  },
+  {
+    "predicate": {
+      "custom_model_data": 347
+    },
+    "name": 347,
+    "model": "item/stationary_water_height12"
+  },
+  {
+    "predicate": {
+      "custom_model_data": 348
+    },
+    "name": 348,
+    "model": "item/stationary_water_height14"
+  },
+  {
+    "predicate": {
+      "custom_model_data": 349
+    },
+    "name": 349,
+    "model": "block/double_slab_planks_jungle_1"
+  },
+  {
+    "predicate": {
+      "custom_model_data": 353
+    },
+    "name": 353,
+    "model": "block/brown_mushroom_block_ne"
+  },
+  {
+    "predicate": {
+      "custom_model_data": 355
+    },
+    "name": 355,
+    "model": "item/stationary_lava_height4"
+  },
+  {
+    "predicate": {
+      "custom_model_data": 356
+    },
+    "name": 356,
+    "model": "item/stationary_lava_height6"
+  },
+  {
+    "predicate": {
+      "custom_model_data": 357
+    },
+    "name": 357,
+    "model": "item/stationary_lava_height8"
+  },
+  {
+    "predicate": {
+      "custom_model_data": 358
+    },
+    "name": 358,
+    "model": "item/stationary_lava_height10"
+  },
+  {
+    "predicate": {
+      "custom_model_data": 359
+    },
+    "name": 359,
+    "model": "item/stationary_lava_height12"
+  },
+  {
+    "predicate": {
+      "custom_model_data": 360
+    },
+    "name": 360,
+    "model": "item/stationary_lava_height14"
+  },
+  {
+    "predicate": {
+      "custom_model_data": 363
+    },
+    "name": 363,
+    "model": "block/repeater_delay2_n"
+  },
+  {
+    "predicate": {
+      "custom_model_data": 364
+    },
+    "name": 364,
+    "model": "block/repeater_delay2_e"
+  },
+  {
+    "predicate": {
+      "custom_model_data": 366
+    },
+    "name": 366,
+    "model": "block/note_block_1"
+  },
+  {
+    "predicate": {
+      "custom_model_data": 367
+    },
+    "name": 367,
+    "model": "block/note_block_7"
+  },
+  {
+    "predicate": {
+      "custom_model_data": 368
+    },
+    "name": 368,
+    "model": "block/note_block_13"
+  },
+  {
+    "predicate": {
+      "custom_model_data": 369
+    },
+    "name": 369,
+    "model": "block/note_block_19"
+  },
+  {
+    "predicate": {
+      "custom_model_data": 396
+    },
+    "name": 396,
+    "model": "item/waterlogged_sand_slab"
+  },
+  {
+    "predicate": {
+      "custom_model_data": 402
+    },
+    "name": 402,
+    "model": "item/grass_block_stones_only_inventory"
+  },
+  {
+    "predicate": {
+      "custom_model_data": 442
+    },
+    "name": 442,
+    "model": "block/mycelium_snow"
+  },
+  {
+    "predicate": {
+      "custom_model_data": 458
+    },
+    "name": 458,
+    "model": "item/dark_oak_leaves_grass_soil_inventory"
+  },
+  {
+    "predicate": {
+      "custom_model_data": 644
+    },
+    "name": 644,
+    "model": "block/vertical_slab_stone"
+  },
+  {
+    "predicate": {
+      "custom_model_data": 807
+    },
+    "name": 807,
+    "model": "block/vertical_slab_polished_andesite"
+  }
+]
+}

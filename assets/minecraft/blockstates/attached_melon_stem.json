@@ -1,0 +1,57 @@
+{
+    "variants": {
+        "facing=west": [
+            {
+                "model": "mcme:block/wood_nail",
+                "y": 90
+            },
+            {
+                "model": "mcme:block/wood_nail_2",
+                "y": 90
+            },
+            {
+                "model": "mcme:block/wood_nail_3",
+                "y": 90
+            }
+        ],
+        "facing=east": [
+            {
+                "model": "mcme:block/wood_nail",
+                "y": 270
+            },
+            {
+                "model": "mcme:block/wood_nail_2",
+                "y": 270
+            },
+            {
+                "model": "mcme:block/wood_nail_3",
+                "y": 270
+            }
+        ],
+        "facing=north": [
+            {
+                "model": "mcme:block/wood_nail",
+                "y": 180
+            },
+            {
+                "model": "mcme:block/wood_nail_2",
+                "y": 180
+            },
+            {
+                "model": "mcme:block/wood_nail_3",
+                "y": 180
+            }
+        ],
+        "facing=south": [
+            {
+                "model": "mcme:block/wood_nail"
+            },
+            {
+                "model": "mcme:block/wood_nail_2"
+            },
+            {
+                "model": "mcme:block/wood_nail_3"
+            }
+        ]
+    }
+}

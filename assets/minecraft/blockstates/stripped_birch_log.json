@@ -1,0 +1,13 @@
+{
+    "variants": {
+        "axis=x": {
+            "model": "minecraft:block/replace"
+        },
+        "axis=y": {
+            "model": "mcme:block/darker_pillar_topper"
+        },
+        "axis=z": {
+            "model": "minecraft:block/replace"
+        }
+    }
+}

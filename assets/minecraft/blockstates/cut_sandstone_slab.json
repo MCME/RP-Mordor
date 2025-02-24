@@ -1,0 +1,43 @@
+{
+    "variants": {
+        "type=bottom": [
+            {
+                "model": "block/iron_block_slab"
+            },
+            {
+                "model": "block/iron_block_slab_2"
+            },
+            {
+                "model": "block/iron_block_slab_3"
+            },
+            {
+                "model": "block/iron_block_slab_4"
+            },
+            {
+                "model": "block/iron_block_slab_5"
+            }
+        ],
+        "type=top": [
+            {
+                "model": "block/iron_block_slab",
+                "x": 180
+            },
+            {
+                "model": "block/iron_block_slab_2",
+                "x": 180
+            },
+            {
+                "model": "block/iron_block_slab_3",
+                "x": 180
+            },
+            {
+                "model": "block/iron_block_slab_4",
+                "x": 180
+            },
+            {
+                "model": "block/iron_block_slab_5",
+                "x": 180
+            }
+        ]
+    }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/door_unused",
+  "textures": {
+    "bottom": "block/oxidized_cut_copper",
+    "top": "block/oxidized_cut_copper"
+  }
+}
