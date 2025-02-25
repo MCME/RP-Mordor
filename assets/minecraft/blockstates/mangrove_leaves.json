@@ -39,20 +39,20 @@
             "y": 270
         },
         "distance=3,persistent=true": {
-            "model": "mcme:block/wall_spike_large",
+            "model": "block/replace_cutout",
             "x": 90
         },
         "distance=4,persistent=true": {
-            "model": "mcme:block/wall_spike_large",
+            "model": "block/replace_cutout",
             "x": 90,
             "y": 90
         },
         "distance=5,persistent=true": {
-            "model": "mcme:block/wall_spike_large",
+            "model": "block/replace_cutout",
             "x": 270
         },
         "distance=6,persistent=true": {
-            "model": "mcme:block/wall_spike_large",
+            "model": "block/replace_cutout",
             "x": 270,
             "y": 90
         }

@@ -31,18 +31,18 @@
             "y": 90
         },
         "distance=3,persistent=true": {
-            "model": "mcme:block/metal_panel"
+            "model": "minecraft:block/replace_cutout"
         },
         "distance=4,persistent=true": {
-            "model": "mcme:block/metal_panel",
+            "model": "minecraft:block/replace_cutout",
             "y": 180
         },
         "distance=5,persistent=true": {
-            "model": "mcme:block/metal_panel",
+            "model": "minecraft:block/replace_cutout",
             "y": 270
         },
         "distance=6,persistent=true": {
-            "model": "mcme:block/metal_panel",
+            "model": "minecraft:block/replace_cutout",
             "y": 90
         },
         "distance=7,persistent=true": {

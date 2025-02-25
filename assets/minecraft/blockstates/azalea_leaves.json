@@ -1,11 +1,11 @@
 {
     "variants": {
         "distance=7,persistent=false": {
-            "model": "mcme:block/wall_spike_large",
+            "model": "block/replace_cutout",
             "y": 180
         },
         "distance=1,persistent=false": {
-            "model": "mcme:block/wall_spike_large",
+            "model": "block/replace_cutout",
             "y": 270
         },
         "distance=2,persistent=false": {

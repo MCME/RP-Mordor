@@ -12,13 +12,13 @@
             "y": 270
         },
         "distance=4,persistent=false": {
-            "model": "block/crenelation_north"
+            "model": "block/replace_cutout"
         },
         "distance=5,persistent=false": {
-            "model": "block/crenelation_south"
+            "model": "block/replace_cutout"
         },
         "distance=6,persistent=false": {
-            "model": "block/crenelation_west"
+            "model": "block/replace_cutout"
         },
         "distance=7,persistent=false": {
             "model": "mcme:block/horizontal_spike_small",
@@ -47,7 +47,7 @@
             "model": "block/piston_head_sticky"
         },
         "distance=7,persistent=true": {
-            "model": "block/crenelation_east"
+            "model": "block/replace_cutout"
         }
     }
 }

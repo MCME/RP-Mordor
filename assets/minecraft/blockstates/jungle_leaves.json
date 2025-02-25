@@ -16,40 +16,40 @@
             "y": 270
         },
         "distance=4,persistent=false": {
-            "model": "mcme:block/pointy_spike_small",
+            "model": "block/replace_cutout",
             "x": 180
         },
         "distance=5,persistent=false": {
-            "model": "mcme:block/pointy_spike_small",
+            "model": "block/replace_cutout",
             "x": 180,
             "y": 90
         },
         "distance=6,persistent=false": {
-            "model": "mcme:block/pointy_spike_small",
+            "model": "block/replace_cutout",
             "x": 180,
             "y": 180
         },
         "distance=7,persistent=true": {
-            "model": "mcme:block/pointy_spike_small",
+            "model": "block/replace_cutout",
             "x": 180,
             "y": 270
         },
         "distance=1,persistent=true": {
-            "model": "mcme:block/pointy_spike_large",
+            "model": "block/replace_cutout",
             "x": 180
         },
         "distance=2,persistent=true": {
-            "model": "mcme:block/pointy_spike_large",
+            "model": "block/replace_cutout",
             "x": 180,
             "y": 90
         },
         "distance=3,persistent=true": {
-            "model": "mcme:block/pointy_spike_large",
+            "model": "block/replace_cutout",
             "x": 180,
             "y": 180
         },
         "distance=4,persistent=true": {
-            "model": "mcme:block/pointy_spike_large",
+            "model": "block/replace_cutout",
             "x": 180,
             "y": 270
         },
