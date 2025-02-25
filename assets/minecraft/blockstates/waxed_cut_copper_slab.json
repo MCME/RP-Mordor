@@ -1,0 +1,29 @@
+{
+    "variants": {
+        "type=bottom": [
+            {
+                "model": "block/waxed_cut_copper_slab"
+            },
+            {
+                "model": "block/waxed_cut_copper_slab_2"
+            },
+            {
+                "model": "block/waxed_cut_copper_slab_3"
+            }
+        ],
+        "type=top": [
+            {
+                "model": "block/waxed_cut_copper_slab",
+                "x": 180
+            },
+            {
+                "model": "block/waxed_cut_copper_slab_2",
+                "x": 180
+            },
+            {
+                "model": "block/waxed_cut_copper_slab_3",
+                "x": 180
+            }
+        ]
+    }
+}
