@@ -1,14 +1,14 @@
 {
     "variants": {
         "distance=1,persistent=false": {
-            "model": "mcme:block/horizontal_spike_small"
+            "model": "block/replace_cutout"
         },
         "distance=2,persistent=false": {
-            "model": "mcme:block/horizontal_spike_small",
+            "model": "block/replace_cutout",
             "y": 180
         },
         "distance=3,persistent=false": {
-            "model": "mcme:block/horizontal_spike_small",
+            "model": "block/replace_cutout",
             "y": 270
         },
         "distance=4,persistent=false": {
@@ -21,7 +21,7 @@
             "model": "block/replace_cutout"
         },
         "distance=7,persistent=false": {
-            "model": "mcme:block/horizontal_spike_small",
+            "model": "block/replace_cutout",
             "y": 90
         },
         "distance=1,persistent=true": {

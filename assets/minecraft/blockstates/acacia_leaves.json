@@ -13,11 +13,11 @@
             "model": "block/big_barrel"
         },
         "distance=5,persistent=false": {
-            "model": "mcme:block/pointy_spike_small",
+            "model": "minecraft:block/replace_cutout",
             "y": 180
         },
         "distance=6,persistent=false": {
-            "model": "mcme:block/pointy_spike_small",
+            "model": "minecraft:block/replace_cutout",
             "y": 270
         },
         "distance=7,persistent=false": {
@@ -27,7 +27,7 @@
             "model": "block/barrel_coal_half_item"
         },
         "distance=2,persistent=true": {
-            "model": "mcme:block/pointy_spike_small",
+            "model": "minecraft:block/replace_cutout",
             "y": 90
         },
         "distance=3,persistent=true": {

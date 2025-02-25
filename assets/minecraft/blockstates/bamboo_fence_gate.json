@@ -1,80 +1,40 @@
 {
-    "variants": {
-        "facing=east,in_wall=false,open=false": {
-            "model": "minecraft:block/replace_vertical_slab",
-            "uvlock": false,
-            "y": 270
-        },
-        "facing=east,in_wall=false,open=true": {
-            "model": "minecraft:block/replace_vertical_slab",
-            "uvlock": false,
-            "y": 270
-        },
-        "facing=east,in_wall=true,open=false": {
-            "model": "minecraft:block/replace_vertical_slab",
-            "uvlock": false,
-            "y": 270
-        },
-        "facing=east,in_wall=true,open=true": {
-            "model": "minecraft:block/replace_vertical_slab",
-            "uvlock": false,
-            "y": 270
-        },
-        "facing=north,in_wall=false,open=false": {
-            "model": "minecraft:block/replace_vertical_slab",
-            "uvlock": false,
-            "y": 180
-        },
-        "facing=north,in_wall=false,open=true": {
-            "model": "minecraft:block/replace_vertical_slab",
-            "uvlock": false,
-            "y": 180
-        },
-        "facing=north,in_wall=true,open=false": {
-            "model": "minecraft:block/replace_vertical_slab",
-            "uvlock": false,
-            "y": 180
-        },
-        "facing=north,in_wall=true,open=true": {
-            "model": "minecraft:block/replace_vertical_slab",
-            "uvlock": false,
-            "y": 180
-        },
-        "facing=south,in_wall=false,open=false": {
-            "model": "minecraft:block/replace_vertical_slab",
-            "uvlock": false
-        },
-        "facing=south,in_wall=false,open=true": {
-            "model": "minecraft:block/replace_vertical_slab",
-            "uvlock": false
-        },
-        "facing=south,in_wall=true,open=false": {
-            "model": "minecraft:block/replace_vertical_slab",
-            "uvlock": false
-        },
-        "facing=south,in_wall=true,open=true": {
-            "model": "minecraft:block/replace_vertical_slab",
-            "uvlock": false
-        },
-        "facing=west,in_wall=false,open=false": {
-            "model": "minecraft:block/replace_vertical_slab",
-            "uvlock": false,
-            "y": 90
-        },
-        "facing=west,in_wall=false,open=true": {
-            "model": "minecraft:block/replace_vertical_slab",
-            "uvlock": false,
-            "y": 90
-        },
-        "facing=west,in_wall=true,open=false": {
-            "model": "minecraft:block/replace_vertical_slab",
-            "uvlock": false,
-            "y": 90
-        },
-        "facing=west,in_wall=true,open=true": {
-            "model": "minecraft:block/replace_vertical_slab",
-            "uvlock": false,
-            "y": 90
-        }
-    }
+  "variants": {
+    "powered=false,facing=north,in_wall=false,open=false": { "model": "mcme:block/spike_corbel_top", "y":90 },
+    "powered=false,facing=east,in_wall=false,open=false": { "model": "mcme:block/spike_corbel_top", "y": 180 },
+    "powered=false,facing=south,in_wall=false,open=false": { "model": "mcme:block/spike_corbel_top", "y": 270 },
+    "powered=false,facing=west,in_wall=false,open=false": { "model": "mcme:block/spike_corbel_top" },
+    "powered=false,facing=south,in_wall=false,open=true": { "model": "mcme:block/spike_corbel_extension", "y":270 },
+    "powered=false,facing=west,in_wall=false,open=true": { "model": "mcme:block/spike_corbel_extension" },
+    "powered=false,facing=north,in_wall=false,open=true": { "model": "mcme:block/spike_corbel_extension", "y": 90 },
+    "powered=false,facing=east,in_wall=false,open=true": { "model": "mcme:block/spike_corbel_extension", "y": 180 },
+    "powered=false,facing=south,in_wall=true,open=false": { "model": "block/replace_vertical_slab" },
+    "powered=false,facing=west,in_wall=true,open=false": { "model": "block/replace_vertical_slab", "y": 90 },
+    "powered=false,facing=north,in_wall=true,open=false": { "model": "block/replace_vertical_slab", "y": 180 },
+    "powered=false,facing=east,in_wall=true,open=false": { "model": "block/replace_vertical_slab", "y": 270 },
+    "powered=false,facing=south,in_wall=true,open=true": 
+	{ "model": "block/replace_vertical_slab" },
+    "powered=false,facing=west,in_wall=true,open=true": 
+	{ "model": "block/replace_vertical_slab", "y": 90 },
+    "powered=false,facing=north,in_wall=true,open=true": 
+	{ "model": "block/replace_vertical_slab", "y": 180 },
+    "powered=false,facing=east,in_wall=true,open=true": 
+	{ "model": "block/replace_vertical_slab", "y": 270 },
+    "powered=true,facing=south,in_wall=false,open=false":  { "model": "mcme:block/spike_corbel", "y":270 },
+    "powered=true,facing=west,in_wall=false,open=false":  { "model": "mcme:block/spike_corbel" },
+    "powered=true,facing=north,in_wall=false,open=false":  { "model": "mcme:block/spike_corbel", "y": 90 },
+    "powered=true,facing=east,in_wall=false,open=false":  { "model": "mcme:block/spike_corbel", "y": 180 },
+    "powered=true,facing=south,in_wall=false,open=true": { "model": "block/replace_vertical_slab" },
+    "powered=true,facing=west,in_wall=false,open=true": { "model": "block/replace_vertical_slab", "y": 90 },
+    "powered=true,facing=north,in_wall=false,open=true": { "model": "block/replace_vertical_slab", "y": 180 },
+    "powered=true,facing=east,in_wall=false,open=true": { "model": "block/replace_vertical_slab", "y": 270 },
+    "powered=true,facing=south,in_wall=true,open=false": { "model": "block/replace_vertical_slab" },
+    "powered=true,facing=west,in_wall=true,open=false": { "model": "block/replace_vertical_slab", "y": 90 },
+    "powered=true,facing=north,in_wall=true,open=false": { "model": "block/replace_vertical_slab", "y": 180 },
+    "powered=true,facing=east,in_wall=true,open=false": { "model": "block/replace_vertical_slab", "y": 270 },
+    "powered=true,facing=south,in_wall=true,open=true": { "model": "block/replace_vertical_slab" },
+    "powered=true,facing=west,in_wall=true,open=true": { "model": "block/replace_vertical_slab", "y": 90 },
+    "powered=true,facing=north,in_wall=true,open=true": { "model": "block/replace_vertical_slab", "y": 180 },
+    "powered=true,facing=east,in_wall=true,open=true": { "model": "block/replace_vertical_slab", "y": 270 }
+  }
 }

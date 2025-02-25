@@ -1,18 +1,18 @@
 {
     "variants": {
         "distance=7,persistent=false": {
-            "model": "mcme:block/spike_corbel_extension"
+            "model": "block/replace_cutout"
         },
         "distance=1,persistent=false": {
-            "model": "mcme:block/spike_corbel_extension",
+            "model": "block/replace_cutout",
             "y": 90
         },
         "distance=2,persistent=false": {
-            "model": "mcme:block/spike_corbel_extension",
+            "model": "block/replace_cutout",
             "y": 180
         },
         "distance=3,persistent=false": {
-            "model": "mcme:block/spike_corbel_extension",
+            "model": "block/replace_cutout",
             "y": 270
         },
         "distance=4,persistent=false": {
@@ -54,10 +54,10 @@
             "y": 270
         },
         "distance=5,persistent=true": {
-            "model": "mcme:block/corbel_large"
+            "model": "block/replace_cutout"
         },
         "distance=6,persistent=true": {
-            "model": "mcme:block/corbel_large",
+            "model": "block/replace_cutout",
             "y": 90
         }
     }

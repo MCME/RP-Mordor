@@ -4,32 +4,32 @@
             "model": "block/birch_leaves_pillar_thick"
         },
         "distance=2,persistent=false": {
-            "model": "mcme:block/upwards_spike_large",
+            "model": "minecraft:block/replace_cutout",
             "y": 180
         },
         "distance=3,persistent=false": {
-            "model": "mcme:block/upwards_spike_large",
+            "model": "minecraft:block/replace_cutout",
             "y": 90
         },
         "distance=4,persistent=false": {
-            "model": "mcme:block/upwards_spike_large",
+            "model": "minecraft:block/replace_cutout",
             "y": 270
         },
         "distance=5,persistent=false": {
-            "model": "mcme:block/upwards_spike_small"
+            "model": "minecraft:block/replace_cutout"
         },
         "distance=6,persistent=false": {
-            "model": "mcme:block/upwards_spike_small",
+            "model": "minecraft:block/replace_cutout",
             "y": 180
         },
         "distance=7,persistent=false": {
-            "model": "mcme:block/upwards_spike_large"
+            "model": "minecraft:block/replace_cutout"
         },
         "distance=6,persistent=true": {
             "model": "block/birch_leaves_pillar_thick_bottom"
         },
         "distance=7,persistent=true": {
-            "model": "mcme:block/upwards_spike_small",
+            "model": "minecraft:block/replace_cutout",
             "y": 270
         },
         "distance=2,persistent=true": {
@@ -39,11 +39,11 @@
             "model": "block/barrel_water_half_item"
         },
         "distance=4,persistent=true": {
-            "model": "mcme:block/upwards_spike_small",
+            "model": "minecraft:block/replace_cutout",
             "y": 90
         },
         "distance=5,persistent=true": {
-            "model": "mcme:block/pointy_spike_small"
+            "model": "minecraft:block/replace_cutout"
         }
     }
 }

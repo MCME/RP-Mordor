@@ -3,6 +3,42 @@
         "waterlogged=false,east=none,north=none,south=none,west=none,up=true": {
             "model": "block/unused_cross_0"
         },
+		"waterlogged=false,east=low,north=none,south=tall,west=low,up=false": {
+            "model": "mcme:block/corbel_large", "y":90
+        },
+		"waterlogged=false,east=none,north=low,south=low,west=tall,up=false": {
+            "model": "mcme:block/corbel_large"
+        },
+		"waterlogged=false,east=low,north=tall,south=none,west=low,up=false": {
+            "model": "mcme:block/corbel_large", "y":270
+        },
+		"waterlogged=false,east=tall,north=low,south=low,west=none,up=false": {
+            "model": "mcme:block/corbel_large", "y":180
+        },
+		"waterlogged=false,east=tall,north=none,south=tall,west=low,up=false": {
+            "model": "mcme:block/corbel_large_extension", "y":90
+        },
+		"waterlogged=false,east=none,north=low,south=tall,west=tall,up=false": {
+            "model": "mcme:block/corbel_large_extension"
+        },
+		"waterlogged=false,east=low,north=tall,south=none,west=tall,up=false": {
+            "model": "mcme:block/corbel_large_extension", "y":270
+        },
+		"waterlogged=false,east=tall,north=tall,south=low,west=none,up=false": {
+            "model": "mcme:block/corbel_large_extension", "y":180
+        },
+		"waterlogged=false,east=tall,north=none,south=tall,west=low,up=true": {
+            "model": "mcme:block/corbel_large_top", "y":90
+        },
+		"waterlogged=false,east=none,north=low,south=tall,west=tall,up=true": {
+            "model": "mcme:block/corbel_large_top"
+        },
+		"waterlogged=false,east=low,north=tall,south=none,west=tall,up=true": {
+            "model": "mcme:block/corbel_large_top", "y":270
+        },
+		"waterlogged=false,east=tall,north=tall,south=low,west=none,up=true": {
+            "model": "mcme:block/corbel_large_top", "y":180
+        },
 		"waterlogged=false,east=none,north=none,south=none,west=tall,up=false": {
             "model": "mcme:block/decorational_spike_small", "y":90
         },
