@@ -37,13 +37,11 @@
 	  {"model": "minecraft:block/hanging_pans_2", "y":90}
 	  ],
       "facing=east,half=bottom,open=false,powered=false": {
-          "model": "minecraft:block/replace_thin_slab",
-          "y": 90
+          "model": "mcme:block/wall_spike_large_vert"
       },
       "facing=east,half=top,open=false,powered=false": {
-          "model": "minecraft:block/replace_thin_slab",
-          "x": 180,
-          "y": 90
+          "model": "mcme:block/wall_spike_large_vert",
+          "x": 180
       },
       "facing=north,half=bottom,open=false,powered=false": {
           "model": "minecraft:block/replace_thin_slab"

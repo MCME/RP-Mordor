@@ -93,10 +93,10 @@
             }
         ],
         "distance=3,persistent=true": {
-            "model": "mcme:block/wall_spike_large_vert"
+            "model": "block/replace_cutout"
         },
         "distance=4,persistent=true": {
-            "model": "mcme:block/wall_spike_large_vert",
+            "model": "block/replace_cutout",
             "x": 180
         },
         "distance=1,persistent=true": {

@@ -1,0 +1,70 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "block/palisade_model",
+		"particle": "block/palisade_model"
+	},
+	"elements": [
+		{
+			"from": [0.25, 0, -2],
+			"to": [4.25, 16, 2],
+			"faces": {
+				"north": {"uv": [1.5, 2, 3.5, 10], "texture": "#0"},
+				"east": {"uv": [2.5, 0.5, 4.5, 8.5], "texture": "#0"},
+				"south": {"uv": [3.5, 3.5, 5.5, 11.5], "texture": "#0"},
+				"west": {"uv": [2, 6, 4, 14], "texture": "#0"},
+				"up": {"uv": [1.5, 2, 3.5, 4], "texture": "#0"},
+				"down": {"uv": [1.5, 2, 3.5, 4], "texture": "#0"}
+			}
+		},
+		{
+			"from": [6, 0, -2],
+			"to": [10, 16, 2],
+			"rotation": {"angle": -45, "axis": "y", "origin": [8, 8, 0]},
+			"faces": {
+				"north": {"uv": [4, 6, 6, 14], "texture": "#0"},
+				"east": {"uv": [2, 4.5, 4, 12.5], "texture": "#0"},
+				"south": {"uv": [3, 0.5, 5, 8.5], "texture": "#0"},
+				"west": {"uv": [5, 3.5, 7, 11.5], "texture": "#0"},
+				"up": {"uv": [2, 4.5, 4, 6.5], "texture": "#0"},
+				"down": {"uv": [2, 4.5, 4, 6.5], "texture": "#0"}
+			}
+		},
+		{
+			"from": [11.5, 0, -2],
+			"to": [15.5, 16, 2],
+			"faces": {
+				"north": {"uv": [10, 7.5, 12, 15.5], "texture": "#0"},
+				"east": {"uv": [11, 4.5, 13, 12.5], "texture": "#0"},
+				"south": {"uv": [12, 4.5, 14, 12.5], "texture": "#0"},
+				"west": {"uv": [10.5, 7.5, 12.5, 15.5], "texture": "#0"},
+				"up": {"uv": [10.5, 5, 12.5, 7], "texture": "#0"},
+				"down": {"uv": [10.5, 5, 12.5, 7], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 0, 4.5],
+			"scale": [0.51, 0.48, 0.55]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, 0, 3.75],
+			"scale": [0.58, 0.54, 0.57]
+		},
+		"firstperson_righthand": {
+			"translation": [7.25, 0, 0],
+			"scale": [0.51, 0.47, 0.5]
+		},
+		"firstperson_lefthand": {
+			"translation": [10.5, 0, 0],
+			"scale": [0.57, 0.57, 0.54]
+		},
+		"gui": {
+			"rotation": [23, 5, 1],
+			"translation": [0.25, -1.75, 0],
+			"scale": [0.69, 0.66, 0.66]
+		}
+	}
+}

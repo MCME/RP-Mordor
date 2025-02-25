@@ -1,124 +1,92 @@
 {
-    "variants": {
-        "facing=east,half=lower,hinge=left,open=false": {
-            "model": "minecraft:block/bamboo_door_bottom_left"
-        },
-        "facing=east,half=lower,hinge=left,open=true": {
-            "model": "minecraft:block/bamboo_door_bottom_left_open",
-            "y": 90
-        },
-        "facing=east,half=lower,hinge=right,open=false": {
-            "model": "minecraft:block/bamboo_door_bottom_right"
-        },
-        "facing=east,half=lower,hinge=right,open=true": {
-            "model": "minecraft:block/bamboo_door_bottom_right_open",
-            "y": 270
-        },
-        "facing=east,half=upper,hinge=left,open=false": {
-            "model": "minecraft:block/bamboo_door_top_left"
-        },
-        "facing=east,half=upper,hinge=left,open=true": {
-            "model": "minecraft:block/bamboo_door_top_left_open",
-            "y": 90
-        },
-        "facing=east,half=upper,hinge=right,open=false": {
-            "model": "minecraft:block/bamboo_door_top_right"
-        },
-        "facing=east,half=upper,hinge=right,open=true": {
-            "model": "minecraft:block/bamboo_door_top_right_open",
-            "y": 270
-        },
-        "facing=north,half=lower,hinge=left,open=false": {
-            "model": "minecraft:block/bamboo_door_bottom_left",
-            "y": 270
-        },
-        "facing=north,half=lower,hinge=left,open=true": {
-            "model": "minecraft:block/bamboo_door_bottom_left_open"
-        },
-        "facing=north,half=lower,hinge=right,open=false": {
-            "model": "minecraft:block/bamboo_door_bottom_right",
-            "y": 270
-        },
-        "facing=north,half=lower,hinge=right,open=true": {
-            "model": "minecraft:block/bamboo_door_bottom_right_open",
-            "y": 180
-        },
-        "facing=north,half=upper,hinge=left,open=false": {
-            "model": "minecraft:block/bamboo_door_top_left",
-            "y": 270
-        },
-        "facing=north,half=upper,hinge=left,open=true": {
-            "model": "minecraft:block/bamboo_door_top_left_open"
-        },
-        "facing=north,half=upper,hinge=right,open=false": {
-            "model": "minecraft:block/bamboo_door_top_right",
-            "y": 270
-        },
-        "facing=north,half=upper,hinge=right,open=true": {
-            "model": "minecraft:block/bamboo_door_top_right_open",
-            "y": 180
-        },
-        "facing=south,half=lower,hinge=left,open=false": {
-            "model": "minecraft:block/bamboo_door_bottom_left",
-            "y": 90
-        },
-        "facing=south,half=lower,hinge=left,open=true": {
-            "model": "minecraft:block/bamboo_door_bottom_left_open",
-            "y": 180
-        },
-        "facing=south,half=lower,hinge=right,open=false": {
-            "model": "minecraft:block/bamboo_door_bottom_right",
-            "y": 90
-        },
-        "facing=south,half=lower,hinge=right,open=true": {
-            "model": "minecraft:block/bamboo_door_bottom_right_open"
-        },
-        "facing=south,half=upper,hinge=left,open=false": {
-            "model": "minecraft:block/bamboo_door_top_left",
-            "y": 90
-        },
-        "facing=south,half=upper,hinge=left,open=true": {
-            "model": "minecraft:block/bamboo_door_top_left_open",
-            "y": 180
-        },
-        "facing=south,half=upper,hinge=right,open=false": {
-            "model": "minecraft:block/bamboo_door_top_right",
-            "y": 90
-        },
-        "facing=south,half=upper,hinge=right,open=true": {
-            "model": "minecraft:block/bamboo_door_top_right_open"
-        },
-        "facing=west,half=lower,hinge=left,open=false": {
-            "model": "minecraft:block/bamboo_door_bottom_left",
-            "y": 180
-        },
-        "facing=west,half=lower,hinge=left,open=true": {
-            "model": "minecraft:block/bamboo_door_bottom_left_open",
-            "y": 270
-        },
-        "facing=west,half=lower,hinge=right,open=false": {
-            "model": "minecraft:block/bamboo_door_bottom_right",
-            "y": 180
-        },
-        "facing=west,half=lower,hinge=right,open=true": {
-            "model": "minecraft:block/bamboo_door_bottom_right_open",
-            "y": 90
-        },
-        "facing=west,half=upper,hinge=left,open=false": {
-            "model": "minecraft:block/bamboo_door_top_left",
-            "y": 180
-        },
-        "facing=west,half=upper,hinge=left,open=true": {
-            "model": "minecraft:block/bamboo_door_top_left_open",
-            "y": 270
-        },
-        "facing=west,half=upper,hinge=right,open=false": {
-            "model": "minecraft:block/bamboo_door_top_right",
-            "y": 180
-        },
-        "facing=west,half=upper,hinge=right,open=true": {
-            "model": "minecraft:block/bamboo_door_top_right_open",
-            "y": 90
-        }
-    }
+  "variants": {
+    "powered=false,half=lower,hinge=left,open=false,facing=south": [
+	{ "model": "block/log_palisade" },
+	{ "model": "block/log_palisade_2" }
+	],
+    "powered=false,half=lower,hinge=left,open=false,facing=west": [
+	{ "model": "block/log_palisade", "y": 90 },
+	{ "model": "block/log_palisade_2", "y": 90} 
+	],
+    "powered=false,half=lower,hinge=left,open=false,facing=north": [
+	{ "model": "block/log_palisade", "y": 180 },
+	{ "model": "block/log_palisade_2", "y": 180} 
+	],
+    "powered=false,half=lower,hinge=left,open=false,facing=east": [
+	{ "model": "block/log_palisade", "y": 270 },
+	{ "model": "block/log_palisade_2", "y": 270} 
+	],
+    "powered=false,half=lower,hinge=left,open=true,facing=north": [
+	{ "model": "block/log_palisade_top", "y": 270 },
+	{ "model": "block/log_palisade_top_2", "y": 270} 
+	],
+    "powered=false,half=lower,hinge=left,open=true,facing=east": [
+	{ "model": "block/log_palisade_top" },
+	{ "model": "block/log_palisade_top_2"} 
+	],
+    "powered=false,half=lower,hinge=left,open=true,facing=south": [
+	{ "model": "block/log_palisade_top", "y": 90 },
+	{ "model": "block/log_palisade_top_2", "y": 90 }
+	],
+    "powered=false,half=lower,hinge=left,open=true,facing=west": [
+	{ "model": "block/log_palisade_top", "y": 180 },
+	{ "model": "block/log_palisade_top_2", "y": 180} 
+	],
+    "powered=false,half=lower,hinge=right,open=false,facing=north": { "model": "block/crenelation", "y":270},
+    "powered=false,half=lower,hinge=right,open=false,facing=east": { "model": "block/crenelation"},
+    "powered=false,half=lower,hinge=right,open=false,facing=south": { "model": "block/crenelation", "y": 90},
+    "powered=false,half=lower,hinge=right,open=false,facing=west": { "model": "block/crenelation", "y": 180},
+    "powered=false,half=lower,hinge=right,open=true,facing=north": {"model": "mcme:block/decorational_spike_large", "y": 270},
+    "powered=false,half=lower,hinge=right,open=true,facing=east": {"model": "mcme:block/decorational_spike_large"},
+    "powered=false,half=lower,hinge=right,open=true,facing=south": {"model": "mcme:block/decorational_spike_large", "y": 90},
+    "powered=false,half=lower,hinge=right,open=true,facing=west": {"model": "mcme:block/decorational_spike_large", "y":180},
+    "powered=false,half=upper,hinge=left,open=false,facing=north": {"model": "block/bamboo_door_top_right_open", "y": 180},
+    "powered=false,half=upper,hinge=left,open=false,facing=east": {"model": "block/bamboo_door_top_right_open", "y": 270},
+    "powered=false,half=upper,hinge=left,open=false,facing=south": {"model": "block/bamboo_door_top_right_open"},
+    "powered=false,half=upper,hinge=left,open=false,facing=west": {"model": "block/bamboo_door_top_right_open", "y":90},
+    "powered=false,half=upper,hinge=left,open=true,facing=north": { "model": "block/bamboo_door_top_right_open", "y":270 },
+    "powered=false,half=upper,hinge=left,open=true,facing=east": { "model": "block/bamboo_door_top_right_open"},
+    "powered=false,half=upper,hinge=left,open=true,facing=south": { "model": "block/bamboo_door_top_right_open", "y":90 },
+    "powered=false,half=upper,hinge=left,open=true,facing=west": { "model": "block/bamboo_door_top_right_open", "y":180 },
+    "powered=false,half=upper,hinge=right,open=false,facing=north": { "model": "block/bamboo_door_top_right_open", "y":180 },
+    "powered=false,half=upper,hinge=right,open=false,facing=east": { "model": "block/bamboo_door_top_right_open", "y":270 },
+    "powered=false,half=upper,hinge=right,open=false,facing=south": { "model": "block/bamboo_door_top_right_open" },
+    "powered=false,half=upper,hinge=right,open=false,facing=west": { "model": "block/bamboo_door_top_right_open", "y":90 },
+    "powered=false,half=upper,hinge=right,open=true,facing=north": { "model": "block/bamboo_door_top_right_open", "y":180 },
+    "powered=false,half=upper,hinge=right,open=true,facing=east": { "model": "block/bamboo_door_top_right_open", "y":270 },
+    "powered=false,half=upper,hinge=right,open=true,facing=south": { "model": "block/bamboo_door_top_right_open" },
+    "powered=false,half=upper,hinge=right,open=true,facing=west": { "model": "block/bamboo_door_top_right_open", "y":90 },
+    "powered=true,half=lower,hinge=left,open=false,facing=north": { "model": "block/bamboo_door_top_right_open", "y": 270 },
+    "powered=true,half=lower,hinge=left,open=false,facing=east": { "model": "block/bamboo_door_top_right_open" },
+    "powered=true,half=lower,hinge=left,open=false,facing=south": { "model": "block/bamboo_door_top_right_open", "y": 90 },
+    "powered=true,half=lower,hinge=left,open=false,facing=west": { "model": "block/bamboo_door_top_right_open", "y": 180 },
+    "powered=true,half=lower,hinge=left,open=true,facing=north": { "model": "block/bamboo_door_top_right_open" },
+    "powered=true,half=lower,hinge=left,open=true,facing=east": { "model": "block/bamboo_door_top_right_open", "y": 90 },
+    "powered=true,half=lower,hinge=left,open=true,facing=south": { "model": "block/bamboo_door_top_right_open", "y": 180 },
+    "powered=true,half=lower,hinge=left,open=true,facing=west": { "model": "block/bamboo_door_top_right_open", "y": 270 },
+    "powered=true,half=lower,hinge=right,open=false,facing=north": { "model": "block/bamboo_door_top_right_open", "y": 270 },
+    "powered=true,half=lower,hinge=right,open=false,facing=east": { "model": "block/bamboo_door_top_right_open" },
+    "powered=true,half=lower,hinge=right,open=false,facing=south": { "model": "block/bamboo_door_top_right_open", "y": 90 },
+    "powered=true,half=lower,hinge=right,open=false,facing=west": { "model": "block/bamboo_door_top_right_open", "y": 180 },
+    "powered=true,half=lower,hinge=right,open=true,facing=north": { "model": "block/bamboo_door_top_right_open", "y": 180 },
+    "powered=true,half=lower,hinge=right,open=true,facing=east": { "model": "block/bamboo_door_top_right_open", "y": 270 },
+    "powered=true,half=lower,hinge=right,open=true,facing=south": { "model": "block/bamboo_door_top_right_open" },
+    "powered=true,half=lower,hinge=right,open=true,facing=west": { "model": "block/bamboo_door_top_right_open", "y": 90 },
+    "powered=true,half=upper,hinge=left,open=false,facing=north": { "model": "block/bamboo_door_top_right_open", "y": 270 },
+    "powered=true,half=upper,hinge=left,open=false,facing=east": { "model": "block/bamboo_door_top_right_open" },
+    "powered=true,half=upper,hinge=left,open=false,facing=south": { "model": "block/bamboo_door_top_right_open", "y": 90 },
+    "powered=true,half=upper,hinge=left,open=false,facing=west": { "model": "block/bamboo_door_top_right_open", "y": 180 },
+    "powered=true,half=upper,hinge=left,open=true,facing=north": { "model": "block/bamboo_door_top_right_open" },
+    "powered=true,half=upper,hinge=left,open=true,facing=east": { "model": "block/bamboo_door_top_right_open", "y": 90 },
+    "powered=true,half=upper,hinge=left,open=true,facing=south": { "model": "block/bamboo_door_top_right_open", "y": 180 },
+    "powered=true,half=upper,hinge=left,open=true,facing=west": { "model": "block/bamboo_door_top_right_open", "y": 270 },
+    "powered=true,half=upper,hinge=right,open=false,facing=north": { "model": "block/bamboo_door_top_right_open", "y": 270 },
+    "powered=true,half=upper,hinge=right,open=false,facing=east": { "model": "block/bamboo_door_top_right_open" },
+    "powered=true,half=upper,hinge=right,open=false,facing=south": { "model": "block/bamboo_door_top_right_open", "y": 90 },
+    "powered=true,half=upper,hinge=right,open=false,facing=west": { "model": "block/bamboo_door_top_right_open", "y": 180 },
+    "powered=true,half=upper,hinge=right,open=true,facing=north": { "model": "block/bamboo_door_top_right_open", "y": 180 },
+    "powered=true,half=upper,hinge=right,open=true,facing=east": { "model": "block/bamboo_door_top_right_open", "y": 270 },
+    "powered=true,half=upper,hinge=right,open=true,facing=south": { "model": "block/bamboo_door_top_right_open" },
+    "powered=true,half=upper,hinge=right,open=true,facing=west": { "model": "block/bamboo_door_top_right_open", "y": 90 }
+  }
 }
