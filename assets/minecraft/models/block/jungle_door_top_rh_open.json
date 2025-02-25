@@ -1,7 +1,7 @@
 {
   "parent": "block/door_unused",
   "textures": {
-    "bottom": "block/dried_kelp_block",
-    "top": "block/dried_kelp_block"
+    "bottom": "block/waxed_weathered_cut_copper",
+    "top": "block/waxed_weathered_cut_copper"
   }
 }

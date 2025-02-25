@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "block/sandstone_3"
+    "all": "block/waxed_weathered_cut_copper_4"
   }
 }

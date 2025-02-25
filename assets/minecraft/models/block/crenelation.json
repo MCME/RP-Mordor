@@ -6,8 +6,8 @@
 		"3": "block/exposed_cut_copper_2",
 		"4": "block/spike_side_small",
 		"5": "block/exposed_cut_copper",
-		"6": "block/dried_kelp_block",
-		"particle": "block/dried_kelp_block"
+		"6": "block/waxed_weathered_cut_copper",
+		"particle": "block/waxed_weathered_cut_copper"
 	},
 	"elements": [
 		{

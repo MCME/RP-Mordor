@@ -1,8 +1,8 @@
 {
     "parent": "block/inner_stairs",
     "textures": {
-        "bottom": "block/dried_kelp_block_2",
-        "top": "block/dried_kelp_block_2",
-        "side": "block/dried_kelp_block_2"
+        "bottom": "block/waxed_weathered_cut_copper_2",
+        "top": "block/waxed_weathered_cut_copper_2",
+        "side": "block/waxed_weathered_cut_copper_2"
     }
 }

@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "block/dried_kelp_block_3"
+    "all": "block/waxed_weathered_cut_copper_2"
   }
 }
