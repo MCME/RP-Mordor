@@ -748,6 +748,272 @@
                     "type": "model",
                     "model": "block/dark_oak_button_1x3arch_top"
                 }
+			},
+			{
+                "threshold": 822,
+                "model": {
+                    "type": "model",
+                    "model": "block/oak_planks_side_stairs"
+                }
+            },
+			{
+                "threshold": 823,
+                "model": {
+                    "type": "model",
+                    "model": "block/medium_oak_log_pillar"
+                }
+            },
+			{
+                "threshold": 824,
+                "model": {
+                    "type": "model",
+                    "model": "block/red_mushroom_block_ew"
+                }
+            },
+			{
+                "threshold": 825,
+                "model": {
+                    "type": "model",
+                    "model": "block/red_mushroom_block_esu"
+                }
+            },
+			{
+                "threshold": 826,
+                "model": {
+                    "type": "model",
+                    "model": "block/crimson_planks_double_slab"
+                }
+            },
+			{
+                "threshold": 827,
+                "model": {
+                    "type": "model",
+                    "model": "block/iron_trapdoor_bottom_s"
+                }
+            },
+			{
+                "threshold": 828,
+                "model": {
+                    "type": "model",
+                    "model": "block/iron_trapdoor_top_open"
+                }
+            },
+			{
+                "threshold": 829,
+                "model": {
+                    "type": "model",
+                    "model": "block/trapdoor_double_slab_planks_acacia_open"
+                }
+            },
+			{
+                "threshold": 830,
+                "model": {
+                    "type": "model",
+                    "model": "block/iron_trapdoor_bottom_e"
+                }
+            },
+			{
+                "threshold": 831,
+                "model": {
+                    "type": "model",
+                    "model": "block/oak_fence_gate_powered_closed"
+                }
+            },
+			{
+                "threshold": 832,
+                "model": {
+                    "type": "model",
+                    "model": "block/vertical_slab_double_slab_planks_acacia"
+                }
+            },
+			{
+                "threshold": 833,
+                "model": {
+                    "type": "model",
+                    "model": "block/double_slab_planks_acacia"
+                }
+            },
+			{
+                "threshold": 834,
+                "model": {
+                    "type": "model",
+                    "model": "block/powered_repeater_delay3_s"
+                }
+            },
+			{
+                "threshold": 835,
+                "model": {
+                    "type": "model",
+                    "model": "block/red_mushroom_block_ewud"
+                }
+            },
+			{
+                "threshold": 836,
+                "model": {
+                    "type": "model",
+                    "model": "block/oak_planks_offset"
+                }
+            },
+			{
+                "threshold": 837,
+                "model": {
+                    "type": "model",
+                    "model": "block/beam_diagonal_s_down"
+                }
+            },
+			{
+                "threshold": 838,
+                "model": {
+                    "type": "model",
+                    "model": "block/beam_horizontal_down"
+                }
+            },
+			{
+                "threshold": 839,
+                "model": {
+                    "type": "model",
+                    "model": "block/beam_horizontal"
+                }
+            },
+			{
+                "threshold": 840,
+                "model": {
+                    "type": "model",
+                    "model": "block/target_block_power0"
+                }
+            },
+			{
+                "threshold": 841,
+                "model": {
+                    "type": "model",
+                    "model": "block/note_block_sticks"
+                }
+            },
+			{
+                "threshold": 842,
+                "model": {
+                    "type": "model",
+                    "model": "block/twisting_vines_stair"
+                }
+            },
+			{
+                "threshold": 843,
+                "model": {
+                    "type": "model",
+                    "model": "block/twisting_vines_stair_2"
+                }
+            },
+			{
+                "threshold": 844,
+                "model": {
+                    "type": "model",
+                    "model": "block/twisting_vines_diagonal_beam"
+                }
+            },
+			{
+                "threshold": 845,
+                "model": {
+                    "type": "model",
+                    "model": "block/twisting_vines_diagonal_beam_1"
+                }
+            },
+			{
+                "threshold": 846,
+                "model": {
+                    "type": "model",
+                    "model": "block/twisting_vines_diagonal_beam_2"
+                }
+            },
+			{
+                "threshold": 847,
+                "model": {
+                    "type": "model",
+                    "model": "block/twisting_vines_diagonal_beam_3"
+                }
+            },
+			{
+                "threshold": 848,
+                "model": {
+                    "type": "model",
+                    "model": "block/twisting_vines_diagonal_beam_4"
+                }
+            },
+			{
+                "threshold": 849,
+                "model": {
+                    "type": "model",
+                    "model": "block/twisting_vines_diagonal_beam_5"
+                }
+            },
+			{
+                "threshold": 850,
+                "model": {
+                    "type": "model",
+                    "model": "block/beam_diagonal_s"
+                }
+            },
+			{
+                "threshold": 851,
+                "model": {
+                    "type": "model",
+                    "model": "block/beam_diagonal_s_support"
+                }
+            },
+			{
+                "threshold": 852,
+                "model": {
+                    "type": "model",
+                    "model": "block/reinforced_wood_topper"
+                }
+            },
+			{
+                "threshold": 853,
+                "model": {
+                    "type": "model",
+                    "model": "block/reinforced_wood_bottom"
+                }
+            },
+			{
+                "threshold": 854,
+                "model": {
+                    "type": "model",
+                    "model": "block/beam_diagonal_rope_s_down"
+                }
+            },
+			{
+                "threshold": 855,
+                "model": {
+                    "type": "model",
+                    "model": "block/beam_diagonal_rope_s"
+                }
+            },
+			{
+                "threshold": 856,
+                "model": {
+                    "type": "model",
+                    "model": "block/beam_diagonal_rope_s_support"
+                }
+            },
+			{
+                "threshold": 857,
+                "model": {
+                    "type": "model",
+                    "model": "block/beam_diagonal_metal_s_down"
+                }
+            },
+			{
+                "threshold": 858,
+                "model": {
+                    "type": "model",
+                    "model": "block/beam_diagonal_metal_s"
+                }
+            },
+			{
+                "threshold": 859,
+                "model": {
+                    "type": "model",
+                    "model": "block/beam_diagonal_metal_s_support"
+                }
             }
         ]
     }

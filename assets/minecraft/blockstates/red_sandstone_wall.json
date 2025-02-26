@@ -10,13 +10,13 @@
             },
             "apply": [
                 {
-                    "model": "minecraft:block/beam_core"
+                    "model": "minecraft:block/replace"
                 },
                 {
-                    "model": "minecraft:block/beam_core_2"
+                    "model": "minecraft:block/replace"
                 },
                 {
-                    "model": "minecraft:block/beam_core_3"
+                    "model": "minecraft:block/replace"
                 }
             ]
         },
@@ -114,15 +114,15 @@
             },
             "apply": [
                 {
-                    "model": "minecraft:block/beam_core",
+                    "model": "minecraft:block/replace",
                     "y": 90
                 },
                 {
-                    "model": "minecraft:block/beam_core_2",
+                    "model": "minecraft:block/replace",
                     "y": 90
                 },
                 {
-                    "model": "minecraft:block/beam_core_3",
+                    "model": "minecraft:block/replace",
                     "y": 90
                 }
             ]
@@ -137,15 +137,15 @@
             },
             "apply": [
                 {
-                    "model": "minecraft:block/beam_core",
+                    "model": "minecraft:block/replace",
                     "y": 180
                 },
                 {
-                    "model": "minecraft:block/beam_core_2",
+                    "model": "minecraft:block/replace",
                     "y": 180
                 },
                 {
-                    "model": "minecraft:block/beam_core_3",
+                    "model": "minecraft:block/replace",
                     "y": 180
                 }
             ]
@@ -160,15 +160,15 @@
             },
             "apply": [
                 {
-                    "model": "minecraft:block/beam_core",
+                    "model": "minecraft:block/replace",
                     "y": 270
                 },
                 {
-                    "model": "minecraft:block/beam_core_2",
+                    "model": "minecraft:block/replace",
                     "y": 270
                 },
                 {
-                    "model": "minecraft:block/beam_core_3",
+                    "model": "minecraft:block/replace",
                     "y": 270
                 }
             ]

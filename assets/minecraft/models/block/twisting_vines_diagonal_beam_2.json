@@ -3,7 +3,8 @@
 	"ambientocclusion": false,
 	"texture_size": [80, 80],
 	"textures": {
-		"1": "block/stripped_oak_log_composite_extended"
+		"1": "block/stripped_oak_log_composite_extended",
+		"particle": "block/stripped_oak_log_composite_extended"
 	},
 	"elements": [
 		{
