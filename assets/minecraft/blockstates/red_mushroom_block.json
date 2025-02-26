@@ -983,6 +983,12 @@
                 },
                 {
                     "model": "block/red_mushroom_block_esud_3"
+                },
+				{
+                    "model": "block/red_mushroom_block_esud_4"
+                },
+				{
+                    "model": "block/red_mushroom_block_esud_5"
                 }
             ]
         },
