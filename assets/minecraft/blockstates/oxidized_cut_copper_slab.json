@@ -17,6 +17,9 @@
                 "model": "block/dark_cobble_slab_5"
             }
         ],
+		 "type=double": {
+            "model": "minecraft:block/replace"
+        },
         "type=top": [
             {
                 "model": "block/dark_cobble_slab",

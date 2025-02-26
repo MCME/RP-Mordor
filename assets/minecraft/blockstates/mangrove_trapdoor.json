@@ -1,19 +1,23 @@
 {
     "variants": {
-        "facing=east,half=bottom,open=false": {
-            "model": "minecraft:block/replace_thin_slab",
-            "y": 90
-        },
-        "facing=east,half=bottom,open=true": {
-            "model": "minecraft:block/replace_thin_slab",
-            "x": 90,
-            "y": 90
-        },
-        "facing=east,half=top,open=false": {
-            "model": "minecraft:block/replace_thin_slab",
-            "x": 180,
-            "y": 90
-        },
+        "facing=east,half=bottom,open=false": [
+		{ "model": "minecraft:block/trapdoor_bamboo_mosaic_bottom" },
+		{ "model": "minecraft:block/trapdoor_bamboo_mosaic_bottom_2" },
+		{ "model": "minecraft:block/trapdoor_bamboo_mosaic_bottom_3" },
+		{ "model": "minecraft:block/trapdoor_bamboo_mosaic_bottom_4" }
+		],
+        "facing=east,half=bottom,open=true": [
+		{ "model": "minecraft:block/trapdoor_bamboo_mosaic_bottom",  "x": 90, "y": 90 },
+		{ "model": "minecraft:block/trapdoor_bamboo_mosaic_bottom_2","x": 90, "y": 90 },
+		{ "model": "minecraft:block/trapdoor_bamboo_mosaic_bottom_3", "x": 90, "y": 90 },
+		{ "model": "minecraft:block/trapdoor_bamboo_mosaic_bottom_4", "x": 90, "y": 90 }
+		],
+        "facing=east,half=top,open=false": [
+		{ "model": "minecraft:block/trapdoor_bamboo_mosaic_bottom",  "x": 180 },
+		{ "model": "minecraft:block/trapdoor_bamboo_mosaic_bottom_2","x": 180 },
+		{ "model": "minecraft:block/trapdoor_bamboo_mosaic_bottom_3", "x": 180 },
+		{ "model": "minecraft:block/trapdoor_bamboo_mosaic_bottom_4", "x": 180 }
+		],
         "facing=east,half=top,open=true": {
             "model": "minecraft:block/replace_thin_slab",
             "x": 90,
@@ -22,10 +26,12 @@
         "facing=north,half=bottom,open=false": {
             "model": "minecraft:block/replace_thin_slab"
         },
-        "facing=north,half=bottom,open=true": {
-            "model": "minecraft:block/replace_thin_slab",
-            "x": 90
-        },
+        "facing=north,half=bottom,open=true": [
+		{ "model": "minecraft:block/trapdoor_bamboo_mosaic_bottom",  "x": 90 },
+		{ "model": "minecraft:block/trapdoor_bamboo_mosaic_bottom_2","x": 90 },
+		{ "model": "minecraft:block/trapdoor_bamboo_mosaic_bottom_3", "x": 90 },
+		{ "model": "minecraft:block/trapdoor_bamboo_mosaic_bottom_4", "x": 90 }
+		],
         "facing=north,half=top,open=false": {
             "model": "minecraft:block/replace_thin_slab",
             "x": 180
@@ -38,11 +44,12 @@
             "model": "minecraft:block/replace_thin_slab",
             "y": 180
         },
-        "facing=south,half=bottom,open=true": {
-            "model": "minecraft:block/replace_thin_slab",
-            "x": 90,
-            "y": 180
-        },
+        "facing=south,half=bottom,open=true": [
+		{ "model": "minecraft:block/trapdoor_bamboo_mosaic_bottom",  "x": 90, "y": 180 },
+		{ "model": "minecraft:block/trapdoor_bamboo_mosaic_bottom_2","x": 90, "y": 180 },
+		{ "model": "minecraft:block/trapdoor_bamboo_mosaic_bottom_3", "x": 90, "y": 180 },
+		{ "model": "minecraft:block/trapdoor_bamboo_mosaic_bottom_4", "x": 90, "y": 180 }
+		],
         "facing=south,half=top,open=false": {
             "model": "minecraft:block/replace_thin_slab",
             "x": 180,
@@ -57,11 +64,12 @@
             "model": "minecraft:block/replace_thin_slab",
             "y": 270
         },
-        "facing=west,half=bottom,open=true": {
-            "model": "minecraft:block/replace_thin_slab",
-            "x": 90,
-            "y": 270
-        },
+        "facing=west,half=bottom,open=true": [
+		{ "model": "minecraft:block/trapdoor_bamboo_mosaic_bottom",  "x": 90, "y": 270 },
+		{ "model": "minecraft:block/trapdoor_bamboo_mosaic_bottom_2","x": 90, "y": 270 },
+		{ "model": "minecraft:block/trapdoor_bamboo_mosaic_bottom_3", "x": 90, "y": 270 },
+		{ "model": "minecraft:block/trapdoor_bamboo_mosaic_bottom_4", "x": 90, "y": 270 }
+		],
         "facing=west,half=top,open=false": {
             "model": "minecraft:block/replace_thin_slab",
             "x": 180,

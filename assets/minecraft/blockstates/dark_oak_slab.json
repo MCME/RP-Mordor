@@ -2,21 +2,33 @@
     "variants": {
         "type=bottom": [
             {
-                "model": "block/replace_slab"
-            }
-        ],
-        "type=top": [
-            {
-                "model": "block/replace_slab",
-                "x": 180
-            }
-        ],
-        "type=double": [
-            {
-                "model": "block/double_slab_planks_dark_oak"
+                "model": "block/dark_oak_planks_slab"
             },
             {
-                "model": "block/double_slab_planks_dark_oak_1"
+                "model": "block/dark_oak_planks_slab_2"
+            },
+            {
+                "model": "block/dark_oak_planks_slab_3"
+            },
+            {
+                "model": "block/dark_oak_planks_slab_4"
+            }
+        ],
+        "type=double": {
+            "model": "minecraft:block/replace"
+        },
+        "type=top": [
+            {
+                "model": "block/dark_oak_planks_slab", "x":180
+            },
+            {
+                "model": "block/dark_oak_planks_slab_2", "x":180
+            },
+            {
+                "model": "block/dark_oak_planks_slab_3", "x":180
+            },
+            {
+                "model": "block/dark_oak_planks_slab_4", "x":180
             }
         ]
     }

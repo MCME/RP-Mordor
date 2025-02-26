@@ -11,6 +11,9 @@
                 "model": "block/waxed_cut_copper_slab_3"
             }
         ],
+		 "type=double": {
+            "model": "minecraft:block/replace"
+        },
         "type=top": [
             {
                 "model": "block/waxed_cut_copper_slab",

@@ -11,6 +11,9 @@
                 "model": "block/dark_small_bricks_slab_3"
             }
         ],
+		 "type=double": {
+            "model": "minecraft:block/replace"
+        },
         "type=top": [
             {
                 "model": "block/dark_small_bricks_slab",
