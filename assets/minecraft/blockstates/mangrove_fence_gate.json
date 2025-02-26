@@ -88,21 +88,30 @@
 		{ "model": "block/vertical_slab_putrid_log_4", "y": 270},
 		{ "model": "block/vertical_slab_putrid_log_5", "y": 270}
 		],
-        "facing=north,in_wall=true,open=true,powered=false": {
-            "model": "block/replace_vertical_slab"
-        },
-        "facing=east,in_wall=true,open=true,powered=false": {
-            "model": "block/replace_vertical_slab",
-            "y": 90
-        },
-        "facing=south,in_wall=true,open=true,powered=false": {
-            "model": "block/replace_vertical_slab",
-            "y": 180
-        },
-        "facing=west,in_wall=true,open=true,powered=false": {
-            "model": "block/replace_vertical_slab",
-            "y": 270
-        },
+        "facing=north,in_wall=true,open=true,powered=false": [
+		{  "model": "block/vertical_slab_dark_oak_planks"  },
+		{  "model": "block/vertical_slab_dark_oak_planks_2"  },
+		{  "model": "block/vertical_slab_dark_oak_planks_3"  },
+		{  "model": "block/vertical_slab_dark_oak_planks_4"  }
+		],
+        "facing=east,in_wall=true,open=true,powered=false": [
+		{  "model": "block/vertical_slab_dark_oak_planks", "y":90  },
+		{  "model": "block/vertical_slab_dark_oak_planks_2", "y":90  },
+		{  "model": "block/vertical_slab_dark_oak_planks_3", "y":90  },
+		{  "model": "block/vertical_slab_dark_oak_planks_4", "y":90  }
+		],
+        "facing=south,in_wall=true,open=true,powered=false": [
+		{  "model": "block/vertical_slab_dark_oak_planks", "y":180  },
+		{  "model": "block/vertical_slab_dark_oak_planks_2", "y":180  },
+		{  "model": "block/vertical_slab_dark_oak_planks_3", "y":180  },
+		{  "model": "block/vertical_slab_dark_oak_planks_4", "y":180  }
+		],
+        "facing=west,in_wall=true,open=true,powered=false": [
+		{  "model": "block/vertical_slab_dark_oak_planks", "y":270  },
+		{  "model": "block/vertical_slab_dark_oak_planks_2", "y":270  },
+		{  "model": "block/vertical_slab_dark_oak_planks_3", "y":270  },
+		{  "model": "block/vertical_slab_dark_oak_planks_4", "y":270  }
+		],
         "facing=north,in_wall=true,open=true,powered=true": {
             "model": "block/replace_vertical_slab"
         },

@@ -6,6 +6,54 @@
 		{ "model": "block/medium_oak_wood_pillar", "y":180 },
 		{ "model": "block/medium_oak_wood_pillar", "y":270 }
 		],
+		"waterlogged=false,east=low,north=low,south=none,west=none,up=true": [
+		{ "model": "block/dark_oak_planks_side_stairs" },
+		{ "model": "block/dark_oak_planks_side_stairs_2" },
+		{ "model": "block/dark_oak_planks_side_stairs_3" },
+		{ "model": "block/dark_oak_planks_side_stairs_4" }
+		],
+		"waterlogged=false,east=low,north=none,south=low,west=none,up=true": [
+		{ "model": "block/dark_oak_planks_side_stairs", "y":90 },
+		{ "model": "block/dark_oak_planks_side_stairs_2", "y":90 },
+		{ "model": "block/dark_oak_planks_side_stairs_3", "y":90 },
+		{ "model": "block/dark_oak_planks_side_stairs_4", "y":90 }
+		],
+		"waterlogged=false,east=none,north=low,south=none,west=low,up=true": [
+		{ "model": "block/dark_oak_planks_side_stairs", "y":270 },
+		{ "model": "block/dark_oak_planks_side_stairs_2", "y":270 },
+		{ "model": "block/dark_oak_planks_side_stairs_3", "y":270 },
+		{ "model": "block/dark_oak_planks_side_stairs_4", "y":270 }
+		],
+		"waterlogged=false,east=none,north=none,south=low,west=low,up=true": [
+		{ "model": "block/dark_oak_planks_side_stairs", "y":180 },
+		{ "model": "block/dark_oak_planks_side_stairs_2", "y":180 },
+		{ "model": "block/dark_oak_planks_side_stairs_3", "y":180 },
+		{ "model": "block/dark_oak_planks_side_stairs_4", "y":180 }
+		],
+		"waterlogged=false,east=tall,north=tall,south=none,west=none,up=true": [
+		{ "model": "block/bamboo_mosaic_side_stairs" },
+		{ "model": "block/bamboo_mosaic_side_stairs_2" },
+		{ "model": "block/bamboo_mosaic_side_stairs_3" },
+		{ "model": "block/bamboo_mosaic_side_stairs_4" }
+		],
+		"waterlogged=false,east=tall,north=none,south=tall,west=none,up=true": [
+		{ "model": "block/bamboo_mosaic_side_stairs", "y":90 },
+		{ "model": "block/bamboo_mosaic_side_stairs_2", "y":90 },
+		{ "model": "block/bamboo_mosaic_side_stairs_3", "y":90 },
+		{ "model": "block/bamboo_mosaic_side_stairs_4", "y":90 }
+		],
+		"waterlogged=false,east=none,north=tall,south=none,west=tall,up=true": [
+		{ "model": "block/bamboo_mosaic_side_stairs", "y":270 },
+		{ "model": "block/bamboo_mosaic_side_stairs_2", "y":270 },
+		{ "model": "block/bamboo_mosaic_side_stairs_3", "y":270 },
+		{ "model": "block/bamboo_mosaic_side_stairs_4", "y":270 }
+		],
+		"waterlogged=false,east=none,north=none,south=tall,west=tall,up=true": [
+		{ "model": "block/bamboo_mosaic_side_stairs", "y":180 },
+		{ "model": "block/bamboo_mosaic_side_stairs_2", "y":180 },
+		{ "model": "block/bamboo_mosaic_side_stairs_3", "y":180 },
+		{ "model": "block/bamboo_mosaic_side_stairs_4", "y":180 }
+		],
 		"waterlogged=false,east=tall,north=tall,south=tall,west=tall,up=false": [
 		{ "model": "block/medium_spruce_log_pillar" },
 		{ "model": "block/medium_spruce_log_pillar", "y":90 },
