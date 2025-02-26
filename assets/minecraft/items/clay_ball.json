@@ -1021,6 +1021,90 @@
                     "type": "model",
                     "model": "block/beam_core_wide"
                 }
+            },
+			{
+                "threshold": 861,
+                "model": {
+                    "type": "model",
+                    "model": "block/birch_planks_side_stairs"
+                }
+            },
+			{
+                "threshold": 862,
+                "model": {
+                    "type": "model",
+                    "model": "block/medium_jungle_log_pillar"
+                }
+            },
+			{
+                "threshold": 863,
+                "model": {
+                    "type": "model",
+                    "model": "block/red_mushroom_block_ewd"
+                }
+            },
+			{
+                "threshold": 864,
+                "model": {
+                    "type": "model",
+                    "model": "block/red_mushroom_block_esud"
+                }
+            },
+			{
+                "threshold": 865,
+                "model": {
+                    "type": "model",
+                    "model": "block/prismarine_brick_double_slab"
+                }
+            },
+			{
+                "threshold": 866,
+                "model": {
+                    "type": "model",
+                    "model": "block/red_mushroom_block_eu"
+                }
+            },
+			{
+                "threshold": 867,
+                "model": {
+                    "type": "model",
+                    "model": "block/red_mushroom_block_ewu"
+                }
+            },
+			{
+                "threshold": 868,
+                "model": {
+                    "type": "model",
+                    "model": "block/spruce_door_bottom"
+                }
+            },
+			{
+                "threshold": 869,
+                "model": {
+                    "type": "model",
+                    "model": "block/iron_trapdoor_bottom_w"
+                }
+            },
+			{
+                "threshold": 870,
+                "model": {
+                    "type": "model",
+                    "model": "block/birch_fence_gate_powered_closed"
+                }
+            },
+			{
+                "threshold": 871,
+                "model": {
+                    "type": "model",
+                    "model": "block/medium_oak_wood_pillar"
+                }
+            },
+			{
+                "threshold": 872,
+                "model": {
+                    "type": "model",
+                    "model": "block/medium_spruce_log_pillar"
+                }
             }
         ]
     }

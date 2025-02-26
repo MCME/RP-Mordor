@@ -1,11 +1,11 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "block/stripped_oak_log",
-		"1": "block/stripped_oak_log_2",
-		"2": "block/stripped_oak_log_3",
-		"3": "block/stripped_oak_log_4",
-		"particle": "block/stripped_oak_log"
+		"0": "block/spruce_log",
+		"1": "block/spruce_log_2",
+		"2": "block/spruce_log_3",
+		"3": "block/spruce_log_4",
+		"particle": "block/spruce_log"
 	},
 	"elements": [
 		{

@@ -1,8 +1,23 @@
 {
     "variants": {
-        "waterlogged=false,east=none,north=none,south=none,west=none,up=true": {
-            "model": "block/unused_cross_0"
-        },
+        "waterlogged=false,east=none,north=none,south=none,west=none,up=true": [
+		{ "model": "block/medium_oak_wood_pillar" },
+		{ "model": "block/medium_oak_wood_pillar", "y":90 },
+		{ "model": "block/medium_oak_wood_pillar", "y":180 },
+		{ "model": "block/medium_oak_wood_pillar", "y":270 }
+		],
+		"waterlogged=false,east=tall,north=tall,south=tall,west=tall,up=false": [
+		{ "model": "block/medium_spruce_log_pillar" },
+		{ "model": "block/medium_spruce_log_pillar", "y":90 },
+		{ "model": "block/medium_spruce_log_pillar", "y":180 },
+		{ "model": "block/medium_spruce_log_pillar", "y":270 }
+		],
+		"waterlogged=false,east=tall,north=tall,south=tall,west=tall,up=true": [
+		{ "model": "block/medium_jungle_log_pillar" },
+		{ "model": "block/medium_jungle_log_pillar", "y":90 },
+		{ "model": "block/medium_jungle_log_pillar", "y":180 },
+		{ "model": "block/medium_jungle_log_pillar", "y":270 }
+		],
 		"waterlogged=false,east=none,north=low,south=none,west=low,up=false": [
 		{   "model": "block/birch_planks_side_stairs", "y":270 },
 		{   "model": "block/birch_planks_side_stairs_2", "y":270 },
