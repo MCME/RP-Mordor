@@ -1014,6 +1014,13 @@
                     "type": "model",
                     "model": "block/beam_diagonal_metal_s_support"
                 }
+            },
+			{
+                "threshold": 860,
+                "model": {
+                    "type": "model",
+                    "model": "block/beam_core_wide"
+                }
             }
         ]
     }

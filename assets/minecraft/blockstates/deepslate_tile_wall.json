@@ -1554,9 +1554,9 @@
                 "west": "tall"
             },
             "apply": [
-                {
-                    "model": "block/replace_wall"
-                }
+                {  "model": "block/beam_core_wide" },
+				{  "model": "block/beam_core_wide_2" },
+				{  "model": "block/beam_core_wide_3" }
             ]
         },
         {
@@ -1568,10 +1568,9 @@
                 "west": "none"
             },
             "apply": [
-                {
-                    "model": "block/replace_wall",
-                    "y": 90
-                }
+                {  "model": "block/beam_core_wide", "y":90 },
+				{  "model": "block/beam_core_wide_2", "y":90 },
+				{  "model": "block/beam_core_wide_3", "y":90 }
             ]
         },
         {
@@ -1583,10 +1582,9 @@
                 "west": "low"
             },
             "apply": [
-                {
-                    "model": "block/replace_wall",
-                    "y": 180
-                }
+                {  "model": "block/beam_core_wide", "y":180 },
+				{  "model": "block/beam_core_wide_2", "y":180 },
+				{  "model": "block/beam_core_wide_3", "y":180 }
             ]
         },
         {
@@ -1598,10 +1596,9 @@
                 "west": "tall"
             },
             "apply": [
-                {
-                    "model": "block/replace_wall",
-                    "y": 270
-                }
+                {  "model": "block/beam_core_wide", "y":270 },
+				{  "model": "block/beam_core_wide_2", "y":270 },
+				{  "model": "block/beam_core_wide_3", "y":270 }
             ]
         },
         {
