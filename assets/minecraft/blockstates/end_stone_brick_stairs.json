@@ -2,548 +2,144 @@
     "variants": {
         "facing=east,half=bottom,shape=straight": [
             {
-                "model": "block/iron_block_stairs"
-            },
-            {
-                "model": "block/iron_block_stairs_2"
-            },
-            {
-                "model": "block/iron_block_stairs_3"
-            },
-            {
-                "model": "block/iron_block_stairs_4"
-            },
-            {
-                "model": "block/iron_block_stairs_5"
+                "model": "block/replace_stairs"
             }
         ],
         "facing=west,half=bottom,shape=straight": [
             {
-                "model": "block/iron_block_stairs",
-                "y": 180,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_2",
-                "y": 180,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_3",
-                "y": 180,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_4",
-                "y": 180,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_5",
+                "model": "block/replace_stairs",
                 "y": 180,
                 "uvlock": true
             }
         ],
         "facing=south,half=bottom,shape=straight": [
             {
-                "model": "block/iron_block_stairs",
-                "y": 90,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_2",
-                "y": 90,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_3",
-                "y": 90,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_4",
-                "y": 90,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_5",
+                "model": "block/replace_stairs",
                 "y": 90,
                 "uvlock": true
             }
         ],
         "facing=north,half=bottom,shape=straight": [
             {
-                "model": "block/iron_block_stairs",
-                "y": 270,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_2",
-                "y": 270,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_3",
-                "y": 270,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_4",
-                "y": 270,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_5",
+                "model": "block/replace_stairs",
                 "y": 270,
                 "uvlock": true
             }
         ],
         "facing=east,half=bottom,shape=outer_right": [
             {
-                "model": "block/iron_block_stairs_outer"
-            },
-            {
-                "model": "block/iron_block_stairs_outer_2"
-            },
-            {
-                "model": "block/iron_block_stairs_outer_3"
-            },
-            {
-                "model": "block/iron_block_stairs_outer_4"
-            },
-            {
-                "model": "block/iron_block_stairs_outer_5"
+                "model": "block/replace_stairs_outer"
             }
         ],
         "facing=west,half=bottom,shape=outer_right": [
             {
-                "model": "block/iron_block_stairs_outer",
-                "y": 180,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_outer_2",
-                "y": 180,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_outer_3",
-                "y": 180,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_outer_4",
-                "y": 180,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_outer_5",
+                "model": "block/replace_stairs_outer",
                 "y": 180,
                 "uvlock": true
             }
         ],
         "facing=south,half=bottom,shape=outer_right": [
             {
-                "model": "block/iron_block_stairs_outer",
-                "y": 90,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_outer_2",
-                "y": 90,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_outer_3",
-                "y": 90,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_outer_4",
-                "y": 90,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_outer_5",
+                "model": "block/replace_stairs_outer",
                 "y": 90,
                 "uvlock": true
             }
         ],
         "facing=north,half=bottom,shape=outer_right": [
             {
-                "model": "block/iron_block_stairs_outer",
-                "y": 270,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_outer_2",
-                "y": 270,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_outer_3",
-                "y": 270,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_outer_4",
-                "y": 270,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_outer_5",
+                "model": "block/replace_stairs_outer",
                 "y": 270,
                 "uvlock": true
             }
         ],
         "facing=east,half=bottom,shape=outer_left": [
             {
-                "model": "block/iron_block_stairs_outer",
-                "y": 270,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_outer_2",
-                "y": 270,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_outer_3",
-                "y": 270,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_outer_4",
-                "y": 270,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_outer_5",
+                "model": "block/replace_stairs_outer",
                 "y": 270,
                 "uvlock": true
             }
         ],
         "facing=west,half=bottom,shape=outer_left": [
             {
-                "model": "block/iron_block_stairs_outer",
-                "y": 90,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_outer_2",
-                "y": 90,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_outer_3",
-                "y": 90,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_outer_4",
-                "y": 90,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_outer_5",
+                "model": "block/replace_stairs_outer",
                 "y": 90,
                 "uvlock": true
             }
         ],
         "facing=south,half=bottom,shape=outer_left": [
             {
-                "model": "block/iron_block_stairs_outer"
-            },
-            {
-                "model": "block/iron_block_stairs_outer_2"
-            },
-            {
-                "model": "block/iron_block_stairs_outer_3"
-            },
-            {
-                "model": "block/iron_block_stairs_outer_4"
-            },
-            {
-                "model": "block/iron_block_stairs_outer_5"
+                "model": "block/replace_stairs_outer"
             }
         ],
         "facing=north,half=bottom,shape=outer_left": [
             {
-                "model": "block/iron_block_stairs_outer",
-                "y": 180,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_outer_2",
-                "y": 180,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_outer_3",
-                "y": 180,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_outer_4",
-                "y": 180,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_outer_5",
+                "model": "block/replace_stairs_outer",
                 "y": 180,
                 "uvlock": true
             }
         ],
         "facing=east,half=bottom,shape=inner_right": [
             {
-                "model": "block/iron_block_stairs_inner"
-            },
-            {
-                "model": "block/iron_block_stairs_inner_2"
-            },
-            {
-                "model": "block/iron_block_stairs_inner_3"
-            },
-            {
-                "model": "block/iron_block_stairs_inner_4"
-            },
-            {
-                "model": "block/iron_block_stairs_inner_5"
+                "model": "block/replace_stairs_inner"
             }
         ],
         "facing=west,half=bottom,shape=inner_right": [
             {
-                "model": "block/iron_block_stairs_inner",
-                "y": 180,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_inner_2",
-                "y": 180,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_inner_3",
-                "y": 180,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_inner_4",
-                "y": 180,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_inner_5",
+                "model": "block/replace_stairs_inner",
                 "y": 180,
                 "uvlock": true
             }
         ],
         "facing=south,half=bottom,shape=inner_right": [
             {
-                "model": "block/iron_block_stairs_inner",
-                "y": 90,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_inner_2",
-                "y": 90,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_inner_3",
-                "y": 90,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_inner_4",
-                "y": 90,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_inner_5",
+                "model": "block/replace_stairs_inner",
                 "y": 90,
                 "uvlock": true
             }
         ],
         "facing=north,half=bottom,shape=inner_right": [
             {
-                "model": "block/iron_block_stairs_inner",
-                "y": 270,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_inner_2",
-                "y": 270,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_inner_3",
-                "y": 270,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_inner_4",
-                "y": 270,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_inner_5",
+                "model": "block/replace_stairs_inner",
                 "y": 270,
                 "uvlock": true
             }
         ],
         "facing=east,half=bottom,shape=inner_left": [
             {
-                "model": "block/iron_block_stairs_inner",
-                "y": 270,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_inner_2",
-                "y": 270,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_inner_3",
-                "y": 270,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_inner_4",
-                "y": 270,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_inner_5",
+                "model": "block/replace_stairs_inner",
                 "y": 270,
                 "uvlock": true
             }
         ],
         "facing=west,half=bottom,shape=inner_left": [
             {
-                "model": "block/iron_block_stairs_inner",
-                "y": 90,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_inner_2",
-                "y": 90,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_inner_3",
-                "y": 90,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_inner_4",
-                "y": 90,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_inner_5",
+                "model": "block/replace_stairs_inner",
                 "y": 90,
                 "uvlock": true
             }
         ],
         "facing=south,half=bottom,shape=inner_left": [
             {
-                "model": "block/iron_block_stairs_inner"
-            },
-            {
-                "model": "block/iron_block_stairs_inner_2"
-            },
-            {
-                "model": "block/iron_block_stairs_inner_3"
-            },
-            {
-                "model": "block/iron_block_stairs_inner_4"
-            },
-            {
-                "model": "block/iron_block_stairs_inner_5"
+                "model": "block/replace_stairs_inner"
             }
         ],
         "facing=north,half=bottom,shape=inner_left": [
             {
-                "model": "block/iron_block_stairs_inner",
-                "y": 180,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_inner_2",
-                "y": 180,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_inner_3",
-                "y": 180,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_inner_4",
-                "y": 180,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_inner_5",
+                "model": "block/replace_stairs_inner",
                 "y": 180,
                 "uvlock": true
             }
         ],
         "facing=east,half=top,shape=straight": [
             {
-                "model": "block/iron_block_stairs",
-                "x": 180,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_2",
-                "x": 180,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_3",
-                "x": 180,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_4",
-                "x": 180,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_5",
+                "model": "block/replace_stairs",
                 "x": 180,
                 "uvlock": true
             }
         ],
         "facing=west,half=top,shape=straight": [
             {
-                "model": "block/iron_block_stairs",
-                "x": 180,
-                "y": 180,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_2",
-                "x": 180,
-                "y": 180,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_3",
-                "x": 180,
-                "y": 180,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_4",
-                "x": 180,
-                "y": 180,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_5",
+                "model": "block/replace_stairs",
                 "x": 180,
                 "y": 180,
                 "uvlock": true
@@ -551,31 +147,7 @@
         ],
         "facing=south,half=top,shape=straight": [
             {
-                "model": "block/iron_block_stairs",
-                "x": 180,
-                "y": 90,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_2",
-                "x": 180,
-                "y": 90,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_3",
-                "x": 180,
-                "y": 90,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_4",
-                "x": 180,
-                "y": 90,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_5",
+                "model": "block/replace_stairs",
                 "x": 180,
                 "y": 90,
                 "uvlock": true
@@ -583,31 +155,7 @@
         ],
         "facing=north,half=top,shape=straight": [
             {
-                "model": "block/iron_block_stairs",
-                "x": 180,
-                "y": 270,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_2",
-                "x": 180,
-                "y": 270,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_3",
-                "x": 180,
-                "y": 270,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_4",
-                "x": 180,
-                "y": 270,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_5",
+                "model": "block/replace_stairs",
                 "x": 180,
                 "y": 270,
                 "uvlock": true
@@ -615,31 +163,7 @@
         ],
         "facing=east,half=top,shape=outer_right": [
             {
-                "model": "block/iron_block_stairs_outer",
-                "x": 180,
-                "y": 90,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_outer_2",
-                "x": 180,
-                "y": 90,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_outer_3",
-                "x": 180,
-                "y": 90,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_outer_4",
-                "x": 180,
-                "y": 90,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_outer_5",
+                "model": "block/replace_stairs_outer",
                 "x": 180,
                 "y": 90,
                 "uvlock": true
@@ -647,31 +171,7 @@
         ],
         "facing=west,half=top,shape=outer_right": [
             {
-                "model": "block/iron_block_stairs_outer",
-                "x": 180,
-                "y": 270,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_outer_2",
-                "x": 180,
-                "y": 270,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_outer_3",
-                "x": 180,
-                "y": 270,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_outer_4",
-                "x": 180,
-                "y": 270,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_outer_5",
+                "model": "block/replace_stairs_outer",
                 "x": 180,
                 "y": 270,
                 "uvlock": true
@@ -679,31 +179,7 @@
         ],
         "facing=south,half=top,shape=outer_right": [
             {
-                "model": "block/iron_block_stairs_outer",
-                "x": 180,
-                "y": 180,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_outer_2",
-                "x": 180,
-                "y": 180,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_outer_3",
-                "x": 180,
-                "y": 180,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_outer_4",
-                "x": 180,
-                "y": 180,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_outer_5",
+                "model": "block/replace_stairs_outer",
                 "x": 180,
                 "y": 180,
                 "uvlock": true
@@ -711,85 +187,21 @@
         ],
         "facing=north,half=top,shape=outer_right": [
             {
-                "model": "block/iron_block_stairs_outer",
-                "x": 180,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_outer_2",
-                "x": 180,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_outer_3",
-                "x": 180,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_outer_4",
-                "x": 180,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_outer_5",
+                "model": "block/replace_stairs_outer",
                 "x": 180,
                 "uvlock": true
             }
         ],
         "facing=east,half=top,shape=outer_left": [
             {
-                "model": "block/iron_block_stairs_outer",
-                "x": 180,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_outer_2",
-                "x": 180,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_outer_3",
-                "x": 180,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_outer_4",
-                "x": 180,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_outer_5",
+                "model": "block/replace_stairs_outer",
                 "x": 180,
                 "uvlock": true
             }
         ],
         "facing=west,half=top,shape=outer_left": [
             {
-                "model": "block/iron_block_stairs_outer",
-                "x": 180,
-                "y": 180,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_outer_2",
-                "x": 180,
-                "y": 180,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_outer_3",
-                "x": 180,
-                "y": 180,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_outer_4",
-                "x": 180,
-                "y": 180,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_outer_5",
+                "model": "block/replace_stairs_outer",
                 "x": 180,
                 "y": 180,
                 "uvlock": true
@@ -797,31 +209,7 @@
         ],
         "facing=south,half=top,shape=outer_left": [
             {
-                "model": "block/iron_block_stairs_outer",
-                "x": 180,
-                "y": 90,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_outer_2",
-                "x": 180,
-                "y": 90,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_outer_3",
-                "x": 180,
-                "y": 90,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_outer_4",
-                "x": 180,
-                "y": 90,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_outer_5",
+                "model": "block/replace_stairs_outer",
                 "x": 180,
                 "y": 90,
                 "uvlock": true
@@ -829,31 +217,7 @@
         ],
         "facing=north,half=top,shape=outer_left": [
             {
-                "model": "block/iron_block_stairs_outer",
-                "x": 180,
-                "y": 270,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_outer_2",
-                "x": 180,
-                "y": 270,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_outer_3",
-                "x": 180,
-                "y": 270,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_outer_4",
-                "x": 180,
-                "y": 270,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_outer_5",
+                "model": "block/replace_stairs_outer",
                 "x": 180,
                 "y": 270,
                 "uvlock": true
@@ -861,31 +225,7 @@
         ],
         "facing=east,half=top,shape=inner_right": [
             {
-                "model": "block/iron_block_stairs_inner",
-                "x": 180,
-                "y": 90,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_inner_2",
-                "x": 180,
-                "y": 90,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_inner_3",
-                "x": 180,
-                "y": 90,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_inner_4",
-                "x": 180,
-                "y": 90,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_inner_5",
+                "model": "block/replace_stairs_inner",
                 "x": 180,
                 "y": 90,
                 "uvlock": true
@@ -893,31 +233,7 @@
         ],
         "facing=west,half=top,shape=inner_right": [
             {
-                "model": "block/iron_block_stairs_inner",
-                "x": 180,
-                "y": 270,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_inner_2",
-                "x": 180,
-                "y": 270,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_inner_3",
-                "x": 180,
-                "y": 270,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_inner_4",
-                "x": 180,
-                "y": 270,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_inner_5",
+                "model": "block/replace_stairs_inner",
                 "x": 180,
                 "y": 270,
                 "uvlock": true
@@ -925,31 +241,7 @@
         ],
         "facing=south,half=top,shape=inner_right": [
             {
-                "model": "block/iron_block_stairs_inner",
-                "x": 180,
-                "y": 180,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_inner_2",
-                "x": 180,
-                "y": 180,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_inner_3",
-                "x": 180,
-                "y": 180,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_inner_4",
-                "x": 180,
-                "y": 180,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_inner_5",
+                "model": "block/replace_stairs_inner",
                 "x": 180,
                 "y": 180,
                 "uvlock": true
@@ -957,85 +249,21 @@
         ],
         "facing=north,half=top,shape=inner_right": [
             {
-                "model": "block/iron_block_stairs_inner",
-                "x": 180,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_inner_2",
-                "x": 180,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_inner_3",
-                "x": 180,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_inner_4",
-                "x": 180,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_inner_5",
+                "model": "block/replace_stairs_inner",
                 "x": 180,
                 "uvlock": true
             }
         ],
         "facing=east,half=top,shape=inner_left": [
             {
-                "model": "block/iron_block_stairs_inner",
-                "x": 180,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_inner_2",
-                "x": 180,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_inner_3",
-                "x": 180,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_inner_4",
-                "x": 180,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_inner_5",
+                "model": "block/replace_stairs_inner",
                 "x": 180,
                 "uvlock": true
             }
         ],
         "facing=west,half=top,shape=inner_left": [
             {
-                "model": "block/iron_block_stairs_inner",
-                "x": 180,
-                "y": 180,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_inner_2",
-                "x": 180,
-                "y": 180,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_inner_3",
-                "x": 180,
-                "y": 180,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_inner_4",
-                "x": 180,
-                "y": 180,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_inner_5",
+                "model": "block/replace_stairs_inner",
                 "x": 180,
                 "y": 180,
                 "uvlock": true
@@ -1043,31 +271,7 @@
         ],
         "facing=south,half=top,shape=inner_left": [
             {
-                "model": "block/iron_block_stairs_inner",
-                "x": 180,
-                "y": 90,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_inner_2",
-                "x": 180,
-                "y": 90,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_inner_3",
-                "x": 180,
-                "y": 90,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_inner_4",
-                "x": 180,
-                "y": 90,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_inner_5",
+                "model": "block/replace_stairs_inner",
                 "x": 180,
                 "y": 90,
                 "uvlock": true
@@ -1075,31 +279,7 @@
         ],
         "facing=north,half=top,shape=inner_left": [
             {
-                "model": "block/iron_block_stairs_inner",
-                "x": 180,
-                "y": 270,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_inner_2",
-                "x": 180,
-                "y": 270,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_inner_3",
-                "x": 180,
-                "y": 270,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_inner_4",
-                "x": 180,
-                "y": 270,
-                "uvlock": true
-            },
-            {
-                "model": "block/iron_block_stairs_inner_5",
+                "model": "block/replace_stairs_inner",
                 "x": 180,
                 "y": 270,
                 "uvlock": true
