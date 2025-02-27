@@ -326,7 +326,7 @@
                 "threshold": 66,
                 "model": {
                     "type": "model",
-                    "model": "block/red_mushroom_block_nesud"
+                    "model": "block/brown_mushroom_block_nesud"
                 }
             },
 			{
