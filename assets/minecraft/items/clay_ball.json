@@ -273,6 +273,34 @@
                     "model": "block/acacia_planks_offset_up"
                 }
             },
+			{
+                "threshold": 59,
+                "model": {
+                    "type": "model",
+                    "model": "block/crimson_fence_gate_open"
+                }
+            },
+			{
+                "threshold": 60,
+                "model": {
+                    "type": "model",
+                    "model": "block/jungle_fence_gate_open"
+                }
+            },
+			{
+                "threshold": 61,
+                "model": {
+                    "type": "model",
+                    "model": "block/crimson_fence_gate_powered_open"
+                }
+            },
+			{
+                "threshold": 62,
+                "model": {
+                    "type": "model",
+                    "model": "block/target_block_power7"
+                }
+            },
             {
                 "threshold": 100,
                 "model": {

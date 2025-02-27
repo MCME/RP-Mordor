@@ -80,20 +80,6 @@
                 "model": "minecraft:block/target_block_power4_4"
             }
         ],
-        "power=5": [
-            {
-                "model": "minecraft:block/target_block_power5"
-            },
-            {
-                "model": "minecraft:block/target_block_power5_2"
-            },
-            {
-                "model": "minecraft:block/target_block_power5_3"
-            },
-            {
-                "model": "minecraft:block/target_block_power5_4"
-            }
-        ],
         "power=6": [
             {
                 "model": "minecraft:block/target_block_power6"
