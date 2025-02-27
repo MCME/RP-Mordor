@@ -105,6 +105,76 @@
                     "model": "item/grass_block_stones_inventory"
                 }
             },
+			{
+                "threshold": 27,
+                "model": {
+                    "type": "model",
+                    "model": "block/retaining_wall"
+                }
+            },
+			{
+                "threshold": 28,
+                "model": {
+                    "type": "model",
+                    "model": "block/warped_door_cross_railing"
+                }
+            },
+			{
+                "threshold": 29,
+                "model": {
+                    "type": "model",
+                    "model": "block/warped_door_railing"
+                }
+            },
+			{
+                "threshold": 30,
+                "model": {
+                    "type": "model",
+                    "model": "block/warped_door_woven_fence"
+                }
+            },
+			{
+                "threshold": 31,
+                "model": {
+                    "type": "model",
+                    "model": "block/acacia_door_fence"
+                }
+            },
+			{
+                "threshold": 32,
+                "model": {
+                    "type": "model",
+                    "model": "block/acacia_door_railing"
+                }
+            },
+			{
+                "threshold": 33,
+                "model": {
+                    "type": "model",
+                    "model": "block/acacia_door_railing_corner"
+                }
+            },
+			{
+                "threshold": 34,
+                "model": {
+                    "type": "model",
+                    "model": "block/acacia_door_railing_diagonal"
+                }
+            },
+			{
+                "threshold": 35,
+                "model": {
+                    "type": "model",
+                    "model": "block/log_palisade"
+                }
+            },
+			{
+                "threshold": 36,
+                "model": {
+                    "type": "model",
+                    "model": "block/log_palisade_top"
+                }
+            },
             {
                 "threshold": 43,
                 "model": {
@@ -1202,6 +1272,20 @@
                 "model": {
                     "type": "model",
                     "model": "block/vertical_slab_dark_oak_planks"
+                }
+            },
+			{
+                "threshold": 887,
+                "model": {
+                    "type": "model",
+                    "model": "block/redstone_dust_power8_center"
+                }
+            },
+			{
+                "threshold": 888,
+                "model": {
+                    "type": "model",
+                    "model": "block/redstone_dust_power7_center_4"
                 }
             }
         ]

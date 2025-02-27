@@ -104,6 +104,7 @@
 		},
 		"gui": {
 			"rotation": [30, 225, 0],
+			"translation": [2.5, -1, 0],
 			"scale": [0.625, 0.625, 0.625]
 		},
 		"fixed": {
@@ -114,11 +115,13 @@
 		{
 			"name": "railing",
 			"origin": [0, 0, 0],
+			"color": 0,
 			"children": [0, 1, 2, 3]
 		},
 		{
 			"name": "support",
 			"origin": [0, 0, 0],
+			"color": 0,
 			"children": [4, 5]
 		}
 	]
