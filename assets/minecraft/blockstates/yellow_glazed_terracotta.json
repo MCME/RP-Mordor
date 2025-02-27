@@ -20,19 +20,19 @@
         ],
         "facing=north": [
             {
-                "model": "block/yellow_glazed_terracotta_sw"
+                "model": "block/yellow_glazed_terracotta"
             },
             {
-                "model": "block/yellow_glazed_terracotta_sw_1"
+                "model": "block/yellow_glazed_terracotta"
             }
         ],
         "facing=west": [
             {
-                "model": "block/yellow_glazed_terracotta_sw",
+                "model": "block/yellow_glazed_terracotta",
                 "y": 90
             },
             {
-                "model": "block/yellow_glazed_terracotta_sw_1",
+                "model": "block/yellow_glazed_terracotta",
                 "y": 90
             }
         ]

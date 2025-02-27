@@ -64,7 +64,7 @@
             "model": "block/trapdoor_smooth_light_gray_stone_bottom"
         },
         "facing=west,half=bottom,open=false,powered=true": {
-            "model": "block/trapdoor_monster_egg_stone_bottom"
+            "model": "block/replace_thin_slab"
         },
         "facing=north,half=top,open=false,powered=true": {
             "model": "block/trapdoor_large_gray_brick_top"
@@ -76,7 +76,7 @@
             "model": "block/trapdoor_smooth_light_gray_stone_top"
         },
         "facing=west,half=top,open=false,powered=true": {
-            "model": "block/trapdoor_monster_egg_stone_top"
+            "model": "block/replace_thin_slab", "x":180
         },
         "facing=north,half=bottom,open=true,powered=true": {
             "model": "block/trapdoor_stonebrick_cracked_open"

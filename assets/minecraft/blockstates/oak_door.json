@@ -315,7 +315,7 @@
                 "powered": "false"
             },
             "apply": {
-                "model": "block/wooden_door_top_rh_open",
+                "model": "block/replace_thin_slab",
                 "y": 90
             }
         },
@@ -328,7 +328,7 @@
                 "powered": "false"
             },
             "apply": {
-                "model": "block/wooden_door_top_rh_open",
+                "model": "block/replace_thin_slab",
                 "y": 180
             }
         },
@@ -341,7 +341,7 @@
                 "powered": "false"
             },
             "apply": {
-                "model": "block/wooden_door_top_rh_open",
+                "model": "block/replace_thin_slab",
                 "y": 270
             }
         },
@@ -354,7 +354,7 @@
                 "powered": "false"
             },
             "apply": {
-                "model": "block/wooden_door_top_rh_open"
+                "model": "block/replace_thin_slab"
             }
         },
         {
