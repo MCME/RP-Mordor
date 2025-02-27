@@ -189,6 +189,13 @@
                     "model": "block/catwalk_up"
                 }
             },
+			{
+                "threshold": 39,
+                "model": {
+                    "type": "model",
+                    "model": "item/catwalk_wide"
+                }
+            },
             {
                 "threshold": 43,
                 "model": {
@@ -215,6 +222,55 @@
                 "model": {
                     "type": "model",
                     "model": "block/beetroots_stage0"
+                }
+            },
+			{
+                "threshold": 52,
+                "model": {
+                    "type": "model",
+                    "model": "block/crimson_fence_gate_powered_closed"
+                }
+            },
+			{
+                "threshold": 53,
+                "model": {
+                    "type": "model",
+                    "model": "block/acacia_planks_side_stairs"
+                }
+            },
+			{
+                "threshold": 54,
+                "model": {
+                    "type": "model",
+                    "model": "block/trapdoor_acacia_planks_side"
+                }
+            },
+			{
+                "threshold": 55,
+                "model": {
+                    "type": "model",
+                    "model": "block/trapdoor_acacia_planks_bottom"
+                }
+            },
+			{
+                "threshold": 56,
+                "model": {
+                    "type": "model",
+                    "model": "block/acacia_planks_offset"
+                }
+            },
+			{
+                "threshold": 57,
+                "model": {
+                    "type": "model",
+                    "model": "block/acacia_planks_offset_down"
+                }
+            },
+			{
+                "threshold": 58,
+                "model": {
+                    "type": "model",
+                    "model": "block/acacia_planks_offset_up"
                 }
             },
             {
@@ -844,7 +900,7 @@
                 "threshold": 823,
                 "model": {
                     "type": "model",
-                    "model": "block/medium_oak_log_pillar"
+                    "model": "block/oak_log_transition"
                 }
             },
 			{

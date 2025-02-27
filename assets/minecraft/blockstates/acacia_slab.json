@@ -2,16 +2,51 @@
     "variants": {
         "type=bottom": [
             {
-                "model": "block/replace_slab"
+                "model": "block/acacia_planks_slab"
+            },
+            {
+                "model": "block/acacia_planks_slab_2"
+            },
+            {
+                "model": "block/acacia_planks_slab_3"
+            },
+            {
+                "model": "block/acacia_planks_slab_4"
+            },
+            {
+                "model": "block/acacia_planks_slab_5"
+            },
+			{
+                "model": "block/acacia_planks_slab_6"
             }
         ],
         "type=top": [
             {
-                "model": "block/replace_slab",
+                "model": "block/acacia_planks_slab",
+                "x": 180
+            },
+            {
+                "model": "block/acacia_planks_slab_2",
+                "x": 180
+            },
+            {
+                "model": "block/acacia_planks_slab_3",
+                "x": 180
+            },
+            {
+                "model": "block/acacia_planks_slab_4",
+                "x": 180
+            },
+            {
+                "model": "block/acacia_planks_slab_5",
+                "x": 180
+            },
+			{
+                "model": "block/acacia_planks_slab_6",
                 "x": 180
             }
         ],
-        "type=double": [
+		"type=double": [
             {
                 "model": "block/double_slab_planks_acacia"
             },

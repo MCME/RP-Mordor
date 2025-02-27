@@ -43,13 +43,22 @@
           "model": "mcme:block/wall_spike_large_vert",
           "x": 180
       },
-      "facing=north,half=bottom,open=false,powered=false": {
-          "model": "minecraft:block/replace_thin_slab"
-      },
-      "facing=north,half=top,open=false,powered=false": {
-          "model": "minecraft:block/replace_thin_slab",
-          "x": 180
-      },
+      "facing=north,half=bottom,open=false,powered=false": [
+	  { "model": "block/trapdoor_acacia_planks_bottom" },
+	  { "model": "block/trapdoor_acacia_planks_bottom_2" },
+	  { "model": "block/trapdoor_acacia_planks_bottom_3" },
+	  { "model": "block/trapdoor_acacia_planks_bottom_4" },
+	  { "model": "block/trapdoor_acacia_planks_bottom_5" }, 
+	  { "model": "block/trapdoor_acacia_planks_bottom_6" }
+	  ],
+      "facing=north,half=top,open=false,powered=false": [
+	  { "model": "block/trapdoor_acacia_planks_bottom", "x":180 },
+	  { "model": "block/trapdoor_acacia_planks_bottom_2", "x":180 },
+	  { "model": "block/trapdoor_acacia_planks_bottom_3", "x":180 },
+	  { "model": "block/trapdoor_acacia_planks_bottom_4", "x":180 },
+	  { "model": "block/trapdoor_acacia_planks_bottom_5", "x":180 }, 
+	  { "model": "block/trapdoor_acacia_planks_bottom_6", "x":180 }
+	  ],
       "facing=south,half=bottom,open=false,powered=false": {
           "model": "minecraft:block/replace_thin_slab",
           "y": 180
@@ -75,11 +84,14 @@
 	  { "model": "block/catwalk_down_4" }, 
 	  { "model": "block/catwalk_down_4", "y":180 }
 	  ],
-      "facing=east,half=bottom,open=true,powered=true": {
-          "model": "minecraft:block/replace_thin_slab",
-          "x": 90,
-          "y": 90
-      },
+      "facing=east,half=bottom,open=true,powered=true": [
+	  { "model": "block/trapdoor_acacia_planks_bottom", "x":90, "y":90 },
+	  { "model": "block/trapdoor_acacia_planks_bottom_2", "x":90, "y":90 },
+	  { "model": "block/trapdoor_acacia_planks_bottom_3", "x":90, "y":90 },
+	  { "model": "block/trapdoor_acacia_planks_bottom_4", "x":90, "y":90 },
+	  { "model": "block/trapdoor_acacia_planks_bottom_5", "x":90, "y":90 }, 
+	  { "model": "block/trapdoor_acacia_planks_bottom_6", "x":90, "y":90 }
+	  ],
       "facing=east,half=top,open=false,powered=true": [
 	  { "model": "block/catwalk" },
 	  { "model": "block/catwalk", "y":180 },
@@ -105,10 +117,14 @@
 	  { "model": "block/catwalk_45_down_4" }, 
 	  { "model": "block/catwalk_45_down_4", "y":180 }
 	  ],
-      "facing=north,half=bottom,open=true,powered=true": {
-          "model": "minecraft:block/replace_thin_slab",
-          "x": 90
-      },
+      "facing=north,half=bottom,open=true,powered=true": [
+	  { "model": "block/trapdoor_acacia_planks_bottom", "x":90 },
+	  { "model": "block/trapdoor_acacia_planks_bottom_2", "x":90 },
+	  { "model": "block/trapdoor_acacia_planks_bottom_3", "x":90 },
+	  { "model": "block/trapdoor_acacia_planks_bottom_4", "x":90 },
+	  { "model": "block/trapdoor_acacia_planks_bottom_5", "x":90 }, 
+	  { "model": "block/trapdoor_acacia_planks_bottom_6", "x":90 }
+	  ],
       "facing=north,half=top,open=false,powered=true": [
 	  { "model": "block/catwalk_45" },
 	  { "model": "block/catwalk_45", "y":180 }, 
@@ -133,11 +149,14 @@
 	  { "model": "block/catwalk_down_4", "y":90 }, 
 	  { "model": "block/catwalk_down_4", "y":270 }
 	  ],
-      "facing=south,half=bottom,open=true,powered=true": {
-          "model": "minecraft:block/replace_thin_slab",
-          "x": 90,
-          "y": 180
-      },
+      "facing=south,half=bottom,open=true,powered=true": [
+	  { "model": "block/trapdoor_acacia_planks_bottom", "x":90, "y":180 },
+	  { "model": "block/trapdoor_acacia_planks_bottom_2", "x":90, "y":180 },
+	  { "model": "block/trapdoor_acacia_planks_bottom_3", "x":90, "y":180 },
+	  { "model": "block/trapdoor_acacia_planks_bottom_4", "x":90, "y":180 },
+	  { "model": "block/trapdoor_acacia_planks_bottom_5", "x":90, "y":180 }, 
+	  { "model": "block/trapdoor_acacia_planks_bottom_6", "x":90, "y":180 }
+	  ],
       "facing=south,half=top,open=false,powered=true": [
 	  { "model": "block/catwalk", "y":90 }, 
 	  { "model": "block/catwalk", "y":270 }, 
@@ -163,11 +182,14 @@
 	  { "model": "block/catwalk_45_down_4", "y":90 }, 
 	  { "model": "block/catwalk_45_down_4", "y":270 }
 	  ],
-      "facing=west,half=bottom,open=true,powered=true": {
-          "model": "minecraft:block/replace_thin_slab",
-          "x": 90,
-          "y": 270
-      },
+      "facing=west,half=bottom,open=true,powered=true": [
+	  { "model": "block/trapdoor_acacia_planks_bottom", "x":90, "y":270 },
+	  { "model": "block/trapdoor_acacia_planks_bottom_2", "x":90, "y":270 },
+	  { "model": "block/trapdoor_acacia_planks_bottom_3", "x":90, "y":270 },
+	  { "model": "block/trapdoor_acacia_planks_bottom_4", "x":90, "y":270 },
+	  { "model": "block/trapdoor_acacia_planks_bottom_5", "x":90, "y":270 }, 
+	  { "model": "block/trapdoor_acacia_planks_bottom_6", "x":90, "y":270 }
+	  ],
       "facing=west,half=top,open=false,powered=true": [
 	  { "model": "block/catwalk_45", "y":90 }, 
 	  { "model": "block/catwalk_45", "y":270 },

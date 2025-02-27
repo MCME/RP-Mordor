@@ -10,13 +10,7 @@
             },
             "apply": [
                 {
-                    "model": "minecraft:block/replace"
-                },
-                {
-                    "model": "minecraft:block/replace"
-                },
-                {
-                    "model": "minecraft:block/replace"
+                    "model": "minecraft:block/acacia_planks_offset"
                 }
             ]
         },
@@ -114,15 +108,7 @@
             },
             "apply": [
                 {
-                    "model": "minecraft:block/replace",
-                    "y": 90
-                },
-                {
-                    "model": "minecraft:block/replace",
-                    "y": 90
-                },
-                {
-                    "model": "minecraft:block/replace",
+                    "model": "minecraft:block/acacia_planks_offset",
                     "y": 90
                 }
             ]
@@ -137,15 +123,7 @@
             },
             "apply": [
                 {
-                    "model": "minecraft:block/replace",
-                    "y": 180
-                },
-                {
-                    "model": "minecraft:block/replace",
-                    "y": 180
-                },
-                {
-                    "model": "minecraft:block/replace",
+                    "model": "minecraft:block/acacia_planks_offset",
                     "y": 180
                 }
             ]
@@ -160,15 +138,7 @@
             },
             "apply": [
                 {
-                    "model": "minecraft:block/replace",
-                    "y": 270
-                },
-                {
-                    "model": "minecraft:block/replace",
-                    "y": 270
-                },
-                {
-                    "model": "minecraft:block/replace",
+                    "model": "minecraft:block/acacia_planks_offset",
                     "y": 270
                 }
             ]

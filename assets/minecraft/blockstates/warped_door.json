@@ -110,7 +110,7 @@
                 "powered": "false"
             },
             "apply": {
-                "model": "block/door_unused",
+                "model": "block/acacia_planks_offset_down",
                 "y": 90
             }
         },
@@ -123,7 +123,7 @@
                 "powered": "false"
             },
             "apply": {
-                "model": "block/door_unused",
+                "model": "block/acacia_planks_offset_down",
                 "y": 180
             }
         },
@@ -136,7 +136,7 @@
                 "powered": "false"
             },
             "apply": {
-                "model": "block/door_unused",
+                "model": "block/acacia_planks_offset_down",
                 "y": 270
             }
         },
@@ -149,7 +149,7 @@
                 "powered": "false"
             },
             "apply": {
-                "model": "block/door_unused"
+                "model": "block/acacia_planks_offset_down"
             }
         },
         {
@@ -161,8 +161,8 @@
                 "powered": "false"
             },
             "apply": {
-                "model": "block/door_unused",
-                "y": 270
+                "model": "block/acacia_planks_offset_up",
+                "y": 180
             }
         },
         {
@@ -174,7 +174,7 @@
                 "powered": "false"
             },
             "apply": {
-                "model": "block/door_unused"
+                "model": "block/acacia_planks_offset_up", "y":270
             }
         },
         {
@@ -186,8 +186,7 @@
                 "powered": "false"
             },
             "apply": {
-                "model": "block/door_unused",
-                "y": 90
+                "model": "block/acacia_planks_offset_up"
             }
         },
         {
@@ -199,8 +198,8 @@
                 "powered": "false"
             },
             "apply": {
-                "model": "block/door_unused",
-                "y": 180
+                "model": "block/acacia_planks_offset_up",
+                "y": 90
             }
         },
         {
