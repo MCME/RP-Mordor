@@ -56,85 +56,128 @@
       },
       "facing=south,half=top,open=false,powered=false": {
           "model": "minecraft:block/replace_thin_slab",
-          "x": 180,
-          "y": 180
+          "x": 180
       },
       "facing=west,half=bottom,open=false,powered=false": {
           "model": "minecraft:block/replace_thin_slab",
           "y": 270
       },
       "facing=west,half=top,open=false,powered=false": {
-          "model": "minecraft:block/replace_thin_slab",
-          "x": 180,
-          "y": 270
+          "model": "minecraft:block/replace_thin_slab"
       },
-      "facing=east,half=bottom,open=false,powered=true": {
-          "model": "minecraft:block/replace_thin_slab",
-          "y": 90
-      },
+      "facing=east,half=bottom,open=false,powered=true": [
+	  { "model": "block/catwalk_down" },
+	  { "model": "block/catwalk_down", "y":180 },
+	  { "model": "block/catwalk_down_2" },
+	  { "model": "block/catwalk_down_2", "y":180 },
+	  { "model": "block/catwalk_down_3" }, 
+	  { "model": "block/catwalk_down_3", "y":180 },
+	  { "model": "block/catwalk_down_4" }, 
+	  { "model": "block/catwalk_down_4", "y":180 }
+	  ],
       "facing=east,half=bottom,open=true,powered=true": {
           "model": "minecraft:block/replace_thin_slab",
           "x": 90,
           "y": 90
       },
-      "facing=east,half=top,open=false,powered=true": {
-          "model": "minecraft:block/replace_thin_slab",
-          "x": 180,
-          "y": 90
-      },
+      "facing=east,half=top,open=false,powered=true": [
+	  { "model": "block/catwalk" },
+	  { "model": "block/catwalk", "y":180 },
+	  { "model": "block/catwalk_2" },
+	  { "model": "block/catwalk_2", "y":180 },
+	  { "model": "block/catwalk_3" }, 
+	  { "model": "block/catwalk_3", "y":180 },
+	  { "model": "block/catwalk_4" }, 
+	  { "model": "block/catwalk_4", "y":180 }
+	  ],
       "facing=east,half=top,open=true,powered=true": {
           "model": "minecraft:block/replace_thin_slab",
           "x": 90,
           "y": 90
       },
-      "facing=north,half=bottom,open=false,powered=true": {
-          "model": "minecraft:block/replace_thin_slab"
-      },
+      "facing=north,half=bottom,open=false,powered=true": [
+	  { "model": "block/catwalk_45_down" },
+	  { "model": "block/catwalk_45_down", "y":180 }, 
+	  { "model": "block/catwalk_45_down_2" }, 
+	  { "model": "block/catwalk_45_down_2", "y":180 },
+	  { "model": "block/catwalk_45_down_3" }, 
+	  { "model": "block/catwalk_45_down_3", "y":180 },
+	  { "model": "block/catwalk_45_down_4" }, 
+	  { "model": "block/catwalk_45_down_4", "y":180 }
+	  ],
       "facing=north,half=bottom,open=true,powered=true": {
           "model": "minecraft:block/replace_thin_slab",
           "x": 90
       },
-      "facing=north,half=top,open=false,powered=true": {
-          "model": "minecraft:block/replace_thin_slab",
-          "x": 180
-      },
+      "facing=north,half=top,open=false,powered=true": [
+	  { "model": "block/catwalk_45" },
+	  { "model": "block/catwalk_45", "y":180 }, 
+	  { "model": "block/catwalk_45_2" }, 
+	  { "model": "block/catwalk_45_2", "y":180 },
+	  { "model": "block/catwalk_45_3" }, 
+	  { "model": "block/catwalk_45_3", "y":180 },
+	  { "model": "block/catwalk_45_4" }, 
+	  { "model": "block/catwalk_45_4", "y":180 }
+	  ],
       "facing=north,half=top,open=true,powered=true": {
           "model": "minecraft:block/replace_thin_slab",
           "x": 90
       },
-      "facing=south,half=bottom,open=false,powered=true": {
-          "model": "minecraft:block/replace_thin_slab",
-          "y": 180
-      },
+      "facing=south,half=bottom,open=false,powered=true": [
+	  { "model": "block/catwalk_down", "y":90 }, 
+	  { "model": "block/catwalk_down", "y":270 }, 
+	  { "model": "block/catwalk_down_2", "y":90 }, 
+	  { "model": "block/catwalk_down_2", "y":270 },
+	  { "model": "block/catwalk_down_3", "y":90 }, 
+	  { "model": "block/catwalk_down_3", "y":270 },
+	  { "model": "block/catwalk_down_4", "y":90 }, 
+	  { "model": "block/catwalk_down_4", "y":270 }
+	  ],
       "facing=south,half=bottom,open=true,powered=true": {
           "model": "minecraft:block/replace_thin_slab",
           "x": 90,
           "y": 180
       },
-      "facing=south,half=top,open=false,powered=true": {
-          "model": "minecraft:block/replace_thin_slab",
-          "x": 180,
-          "y": 180
-      },
+      "facing=south,half=top,open=false,powered=true": [
+	  { "model": "block/catwalk", "y":90 }, 
+	  { "model": "block/catwalk", "y":270 }, 
+	  { "model": "block/catwalk_2", "y":90 }, 
+	  { "model": "block/catwalk_2", "y":270 },
+	  { "model": "block/catwalk_3", "y":90 }, 
+	  { "model": "block/catwalk_3", "y":270 },
+	  { "model": "block/catwalk_4", "y":90 }, 
+	  { "model": "block/catwalk_4", "y":270 }
+	  ],
       "facing=south,half=top,open=true,powered=true": {
           "model": "minecraft:block/replace_thin_slab",
           "x": 90,
           "y": 180
       },
-      "facing=west,half=bottom,open=false,powered=true": {
-          "model": "minecraft:block/replace_thin_slab",
-          "y": 270
-      },
+      "facing=west,half=bottom,open=false,powered=true": [
+	  { "model": "block/catwalk_45_down", "y":90 }, 
+	  { "model": "block/catwalk_45_down", "y":270 },
+	  { "model": "block/catwalk_45_down_2", "y":90 },
+	  { "model": "block/catwalk_45_down_2", "y":270 },
+	  { "model": "block/catwalk_45_down_3", "y":90 }, 
+	  { "model": "block/catwalk_45_down_3", "y":270 },
+	  { "model": "block/catwalk_45_down_4", "y":90 }, 
+	  { "model": "block/catwalk_45_down_4", "y":270 }
+	  ],
       "facing=west,half=bottom,open=true,powered=true": {
           "model": "minecraft:block/replace_thin_slab",
           "x": 90,
           "y": 270
       },
-      "facing=west,half=top,open=false,powered=true": {
-          "model": "minecraft:block/replace_thin_slab",
-          "x": 180,
-          "y": 270
-      },
+      "facing=west,half=top,open=false,powered=true": [
+	  { "model": "block/catwalk_45", "y":90 }, 
+	  { "model": "block/catwalk_45", "y":270 },
+	  { "model": "block/catwalk_45_2", "y":90 },
+	  { "model": "block/catwalk_45_2", "y":270 },
+	  { "model": "block/catwalk_45_3", "y":90 }, 
+	  { "model": "block/catwalk_45_3", "y":270 },
+	  { "model": "block/catwalk_45_4", "y":90 }, 
+	  { "model": "block/catwalk_45_4", "y":270 }
+	  ],
       "facing=west,half=top,open=true,powered=true": {
           "model": "minecraft:block/replace_thin_slab",
           "x": 90,

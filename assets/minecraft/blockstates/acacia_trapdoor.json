@@ -78,20 +78,12 @@
         ],
         "facing=south,half=top,open=false,powered=true": [
             {
-                "model": "mcme:block/wooden_catwalk",
-                "y": 90
+                "model": "mcme:block/wooden_catwalk_wide",
+                "y": 180
             },
             {
-                "model": "mcme:block/wooden_catwalk_2",
-                "y": 90
-            },
-            {
-                "model": "mcme:block/wooden_catwalk",
-                "y": 270
-            },
-            {
-                "model": "mcme:block/wooden_catwalk_2",
-                "y": 270
+                "model": "mcme:block/wooden_catwalk_wide_2",
+                "y": 180
             }
         ],
         "facing=east,half=top,open=false,powered=true": [
@@ -104,18 +96,12 @@
         ],
         "facing=west,half=top,open=false,powered=true": [
             {
-                "model": "mcme:block/wooden_catwalk"
+                "model": "mcme:block/wooden_catwalk_wide",
+                "y": 270
             },
             {
-                "model": "mcme:block/wooden_catwalk_2"
-            },
-            {
-                "model": "mcme:block/wooden_catwalk",
-                "y": 180
-            },
-            {
-                "model": "mcme:block/wooden_catwalk_2",
-                "y": 180
+                "model": "mcme:block/wooden_catwalk_wide_2",
+                "y": 270
             }
         ],
         "facing=north,half=bottom,open=true,powered=true": {

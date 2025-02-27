@@ -175,6 +175,20 @@
                     "model": "block/log_palisade_top"
                 }
             },
+			{
+                "threshold": 37,
+                "model": {
+                    "type": "model",
+                    "model": "block/catwalk"
+                }
+            },
+			{
+                "threshold": 38,
+                "model": {
+                    "type": "model",
+                    "model": "block/catwalk_up"
+                }
+            },
             {
                 "threshold": 43,
                 "model": {
