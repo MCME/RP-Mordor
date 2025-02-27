@@ -357,6 +357,62 @@
                     "model": "block/beam_core_steel"
                 }
             },
+			{
+                "threshold": 71,
+                "model": {
+                    "type": "model",
+                    "model": "block/exposed_cut_copper_side_stairs"
+                }
+            },
+			{
+                "threshold": 72,
+                "model": {
+                    "type": "model",
+                    "model": "block/acacia_door_bottom"
+                }
+            },
+			{
+                "threshold": 73,
+                "model": {
+                    "type": "model",
+                    "model": "block/acacia_door_bottom_down_display"
+                }
+            },
+			{
+                "threshold": 74,
+                "model": {
+                    "type": "model",
+                    "model": "block/vertical_slab_exposed_cut_copper"
+                }
+            },
+			{
+                "threshold": 75,
+                "model": {
+                    "type": "model",
+                    "model": "block/end_portal_frame_empty_south"
+                }
+            },
+			{
+                "threshold": 76,
+                "model": {
+                    "type": "model",
+                    "model": "item/blue_stained_glass_pane_ne"
+                }
+            },
+			{
+                "threshold": 77,
+                "model": {
+                    "type": "model",
+                    "model": "block/sandstone_wall_wedge"
+                }
+            },
+			{
+                "threshold": 78,
+                "model": {
+                    "type": "model",
+                    "model": "item/sandstone_wall_arch"
+                }
+            },
             {
                 "threshold": 100,
                 "model": {

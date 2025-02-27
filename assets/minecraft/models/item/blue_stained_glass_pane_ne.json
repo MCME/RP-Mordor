@@ -1,0 +1,8 @@
+{
+  "parent": "item/diagonal",
+  "textures": {
+    "bottom": "block/blue_stained_glass_pane_ne_bottom",
+    "side": "block/blue_stained_glass_pane_ne_side",
+    "particle": "block/blue_stained_glass_pane_ne_bottom"
+  }
+}
