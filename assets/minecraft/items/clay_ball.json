@@ -301,6 +301,62 @@
                     "model": "block/target_block_power7"
                 }
             },
+			{
+                "threshold": 63,
+                "model": {
+                    "type": "model",
+                    "model": "block/vertical_slab_iron_block"
+                }
+            },
+			{
+                "threshold": 64,
+                "model": {
+                    "type": "model",
+                    "model": "block/trapdoor_double_slab_iron_block_seamless_open"
+                }
+            },
+			{
+                "threshold": 65,
+                "model": {
+                    "type": "model",
+                    "model": "block/trapdoor_iron_block_display_down"
+                }
+            },
+			{
+                "threshold": 66,
+                "model": {
+                    "type": "model",
+                    "model": "block/red_mushroom_block_nesud"
+                }
+            },
+			{
+                "threshold": 67,
+                "model": {
+                    "type": "model",
+                    "model": "block/red_mushroom_block_ewu"
+                }
+            },
+			{
+                "threshold": 68,
+                "model": {
+                    "type": "model",
+                    "model": "block/beam_horizontal_metal"
+                }
+            },
+			{
+                "threshold": 69,
+                "model": {
+                    "type": "model",
+                    "model": "block/beam_horizontal_metal_down"
+                }
+            },
+			{
+                "threshold": 70,
+                "model": {
+                    "type": "model",
+                    "model": "block/beam_core_steel"
+                }
+            },
             {
                 "threshold": 100,
                 "model": {
