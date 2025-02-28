@@ -448,6 +448,62 @@
                     "model": "block/vertical_slab_dried_kelp_block"
                 }
             },
+			{
+                "threshold": 84,
+                "model": {
+                    "type": "model",
+                    "model": "block/waxed_oxidized_cut_copper_side_stairs"
+                }
+            },
+			{
+                "threshold": 85,
+                "model": {
+                    "type": "model",
+                    "model": "block/trapdoor_waxed_oxidized_cut_copper_bottom"
+                }
+            },
+			{
+                "threshold": 86,
+                "model": {
+                    "type": "model",
+                    "model": "block/trapdoor_waxed_oxidized_cut_copper_side"
+                }
+            },
+			{
+                "threshold": 87,
+                "model": {
+                    "type": "model",
+                    "model": "block/vertical_slab_waxed_oxidized_cut_copper"
+                }
+            },
+			{
+                "threshold": 88,
+                "model": {
+                    "type": "model",
+                    "model": "block/waxed_cut_copper_side_stairs"
+                }
+            },
+			{
+                "threshold": 89,
+                "model": {
+                    "type": "model",
+                    "model": "block/trapdoor_waxed_cut_copper_bottom"
+                }
+            },
+			{
+                "threshold": 90,
+                "model": {
+                    "type": "model",
+                    "model": "block/trapdoor_waxed_cut_copper_side"
+                }
+            },
+			{
+                "threshold": 91,
+                "model": {
+                    "type": "model",
+                    "model": "block/vertical_slab_waxed_cut_copper"
+                }
+            },
             {
                 "threshold": 100,
                 "model": {

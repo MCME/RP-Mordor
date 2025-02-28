@@ -6,6 +6,78 @@
 		{ "model": "block/medium_oak_wood_pillar", "y":180 },
 		{ "model": "block/medium_oak_wood_pillar", "y":270 }
 		],
+		"waterlogged=false,east=tall,north=low,south=low,west=none,up=true": [
+		{ "model": "block/lapis_side_stairs" },
+		{ "model": "block/lapis_side_stairs_2" },
+		{ "model": "block/lapis_side_stairs_3" },
+		{ "model": "block/lapis_side_stairs_4" },
+		{ "model": "block/lapis_side_stairs_5" }
+		],
+		"waterlogged=false,east=low,north=none,south=tall,west=low,up=true": [
+		{ "model": "block/lapis_side_stairs", "y":90 },
+		{ "model": "block/lapis_side_stairs_2", "y":90 },
+		{ "model": "block/lapis_side_stairs_3", "y":90 },
+		{ "model": "block/lapis_side_stairs_4", "y":90 },
+		{ "model": "block/lapis_side_stairs_5", "y":90 }
+		],
+		"waterlogged=false,east=none,north=low,south=low,west=tall,up=true": [
+		{ "model": "block/lapis_side_stairs", "y":180 },
+		{ "model": "block/lapis_side_stairs_2", "y":180 },
+		{ "model": "block/lapis_side_stairs_3", "y":180 },
+		{ "model": "block/lapis_side_stairs_4", "y":180 },
+		{ "model": "block/lapis_side_stairs_5", "y":180 }
+		],
+		"waterlogged=false,east=low,north=tall,south=none,west=low,up=true": [
+		{ "model": "block/lapis_side_stairs", "y":270 },
+		{ "model": "block/lapis_side_stairs_2", "y":270 },
+		{ "model": "block/lapis_side_stairs_3", "y":270 },
+		{ "model": "block/lapis_side_stairs_4", "y":270 },
+		{ "model": "block/lapis_side_stairs_5", "y":270 }
+		],
+		"waterlogged=false,east=low,north=tall,south=tall,west=none,up=false": [
+		{ "model": "block/waxed_cut_copper_side_stairs" },
+		{ "model": "block/waxed_cut_copper_side_stairs_2" },
+		{ "model": "block/waxed_cut_copper_side_stairs_3" },
+		{ "model": "block/waxed_cut_copper_side_stairs_4" }
+		],
+		"waterlogged=false,east=tall,north=none,south=low,west=tall,up=false": [
+		{ "model": "block/waxed_cut_copper_side_stairs", "y":90 },
+		{ "model": "block/waxed_cut_copper_side_stairs_2", "y":90 },
+		{ "model": "block/waxed_cut_copper_side_stairs_3", "y":90 },
+		{ "model": "block/waxed_cut_copper_side_stairs_4", "y":90 }
+		],
+		"waterlogged=false,east=none,north=tall,south=tall,west=low,up=false": [
+		{ "model": "block/waxed_cut_copper_side_stairs", "y":180 },
+		{ "model": "block/waxed_cut_copper_side_stairs_2", "y":180 },
+		{ "model": "block/waxed_cut_copper_side_stairs_3", "y":180 },
+		{ "model": "block/waxed_cut_copper_side_stairs_4", "y":180 }
+		],
+		"waterlogged=false,east=tall,north=low,south=none,west=tall,up=false": [
+		{ "model": "block/waxed_cut_copper_side_stairs", "y":270 },
+		{ "model": "block/waxed_cut_copper_side_stairs_2", "y":270 },
+		{ "model": "block/waxed_cut_copper_side_stairs_3", "y":270 },
+		{ "model": "block/waxed_cut_copper_side_stairs_4", "y":270 }
+		],
+		"waterlogged=false,east=low,north=tall,south=tall,west=none,up=true": [
+		{ "model": "block/waxed_cut_oxidized_copper_side_stairs" },
+		{ "model": "block/waxed_cut_oxidized_copper_side_stairs_2" },
+		{ "model": "block/waxed_cut_oxidized_copper_side_stairs_3" }
+		],
+		"waterlogged=false,east=tall,north=none,south=low,west=tall,up=true": [
+		{ "model": "block/waxed_cut_oxidized_copper_side_stairs", "y":90 },
+		{ "model": "block/waxed_cut_oxidized_copper_side_stairs_2", "y":90 },
+		{ "model": "block/waxed_cut_oxidized_copper_side_stairs_3", "y":90 }
+		],
+		"waterlogged=false,east=none,north=tall,south=tall,west=low,up=true": [
+		{ "model": "block/waxed_cut_oxidized_copper_side_stairs", "y":180 },
+		{ "model": "block/waxed_cut_oxidized_copper_side_stairs_2", "y":180 },
+		{ "model": "block/waxed_cut_oxidized_copper_side_stairs_3", "y":180 }
+		],
+		"waterlogged=false,east=tall,north=low,south=none,west=tall,up=true": [
+		{ "model": "block/waxed_cut_oxidized_copper_side_stairs", "y":270 },
+		{ "model": "block/waxed_cut_oxidized_copper_side_stairs_2", "y":270 },
+		{ "model": "block/waxed_cut_oxidized_copper_side_stairs_3", "y":270 }
+		],
 		"waterlogged=false,east=low,north=low,south=low,west=none,up=false": [
 		{ "model": "block/waxed_weathered_cut_copper_side_stairs" },
 		{ "model": "block/waxed_weathered_cut_copper_side_stairs_2" },
