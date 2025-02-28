@@ -630,6 +630,104 @@
                     "model": "item/side_spike_full_down"
                 }
             },
+			{
+                "threshold": 111,
+                "model": {
+                    "type": "model",
+                    "model": "item/floor_spike_pointy"
+                }
+            },
+			{
+                "threshold": 112,
+                "model": {
+                    "type": "model",
+                    "model": "item/decorational_spike"
+                }
+            },
+			{
+                "threshold": 113,
+                "model": {
+                    "type": "model",
+                    "model": "item/decorational_spike_big"
+                }
+            },
+			{
+                "threshold": 114,
+                "model": {
+                    "type": "model",
+                    "model": "item/horizontal_spike_small_ne"
+                }
+            },
+			{
+                "threshold": 115,
+                "model": {
+                    "type": "model",
+                    "model": "item/upwards_spike_large_east"
+                }
+            },
+			{
+                "threshold": 116,
+                "model": {
+                    "type": "model",
+                    "model": "item/upwards_spike_small_south"
+                }
+            },
+			{
+                "threshold": 117,
+                "model": {
+                    "type": "model",
+                    "model": "item/upwards_spike_small_south_b"
+                }
+            },
+			{
+                "threshold": 118,
+                "model": {
+                    "type": "model",
+                    "model": "item/upwards_spike_xl"
+                }
+            },
+			{
+                "threshold": 119,
+                "model": {
+                    "type": "model",
+                    "model": "item/upwards_spike_xl_down"
+                }
+            },
+			{
+                "threshold": 120,
+                "model": {
+                    "type": "model",
+                    "model": "item/upwards_spike_xxl"
+                }
+            },
+			{
+                "threshold": 121,
+                "model": {
+                    "type": "model",
+                    "model": "item/upwards_spike_xxl_down"
+                }
+            },
+			{
+                "threshold": 122,
+                "model": {
+                    "type": "model",
+                    "model": "item/side_wedge"
+                }
+            },
+			{
+                "threshold": 123,
+                "model": {
+                    "type": "model",
+                    "model": "item/side_wedge_spike"
+                }
+            },
+			{
+                "threshold": 124,
+                "model": {
+                    "type": "model",
+                    "model": "item/long_corbel"
+                }
+            },
             {
                 "threshold": 125,
                 "model": {
