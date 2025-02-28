@@ -413,6 +413,41 @@
                     "model": "item/sandstone_wall_arch"
                 }
             },
+			{
+                "threshold": 79,
+                "model": {
+                    "type": "model",
+                    "model": "item/rusty_blue_stained_glass_pane_ne"
+                }
+            },
+			{
+                "threshold": 80,
+                "model": {
+                    "type": "model",
+                    "model": "block/waxed_weathered_cut_copper_side_stairs"
+                }
+            },
+			{
+                "threshold": 81,
+                "model": {
+                    "type": "model",
+                    "model": "block/jungle_door_top_rh_open"
+                }
+            },
+			{
+                "threshold": 82,
+                "model": {
+                    "type": "model",
+                    "model": "block/trapdoor_dried_kelp_block_bottom"
+                }
+            },
+			{
+                "threshold": 83,
+                "model": {
+                    "type": "model",
+                    "model": "block/vertical_slab_dried_kelp_block"
+                }
+            },
             {
                 "threshold": 100,
                 "model": {
