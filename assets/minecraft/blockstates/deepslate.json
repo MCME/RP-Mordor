@@ -2,12 +2,12 @@
     "variants": {
         "axis=x": [
             {
-                "model": "minecraft:block/replace"
+                "model": "minecraft:block/deepslate"
             }
         ],
         "axis=y": [
             {
-                "model": "minecraft:block/deepslate"
+                "model": "minecraft:block/replace"
             }
         ],
         "axis=z": [

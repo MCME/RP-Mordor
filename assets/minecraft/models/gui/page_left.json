@@ -1,6 +1,12 @@
 {
-    "parent": "item/generated",
-    "textures": {
-        "layer0": "item/gui/inventory_icons/page_left"
-    }
+	"credit": "Made with Blockbench",
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "item/gui/inventory_icons/page_left"
+	},
+	"display": {
+		"gui": {
+			"scale": [1.25, 1.25, 1.25]
+		}
+	}
 }

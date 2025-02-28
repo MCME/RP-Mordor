@@ -1,6 +1,12 @@
 {
-    "parent": "item/generated",
-    "textures": {
-        "layer0": "item/gui/inventory_icons/terra_alt"
-    }
+	"credit": "Made with Blockbench",
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "item/gui/inventory_icons/terra_alt"
+	},
+	"display": {
+		"gui": {
+			"scale": [1.25, 1.25, 1.25]
+		}
+	}
 }
