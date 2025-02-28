@@ -735,6 +735,41 @@
                     "model": "block/grass_block_white_concrete_inventory"
                 }
             },
+			{
+                "threshold": 126,
+                "model": {
+                    "type": "model",
+                    "model": "item/small_wedge"
+                }
+            },
+			{
+                "threshold": 127,
+                "model": {
+                    "type": "model",
+                    "model": "item/small_corbel"
+                }
+            },
+			{
+                "threshold": 128,
+                "model": {
+                    "type": "model",
+                    "model": "item/small_corbel_up"
+                }
+            },
+			{
+                "threshold": 129,
+                "model": {
+                    "type": "model",
+                    "model": "item/metal_window"
+                }
+            },
+			{
+                "threshold": 130,
+                "model": {
+                    "type": "model",
+                    "model": "item/metal_window_down"
+                }
+            },
             {
                 "threshold": 158,
                 "model": {
