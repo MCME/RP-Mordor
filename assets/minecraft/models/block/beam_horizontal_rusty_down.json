@@ -2,7 +2,6 @@
 	"credit": "Made with Blockbench",
 	"ambientocclusion": false,
 	"textures": {
-		"0": "block/lapis_block",
 		"1": "block/lapis_block",
 		"particle": "block/lapis_block"
 	},
@@ -13,12 +12,22 @@
 			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 8]},
 			"faces": {
 				"north": {"uv": [9, 9, 15, 15], "texture": "#1"},
-				"east": {"uv": [2, 0, 8, 16], "rotation": 90, "texture": "#0"},
+				"east": {"uv": [2, 0, 8, 16], "rotation": 90, "texture": "#1"},
 				"south": {"uv": [0, 9, 6, 15], "texture": "#1"},
-				"west": {"uv": [3, 0, 9, 16], "rotation": 90, "texture": "#0"},
-				"up": {"uv": [0, 0, 6, 15.98], "texture": "#0"},
-				"down": {"uv": [0, 0, 6, 15.98], "texture": "#0"}
+				"west": {"uv": [3, 0, 9, 16], "rotation": 90, "texture": "#1"},
+				"up": {"uv": [0, 0, 6, 15.98], "texture": "#1"},
+				"down": {"uv": [0, 0, 6, 15.98], "texture": "#1"}
 			}
 		}
-	]
+	],
+	"display": {
+		"firstperson_righthand": {
+			"translation": [17, 0, 0]
+		},
+		"gui": {
+			"rotation": [30, 225, 0],
+			"translation": [-3.25, -0.5, 0],
+			"scale": [0.625, 0.625, 0.625]
+		}
+	}
 }

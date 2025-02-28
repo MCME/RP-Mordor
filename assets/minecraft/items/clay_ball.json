@@ -504,6 +504,55 @@
                     "model": "block/vertical_slab_waxed_cut_copper"
                 }
             },
+			{
+                "threshold": 92,
+                "model": {
+                    "type": "model",
+                    "model": "block/beam_core_rusty"
+                }
+            },
+			{
+                "threshold": 97,
+                "model": {
+                    "type": "model",
+                    "model": "block/beam_horizontal_rusty"
+                }
+            },
+			{
+                "threshold": 93,
+                "model": {
+                    "type": "model",
+                    "model": "block/beam_horizontal_rusty_down"
+                }
+            },
+			{
+                "threshold": 94,
+                "model": {
+                    "type": "model",
+                    "model": "block/trapdoor_rusty_steel_bottom"
+                }
+            },
+			{
+                "threshold": 95,
+                "model": {
+                    "type": "model",
+                    "model": "block/trapdoor_rusty_steel_side"
+                }
+            },
+			{
+                "threshold": 96,
+                "model": {
+                    "type": "model",
+                    "model": "block/vertical_slab_lapis_block"
+                }
+            },
+			{
+                "threshold": 98,
+                "model": {
+                    "type": "model",
+                    "model": "block/lapis_block_side_stairs"
+                }
+            },
             {
                 "threshold": 100,
                 "model": {

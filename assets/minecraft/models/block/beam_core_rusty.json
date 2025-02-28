@@ -19,5 +19,19 @@
 				"down": {"uv": [2, 3, 8, 9], "texture": "#0"}
 			}
 		}
-	]
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"scale": [0.52, 0.52, 0.52]
+		},
+		"firstperson_righthand": {
+			"translation": [15, 0, 0],
+			"scale": [0.58, 0.58, 0.58]
+		},
+		"gui": {
+			"rotation": [30, 225, 0],
+			"translation": [-3.75, 0, 0],
+			"scale": [0.625, 0.625, 0.625]
+		}
+	}
 }
