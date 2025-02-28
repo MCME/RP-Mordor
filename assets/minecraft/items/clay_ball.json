@@ -595,6 +595,41 @@
                     "model": "block/marker_info"
                 }
             },
+			{
+                "threshold": 106,
+                "model": {
+                    "type": "model",
+                    "model": "block/crenelation"
+                }
+            },
+			{
+                "threshold": 107,
+                "model": {
+                    "type": "model",
+                    "model": "item/crenelation_spike_north"
+                }
+            },
+			{
+                "threshold": 108,
+                "model": {
+                    "type": "model",
+                    "model": "item/side_spike_full"
+                }
+            },
+			{
+                "threshold": 109,
+                "model": {
+                    "type": "model",
+                    "model": "item/side_spike_full_up"
+                }
+            },
+			{
+                "threshold": 110,
+                "model": {
+                    "type": "model",
+                    "model": "item/side_spike_full_down"
+                }
+            },
             {
                 "threshold": 125,
                 "model": {
