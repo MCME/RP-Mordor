@@ -452,7 +452,7 @@
                 "threshold": 84,
                 "model": {
                     "type": "model",
-                    "model": "block/waxed_oxidized_cut_copper_side_stairs"
+                    "model": "block/waxed_cut_oxidized_copper_side_stairs"
                 }
             },
 			{
