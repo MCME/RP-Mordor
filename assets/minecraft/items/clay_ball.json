@@ -770,6 +770,83 @@
                     "model": "item/metal_window_down"
                 }
             },
+			{
+                "threshold": 131,
+                "model": {
+                    "type": "model",
+                    "model": "block/reinforced_strip_wall"
+                }
+            },
+			{
+                "threshold": 132,
+                "model": {
+                    "type": "model",
+                    "model": "block/reinforced_strip_wall_deco"
+                }
+            },
+			{
+                "threshold": 133,
+                "model": {
+                    "type": "model",
+                    "model": "block/reinforced_strip_wall_wide"
+                }
+            },
+			{
+                "threshold": 134,
+                "model": {
+                    "type": "model",
+                    "model": "block/reinforced_rod_end"
+                }
+            },
+			{
+                "threshold": 135,
+                "model": {
+                    "type": "model",
+                    "model": "block/reinforced_rod_end_big"
+                }
+            },
+			{
+                "threshold": 136,
+                "model": {
+                    "type": "model",
+                    "model": "block/reinforced_strip_floor"
+                }
+            },
+			{
+                "threshold": 137,
+                "model": {
+                    "type": "model",
+                    "model": "block/reinforced_strip_ceyling"
+                }
+            },
+			{
+                "threshold": 138,
+                "model": {
+                    "type": "model",
+                    "model": "block/reinforced_strip_floor_deco"
+                }
+            },
+			{
+                "threshold": 139,
+                "model": {
+                    "type": "model",
+                    "model": "block/reinforced_strip_ceyling_deco"
+                }
+            },
+			{
+                "threshold": 140,
+                "model": {
+                    "type": "model",
+                    "model": "block/reinforced_strip_floor_wide"
+                }
+            },
+			{
+                "threshold": 141,
+                "model": {
+                    "type": "model",
+                    "model": "block/reinforced_strip_ceyling_wide"
+                }
+            },
             {
                 "threshold": 158,
                 "model": {
