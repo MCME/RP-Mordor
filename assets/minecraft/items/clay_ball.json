@@ -550,7 +550,7 @@
                 "threshold": 98,
                 "model": {
                     "type": "model",
-                    "model": "block/lapis_block_side_stairs"
+                    "model": "block/lapis_side_stairs"
                 }
             },
             {
