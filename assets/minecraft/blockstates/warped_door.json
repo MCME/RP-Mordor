@@ -255,31 +255,6 @@
         },
         {
             "when": {
-                "facing": "west",
-                "half": "upper",
-                "hinge": "right",
-                "open": "false",
-                "powered": "false"
-            },
-            "apply": {
-                "model": "mcme:block/rope_2wide_right"
-            }
-        },
-        {
-            "when": {
-                "facing": "north",
-                "half": "upper",
-                "hinge": "right",
-                "open": "false",
-                "powered": "false"
-            },
-            "apply": {
-                "model": "mcme:block/rope_2wide_right",
-                "y": 90
-            }
-        },
-        {
-            "when": {
                 "facing": "east",
                 "half": "upper",
                 "hinge": "right",
@@ -287,9 +262,9 @@
                 "powered": "false"
             },
             "apply": {
-                "model": "mcme:block/rope_2wide_right",
-                "y": 180
-            }
+            "model": "minecraft:block/rope_asc_right",
+            "y": 90
+        }
         },
         {
             "when": {
@@ -300,9 +275,32 @@
                 "powered": "false"
             },
             "apply": {
-                "model": "mcme:block/rope_2wide_right",
-                "y": 270
-            }
+            "model": "minecraft:block/rope_asc_right", "y":180
+        }
+        },
+        {
+            "when": {
+                "facing": "west",
+                "half": "upper",
+                "hinge": "right",
+                "open": "false",
+                "powered": "false"
+            },
+            "apply": {
+            "model": "minecraft:block/rope_asc_right", "y":270
+        }
+        },
+        {
+            "when": {
+                "facing": "north",
+                "half": "upper",
+                "hinge": "right",
+                "open": "false",
+                "powered": "false"
+            },
+            "apply": {
+            "model": "minecraft:block/rope_asc_right"
+        }
         },
         {
             "when": {
@@ -364,7 +362,7 @@
                 "powered": "false"
             },
             "apply": {
-                "model": "mcme:block/rope_2wide",
+                "model": "minecraft:block/door_unused",
                 "y": 270
             }
         },
@@ -377,7 +375,7 @@
                 "powered": "false"
             },
             "apply": {
-                "model": "mcme:block/rope_2wide"
+                "model": "minecraft:block/door_unused"
             }
         },
         {
@@ -389,7 +387,7 @@
                 "powered": "false"
             },
             "apply": {
-                "model": "mcme:block/rope_2wide",
+                "model": "minecraft:block/door_unused",
                 "y": 90
             }
         },
@@ -402,7 +400,7 @@
                 "powered": "false"
             },
             "apply": {
-                "model": "mcme:block/rope_2wide",
+                "model": "minecraft:block/door_unused",
                 "y": 180
             }
         },
