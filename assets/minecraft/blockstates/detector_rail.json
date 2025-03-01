@@ -70,7 +70,7 @@
         ],
         "powered=true,shape=ascending_west": [
             {
-                "model": "block/unused_cross_cutout"
+                "model": "mcme:block/rope_2wide_diag", "y":180
             }
         ]
     }

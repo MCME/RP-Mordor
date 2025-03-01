@@ -53,98 +53,8 @@
         },
         {
             "when": {
-                "facing": "west",
-                "in_wall": "false",
-                "open": "true",
-                "powered": "false"
-            },
-            "apply": {
-                "model": "block/replace_vertical_slab",
-                "uvlock": true,
-                "y": 90
-            }
-        },
-        {
-            "when": {
-                "facing": "north",
-                "in_wall": "false",
-                "open": "true",
-                "powered": "false"
-            },
-            "apply": {
-                "model": "block/replace_vertical_slab",
-                "uvlock": true,
-                "y": 180
-            }
-        },
-        {
-            "when": {
-                "facing": "east",
-                "in_wall": "false",
-                "open": "true",
-                "powered": "false"
-            },
-            "apply": {
-                "model": "block/replace_vertical_slab",
-                "uvlock": true,
-                "y": 270
-            }
-        },
-        {
-            "when": {
                 "facing": "south",
-                "in_wall": "true",
-                "open": "false",
-                "powered": "false"
-            },
-            "apply": {
-                "model": "block/vertical_slab_double_slab_nether_brick",
-                "uvlock": true
-            }
-        },
-        {
-            "when": {
-                "facing": "west",
-                "in_wall": "true",
-                "open": "false",
-                "powered": "false"
-            },
-            "apply": {
-                "model": "block/vertical_slab_double_slab_nether_brick",
-                "uvlock": true,
-                "y": 90
-            }
-        },
-        {
-            "when": {
-                "facing": "north",
-                "in_wall": "true",
-                "open": "false",
-                "powered": "false"
-            },
-            "apply": {
-                "model": "block/vertical_slab_double_slab_nether_brick",
-                "uvlock": true,
-                "y": 180
-            }
-        },
-        {
-            "when": {
-                "facing": "east",
-                "in_wall": "true",
-                "open": "false",
-                "powered": "false"
-            },
-            "apply": {
-                "model": "block/vertical_slab_double_slab_nether_brick",
-                "uvlock": true,
-                "y": 270
-            }
-        },
-        {
-            "when": {
-                "facing": "south",
-                "in_wall": "true",
+                "in_wall": "false",
                 "open": "true",
                 "powered": "false"
             },
@@ -156,6 +66,173 @@
         {
             "when": {
                 "facing": "west",
+                "in_wall": "false",
+                "open": "true",
+                "powered": "false"
+            },
+            "apply": {
+                "model": "block/replace_vertical_slab",
+                "uvlock": true,
+                "y": 90
+            }
+        },
+        {
+            "when": {
+                "facing": "north",
+                "in_wall": "false",
+                "open": "true",
+                "powered": "false"
+            },
+            "apply": {
+                "model": "block/replace_vertical_slab",
+                "uvlock": true,
+                "y": 180
+            }
+        },
+        {
+            "when": {
+                "facing": "east",
+                "in_wall": "false",
+                "open": "true",
+                "powered": "false"
+            },
+            "apply": {
+                "model": "block/replace_vertical_slab",
+                "uvlock": true,
+                "y": 270
+            }
+        },
+        {
+            "when": {
+                "facing": "south",
+                "in_wall": "true",
+                "open": "false",
+                "powered": "false"
+            },
+            "apply": [
+                {
+                    "model": "block/replace_vertical_slab",
+                    "uvlock": true
+                },
+                {
+                    "model": "block/replace_vertical_slab",
+                    "uvlock": true
+                },
+                {
+                    "model": "block/replace_vertical_slab",
+                    "uvlock": true
+                },
+                {
+                    "model": "block/replace_vertical_slab",
+                    "uvlock": true
+                }
+            ]
+        },
+        {
+            "when": {
+                "facing": "west",
+                "in_wall": "true",
+                "open": "false",
+                "powered": "false"
+            },
+            "apply": [
+                {
+                    "model": "block/replace_vertical_slab",
+                    "uvlock": true,
+                    "y": 90
+                },
+                {
+                    "model": "block/replace_vertical_slab",
+                    "uvlock": true,
+                    "y": 90
+                },
+                {
+                    "model": "block/replace_vertical_slab",
+                    "uvlock": true,
+                    "y": 90
+                },
+                {
+                    "model": "block/replace_vertical_slab",
+                    "uvlock": true,
+                    "y": 90
+                }
+            ]
+        },
+        {
+            "when": {
+                "facing": "north",
+                "in_wall": "true",
+                "open": "false",
+                "powered": "false"
+            },
+            "apply": [
+                {
+                    "model": "block/replace_vertical_slab",
+                    "uvlock": true,
+                    "y": 180
+                },
+                {
+                    "model": "block/replace_vertical_slab",
+                    "uvlock": true,
+                    "y": 180
+                },
+                {
+                    "model": "block/replace_vertical_slab",
+                    "uvlock": true,
+                    "y": 180
+                },
+                {
+                    "model": "block/replace_vertical_slab",
+                    "uvlock": true,
+                    "y": 180
+                }
+            ]
+        },
+        {
+            "when": {
+                "facing": "east",
+                "in_wall": "true",
+                "open": "false",
+                "powered": "false"
+            },
+            "apply": [
+                {
+                    "model": "block/replace_vertical_slab",
+                    "uvlock": true,
+                    "y": 270
+                },
+                {
+                    "model": "block/replace_vertical_slab",
+                    "uvlock": true,
+                    "y": 270
+                },
+                {
+                    "model": "block/replace_vertical_slab",
+                    "uvlock": true,
+                    "y": 270
+                },
+                {
+                    "model": "block/replace_vertical_slab",
+                    "uvlock": true,
+                    "y": 270
+                }
+            ]
+        },
+        {
+            "when": {
+                "facing": "south",
+                "in_wall": "true",
+                "open": "true",
+                "powered": "false"
+            },
+            "apply": {
+                "model": "block/replace_vertical_slab",
+                "uvlock": true
+            }
+        },
+        {
+            "when": {
+                "facing": "west",
                 "in_wall": "true",
                 "open": "true",
                 "powered": "false"
@@ -200,7 +277,7 @@
                 "powered": "true"
             },
             "apply": {
-                "model": "block/birch_fence_gate_powered_closed",
+                "model": "block/replace_vertical_slab",
                 "uvlock": true
             }
         },
@@ -212,7 +289,7 @@
                 "powered": "true"
             },
             "apply": {
-                "model": "block/birch_fence_gate_powered_closed",
+                "model": "block/replace_vertical_slab",
                 "uvlock": true,
                 "y": 90
             }
@@ -225,7 +302,7 @@
                 "powered": "true"
             },
             "apply": {
-                "model": "block/birch_fence_gate_powered_closed",
+                "model": "block/replace_vertical_slab",
                 "uvlock": true,
                 "y": 180
             }
@@ -238,7 +315,7 @@
                 "powered": "true"
             },
             "apply": {
-                "model": "block/birch_fence_gate_powered_closed",
+                "model": "block/replace_vertical_slab",
                 "uvlock": true,
                 "y": 270
             }
@@ -248,13 +325,12 @@
                 "facing": "south",
                 "in_wall": "false",
                 "open": "true",
-                "powered": "false"
+                "powered": "true"
             },
-            "apply": [
-                {
-                    "model": "block/replace_vertical_slab"
-                }
-            ]
+            "apply": {
+                "model": "block/vertical_slab_stripped_crimson_stem",
+                "uvlock": true
+            }
         },
         {
             "when": {
@@ -263,11 +339,11 @@
                 "open": "true",
                 "powered": "true"
             },
-            "apply": [
-                {
-                    "model": "block/replace_vertical_slab"
-                }
-            ]
+            "apply": {
+                "model": "block/vertical_slab_stripped_crimson_stem",
+                "uvlock": true,
+                "y": 90
+            }
         },
         {
             "when": {
@@ -276,11 +352,11 @@
                 "open": "true",
                 "powered": "true"
             },
-            "apply": [
-                {
-                    "model": "block/replace_vertical_slab"
-                }
-            ]
+            "apply": {
+                "model": "block/vertical_slab_stripped_crimson_stem",
+                "uvlock": true,
+                "y": 180
+            }
         },
         {
             "when": {
@@ -289,11 +365,11 @@
                 "open": "true",
                 "powered": "true"
             },
-            "apply": [
-                {
-                    "model": "block/replace_vertical_slab"
-                }
-            ]
+            "apply": {
+                "model": "block/vertical_slab_stripped_crimson_stem",
+                "uvlock": true,
+                "y": 270
+            }
         },
         {
             "when": {
@@ -303,7 +379,7 @@
                 "powered": "true"
             },
             "apply": {
-                "model": "block/vertical_slab_double_slab_nether_brick_seamless",
+                "model": "block/vertical_slab_crimson_stem",
                 "uvlock": true
             }
         },
@@ -315,7 +391,7 @@
                 "powered": "true"
             },
             "apply": {
-                "model": "block/vertical_slab_double_slab_nether_brick_seamless",
+                "model": "block/vertical_slab_crimson_stem",
                 "uvlock": true,
                 "y": 90
             }
@@ -328,7 +404,7 @@
                 "powered": "true"
             },
             "apply": {
-                "model": "block/vertical_slab_double_slab_nether_brick_seamless",
+                "model": "block/vertical_slab_crimson_stem",
                 "uvlock": true,
                 "y": 180
             }
@@ -341,10 +417,32 @@
                 "powered": "true"
             },
             "apply": {
-                "model": "block/vertical_slab_double_slab_nether_brick_seamless",
+                "model": "block/vertical_slab_crimson_stem",
                 "uvlock": true,
                 "y": 270
             }
+        },
+        {
+            "when": {
+                "facing": "south",
+                "in_wall": "true",
+                "open": "true",
+                "powered": "true"
+            },
+            "apply": [
+                {
+                    "model": "block/replace_vertical_slab",
+                    "uvlock": true
+                },
+                {
+                    "model": "block/replace_vertical_slab",
+                    "uvlock": true
+                },
+                {
+                    "model": "block/replace_vertical_slab",
+                    "uvlock": true
+                }
+            ]
         },
         {
             "when": {
@@ -355,7 +453,19 @@
             },
             "apply": [
                 {
-                    "model": "block/vertical_slab_warped_hyphae", "y":90
+                    "model": "block/replace_vertical_slab",
+                    "uvlock": true,
+                    "y": 90
+                },
+                {
+                    "model": "block/replace_vertical_slab",
+                    "uvlock": true,
+                    "y": 90
+                },
+                {
+                    "model": "block/replace_vertical_slab",
+                    "uvlock": true,
+                    "y": 90
                 }
             ]
         },
@@ -368,7 +478,19 @@
             },
             "apply": [
                 {
-                    "model": "block/vertical_slab_warped_hyphae", "y":180
+                    "model": "block/replace_vertical_slab",
+                    "uvlock": true,
+                    "y": 180
+                },
+                {
+                    "model": "block/replace_vertical_slab",
+                    "uvlock": true,
+                    "y": 180
+                },
+                {
+                    "model": "block/replace_vertical_slab",
+                    "uvlock": true,
+                    "y": 180
                 }
             ]
         },
@@ -381,20 +503,19 @@
             },
             "apply": [
                 {
-                    "model": "block/vertical_slab_warped_hyphae", "y":270
-                }
-            ]
-        },
-        {
-            "when": {
-                "facing": "south",
-                "in_wall": "true",
-                "open": "true",
-                "powered": "true"
-            },
-            "apply": [
+                    "model": "block/replace_vertical_slab",
+                    "uvlock": true,
+                    "y": 270
+                },
                 {
-                    "model": "block/vertical_slab_warped_hyphae"
+                    "model": "block/replace_vertical_slab",
+                    "uvlock": true,
+                    "y": 270
+                },
+                {
+                    "model": "block/replace_vertical_slab",
+                    "uvlock": true,
+                    "y": 270
                 }
             ]
         }

@@ -143,10 +143,10 @@
       "model": "minecraft:block/unused_cross_cutout"
     },
     "attached=false,disarmed=false,powered=true,east=false,north=true,south=false,west=false": {
-      "model": "minecraft:block/tripwire_palantir"
+      "model": "minecraft:block/unused_cross_cutout"
     },
     "attached=false,disarmed=false,powered=true,east=false,north=true,south=false,west=true": {
-      "model": "minecraft:block/tripwire_palantir_off"
+      "model": "minecraft:block/unused_cross_cutout"
     },
     "attached=false,disarmed=false,powered=false,east=false,north=false,south=false,west=false": {
       "model": "minecraft:block/unused_cross_cutout"
