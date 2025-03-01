@@ -1,90 +1,52 @@
 {
-    "multipart": [
-        {
-            "apply": {
-                "model": "minecraft:block/replace_wall"
-            },
-            "when": {
-                "up": "true"
-            }
-        },
-        {
-            "apply": {
-                "model": "minecraft:block/replace_wall",
-                "uvlock": true
-            },
-            "when": {
-                "north": "low"
-            }
-        },
-        {
-            "apply": {
-                "model": "minecraft:block/replace_wall",
-                "uvlock": true,
-                "y": 90
-            },
-            "when": {
-                "east": "low"
-            }
-        },
-        {
-            "apply": {
-                "model": "minecraft:block/replace_wall",
-                "uvlock": true,
-                "y": 180
-            },
-            "when": {
-                "south": "low"
-            }
-        },
-        {
-            "apply": {
-                "model": "minecraft:block/replace_wall",
-                "uvlock": true,
-                "y": 270
-            },
-            "when": {
-                "west": "low"
-            }
-        },
-        {
-            "apply": {
-                "model": "minecraft:block/replace_wall",
-                "uvlock": true
-            },
-            "when": {
-                "north": "tall"
-            }
-        },
-        {
-            "apply": {
-                "model": "minecraft:block/replace_wall",
-                "uvlock": true,
-                "y": 90
-            },
-            "when": {
-                "east": "tall"
-            }
-        },
-        {
-            "apply": {
-                "model": "minecraft:block/replace_wall",
-                "uvlock": true,
-                "y": 180
-            },
-            "when": {
-                "south": "tall"
-            }
-        },
-        {
-            "apply": {
-                "model": "minecraft:block/replace_wall",
-                "uvlock": true,
-                "y": 270
-            },
-            "when": {
-                "west": "tall"
-            }
-        }
-    ]
+    "variants": {
+		"waterlogged=false,east=tall,north=tall,south=none,west=none,up=false": [
+		{ "model": "block/smooth_sandstone_side_stairs" },
+		{ "model": "block/smooth_sandstone_side_stairs_2" },
+		{ "model": "block/smooth_sandstone_side_stairs_3" },
+		{ "model": "block/smooth_sandstone_side_stairs_4" }
+		],
+		"waterlogged=false,east=tall,north=none,south=tall,west=none,up=false": [
+		{ "model": "block/smooth_sandstone_side_stairs", "y":90 },
+		{ "model": "block/smooth_sandstone_side_stairs_2", "y":90 },
+		{ "model": "block/smooth_sandstone_side_stairs_3", "y":90 },
+		{ "model": "block/smooth_sandstone_side_stairs_4", "y":90 }
+		],
+		"waterlogged=false,east=none,north=none,south=tall,west=tall,up=false": [
+		{ "model": "block/smooth_sandstone_side_stairs", "y":180 },
+		{ "model": "block/smooth_sandstone_side_stairs_2", "y":180 },
+		{ "model": "block/smooth_sandstone_side_stairs_3", "y":180 },
+		{ "model": "block/smooth_sandstone_side_stairs_4", "y":180 }
+		],
+		"waterlogged=false,east=none,north=tall,south=none,west=tall,up=false": [
+		{ "model": "block/smooth_sandstone_side_stairs", "y":270 },
+		{ "model": "block/smooth_sandstone_side_stairs_2", "y":270 },
+		{ "model": "block/smooth_sandstone_side_stairs_3", "y":270 },
+		{ "model": "block/smooth_sandstone_side_stairs_4", "y":270 }
+		],
+		"waterlogged=false,east=tall,north=tall,south=none,west=none,up=true": [
+		{ "model": "block/warped_wart_block_side_stairs" },
+		{ "model": "block/warped_wart_block_side_stairs_2" },
+		{ "model": "block/warped_wart_block_side_stairs_3" },
+		{ "model": "block/warped_wart_block_side_stairs_4" }
+		],
+		"waterlogged=false,east=tall,north=none,south=tall,west=none,up=true": [
+		{ "model": "block/warped_wart_block_side_stairs", "y":90 },
+		{ "model": "block/warped_wart_block_side_stairs_2", "y":90 },
+		{ "model": "block/warped_wart_block_side_stairs_3", "y":90 },
+		{ "model": "block/warped_wart_block_side_stairs_4", "y":90 }
+		],
+		"waterlogged=false,east=none,north=none,south=tall,west=tall,up=true": [
+		{ "model": "block/warped_wart_block_side_stairs", "y":180 },
+		{ "model": "block/warped_wart_block_side_stairs_2", "y":180 },
+		{ "model": "block/warped_wart_block_side_stairs_3", "y":180 },
+		{ "model": "block/warped_wart_block_side_stairs_4", "y":180 }
+		],
+		"waterlogged=false,east=none,north=tall,south=none,west=tall,up=true": [
+		{ "model": "block/warped_wart_block_side_stairs", "y":270 },
+		{ "model": "block/warped_wart_block_side_stairs_2", "y":270 },
+		{ "model": "block/warped_wart_block_side_stairs_3", "y":270 },
+		{ "model": "block/warped_wart_block_side_stairs_4", "y":270 }
+		]
+    }
 }
