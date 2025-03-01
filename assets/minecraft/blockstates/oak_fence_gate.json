@@ -444,7 +444,7 @@
             },
             "apply": [
                 {
-                    "model": "block/replace_vertical_slab"
+                    "model": "block/pillar_top_half_dark_gray"
                 }
             ]
         },
@@ -457,7 +457,7 @@
             },
             "apply": [
                 {
-                    "model": "block/replace_vertical_slab",
+                    "model": "block/pillar_top_half_dark_gray",
                     "y": 90
                 }
             ]
@@ -471,7 +471,7 @@
             },
             "apply": [
                 {
-                    "model": "block/replace_vertical_slab",
+                    "model": "block/pillar_top_half_dark_gray",
                     "y": 180
                 }
             ]
@@ -485,7 +485,7 @@
             },
             "apply": [
                 {
-                    "model": "block/replace_vertical_slab",
+                    "model": "block/pillar_top_half_dark_gray",
                     "y": 270
                 }
             ]

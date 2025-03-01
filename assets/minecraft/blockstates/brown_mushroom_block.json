@@ -443,13 +443,13 @@
         ],
         "north=true,east=true,south=true,west=false,up=false,down=false": [
             {
-                "model": "block/brown_mushroom_block_nes"
+                "model": "block/replace"
             },
             {
-                "model": "block/brown_mushroom_block_nes_2"
+                "model": "block/replace"
             },
             {
-                "model": "block/brown_mushroom_block_nes_3"
+                "model": "block/replace"
             }
         ],
         "north=true,east=true,south=true,west=false,up=false,down=true": [

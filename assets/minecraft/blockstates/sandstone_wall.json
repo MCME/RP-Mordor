@@ -6,6 +6,54 @@
 		{ "model": "block/medium_oak_wood_pillar", "y":180 },
 		{ "model": "block/medium_oak_wood_pillar", "y":270 }
 		],
+		"waterlogged=false,east=none,north=tall,south=tall,west=none,up=true": [
+		{ "model": "block/nether_bricks_side_stairs" },
+		{ "model": "block/nether_bricks_side_stairs_2" },
+		{ "model": "block/nether_bricks_side_stairs_3" },
+		{ "model": "block/nether_bricks_side_stairs_4" }
+		],
+		"waterlogged=false,east=tall,north=none,south=none,west=tall,up=true": [
+		{ "model": "block/nether_bricks_side_stairs", "y":90 },
+		{ "model": "block/nether_bricks_side_stairs_2", "y":90 },
+		{ "model": "block/nether_bricks_side_stairs_3", "y":90 },
+		{ "model": "block/nether_bricks_side_stairs_4", "y":90 }
+		],
+		"waterlogged=false,east=none,north=tall,south=tall,west=none,up=false": [
+		{ "model": "block/nether_bricks_side_stairs", "y":180 },
+		{ "model": "block/nether_bricks_side_stairs_2", "y":180 },
+		{ "model": "block/nether_bricks_side_stairs_3", "y":180 },
+		{ "model": "block/nether_bricks_side_stairs_4", "y":180 }
+		],
+		"waterlogged=false,east=tall,north=none,south=none,west=tall,up=false": [
+		{ "model": "block/nether_bricks_side_stairs", "y":270 },
+		{ "model": "block/nether_bricks_side_stairs_2", "y":270 },
+		{ "model": "block/nether_bricks_side_stairs_3", "y":270 },
+		{ "model": "block/nether_bricks_side_stairs_4", "y":270 }
+		],
+		"waterlogged=false,east=low,north=low,south=low,west=none,up=true": [
+		{ "model": "block/chiseled_polished_blackstone_side_stairs" },
+		{ "model": "block/chiseled_polished_blackstone_side_stairs_2" },
+		{ "model": "block/chiseled_polished_blackstone_side_stairs_3" },
+		{ "model": "block/chiseled_polished_blackstone_side_stairs_4" }
+		],
+		"waterlogged=false,east=low,north=none,south=low,west=low,up=true": [
+		{ "model": "block/chiseled_polished_blackstone_side_stairs", "y":90 },
+		{ "model": "block/chiseled_polished_blackstone_side_stairs_2", "y":90 },
+		{ "model": "block/chiseled_polished_blackstone_side_stairs_3", "y":90 },
+		{ "model": "block/chiseled_polished_blackstone_side_stairs_4", "y":90 }
+		],
+		"waterlogged=false,east=none,north=low,south=low,west=low,up=true": [
+		{ "model": "block/chiseled_polished_blackstone_side_stairs", "y":180 },
+		{ "model": "block/chiseled_polished_blackstone_side_stairs_2", "y":180 },
+		{ "model": "block/chiseled_polished_blackstone_side_stairs_3", "y":180 },
+		{ "model": "block/chiseled_polished_blackstone_side_stairs_4", "y":180 }
+		],
+		"waterlogged=false,east=low,north=low,south=none,west=low,up=true": [
+		{ "model": "block/chiseled_polished_blackstone_side_stairs", "y":270 },
+		{ "model": "block/chiseled_polished_blackstone_side_stairs_2", "y":270 },
+		{ "model": "block/chiseled_polished_blackstone_side_stairs_3", "y":270 },
+		{ "model": "block/chiseled_polished_blackstone_side_stairs_4", "y":270 }
+		],
 		"waterlogged=false,east=tall,north=low,south=low,west=none,up=true": [
 		{ "model": "block/lapis_side_stairs" },
 		{ "model": "block/lapis_side_stairs_2" },

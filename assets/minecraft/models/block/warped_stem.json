@@ -2,6 +2,6 @@
   "parent": "block/cube_column",
   "textures": {
     "side": "block/warped_stem",
-	"end": "block/warped_stem_end"
+	"end": "block/brown_mushroom_block_neud"
   }
 }

@@ -1,11 +1,11 @@
 {
     "variants": {
         "shape=ascending_east": {
-            "model": "mcme:block/rope_2wide_diag",
+            "model": "minecraft:block/unused_cross_cutout",
             "y": 270
         },
         "shape=ascending_north": {
-            "model": "mcme:block/rope_2wide_diag",
+            "model": "minecraft:block/unused_cross_cutout",
             "y": 180
         },
         "shape=ascending_south": {

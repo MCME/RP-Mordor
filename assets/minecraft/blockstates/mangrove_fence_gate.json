@@ -113,18 +113,18 @@
 		{  "model": "block/vertical_slab_dark_oak_planks_4", "y":270  }
 		],
         "facing=north,in_wall=true,open=true,powered=true": {
-            "model": "block/replace_vertical_slab"
+            "model": "block/pillar_top_half_blackest"
         },
         "facing=east,in_wall=true,open=true,powered=true": {
-            "model": "block/replace_vertical_slab",
+            "model": "block/pillar_top_half_blackest",
             "y": 90
         },
         "facing=south,in_wall=true,open=true,powered=true": {
-            "model": "block/replace_vertical_slab",
+            "model": "block/pillar_top_half_blackest",
             "y": 180
         },
         "facing=west,in_wall=true,open=true,powered=true": {
-            "model": "block/replace_vertical_slab",
+            "model": "block/pillar_top_half_blackest",
             "y": 270
         },
         "facing=east,in_wall=false,open=false,powered=true": {

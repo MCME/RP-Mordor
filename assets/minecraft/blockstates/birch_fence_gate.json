@@ -248,7 +248,7 @@
                 "facing": "south",
                 "in_wall": "false",
                 "open": "true",
-                "powered": "true"
+                "powered": "false"
             },
             "apply": [
                 {
@@ -348,19 +348,6 @@
         },
         {
             "when": {
-                "facing": "south",
-                "in_wall": "true",
-                "open": "true",
-                "powered": "true"
-            },
-            "apply": [
-                {
-                    "model": "block/replace_vertical_slab"
-                }
-            ]
-        },
-        {
-            "when": {
                 "facing": "west",
                 "in_wall": "true",
                 "open": "true",
@@ -368,7 +355,7 @@
             },
             "apply": [
                 {
-                    "model": "block/replace_vertical_slab"
+                    "model": "block/vertical_slab_warped_hyphae", "y":90
                 }
             ]
         },
@@ -381,7 +368,7 @@
             },
             "apply": [
                 {
-                    "model": "block/replace_vertical_slab"
+                    "model": "block/vertical_slab_warped_hyphae", "y":180
                 }
             ]
         },
@@ -394,20 +381,20 @@
             },
             "apply": [
                 {
-                    "model": "block/replace_vertical_slab"
+                    "model": "block/vertical_slab_warped_hyphae", "y":270
                 }
             ]
         },
         {
             "when": {
                 "facing": "south",
-                "in_wall": "false",
+                "in_wall": "true",
                 "open": "true",
-                "powered": "false"
+                "powered": "true"
             },
             "apply": [
                 {
-                    "model": "block/replace_vertical_slab"
+                    "model": "block/vertical_slab_warped_hyphae"
                 }
             ]
         }
