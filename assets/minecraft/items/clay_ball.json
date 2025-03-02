@@ -1246,6 +1246,27 @@
                     "model": "block/yellow_glazed_terracotta_ne"
                 }
             },
+			{
+                "threshold": 206,
+                "model": {
+                    "type": "model",
+                    "model": "block/brown_mushroom_block_nesd"
+                }
+            },
+			{
+                "threshold": 207,
+                "model": {
+                    "type": "model",
+                    "model": "block/smooth_sandstone_side_stairs"
+                }
+            },
+			{
+                "threshold": 208,
+                "model": {
+                    "type": "model",
+                    "model": "block/dark_oak_fence_gate_powered_closed"
+                }
+            },
             {
                 "threshold": 209,
                 "model": {
@@ -1370,6 +1391,90 @@
                 "model": {
                     "type": "model",
                     "model": "block/comparator_powered_subtract_w"
+                }
+            },
+			{
+                "threshold": 228,
+                "model": {
+                    "type": "model",
+                    "model": "block/trapdoor_red_black_bricks_bottom"
+                }
+            },
+			{
+                "threshold": 229,
+                "model": {
+                    "type": "model",
+                    "model": "block/trapdoor_red_black_bricks_side"
+                }
+            },
+			{
+                "threshold": 230,
+                "model": {
+                    "type": "model",
+                    "model": "block/brown_mushroom_block_esw"
+                }
+            },
+			{
+                "threshold": 231,
+                "model": {
+                    "type": "model",
+                    "model": "block/brown_mushroom_block_nw"
+                }
+            },
+			{
+                "threshold": 232,
+                "model": {
+                    "type": "model",
+                    "model": "block/brown_mushroom_block_nwd"
+                }
+            },
+			{
+                "threshold": 233,
+                "model": {
+                    "type": "model",
+                    "model": "block/brown_mushroom_block_eswd"
+                }
+            },
+			{
+                "threshold": 234,
+                "model": {
+                    "type": "model",
+                    "model": "block/brown_mushroom_block_nu"
+                }
+            },
+			{
+                "threshold": 235,
+                "model": {
+                    "type": "model",
+                    "model": "block/brown_mushroom_block_nud"
+                }
+            },
+			{
+                "threshold": 236,
+                "model": {
+                    "type": "model",
+                    "model": "block/trapdoor_blackest_small_bricks_bottom"
+                }
+            },
+			{
+                "threshold": 237,
+                "model": {
+                    "type": "model",
+                    "model": "block/trapdoor_blackest_small_bricks_side"
+                }
+            },
+			{
+                "threshold": 238,
+                "model": {
+                    "type": "model",
+                    "model": "block/vertical_slab_red_sandstone"
+                }
+            },
+			{
+                "threshold": 239,
+                "model": {
+                    "type": "model",
+                    "model": "block/brown_mushroom_block_esud"
                 }
             },
             {
