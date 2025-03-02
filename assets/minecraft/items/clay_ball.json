@@ -910,6 +910,48 @@
                     "model": "block/vertical_slab_small_dark_bricks"
                 }
             },
+			{
+                "threshold": 151,
+                "model": {
+                    "type": "model",
+                    "model": "block/brown_mushroom_block_neswd"
+                }
+            },
+			{
+                "threshold": 152,
+                "model": {
+                    "type": "model",
+                    "model": "block/brown_mushroom_block_nesw"
+                }
+            },
+			{
+                "threshold": 153,
+                "model": {
+                    "type": "model",
+                    "model": "block/brown_mushroom_block_esu"
+                }
+            },
+			{
+                "threshold": 154,
+                "model": {
+                    "type": "model",
+                    "model": "block/pillar_top_dark_gray"
+                }
+            },
+			{
+                "threshold": 155,
+                "model": {
+                    "type": "model",
+                    "model": "block/pillar_top_half_dark_gray"
+                }
+            },
+			{
+                "threshold": 156,
+                "model": {
+                    "type": "model",
+                    "model": "block/dark_stone_arch"
+                }
+            },
             {
                 "threshold": 158,
                 "model": {
@@ -943,6 +985,55 @@
                 "model": {
                     "type": "model",
                     "model": "block/grass_block_gray_terracotta_inventory"
+                }
+            },
+			{
+                "threshold": 163,
+                "model": {
+                    "type": "model",
+                    "model": "block/vertical_slab_stripped_warped_hyphae"
+                }
+            },
+			{
+                "threshold": 164,
+                "model": {
+                    "type": "model",
+                    "model": "block/vertical_slab_polished_basalt"
+                }
+            },
+			{
+                "threshold": 165,
+                "model": {
+                    "type": "model",
+                    "model": "block/vertical_slab_basalt"
+                }
+            },
+			{
+                "threshold": 166,
+                "model": {
+                    "type": "model",
+                    "model": "block/white_glazed_terracotta_ne"
+                }
+            },
+			{
+                "threshold": 167,
+                "model": {
+                    "type": "model",
+                    "model": "block/pink_glazed_terracotta_ne"
+                }
+            },
+			{
+                "threshold": 168,
+                "model": {
+                    "type": "model",
+                    "model": "block/lime_glazed_terracotta_ne"
+                }
+            },
+			{
+                "threshold": 169,
+                "model": {
+                    "type": "model",
+                    "model": "block/light_gray_glazed_terracotta_ne"
                 }
             },
             {
