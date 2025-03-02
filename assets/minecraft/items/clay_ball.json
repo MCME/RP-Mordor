@@ -847,6 +847,69 @@
                     "model": "block/reinforced_strip_ceyling_wide"
                 }
             },
+			{
+                "threshold": 142,
+                "model": {
+                    "type": "model",
+                    "model": "block/trapdoor_dark_brick_bottom"
+                }
+            },
+			{
+                "threshold": 143,
+                "model": {
+                    "type": "model",
+                    "model": "block/trapdoor_dark_brick_side"
+                }
+            },
+			{
+                "threshold": 144,
+                "model": {
+                    "type": "model",
+                    "model": "block/dark_oak_fence_gate_closed"
+                }
+            },
+			{
+                "threshold": 145,
+                "model": {
+                    "type": "model",
+                    "model": "block/chiseled_polished_blackstone_side_stairs"
+                }
+            },
+			{
+                "threshold": 146,
+                "model": {
+                    "type": "model",
+                    "model": "block/brown_mushroom_block_neswud"
+                }
+            },
+			{
+                "threshold": 147,
+                "model": {
+                    "type": "model",
+                    "model": "block/brown_mushroom_block_neswu"
+                }
+            },
+			{
+                "threshold": 148,
+                "model": {
+                    "type": "model",
+                    "model": "block/trapdoor_small_dark_bricks_bottom"
+                }
+            },
+			{
+                "threshold": 149,
+                "model": {
+                    "type": "model",
+                    "model": "block/trapdoor_small_dark_bricks_side"
+                }
+            },
+			{
+                "threshold": 150,
+                "model": {
+                    "type": "model",
+                    "model": "block/vertical_slab_small_dark_bricks"
+                }
+            },
             {
                 "threshold": 158,
                 "model": {
