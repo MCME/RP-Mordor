@@ -1036,6 +1036,69 @@
                     "model": "block/light_gray_glazed_terracotta_ne"
                 }
             },
+			{
+                "threshold": 170,
+                "model": {
+                    "type": "model",
+                    "model": "block/nether_bricks_side_stairs"
+                }
+            },
+			{
+                "threshold": 171,
+                "model": {
+                    "type": "model",
+                    "model": "block/vertical_slab_black_bricks_seamless"
+                }
+            },
+			{
+                "threshold": 172,
+                "model": {
+                    "type": "model",
+                    "model": "block/trapdoor_black_brick_bottom"
+                }
+            },
+			{
+                "threshold": 173,
+                "model": {
+                    "type": "model",
+                    "model": "block/trapdoor_black_bricks_side"
+                }
+            },
+			{
+                "threshold": 174,
+                "model": {
+                    "type": "model",
+                    "model": "block/brown_mushroom_block_ned"
+                }
+            },
+			{
+                "threshold": 175,
+                "model": {
+                    "type": "model",
+                    "model": "block/brown_mushroom_block_newu"
+                }
+            },
+			{
+                "threshold": 176,
+                "model": {
+                    "type": "model",
+                    "model": "block/brown_mushroom_block_newud"
+                }
+            },
+			{
+                "threshold": 177,
+                "model": {
+                    "type": "model",
+                    "model": "block/brown_mushroom_block_neu"
+                }
+            },
+			{
+                "threshold": 178,
+                "model": {
+                    "type": "model",
+                    "model": "block/brown_mushroom_block_neud"
+                }
+            },
             {
                 "threshold": 179,
                 "model": {
@@ -1069,6 +1132,48 @@
                 "model": {
                     "type": "model",
                     "model": "block/grass_block_stone_inventory"
+                }
+            },
+			{
+                "threshold": 190,
+                "model": {
+                    "type": "model",
+                    "model": "block/brown_mushroom_block_newd"
+                }
+            },
+			{
+                "threshold": 191,
+                "model": {
+                    "type": "model",
+                    "model": "block/brown_mushroom_block_new"
+                }
+            },
+			{
+                "threshold": 192,
+                "model": {
+                    "type": "model",
+                    "model": "block/trapdoor_small_black_bricks_bottom"
+                }
+            },
+			{
+                "threshold": 193,
+                "model": {
+                    "type": "model",
+                    "model": "block/trapdoor_small_black_bricks_side"
+                }
+            },
+			{
+                "threshold": 194,
+                "model": {
+                    "type": "model",
+                    "model": "block/vertical_slab_small_black_bricks"
+                }
+            },
+			{
+                "threshold": 195,
+                "model": {
+                    "type": "model",
+                    "model": "block/brown_mushroom_block_ne"
                 }
             },
             {
