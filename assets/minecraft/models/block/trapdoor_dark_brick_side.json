@@ -1,0 +1,8 @@
+{
+  "parent": "block/door_thin_wall",
+  "textures": {
+    "particle": "block/chiseled_polished_blackstone",
+    "bottom": "block/chiseled_polished_blackstone",
+    "top": "block/unusedb00"
+  }
+}

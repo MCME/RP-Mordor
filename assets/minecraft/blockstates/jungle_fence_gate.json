@@ -296,8 +296,7 @@
                 "powered": "true"
             },
             "apply": {
-                "model": "block/pillar_top_half_black",
-                "uvlock": true
+                "model": "block/pillar_top_half_black"
             }
         },
         {
@@ -309,7 +308,6 @@
             },
             "apply": {
                 "model": "block/pillar_top_half_black",
-                "uvlock": true,
                 "y": 90
             }
         },
@@ -322,7 +320,6 @@
             },
             "apply": {
                 "model": "block/pillar_top_half_black",
-                "uvlock": true,
                 "y": 180
             }
         },
@@ -335,7 +332,6 @@
             },
             "apply": {
                 "model": "block/pillar_top_half_black",
-                "uvlock": true,
                 "y": 270
             }
         },
