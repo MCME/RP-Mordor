@@ -1176,6 +1176,76 @@
                     "model": "block/brown_mushroom_block_ne"
                 }
             },
+			{
+                "threshold": 196,
+                "model": {
+                    "type": "model",
+                    "model": "block/pillar_top_black"
+                }
+            },
+			{
+                "threshold": 197,
+                "model": {
+                    "type": "model",
+                    "model": "block/pillar_top_half_black"
+                }
+            },
+			{
+                "threshold": 198,
+                "model": {
+                    "type": "model",
+                    "model": "block/nether_bricks_stone_arch"
+                }
+            },
+			{
+                "threshold": 199,
+                "model": {
+                    "type": "model",
+                    "model": "block/vertical_slab_stripped_warped_stem"
+                }
+            },
+			{
+                "threshold": 200,
+                "model": {
+                    "type": "model",
+                    "model": "block/vertical_slab_warped_hyphae"
+                }
+            },
+			{
+                "threshold": 201,
+                "model": {
+                    "type": "model",
+                    "model": "block/vertical_slab_warped_stem"
+                }
+            },
+			{
+                "threshold": 202,
+                "model": {
+                    "type": "model",
+                    "model": "block/cyan_glazed_terracotta"
+                }
+            },
+			{
+                "threshold": 203,
+                "model": {
+                    "type": "model",
+                    "model": "block/magenta_glazed_terracotta"
+                }
+            },
+			{
+                "threshold": 204,
+                "model": {
+                    "type": "model",
+                    "model": "block/purple_glazed_terracotta_ne"
+                }
+            },
+			{
+                "threshold": 205,
+                "model": {
+                    "type": "model",
+                    "model": "block/yellow_glazed_terracotta_ne"
+                }
+            },
             {
                 "threshold": 209,
                 "model": {
