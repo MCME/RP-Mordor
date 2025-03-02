@@ -1512,6 +1512,83 @@
                     "model": "block/vertical_slab_crimson_stem"
                 }
             },
+			{
+                "threshold": 245,
+                "model": {
+                    "type": "model",
+                    "model": "block/powder_snow"
+                }
+            },
+			{
+                "threshold": 246,
+                "model": {
+                    "type": "model",
+                    "model": "block/vertical_slab_red_mushroom_block_nwud"
+                }
+            },
+			{
+                "threshold": 247,
+                "model": {
+                    "type": "model",
+                    "model": "block/vertical_slab_cobblestone"
+                }
+            },
+			{
+                "threshold": 248,
+                "model": {
+                    "type": "model",
+                    "model": "block/red_mushroom_block_nwud"
+                }
+            },
+			{
+                "threshold": 249,
+                "model": {
+                    "type": "model",
+                    "model": "block/red_mushroom_block_nesud"
+                }
+            },
+			{
+                "threshold": 250,
+                "model": {
+                    "type": "model",
+                    "model": "block/red_mushroom_block_neswud"
+                }
+            },
+			{
+                "threshold": 251,
+                "model": {
+                    "type": "model",
+                    "model": "block/trapdoor_cobblestone_bottom"
+                }
+            },
+			{
+                "threshold": 252,
+                "model": {
+                    "type": "model",
+                    "model": "block/trapdoor_cobblestone_open"
+                }
+            },
+			{
+                "threshold": 253,
+                "model": {
+                    "type": "model",
+                    "model": "block/trapdoor_mossy_cobblestone_open"
+                }
+            },
+			{
+                "threshold": 254,
+                "model": {
+                    "type": "model",
+                    "model": "block/trapdoor_mossy_cobblestone_bottom"
+                }
+            },
+			{
+                "threshold": 255,
+                "model": {
+                    "type": "model",
+                    "model": "block/vertical_slab_cobblestone_mossy"
+                }
+            },
             {
                 "threshold": 265,
                 "model": {
