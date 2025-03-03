@@ -134,9 +134,15 @@
 	{ "model": "block/pan_4", "y":180 },
 	{ "model": "block/pan_4", "y":270 }
 	],
-    "power\u003d14": {
-      "model": "block/replace_pressure_plate"
-    },
+    "power\u003d14": [
+	{ "model": "block/chopping_block" },
+	{ "model": "block/chopping_block", "y":90 },
+	{ "model": "block/chopping_block", "y":180 },
+	{ "model": "block/chopping_block", "y":270 },
+	{ "model": "block/chopping_block_2" },
+	{ "model": "block/chopping_block_2", "y":90 },
+	{ "model": "block/chopping_block_2", "y":180 },
+	{ "model": "block/chopping_block_2", "y":270 }],
     "power\u003d15": {
       "model": "block/replace_pressure_plate"
     }

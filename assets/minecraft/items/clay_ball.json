@@ -2359,6 +2359,69 @@
                     "model": "block/big_basket"
                 }
             },
+			{
+                "threshold": 382,
+                "model": {
+                    "type": "model",
+                    "model": "block/rope"
+                }
+            },
+			{
+                "threshold": 383,
+                "model": {
+                    "type": "model",
+                    "model": "block/rope_asc"
+                }
+            },
+			{
+                "threshold": 384,
+                "model": {
+                    "type": "model",
+                    "model": "block/rope_asc_right"
+                }
+            },
+			{
+                "threshold": 385,
+                "model": {
+                    "type": "model",
+                    "model": "block/rope_corner"
+                }
+            },
+			{
+                "threshold": 386,
+                "model": {
+                    "type": "model",
+                    "model": "item/rope_right_2x1"
+                }
+            },
+			{
+                "threshold": 387,
+                "model": {
+                    "type": "model",
+                    "model": "item/rope_left_2x1"
+                }
+            },
+			{
+                "threshold": 388,
+                "model": {
+                    "type": "model",
+                    "model": "item/rope_45_2x1"
+                }
+            },
+			{
+                "threshold": 389,
+                "model": {
+                    "type": "model",
+                    "model": "block/rope_diagonal"
+                }
+            },
+			{
+                "threshold": 390,
+                "model": {
+                    "type": "model",
+                    "model": "block/rope_flat"
+                }
+            },
             {
                 "threshold": 396,
                 "model": {
