@@ -2009,6 +2009,125 @@
                     "model": "block/prismarine_wall_pillar"
                 }
             },
+			{
+                "threshold": 322,
+                "model": {
+                    "type": "model",
+                    "model": "item/charred_fern"
+                }
+            },
+			{
+                "threshold": 323,
+                "model": {
+                    "type": "model",
+                    "model": "block/dead_tube_coral"
+                }
+            },
+			{
+                "threshold": 324,
+                "model": {
+                    "type": "model",
+                    "model": "block/horn_coral"
+                }
+            },
+			{
+                "threshold": 325,
+                "model": {
+                    "type": "model",
+                    "model": "block/decidous_sapling_dead"
+                }
+            },
+			{
+                "threshold": 326,
+                "model": {
+                    "type": "model",
+                    "model": "block/dry_heather"
+                }
+            },
+			{
+                "threshold": 327,
+                "model": {
+                    "type": "model",
+                    "model": "block/dead_heather"
+                }
+            },
+			{
+                "threshold": 328,
+                "model": {
+                    "type": "model",
+                    "model": "block/tall_grass"
+                }
+            },
+			{
+                "threshold": 329,
+                "model": {
+                    "type": "model",
+                    "model": "block/grass"
+                }
+            },
+			{
+                "threshold": 330,
+                "model": {
+                    "type": "model",
+                    "model": "block/putrid_log"
+                }
+            },
+			{
+                "threshold": 331,
+                "model": {
+                    "type": "model",
+                    "model": "block/stripped_acacia_wood"
+                }
+            },
+			{
+                "threshold": 332,
+                "model": {
+                    "type": "model",
+                    "model": "block/dead_log_horizontal"
+                }
+            },
+			{
+                "threshold": 333,
+                "model": {
+                    "type": "model",
+                    "model": "block/vertical_slab_putrid_log"
+                }
+            },
+			{
+                "threshold": 334,
+                "model": {
+                    "type": "model",
+                    "model": "block/trapdoor_putrid_log_open"
+                }
+            },
+			{
+                "threshold": 335,
+                "model": {
+                    "type": "model",
+                    "model": "item/putrid_stump_inv"
+                }
+            },
+			{
+                "threshold": 336,
+                "model": {
+                    "type": "model",
+                    "model": "item/putrid_sticks_inv"
+                }
+            },
+			{
+                "threshold": 337,
+                "model": {
+                    "type": "model",
+                    "model": "block/putrid_top_cover"
+                }
+            },
+			{
+                "threshold": 338,
+                "model": {
+                    "type": "model",
+                    "model": "block/dead_wood_top_cover"
+                }
+            },
             {
                 "threshold": 339,
                 "model": {
@@ -2084,6 +2203,13 @@
                 "model": {
                     "type": "model",
                     "model": "block/double_slab_planks_jungle_1"
+                }
+            },
+			{
+                "threshold": 350,
+                "model": {
+                    "type": "model",
+                    "model": "block/putrid_log_horizontal"
                 }
             },
             {
@@ -2182,6 +2308,55 @@
                 "model": {
                     "type": "model",
                     "model": "block/red_mushroom_block_es"
+                }
+            },
+			{
+                "threshold": 375,
+                "model": {
+                    "type": "model",
+                    "model": "block/double_slab_planks_oak"
+                }
+            },
+			{
+                "threshold": 376,
+                "model": {
+                    "type": "model",
+                    "model": "block/double_slab_planks_birch_2"
+                }
+            },
+			{
+                "threshold": 377,
+                "model": {
+                    "type": "model",
+                    "model": "block/big_barrel"
+                }
+            },
+			{
+                "threshold": 378,
+                "model": {
+                    "type": "model",
+                    "model": "block/wood_basket"
+                }
+            },
+			{
+                "threshold": 379,
+                "model": {
+                    "type": "model",
+                    "model": "block/wooden_crate_broken"
+                }
+            },
+			{
+                "threshold": 380,
+                "model": {
+                    "type": "model",
+                    "model": "block/thatch_basket"
+                }
+            },
+			{
+                "threshold": 381,
+                "model": {
+                    "type": "model",
+                    "model": "block/big_basket"
                 }
             },
             {

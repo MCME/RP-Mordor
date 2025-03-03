@@ -2,6 +2,7 @@
   "parent": "special-model-loader:builtin/obj",
   "flip_v": true,
   "model": "mcme:models/block/charred_fern_3.obj",
+  "particle": "mcme:block/fernt_sm_c",
 	"gui_light": "front",
 	"display": {
 		"firstperson_righthand": {
