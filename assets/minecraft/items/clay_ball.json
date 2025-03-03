@@ -2002,6 +2002,13 @@
                     "model": "block/pillar_top_dark_green"
                 }
             },
+			{
+                "threshold": 321,
+                "model": {
+                    "type": "model",
+                    "model": "block/prismarine_wall_pillar"
+                }
+            },
             {
                 "threshold": 339,
                 "model": {

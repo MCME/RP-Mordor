@@ -1,5 +1,11 @@
 {
     "variants": {
+		"waterlogged=false,east=none,north=none,south=none,west=none,up=true": [
+		{ "model": "block/prismarine_wall_pillar" },
+		{ "model": "block/prismarine_wall_pillar", "y":90 },
+		{ "model": "block/prismarine_wall_pillar", "y":180 },
+		{ "model": "block/prismarine_wall_pillar", "y":270 }
+		],
 		"waterlogged=false,east=tall,north=tall,south=none,west=none,up=false": [
 		{ "model": "block/smooth_sandstone_side_stairs" },
 		{ "model": "block/smooth_sandstone_side_stairs_2" },
