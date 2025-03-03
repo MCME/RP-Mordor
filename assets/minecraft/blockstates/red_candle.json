@@ -2,33 +2,78 @@
     "variants": {
         "candles=1,lit=false": [
             {
-                "model": "mcme:block/bones"
+                "model": "block/red_candle"
             },
             {
-                "model": "mcme:block/bones",
+                "model": "block/red_candle",
                 "y": 90
             },
             {
-                "model": "mcme:block/bones",
+                "model": "block/red_candle",
                 "y": 180
             },
             {
-                "model": "mcme:block/bones",
+                "model": "block/red_candle",
                 "y": 270
             },
             {
-                "model": "mcme:block/bones_2"
+                "model": "block/red_candle_2"
             },
             {
-                "model": "mcme:block/bones_2",
+                "model": "block/red_candle_2",
                 "y": 90
             },
             {
-                "model": "mcme:block/bones_2",
+                "model": "block/red_candle_2",
                 "y": 180
             },
             {
-                "model": "mcme:block/bones_2",
+                "model": "block/red_candle_2",
+                "y": 270
+            },
+			{
+                "model": "block/red_candle_3"
+            },
+            {
+                "model": "block/red_candle_3",
+                "y": 90
+            },
+            {
+                "model": "block/red_candle_3",
+                "y": 180
+            },
+            {
+                "model": "block/red_candle_3",
+                "y": 270
+            },
+			{
+                "model": "block/red_candle_4"
+            },
+            {
+                "model": "block/red_candle_4",
+                "y": 90
+            },
+            {
+                "model": "block/red_candle_4",
+                "y": 180
+            },
+            {
+                "model": "block/red_candle_4",
+                "y": 270
+            },
+			{
+                "model": "block/red_candle_5"
+            },
+            {
+                "model": "block/red_candle_5",
+                "y": 90
+            },
+            {
+                "model": "block/red_candle_5",
+                "y": 180
+            },
+            {
+                "model": "block/red_candle_5",
                 "y": 270
             }
         ],
@@ -37,38 +82,10 @@
                 "model": "minecraft:block/unused_cross_luminous"
             }
         ],
-        "candles=2,lit=false": [
+        "candles=2,lit=false": 
             {
-                "model": "mcme:block/bone_dense"
+                "model": "minecraft:block/unused_cross_0"
             },
-            {
-                "model": "mcme:block/bone_dense",
-                "y": 90
-            },
-            {
-                "model": "mcme:block/bone_dense",
-                "y": 180
-            },
-            {
-                "model": "mcme:block/bone_dense",
-                "y": 270
-            },
-            {
-                "model": "mcme:block/bone_dense_2"
-            },
-            {
-                "model": "mcme:block/bone_dense_2",
-                "y": 90
-            },
-            {
-                "model": "mcme:block/bone_dense_2",
-                "y": 180
-            },
-            {
-                "model": "mcme:block/bone_dense_2",
-                "y": 270
-            }
-        ],
         "candles=2,lit=true": {
             "model": "minecraft:block/unused_cross_luminous"
         },
