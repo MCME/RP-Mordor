@@ -2422,11 +2422,81 @@
                     "model": "block/rope_flat"
                 }
             },
+			{
+                "threshold": 391,
+                "model": {
+                    "type": "model",
+                    "model": "block/powered_rail_raised"
+                }
+            },
+			{
+                "threshold": 392,
+                "model": {
+                    "type": "model",
+                    "model": "block/powered_rail"
+                }
+            },
+			{
+                "threshold": 393,
+                "model": {
+                    "type": "model",
+                    "model": "block/powered_rail_vertical"
+                }
+            },
+			{
+                "threshold": 394,
+                "model": {
+                    "type": "model",
+                    "model": "block/powered_rail_diagonal"
+                }
+            },
+			{
+                "threshold": 395,
+                "model": {
+                    "type": "model",
+                    "model": "block/nether_wart_2_0"
+                }
+            },
             {
                 "threshold": 396,
                 "model": {
                     "type": "model",
                     "model": "item/waterlogged_sand_slab"
+                }
+            },
+			{
+                "threshold": 397,
+                "model": {
+                    "type": "model",
+                    "model": "block/hand_crank"
+                }
+            },
+			{
+                "threshold": 398,
+                "model": {
+                    "type": "model",
+                    "model": "block/hand_crank_2"
+                }
+            },
+			{
+                "threshold": 399,
+                "model": {
+                    "type": "model",
+                    "model": "block/dropper_seu"
+                }
+            },
+			{
+                "threshold": 400,
+                "model": {
+                    "type": "model",
+                    "model": "block/dropper_nwd"
+                }
+            },
+			{
+                "threshold": 401,
+                "model": {
+                    "type": "model",
+                    "model": "block/ladder"
                 }
             },
             {
