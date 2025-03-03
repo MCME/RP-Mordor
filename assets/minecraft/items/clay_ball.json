@@ -2506,6 +2506,34 @@
                     "model": "item/grass_block_stones_only_inventory"
                 }
             },
+			{
+                "threshold": 403,
+                "model": {
+                    "type": "model",
+                    "model": "block/thick_chain"
+                }
+            },
+			{
+                "threshold": 404,
+                "model": {
+                    "type": "model",
+                    "model": "block/thick_chain_hook"
+                }
+            },
+			{
+                "threshold": 405,
+                "model": {
+                    "type": "model",
+                    "model": "block/thick_chain_side"
+                }
+            },
+			{
+                "threshold": 406,
+                "model": {
+                    "type": "model",
+                    "model": "block/ground_chain"
+                }
+            },
             {
                 "threshold": 442,
                 "model": {
