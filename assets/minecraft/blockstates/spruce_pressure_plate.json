@@ -10,6 +10,6 @@
 	{ "model" : "block/ground_chain_2", "y":180 },
 	{ "model" : "block/ground_chain_2", "y":270 }
 	],
-    "powered=true": { "model" : "block/replace_pressure_plate" }
+    "powered=true": { "model" : "block/meat_slab" }
   }
 }

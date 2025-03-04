@@ -7,7 +7,7 @@
             "model": "block/replace_pressure_plate"
         },
         "power=2": {
-            "model": "block/meat_slab"
+            "model": "block/replace_pressure_plate"
         },
         "power=3": {
             "model": "block/replace_pressure_plate"
