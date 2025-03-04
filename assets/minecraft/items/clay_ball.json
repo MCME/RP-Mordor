@@ -2496,7 +2496,7 @@
                 "threshold": 401,
                 "model": {
                     "type": "model",
-                    "model": "block/ladder"
+                    "model": "block/leaning_ladder"
                 }
             },
             {
@@ -2532,6 +2532,195 @@
                 "model": {
                     "type": "model",
                     "model": "block/ground_chain"
+                }
+            },
+			{
+                "threshold": 407,
+                "model": {
+                    "type": "model",
+                    "model": "block/pot_6"
+                }
+            },
+			{
+                "threshold": 408,
+                "model": {
+                    "type": "model",
+                    "model": "block/pot_4"
+                }
+            },
+			{
+                "threshold": 409,
+                "model": {
+                    "type": "model",
+                    "model": "block/campfire_lit"
+                }
+            },
+			{
+                "threshold": 410,
+                "model": {
+                    "type": "model",
+                    "model": "block/ladder"
+                }
+            },
+			{
+                "threshold": 411,
+                "model": {
+                    "type": "model",
+                    "model": "block/burnt_firepit"
+                }
+            },
+			{
+                "threshold": 412,
+                "model": {
+                    "type": "model",
+                    "model": "block/dropper_powered_nwd"
+                }
+            },
+			{
+                "threshold": 413,
+                "model": {
+                    "type": "model",
+                    "model": "block/stacked_wood"
+                }
+            },
+			{
+                "threshold": 414,
+                "model": {
+                    "type": "model",
+                    "model": "block/stacked_logs_top"
+                }
+            },
+			{
+                "threshold": 415,
+                "model": {
+                    "type": "model",
+                    "model": "block/stacked_logs_top"
+                }
+            },
+			{
+                "threshold": 416,
+                "model": {
+                    "type": "model",
+                    "model": "block/sawhorse"
+                }
+            },
+			{
+                "threshold": 417,
+                "model": {
+                    "type": "model",
+                    "model": "block/chandelier"
+                }
+            },
+			{
+                "threshold": 418,
+                "model": {
+                    "type": "model",
+                    "model": "block/chandelier_big"
+                }
+            },
+			{
+                "threshold": 419,
+                "model": {
+                    "type": "model",
+                    "model": "block/candle_holder"
+                }
+            },
+			{
+                "threshold": 420,
+                "model": {
+                    "type": "model",
+                    "model": "block/lantern"
+                }
+            },
+			{
+                "threshold": 421,
+                "model": {
+                    "type": "model",
+                    "model": "block/soul_lantern"
+                }
+            },
+			{
+                "threshold": 422,
+                "model": {
+                    "type": "model",
+                    "model": "block/brazier"
+                }
+            },
+			{
+                "threshold": 423,
+                "model": {
+                    "type": "model",
+                    "model": "block/bellows"
+                }
+            },
+			{
+                "threshold": 424,
+                "model": {
+                    "type": "model",
+                    "model": "block/tools"
+                }
+            },
+			{
+                "threshold": 425,
+                "model": {
+                    "type": "model",
+                    "model": "block/shovel"
+                }
+            },
+			{
+                "threshold": 426,
+                "model": {
+                    "type": "model",
+                    "model": "block/pickaxe"
+                }
+            },
+			{
+                "threshold": 427,
+                "model": {
+                    "type": "model",
+                    "model": "block/tongs"
+                }
+            },
+			{
+                "threshold": 428,
+                "model": {
+                    "type": "model",
+                    "model": "block/hammer"
+                }
+            },
+			{
+                "threshold": 429,
+                "model": {
+                    "type": "model",
+                    "model": "block/axe"
+                }
+            },
+			{
+                "threshold": 430,
+                "model": {
+                    "type": "model",
+                    "model": "block/iron_sheets_ground"
+                }
+            },
+			{
+                "threshold": 431,
+                "model": {
+                    "type": "model",
+                    "model": "block/hanging_hide"
+                }
+            },
+			{
+                "threshold": 432,
+                "model": {
+                    "type": "model",
+                    "model": "block/ground_hide"
+                }
+            },
+			{
+                "threshold": 433,
+                "model": {
+                    "type": "model",
+                    "model": "block/retaining_wall_hide"
                 }
             },
             {

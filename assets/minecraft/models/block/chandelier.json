@@ -1,11 +1,11 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"1": "block/cauldron_side",
+		"1": "block/brown_mushroom_block_neswd_5",
 		"3": "block/redstone_torch_edit",
-		"4": "block/cauldron_inner",
-		"5": "block/detector_rail",
-		"particle": "block/cauldron_side"
+		"4": "block/anvil_damage0_sw_base",
+		"5": "block/rope",
+		"particle": "block/brown_mushroom_block_neswd_5"
 	},
 	"elements": [
 		{

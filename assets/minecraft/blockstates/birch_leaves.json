@@ -3,21 +3,22 @@
         "distance=1,persistent=false": {
             "model": "block/birch_leaves_pillar_thick"
         },
-        "distance=2,persistent=false": {
-            "model": "minecraft:block/replace_cutout",
-            "y": 180
-        },
-        "distance=3,persistent=false": {
-            "model": "minecraft:block/replace_cutout",
-            "y": 90
-        },
-        "distance=4,persistent=false": {
-            "model": "minecraft:block/replace_cutout",
-            "y": 270
-        },
-        "distance=5,persistent=false": {
-            "model": "minecraft:block/replace_cutout"
-        },
+        "distance=2,persistent=false": [
+	{ "model": "block/bellows" },
+	{ "model": "block/bellows_2" }
+	],
+        "distance=3,persistent=false": [
+	{ "model": "block/bellows", "y":90 },
+	{ "model": "block/bellows_2", "y":90 }
+	],
+        "distance=4,persistent=false": [
+	{ "model": "block/bellows", "y":180 },
+	{ "model": "block/bellows_2", "y":180 }
+	],
+        "distance=5,persistent=false": [
+	{ "model": "block/bellows", "y":270 },
+	{ "model": "block/bellows_2", "y":270 }
+	],
         "distance=6,persistent=false": {
             "model": "minecraft:block/replace_cutout",
             "y": 180

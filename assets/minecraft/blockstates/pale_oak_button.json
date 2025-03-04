@@ -6,7 +6,15 @@
 	{ "model": "block/hand_crank", "x":90, "y":180 },
 	{ "model": "block/hand_crank", "x":90, "y":270 }
 	],
-        "face=floor,facing=west,powered=false":  { "model": "block/replace", "y": 90 },
+        "face=floor,facing=west,powered=false":  [
+		{ "model": "block/shovel" },
+		{ "model": "block/shovel", "y": 90 },
+		{ "model": "block/shovel", "y": 180 },
+		{ "model": "block/shovel", "y": 270 },
+		{ "model": "block/shovel_2" },
+		{ "model": "block/shovel_2", "y": 90 },
+		{ "model": "block/shovel_2", "y": 180 },
+		{ "model": "block/shovel_2", "y": 270 }],
 		 "face=floor,facing=north,powered=false":  { "model": "block/replace" },
         "face=floor,facing=east,powered=false":  { "model": "block/acacia_button", "y": 90 },
         "face=wall,facing=east,powered=false":  [
