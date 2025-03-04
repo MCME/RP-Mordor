@@ -398,9 +398,11 @@
             "model": "block/replace_luminous",
             "y": 90
         },
-        "facing=north,lit=false,signal_fire=true": {
-            "model": "block/bed_blue_half"
-        },
+        "facing=north,lit=false,signal_fire=true": [
+		{   "model": "block/burnt_firepit_big"  },
+		{   "model": "block/burnt_firepit_big", "y":90  },
+		{   "model": "block/burnt_firepit_big", "y":180  },
+		{   "model": "block/burnt_firepit_big", "y":270  }],
         "facing=south,lit=false,signal_fire=true": {
             "model": "block/bed_green_half"
         },

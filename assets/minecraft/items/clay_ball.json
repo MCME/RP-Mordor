@@ -2870,6 +2870,27 @@
                     "model": "block/drum_big"
                 }
             },
+			{
+                "threshold": 455,
+                "model": {
+                    "type": "model",
+                    "model": "block/burnt_firepit_big"
+                }
+            },
+			{
+                "threshold": 456,
+                "model": {
+                    "type": "model",
+                    "model": "block/tree_thin_oak_vertical"
+                }
+            },
+			{
+                "threshold": 457,
+                "model": {
+                    "type": "model",
+                    "model": "block/tree_thin_oak_horizontal"
+                }
+            },
             {
                 "threshold": 458,
                 "model": {
