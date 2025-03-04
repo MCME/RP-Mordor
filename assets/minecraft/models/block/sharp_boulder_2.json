@@ -1,0 +1,31 @@
+{
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "block/pink_concrete_powder_2",
+		"stone": "block/pink_concrete_powder_2"
+	},
+	"elements": [
+		{
+			"name": "Medium",
+			"from": [5.24, -2.44, 2.2],
+			"to": [14.12, 2.52, 11.36],
+			"rotation": {"angle": -22.5, "axis": "z", "origin": [8.08, -5.16, 4.68]},
+			"faces": {
+				"north": {"uv": [0, 0, 4.96, 8.88], "rotation": 270, "texture": "#stone"},
+				"east": {"uv": [2.75, 0, 7.71, 9.16], "rotation": 90, "texture": "#stone"},
+				"south": {"uv": [0, 0, 4.96, 8.88], "rotation": 90, "texture": "#stone"},
+				"west": {"uv": [0, 0, 4.96, 9.16], "rotation": 90, "texture": "#stone"},
+				"up": {"uv": [0, 0, 9.16, 8.88], "rotation": 90, "texture": "#stone"},
+				"down": {"uv": [0, 0, 9.16, 8.88], "rotation": 90, "texture": "#stone"}
+			}
+		}
+	],
+	"display": {
+		"gui": {
+			"rotation": [30, 225, 0],
+			"translation": [0, 5, 0],
+			"scale": [0.625, 0.625, 0.625]
+		}
+	}
+}

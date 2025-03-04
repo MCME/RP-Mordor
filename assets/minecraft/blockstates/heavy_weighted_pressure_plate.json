@@ -1,11 +1,25 @@
 {
     "variants": {
-        "power=0": {
-            "model": "block/replace_pressure_plate"
-        },
-        "power=1": {
-            "model": "block/replace_pressure_plate"
-        },
+        "power=0": [
+		{"model": "block/sharp_boulder"},
+		{"model": "block/sharp_boulder", "y": 90},
+		{"model": "block/sharp_boulder", "y": 180},
+		{"model": "block/sharp_boulder", "y": 270},
+		{"model": "block/sharp_boulder_2"},
+		{"model": "block/sharp_boulder_2", "y": 90},
+		{"model": "block/sharp_boulder_2", "y": 180},
+		{"model": "block/sharp_boulder_2", "y": 270},
+		{"model": "block/sharp_boulder_3"},
+		{"model": "block/sharp_boulder_3", "y": 90},
+		{"model": "block/sharp_boulder_3", "y": 180},
+		{"model": "block/sharp_boulder_3", "y": 270}
+        ],
+        "power=1": [
+		{"model": "block/dark_boulder"},
+		{"model": "block/dark_boulder", "y": 90},
+		{"model": "block/dark_boulder", "y": 180},
+		{"model": "block/dark_boulder", "y": 270}
+        ],
         "power=2": {
             "model": "block/replace_pressure_plate"
         },
