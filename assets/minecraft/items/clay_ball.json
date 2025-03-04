@@ -2727,7 +2727,7 @@
                 "threshold": 434,
                 "model": {
                     "type": "model",
-                    "model": "block/plate"
+                    "model": "block/plate_1"
                 }
             },
 			{
@@ -2826,6 +2826,48 @@
                 "model": {
                     "type": "model",
                     "model": "block/wall_banner"
+                }
+            },
+			{
+                "threshold": 449,
+                "model": {
+                    "type": "model",
+                    "model": "block/iron_ingots"
+                }
+            },
+			{
+                "threshold": 450,
+                "model": {
+                    "type": "model",
+                    "model": "block/cooking_pot_hanging"
+                }
+            },
+			{
+                "threshold": 451,
+                "model": {
+                    "type": "model",
+                    "model": "block/cooking_pot_large"
+                }
+            },
+			{
+                "threshold": 452,
+                "model": {
+                    "type": "model",
+                    "model": "block/cooking_pot_small"
+                }
+            },
+			{
+                "threshold": 453,
+                "model": {
+                    "type": "model",
+                    "model": "block/drum"
+                }
+            },
+			{
+                "threshold": 454,
+                "model": {
+                    "type": "model",
+                    "model": "block/drum_big"
                 }
             },
             {

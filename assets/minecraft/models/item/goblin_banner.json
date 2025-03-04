@@ -5,7 +5,7 @@
 	"textures": {
 		"0": "block/oak_log_pickaxe",
 		"2": "block/goblin_banner",
-		"3": "block/oak_log_composite",
+		"3": "block/stripped_oak_log_composite",
 		"particle": "block/oak_log_pickaxe"
 	},
 	"elements": [
