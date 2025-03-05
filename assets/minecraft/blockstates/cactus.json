@@ -5,7 +5,7 @@
                 "age": 0
             },
             "apply": {
-                "model": "block/chair"
+                "model": "block/replace_cutout"
             }
         },
         {
@@ -22,13 +22,13 @@
             },
             "apply": [
                 {
-                    "model": "block/stool"
+                    "model": "block/replace_cutout"
                 },
                 {
-                    "model": "block/stool_2"
+                    "model": "block/replace_cutout"
                 },
                 {
-                    "model": "block/stool_3"
+                    "model": "block/replace_cutout"
                 }
             ]
         },
@@ -61,49 +61,66 @@
                 "age": 6
             },
             "apply": [
-                {
-                    "model": "block/chair"
-                }
-            ]
+	{ "model": "block/chair"},
+	{ "model": "block/chair_2"},
+	{ "model": "block/chair_2_2"},
+	{ "model": "block/chair_3"},
+	{ "model": "block/chair_4"},
+	{ "model": "block/chair_5"}
+	]
         },
         {
             "when": {
                 "age": 7
             },
-            "apply": {
-                "model": "block/chair",
-                "y": 90
-            }
+            "apply": [
+	{ "model": "block/chair", "y": 90},
+	{ "model": "block/chair_2", "y": 90},
+	{ "model": "block/chair_2_2", "y": 90},
+	{ "model": "block/chair_3", "y": 90},
+	{ "model": "block/chair_4", "y": 90},
+	{ "model": "block/chair_5", "y": 90}
+	]
         },
         {
             "when": {
                 "age": 8
             },
-            "apply": {
-                "model": "block/chair",
-                "y": 180
-            }
+            "apply": [
+	{ "model": "block/chair", "y": 180},
+	{ "model": "block/chair_2", "y": 180},
+	{ "model": "block/chair_2_2", "y": 180},
+	{ "model": "block/chair_3", "y": 180},
+	{ "model": "block/chair_4", "y": 180},
+	{ "model": "block/chair_5", "y": 180}
+	]
         },
         {
             "when": {
                 "age": 9
             },
-            "apply": {
-                "model": "block/chair",
-                "y": 270
-            }
+            "apply": [
+	{ "model": "block/chair", "y": 270},
+	{ "model": "block/chair_2", "y": 270},
+	{ "model": "block/chair_2_2", "y": 270},
+	{ "model": "block/chair_3", "y": 270},
+	{ "model": "block/chair_4", "y": 270},
+	{ "model": "block/chair_5", "y": 270}
+	]
         },
         {
             "when": {
                 "age": 10
             },
             "apply": [
-                {
-                    "model": "block/small_table"
-                },
-                {
-                    "model": "block/small_table_2"
-                }
+                {   "model": "block/small_table" },
+				{   "model": "block/small_table", "y": 90 },
+				{   "model": "block/small_table", "y": 180 },
+				{   "model": "block/small_table", "y": 270 },
+                {   "model": "block/small_table_2"  },
+				{   "model": "block/small_table_2", "y": 90  },
+				{   "model": "block/small_table_2", "y": 180  },
+				{   "model": "block/small_table_2", "y": 270  }
             ]
         },
         {
@@ -122,10 +139,10 @@
             },
             "apply": [
                 {
-                    "model": "block/large_table"
+                    "model": "block/replace_cutout"
                 },
                 {
-                    "model": "block/large_table",
+                    "model": "block/replace_cutout",
                     "y": 90
                 }
             ]
@@ -136,7 +153,7 @@
             },
             "apply": [
                 {
-                    "model": "block/bench"
+                    "model": "block/replace_cutout"
                 }
             ]
         },
@@ -145,7 +162,7 @@
                 "age": 14
             },
             "apply": {
-                "model": "block/bench"
+                "model": "block/replace_cutout"
             }
         },
         {
@@ -153,7 +170,7 @@
                 "age": 15
             },
             "apply": {
-                "model": "block/bench",
+                "model": "block/replace_cutout",
                 "y": 90
             }
         }

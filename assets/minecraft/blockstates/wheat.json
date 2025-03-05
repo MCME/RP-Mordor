@@ -31,10 +31,11 @@
             }
         ],
         "age=1": [
-            {
-                "model": "block/unused_cross_cutout"
-            }
-        ],
+      { "model": "block/wheat_1" },
+      { "model": "block/wheat_1", "y": 90 },
+      { "model": "block/wheat_1", "y": 180 },
+      { "model": "block/wheat_1", "y": 270 }
+    ],
         "age=0": [
             {
                 "model": "block/unused_cross_cutout"

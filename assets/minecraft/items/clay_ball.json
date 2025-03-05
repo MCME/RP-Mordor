@@ -2821,6 +2821,76 @@
                     "model": "block/sewage_marks"
                 }
             },
+			{
+                "threshold": 475,
+                "model": {
+                    "type": "model",
+                    "model": "block/chair"
+                }
+            },
+			{
+                "threshold": 476,
+                "model": {
+                    "type": "model",
+                    "model": "block/small_table"
+                }
+            },
+			{
+                "threshold": 477,
+                "model": {
+                    "type": "model",
+                    "model": "block/stool"
+                }
+            },
+			{
+                "threshold": 478,
+                "model": {
+                    "type": "model",
+                    "model": "block/double_slab_wood_old"
+                }
+            },
+			{
+                "threshold": 479,
+                "model": {
+                    "type": "model",
+                    "model": "block/paper"
+                }
+            },
+			{
+                "threshold": 480,
+                "model": {
+                    "type": "model",
+                    "model": "block/paper_stack"
+                }
+            },
+			{
+                "threshold": 481,
+                "model": {
+                    "type": "model",
+                    "model": "block/bell_0"
+                }
+            },
+			{
+                "threshold": 482,
+                "model": {
+                    "type": "model",
+                    "model": "block/wheat_1"
+                }
+            },
+			{
+                "threshold": 483,
+                "model": {
+                    "type": "model",
+                    "model": "block/plate_cutlery"
+                }
+            },
+			{
+                "threshold": 484,
+                "model": {
+                    "type": "model",
+                    "model": "block/bread"
+                }
+            },
             {
                 "threshold": 644,
                 "model": {
