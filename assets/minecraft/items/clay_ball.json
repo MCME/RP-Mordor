@@ -889,13 +889,6 @@
                     "model": "item/redstone_dust_power5_center"
                 }
             },
-            {
-                "threshold": 160,
-                "model": {
-                    "type": "model",
-                    "model": "block/grass_block_dirt_inventory"
-                }
-            },
 			{
                 "threshold": 163,
                 "model": {
@@ -1513,38 +1506,10 @@
                 }
             },
 			{
-                "threshold": 262,
-                "model": {
-                    "type": "model",
-                    "model": "block/trapdoor_monster_egg_cobblestone_open_regular"
-                }
-            },
-			{
-                "threshold": 263,
-                "model": {
-                    "type": "model",
-                    "model": "block/trapdoor_monster_egg_cobblestone_bottom_regular"
-                }
-            },
-			{
                 "threshold": 264,
                 "model": {
                     "type": "model",
                     "model": "block/double_slab_purpur"
-                }
-            },
-            {
-                "threshold": 265,
-                "model": {
-                    "type": "model",
-                    "model": "block/heavy_pressure_plate_power6"
-                }
-            },
-			{
-                "threshold": 266,
-                "model": {
-                    "type": "model",
-                    "model": "block/monster_egg_cobblestone"
                 }
             },
 			{
@@ -1559,13 +1524,6 @@
                 "model": {
                     "type": "model",
                     "model": "block/vertical_slab_double_slab_cobblestone"
-                }
-            },
-            {
-                "threshold": 269,
-                "model": {
-                    "type": "model",
-                    "model": "block/heavy_pressure_plate_power10"
                 }
             },
 			{
@@ -1587,13 +1545,6 @@
                 "model": {
                     "type": "model",
                     "model": "block/powered_repeater_delay2_e"
-                }
-            },
-			{
-                "threshold": 273,
-                "model": {
-                    "type": "model",
-                    "model": "block/vertical_slab_monster_egg_cobblestone_regular"
                 }
             },
             {
@@ -1869,13 +1820,6 @@
                     "model": "block/boulders_mossy"
                 }
             },
-            {
-                "threshold": 319,
-                "model": {
-                    "type": "model",
-                    "model": "block/grass_block_polished_andesite_inventory"
-                }
-            },
 			{
                 "threshold": 320,
                 "model": {
@@ -2143,13 +2087,6 @@
                 }
             },
             {
-                "threshold": 363,
-                "model": {
-                    "type": "model",
-                    "model": "block/repeater_delay2_n"
-                }
-            },
-            {
                 "threshold": 364,
                 "model": {
                     "type": "model",
@@ -2336,13 +2273,6 @@
                 "model": {
                     "type": "model",
                     "model": "block/nether_wart_2_0"
-                }
-            },
-            {
-                "threshold": 396,
-                "model": {
-                    "type": "model",
-                    "model": "item/waterlogged_sand_slab"
                 }
             },
 			{
@@ -2804,7 +2734,7 @@
                 "threshold": 462,
                 "model": {
                     "type": "model",
-                    "model": "block/shelving_simple"
+                    "model": "block/wooden_shelving_simple"
                 }
             },
 			{
@@ -2917,20 +2847,6 @@
                 "model": {
                     "type": "model",
                     "model": "block/red_mushroom_block_neu"
-                }
-            },
-            {
-                "threshold": 815,
-                "model": {
-                    "type": "model",
-                    "model": "block/pink_glazed_terracotta_sw"
-                }
-            },
-            {
-                "threshold": 816,
-                "model": {
-                    "type": "model",
-                    "model": "block/yellow_glazed_terracotta_sw"
                 }
             },
             {

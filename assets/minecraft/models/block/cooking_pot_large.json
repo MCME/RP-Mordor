@@ -9,7 +9,7 @@
 		"3": "block/burnt_oak_log_model_2",
 		"5": "block/campfire_model",
 		"6": "block/cook_pot_large",
-		"particle": "#6"
+		"particle": "block/cook_pot_large"
 	},
 	"elements": [
 		{
@@ -478,10 +478,10 @@
 			"to": [17.95, 7, 17.95],
 			"rotation": {"angle": 0, "axis": "y", "origin": [7, 5, 7]},
 			"faces": {
-				"north": {"uv": [0, 0, 5, 0], "texture": "#missing"},
-				"east": {"uv": [0, 0, 5, 0], "texture": "#missing"},
-				"south": {"uv": [0, 0, 5, 0], "texture": "#missing"},
-				"west": {"uv": [0, 0, 5, 0], "texture": "#missing"},
+				"north": {"uv": [0, 0, 5, 0], "texture": "#6"},
+				"east": {"uv": [0, 0, 5, 0], "texture": "#6"},
+				"south": {"uv": [0, 0, 5, 0], "texture": "#6"},
+				"west": {"uv": [0, 0, 5, 0], "texture": "#6"},
 				"up": {"uv": [9.5, 2, 14.5, 7], "texture": "#6"},
 				"down": {"uv": [9.75, 2.25, 14.75, 7.25], "texture": "#6"}
 			}
@@ -491,10 +491,10 @@
 			"to": [17.95, 18.3, 17.95],
 			"rotation": {"angle": 0, "axis": "y", "origin": [7, 5, 7]},
 			"faces": {
-				"north": {"uv": [0, 0, 5, 0], "texture": "#missing"},
-				"east": {"uv": [0, 0, 5, 0], "texture": "#missing"},
-				"south": {"uv": [0, 0, 5, 0], "texture": "#missing"},
-				"west": {"uv": [0, 0, 5, 0], "texture": "#missing"},
+				"north": {"uv": [0, 0, 5, 0], "texture": "#6"},
+				"east": {"uv": [0, 0, 5, 0], "texture": "#6"},
+				"south": {"uv": [0, 0, 5, 0], "texture": "#6"},
+				"west": {"uv": [0, 0, 5, 0], "texture": "#6"},
 				"up": {"uv": [9.5, 2, 14.5, 7], "texture": "#6"},
 				"down": {"uv": [9.75, 2.25, 14.75, 7.25], "texture": "#6"}
 			}
