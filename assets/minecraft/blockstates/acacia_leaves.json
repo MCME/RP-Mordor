@@ -13,11 +13,11 @@
             "model": "block/big_barrel"
         },
         "distance=5,persistent=false": {
-            "model": "minecraft:block/replace_cutout",
+            "model": "minecraft:block/minecart",
             "y": 180
         },
         "distance=6,persistent=false": {
-            "model": "minecraft:block/replace_cutout",
+            "model": "minecraft:block/minecart",
             "y": 270
         },
         "distance=7,persistent=false": {

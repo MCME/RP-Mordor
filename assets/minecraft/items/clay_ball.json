@@ -2786,6 +2786,41 @@
                     "model": "block/barrel_water_full_item"
                 }
             },
+			{
+                "threshold": 470,
+                "model": {
+                    "type": "model",
+                    "model": "block/primitive_roof_support"
+                }
+            },
+			{
+                "threshold": 471,
+                "model": {
+                    "type": "model",
+                    "model": "block/minecart"
+                }
+            },
+			{
+                "threshold": 472,
+                "model": {
+                    "type": "model",
+                    "model": "block/weathering_marks"
+                }
+            },
+			{
+                "threshold": 473,
+                "model": {
+                    "type": "model",
+                    "model": "block/burn_marks"
+                }
+            },
+			{
+                "threshold": 474,
+                "model": {
+                    "type": "model",
+                    "model": "block/sewage_marks"
+                }
+            },
             {
                 "threshold": 644,
                 "model": {
