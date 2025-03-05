@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/rail",
+  "textures": {
+    "layer0": "minecraft:block/rail"
+  }
+}
