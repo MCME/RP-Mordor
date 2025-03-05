@@ -36,20 +36,6 @@
                 }
             },
             {
-                "threshold": 5,
-                "model": {
-                    "type": "model",
-                    "model": "block/oak_sapling_stage1"
-                }
-            },
-            {
-                "threshold": 6,
-                "model": {
-                    "type": "model",
-                    "model": "block/spruce_sapling_stage1"
-                }
-            },
-            {
                 "threshold": 7,
                 "model": {
                     "type": "model",
@@ -68,27 +54,6 @@
                 "model": {
                     "type": "model",
                     "model": "block/acacia_wood"
-                }
-            },
-            {
-                "threshold": 20,
-                "model": {
-                    "type": "model",
-                    "model": "item/tree_spruce_inventory_y"
-                }
-            },
-            {
-                "threshold": 22,
-                "model": {
-                    "type": "model",
-                    "model": "item/tree_spruce_inventory_z"
-                }
-            },
-            {
-                "threshold": 24,
-                "model": {
-                    "type": "model",
-                    "model": "item/tree_spruce_inventory_cross_flat"
                 }
             },
             {
@@ -194,27 +159,6 @@
                 "model": {
                     "type": "model",
                     "model": "item/catwalk_wide"
-                }
-            },
-            {
-                "threshold": 43,
-                "model": {
-                    "type": "model",
-                    "model": "block/onions_red_stage0"
-                }
-            },
-            {
-                "threshold": 45,
-                "model": {
-                    "type": "model",
-                    "model": "block/onions_red_stage2"
-                }
-            },
-            {
-                "threshold": 47,
-                "model": {
-                    "type": "model",
-                    "model": "block/onions_white_stage0"
                 }
             },
             {
@@ -617,20 +561,6 @@
                 }
             },
 			{
-                "threshold": 109,
-                "model": {
-                    "type": "model",
-                    "model": "block/unused"
-                }
-            },
-			{
-                "threshold": 110,
-                "model": {
-                    "type": "model",
-                    "model": "block/unused"
-                }
-            },
-			{
                 "threshold": 111,
                 "model": {
                     "type": "model",
@@ -726,13 +656,6 @@
                 "model": {
                     "type": "model",
                     "model": "item/corbel_large"
-                }
-            },
-            {
-                "threshold": 125,
-                "model": {
-                    "type": "model",
-                    "model": "block/grass_block_white_concrete_inventory"
                 }
             },
 			{
@@ -973,20 +896,6 @@
                     "model": "block/grass_block_dirt_inventory"
                 }
             },
-            {
-                "threshold": 161,
-                "model": {
-                    "type": "model",
-                    "model": "block/grass_block_bubble_coral_inventory"
-                }
-            },
-            {
-                "threshold": 162,
-                "model": {
-                    "type": "model",
-                    "model": "block/grass_block_gray_terracotta_inventory"
-                }
-            },
 			{
                 "threshold": 163,
                 "model": {
@@ -1104,34 +1013,6 @@
                 "model": {
                     "type": "model",
                     "model": "block/podzol_snowy"
-                }
-            },
-            {
-                "threshold": 180,
-                "model": {
-                    "type": "model",
-                    "model": "block/grass_block_red_concrete_inventory"
-                }
-            },
-            {
-                "threshold": 181,
-                "model": {
-                    "type": "model",
-                    "model": "block/grass_block_orange_concrete_inventory"
-                }
-            },
-            {
-                "threshold": 188,
-                "model": {
-                    "type": "model",
-                    "model": "block/grass_block_green_concrete_inventory"
-                }
-            },
-            {
-                "threshold": 189,
-                "model": {
-                    "type": "model",
-                    "model": "block/grass_block_stone_inventory"
                 }
             },
 			{
@@ -2931,6 +2812,48 @@
                 "model": {
                     "type": "model",
                     "model": "block/bed_grey_half"
+                }
+            },
+			{
+                "threshold": 464,
+                "model": {
+                    "type": "model",
+                    "model": "block/barrel"
+                }
+            },
+			{
+                "threshold": 465,
+                "model": {
+                    "type": "model",
+                    "model": "block/barrel_meat_half_item"
+                }
+            },
+			{
+                "threshold": 466,
+                "model": {
+                    "type": "model",
+                    "model": "block/barrel_coal_half_item"
+                }
+            },
+			{
+                "threshold": 467,
+                "model": {
+                    "type": "model",
+                    "model": "block/barrel_coal_full_item"
+                }
+            },
+			{
+                "threshold": 468,
+                "model": {
+                    "type": "model",
+                    "model": "block/barrel_water_half_item"
+                }
+            },
+			{
+                "threshold": 469,
+                "model": {
+                    "type": "model",
+                    "model": "block/barrel_water_full_item"
                 }
             },
             {

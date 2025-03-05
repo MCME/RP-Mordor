@@ -21,13 +21,13 @@
             "y": 270
         },
         "distance=7,persistent=false": {
-            "model": "block/barrel_coal_full_item"
+            "model": "block/replace_cutout"
         },
-        "distance=1,persistent=false": {
-            "model": "block/barrel_coal_half_item"
-        },
+        "distance=1,persistent=false": [
+		{ "model": "block/barrel_coal_half_item" },
+		{ "model": "block/barrel_coal_full_item" }],
         "distance=2,persistent=true": {
-            "model": "minecraft:block/replace_cutout",
+            "model": "minecraft:block/barrel",
             "y": 90
         },
         "distance=3,persistent=true": {

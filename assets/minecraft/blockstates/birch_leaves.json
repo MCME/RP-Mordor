@@ -33,11 +33,11 @@
             "model": "minecraft:block/replace_cutout",
             "y": 270
         },
-        "distance=2,persistent=true": {
-            "model": "block/barrel_water_full_item"
-        },
+        "distance=2,persistent=true": [
+		{  "model": "block/barrel_water_full_item"  },
+		{  "model": "block/barrel_water_half_item"  }],
         "distance=3,persistent=true": {
-            "model": "block/barrel_water_half_item"
+            "model": "block/replace_cutout"
         },
         "distance=4,persistent=true": {
             "model": "minecraft:block/replace_cutout",
