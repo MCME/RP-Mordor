@@ -65,30 +65,39 @@
                 "facing": "down",
                 "triggered": "true"
             },
-            "apply": {
-                "model": "block/dropper_powered_nwd"
-            }
+            "apply": [
+			{  "model": "block/dropper_powered_nwd"  },
+			{  "model": "block/dropper_powered_nwd_2"  }]
         },
         {
             "when": {
                 "facing": "north",
                 "triggered": "true"
             },
-            "apply": {
+            "apply": [{
                 "model": "block/dropper_powered_nwd",
                 "x": 90
-            }
+            },
+			{
+                "model": "block/dropper_powered_nwd_2",
+                "x": 90
+            }]
         },
         {
             "when": {
                 "facing": "west",
                 "triggered": "true"
             },
-            "apply": {
+            "apply": [{
                 "model": "block/dropper_powered_nwd",
                 "y": 90,
                 "x": 90
-            }
+            },
+			{
+                "model": "block/dropper_powered_nwd_2",
+                "y": 90,
+                "x": 90
+            }]
         },
         {
             "when": {
