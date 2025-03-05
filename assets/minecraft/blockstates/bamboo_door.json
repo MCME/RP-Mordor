@@ -80,10 +80,30 @@
 	{ "model": "block/retaining_wall_3", "y": 90 },
 	{ "model": "block/retaining_wall_4", "y": 90 }
 	],
-    "powered=true,half=lower,hinge=left,open=true,facing=north": { "model": "block/bamboo_door_top_right_open" },
-    "powered=true,half=lower,hinge=left,open=true,facing=east": { "model": "block/bamboo_door_top_right_open", "y": 90 },
-    "powered=true,half=lower,hinge=left,open=true,facing=south": { "model": "block/bamboo_door_top_right_open", "y": 180 },
-    "powered=true,half=lower,hinge=left,open=true,facing=west": { "model": "block/bamboo_door_top_right_open", "y": 270 },
+    "powered=true,half=lower,hinge=left,open=true,facing=north": [
+	{ "model": "block/primitive_roof_support", "y":270 },
+	{ "model": "block/primitive_roof_support_2", "y":270 },
+	{ "model": "block/primitive_roof_support_3", "y":270 },
+	{ "model": "block/primitive_roof_support_4", "y":270 }
+	],
+    "powered=true,half=lower,hinge=left,open=true,facing=east": [
+	{ "model": "block/primitive_roof_support"},
+	{ "model": "block/primitive_roof_support_2"},
+	{ "model": "block/primitive_roof_support_3"},
+	{ "model": "block/primitive_roof_support_4"}
+	],
+    "powered=true,half=lower,hinge=left,open=true,facing=south": [
+	{ "model": "block/primitive_roof_support", "y": 90 },
+	{ "model": "block/primitive_roof_support_2", "y": 90 },
+	{ "model": "block/primitive_roof_support_3", "y": 90 },
+	{ "model": "block/primitive_roof_support_4", "y": 90 }
+	],
+    "powered=true,half=lower,hinge=left,open=true,facing=west": [
+	{ "model": "block/primitive_roof_support", "y": 180 },
+	{ "model": "block/primitive_roof_support_2", "y": 180 },
+	{ "model": "block/primitive_roof_support_3", "y": 180 },
+	{ "model": "block/primitive_roof_support_4", "y": 180 }
+	],
     "powered=true,half=lower,hinge=right,open=false,facing=north": { "model": "block/bamboo_door_top_right_open", "y": 270 },
     "powered=true,half=lower,hinge=right,open=false,facing=east": { "model": "block/bamboo_door_top_right_open" },
     "powered=true,half=lower,hinge=right,open=false,facing=south": { "model": "block/bamboo_door_top_right_open", "y": 90 },
