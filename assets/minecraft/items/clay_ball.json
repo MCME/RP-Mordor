@@ -2898,6 +2898,41 @@
                     "model": "item/dark_oak_leaves_grass_soil_inventory"
                 }
             },
+			{
+                "threshold": 459,
+                "model": {
+                    "type": "model",
+                    "model": "block/meat_slab"
+                }
+            },
+			{
+                "threshold": 460,
+                "model": {
+                    "type": "model",
+                    "model": "block/meat_spit"
+                }
+            },
+			{
+                "threshold": 461,
+                "model": {
+                    "type": "model",
+                    "model": "block/meat_vertical"
+                }
+            },
+			{
+                "threshold": 462,
+                "model": {
+                    "type": "model",
+                    "model": "block/shelving_simple"
+                }
+            },
+			{
+                "threshold": 463,
+                "model": {
+                    "type": "model",
+                    "model": "block/bed_grey_half"
+                }
+            },
             {
                 "threshold": 644,
                 "model": {

@@ -870,7 +870,7 @@
                 "powered": "true"
             },
             "apply": {
-                "model": "block/door_unused",
+                "model": "block/wooden_shelving_simple",
                 "y": 270
             }
         },
@@ -883,7 +883,7 @@
                 "powered": "true"
             },
             "apply": {
-                "model": "block/door_unused"
+                "model": "block/wooden_shelving_simple"
             }
         },
         {
@@ -895,7 +895,7 @@
                 "powered": "true"
             },
             "apply": {
-                "model": "block/door_unused",
+                "model": "block/wooden_shelving_simple",
                 "y": 90
             }
         },
@@ -908,7 +908,7 @@
                 "powered": "true"
             },
             "apply": {
-                "model": "block/door_unused",
+                "model": "block/wooden_shelving_simple",
                 "y": 180
             }
         }
