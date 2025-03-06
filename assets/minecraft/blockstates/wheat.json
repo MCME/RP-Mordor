@@ -27,7 +27,7 @@
         ],
         "age=2": [
             {
-                "model": "block/unused_cross_cutout"
+                "model": "block/armor_ground"
             }
         ],
         "age=1": [
