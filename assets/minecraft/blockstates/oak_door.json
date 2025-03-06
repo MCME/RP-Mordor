@@ -315,8 +315,7 @@
                 "powered": "false"
             },
             "apply": {
-                "model": "block/replace_thin_slab",
-                "y": 90
+                "model": "block/empty_rack"
             }
         },
         {
@@ -328,8 +327,8 @@
                 "powered": "false"
             },
             "apply": {
-                "model": "block/replace_thin_slab",
-                "y": 180
+                "model": "block/empty_rack",
+                "y": 90
             }
         },
         {
@@ -341,8 +340,8 @@
                 "powered": "false"
             },
             "apply": {
-                "model": "block/replace_thin_slab",
-                "y": 270
+                "model": "block/empty_rack",
+                "y": 180
             }
         },
         {
@@ -354,7 +353,7 @@
                 "powered": "false"
             },
             "apply": {
-                "model": "block/replace_thin_slab"
+                "model": "block/empty_rack", "y":270
             }
         },
         {

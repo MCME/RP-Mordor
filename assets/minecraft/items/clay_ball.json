@@ -2891,6 +2891,13 @@
                     "model": "block/bread"
                 }
             },
+			{
+                "threshold": 485,
+                "model": {
+                    "type": "model",
+                    "model": "block/empty_rack"
+                }
+            },
             {
                 "threshold": 644,
                 "model": {
