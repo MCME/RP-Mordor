@@ -1,0 +1,16 @@
+{
+    "variants": {
+        "stage=0": {
+            "model": "block/unused_cross_cutout"
+        },
+        "stage=1": [
+		{ "model": "block/arrows" },
+		{ "model": "block/arrows", "y":90 },
+		{ "model": "block/arrows", "y":180 },
+		{ "model": "block/arrows", "y":270 },
+		{ "model": "block/arrows_2" },
+		{ "model": "block/arrows_2", "y":90 },
+		{ "model": "block/arrows_2", "y":180 },
+		{ "model": "block/arrows_2", "y":270 }]
+    }
+}

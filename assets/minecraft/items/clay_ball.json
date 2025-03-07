@@ -2919,6 +2919,13 @@
                     "model": "block/tripwire_hook"
                 }
             },
+			{
+                "threshold": 489,
+                "model": {
+                    "type": "model",
+                    "model": "block/arrows"
+                }
+            },
             {
                 "threshold": 644,
                 "model": {
