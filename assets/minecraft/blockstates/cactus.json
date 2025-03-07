@@ -53,7 +53,7 @@
                 "age": 5
             },
             "apply": {
-                "model": "block/replace_cutout"
+                "model": "block/cactus_5"
             }
         },
         {
@@ -139,10 +139,10 @@
             },
             "apply": [
                 {
-                    "model": "block/replace_cutout"
+                    "model": "block/cactus_12"
                 },
                 {
-                    "model": "block/replace_cutout",
+                    "model": "block/cactus_12",
                     "y": 90
                 }
             ]
