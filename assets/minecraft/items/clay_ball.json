@@ -2926,6 +2926,20 @@
                     "model": "block/arrows"
                 }
             },
+			{
+                "threshold": 490,
+                "model": {
+                    "type": "model",
+                    "model": "block/spears_up"
+                }
+            },
+			{
+                "threshold": 491,
+                "model": {
+                    "type": "model",
+                    "model": "block/rack_weapons"
+                }
+            },
             {
                 "threshold": 644,
                 "model": {

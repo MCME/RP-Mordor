@@ -1,8 +1,15 @@
 {
     "variants": {
-        "stage=0": {
-            "model": "block/unused_cross_cutout"
-        },
+        "stage=0": [
+		{ "model": "block/spears_up" },
+		{ "model": "block/spears_up", "y":90 },
+		{ "model": "block/spears_up", "y":180 },
+		{ "model": "block/spears_up", "y":270 },
+		{ "model": "block/spears_up_2" },
+		{ "model": "block/spears_up_2", "y":90 },
+		{ "model": "block/spears_up_2", "y":180 },
+		{ "model": "block/spears_up_2", "y":270 }
+		],
         "stage=1": [
 		{ "model": "block/arrows" },
 		{ "model": "block/arrows", "y":90 },
