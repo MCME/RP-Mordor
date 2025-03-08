@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/shield_floor",
+  "textures": {
+    "layer0": "minecraft:block/shield_models"
+  }
+}

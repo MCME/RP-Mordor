@@ -2940,6 +2940,13 @@
                     "model": "block/rack_weapons"
                 }
             },
+			{
+                "threshold": 492,
+                "model": {
+                    "type": "model",
+                    "model": "block/shield_floor"
+                }
+            },
             {
                 "threshold": 644,
                 "model": {
