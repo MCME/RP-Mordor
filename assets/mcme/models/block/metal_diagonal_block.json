@@ -3,6 +3,6 @@
   "flip_v": true,
   "model": "mcme:models/block/metal_diagonal_block.obj",
   "particle": "mcme:block/rusty_metal_composite",
-  "ambientocclusion": true
+  "ambientocclusion": false
   
 }
