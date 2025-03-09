@@ -2947,6 +2947,13 @@
                     "model": "block/shield_floor"
                 }
             },
+			{
+                "threshold": 493,
+                "model": {
+                    "type": "model",
+                    "model": "block/shield_wall"
+                }
+            },
             {
                 "threshold": 644,
                 "model": {

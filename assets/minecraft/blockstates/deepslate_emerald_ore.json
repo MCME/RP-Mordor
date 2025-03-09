@@ -1,7 +1,21 @@
 {
     "variants": {
-        "": {
-            "model": "minecraft:block/replace"
-        }
+        "": [
+            {
+                "model": "block/deepslate_emerald_ore"
+            },
+            {
+                "model": "block/deepslate_emerald_ore_2"
+            },
+            {
+                "model": "block/deepslate_emerald_ore_3"
+            },
+            {
+                "model": "block/deepslate_emerald_ore_4"
+            },
+            {
+                "model": "block/deepslate_emerald_ore_5"
+            }
+        ]
     }
 }
