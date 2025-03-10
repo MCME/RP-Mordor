@@ -60,11 +60,11 @@
 	  { "model": "block/trapdoor_acacia_planks_bottom_6", "x":180 }
 	  ],
       "facing=south,half=bottom,open=false,powered=false": {
-          "model": "minecraft:block/replace_thin_slab",
+          "model": "minecraft:block/grate",
           "y": 180
       },
       "facing=south,half=top,open=false,powered=false": {
-          "model": "minecraft:block/replace_thin_slab",
+          "model": "minecraft:block/grate",
           "x": 180
       },
       "facing=west,half=bottom,open=false,powered=false": {

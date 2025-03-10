@@ -1,0 +1,13 @@
+{
+  "parent": "block/boulders_4",
+  "textures": {
+    "stone": "block/ancient_debris",
+    "stone_1": "block/ancient_debris",
+    "stone_2": "block/ancient_debris",
+    "stone_3": "block/ancient_debris",
+    "stone_4": "block/ancient_debris",
+    "stone_5": "block/ancient_debris",
+    "stone_6": "block/ancient_debris",
+    "base": "block/ancient_debris"
+  }
+}

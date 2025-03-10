@@ -1,0 +1,8 @@
+{
+  "parent": "block/boulders_big_5",
+  "textures": {
+    "0": "block/ancient_debris_composite",
+	"1": "block/ancient_debris_composite",
+	"2": "block/ancient_debris_composite"
+  }
+}

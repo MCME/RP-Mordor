@@ -576,8 +576,7 @@
                 "powered": "true"
             },
             "apply": {
-                "model": "block/spruce_door_bottom_powered",
-                "y": 180
+                "model": "block/spruce_door_bottom_powered"
             }
         },
         {

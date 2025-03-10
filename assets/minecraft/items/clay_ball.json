@@ -2587,7 +2587,7 @@
                 "threshold": 441,
                 "model": {
                     "type": "model",
-                    "model": "block/chopping_block"
+                    "model": "block/chopping_block_2"
                 }
             },
             {
@@ -2951,7 +2951,28 @@
                 "threshold": 493,
                 "model": {
                     "type": "model",
-                    "model": "block/shield_wall"
+                    "model": "block/wall_shield"
+                }
+            },
+			{
+                "threshold": 494,
+                "model": {
+                    "type": "model",
+                    "model": "block/grate"
+                }
+            },
+			{
+                "threshold": 495,
+                "model": {
+                    "type": "model",
+                    "model": "block/note_block_25"
+                }
+            },
+			{
+                "threshold": 496,
+                "model": {
+                    "type": "model",
+                    "model": "block/boulders_black"
                 }
             },
             {

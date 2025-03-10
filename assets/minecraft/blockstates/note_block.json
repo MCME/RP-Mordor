@@ -419,6 +419,104 @@
                 "y": 270
             }
         ],
+		"instrument=basedrum,note=16,powered=false,": [
+            {
+                "model": "block/note_block_25",
+                "y": 270
+            },
+            {
+                "model": "block/note_block_26",
+                "y": 180
+            },
+            {
+                "model": "block/note_block_27",
+                "y": 90
+            },
+            {
+                "model": "block/note_block_28",
+                "y": 90
+            },
+            {
+                "model": "block/note_block_29",
+                "y": 270
+            },
+            {
+                "model": "block/note_block_30",
+                "y": 270
+            }
+        ],
+		"instrument=basedrum,note=17,powered=false,": [
+            {
+                "model": "block/note_block_25",
+                "y": 180
+            },
+            {
+                "model": "block/note_block_26",
+                "y": 90
+            },
+            {
+                "model": "block/note_block_27"
+            },
+            {
+                "model": "block/note_block_28"
+            },
+            {
+                "model": "block/note_block_29",
+                "y": 180
+            },
+            {
+                "model": "block/note_block_30",
+                "y": 180
+            }
+        ],
+		"instrument=basedrum,note=18,powered=false,": [
+            {
+                "model": "block/note_block_25",
+                "y": 90
+            },
+            {
+                "model": "block/note_block_26"
+            },
+            {
+                "model": "block/note_block_27",
+                "y": 270
+            },
+            {
+                "model": "block/note_block_28",
+                "y": 270
+            },
+            {
+                "model": "block/note_block_29",
+                "y": 90
+            },
+            {
+                "model": "block/note_block_30",
+                "y": 90
+            }
+        ],
+		"instrument=basedrum,note=19,powered=false,": [
+            {
+                "model": "block/note_block_25"
+            },
+            {
+                "model": "block/note_block_26",
+                "y": 270
+            },
+            {
+                "model": "block/note_block_27",
+                "y": 180
+            },
+            {
+                "model": "block/note_block_28",
+                "y": 180
+            },
+            {
+                "model": "block/note_block_29"
+            },
+            {
+                "model": "block/note_block_30"
+            }
+        ],
         "instrument=snare,note=0,powered=false,": {
             "model": "block/replace_tile_entity"
         },
