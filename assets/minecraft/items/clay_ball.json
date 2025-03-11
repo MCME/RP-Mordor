@@ -2982,6 +2982,13 @@
                     "model": "block/bows"
                 }
             },
+			{
+                "threshold": 498,
+                "model": {
+                    "type": "model",
+                    "model": "item/straw_mat"
+                }
+            },
             {
                 "threshold": 644,
                 "model": {

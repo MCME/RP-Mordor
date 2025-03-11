@@ -56,23 +56,23 @@
         ],
         "delay=3,facing=south,locked=false,powered=false": [
             {
-                "model": "block/repeater_delay3_s"
+                "model": "block/replace_thin_slab"
             },
             {
-                "model": "block/repeater_delay3_s_2"
+                "model": "block/replace_thin_slab"
             },
             {
-                "model": "block/repeater_delay3_s_3"
+                "model": "block/replace_thin_slab"
             }
         ],
         "delay=3,facing=west,locked=false,powered=false": {
-            "model": "block/repeater_delay3_w"
+            "model": "block/replace_thin_slab"
         },
         "delay=3,facing=north,locked=false,powered=false": {
             "model": "block/repeater_delay3_n"
         },
         "delay=3,facing=east,locked=false,powered=false": {
-            "model": "block/repeater_delay3_e"
+            "model": "block/replace_thin_slab"
         },
         "delay=4,facing=south,locked=false,powered=false": {
             "model": "block/repeater_delay4_s"
