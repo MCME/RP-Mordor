@@ -2975,6 +2975,13 @@
                     "model": "block/boulders_black"
                 }
             },
+			{
+                "threshold": 497,
+                "model": {
+                    "type": "model",
+                    "model": "block/bows"
+                }
+            },
             {
                 "threshold": 644,
                 "model": {
