@@ -107,6 +107,21 @@
             {
                 "model": "block/podzol_snowy",
                 "y": 270
+            },
+			{
+                "model": "block/podzol_snowy_2"
+            },
+            {
+                "model": "block/podzol_snowy_2",
+                "y": 90
+            },
+            {
+                "model": "block/podzol_snowy_2",
+                "y": 180
+            },
+            {
+                "model": "block/podzol_snowy_2",
+                "y": 270
             }
         ]
     }
