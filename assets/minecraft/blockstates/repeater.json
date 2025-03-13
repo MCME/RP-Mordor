@@ -1,8 +1,7 @@
 {
     "variants": {
         "delay=1,facing=south,locked=false,powered=false": [
-            {
-                "model": "block/repeater_delay1_s"
+            {  "model": "block/repeater_delay1_s"
             },
             {
                 "model": "block/repeater_delay1_s",
@@ -86,9 +85,16 @@
         "delay=4,facing=east,locked=false,powered=false": {
             "model": "block/repeater_delay4_e"
         },
-        "delay=1,facing=south,locked=false,powered=true": {
-            "model": "block/powered_repeater_delay1_s"
-        },
+        "delay=1,facing=south,locked=false,powered=true": [
+		{  "model": "block/powered_repeater_delay1_s"  },
+		{  "model": "block/powered_repeater_delay1_s", "y":90  },
+		{  "model": "block/powered_repeater_delay1_s", "y":180  },
+		{  "model": "block/powered_repeater_delay1_s", "y":270  },
+		{  "model": "block/powered_repeater_delay1_s_2"  },
+		{  "model": "block/powered_repeater_delay1_s_2", "y":90  },
+		{  "model": "block/powered_repeater_delay1_s_2", "y":180  },
+		{  "model": "block/powered_repeater_delay1_s_2", "y":270  }
+		],
         "delay=1,facing=west,locked=false,powered=true": {
             "model": "block/powered_repeater_delay1_w"
         },

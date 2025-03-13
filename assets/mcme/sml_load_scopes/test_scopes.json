@@ -95,7 +95,9 @@
 	"mcme:block/mist_2",
 	"mcme:block/mist_3",
 	"mcme:block/burnt_branches",
-	"mcme:block/burnt_branches_2"
+	"mcme:block/burnt_branches_2",
+	"mcme:block/dead_tube_coral_fan",
+	"mcme:block/dead_tube_coral_fan_2"
 
   ]
 }
