@@ -3038,6 +3038,27 @@
                     "model": "block/ground_wide_hides"
                 }
             },
+			{
+                "threshold": 506,
+                "model": {
+                    "type": "model",
+                    "model": "item/waste_cover"
+                }
+            },
+			{
+                "threshold": 507,
+                "model": {
+                    "type": "model",
+                    "model": "block/repeater_delay1_w"
+                }
+            },
+			{
+                "threshold": 508,
+                "model": {
+                    "type": "model",
+                    "model": "block/powered_repeater_delay1_s"
+                }
+            },
             {
                 "threshold": 644,
                 "model": {
