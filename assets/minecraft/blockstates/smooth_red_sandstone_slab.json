@@ -18,10 +18,10 @@
             }
         ],
         "type=top": {
-            "model": "block/upper_slab_double_slab_red_sandstone_seamless"
+            "model": "block/replace_slab", "x":180
         },
         "type=double": {
-            "model": "block/smooth_red_sandstone"
+            "model": "block/replace"
         }
     }
 }

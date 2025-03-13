@@ -2,13 +2,13 @@
     "variants": {
         "": [
             {
-                "model": "minecraft:block/smooth_red_sandstone"
+                "model": "minecraft:block/replace"
             },
             {
-                "model": "minecraft:block/smooth_red_sandstone_2"
+                "model": "minecraft:block/replace"
             },
             {
-                "model": "minecraft:block/smooth_red_sandstone_3"
+                "model": "minecraft:block/replace"
             }
         ]
     }

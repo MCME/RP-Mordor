@@ -2989,6 +2989,34 @@
                     "model": "item/straw_mat"
                 }
             },
+			{
+                "threshold": 499,
+                "model": {
+                    "type": "model",
+                    "model": "block/fish_1"
+                }
+            },
+			{
+                "threshold": 500,
+                "model": {
+                    "type": "model",
+                    "model": "block/brown_mushroom"
+                }
+            },
+			{
+                "threshold": 501,
+                "model": {
+                    "type": "model",
+                    "model": "block/putrid_mushroom"
+                }
+            },
+			{
+                "threshold": 502,
+                "model": {
+                    "type": "model",
+                    "model": "block/cornflower"
+                }
+            },
             {
                 "threshold": 644,
                 "model": {

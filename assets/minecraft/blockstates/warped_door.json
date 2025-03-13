@@ -361,10 +361,16 @@
                 "open": "true",
                 "powered": "false"
             },
-            "apply": {
-                "model": "minecraft:block/door_unused",
-                "y": 270
-            }
+            "apply": [
+			{ "model": "minecraft:block/fish_1", "y": 180 },
+			{ "model": "minecraft:block/fish_8", "y": 180 },
+			{ "model": "minecraft:block/fish_2", "y": 180 },
+			{ "model": "minecraft:block/fish_3", "y": 180 },
+			{ "model": "minecraft:block/fish_4", "y": 180 },
+			{ "model": "minecraft:block/fish_5", "y": 180 },
+			{ "model": "minecraft:block/fish_6", "y": 180 },
+			{ "model": "minecraft:block/fish_7", "y": 180 }
+			]
         },
         {
             "when": {
@@ -374,9 +380,16 @@
                 "open": "true",
                 "powered": "false"
             },
-            "apply": {
-                "model": "minecraft:block/door_unused"
-            }
+            "apply": [
+			{  "model": "minecraft:block/fish_1", "y":270  },
+			{  "model": "minecraft:block/fish_8", "y":270  },
+			{  "model": "minecraft:block/fish_2", "y":270  },
+			{  "model": "minecraft:block/fish_3", "y":270  },
+			{  "model": "minecraft:block/fish_4", "y":270  },
+			{  "model": "minecraft:block/fish_5", "y":270  },
+			{  "model": "minecraft:block/fish_6", "y":270  },
+			{  "model": "minecraft:block/fish_7", "y":270  }
+			]
         },
         {
             "when": {
@@ -386,10 +399,16 @@
                 "open": "true",
                 "powered": "false"
             },
-            "apply": {
-                "model": "minecraft:block/door_unused",
-                "y": 90
-            }
+            "apply": [
+			{ "model": "minecraft:block/fish_1" },
+			{ "model": "minecraft:block/fish_8" },
+			{ "model": "minecraft:block/fish_2" },
+			{ "model": "minecraft:block/fish_3" },
+			{ "model": "minecraft:block/fish_4" },
+			{ "model": "minecraft:block/fish_5" },
+			{ "model": "minecraft:block/fish_6" },
+			{ "model": "minecraft:block/fish_7" }
+			]
         },
         {
             "when": {
@@ -399,10 +418,16 @@
                 "open": "true",
                 "powered": "false"
             },
-            "apply": {
-                "model": "minecraft:block/door_unused",
-                "y": 180
-            }
+            "apply": [
+			{ "model": "minecraft:block/fish_1",  "y": 90 },
+			{ "model": "minecraft:block/fish_8",  "y": 90 },
+			{ "model": "minecraft:block/fish_2",  "y": 90 },
+			{ "model": "minecraft:block/fish_3",  "y": 90 },
+			{ "model": "minecraft:block/fish_4",  "y": 90 },
+			{ "model": "minecraft:block/fish_5",  "y": 90 },
+			{ "model": "minecraft:block/fish_6",  "y": 90 },
+			{ "model": "minecraft:block/fish_7",  "y": 90 }
+			]
         },
         {
             "when": {
