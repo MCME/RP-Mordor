@@ -3024,6 +3024,20 @@
                     "model": "block/campfire_tripod"
                 }
             },
+			{
+                "threshold": 504,
+                "model": {
+                    "type": "model",
+                    "model": "block/ground_hide_2_offset"
+                }
+            },
+			{
+                "threshold": 505,
+                "model": {
+                    "type": "model",
+                    "model": "block/ground_wide_hides"
+                }
+            },
             {
                 "threshold": 644,
                 "model": {
