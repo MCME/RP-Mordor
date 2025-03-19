@@ -3625,7 +3625,15 @@
                     "type": "model",
                     "model": "block/redstone_dust_power7_center_4"
                 }
+            },
+			{
+                "threshold": 889,
+                "model": {
+                    "type": "model",
+                    "model": "block/nether_portal"
+                }
             }
+			
         ]
     }
 }
