@@ -3630,7 +3630,7 @@
                 "threshold": 889,
                 "model": {
                     "type": "model",
-                    "model": "block/nether_portal"
+                    "model": "block/portal_ns"
                 }
             }
 			
