@@ -1,20 +1,50 @@
 {
-  "variants": {
-    "moisture\u003d0": [
-	        { "model": "block/farmland_moisture0" },
-            { "model": "block/farmland_moisture0_2" }, 
-			{ "model": "block/farmland_moisture0_2" } 
-		],
-    "moisture\u003d1": { "model": "block/farmland_moisture1" },
-    "moisture\u003d2": { "model": "block/farmland_moisture2" },
-    "moisture\u003d3": [
-		    { "model": "block/farmland_moisture3" },
-            { "model": "block/farmland_moisture3", "y": 90 },
-            { "model": "block/farmland_moisture3", "y": 180 },
-            { "model": "block/farmland_moisture3", "y": 270 }
-		],
-    "moisture\u003d4": { "model": "block/replace" },
-    "moisture\u003d5": { "model": "block/replace" },
-    "moisture\u003d6": { "model": "block/replace" }
-  }
+    "variants": {
+        "moisture=0": [
+            {
+                "model": "block/farmland_moisture0"
+            },
+            {
+                "model": "block/farmland_moisture0_2"
+            },
+            {
+                "model": "block/farmland_moisture0_2"
+            }
+        ],
+        "moisture=1": {
+            "model": "block/farmland_moisture1"
+        },
+        "moisture=2": {
+            "model": "block/farmland_moisture2"
+        },
+        "moisture=3": [
+            {
+                "model": "block/farmland_moisture3"
+            },
+            {
+                "model": "block/farmland_moisture3",
+                "y": 90
+            },
+            {
+                "model": "block/farmland_moisture3",
+                "y": 180
+            },
+            {
+                "model": "block/farmland_moisture3",
+                "y": 270
+            }
+        ],
+        "moisture=4": {
+            "model": "block/replace"
+        },
+        "moisture=5": {
+            "model": "block/replace"
+        },
+        "moisture=6": {
+            "model": "block/replace"
+        },
+        "moisture=7": {
+            "model": "block/replace"
+        }
+    }
 }

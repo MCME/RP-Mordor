@@ -1,0 +1,24 @@
+{
+    "variants": {
+		"up=false,north=true,east=false,south=false,west=true,down=false": [
+	   { "model": "minecraft:block/beam_core" },
+	   { "model": "minecraft:block/beam_core_2" },
+	   { "model": "minecraft:block/beam_core_3" }
+	   ],
+	   "up=false,north=true,east=true,south=false,west=false,down=false": [
+	   { "model": "minecraft:block/beam_core", "y": 90 },
+	   { "model": "minecraft:block/beam_core_2", "y": 90 },
+	   { "model": "minecraft:block/beam_core_3", "y": 90 }
+	   ],
+	   "up=false,north=false,east=true,south=true,west=false,down=false": [
+	   { "model": "minecraft:block/beam_core", "y": 180 },
+	   { "model": "minecraft:block/beam_core_2", "y": 180 },
+	   { "model": "minecraft:block/beam_core_3", "y": 180 }
+	   ],
+	   "up=false,north=false,east=false,south=true,west=true,down=false": [
+	   { "model": "minecraft:block/beam_core", "y": 270 },
+	   { "model": "minecraft:block/beam_core_2", "y": 270 },
+	   { "model": "minecraft:block/beam_core_3", "y": 270 }
+	   ]
+    }
+}

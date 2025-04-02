@@ -1,0 +1,8 @@
+{
+  "parent": "special-model-loader:builtin/obj",
+  "flip_v": true,
+  "model": "mcme:models/block/wooden_catwalk_wide.obj",
+  "particle": "mcme:block/spike_log_prep",
+  "ambientocclusion": false
+  
+}

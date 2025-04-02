@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/planks",
+  "textures": {
+    "layer0": "minecraft:block/stripped_oak_log_composite"
+  }
+}

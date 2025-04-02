@@ -1,0 +1,24 @@
+{
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"texture_size": [48, 48],
+	"textures": {
+		"1": "block/stripped_oak_log_composite",
+		"particle": "block/oak_planks_composite"
+	},
+	"elements": [
+		{
+			"from": [-15, 0.1, 6],
+			"to": [17, 1.225, 10],
+			"rotation": {"angle": 45, "axis": "y", "origin": [0, 0, 0]},
+			"faces": {
+				"north": {"uv": [6, 0, 6.29167, 10.66667], "rotation": 90, "texture": "#1"},
+				"east": {"uv": [7, 4.33333, 8.33333, 4.625], "texture": "#1"},
+				"south": {"uv": [9, 0, 9.29167, 10.66667], "rotation": 90, "texture": "#1"},
+				"west": {"uv": [7, 5.33333, 8.33333, 5.625], "texture": "#1"},
+				"up": {"uv": [7.33333, 0, 8.66666, 10.66667], "rotation": 90, "texture": "#1"},
+				"down": {"uv": [7, 0, 8.33333, 10.66667], "rotation": 90, "texture": "#1"}
+			}
+		}
+	]
+}

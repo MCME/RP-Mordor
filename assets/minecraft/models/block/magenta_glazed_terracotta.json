@@ -1,9 +1,9 @@
 {
   "parent": "block/cube",
   "textures": {
-    "particle": "block/quartz_bricks",
-    "down": "block/quartz_bricks_4",
-    "up": "block/quartz_bricks_4",
+    "particle": "block/nether_bricks",
+    "down": "block/nether_bricks",
+    "up": "block/nether_bricks",
     "north": "block/magenta_glazed_terracotta_alt",
     "east": "block/magenta_glazed_terracotta",
     "south": "block/magenta_glazed_terracotta_alt",

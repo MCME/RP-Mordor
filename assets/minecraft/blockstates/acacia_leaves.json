@@ -1,17 +1,52 @@
 {
     "variants": {
-        "distance=2,persistent=false": { "model": "block/big_barrel", "x":90, "y":90 },
-		"distance=3,persistent=false": { "model": "block/big_barrel", "x":90 },
-		"distance=4,persistent=false": { "model": "block/big_barrel" },
-		"distance=5,persistent=false": { "model": "block/upwards_spike_xl", "y": 180 },
-		"distance=6,persistent=false": { "model": "block/upwards_spike_xl", "y": 270 },
-		"distance=7,persistent=false": { "model": "itemblock/barrel_coal_full_item" },
-		"distance=1,persistent=false": { "model": "itemblock/barrel_coal_half_item" },
-		"distance=2,persistent=true": { "model": "block/upwards_spike_xl", "y": 90 },
-		"distance=3,persistent=true": { "model": "block/crenelation_spike_north" },
-		"distance=4,persistent=true": { "model": "block/crenelation_spike_south" },
-		"distance=5,persistent=true": { "model": "block/crenelation_spike_west" },
-		"distance=6,persistent=true": { "model": "block/crenelation_spike_east" },
-		"distance=7,persistent=true": { "model": "itemblock/barrel_meat_half_item" }
+        "distance=2,persistent=false": {
+            "model": "block/big_barrel",
+            "x": 90,
+            "y": 90
+        },
+        "distance=3,persistent=false": {
+            "model": "block/big_barrel",
+            "x": 90
+        },
+        "distance=4,persistent=false": {
+            "model": "block/big_barrel"
+        },
+        "distance=5,persistent=false": {
+            "model": "minecraft:block/minecart",
+            "y": 180
+        },
+        "distance=6,persistent=false": {
+            "model": "minecraft:block/minecart",
+            "y": 270
+        },
+        "distance=7,persistent=false": {
+            "model": "block/replace_cutout"
+        },
+        "distance=1,persistent=false": [
+		{ "model": "block/barrel_coal_half_item" },
+		{ "model": "block/barrel_coal_full_item" }],
+        "distance=2,persistent=true": {
+            "model": "minecraft:block/barrel",
+            "y": 90
+        },
+        "distance=3,persistent=true": {
+            "model": "minecraft:block/replace_cutout"
+        },
+        "distance=4,persistent=true": {
+            "model": "minecraft:block/replace_cutout",
+            "y": 180
+        },
+        "distance=5,persistent=true": {
+            "model": "minecraft:block/replace_cutout",
+            "y": 270
+        },
+        "distance=6,persistent=true": {
+            "model": "minecraft:block/replace_cutout",
+            "y": 90
+        },
+        "distance=7,persistent=true": {
+            "model": "block/barrel_meat_half_item"
+        }
     }
 }

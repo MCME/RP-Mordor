@@ -3,7 +3,7 @@
   "textures": {
     "particle": "block/stucco_blue",
     "down": "block/stucco_blue",
-    "up": "block/sandstone",
+    "up": "block/replace",
     "north": "block/glazed_terracotta_brown_ne_ns",
     "east": "block/glazed_terracotta_brown_ne_we",
     "south": "block/glazed_terracotta_brown_ne_ns",

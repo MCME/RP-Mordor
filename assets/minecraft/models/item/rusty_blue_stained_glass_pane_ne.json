@@ -1,0 +1,8 @@
+{
+  "parent": "item/diagonal",
+  "textures": {
+    "bottom": "block/waxed_weathered_cut_copper_composite",
+    "side": "block/blue_stained_glass_pane_ne_side",
+    "particle": "block/waxed_weathered_cut_copper_composite"
+  }
+}

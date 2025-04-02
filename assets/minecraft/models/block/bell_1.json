@@ -1,0 +1,10 @@
+{
+  "parent": "block/rope_reel_side",
+  "textures": {
+    "wooden": "block/oak_planks",
+    "mount": "block/oak_log",
+    "rope": "block/bell_0",
+    "side": "block/wheel_block",
+    "particle": "block/oak_planks"
+  }
+}

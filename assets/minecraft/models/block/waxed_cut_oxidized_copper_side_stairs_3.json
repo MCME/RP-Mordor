@@ -1,0 +1,6 @@
+{
+  "parent": "block/side_stairs",
+  "textures": {
+    "side": "block/waxed_oxidized_cut_copper_3"
+  }
+}

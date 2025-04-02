@@ -1,0 +1,9 @@
+{
+    "variants": {
+        "": [
+		{  "model": "minecraft:block/meat_slab"},
+		{  "model": "minecraft:block/meat_slab", "y":90},
+		{  "model": "minecraft:block/meat_slab", "y":180},
+		{  "model": "minecraft:block/meat_slab", "y":270}]
+    }
+}

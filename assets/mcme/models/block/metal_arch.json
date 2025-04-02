@@ -1,0 +1,8 @@
+{
+  "parent": "special-model-loader:builtin/obj",
+  "flip_v": true,
+  "model": "mcme:models/block/metal_arch.obj",
+  "particle": "mcme:block/rusty_metal_composite",
+  "ambientocclusion": true
+  
+}

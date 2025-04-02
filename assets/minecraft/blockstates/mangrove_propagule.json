@@ -1,0 +1,37 @@
+{
+  "variants": {
+    "age=0,stage=0": [
+	{ "model": "minecraft:block/candle_holder" },
+	{ "model": "minecraft:block/candle_holder_2" },
+	{ "model": "minecraft:block/candle_holder", "y": 90 },
+	{ "model": "minecraft:block/candle_holder_2", "y": 90 },
+	{ "model": "minecraft:block/candle_holder", "y": 180 },
+	{ "model": "minecraft:block/candle_holder_2", "y": 180 },
+	{ "model": "minecraft:block/candle_holder", "y": 270 },
+	{ "model": "minecraft:block/candle_holder_2", "y": 270 }
+	],
+    "age=0,stage=1": { "model": "minecraft:block/campfire_tripod", "y":90 },
+    "age=1,stage=0": { "model": "block/unused_cross_cutout", "y": 270 },
+    "age=1,stage=1": {
+      "model": "minecraft:block/unused_cross_cutout"
+    },
+    "age=2,stage=0": {
+      "model": "minecraft:block/unused_cross_cutout"
+    },
+    "age=2,stage=1": {
+      "model": "minecraft:block/unused_cross_cutout"
+    },
+    "age=3,stage=0": {
+      "model": "minecraft:block/unused_cross_cutout"
+    },
+    "age=3,stage=1": {
+      "model": "minecraft:block/unused_cross_cutout"
+    },
+    "age=4,stage=0": {
+      "model": "minecraft:block/unused_cross_cutout"
+    },
+    "age=4,stage=1": {
+      "model": "minecraft:block/unused_cross_cutout"
+    }
+  }
+}

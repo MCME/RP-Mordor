@@ -1,0 +1,64 @@
+{
+    "variants": {
+        "distance=7,persistent=false": {
+            "model": "block/replace_cutout"
+        },
+        "distance=1,persistent=false": {
+            "model": "block/replace_cutout",
+            "y": 90
+        },
+        "distance=2,persistent=false": {
+            "model": "block/replace_cutout",
+            "y": 180
+        },
+        "distance=3,persistent=false": {
+            "model": "block/replace_cutout",
+            "y": 270
+        },
+        "distance=4,persistent=false": {
+            "model": "block/replace_cutout",
+            "x": 180
+        },
+        "distance=5,persistent=false": {
+            "model": "block/replace_cutout",
+            "x": 180,
+            "y": 90
+        },
+        "distance=6,persistent=false": {
+            "model": "block/replace_cutout",
+            "x": 180,
+            "y": 180
+        },
+        "distance=7,persistent=true": {
+            "model": "block/replace_cutout",
+            "x": 180,
+            "y": 270
+        },
+        "distance=1,persistent=true": {
+            "model": "block/replace_cutout",
+            "x": 180
+        },
+        "distance=2,persistent=true": {
+            "model": "block/replace_cutout",
+            "x": 180,
+            "y": 90
+        },
+        "distance=3,persistent=true": {
+            "model": "block/replace_cutout",
+            "x": 180,
+            "y": 180
+        },
+        "distance=4,persistent=true": {
+            "model": "block/replace_cutout",
+            "x": 180,
+            "y": 270
+        },
+        "distance=5,persistent=true": {
+            "model": "block/replace_cutout"
+        },
+        "distance=6,persistent=true": {
+            "model": "block/replace_cutout",
+            "y": 90
+        }
+    }
+}

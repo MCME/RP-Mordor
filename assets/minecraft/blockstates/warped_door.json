@@ -1,676 +1,941 @@
 {
-  "multipart": [
-    {
-      "when": {
-        "facing": "east",
-        "half": "lower",
-        "hinge": "left",
-        "open": "false",
-        "powered": "false"
-      },
-      "apply": {
-        "model": "block/warped_door_bottom"
-      }
-    },
-    {
-      "when": {
-        "facing": "south",
-        "half": "lower",
-        "hinge": "left",
-        "open": "false",
-        "powered": "false"
-      },
-      "apply": {
-        "model": "block/warped_door_bottom",
-        "y": 90
-      }
-    },
-    {
-      "when": {
-        "facing": "west",
-        "half": "lower",
-        "hinge": "left",
-        "open": "false",
-        "powered": "false"
-      },
-      "apply": {
-        "model": "block/warped_door_bottom",
-        "y": 180
-      }
-    },
-    {
-      "when": {
-        "facing": "north",
-        "half": "lower",
-        "hinge": "left",
-        "open": "false",
-        "powered": "false"
-      },
-      "apply": {
-        "model": "block/warped_door_bottom",
-        "y": 270
-      }
-    },
-    {
-      "when": {
-        "facing": "east",
-        "half": "lower",
-        "hinge": "right",
-        "open": "false",
-        "powered": "false"
-      },
-      "apply": {
-        "model": "block/warped_door_bottom_hinge"
-      }
-    },
-    {
-      "when": {
-        "facing": "south",
-        "half": "lower",
-        "hinge": "right",
-        "open": "false",
-        "powered": "false"
-      },
-      "apply": {
-        "model": "block/warped_door_bottom_hinge",
-        "y": 90
-      }
-    },
-    {
-      "when": {
-        "facing": "west",
-        "half": "lower",
-        "hinge": "right",
-        "open": "false",
-        "powered": "false"
-      },
-      "apply": {
-        "model": "block/warped_door_bottom_hinge",
-        "y": 180
-      }
-    },
-    {
-      "when": {
-        "facing": "north",
-        "half": "lower",
-        "hinge": "right",
-        "open": "false",
-        "powered": "false"
-      },
-      "apply": {
-        "model": "block/warped_door_bottom_hinge",
-        "y": 270
-      }
-    },
-    {
-      "when": {
-        "facing": "east",
-        "half": "lower",
-        "hinge": "left",
-        "open": "true",
-        "powered": "false"
-      },
-      "apply": {
-        "model": "block/warped_door_bottom_rh_open",
-        "y": 90
-      }
-    },
-    {
-      "when": {
-        "facing": "south",
-        "half": "lower",
-        "hinge": "left",
-        "open": "true",
-        "powered": "false"
-      },
-      "apply": {
-        "model": "block/warped_door_bottom_rh_open",
-        "y": 180
-      }
-    },
-    {
-      "when": {
-        "facing": "west",
-        "half": "lower",
-        "hinge": "left",
-        "open": "true",
-        "powered": "false"
-      },
-      "apply": {
-        "model": "block/warped_door_bottom_rh_open",
-        "y": 270
-      }
-    },
-    {
-      "when": {
-        "facing": "north",
-        "half": "lower",
-        "hinge": "left",
-        "open": "true",
-        "powered": "false"
-      },
-      "apply": {
-        "model": "block/warped_door_bottom_rh_open"
-      }
-    },
-    {
-      "when": {
-        "facing": "east",
-        "half": "lower",
-        "hinge": "right",
-        "open": "true",
-        "powered": "false"
-      },
-      "apply": {
-        "model": "block/warped_door_bottom_open",
-        "y": 270
-      }
-    },
-    {
-      "when": {
-        "facing": "south",
-        "half": "lower",
-        "hinge": "right",
-        "open": "true",
-        "powered": "false"
-      },
-      "apply": {
-        "model": "block/warped_door_bottom_open"
-      }
-    },
-    {
-      "when": {
-        "facing": "west",
-        "half": "lower",
-        "hinge": "right",
-        "open": "true",
-        "powered": "false"
-      },
-      "apply": {
-        "model": "block/warped_door_bottom_open",
-        "y": 90
-      }
-    },
-    {
-      "when": {
-        "facing": "north",
-        "half": "lower",
-        "hinge": "right",
-        "open": "true",
-        "powered": "false"
-      },
-      "apply": {
-        "model": "block/warped_door_bottom_open",
-        "y": 180
-      }
-    },
-    {
-      "when": {
-        "facing": "east",
-        "half": "upper",
-        "hinge": "left",
-        "open": "false",
-        "powered": "false"
-      },
-      "apply": {
-        "model": "block/warped_door_top"
-      }
-    },
-    {
-      "when": {
-        "facing": "south",
-        "half": "upper",
-        "hinge": "left",
-        "open": "false",
-        "powered": "false"
-      },
-      "apply": {
-        "model": "block/warped_door_top",
-        "y": 90
-      }
-    },
-    {
-      "when": {
-        "facing": "west",
-        "half": "upper",
-        "hinge": "left",
-        "open": "false",
-        "powered": "false"
-      },
-      "apply": {
-        "model": "block/warped_door_top",
-        "y": 180
-      }
-    },
-    {
-      "when": {
-        "facing": "north",
-        "half": "upper",
-        "hinge": "left",
-        "open": "false",
-        "powered": "false"
-      },
-      "apply": {
-        "model": "block/warped_door_top",
-        "y": 270
-      }
-    },
-    {
-      "when": {
-        "facing": "east",
-        "half": "upper",
-        "hinge": "right",
-        "open": "false",
-        "powered": "false"
-      },
-      "apply": {
-        "model": "block/warped_door_top_hinge"
-      }
-    },
-    {
-      "when": {
-        "facing": "south",
-        "half": "upper",
-        "hinge": "right",
-        "open": "false",
-        "powered": "false"
-      },
-      "apply": {
-        "model": "block/warped_door_top_hinge",
-        "y": 90
-      }
-    },
-    {
-      "when": {
-        "facing": "west",
-        "half": "upper",
-        "hinge": "right",
-        "open": "false",
-        "powered": "false"
-      },
-      "apply": {
-        "model": "block/warped_door_top_hinge",
-        "y": 180
-      }
-    },
-    {
-      "when": {
-        "facing": "north",
-        "half": "upper",
-        "hinge": "right",
-        "open": "false",
-        "powered": "false"
-      },
-      "apply": {
-        "model": "block/warped_door_top_hinge",
-        "y": 270
-      }
-    },
-    {
-      "when": {
-        "facing": "east",
-        "half": "upper",
-        "hinge": "left",
-        "open": "true",
-        "powered": "false"
-      },
-      "apply": {
-        "model": "block/warped_door_top_rh_open",
-        "y": 90
-      }
-    },
-    {
-      "when": {
-        "facing": "south",
-        "half": "upper",
-        "hinge": "left",
-        "open": "true",
-        "powered": "false"
-      },
-      "apply": {
-        "model": "block/warped_door_top_rh_open",
-        "y": 180
-      }
-    },
-    {
-      "when": {
-        "facing": "west",
-        "half": "upper",
-        "hinge": "left",
-        "open": "true",
-        "powered": "false"
-      },
-      "apply": {
-        "model": "block/warped_door_top_rh_open",
-        "y": 270
-      }
-    },
-    {
-      "when": {
-        "facing": "north",
-        "half": "upper",
-        "hinge": "left",
-        "open": "true",
-        "powered": "false"
-      },
-      "apply": {
-        "model": "block/warped_door_top_rh_open"
-      }
-    },
-    {
-      "when": {
-        "facing": "east",
-        "half": "upper",
-        "hinge": "right",
-        "open": "true",
-        "powered": "false"
-      },
-      "apply": {
-        "model": "block/warped_door_top_open",
-        "y": 270
-      }
-    },
-    {
-      "when": {
-        "facing": "south",
-        "half": "upper",
-        "hinge": "right",
-        "open": "true",
-        "powered": "false"
-      },
-      "apply": {
-        "model": "block/warped_door_top_open"
-      }
-    },
-    {
-      "when": {
-        "facing": "west",
-        "half": "upper",
-        "hinge": "right",
-        "open": "true",
-        "powered": "false"
-      },
-      "apply": {
-        "model": "block/warped_door_top_open",
-        "y": 90
-      }
-    },
-    {
-      "when": {
-        "facing": "north",
-        "half": "upper",
-        "hinge": "right",
-        "open": "true",
-        "powered": "false"
-      },
-      "apply": {
-        "model": "block/warped_door_top_open",
-        "y": 180
-      }
-    },
-    {
-      "when": {
-        "facing": "east",
-        "half": "lower",
-        "hinge": "right",
-        "open": "true",
-        "powered": "true"
-      },
-      "apply": [
-	{ "model": "minecraft:block/warped_door_railing" },
-	{ "model": "minecraft:block/warped_door_railing_1" },
-	{ "model": "minecraft:block/warped_door_railing_2" } ]
-    },
-    {
-      "when": {
-        "facing": "south",
-        "half": "lower",
-        "hinge": "right",
-        "open": "true",
-        "powered": "true"
-      },
-      "apply": [
-		{ "model": "minecraft:block/warped_door_railing", "y": 90 },
-		{ "model": "minecraft:block/warped_door_railing_1", "y": 90 },
-		{ "model": "minecraft:block/warped_door_railing_2", "y": 90 }
+    "multipart": [
+        {
+            "when": {
+                "facing": "east",
+                "half": "lower",
+                "hinge": "left",
+                "open": "false",
+                "powered": "false"
+            },
+            "apply": {
+                "model": "block/dark_oak_planks_offset_up", "y":270
+            }
+        },
+        {
+            "when": {
+                "facing": "south",
+                "half": "lower",
+                "hinge": "left",
+                "open": "false",
+                "powered": "false"
+            },
+            "apply": {
+                "model": "block/dark_oak_planks_offset_up"
+            }
+        },
+        {
+            "when": {
+                "facing": "west",
+                "half": "lower",
+                "hinge": "left",
+                "open": "false",
+                "powered": "false"
+            },
+            "apply": {
+                "model": "block/dark_oak_planks_offset_up",
+                "y": 90
+            }
+        },
+        {
+            "when": {
+                "facing": "north",
+                "half": "lower",
+                "hinge": "left",
+                "open": "false",
+                "powered": "false"
+            },
+            "apply": {
+                "model": "block/dark_oak_planks_offset_up",
+                "y": 180
+            }
+        },
+        {
+            "when": {
+                "facing": "east",
+                "half": "lower",
+                "hinge": "right",
+                "open": "false",
+                "powered": "false"
+            },
+            "apply": {
+                "model": "block/dark_oak_planks_offset_down"
+            }
+        },
+        {
+            "when": {
+                "facing": "south",
+                "half": "lower",
+                "hinge": "right",
+                "open": "false",
+                "powered": "false"
+            },
+            "apply": {
+                "model": "block/dark_oak_planks_offset_down",
+                "y": 90
+            }
+        },
+        {
+            "when": {
+                "facing": "west",
+                "half": "lower",
+                "hinge": "right",
+                "open": "false",
+                "powered": "false"
+            },
+            "apply": {
+                "model": "block/dark_oak_planks_offset_down",
+                "y": 180
+            }
+        },
+        {
+            "when": {
+                "facing": "north",
+                "half": "lower",
+                "hinge": "right",
+                "open": "false",
+                "powered": "false"
+            },
+            "apply": {
+                "model": "block/dark_oak_planks_offset_down",
+                "y": 270
+            }
+        },
+        {
+            "when": {
+                "facing": "east",
+                "half": "lower",
+                "hinge": "left",
+                "open": "true",
+                "powered": "false"
+            },
+            "apply": {
+                "model": "block/acacia_planks_offset_down",
+                "y": 90
+            }
+        },
+        {
+            "when": {
+                "facing": "south",
+                "half": "lower",
+                "hinge": "left",
+                "open": "true",
+                "powered": "false"
+            },
+            "apply": {
+                "model": "block/acacia_planks_offset_down",
+                "y": 180
+            }
+        },
+        {
+            "when": {
+                "facing": "west",
+                "half": "lower",
+                "hinge": "left",
+                "open": "true",
+                "powered": "false"
+            },
+            "apply": {
+                "model": "block/acacia_planks_offset_down",
+                "y": 270
+            }
+        },
+        {
+            "when": {
+                "facing": "north",
+                "half": "lower",
+                "hinge": "left",
+                "open": "true",
+                "powered": "false"
+            },
+            "apply": {
+                "model": "block/acacia_planks_offset_down"
+            }
+        },
+        {
+            "when": {
+                "facing": "east",
+                "half": "lower",
+                "hinge": "right",
+                "open": "true",
+                "powered": "false"
+            },
+            "apply": {
+                "model": "block/acacia_planks_offset_up",
+                "y": 180
+            }
+        },
+        {
+            "when": {
+                "facing": "south",
+                "half": "lower",
+                "hinge": "right",
+                "open": "true",
+                "powered": "false"
+            },
+            "apply": {
+                "model": "block/acacia_planks_offset_up", "y":270
+            }
+        },
+        {
+            "when": {
+                "facing": "west",
+                "half": "lower",
+                "hinge": "right",
+                "open": "true",
+                "powered": "false"
+            },
+            "apply": {
+                "model": "block/acacia_planks_offset_up"
+            }
+        },
+        {
+            "when": {
+                "facing": "north",
+                "half": "lower",
+                "hinge": "right",
+                "open": "true",
+                "powered": "false"
+            },
+            "apply": {
+                "model": "block/acacia_planks_offset_up",
+                "y": 90
+            }
+        },
+        {
+            "when": {
+                "facing": "east",
+                "half": "upper",
+                "hinge": "left",
+                "open": "false",
+                "powered": "false"
+            },
+            "apply": {
+                "model": "mcme:block/rope_2tall"
+            }
+        },
+        {
+            "when": {
+                "facing": "south",
+                "half": "upper",
+                "hinge": "left",
+                "open": "false",
+                "powered": "false"
+            },
+            "apply": {
+                "model": "mcme:block/rope_2tall",
+                "y": 90
+            }
+        },
+        {
+            "when": {
+                "facing": "west",
+                "half": "upper",
+                "hinge": "left",
+                "open": "false",
+                "powered": "false"
+            },
+            "apply": {
+                "model": "mcme:block/rope_2tall",
+                "y": 180
+            }
+        },
+        {
+            "when": {
+                "facing": "north",
+                "half": "upper",
+                "hinge": "left",
+                "open": "false",
+                "powered": "false"
+            },
+            "apply": {
+                "model": "mcme:block/rope_2tall",
+                "y": 270
+            }
+        },
+        {
+            "when": {
+                "facing": "east",
+                "half": "upper",
+                "hinge": "right",
+                "open": "false",
+                "powered": "false"
+            },
+            "apply": {
+            "model": "minecraft:block/rope_asc_right",
+            "y": 90
+        }
+        },
+        {
+            "when": {
+                "facing": "south",
+                "half": "upper",
+                "hinge": "right",
+                "open": "false",
+                "powered": "false"
+            },
+            "apply": {
+            "model": "minecraft:block/rope_asc_right", "y":180
+        }
+        },
+        {
+            "when": {
+                "facing": "west",
+                "half": "upper",
+                "hinge": "right",
+                "open": "false",
+                "powered": "false"
+            },
+            "apply": {
+            "model": "minecraft:block/rope_asc_right", "y":270
+        }
+        },
+        {
+            "when": {
+                "facing": "north",
+                "half": "upper",
+                "hinge": "right",
+                "open": "false",
+                "powered": "false"
+            },
+            "apply": {
+            "model": "minecraft:block/rope_asc_right"
+        }
+        },
+        {
+            "when": {
+                "facing": "west",
+                "half": "upper",
+                "hinge": "left",
+                "open": "true",
+                "powered": "false"
+            },
+            "apply": {
+                "model": "mcme:block/rope_2tall_right",
+                "y": 90
+            }
+        },
+        {
+            "when": {
+                "facing": "north",
+                "half": "upper",
+                "hinge": "left",
+                "open": "true",
+                "powered": "false"
+            },
+            "apply": {
+                "model": "mcme:block/rope_2tall_right",
+                "y": 180
+            }
+        },
+        {
+            "when": {
+                "facing": "east",
+                "half": "upper",
+                "hinge": "left",
+                "open": "true",
+                "powered": "false"
+            },
+            "apply": {
+                "model": "mcme:block/rope_2tall_right",
+                "y": 270
+            }
+        },
+        {
+            "when": {
+                "facing": "south",
+                "half": "upper",
+                "hinge": "left",
+                "open": "true",
+                "powered": "false"
+            },
+            "apply": {
+                "model": "mcme:block/rope_2tall_right"
+            }
+        },
+        {
+            "when": {
+                "facing": "east",
+                "half": "upper",
+                "hinge": "right",
+                "open": "true",
+                "powered": "false"
+            },
+            "apply": [
+			{ "model": "minecraft:block/fish_1", "y": 180 },
+			{ "model": "minecraft:block/fish_8", "y": 180 },
+			{ "model": "minecraft:block/fish_2", "y": 180 },
+			{ "model": "minecraft:block/fish_3", "y": 180 },
+			{ "model": "minecraft:block/fish_4", "y": 180 },
+			{ "model": "minecraft:block/fish_5", "y": 180 },
+			{ "model": "minecraft:block/fish_6", "y": 180 },
+			{ "model": "minecraft:block/fish_7", "y": 180 }
+			]
+        },
+        {
+            "when": {
+                "facing": "south",
+                "half": "upper",
+                "hinge": "right",
+                "open": "true",
+                "powered": "false"
+            },
+            "apply": [
+			{  "model": "minecraft:block/fish_1", "y":270  },
+			{  "model": "minecraft:block/fish_8", "y":270  },
+			{  "model": "minecraft:block/fish_2", "y":270  },
+			{  "model": "minecraft:block/fish_3", "y":270  },
+			{  "model": "minecraft:block/fish_4", "y":270  },
+			{  "model": "minecraft:block/fish_5", "y":270  },
+			{  "model": "minecraft:block/fish_6", "y":270  },
+			{  "model": "minecraft:block/fish_7", "y":270  }
+			]
+        },
+        {
+            "when": {
+                "facing": "west",
+                "half": "upper",
+                "hinge": "right",
+                "open": "true",
+                "powered": "false"
+            },
+            "apply": [
+			{ "model": "minecraft:block/fish_1" },
+			{ "model": "minecraft:block/fish_8" },
+			{ "model": "minecraft:block/fish_2" },
+			{ "model": "minecraft:block/fish_3" },
+			{ "model": "minecraft:block/fish_4" },
+			{ "model": "minecraft:block/fish_5" },
+			{ "model": "minecraft:block/fish_6" },
+			{ "model": "minecraft:block/fish_7" }
+			]
+        },
+        {
+            "when": {
+                "facing": "north",
+                "half": "upper",
+                "hinge": "right",
+                "open": "true",
+                "powered": "false"
+            },
+            "apply": [
+			{ "model": "minecraft:block/fish_1",  "y": 90 },
+			{ "model": "minecraft:block/fish_8",  "y": 90 },
+			{ "model": "minecraft:block/fish_2",  "y": 90 },
+			{ "model": "minecraft:block/fish_3",  "y": 90 },
+			{ "model": "minecraft:block/fish_4",  "y": 90 },
+			{ "model": "minecraft:block/fish_5",  "y": 90 },
+			{ "model": "minecraft:block/fish_6",  "y": 90 },
+			{ "model": "minecraft:block/fish_7",  "y": 90 }
+			]
+        },
+        {
+            "when": {
+                "facing": "east",
+                "half": "lower",
+                "hinge": "left",
+                "open": "false",
+                "powered": "true"
+            },
+            "apply": [
+                {
+                    "model": "minecraft:block/door_unused"
+                }
+            ]
+        },
+        {
+            "when": {
+                "facing": "south",
+                "half": "lower",
+                "hinge": "left",
+                "open": "false",
+                "powered": "true"
+            },
+            "apply": [
+                {
+                    "model": "minecraft:block/door_unused",
+                    "y": 90
+                }
+            ]
+        },
+        {
+            "when": {
+                "facing": "west",
+                "half": "lower",
+                "hinge": "left",
+                "open": "false",
+                "powered": "true"
+            },
+            "apply": [
+                {
+                    "model": "minecraft:block/door_unused",
+                    "y": 180
+                }
+            ]
+        },
+        {
+            "when": {
+                "facing": "north",
+                "half": "lower",
+                "hinge": "left",
+                "open": "false",
+                "powered": "true"
+            },
+            "apply": [
+                {
+                    "model": "minecraft:block/door_unused",
+                    "y": 270
+                }
+            ]
+        },
+        {
+            "when": {
+                "facing": "east",
+                "half": "lower",
+                "hinge": "left",
+                "open": "true",
+                "powered": "true"
+            },
+            "apply": [
+                {
+                    "model": "minecraft:block/door_unused",
+                    "y": 90
+                }
+            ]
+        },
+        {
+            "when": {
+                "facing": "south",
+                "half": "lower",
+                "hinge": "left",
+                "open": "true",
+                "powered": "true"
+            },
+            "apply": [
+                {
+                    "model": "minecraft:block/door_unused",
+                    "y": 180
+                }
+            ]
+        },
+        {
+            "when": {
+                "facing": "west",
+                "half": "lower",
+                "hinge": "left",
+                "open": "true",
+                "powered": "true"
+            },
+            "apply": [
+                {
+                    "model": "minecraft:block/door_unused",
+                    "y": 270
+                }
+            ]
+        },
+        {
+            "when": {
+                "facing": "north",
+                "half": "lower",
+                "hinge": "left",
+                "open": "true",
+                "powered": "true"
+            },
+            "apply": [
+                {
+                    "model": "minecraft:block/door_unused"
+                }
+            ]
+        },
+        {
+            "when": {
+                "facing": "east",
+                "half": "lower",
+                "hinge": "right",
+                "open": "false",
+                "powered": "true"
+            },
+            "apply": [
+                {
+                    "model": "minecraft:block/door_unused"
+                }
+            ]
+        },
+        {
+            "when": {
+                "facing": "south",
+                "half": "lower",
+                "hinge": "right",
+                "open": "false",
+                "powered": "true"
+            },
+            "apply": [
+                {
+                    "model": "minecraft:block/door_unused",
+                    "y": 90
+                }
+            ]
+        },
+        {
+            "when": {
+                "facing": "west",
+                "half": "lower",
+                "hinge": "right",
+                "open": "false",
+                "powered": "true"
+            },
+            "apply": [
+                {
+                    "model": "minecraft:block/door_unused",
+                    "y": 180
+                }
+            ]
+        },
+        {
+            "when": {
+                "facing": "north",
+                "half": "lower",
+                "hinge": "right",
+                "open": "false",
+                "powered": "true"
+            },
+            "apply": [
+                {
+                    "model": "minecraft:block/door_unused",
+                    "y": 270
+                }
+            ]
+        },
+        {
+            "when": {
+                "facing": "east",
+                "half": "lower",
+                "hinge": "right",
+                "open": "true",
+                "powered": "true"
+            },
+            "apply": [
+                {
+                    "model": "minecraft:block/warped_door_railing"
+                },
+                {
+                    "model": "minecraft:block/warped_door_railing_1"
+                },
+                {
+                    "model": "minecraft:block/warped_door_railing_2"
+                }
+            ]
+        },
+        {
+            "when": {
+                "facing": "south",
+                "half": "lower",
+                "hinge": "right",
+                "open": "true",
+                "powered": "true"
+            },
+            "apply": [
+                {
+                    "model": "minecraft:block/warped_door_railing",
+                    "y": 90
+                },
+                {
+                    "model": "minecraft:block/warped_door_railing_1",
+                    "y": 90
+                },
+                {
+                    "model": "minecraft:block/warped_door_railing_2",
+                    "y": 90
+                }
+            ]
+        },
+        {
+            "when": {
+                "facing": "west",
+                "half": "lower",
+                "hinge": "right",
+                "open": "true",
+                "powered": "true"
+            },
+            "apply": [
+                {
+                    "model": "minecraft:block/warped_door_railing",
+                    "y": 180
+                },
+                {
+                    "model": "minecraft:block/warped_door_railing_1",
+                    "y": 180
+                },
+                {
+                    "model": "minecraft:block/warped_door_railing_2",
+                    "y": 180
+                }
+            ]
+        },
+        {
+            "when": {
+                "facing": "north",
+                "half": "lower",
+                "hinge": "right",
+                "open": "true",
+                "powered": "true"
+            },
+            "apply": [
+                {
+                    "model": "minecraft:block/warped_door_railing",
+                    "y": 270
+                },
+                {
+                    "model": "minecraft:block/warped_door_railing_1",
+                    "y": 270
+                },
+                {
+                    "model": "minecraft:block/warped_door_railing_2",
+                    "y": 270
+                }
+            ]
+        },
+        {
+            "when": {
+                "facing": "east",
+                "half": "upper",
+                "hinge": "left",
+                "open": "false",
+                "powered": "true"
+            },
+            "apply": {
+                "model": "block/warped_door_cross_railing",
+                "y": 270
+            }
+        },
+        {
+            "when": {
+                "facing": "south",
+                "half": "upper",
+                "hinge": "left",
+                "open": "false",
+                "powered": "true"
+            },
+            "apply": {
+                "model": "block/warped_door_cross_railing"
+            }
+        },
+        {
+            "when": {
+                "facing": "west",
+                "half": "upper",
+                "hinge": "left",
+                "open": "false",
+                "powered": "true"
+            },
+            "apply": {
+                "model": "block/warped_door_cross_railing",
+                "y": 90
+            }
+        },
+        {
+            "when": {
+                "facing": "north",
+                "half": "upper",
+                "hinge": "left",
+                "open": "false",
+                "powered": "true"
+            },
+            "apply": {
+                "model": "block/warped_door_cross_railing",
+                "y": 180
+            }
+        },
+        {
+            "when": {
+                "facing": "east",
+                "half": "upper",
+                "hinge": "right",
+                "open": "false",
+                "powered": "true"
+            },
+            "apply": {
+                "model": "block/door_unused"
+            }
+        },
+        {
+            "when": {
+                "facing": "south",
+                "half": "upper",
+                "hinge": "right",
+                "open": "false",
+                "powered": "true"
+            },
+            "apply": {
+                "model": "block/door_unused",
+                "y": 90
+            }
+        },
+        {
+            "when": {
+                "facing": "west",
+                "half": "upper",
+                "hinge": "right",
+                "open": "false",
+                "powered": "true"
+            },
+            "apply": {
+                "model": "block/door_unused",
+                "y": 180
+            }
+        },
+        {
+            "when": {
+                "facing": "north",
+                "half": "upper",
+                "hinge": "right",
+                "open": "false",
+                "powered": "true"
+            },
+            "apply": {
+                "model": "block/door_unused",
+                "y": 270
+            }
+        },
+        {
+            "when": {
+                "facing": "east",
+                "half": "upper",
+                "hinge": "left",
+                "open": "true",
+                "powered": "true"
+            },
+            "apply": [
+                {
+                    "model": "minecraft:block/warped_door_woven_fence",
+                    "y": 180
+                },
+                {
+                    "model": "minecraft:block/warped_door_woven_fence_1",
+                    "y": 180
+                },
+                {
+                    "model": "minecraft:block/warped_door_woven_fence_2",
+                    "y": 180
+                }
+            ]
+        },
+        {
+            "when": {
+                "facing": "south",
+                "half": "upper",
+                "hinge": "left",
+                "open": "true",
+                "powered": "true"
+            },
+            "apply": [
+                {
+                    "model": "minecraft:block/warped_door_woven_fence",
+                    "y": 270
+                },
+                {
+                    "model": "minecraft:block/warped_door_woven_fence_1",
+                    "y": 270
+                },
+                {
+                    "model": "minecraft:block/warped_door_woven_fence_2",
+                    "y": 270
+                }
+            ]
+        },
+        {
+            "when": {
+                "facing": "west",
+                "half": "upper",
+                "hinge": "left",
+                "open": "true",
+                "powered": "true"
+            },
+            "apply": [
+                {
+                    "model": "minecraft:block/warped_door_woven_fence"
+                },
+                {
+                    "model": "minecraft:block/warped_door_woven_fence_1"
+                },
+                {
+                    "model": "minecraft:block/warped_door_woven_fence_2"
+                }
+            ]
+        },
+        {
+            "when": {
+                "facing": "north",
+                "half": "upper",
+                "hinge": "left",
+                "open": "true",
+                "powered": "true"
+            },
+            "apply": [
+                {
+                    "model": "minecraft:block/warped_door_woven_fence",
+                    "y": 90
+                },
+                {
+                    "model": "minecraft:block/warped_door_woven_fence_1",
+                    "y": 90
+                },
+                {
+                    "model": "minecraft:block/warped_door_woven_fence_2",
+                    "y": 90
+                }
+            ]
+        },
+        {
+            "when": {
+                "facing": "east",
+                "half": "upper",
+                "hinge": "right",
+                "open": "true",
+                "powered": "true"
+            },
+            "apply": {
+                "model": "block/wooden_shelving_simple",
+                "y": 270
+            }
+        },
+        {
+            "when": {
+                "facing": "south",
+                "half": "upper",
+                "hinge": "right",
+                "open": "true",
+                "powered": "true"
+            },
+            "apply": {
+                "model": "block/wooden_shelving_simple"
+            }
+        },
+        {
+            "when": {
+                "facing": "west",
+                "half": "upper",
+                "hinge": "right",
+                "open": "true",
+                "powered": "true"
+            },
+            "apply": {
+                "model": "block/wooden_shelving_simple",
+                "y": 90
+            }
+        },
+        {
+            "when": {
+                "facing": "north",
+                "half": "upper",
+                "hinge": "right",
+                "open": "true",
+                "powered": "true"
+            },
+            "apply": {
+                "model": "block/wooden_shelving_simple",
+                "y": 180
+            }
+        }
     ]
-    },
-    {
-      "when": {
-        "facing": "west",
-        "half": "lower",
-        "hinge": "right",
-        "open": "true",
-        "powered": "true"
-      },
-      "apply": [
-		{ "model": "minecraft:block/warped_door_railing", "y": 180 },
-		{ "model": "minecraft:block/warped_door_railing_1", "y": 180 },
-		{ "model": "minecraft:block/warped_door_railing_2", "y": 180 }
-    ]
-    },
-    {
-      "when": {
-        "facing": "north",
-        "half": "lower",
-        "hinge": "right",
-        "open": "true",
-        "powered": "true"
-      },
-      "apply": [
-	{ "model": "minecraft:block/warped_door_railing", "y": 270 },
-	{ "model": "minecraft:block/warped_door_railing_1", "y": 270 },
-	{ "model": "minecraft:block/warped_door_railing_2", "y": 270 }
-	]
-    },
-    {
-      "when": {
-        "facing": "east",
-        "half": "upper",
-        "hinge": "left",
-        "open": "false",
-        "powered": "true"
-      },
-      "apply": {
-        "model": "block/warped_door_cross_railing",
-		"y": 270
-      }
-    },
-    {
-      "when": {
-        "facing": "south",
-        "half": "upper",
-        "hinge": "left",
-        "open": "false",
-        "powered": "true"
-      },
-      "apply": {
-        "model": "block/warped_door_cross_railing"
-      }
-    },
-    {
-      "when": {
-        "facing": "west",
-        "half": "upper",
-        "hinge": "left",
-        "open": "false",
-        "powered": "true"
-      },
-      "apply": {
-        "model": "block/warped_door_cross_railing",
-        "y": 90
-      }
-    },
-    {
-      "when": {
-        "facing": "north",
-        "half": "upper",
-        "hinge": "left",
-        "open": "false",
-        "powered": "true"
-      },
-      "apply": {
-        "model": "block/warped_door_cross_railing",
-        "y": 180
-      }
-    },
-    {
-      "when": {
-        "facing": "east",
-        "half": "upper",
-        "hinge": "right",
-        "open": "false",
-        "powered": "true"
-      },
-      "apply": {
-        "model": "block/unused_block_0"
-      }
-    },
-    {
-      "when": {
-        "facing": "south",
-        "half": "upper",
-        "hinge": "right",
-        "open": "false",
-        "powered": "true"
-      },
-      "apply": {
-        "model": "block/unused_block_0",
-        "y": 90
-      }
-    },
-    {
-      "when": {
-        "facing": "west",
-        "half": "upper",
-        "hinge": "right",
-        "open": "false",
-        "powered": "true"
-      },
-      "apply": {
-        "model": "block/unused_block_0",
-        "y": 180
-      }
-    },
-    {
-      "when": {
-        "facing": "north",
-        "half": "upper",
-        "hinge": "right",
-        "open": "false",
-        "powered": "true"
-      },
-      "apply": {
-        "model": "block/unused_block_0",
-        "y": 270
-      }
-    },
-    {
-      "when": {
-        "facing": "east",
-        "half": "upper",
-        "hinge": "left",
-        "open": "true",
-        "powered": "true"
-      },
-      "apply": [
-	{ "model": "minecraft:block/warped_door_woven_fence", "y": 180 },
-	{ "model": "minecraft:block/warped_door_woven_fence_1", "y": 180 },
-	{ "model": "minecraft:block/warped_door_woven_fence_2", "y": 180 }
-	] 
-    },
-    {
-      "when": {
-        "facing": "south",
-        "half": "upper",
-        "hinge": "left",
-        "open": "true",
-        "powered": "true"
-      },
-      "apply": [
-	{ "model": "minecraft:block/warped_door_woven_fence", "y": 270 },
-	{ "model": "minecraft:block/warped_door_woven_fence_1", "y": 270 },
-	{ "model": "minecraft:block/warped_door_woven_fence_2", "y": 270 }
-	]
-    },
-    {
-      "when": {
-        "facing": "west",
-        "half": "upper",
-        "hinge": "left",
-        "open": "true",
-        "powered": "true"
-      },
-      "apply": [
-	{ "model": "minecraft:block/warped_door_woven_fence"},
-	{ "model": "minecraft:block/warped_door_woven_fence_1" },
-	{ "model": "minecraft:block/warped_door_woven_fence_2" }
-	]
-    },
-    {
-      "when": {
-        "facing": "north",
-        "half": "upper",
-        "hinge": "left",
-        "open": "true",
-        "powered": "true"
-      },
-      "apply": [
-	{ "model": "minecraft:block/warped_door_woven_fence", "y": 90 },
-	{ "model": "minecraft:block/warped_door_woven_fence_1", "y": 90 },
-	{ "model": "minecraft:block/warped_door_woven_fence_2", "y": 90 }
-	]
-    },
-    {
-      "when": {
-        "facing": "east",
-        "half": "upper",
-        "hinge": "right",
-        "open": "true",
-        "powered": "true"
-      },
-      "apply": {
-        "model": "block/unused_block_0",
-        "y": 270
-      }
-    },
-    {
-      "when": {
-        "facing": "south",
-        "half": "upper",
-        "hinge": "right",
-        "open": "true",
-        "powered": "true"
-      },
-      "apply": {
-        "model": "block/unused_block_0"
-      }
-    },
-    {
-      "when": {
-        "facing": "west",
-        "half": "upper",
-        "hinge": "right",
-        "open": "true",
-        "powered": "true"
-      },
-      "apply": {
-        "model": "block/unused_block_0",
-        "y": 90
-      }
-    },
-    {
-      "when": {
-        "facing": "north",
-        "half": "upper",
-        "hinge": "right",
-        "open": "true",
-        "powered": "true"
-      },
-      "apply": {
-        "model": "block/unused_block_0",
-        "y": 180
-      }
-    }
-  ]
 }

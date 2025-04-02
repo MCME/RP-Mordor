@@ -1,0 +1,284 @@
+{
+    "multipart": [
+        {
+            "apply": [
+                {
+                    "model": "mcme:block/tusk_s",
+                    "y": 90
+                },
+                {
+                    "model": "mcme:block/tusk_s_2",
+                    "y": 90
+                }
+            ],
+            "when": {
+                "north": "false",
+                "east": "false",
+                "south": "false",
+                "west": "true"
+            }
+        },
+        {
+            "apply": [
+                {
+                    "model": "mcme:block/tusk_s",
+                    "y": 180
+                },
+                {
+                    "model": "mcme:block/tusk_s_2",
+                    "y": 180
+                }
+            ],
+            "when": {
+                "north": "true",
+                "east": "false",
+                "south": "false",
+                "west": "false"
+            }
+        },
+        {
+            "apply": [
+                {
+                    "model": "mcme:block/tusk_s",
+                    "y": 270
+                },
+                {
+                    "model": "mcme:block/tusk_s_2",
+                    "y": 270
+                }
+            ],
+            "when": {
+                "north": "false",
+                "east": "true",
+                "south": "false",
+                "west": "false"
+            }
+        },
+        {
+            "apply": [
+                {
+                    "model": "mcme:block/tusk_s"
+                },
+                {
+                    "model": "mcme:block/tusk_s_2"
+                }
+            ],
+            "when": {
+                "north": "false",
+                "east": "false",
+                "south": "true",
+                "west": "false"
+            }
+        },
+        {
+            "apply": [
+                {
+                    "model": "mcme:block/horn_s"
+                },
+                {
+                    "model": "mcme:block/horn_s_2"
+                }
+            ],
+            "when": {
+                "north": "false",
+                "east": "false",
+                "south": "false",
+                "west": "false"
+            }
+        },
+        {
+            "apply": [
+                {
+                    "model": "mcme:block/horn_s_r"
+                },
+                {
+                    "model": "mcme:block/horn_s_r_2"
+                }
+            ],
+            "when": {
+                "north": "true",
+                "east": "true",
+                "south": "true",
+                "west": "true"
+            }
+        },
+        {
+            "apply": [
+                {
+                    "model": "mcme:block/horn_s_r",
+                    "y": 90
+                },
+                {
+                    "model": "mcme:block/horn_s_r_2",
+                    "y": 90
+                }
+            ],
+            "when": {
+                "north": "true",
+                "east": "false",
+                "south": "true",
+                "west": "true"
+            }
+        },
+        {
+            "apply": [
+                {
+                    "model": "mcme:block/horn_s_r",
+                    "y": 180
+                },
+                {
+                    "model": "mcme:block/horn_s_r_2",
+                    "y": 180
+                }
+            ],
+            "when": {
+                "north": "true",
+                "east": "true",
+                "south": "false",
+                "west": "true"
+            }
+        },
+        {
+            "apply": [
+                {
+                    "model": "mcme:block/horn_s_r",
+                    "y": 270
+                },
+                {
+                    "model": "mcme:block/horn_s_r_2",
+                    "y": 270
+                }
+            ],
+            "when": {
+                "north": "false",
+                "east": "true",
+                "south": "true",
+                "west": "true"
+            }
+        },
+        {
+            "apply": [
+                {
+                    "model": "mcme:block/horn_s",
+                    "y": 90
+                },
+                {
+                    "model": "mcme:block/horn_s_2",
+                    "y": 90
+                }
+            ],
+            "when": {
+                "north": "false",
+                "east": "true",
+                "south": "false",
+                "west": "true"
+            }
+        },
+        {
+            "apply": [
+                {
+                    "model": "mcme:block/horn_s",
+                    "y": 180
+                },
+                {
+                    "model": "mcme:block/horn_s_2",
+                    "y": 180
+                }
+            ],
+            "when": {
+                "north": "true",
+                "east": "false",
+                "south": "true",
+                "west": "false"
+            }
+        },
+        {
+            "apply": [
+                {
+                    "model": "mcme:block/horn_s",
+                    "y": 270
+                },
+                {
+                    "model": "mcme:block/horn_s_2",
+                    "y": 270
+                }
+            ],
+            "when": {
+                "north": "true",
+                "east": "true",
+                "south": "true",
+                "west": "false"
+            }
+        },
+        {
+            "apply": [
+                {
+                    "model": "mcme:block/tusk_s_r",
+                    "y": 90
+                },
+                {
+                    "model": "mcme:block/tusk_s_r_2",
+                    "y": 90
+                }
+            ],
+            "when": {
+                "north": "false",
+                "east": "false",
+                "south": "true",
+                "west": "true"
+            }
+        },
+        {
+            "apply": [
+                {
+                    "model": "mcme:block/tusk_s_r",
+                    "y": 180
+                },
+                {
+                    "model": "mcme:block/tusk_s_r_2",
+                    "y": 180
+                }
+            ],
+            "when": {
+                "north": "true",
+                "east": "false",
+                "south": "false",
+                "west": "true"
+            }
+        },
+        {
+            "apply": [
+                {
+                    "model": "mcme:block/tusk_s_r",
+                    "y": 270
+                },
+                {
+                    "model": "mcme:block/tusk_s_r_2",
+                    "y": 270
+                }
+            ],
+            "when": {
+                "north": "true",
+                "east": "true",
+                "south": "false",
+                "west": "false"
+            }
+        },
+        {
+            "apply": [
+                {
+                    "model": "mcme:block/tusk_s_r"
+                },
+                {
+                    "model": "mcme:block/tusk_s_r_2"
+                }
+            ],
+            "when": {
+                "north": "false",
+                "east": "true",
+                "south": "true",
+                "west": "false"
+            }
+        }
+    ]
+}

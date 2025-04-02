@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "block/nether_wart_2_0",
+    "particle": "block/nether_wart_2_0"
+  }
+}

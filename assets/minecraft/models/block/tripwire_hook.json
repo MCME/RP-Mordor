@@ -1,0 +1,34 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"particle": "block/oak_planks",
+		"wood": "block/oak_planks"
+	},
+	"elements": [
+		{
+			"from": [7.4, 5.2, 10],
+			"to": [8.8, 6.8, 14],
+			"rotation": {"angle": 45, "axis": "x", "origin": [8, 6, 14]},
+			"faces": {
+				"north": {"uv": [7, 9, 9, 11], "texture": "#wood"},
+				"east": {"uv": [9, 9, 14, 11], "texture": "#wood"},
+				"south": {"uv": [7, 9, 9, 11], "texture": "#wood"},
+				"west": {"uv": [2, 9, 7, 11], "texture": "#wood"},
+				"up": {"uv": [7, 2, 9, 7], "texture": "#wood"},
+				"down": {"uv": [7, 9, 9, 14], "texture": "#wood"}
+			}
+		},
+		{
+			"from": [6, 1, 14],
+			"to": [10, 9, 16],
+			"faces": {
+				"north": {"uv": [6, 7, 10, 15], "texture": "#wood"},
+				"east": {"uv": [14, 7, 16, 15], "texture": "#wood"},
+				"south": {"uv": [6, 7, 10, 15], "texture": "#wood", "cullface": "south"},
+				"west": {"uv": [0, 7, 2, 15], "texture": "#wood"},
+				"up": {"uv": [6, 0, 10, 2], "texture": "#wood"},
+				"down": {"uv": [6, 14, 10, 16], "texture": "#wood"}
+			}
+		}
+	]
+}

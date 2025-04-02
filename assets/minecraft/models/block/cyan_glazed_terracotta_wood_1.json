@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "particle": "block/oak_planks",
+    "down": "block/oak_planks",
+    "up": "block/oak_planks",
+    "north": "block/cyan_glazed_terracotta_wood_alt_2",
+    "east": "block/cyan_glazed_terracotta_wood_2",
+    "south": "block/cyan_glazed_terracotta_wood_alt_2",
+    "west": "block/cyan_glazed_terracotta_wood_2"
+  }
+}

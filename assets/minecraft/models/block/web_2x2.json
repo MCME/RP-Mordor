@@ -1,0 +1,6 @@
+{
+  "parent": "block/web2x2parent",
+  "textures": {
+    	"0": "block/web_2x2_1"
+  }
+}

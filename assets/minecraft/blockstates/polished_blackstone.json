@@ -1,10 +1,18 @@
 {
     "variants": {
-        "":[
-		{ "model": "block/polished_blackstone" },
-		{ "model": "block/polished_blackstone_2" },
-		{ "model": "block/polished_blackstone_3" },
-		{ "model": "block/polished_blackstone_4" }
-		]
-	}
+        "": [
+            {
+                "model": "block/polished_blackstone"
+            },
+            {
+                "model": "block/polished_blackstone_2"
+            },
+            {
+                "model": "block/polished_blackstone_3"
+            },
+            {
+                "model": "block/polished_blackstone_4"
+            }
+        ]
+    }
 }

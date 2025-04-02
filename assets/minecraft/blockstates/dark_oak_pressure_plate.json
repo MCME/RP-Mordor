@@ -1,0 +1,9 @@
+{
+  "variants": {
+    "powered=false": [
+	{ "model" : "block/thick_chain" },
+	{ "model" : "block/thick_chain_2" }
+	],
+    "powered=true": { "model" : "block/thick_chain_hook" }
+  }
+}

@@ -1,0 +1,32 @@
+{
+    "variants": {
+        "type=bottom": [
+            {
+                "model": "block/dark_small_bricks_slab"
+            },
+            {
+                "model": "block/dark_small_bricks_slab_2"
+            },
+            {
+                "model": "block/dark_small_bricks_slab_3"
+            }
+        ],
+		 "type=double": {
+            "model": "minecraft:block/replace"
+        },
+        "type=top": [
+            {
+                "model": "block/dark_small_bricks_slab",
+                "x": 180
+            },
+            {
+                "model": "block/dark_small_bricks_slab_2",
+                "x": 180
+            },
+            {
+                "model": "block/dark_small_bricks_slab_3",
+                "x": 180
+            }
+        ]
+    }
+}

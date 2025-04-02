@@ -1,8 +1,19 @@
 {
-    "variants": {
-        "facing=west": { "model": "block/attached_melon_stem" },
-        "facing=east": { "model": "block/attached_melon_stem", "y": 180 },
-        "facing=north": { "model": "block/attached_melon_stem", "y": 90 },
-        "facing=south": { "model": "block/attached_melon_stem", "y": 270 }
-    }
+  "variants": {
+    "facing=north": [
+	{ "model": "block/cooking_pot_small" },
+	{ "model": "block/cooking_pot_small", "y":90 },
+	{ "model": "block/cooking_pot_small_2"},
+	{ "model": "block/cooking_pot_small_2", "y":90 }
+	],
+    "facing=east": [
+	{ "model": "block/cooking_pot_hanging" },
+	{ "model": "block/cooking_pot_hanging_2"}
+	],
+    "facing=south": [
+		{ "model": "block/cooking_pot_hanging", "y":90 },
+		{ "model": "block/cooking_pot_hanging_2", "y":90 }
+	],
+    "facing=west": { "model": "block/unused_cross_0" }
+  }
 }

@@ -1,24 +1,70 @@
 {
     "variants": {
         "type=bottom": [
-			{ "model": "block/acacia_slab" },
-			{ "model": "block/acacia_slab_2" },
-			{ "model": "block/acacia_slab_3" },
-			{ "model": "block/acacia_slab_4" }
-		],
+            {
+                "model": "block/acacia_planks_slab"
+            },
+            {
+                "model": "block/acacia_planks_slab_2"
+            },
+            {
+                "model": "block/acacia_planks_slab_3"
+            },
+            {
+                "model": "block/acacia_planks_slab_4"
+            },
+            {
+                "model": "block/acacia_planks_slab_5"
+            },
+			{
+                "model": "block/acacia_planks_slab_6"
+            }
+        ],
         "type=top": [
-			{ "model": "block/acacia_slab_top" },
-			{ "model": "block/acacia_slab_top_2" },
-			{ "model": "block/acacia_slab_top_3" },
-			{ "model": "block/acacia_slab_top_4" }
-		],
-        "type=double": [
-            { "model": "block/double_slab_planks_acacia" },
-            { "model": "block/double_slab_planks_acacia_1" },
-            { "model": "block/double_slab_planks_acacia_2" },
-            { "model": "block/double_slab_planks_acacia_3" },
-            { "model": "block/double_slab_planks_acacia_4" },
-            { "model": "block/double_slab_planks_acacia_5" }
+            {
+                "model": "block/acacia_planks_slab",
+                "x": 180
+            },
+            {
+                "model": "block/acacia_planks_slab_2",
+                "x": 180
+            },
+            {
+                "model": "block/acacia_planks_slab_3",
+                "x": 180
+            },
+            {
+                "model": "block/acacia_planks_slab_4",
+                "x": 180
+            },
+            {
+                "model": "block/acacia_planks_slab_5",
+                "x": 180
+            },
+			{
+                "model": "block/acacia_planks_slab_6",
+                "x": 180
+            }
+        ],
+		"type=double": [
+            {
+                "model": "block/double_slab_planks_acacia"
+            },
+            {
+                "model": "block/double_slab_planks_acacia_1"
+            },
+            {
+                "model": "block/double_slab_planks_acacia_2"
+            },
+            {
+                "model": "block/double_slab_planks_acacia_3"
+            },
+            {
+                "model": "block/double_slab_planks_acacia_4"
+            },
+            {
+                "model": "block/double_slab_planks_acacia_5"
+            }
         ]
     }
 }

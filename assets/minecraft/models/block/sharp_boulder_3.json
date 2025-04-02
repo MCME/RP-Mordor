@@ -1,0 +1,45 @@
+{
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "block/pink_concrete_powder_3",
+		"stone": "block/pink_concrete_powder_3"
+	},
+	"elements": [
+		{
+			"name": "Small",
+			"from": [0.16, -1.2, 2.8],
+			"to": [7.04, 2.28, 12.56],
+			"rotation": {"angle": -22.5, "axis": "y", "origin": [1.36, -9.64, 7.84]},
+			"faces": {
+				"north": {"uv": [0, 0, 6.88, 3.48], "texture": "#stone"},
+				"east": {"uv": [0, 0, 9.76, 3.48], "texture": "#stone"},
+				"south": {"uv": [0, 0, 6.88, 3.48], "texture": "#stone"},
+				"west": {"uv": [0, 0, 9.76, 3.48], "texture": "#stone"},
+				"up": {"uv": [0, 0, 9.76, 6.88], "rotation": 270, "texture": "#stone"},
+				"down": {"uv": [0, 0, 9.76, 6.88], "rotation": 90, "texture": "#stone"}
+			}
+		},
+		{
+			"name": "Medium",
+			"from": [10.24, -1.44, 7.2],
+			"to": [17.12, 1.52, 15.36],
+			"rotation": {"angle": 22.5, "axis": "z", "origin": [12.08, -5.16, 9.68]},
+			"faces": {
+				"north": {"uv": [0, 0, 2.96, 6.88], "rotation": 270, "texture": "#stone"},
+				"east": {"uv": [2.75, 0, 5.71, 8.16], "rotation": 90, "texture": "#stone"},
+				"south": {"uv": [0, 0, 2.96, 6.88], "rotation": 90, "texture": "#stone"},
+				"west": {"uv": [0, 0, 2.96, 8.16], "rotation": 90, "texture": "#stone"},
+				"up": {"uv": [0, 0, 8.16, 6.88], "rotation": 90, "texture": "#stone"},
+				"down": {"uv": [0, 0, 8.16, 6.88], "rotation": 90, "texture": "#stone"}
+			}
+		}
+	],
+	"display": {
+		"gui": {
+			"rotation": [30, 225, 0],
+			"translation": [0, 5, 0],
+			"scale": [0.625, 0.625, 0.625]
+		}
+	}
+}

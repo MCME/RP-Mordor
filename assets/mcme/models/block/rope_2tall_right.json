@@ -1,0 +1,8 @@
+{
+  "parent": "special-model-loader:builtin/obj",
+  "flip_v": true,
+  "model": "mcme:models/block/rope_2tall_right.obj",
+  "particle": "mcme:block/rope_2tall",
+  "ambientocclusion": false
+  
+}

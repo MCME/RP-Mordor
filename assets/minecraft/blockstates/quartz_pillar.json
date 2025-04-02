@@ -1,7 +1,9 @@
 {
     "variants": {
-        "":[
-		{ "model": "block/quartz_pillar" }
-		]
-	}
+        "": [
+            {
+                "model": "block/quartz_pillar"
+            }
+        ]
+    }
 }

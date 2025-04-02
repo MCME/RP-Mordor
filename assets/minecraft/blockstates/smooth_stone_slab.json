@@ -1,8 +1,17 @@
 {
     "variants": {
-        "type=bottom": { "model": "block/smooth_stone_slab" },
-        "type=top": { "model": "block/smooth_stone_slab_top" },
-        "type=double,waterlogged=false": { "model": "block/smooth_stone_slab_double" },
-        "type=double,waterlogged=true": { "model": "block/smooth_stone" }
+        "type=bottom": {
+            "model": "block/smooth_stone_slab"
+        },
+        "type=top": {
+            "model": "block/smooth_stone_slab",
+            "x": 180
+        },
+        "type=double,waterlogged=false": {
+            "model": "block/replace"
+        },
+        "type=double,waterlogged=true": {
+            "model": "block/smooth_stone"
+        }
     }
 }
