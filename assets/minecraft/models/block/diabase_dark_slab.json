@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "top": "block/deepslate",
+	"side": "block/deepslate",
+	"bottom": "block/deepslate"
+  }
+}
