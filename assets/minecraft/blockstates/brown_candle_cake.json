@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "lit=false": {
+            "model": "minecraft:block/troll_shackles"
+        },
+    "lit=true": {
+      "model": "minecraft:block/black_candle_cake_lit"
+    }
+  }
+}
