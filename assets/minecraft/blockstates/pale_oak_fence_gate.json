@@ -111,22 +111,22 @@
             },
             "apply": [
                 {
-                    "model": "block/replace_vertical_slab",
+                    "model": "block/vertical_slab_diabase",
                     "uvlock": true
                 },
                 {
-                    "model": "block/replace_vertical_slab",
+                    "model": "block/vertical_slab_diabase_2",
                     "uvlock": true
                 },
                 {
-                    "model": "block/replace_vertical_slab",
+                    "model": "block/vertical_slab_diabase_5",
                     "uvlock": true
                 },
                 {
-                    "model": "block/replace_vertical_slab",
+                    "model": "block/vertical_slab_diabase_4",
                     "uvlock": true
                 }
-            ]
+	]
         },
         {
             "when": {
@@ -137,22 +137,22 @@
             },
             "apply": [
                 {
-                    "model": "block/replace_vertical_slab",
+                    "model": "block/vertical_slab_diabase",
                     "uvlock": true,
                     "y": 90
                 },
                 {
-                    "model": "block/replace_vertical_slab",
+                    "model": "block/vertical_slab_diabase_2",
                     "uvlock": true,
                     "y": 90
                 },
                 {
-                    "model": "block/replace_vertical_slab",
+                    "model": "block/vertical_slab_diabase_5",
                     "uvlock": true,
                     "y": 90
                 },
                 {
-                    "model": "block/replace_vertical_slab",
+                    "model": "block/vertical_slab_diabase_4",
                     "uvlock": true,
                     "y": 90
                 }
@@ -167,22 +167,22 @@
             },
             "apply": [
                 {
-                    "model": "block/replace_vertical_slab",
+                    "model": "block/vertical_slab_diabase",
                     "uvlock": true,
                     "y": 180
                 },
                 {
-                    "model": "block/replace_vertical_slab",
+                    "model": "block/vertical_slab_diabase_2",
                     "uvlock": true,
                     "y": 180
                 },
                 {
-                    "model": "block/replace_vertical_slab",
+                    "model": "block/vertical_slab_diabase_5",
                     "uvlock": true,
                     "y": 180
                 },
                 {
-                    "model": "block/replace_vertical_slab",
+                    "model": "block/vertical_slab_diabase_4",
                     "uvlock": true,
                     "y": 180
                 }
@@ -197,22 +197,22 @@
             },
             "apply": [
                 {
-                    "model": "block/replace_vertical_slab",
+                    "model": "block/vertical_slab_diabase",
                     "uvlock": true,
                     "y": 270
                 },
                 {
-                    "model": "block/replace_vertical_slab",
+                    "model": "block/vertical_slab_diabase_2",
                     "uvlock": true,
                     "y": 270
                 },
                 {
-                    "model": "block/replace_vertical_slab",
+                    "model": "block/vertical_slab_diabase_5",
                     "uvlock": true,
                     "y": 270
                 },
                 {
-                    "model": "block/replace_vertical_slab",
+                    "model": "block/vertical_slab_diabase_4",
                     "uvlock": true,
                     "y": 270
                 }
@@ -225,10 +225,24 @@
                 "open": "true",
                 "powered": "false"
             },
-            "apply": {
-                "model": "block/replace_vertical_slab",
-                "uvlock": true
-            }
+            "apply": [
+                {
+                    "model": "block/replace_vertical_slab",
+                    "uvlock": true
+                },
+                {
+                    "model": "block/replace_vertical_slab",
+                    "uvlock": true
+                },
+                {
+                    "model": "block/replace_vertical_slab",
+                    "uvlock": true
+                },
+                {
+                    "model": "block/replace_vertical_slab",
+                    "uvlock": true
+                }
+	]
         },
         {
             "when": {
@@ -237,11 +251,28 @@
                 "open": "true",
                 "powered": "false"
             },
-            "apply": {
-                "model": "block/replace_vertical_slab",
-                "uvlock": true,
-                "y": 90
-            }
+            "apply": [
+                {
+                    "model": "block/replace_vertical_slab",
+                    "uvlock": true,
+                    "y": 90
+                },
+                {
+                    "model": "block/replace_vertical_slab",
+                    "uvlock": true,
+                    "y": 90
+                },
+                {
+                    "model": "block/replace_vertical_slab",
+                    "uvlock": true,
+                    "y": 90
+                },
+                {
+                    "model": "block/replace_vertical_slab",
+                    "uvlock": true,
+                    "y": 90
+                }
+	]
         },
         {
             "when": {
