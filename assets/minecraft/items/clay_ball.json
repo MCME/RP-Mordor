@@ -3632,6 +3632,35 @@
                     "type": "model",
                     "model": "block/portal_ns"
                 }
+            },
+			{
+                "threshold": 890,
+                "model": {
+                    "type": "model",
+                    "model": "block/vertical_slab_diabase"
+                }
+            },
+			{
+                "threshold": 891,
+                "model": {
+                    "type": "model",
+                    "model": "block/diabase_slab"
+                }
+
+            },
+			{
+                "threshold": 892,
+                "model": {
+                    "type": "model",
+                    "model": "block/diabase_dark_slab"
+                }
+            },
+			{
+                "threshold": 893,
+                "model": {
+                    "type": "model",
+                    "model": "block/shale_slab"
+                }
             }
 			
         ]
