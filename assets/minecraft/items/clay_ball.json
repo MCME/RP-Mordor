@@ -3696,8 +3696,14 @@
                     "type": "model",
                     "model": "block/dark_gravel_slab"
                 }
+            },
+			{
+                "threshold": 899,
+                "model": {
+                    "type": "model",
+                    "model": "minecraft:item/rough_beam_45_inv"
+                }
             }
-			
         ]
     }
 }
