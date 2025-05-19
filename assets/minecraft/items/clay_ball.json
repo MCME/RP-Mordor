@@ -3682,6 +3682,20 @@
                     "type": "model",
                     "model": "block/troll_shackles"
                 }
+            },
+			{
+                "threshold": 897,
+                "model": {
+                    "type": "model",
+                    "model": "block/light_gravel_slab"
+                }
+            },
+			{
+                "threshold": 898,
+                "model": {
+                    "type": "model",
+                    "model": "block/dark_gravel_slab"
+                }
             }
 			
         ]
