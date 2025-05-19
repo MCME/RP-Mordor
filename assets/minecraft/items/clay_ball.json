@@ -3668,6 +3668,20 @@
                     "type": "model",
                     "model": "block/diabase_stairs"
                 }
+            },
+			{
+                "threshold": 895,
+                "model": {
+                    "type": "model",
+                    "model": "block/cage_square"
+                }
+            },
+			{
+                "threshold": 896,
+                "model": {
+                    "type": "model",
+                    "model": "block/troll_shackles"
+                }
             }
 			
         ]
