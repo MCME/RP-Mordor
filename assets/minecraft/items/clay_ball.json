@@ -3637,10 +3637,73 @@
                 "threshold": 890,
                 "model": {
                     "type": "model",
+                    "model": "block/vertical_slab_diabase"
+                }
+            },
+			{
+                "threshold": 891,
+                "model": {
+                    "type": "model",
+                    "model": "block/diabase_slab"
+                }
+
+            },
+			{
+                "threshold": 892,
+                "model": {
+                    "type": "model",
+                    "model": "block/diabase_dark_slab"
+                }
+            },
+			{
+                "threshold": 893,
+                "model": {
+                    "type": "model",
+                    "model": "block/shale_slab"
+                }
+            },
+			{
+                "threshold": 894,
+                "model": {
+                    "type": "model",
+                    "model": "block/diabase_stairs"
+                }
+            },
+			{
+                "threshold": 895,
+                "model": {
+                    "type": "model",
+                    "model": "block/cage_square"
+                }
+            },
+			{
+                "threshold": 896,
+                "model": {
+                    "type": "model",
+                    "model": "block/troll_shackles"
+                }
+            },
+			{
+                "threshold": 897,
+                "model": {
+                    "type": "model",
+                    "model": "block/light_gravel_slab"
+                }
+            },
+			{
+                "threshold": 898,
+                "model": {
+                    "type": "model",
+                    "model": "block/dark_gravel_slab"
+                }
+            },
+			{
+                "threshold": 899,
+                "model": {
+                    "type": "model",
                     "model": "minecraft:item/rough_beam_45_inv"
                 }
             }
-			
         ]
     }
 }
