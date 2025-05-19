@@ -3661,6 +3661,13 @@
                     "type": "model",
                     "model": "block/shale_slab"
                 }
+            },
+			{
+                "threshold": 894,
+                "model": {
+                    "type": "model",
+                    "model": "block/polished_blackstone_stairs"
+                }
             }
 			
         ]
