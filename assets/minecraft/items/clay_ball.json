@@ -3632,6 +3632,13 @@
                     "type": "model",
                     "model": "block/portal_ns"
                 }
+            },
+			{
+                "threshold": 890,
+                "model": {
+                    "type": "model",
+                    "model": "minecraft:item/rough_beam_45_inv"
+                }
             }
 			
         ]
