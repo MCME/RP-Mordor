@@ -3710,6 +3710,174 @@
                     "type": "model",
                     "model": "minecraft:item/rough_beam_22.5_inv"
                 }
+            },
+			{
+                "threshold": 901,
+                "model": {
+                    "type": "model",
+                    "model": "minecraft:block/dark_stone_bricks_1x1arch"
+                }
+            },
+			{
+                "threshold": 902,
+                "model": {
+                    "type": "model",
+                    "model": "minecraft:block/dark_stone_brick_window"
+                }
+            },
+			{
+                "threshold": 903,
+                "model": {
+                    "type": "model",
+                    "model": "minecraft:block/dark_stone_brick_window_bottom"
+                }
+            },
+			{
+                "threshold": 904,
+                "model": {
+                    "type": "model",
+                    "model": "minecraft:block/dark_stone_bricks_1x2arch"
+                }
+            },
+			{
+                "threshold": 905,
+                "model": {
+                    "type": "model",
+                    "model": "minecraft:block/dark_stone_bricks_1x3arch"
+                }
+            },
+			{
+                "threshold": 906,
+                "model": {
+                    "type": "model",
+                    "model": "minecraft:block/dark_stone_bricks_1x3arch_top"
+                }
+            },
+			{
+                "threshold": 907,
+                "model": {
+                    "type": "model",
+                    "model": "minecraft:block/darker_stone_bricks_1x1arch"
+                }
+            },
+			{
+                "threshold": 908,
+                "model": {
+                    "type": "model",
+                    "model": "minecraft:block/darker_stone_brick_window"
+                }
+            },
+			{
+                "threshold": 909,
+                "model": {
+                    "type": "model",
+                    "model": "minecraft:block/darker_stone_brick_window_bottom"
+                }
+            },
+			{
+                "threshold": 910,
+                "model": {
+                    "type": "model",
+                    "model": "minecraft:block/darker_stone_bricks_1x2arch"
+                }
+            },
+			{
+                "threshold": 911,
+                "model": {
+                    "type": "model",
+                    "model": "minecraft:block/darker_stone_bricks_1x3arch"
+                }
+            },
+			{
+                "threshold": 912,
+                "model": {
+                    "type": "model",
+                    "model": "minecraft:block/darker_stone_bricks_1x3arch_top"
+                }
+            },
+			{
+                "threshold": 913,
+                "model": { 
+                    "type": "model",
+                    "model": "minecraft:block/very_dark_stone_bricks_1x1arch"
+                }
+            },
+			{
+                "threshold": 914,
+                "model": {
+                    "type": "model",
+                    "model": "minecraft:block/very_dark_stone_brick_window"
+                }
+            },
+			{
+                "threshold": 915,
+                "model": {
+                    "type": "model",
+                    "model": "minecraft:block/very_dark_stone_brick_window_bottom"
+                }
+            },
+			{
+                "threshold": 916,
+                "model": {
+                    "type": "model",
+                    "model": "minecraft:block/very_dark_stone_bricks_1x2arch"
+                }
+            },
+			{
+                "threshold": 917,
+                "model": {
+                    "type": "model",
+                    "model": "minecraft:block/very_dark_stone_bricks_1x3arch"
+                }
+            },
+			{
+                "threshold": 918,
+                "model": {
+                    "type": "model",
+                    "model": "minecraft:block/very_dark_stone_bricks_1x3arch_top"
+                }
+            },
+			{
+                "threshold": 919,
+                "model": {
+                    "type": "model",
+                    "model": "minecraft:block/green_stone_bricks_1x1arch"
+                }
+            },
+			{
+                "threshold": 920,
+                "model": {
+                    "type": "model",
+                    "model": "minecraft:block/green_stone_brick_window"
+                }
+            },
+			{
+                "threshold": 921,
+                "model": {
+                    "type": "model",
+                    "model": "minecraft:block/green_stone_brick_window_bottom"
+                }
+            },
+			{
+                "threshold": 922,
+                "model": {
+                    "type": "model",
+                    "model": "minecraft:block/green_stone_bricks_1x2arch"
+                }
+            },
+			{
+                "threshold": 923,
+                "model": {
+                    "type": "model",
+                    "model": "minecraft:block/green_stone_bricks_1x3arch"
+                }
+            },
+			{
+                "threshold": 924,
+                "model": {
+                    "type": "model",
+                    "model": "minecraft:block/green_stone_bricks_1x3arch_top"
+                }
             }
         ]
     }
