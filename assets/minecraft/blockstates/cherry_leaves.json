@@ -1,0 +1,54 @@
+{
+    "variants": {
+        "distance=1,persistent=false,waterlogged=false": {
+			"model": "block/dark_stone_brick_window"
+		},
+        "distance=2,persistent=false,waterlogged=false": {
+			"model": "block/dark_stone_brick_window",
+			"y": 90
+		},
+        "distance=3,persistent=false,waterlogged=false": {
+			"model": "block/dark_stone_brick_window_bottom"
+		},
+		"distance=4,persistent=false,waterlogged=false": {
+			"model": "block/dark_stone_brick_window_bottom",
+			"y": 90
+		},
+		"distance=5,persistent=false,waterlogged=false": {
+			"model": "block/darker_stone_brick_window"
+		},
+        "distance=6,persistent=false,waterlogged=false": {
+			"model": "block/darker_stone_brick_window",
+			"y": 90
+		},
+        "distance=7,persistent=false,waterlogged=false": {
+			"model": "block/darker_stone_brick_window_bottom"
+		},
+		"distance=1,persistent=true,waterlogged=false": {
+			"model": "block/darker_stone_brick_window_bottom",
+			"y": 90
+		},
+		"distance=2,persistent=true,waterlogged=false": {
+			"model": "block/very_dark_stone_brick_window"
+		},
+		"distance=3,persistent=true,waterlogged=false": {
+			"model": "block/very_dark_stone_brick_window",
+			"y": 90
+		},
+		"distance=4,persistent=true,waterlogged=false": {
+			"model": "block/very_dark_stone_brick_window_bottom"
+		},
+		"distance=5,persistent=true,waterlogged=false": {
+			"model": "block/very_dark_stone_brick_window_bottom",
+			"y": 90
+		},
+		"distance=6,persistent=true,waterlogged=false": {
+			"model": "block/green_stone_brick_window"
+		},
+		"distance=7,persistent=true,waterlogged=false": {
+			"model": "block/green_stone_brick_window",
+			"y": 90
+		}
+		
+    }
+}

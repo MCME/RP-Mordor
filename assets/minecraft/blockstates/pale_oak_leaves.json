@@ -1,0 +1,12 @@
+{
+    "variants": {
+        "distance=1,persistent=false,waterlogged=false": {
+			"model": "block/green_stone_brick_window_bottom"
+		},
+        "distance=2,persistent=false,waterlogged=false": {
+			"model": "block/green_stone_brick_window_bottom",
+			"y": 90
+		}
+		
+    }
+}
