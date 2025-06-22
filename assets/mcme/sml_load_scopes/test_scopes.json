@@ -106,7 +106,12 @@
 	"mcme:block/oak_thin_branch_22.5_diagonal",
 	"mcme:block/dead_tube_coral_fan",
 	"mcme:block/dead_tube_coral_fan_2", 
-	"mcme:block/beam_bones_2"
+	"mcme:block/beam_bones_2", 
+	"mcme:block/metal_arrow_slit", 
+	"mcme:block/dark_stone_brick_arrow_slit", 
+	"mcme:block/black_stone_brick_arrow_slit", 
+	"mcme:block/very_black_stone_brick_arrow_slit", 
+	"mcme:block/green_stone_brick_arrow_slit"
 
   ]
 }
