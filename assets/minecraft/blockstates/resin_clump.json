@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "north=true,east=false,south=false,west=true,up=false,down=true": {
+      "model": "mcme:block/rope_2wide_diag_45",
+      "y": 270
+    },
+    "north=true,east=true,south=false,west=false,up=false,down=true": {
+      "model": "mcme:block/rope_2wide_diag_45",
+      "y": 0
+    },
+    "north=false,east=false,south=true,west=true,up=false,down=true": {
+      "model": "mcme:block/rope_2wide_diag_45",
+      "y": 180
+    },
+    "north=false,east=true,south=true,west=false,up=false,down=true": {
+      "model": "mcme:block/rope_2wide_diag_45",
+      "y": 90
+    }
+  }
+}
