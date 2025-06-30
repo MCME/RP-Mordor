@@ -39,7 +39,14 @@
                 "threshold": 7,
                 "model": {
                     "type": "model",
-                    "model": "item/mist_inventory"
+                    "model": "item/inv_mist"
+                }
+            },
+            {
+                "threshold": 8,
+                "model": {
+                    "type": "model",
+                    "model": "item/inv_mist_2"
                 }
             },
             {
