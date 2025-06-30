@@ -17,7 +17,7 @@
             {
                 "threshold": 2,
                 "model": {
-                    "type": "model",
+                    "type": "model", 
                     "model": "block/farmland_moisture1"
                 }
             },
@@ -3975,6 +3975,20 @@
                 "model": {
                     "type": "model",
                     "model": "minecraft:block/vertical_slab_dark_dripstone"
+                }
+            },
+			{
+                "threshold": 939,
+                "model": {
+                    "type": "model",
+                    "model": "item/rope_45_2x1_low"
+                }
+            },
+			{
+                "threshold": 940,
+                "model": {
+                    "type": "model",
+                    "model": "block/redstone_dust_power9_center"
                 }
             }
         ]
