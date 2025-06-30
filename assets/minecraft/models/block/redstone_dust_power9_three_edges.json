@@ -1,6 +1,6 @@
 {
   "parent": "block/redstone_dust",
   "textures": {
-    "cover": "block/oil_still_puddle"
+    "cover": "block/redstone_dust_power9_three_edges"
   }
 }
