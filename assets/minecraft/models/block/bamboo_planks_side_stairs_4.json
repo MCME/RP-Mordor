@@ -1,0 +1,6 @@
+{
+  "parent": "block/side_stairs",
+  "textures": {
+    "side": "block/bamboo_planks_4"
+  }
+}

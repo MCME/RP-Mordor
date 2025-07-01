@@ -1,7 +1,10 @@
 {
     "variants": {
-        "": {
-            "model": "minecraft:block/replace"
-        }
+        "": [
+		{ "model": "minecraft:block/bamboo_planks" },
+		{ "model": "minecraft:block/bamboo_planks_2" },
+		{ "model": "minecraft:block/bamboo_planks_3" },
+		{ "model": "minecraft:block/bamboo_planks_4" }
+		]
     }
 }

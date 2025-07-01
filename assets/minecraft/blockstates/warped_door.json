@@ -438,9 +438,10 @@
                 "powered": "true"
             },
             "apply": [
-                {
-                    "model": "minecraft:block/door_unused"
-                }
+                { "model": "minecraft:block/bamboo_planks_offset", "x": 270, "y": 0 },
+				{ "model": "minecraft:block/bamboo_planks_offset_2", "x": 270, "y": 0 },
+				{ "model": "minecraft:block/bamboo_planks_offset_3", "x": 270, "y": 0 },
+				{ "model": "minecraft:block/bamboo_planks_offset_4", "x": 270, "y": 0 }
             ]
         },
         {
@@ -452,10 +453,10 @@
                 "powered": "true"
             },
             "apply": [
-                {
-                    "model": "minecraft:block/door_unused",
-                    "y": 90
-                }
+                { "model": "minecraft:block/bamboo_planks_offset", "x": 270, "y": 90 },
+				{ "model": "minecraft:block/bamboo_planks_offset_2", "x": 270, "y": 90 },
+				{ "model": "minecraft:block/bamboo_planks_offset_3", "x": 270, "y": 90 },
+				{ "model": "minecraft:block/bamboo_planks_offset_4", "x": 270, "y": 90 }
             ]
         },
         {
@@ -467,10 +468,10 @@
                 "powered": "true"
             },
             "apply": [
-                {
-                    "model": "minecraft:block/door_unused",
-                    "y": 180
-                }
+                { "model": "minecraft:block/bamboo_planks_offset", "x": 270, "y": 180 },
+				{ "model": "minecraft:block/bamboo_planks_offset_2", "x": 270, "y": 180 },
+				{ "model": "minecraft:block/bamboo_planks_offset_3", "x": 270, "y": 180 },
+				{ "model": "minecraft:block/bamboo_planks_offset_4", "x": 270, "y": 180 }
             ]
         },
         {
@@ -482,10 +483,10 @@
                 "powered": "true"
             },
             "apply": [
-                {
-                    "model": "minecraft:block/door_unused",
-                    "y": 270
-                }
+                { "model": "minecraft:block/bamboo_planks_offset", "x": 270, "y": 270 },
+				{ "model": "minecraft:block/bamboo_planks_offset_2", "x": 270, "y": 270 },
+				{ "model": "minecraft:block/bamboo_planks_offset_3", "x": 270, "y": 270 },
+				{ "model": "minecraft:block/bamboo_planks_offset_4", "x": 270, "y": 270 }
             ]
         },
         {
@@ -497,10 +498,10 @@
                 "powered": "true"
             },
             "apply": [
-                {
-                    "model": "minecraft:block/door_unused",
-                    "y": 90
-                }
+                { "model": "minecraft:block/bamboo_planks_offset", "x": 90, "y": 90 },
+				{ "model": "minecraft:block/bamboo_planks_offset_2", "x": 90, "y": 90 },
+				{ "model": "minecraft:block/bamboo_planks_offset_3", "x": 90, "y": 90 },
+				{ "model": "minecraft:block/bamboo_planks_offset_4", "x": 90, "y": 90 }
             ]
         },
         {
@@ -512,10 +513,10 @@
                 "powered": "true"
             },
             "apply": [
-                {
-                    "model": "minecraft:block/door_unused",
-                    "y": 180
-                }
+                { "model": "minecraft:block/bamboo_planks_offset", "x": 90, "y": 180 },
+				{ "model": "minecraft:block/bamboo_planks_offset_2", "x": 90, "y": 180 },
+				{ "model": "minecraft:block/bamboo_planks_offset_3", "x": 90, "y": 180 },
+				{ "model": "minecraft:block/bamboo_planks_offset_4", "x": 90, "y": 180 }
             ]
         },
         {
@@ -527,10 +528,10 @@
                 "powered": "true"
             },
             "apply": [
-                {
-                    "model": "minecraft:block/door_unused",
-                    "y": 270
-                }
+                { "model": "minecraft:block/bamboo_planks_offset", "x": 90, "y": 270 },
+				{ "model": "minecraft:block/bamboo_planks_offset_2", "x": 90, "y": 270 },
+				{ "model": "minecraft:block/bamboo_planks_offset_3", "x": 90, "y": 270 },
+				{ "model": "minecraft:block/bamboo_planks_offset_4", "x": 90, "y": 270 }
             ]
         },
         {
@@ -542,9 +543,10 @@
                 "powered": "true"
             },
             "apply": [
-                {
-                    "model": "minecraft:block/door_unused"
-                }
+                { "model": "minecraft:block/bamboo_planks_offset", "x": 90, "y": 0 },
+				{ "model": "minecraft:block/bamboo_planks_offset_2", "x": 90, "y": 0 },
+				{ "model": "minecraft:block/bamboo_planks_offset_3", "x": 90, "y": 0 },
+				{ "model": "minecraft:block/bamboo_planks_offset_4", "x": 90, "y": 0 }
             ]
         },
         {
