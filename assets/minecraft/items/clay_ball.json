@@ -3990,6 +3990,55 @@
                     "type": "model",
                     "model": "block/redstone_dust_power9_center"
                 }
+            },
+			{
+                "threshold": 941,
+                "model": {
+                    "type": "model",
+                    "model": "block/vertical_slab_bamboo_planks"
+                }
+            },
+			{
+                "threshold": 942,
+                "model": {
+                    "type": "model",
+                    "model": "block/bamboo_planks_side_stairs"
+                }
+            },
+			{
+                "threshold": 943,
+                "model": {
+                    "type": "model",
+                    "model": "item/trapdoor_bamboo_planks_side"
+                }
+            },
+			{
+                "threshold": 944,
+                "model": {
+                    "type": "model",
+                    "model": "block/trapdoor_bamboo_planks"
+                }
+            },
+			{
+                "threshold": 945,
+                "model": {
+                    "type": "model",
+                    "model": "block/bamboo_planks_offset"
+                }
+            },
+			{
+                "threshold": 946,
+                "model": {
+                    "type": "model",
+                    "model": "item/bamboo_planks_offset_down"
+                }
+            },
+			{
+                "threshold": 947,
+                "model": {
+                    "type": "model",
+                    "model": "item/bamboo_planks_offset_up"
+                }
             }
         ]
     }
