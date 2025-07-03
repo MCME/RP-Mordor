@@ -4039,6 +4039,20 @@
                     "type": "model",
                     "model": "item/bamboo_planks_offset_up"
                 }
+            },
+			{
+                "threshold": 948,
+                "model": {
+                    "type": "model",
+                    "model": "item/rope_left_3x1"
+                }
+            },
+			{
+                "threshold": 949,
+                "model": {
+                    "type": "model",
+                    "model": "item/rope_right_3x1"
+                }
             }
         ]
     }

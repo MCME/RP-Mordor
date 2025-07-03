@@ -112,7 +112,8 @@
 	"mcme:block/black_stone_brick_arrow_slit", 
 	"mcme:block/very_black_stone_brick_arrow_slit", 
 	"mcme:block/green_stone_brick_arrow_slit", 
-	"mcme:block/rope_2wide_diag_45"
-
+	"mcme:block/rope_2wide_diag_45", 
+	"mcme:block/rope_3tall", 
+	"mcme:block/rope_3tall_right"
   ]
 }

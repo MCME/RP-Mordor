@@ -49,7 +49,49 @@
         ],
         "candles=2,lit=false": [
             {
-                "model": "minecraft:block/unused_cross"
+                "model": "mcme:block/animal_skull"
+            },
+            {
+                "model": "mcme:block/animal_skull",
+                "y": 90
+            },
+            {
+                "model": "mcme:block/animal_skull",
+                "y": 180
+            },
+            {
+                "model": "mcme:block/animal_skull",
+                "y": 270
+            },
+            {
+                "model": "mcme:block/animal_skull_2"
+            },
+            {
+                "model": "mcme:block/animal_skull_2",
+                "y": 90
+            },
+            {
+                "model": "mcme:block/animal_skull_2",
+                "y": 180
+            },
+            {
+                "model": "mcme:block/animal_skull_2",
+                "y": 270
+            },
+            {
+                "model": "mcme:block/animal_skull_6"
+            },
+            {
+                "model": "mcme:block/animal_skull_6",
+                "y": 90
+            },
+            {
+                "model": "mcme:block/animal_skull_6",
+                "y": 180
+            },
+            {
+                "model": "mcme:block/animal_skull_6",
+                "y": 270
             }
         ],
         "candles=3,lit=false": [
