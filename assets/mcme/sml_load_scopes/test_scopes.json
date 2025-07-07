@@ -114,6 +114,12 @@
 	"mcme:block/green_stone_brick_arrow_slit", 
 	"mcme:block/rope_2wide_diag_45", 
 	"mcme:block/rope_3tall", 
-	"mcme:block/rope_3tall_right"
+	"mcme:block/rope_3tall_right", 
+	"mcme:block/rope_3tall_diag", 
+	"mcme:block/rope_3wide_diag", 
+	"mcme:block/diagonal_tent_pole_3tall_2wide", 
+	"mcme:block/diagonal_tent_pole_3tall", 
+	"mcme:block/diagonal_tent_pole_3tall_top",
+	"mcme:block/diagonal_tent_pole_3tall_2wide_top"
   ]
 }

@@ -4053,6 +4053,20 @@
                     "type": "model",
                     "model": "item/rope_right_3x1"
                 }
+            },
+			{
+                "threshold": 950,
+                "model": {
+                    "type": "model",
+                    "model": "item/rope_45_3x1"
+                }
+            },
+			{
+                "threshold": 951,
+                "model": {
+                    "type": "model",
+                    "model": "item/rope_45_3x1_low"
+                }
             }
         ]
     }
