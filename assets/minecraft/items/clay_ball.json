@@ -4067,6 +4067,34 @@
                     "type": "model",
                     "model": "item/rope_45_3x1_low"
                 }
+            },
+			{
+                "threshold": 952,
+                "model": {
+                    "type": "model",
+                    "model": "item/steep_diagonal_tent_pole"
+                }
+            },
+			{
+                "threshold": 953,
+                "model": {
+                    "type": "model",
+                    "model": "item/diagonal_tent_pole"
+                }
+            },
+			{
+                "threshold": 954,
+                "model": {
+                    "type": "model",
+                    "model": "item/steep_diagonal_tent_pole_top"
+                }
+            },
+			{
+                "threshold": 955,
+                "model": {
+                    "type": "model",
+                    "model": "item/diagonal_tent_pole_top"
+                }
             }
         ]
     }
