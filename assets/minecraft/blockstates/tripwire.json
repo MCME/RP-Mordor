@@ -209,16 +209,16 @@
       "model": "minecraft:block/unused_cross_cutout"
     },
     "attached=false,disarmed=false,powered=false,east=false,north=false,south=false,west=false": {
-      "model": "minecraft:block/unused_cross_cutout"
+      "model": "mcme:block/thin_diagonal_tent_pole_3tall"
     },
     "attached=false,disarmed=false,powered=false,east=false,north=false,south=false,west=true": {
-      "model": "minecraft:block/unused_cross_cutout"
+      "model": "mcme:block/thin_diagonal_tent_pole_3tall", "y": 90
     },
     "attached=false,disarmed=false,powered=false,east=false,north=false,south=true,west=true": {
-      "model": "minecraft:block/unused_cross_cutout"
+      "model": "mcme:block/thin_diagonal_tent_pole_3tall", "y": 180
     },
     "attached=false,disarmed=false,powered=false,east=false,north=false,south=true,west=false": {
-      "model": "minecraft:block/unused_cross_cutout"
+      "model": "mcme:block/thin_diagonal_tent_pole_3tall", "y": 270
     },
     "attached=false,disarmed=false,powered=false,east=true,north=false,south=false,west=false": {
       "model": "minecraft:block/unused_cross_cutout"
@@ -227,31 +227,31 @@
       "model": "minecraft:block/unused_cross_cutout"
     },
     "attached=false,disarmed=true,powered=false,east=false,north=false,south=false,west=true": {
-      "model": "minecraft:block/unused_cross_cutout"
+      "model": "mcme:block/thin_diagonal_tent_pole_3tall_2wide"
+    },
+	"attached=false,disarmed=true,powered=false,east=false,north=false,south=true,west=false": {
+      "model": "mcme:block/thin_diagonal_tent_pole_3tall_2wide", "y": 90
     },
     "attached=false,disarmed=true,powered=false,east=false,north=false,south=true,west=true": {
-      "model": "minecraft:block/unused_cross_cutout"
-    },
-    "attached=false,disarmed=true,powered=false,east=false,north=false,south=true,west=false": {
-      "model": "minecraft:block/unused_cross_cutout"
+      "model": "mcme:block/thin_diagonal_tent_pole_3tall_2wide", "y": 180
     },
     "attached=false,disarmed=true,powered=false,east=true,north=false,south=false,west=false": {
-      "model": "minecraft:block/unused_cross_cutout"
+      "model": "mcme:block/thin_diagonal_tent_pole_3tall_2wide", "y": 270
     },
-    "attached=false,disarmed=true,powered=false,east=true,north=false,south=false,west=true": {
+	"attached=false,disarmed=true,powered=false,east=true,north=false,south=false,west=true": {
       "model": "minecraft:block/unused_cross_cutout"
     },
     "attached=false,disarmed=true,powered=true,east=false,north=false,south=false,west=false": {
-      "model": "minecraft:block/unused_cross_cutout"
+      "model": "mcme:block/thin_diagonal_tent_pole_3tall_2wide_top"
     },
     "attached=false,disarmed=true,powered=true,east=false,north=false,south=false,west=true": {
-      "model": "minecraft:block/unused_cross_cutout"
+      "model": "mcme:block/thin_diagonal_tent_pole_3tall_2wide_top", "y": 90
     },
     "attached=false,disarmed=true,powered=true,east=false,north=false,south=true,west=true": {
-      "model": "minecraft:block/unused_cross_cutout"
+      "model": "mcme:block/thin_diagonal_tent_pole_3tall_2wide_top", "y": 180
     },
     "attached=false,disarmed=true,powered=true,east=false,north=false,south=true,west=false": {
-      "model": "minecraft:block/unused_cross_cutout"
+      "model": "mcme:block/thin_diagonal_tent_pole_3tall_2wide_top", "y": 270
     },
     "attached=false,disarmed=true,powered=false,north=false,east=false,south=false,west=false": [
     { "model": "block/bottle" },
@@ -270,6 +270,51 @@
     { "model": "block/bottle_4", "y":90 },
     { "model": "block/bottle_4", "y":180 },
     { "model": "block/bottle_4", "y":270 }
-    ]
+    ],
+    "attached=false,disarmed=false,powered=false,east=false,north=true,south=true,west=true": {
+      "model": "mcme:block/thin_diagonal_tent_pole_3tall_top"
+    },
+	"attached=false,disarmed=false,powered=false,east=true,north=true,south=false,west=false": {
+      "model": "mcme:block/thin_diagonal_tent_pole_3tall_top", "y": 90
+    },
+	"attached=false,disarmed=false,powered=false,east=true,north=true,south=false,west=true": {
+      "model": "mcme:block/thin_diagonal_tent_pole_3tall_top", "y": 180
+    },
+    "attached=false,disarmed=false,powered=false,east=true,north=true,south=true,west=false": {
+      "model": "mcme:block/thin_diagonal_tent_pole_3tall_top", "y": 270
+    },
+    "attached=false,disarmed=false,powered=true,east=false,north=true,south=true,west=true": {
+      "model": "minecraft:block/unused_cross_cutout"
+    },
+    "attached=false,disarmed=true,powered=false,east=false,north=true,south=true,west=true": {
+      "model": "minecraft:block/unused_cross_cutout"
+    },
+    "attached=false,disarmed=false,powered=true,east=true,north=true,south=false,west=false": {
+      "model": "minecraft:block/unused_cross_cutout"
+    },
+    "attached=false,disarmed=true,powered=false,east=true,north=true,south=false,west=false": {
+      "model": "minecraft:block/unused_cross_cutout"
+    },
+    "attached=false,disarmed=false,powered=true,east=true,north=true,south=false,west=true": {
+      "model": "minecraft:block/unused_cross_cutout"
+    },
+    "attached=false,disarmed=true,powered=false,east=true,north=true,south=false,west=true": {
+      "model": "minecraft:block/unused_cross_cutout"
+    },
+    "attached=false,disarmed=false,powered=true,east=true,north=true,south=true,west=false": {
+      "model": "minecraft:block/unused_cross_cutout"
+    },
+    "attached=false,disarmed=true,powered=false,east=true,north=true,south=true,west=false": {
+      "model": "minecraft:block/unused_cross_cutout"
+    },
+    "attached=false,disarmed=false,powered=false,east=true,north=true,south=true,west=true": {
+      "model": "minecraft:block/unused_cross_cutout"
+    },
+    "attached=false,disarmed=false,powered=true,east=true,north=true,south=true,west=true": {
+      "model": "minecraft:block/unused_cross_cutout"
+    },
+    "attached=false,disarmed=true,powered=false,east=true,north=true,south=true,west=true": {
+      "model": "minecraft:block/unused_cross_cutout"
+    }
   }
 }

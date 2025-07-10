@@ -120,6 +120,10 @@
 	"mcme:block/diagonal_tent_pole_3tall_2wide", 
 	"mcme:block/diagonal_tent_pole_3tall", 
 	"mcme:block/diagonal_tent_pole_3tall_top",
-	"mcme:block/diagonal_tent_pole_3tall_2wide_top"
+	"mcme:block/diagonal_tent_pole_3tall_2wide_top", 
+	"mcme:block/thin_diagonal_tent_pole_3tall_2wide", 
+	"mcme:block/thin_diagonal_tent_pole_3tall", 
+	"mcme:block/thin_diagonal_tent_pole_3tall_top",
+	"mcme:block/thin_diagonal_tent_pole_3tall_2wide_top", 
   ]
 }

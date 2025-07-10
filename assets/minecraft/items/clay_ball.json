@@ -4095,6 +4095,34 @@
                     "type": "model",
                     "model": "item/diagonal_tent_pole_top"
                 }
+            },
+			{
+                "threshold": 956,
+                "model": {
+                    "type": "model",
+                    "model": "item/thin_steep_diagonal_tent_pole"
+                }
+            },
+			{
+                "threshold": 957,
+                "model": {
+                    "type": "model",
+                    "model": "item/thin_diagonal_tent_pole"
+                }
+            },
+			{
+                "threshold": 958,
+                "model": {
+                    "type": "model",
+                    "model": "item/thin_steep_diagonal_tent_pole_top"
+                }
+            },
+			{
+                "threshold": 959,
+                "model": {
+                    "type": "model",
+                    "model": "item/thin_diagonal_tent_pole_top"
+                }
             }
         ]
     }
