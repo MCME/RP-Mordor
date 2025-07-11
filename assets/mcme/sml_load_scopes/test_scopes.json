@@ -46,8 +46,6 @@
 	"mcme:block/spiked_log",
 	"mcme:block/wooden_spike_extra_large",
 	"mcme:block/wooden_spike_extra_large_2",
-	"mcme:block/wooden_spike_small",
-	"mcme:block/wooden_spike_small_2",
 	"mcme:block/wooden_spike_large",
 	"mcme:block/wooden_spike_large_2",
 	"mcme:block/wooden_catwalk_wide",
@@ -124,6 +122,10 @@
 	"mcme:block/thin_diagonal_tent_pole_3tall_2wide", 
 	"mcme:block/thin_diagonal_tent_pole_3tall", 
 	"mcme:block/thin_diagonal_tent_pole_3tall_top",
-	"mcme:block/thin_diagonal_tent_pole_3tall_2wide_top", 
+	"mcme:block/thin_diagonal_tent_pole_3tall_2wide_top",
+	"mcme:block/wooden_spike_small",
+	"mcme:block/wooden_spike_small_offset",
+	"mcme:block/wide_wooden_spike_small",
+	"mcme:block/wide_wooden_spike_small_offset"
   ]
 }

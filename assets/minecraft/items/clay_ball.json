@@ -4123,6 +4123,50 @@
                     "type": "model",
                     "model": "item/thin_diagonal_tent_pole_top"
                 }
+            },
+			{
+                "threshold": 960,
+                "model": {
+                    "type": "model",
+                    "model": "block/tree_wide_vertical"
+                }
+            },
+			{
+                "threshold": 961,
+                "model": {
+                    "type": "model",
+                    "model": "block/tree_thin_vertical_offset"
+                }
+            },
+			
+			
+			{
+                "threshold": 962,
+                "model": {
+                    "type": "model",
+                    "model": "item/wooden_spike_small"
+                }
+            },
+			{
+                "threshold": 963,
+                "model": {
+                    "type": "model",
+                    "model": "item/wooden_spike_small_offset"
+                }
+            },
+			{
+                "threshold": 964,
+                "model": {
+                    "type": "model",
+                    "model": "item/wide_wooden_spike_small"
+                }
+            },
+			{
+                "threshold": 965,
+                "model": {
+                    "type": "model",
+                    "model": "item/wide_wooden_spike_small_offset"
+                }
             }
         ]
     }

@@ -284,28 +284,28 @@
       "model": "mcme:block/thin_diagonal_tent_pole_3tall_top", "y": 270
     },
     "attached=false,disarmed=false,powered=true,east=false,north=true,south=true,west=true": {
-      "model": "minecraft:block/unused_cross_cutout"
+      "model": "mcme:block/wide_wooden_spike_small_offset"
     },
     "attached=false,disarmed=true,powered=false,east=false,north=true,south=true,west=true": {
-      "model": "minecraft:block/unused_cross_cutout"
+      "model": "mcme:block/wide_wooden_spike_small_offset", "y": 270
     },
     "attached=false,disarmed=false,powered=true,east=true,north=true,south=false,west=false": {
-      "model": "minecraft:block/unused_cross_cutout"
+      "model": "mcme:block/wide_wooden_spike_small_offset", "y": 90
     },
     "attached=false,disarmed=true,powered=false,east=true,north=true,south=false,west=false": {
-      "model": "minecraft:block/unused_cross_cutout"
+      "model": "mcme:block/wide_wooden_spike_small_offset", "y": 180
     },
     "attached=false,disarmed=false,powered=true,east=true,north=true,south=false,west=true": {
-      "model": "minecraft:block/unused_cross_cutout"
+      "model": "mcme:block/wooden_spike_small_offset"
     },
     "attached=false,disarmed=true,powered=false,east=true,north=true,south=false,west=true": {
-      "model": "minecraft:block/unused_cross_cutout"
+      "model": "mcme:block/wooden_spike_small_offset", "y": 270
     },
     "attached=false,disarmed=false,powered=true,east=true,north=true,south=true,west=false": {
-      "model": "minecraft:block/unused_cross_cutout"
+      "model": "mcme:block/wooden_spike_small_offset", "y": 90
     },
     "attached=false,disarmed=true,powered=false,east=true,north=true,south=true,west=false": {
-      "model": "minecraft:block/unused_cross_cutout"
+      "model": "mcme:block/wooden_spike_small_offset", "y": 180
     },
     "attached=false,disarmed=false,powered=false,east=true,north=true,south=true,west=true": {
       "model": "minecraft:block/unused_cross_cutout"

@@ -1,6 +1,6 @@
 {
   "variants": {
-    "north=false,east=false,south=false,west=false": { "model": "block/replace_fence" },
+    "north=false,east=false,south=false,west=false": { "model": "block/tree_wide_vertical" },
     "north=false,east=false,south=false,west=true": [
 		{ "model": "block/bamboo_planks_offset", "y":270 },
 		{ "model": "block/bamboo_planks_offset_2", "y":270 },

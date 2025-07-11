@@ -45,6 +45,22 @@
     "north=false,east=false,south=false,west=true,up=false,down=false": {
       "model": "mcme:block/rope_3tall_right",
       "y": 180
+    },
+    "north=true,east=true,south=false,west=false,up=false,down=false": {
+      "model": "minecraft:block/tree_thin_vertical_offset",
+      "y": 0
+    },
+    "north=false,east=true,south=true,west=false,up=false,down=false": {
+      "model": "minecraft:block/tree_thin_vertical_offset",
+      "y": 90
+    },
+    "north=false,east=false,south=true,west=true,up=false,down=false": {
+      "model": "minecraft:block/tree_thin_vertical_offset",
+      "y": 180
+    },
+    "north=true,east=false,south=false,west=true,up=false,down=false": {
+      "model": "minecraft:block/tree_thin_vertical_offset",
+      "y": 270
     }
   }
 }
