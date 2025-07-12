@@ -364,6 +364,6 @@
 		{ "model": "mcme:block/mist_3", "y": 90  },
 		{ "model": "mcme:block/mist_3", "y": 180  },
 		{ "model": "mcme:block/mist_3", "y": 270  }
-	],
+	]
   }
 }
