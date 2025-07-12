@@ -349,6 +349,21 @@
     },
     "attached=false,disarmed=true,powered=false,east=true,north=true,south=true,west=true": {
       "model": "minecraft:block/unused_cross_cutout"
-    }
+    },
+	"attached=false,east=false,north=true,south=true,west=false,powered=true,disarmed=false": 
+    [
+		{ "model": "mcme:block/mist"  },
+		{ "model": "mcme:block/mist", "y": 90  },
+		{ "model": "mcme:block/mist", "y": 180  },
+		{ "model": "mcme:block/mist", "y": 270  },
+		{ "model": "mcme:block/mist_2"  },
+		{ "model": "mcme:block/mist_2", "y": 90  },
+		{ "model": "mcme:block/mist_2", "y": 180  },
+		{ "model": "mcme:block/mist_2", "y": 270  },
+		{ "model": "mcme:block/mist_3"  },
+		{ "model": "mcme:block/mist_3", "y": 90  },
+		{ "model": "mcme:block/mist_3", "y": 180  },
+		{ "model": "mcme:block/mist_3", "y": 270  }
+	],
   }
 }
