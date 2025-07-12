@@ -15,21 +15,6 @@
             {
                 "model": "mcme:block/wooden_spike_small",
                 "y": 270
-            },
-            {
-                "model": "mcme:block/wooden_spike_small_2"
-            },
-            {
-                "model": "mcme:block/wooden_spike_small_2",
-                "y": 90
-            },
-            {
-                "model": "mcme:block/wooden_spike_small_2",
-                "y": 180
-            },
-            {
-                "model": "mcme:block/wooden_spike_small_2",
-                "y": 270
             }
         ],
         "stage=1": [

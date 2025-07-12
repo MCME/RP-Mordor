@@ -1,9 +1,7 @@
 {
     "variants": {
         "type=double": [
-            {
-                "model": "block/replace"
-            }
+            { "model": "block/replace" }
         ],
         "type=top": [
             {

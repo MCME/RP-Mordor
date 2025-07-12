@@ -8,9 +8,8 @@
                 "powered": "false"
             },
             "apply": {
-                "model": "block/replace_vertical_slab",
-                "uvlock": true
-            }
+			  "model": "block/vertical_slab_dripstone"
+			}
         },
         {
             "when": {
@@ -20,10 +19,9 @@
                 "powered": "false"
             },
             "apply": {
-                "model": "block/replace_vertical_slab",
-                "uvlock": true,
-                "y": 90
-            }
+			  "model": "block/vertical_slab_dripstone",
+			  "y": 90
+			}
         },
         {
             "when": {
@@ -33,10 +31,9 @@
                 "powered": "false"
             },
             "apply": {
-                "model": "block/replace_vertical_slab",
-                "uvlock": true,
-                "y": 180
-            }
+			  "model": "block/vertical_slab_dripstone",
+			  "y": 180
+			}
         },
         {
             "when": {
@@ -46,10 +43,9 @@
                 "powered": "false"
             },
             "apply": {
-                "model": "block/replace_vertical_slab",
-                "uvlock": true,
-                "y": 270
-            }
+			  "model": "block/vertical_slab_dripstone",
+			  "y": 270
+			}
         },
         {
             "when": {
@@ -58,10 +54,10 @@
                 "open": "true",
                 "powered": "false"
             },
-            "apply": {
-                "model": "block/replace_vertical_slab",
-                "uvlock": true
-            }
+            "apply": [
+			  { "model": "block/vertical_slab_dark_dripstone" },
+			  { "model": "block/vertical_slab_dark_dripstone_2" }
+			]
         },
         {
             "when": {
@@ -70,11 +66,10 @@
                 "open": "true",
                 "powered": "false"
             },
-            "apply": {
-                "model": "block/replace_vertical_slab",
-                "uvlock": true,
-                "y": 90
-            }
+            "apply": [
+			  { "model": "block/vertical_slab_dark_dripstone", "y": 90 },
+			  { "model": "block/vertical_slab_dark_dripstone_2", "y": 90 }
+			]
         },
         {
             "when": {
@@ -83,11 +78,10 @@
                 "open": "true",
                 "powered": "false"
             },
-            "apply": {
-                "model": "block/replace_vertical_slab",
-                "uvlock": true,
-                "y": 180
-            }
+            "apply": [
+			  { "model": "block/vertical_slab_dark_dripstone", "y": 180 },
+			  { "model": "block/vertical_slab_dark_dripstone_2", "y": 180 }
+			]
         },
         {
             "when": {
@@ -96,11 +90,10 @@
                 "open": "true",
                 "powered": "false"
             },
-            "apply": {
-                "model": "block/replace_vertical_slab",
-                "uvlock": true,
-                "y": 270
-            }
+            "apply": [
+			  { "model": "block/vertical_slab_dark_dripstone", "y": 270 },
+			  { "model": "block/vertical_slab_dark_dripstone_2", "y": 270 }
+			]
         },
         {
             "when": {

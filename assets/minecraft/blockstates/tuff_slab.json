@@ -1,0 +1,21 @@
+{
+    "variants": {
+        "type=bottom": [
+            {"model": "minecraft:block/tuff_slab"},
+            {"model": "minecraft:block/tuff_slab_2"},
+            {"model": "minecraft:block/tuff_slab_3"},
+            {"model": "minecraft:block/tuff_slab_4"},
+            {"model": "minecraft:block/tuff_slab_5"}
+        ],
+        "type=double": {
+            "model": "minecraft:block/replace"
+        },
+        "type=top": [
+            {"model": "minecraft:block/tuff_slab", "x": 180},
+            {"model": "minecraft:block/tuff_slab_2", "x": 180},
+            {"model": "minecraft:block/tuff_slab_3", "x": 180},
+            {"model": "minecraft:block/tuff_slab_4", "x": 180},
+            {"model": "minecraft:block/tuff_slab_5", "x": 180}
+        ]
+    }
+}

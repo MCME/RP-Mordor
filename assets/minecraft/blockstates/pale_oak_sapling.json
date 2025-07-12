@@ -1,0 +1,24 @@
+{
+    "variants": {
+        "stage=0": [
+            {
+                "model": "mcme:block/wide_wooden_spike_small"
+            },
+            {
+                "model": "mcme:block/wide_wooden_spike_small",
+                "y": 90
+            },
+            {
+                "model": "mcme:block/wide_wooden_spike_small",
+                "y": 180
+            },
+            {
+                "model": "mcme:block/wide_wooden_spike_small",
+                "y": 270
+            }
+        ],
+        "stage=1": {
+            "model": "minecraft:block/replace"
+        }
+    }
+}

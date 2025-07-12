@@ -1,0 +1,6 @@
+{
+  "parent": "block/1x3arch_top_parent",
+  "textures": {
+    "1": "block/darker_stone_bricks_arch_comp"
+  }
+}

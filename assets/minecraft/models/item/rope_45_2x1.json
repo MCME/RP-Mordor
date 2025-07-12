@@ -1,4 +1,5 @@
 {
+	"format_version": "1.21.6",
 	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "block/rope",
@@ -35,7 +36,7 @@
 			"scale": [0.4, 0.4, 0.4]
 		},
 		"firstperson_lefthand": {
-			"rotation": [0, 225, 0],
+			"rotation": [0, -135, 0],
 			"scale": [0.4, 0.4, 0.4]
 		},
 		"ground": {
@@ -45,7 +46,7 @@
 		"gui": {
 			"rotation": [30, -116, 0],
 			"translation": [2.75, -1.5, 0],
-			"scale": [0.57, 0.57, 0.57]
+			"scale": [0.45, 0.45, 0.45]
 		},
 		"fixed": {
 			"scale": [0.5, 0.5, 0.5]

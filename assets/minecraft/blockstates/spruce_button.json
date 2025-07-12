@@ -1,41 +1,31 @@
 {
     "variants": {
         "face=ceiling,facing=east,powered=false": {
-            "model": "minecraft:block/unused_cross_0",
-            "x": 180,
-            "y": 270
-        },
-        "face=ceiling,facing=east,powered=true": {
-            "model": "minecraft:block/unused_cross_0",
-            "x": 180,
-            "y": 270
-        },
-        "face=ceiling,facing=north,powered=false": {
-            "model": "minecraft:block/unused_cross_0",
-            "x": 180,
-            "y": 180
-        },
-        "face=ceiling,facing=north,powered=true": {
-            "model": "minecraft:block/unused_cross_0",
-            "x": 180,
-            "y": 180
-        },
-        "face=ceiling,facing=south,powered=false": {
-            "model": "minecraft:block/unused_cross_0",
-            "x": 180
-        },
-        "face=ceiling,facing=south,powered=true": {
-            "model": "minecraft:block/unused_cross_0",
-            "x": 180
-        },
-        "face=ceiling,facing=west,powered=false": {
-            "model": "minecraft:block/unused_cross_0",
-            "x": 180,
+            "model": "minecraft:block/dark_stone_bricks_1x3arch_top",
             "y": 90
         },
+		"face=ceiling,facing=north,powered=false": {
+            "model": "minecraft:block/dark_stone_bricks_1x3arch_top"
+        },
+        "face=ceiling,facing=east,powered=true": {
+            "model": "minecraft:block/darker_stone_bricks_1x3arch_top",
+            "y": 90
+        },
+        "face=ceiling,facing=north,powered=true": {
+            "model": "minecraft:block/darker_stone_bricks_1x3arch_top"
+        },
+        "face=ceiling,facing=south,powered=false": {
+            "model": "minecraft:block/very_dark_stone_bricks_1x3arch_top"
+        },
+		"face=ceiling,facing=west,powered=false": {
+            "model": "minecraft:block/very_dark_stone_bricks_1x3arch_top",
+            "y": 90
+        },
+        "face=ceiling,facing=south,powered=true": {
+            "model": "minecraft:block/green_stone_bricks_1x3arch_top"
+        },
         "face=ceiling,facing=west,powered=true": {
-            "model": "minecraft:block/unused_cross_0",
-            "x": 180,
+            "model": "minecraft:block/green_stone_bricks_1x3arch_top",
             "y": 90
         },
         "face=floor,facing=east,powered=false": {

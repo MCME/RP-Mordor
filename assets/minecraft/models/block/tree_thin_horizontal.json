@@ -19,6 +19,12 @@
 			}
 		}
 	],
+	"display": {
+		"gui": {
+			"rotation": [45, 90, 0],
+			"scale": [0.8, 0.8, 1]
+		}
+	},
 	"groups": [
 		{
 			"name": "group",

@@ -1,0 +1,28 @@
+{
+  "variants": {
+		"facing=west,half=top,open=false,powered=true": { 
+			"model": "minecraft:block/dark_stone_bricks_1x1arch", "y": 90
+		},
+			"facing=south,half=top,open=false,powered=true": { 
+		"model": "minecraft:block/dark_stone_bricks_1x1arch"
+		},
+		"facing=east,half=top,open=false,powered=true": { 
+			"model": "minecraft:block/darker_stone_bricks_1x1arch", "y": 90
+		},
+			"facing=north,half=top,open=false,powered=true": { 
+			"model": "minecraft:block/darker_stone_bricks_1x1arch"
+		},
+		"facing=west,half=top,open=false,powered=false": { 
+			"model": "minecraft:block/very_dark_stone_bricks_1x1arch", "y": 90
+		},
+			"facing=south,half=top,open=false,powered=false": { 
+		"model": "minecraft:block/very_dark_stone_bricks_1x1arch"
+		},
+		"facing=east,half=top,open=false,powered=false": { 
+			"model": "minecraft:block/green_stone_bricks_1x1arch", "y": 90
+		},
+			"facing=north,half=top,open=false,powered=false": { 
+			"model": "minecraft:block/green_stone_bricks_1x1arch"
+		}
+	}
+}
