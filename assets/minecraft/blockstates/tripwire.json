@@ -6,7 +6,7 @@
 	],
     "attached=false,east=false,north=false,south=false,west=true,powered=true,disarmed=false": [
 	{ "model": "block/hanging_hide"	},
-	{ "model": "block/hanging_hide_2"	}
+	{ "model": "block/hanging_hide_2"}
 	],
     "attached=false,east=false,north=false,south=true,west=false,powered=true,disarmed=false": [
 	{ "model": "block/hanging_hide", "y":180},
@@ -351,19 +351,7 @@
       "model": "minecraft:block/unused_cross_cutout"
     },
 	"attached=false,east=false,north=true,south=true,west=false,powered=true,disarmed=false": 
-    [
-		{ "model": "mcme:block/mist"  },
-		{ "model": "mcme:block/mist", "y": 90  },
-		{ "model": "mcme:block/mist", "y": 180  },
-		{ "model": "mcme:block/mist", "y": 270  },
-		{ "model": "mcme:block/mist_2"  },
-		{ "model": "mcme:block/mist_2", "y": 90  },
-		{ "model": "mcme:block/mist_2", "y": 180  },
-		{ "model": "mcme:block/mist_2", "y": 270  },
-		{ "model": "mcme:block/mist_3"  },
-		{ "model": "mcme:block/mist_3", "y": 90  },
-		{ "model": "mcme:block/mist_3", "y": 180  },
-		{ "model": "mcme:block/mist_3", "y": 270  }
-	]
+    "model": "minecraft:block/unused_cross_cutout"
+    }
   }
 }
