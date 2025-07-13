@@ -36,10 +36,6 @@
 	{ "model": "minecraft:block/retaining_wall_hide_3", "y": 270},
 	{ "model": "minecraft:block/retaining_wall_hide_4", "y": 270}
 	],
-    "attached=false,east=false,north=true,south=true,west=false,powered=true,disarmed=false": 
-    [
-    { "model": "block/replace"  }
-    ],
     "attached=false,east=false,north=true,south=true,west=false,powered=false,disarmed=false": 
     [
 	{ "model": "minecraft:block/retaining_wall_hide", "y": 90},
@@ -91,20 +87,125 @@
 	{ "model": "minecraft:block/ground_wide_hides", "y": 270 },
 	{ "model": "minecraft:block/ground_wide_hides_2", "y": 270 }
 	],
-    "attached=true,east=false,north=false,south=false,west=false": {
+	"attached=false,disarmed=false,powered=true,east=false,north=true,south=false,west=false": {
+      "model": "mcme:block/diagonal_tent_pole_3tall_2wide"
+    },
+	"attached=false,disarmed=false,powered=false,east=false,north=true,south=false,west=false": {
+      "model": "mcme:block/diagonal_tent_pole_3tall_2wide", "y": 90
+    },
+	"attached=false,disarmed=false,powered=false,east=false,north=true,south=false,west=true": {
+      "model": "mcme:block/diagonal_tent_pole_3tall_2wide", "y": 180
+    },
+	"attached=false,disarmed=false,powered=true,east=false,north=true,south=false,west=true": {
+      "model": "mcme:block/diagonal_tent_pole_3tall_2wide", "y": 270
+    },
+	"attached=false,disarmed=true,powered=true,east=false,north=true,south=false,west=false": {
+      "model": "mcme:block/diagonal_tent_pole_3tall"
+    },
+	"attached=false,disarmed=true,powered=false,east=false,north=true,south=false,west=false": {
+      "model": "mcme:block/diagonal_tent_pole_3tall", "y": 90
+    },
+    "attached=false,disarmed=true,powered=false,east=false,north=true,south=false,west=true": {
+      "model": "mcme:block/diagonal_tent_pole_3tall", "y": 180
+    },
+    "attached=false,disarmed=true,powered=true,east=false,north=true,south=false,west=true": {
+      "model": "mcme:block/diagonal_tent_pole_3tall", "y": 270
+    },
+	"attached=false,disarmed=true,powered=false,east=true,north=false,south=true,west=false": {
       "model": "minecraft:block/unused_cross_cutout"
     },
-    "attached=true,east=false,north=false,south=false,west=true": {
-      "model": "minecraft:block/unused_cross_cutout",
-      "y": 270
+	"attached=false,disarmed=false,powered=false,east=true,north=false,south=true,west=false": {
+      "model": "minecraft:block/unused_cross_cutout"
     },
-    "attached=true,east=false,north=false,south=true,west=false": {
-      "model": "minecraft:block/unused_cross_cutout",
-      "y": 180
+	"attached=false,disarmed=false,powered=false,east=true,north=false,south=true,west=true": {
+      "model": "minecraft:block/unused_cross_cutout"
     },
-    "attached=true,east=false,north=false,south=true,west=true": {
-      "model": "minecraft:block/unused_cross_cutout",
-      "y": 180
+	"attached=false,disarmed=true,powered=false,east=true,north=false,south=true,west=true": {
+      "model": "minecraft:block/unused_cross_cutout"
+    },
+    "attached=false,disarmed=true,powered=true,east=true,north=false,south=true,west=false": {
+      "model": "minecraft:block/unused_cross_cutout"
+    },
+    "attached=false,disarmed=true,powered=true,east=true,north=false,south=true,west=true": {
+      "model": "minecraft:block/unused_cross_cutout"
+    },
+	"attached=false,disarmed=true,powered=true,east=true,north=false,south=false,west=false": {
+      "model": "minecraft:block/unused_cross_cutout"
+    },
+    "attached=false,disarmed=true,powered=true,east=true,north=false,south=false,west=true": {
+      "model": "minecraft:block/unused_cross_cutout"
+    },
+    "attached=true,powered=false,disarmed=false,east=false,north=false,south=false,west=false": {
+      "model": "mcme:block/diagonal_tent_pole_3tall_2wide_top"
+    },
+	"attached=true,powered=true,disarmed=false,east=false,north=false,south=false,west=false": {
+      "model": "mcme:block/diagonal_tent_pole_3tall_2wide_top", "y": 90
+    },
+	"attached=true,powered=false,disarmed=true,east=false,north=false,south=false,west=false": {
+      "model": "mcme:block/diagonal_tent_pole_3tall_2wide_top", "y": 180
+    },
+	"attached=true,powered=true,disarmed=true,east=false,north=false,south=false,west=false": {
+      "model": "mcme:block/diagonal_tent_pole_3tall_2wide_top", "y": 270
+    },
+    "attached=true,powered=false,disarmed=false,east=false,north=false,south=false,west=true": {
+      "model": "mcme:block/thin_diagonal_tent_pole_3tall_2wide_top", "y": 0
+    },
+	"attached=true,powered=true,disarmed=false,east=false,north=false,south=false,west=true": {
+      "model": "mcme:block/thin_diagonal_tent_pole_3tall_2wide_top", "y": 90
+    },
+	"attached=true,powered=false,disarmed=true,east=false,north=false,south=false,west=true": {
+      "model": "mcme:block/thin_diagonal_tent_pole_3tall_2wide_top", "y": 180
+    },
+	"attached=true,powered=true,disarmed=true,east=false,north=false,south=false,west=true": {
+      "model": "mcme:block/thin_diagonal_tent_pole_3tall_2wide_top", "y": 270
+    },
+    "attached=true,powered=false,disarmed=false,east=false,north=false,south=true,west=false": {
+      "model": "mcme:block/diagonal_tent_pole_3tall_top"
+    },
+	"attached=true,powered=true,disarmed=false,east=false,north=false,south=true,west=false": {
+      "model": "mcme:block/diagonal_tent_pole_3tall_top", "y": 90
+    },
+	"attached=true,powered=false,disarmed=true,east=false,north=false,south=true,west=false": {
+      "model": "mcme:block/diagonal_tent_pole_3tall_top", "y": 180
+    },
+	"attached=true,powered=true,disarmed=true,east=false,north=false,south=true,west=false": {
+      "model": "mcme:block/diagonal_tent_pole_3tall_top", "y": 270
+    },
+    "attached=true,powered=false,disarmed=false,east=false,north=false,south=true,west=true": {
+      "model": "mcme:block/thin_diagonal_tent_pole_3tall_top", "y": 0
+    },
+	"attached=true,powered=true,disarmed=false,east=false,north=false,south=true,west=true": {
+      "model": "mcme:block/thin_diagonal_tent_pole_3tall_top", "y": 90
+    },
+	"attached=true,powered=false,disarmed=true,east=false,north=false,south=true,west=true": {
+      "model": "mcme:block/thin_diagonal_tent_pole_3tall_top", "y": 180
+    },
+	"attached=true,powered=true,disarmed=true,east=false,north=false,south=true,west=true": {
+      "model": "mcme:block/thin_diagonal_tent_pole_3tall_top", "y": 270
+    },
+	"attached=true,powered=false,disarmed=false,east=true,north=false,south=false,west=false": {
+      "model": "mcme:block/straight_diagonal_tent_pole_3tall_2wide_top"
+    },
+	"attached=true,powered=true,disarmed=false,east=true,north=false,south=false,west=false": {
+      "model": "mcme:block/straight_diagonal_tent_pole_3tall_2wide_top", "y": 90
+    },
+	"attached=true,powered=false,disarmed=true,east=true,north=false,south=false,west=false": {
+      "model": "mcme:block/straight_diagonal_tent_pole_3tall_2wide_top", "y": 180
+    },
+	"attached=true,powered=true,disarmed=true,east=true,north=false,south=false,west=false": {
+      "model": "mcme:block/straight_diagonal_tent_pole_3tall_2wide_top", "y": 270
+    },
+	"attached=true,powered=false,disarmed=false,east=true,north=false,south=false,west=true": {
+      "model": "mcme:block/straight_diagonal_tent_pole_3tall_top"
+    },
+	"attached=true,powered=true,disarmed=false,east=true,north=false,south=false,west=true": {
+      "model": "mcme:block/straight_diagonal_tent_pole_3tall_top", "y": 90
+    },
+	"attached=true,powered=false,disarmed=true,east=true,north=false,south=false,west=true": {
+      "model": "mcme:block/straight_diagonal_tent_pole_3tall_top", "y": 180
+    },
+	"attached=true,powered=true,disarmed=true,east=true,north=false,south=false,west=true": {
+      "model": "mcme:block/straight_diagonal_tent_pole_3tall_top", "y": 270
     },
     "attached=true,east=false,north=true,south=false,west=false": {
       "model": "minecraft:block/unused_cross_cutout"
@@ -119,14 +220,6 @@
     "attached=true,east=false,north=true,south=true,west=true": {
       "model": "minecraft:block/unused_cross_cutout",
       "y": 180
-    },
-    "attached=true,east=true,north=false,south=false,west=false": {
-      "model": "minecraft:block/unused_cross_cutout",
-      "y": 90
-    },
-    "attached=true,east=true,north=false,south=false,west=true": {
-      "model": "minecraft:block/unused_cross_cutout",
-      "y": 90
     },
     "attached=true,east=true,north=false,south=true,west=false": {
       "model": "minecraft:block/unused_cross_cutout",
@@ -149,23 +242,17 @@
     "attached=true,east=true,north=true,south=true,west=true": {
       "model": "minecraft:block/unused_cross_cutout"
     },
-    "attached=false,disarmed=false,powered=true,east=false,north=true,south=false,west=false": {
-      "model": "minecraft:block/unused_cross_cutout"
-    },
-    "attached=false,disarmed=false,powered=true,east=false,north=true,south=false,west=true": {
-      "model": "minecraft:block/unused_cross_cutout"
-    },
     "attached=false,disarmed=false,powered=false,east=false,north=false,south=false,west=false": {
-      "model": "minecraft:block/unused_cross_cutout"
+      "model": "mcme:block/thin_diagonal_tent_pole_3tall"
     },
     "attached=false,disarmed=false,powered=false,east=false,north=false,south=false,west=true": {
-      "model": "minecraft:block/unused_cross_cutout"
+      "model": "mcme:block/thin_diagonal_tent_pole_3tall", "y": 90
     },
     "attached=false,disarmed=false,powered=false,east=false,north=false,south=true,west=true": {
-      "model": "minecraft:block/unused_cross_cutout"
+      "model": "mcme:block/thin_diagonal_tent_pole_3tall", "y": 180
     },
     "attached=false,disarmed=false,powered=false,east=false,north=false,south=true,west=false": {
-      "model": "minecraft:block/unused_cross_cutout"
+      "model": "mcme:block/thin_diagonal_tent_pole_3tall", "y": 270
     },
     "attached=false,disarmed=false,powered=false,east=true,north=false,south=false,west=false": {
       "model": "minecraft:block/unused_cross_cutout"
@@ -173,43 +260,19 @@
     "attached=false,disarmed=false,powered=false,east=true,north=false,south=false,west=true": {
       "model": "minecraft:block/unused_cross_cutout"
     },
-    "attached=false,disarmed=false,powered=false,east=true,north=false,south=true,west=true": {
-      "model": "minecraft:block/unused_cross_cutout"
-    },
-    "attached=false,disarmed=false,powered=false,east=true,north=false,south=true,west=false": {
-      "model": "minecraft:block/unused_cross_cutout"
-    },
-    "attached=false,disarmed=false,powered=false,east=false,north=true,south=false,west=false": {
-      "model": "minecraft:block/unused_cross_cutout"
-    },
-    "attached=false,disarmed=false,powered=false,east=false,north=true,south=false,west=true": {
-      "model": "minecraft:block/unused_cross_cutout"
-    },
     "attached=false,disarmed=true,powered=false,east=false,north=false,south=false,west=true": {
-      "model": "minecraft:block/unused_cross_cutout"
+      "model": "mcme:block/thin_diagonal_tent_pole_3tall_2wide"
+    },
+	"attached=false,disarmed=true,powered=false,east=false,north=false,south=true,west=false": {
+      "model": "mcme:block/thin_diagonal_tent_pole_3tall_2wide", "y": 90
     },
     "attached=false,disarmed=true,powered=false,east=false,north=false,south=true,west=true": {
-      "model": "minecraft:block/unused_cross_cutout"
-    },
-    "attached=false,disarmed=true,powered=false,east=false,north=false,south=true,west=false": {
-      "model": "minecraft:block/unused_cross_cutout"
+      "model": "mcme:block/thin_diagonal_tent_pole_3tall_2wide", "y": 180
     },
     "attached=false,disarmed=true,powered=false,east=true,north=false,south=false,west=false": {
-      "model": "minecraft:block/unused_cross_cutout"
+      "model": "mcme:block/thin_diagonal_tent_pole_3tall_2wide", "y": 270
     },
-    "attached=false,disarmed=true,powered=false,east=true,north=false,south=false,west=true": {
-      "model": "minecraft:block/unused_cross_cutout"
-    },
-    "attached=false,disarmed=true,powered=false,east=true,north=false,south=true,west=true": {
-      "model": "minecraft:block/unused_cross_cutout"
-    },
-    "attached=false,disarmed=true,powered=false,east=true,north=false,south=true,west=false": {
-      "model": "minecraft:block/unused_cross_cutout"
-    },
-    "attached=false,disarmed=true,powered=false,east=false,north=true,south=false,west=false": {
-      "model": "minecraft:block/unused_cross_cutout"
-    },
-    "attached=false,disarmed=true,powered=false,east=false,north=true,south=false,west=true": {
+	"attached=false,disarmed=true,powered=false,east=true,north=false,south=false,west=true": {
       "model": "minecraft:block/unused_cross_cutout"
     },
     "attached=false,disarmed=true,powered=true,east=false,north=false,south=false,west=false": {
@@ -222,24 +285,6 @@
       "model": "minecraft:block/unused_cross_cutout"
     },
     "attached=false,disarmed=true,powered=true,east=false,north=false,south=true,west=false": {
-      "model": "minecraft:block/unused_cross_cutout"
-    },
-    "attached=false,disarmed=true,powered=true,east=true,north=false,south=false,west=false": {
-      "model": "minecraft:block/unused_cross_cutout"
-    },
-    "attached=false,disarmed=true,powered=true,east=true,north=false,south=false,west=true": {
-      "model": "minecraft:block/unused_cross_cutout"
-    },
-    "attached=false,disarmed=true,powered=true,east=true,north=false,south=true,west=true": {
-      "model": "minecraft:block/unused_cross_cutout"
-    },
-    "attached=false,disarmed=true,powered=true,east=true,north=false,south=true,west=false": {
-      "model": "minecraft:block/unused_cross_cutout"
-    },
-    "attached=false,disarmed=true,powered=true,east=false,north=true,south=false,west=false": {
-      "model": "minecraft:block/unused_cross_cutout"
-    },
-    "attached=false,disarmed=true,powered=true,east=false,north=true,south=false,west=true": {
       "model": "minecraft:block/unused_cross_cutout"
     },
     "attached=false,disarmed=true,powered=false,north=false,east=false,south=false,west=false": [
@@ -259,6 +304,66 @@
     { "model": "block/bottle_4", "y":90 },
     { "model": "block/bottle_4", "y":180 },
     { "model": "block/bottle_4", "y":270 }
-    ]
+    ],
+    "attached=false,disarmed=false,powered=false,east=false,north=true,south=true,west=true": {
+      "model": "minecraft:block/unused_cross_cutout"
+    },
+	"attached=false,disarmed=false,powered=false,east=true,north=true,south=false,west=false": {
+      "model": "minecraft:block/unused_cross_cutout"
+    },
+	"attached=false,disarmed=false,powered=false,east=true,north=true,south=false,west=true": {
+      "model": "minecraft:block/unused_cross_cutout"
+    },
+    "attached=false,disarmed=false,powered=false,east=true,north=true,south=true,west=false": {
+      "model": "minecraft:block/unused_cross_cutout"
+    },
+    "attached=false,disarmed=false,powered=true,east=false,north=true,south=true,west=true": {
+      "model": "mcme:block/wide_wooden_spike_small_offset"
+    },
+    "attached=false,disarmed=true,powered=false,east=false,north=true,south=true,west=true": {
+      "model": "mcme:block/wide_wooden_spike_small_offset", "y": 270
+    },
+    "attached=false,disarmed=false,powered=true,east=true,north=true,south=false,west=false": {
+      "model": "mcme:block/wide_wooden_spike_small_offset", "y": 90
+    },
+    "attached=false,disarmed=true,powered=false,east=true,north=true,south=false,west=false": {
+      "model": "mcme:block/wide_wooden_spike_small_offset", "y": 180
+    },
+    "attached=false,disarmed=false,powered=true,east=true,north=true,south=false,west=true": {
+      "model": "mcme:block/wooden_spike_small_offset"
+    },
+    "attached=false,disarmed=true,powered=false,east=true,north=true,south=false,west=true": {
+      "model": "mcme:block/wooden_spike_small_offset", "y": 270
+    },
+    "attached=false,disarmed=false,powered=true,east=true,north=true,south=true,west=false": {
+      "model": "mcme:block/wooden_spike_small_offset", "y": 90
+    },
+    "attached=false,disarmed=true,powered=false,east=true,north=true,south=true,west=false": {
+      "model": "mcme:block/wooden_spike_small_offset", "y": 180
+    },
+    "attached=false,disarmed=false,powered=false,east=true,north=true,south=true,west=true": {
+      "model": "minecraft:block/unused_cross_cutout"
+    },
+    "attached=false,disarmed=false,powered=true,east=true,north=true,south=true,west=true": {
+      "model": "minecraft:block/unused_cross_cutout"
+    },
+    "attached=false,disarmed=true,powered=false,east=true,north=true,south=true,west=true": {
+      "model": "minecraft:block/unused_cross_cutout"
+    },
+	"attached=false,east=false,north=true,south=true,west=false,powered=true,disarmed=false": 
+    [
+		{ "model": "mcme:block/mist"  },
+		{ "model": "mcme:block/mist", "y": 90  },
+		{ "model": "mcme:block/mist", "y": 180  },
+		{ "model": "mcme:block/mist", "y": 270  },
+		{ "model": "mcme:block/mist_2"  },
+		{ "model": "mcme:block/mist_2", "y": 90  },
+		{ "model": "mcme:block/mist_2", "y": 180  },
+		{ "model": "mcme:block/mist_2", "y": 270  },
+		{ "model": "mcme:block/mist_3"  },
+		{ "model": "mcme:block/mist_3", "y": 90  },
+		{ "model": "mcme:block/mist_3", "y": 180  },
+		{ "model": "mcme:block/mist_3", "y": 270  }
+	]
   }
 }

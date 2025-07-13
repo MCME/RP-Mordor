@@ -1,0 +1,31 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"parent": "block/block",
+	"textures": {
+		"particle": "block/oak_wood",
+		"texture": "block/oak_wood"
+	},
+	"elements": [
+		{
+			"from": [14, 0, -2],
+			"to": [18, 16, 2],
+			"rotation": {"angle": 0, "axis": "y", "origin": [16, 14, 0]},
+			"faces": {
+				"north": {"uv": [6, 0, 10, 16], "texture": "#texture"},
+				"east": {"uv": [6, 0, 10, 16], "texture": "#texture"},
+				"south": {"uv": [6, 0, 10, 16], "texture": "#texture"},
+				"west": {"uv": [6, 0, 10, 16], "texture": "#texture"},
+				"up": {"uv": [6, 0, 9.8, 3.8], "texture": "#texture"},
+				"down": {"uv": [6, 0, 9.8, 3.8], "texture": "#texture"}
+			}
+		}
+	],
+	"display": {
+		"gui": {
+			"rotation": [30, 45, 0],
+			"translation": [-5.5, -3.25, 0],
+			"scale": [0.6, 0.6, 0.6]
+		}
+	}
+}

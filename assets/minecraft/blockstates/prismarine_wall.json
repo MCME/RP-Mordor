@@ -6,6 +6,54 @@
 		{ "model": "block/prismarine_wall_pillar", "y":180 },
 		{ "model": "block/prismarine_wall_pillar", "y":270 }
 		],
+		"waterlogged=false,east=none,north=low,south=low,west=low,up=false": [
+		{ "model": "mcme:block/oak_branch_22.5_straight", "y":180 }
+		],
+		"waterlogged=false,east=low,north=none,south=low,west=low,up=false": [
+		{ "model": "mcme:block/oak_branch_22.5_straight", "y":90 }
+		],
+		"waterlogged=false,east=low,north=low,south=none,west=low,up=false": [
+		{ "model": "mcme:block/oak_branch_22.5_straight", "y":270 }
+		],
+		"waterlogged=false,east=low,north=low,south=low,west=none,up=false": [
+		{ "model": "mcme:block/oak_branch_22.5_straight" }
+		],
+		"waterlogged=false,east=none,north=low,south=low,west=low,up=true": [
+		{ "model": "mcme:block/oak_branch_22.5_diagonal", "y":180 }
+		],
+		"waterlogged=false,east=low,north=none,south=low,west=low,up=true": [
+		{ "model": "mcme:block/oak_branch_22.5_diagonal", "y":90 }
+		],
+		"waterlogged=false,east=low,north=low,south=none,west=low,up=true": [
+		{ "model": "mcme:block/oak_branch_22.5_diagonal", "y":270 }
+		],
+		"waterlogged=false,east=low,north=low,south=low,west=none,up=true": [
+		{ "model": "mcme:block/oak_branch_22.5_diagonal" }
+		],
+		"waterlogged=false,east=none,north=tall,south=tall,west=tall,up=true": [
+		{ "model": "mcme:block/oak_thin_branch_22.5_diagonal", "y":180 }
+		],
+		"waterlogged=false,east=tall,north=none,south=tall,west=tall,up=true": [
+		{ "model": "mcme:block/oak_thin_branch_22.5_diagonal", "y":90 }
+		],
+		"waterlogged=false,east=tall,north=tall,south=none,west=tall,up=true": [
+		{ "model": "mcme:block/oak_thin_branch_22.5_diagonal", "y":270 }
+		],
+		"waterlogged=false,east=tall,north=tall,south=tall,west=none,up=true": [
+		{ "model": "mcme:block/oak_thin_branch_22.5_diagonal" }
+		],
+		"waterlogged=false,east=tall,north=none,south=none,west=low,up=false": [
+		{ "model": "mcme:block/oak_thin_branch_22.5_straight", "y":90 }
+		],
+		"waterlogged=false,east=none,north=tall,south=low,west=none,up=false": [
+		{ "model": "mcme:block/oak_thin_branch_22.5_straight" }
+		],
+		"waterlogged=false,east=low,north=none,south=none,west=tall,up=false": [
+		{ "model": "mcme:block/oak_thin_branch_22.5_straight", "y":270 }
+		],
+		"waterlogged=false,east=none,north=low,south=tall,west=none,up=false": [
+		{ "model": "mcme:block/oak_thin_branch_22.5_straight", "y":180 }
+		],
 		"waterlogged=false,east=none,north=tall,south=none,west=none,up=false": [
 		{ "model": "mcme:block/oak_thin_branch_45_straight" }
 		],

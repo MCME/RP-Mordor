@@ -60,7 +60,7 @@
                 "powered": "false"
             },
             "apply": {
-                "model": "block/acacia_door_1x3arch_3"
+                "model": "block/stone_bricks_1x3arch", "y":270
             }
         },
         {
@@ -72,7 +72,7 @@
                 "powered": "false"
             },
             "apply": {
-                "model": "block/acacia_door_1x3arch"
+                "model": "block/stone_bricks_1x3arch"
             }
         },
         {
@@ -84,7 +84,7 @@
                 "powered": "false"
             },
             "apply": {
-                "model": "block/acacia_door_1x3arch_4"
+                "model": "block/stone_bricks_1x3arch", "y":90
             }
         },
         {
@@ -96,7 +96,7 @@
                 "powered": "false"
             },
             "apply": {
-                "model": "block/acacia_door_1x3arch_2"
+                "model": "block/stone_bricks_1x3arch", "y":180
             }
         },
         {

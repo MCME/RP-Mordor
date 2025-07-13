@@ -1,6 +1,6 @@
 {
     "variants": {
-		"up=false,north=true,east=false,south=false,west=true,down=false": [
+	   "up=false,north=true,east=false,south=false,west=true,down=false": [
 	   { "model": "minecraft:block/beam_core" },
 	   { "model": "minecraft:block/beam_core_2" },
 	   { "model": "minecraft:block/beam_core_3" }
@@ -19,6 +19,30 @@
 	   { "model": "minecraft:block/beam_core", "y": 270 },
 	   { "model": "minecraft:block/beam_core_2", "y": 270 },
 	   { "model": "minecraft:block/beam_core_3", "y": 270 }
-	   ]
+	   ],
+	   "up=false,north=true,east=true,south=false,west=false,down=true": {
+			"model": "mcme:block/rope_3tall_diag"
+	   },
+	   "up=false,north=false,east=true,south=true,west=false,down=true": {
+			"model": "mcme:block/rope_3tall_diag", "y": 90
+	   },
+	   "up=false,north=false,east=false,south=true,west=true,down=true": {
+			"model": "mcme:block/rope_3tall_diag", "y": 180
+	   },
+	   "up=false,north=true,east=false,south=false,west=true,down=true": {
+			"model": "mcme:block/rope_3tall_diag", "y": 270
+	   },
+	   "up=true,north=true,east=true,south=false,west=false,down=false": {
+			"model": "mcme:block/rope_3wide_diag"
+	   },
+	   "up=true,north=false,east=true,south=true,west=false,down=false": {
+			"model": "mcme:block/rope_3wide_diag", "y": 90
+	   },
+	   "up=true,north=false,east=false,south=true,west=true,down=false": {
+			"model": "mcme:block/rope_3wide_diag", "y": 180
+	   },
+	   "up=true,north=true,east=false,south=false,west=true,down=false": {
+			"model": "mcme:block/rope_3wide_diag", "y": 270
+	   }
     }
 }

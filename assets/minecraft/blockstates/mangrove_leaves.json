@@ -1,34 +1,34 @@
 {
     "variants": {
         "distance=7,persistent=false": {
-            "model": "block/replace_cutout",
-            "y": 180
+            "model": "mcme:block/very_black_stone_brick_arrow_slit"
         },
         "distance=1,persistent=false": {
-            "model": "block/replace_cutout",
-            "y": 270
+            "model": "mcme:block/very_black_stone_brick_arrow_slit",
+            "y": 90
         },
         "distance=2,persistent=false": {
-            "model": "block/replace_cutout"
-        },
-        "distance=3,persistent=false": {
-            "model": "block/replace_cutout",
-            "y": 90
-        },
-        "distance=4,persistent=false": {
-            "model": "block/replace_cutout",
+            "model": "mcme:block/very_black_stone_brick_arrow_slit",
             "y": 180
         },
-        "distance=5,persistent=false": {
-            "model": "block/replace_cutout",
+        "distance=3,persistent=false": {
+            "model": "mcme:block/very_black_stone_brick_arrow_slit",
             "y": 270
         },
+        "distance=4,persistent=false": {
+            "model": "mcme:block/green_stone_brick_arrow_slit"
+        },
+        "distance=5,persistent=false": {
+            "model": "mcme:block/green_stone_brick_arrow_slit",
+            "y": 90
+        },
         "distance=6,persistent=false": {
-            "model": "block/replace_cutout"
+            "model": "mcme:block/green_stone_brick_arrow_slit",
+            "y": 180
         },
         "distance=7,persistent=true": {
-            "model": "block/replace_cutout",
-            "y": 90
+            "model": "mcme:block/green_stone_brick_arrow_slit",
+            "y": 270
         },
         "distance=1,persistent=true": {
             "model": "block/replace_cutout",

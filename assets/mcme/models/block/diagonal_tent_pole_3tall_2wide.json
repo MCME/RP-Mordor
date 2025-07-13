@@ -1,0 +1,8 @@
+{
+  "parent": "special-model-loader:builtin/obj",
+  "flip_v": true,
+  "model": "mcme:models/block/diagonal_tent_pole_3tall_2wide.obj",
+  "particle": "mcme:block/oak_wood_extended",
+  "ambientocclusion": false
+  
+}

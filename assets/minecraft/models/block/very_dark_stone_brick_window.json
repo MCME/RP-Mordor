@@ -1,0 +1,6 @@
+{
+  "parent": "block/brick_window_parent",
+  "textures": {
+    "1": "block/very_dark_brick_window_prep"
+  }
+}
