@@ -1,0 +1,7 @@
+{
+    "textures": {
+        "0": "mcme:block/mist_2",
+        "particle": "item/mist_inv"
+    },
+    "parent": "mcme:block/mist_parent"
+}
