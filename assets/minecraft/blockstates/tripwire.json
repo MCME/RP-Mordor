@@ -350,7 +350,7 @@
     "attached=false,disarmed=true,powered=false,east=true,north=true,south=true,west=true": {
       "model": "minecraft:block/unused_cross_cutout"
     },
-	"attached=false,east=false,north=true,south=true,west=false,powered=true,disarmed=false": 
+	"attached=false,east=false,north=true,south=true,west=false,powered=true,disarmed=false": {
     "model": "minecraft:block/unused_cross_cutout"
     }
   }
