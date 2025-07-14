@@ -54,7 +54,7 @@
             { "model": "block/cooking_pot_large_filled_2" },
 			{ "model": "block/cooking_pot_large_filled_2", "y": 90 },
 			{ "model": "block/cooking_pot_large_filled_2", "y": 180 },
-			{ "model": "block/cooking_pot_large_filled_2", "y": 270 },
+			{ "model": "block/cooking_pot_large_filled_2", "y": 270 }
 		    ],
         "distance=3,persistent=true": {
             "model": "block/replace_cutout",
