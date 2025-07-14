@@ -4174,6 +4174,13 @@
                     "type": "model",
                     "model": "block/tree_thin_vertical_short"
                 }
+            },
+			{
+                "threshold": 967,
+                "model": {
+                    "type": "model",
+                    "model": "block/smith_anvil"
+                }
             }
         ]
     }
