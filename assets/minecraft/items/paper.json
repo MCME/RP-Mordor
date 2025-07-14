@@ -132,6 +132,13 @@
                     "type": "model",
                     "model": "gui/misc_alt"
                 }
+            },
+            {
+                "threshold": 35,
+                "model": {
+                    "type": "model",
+                    "model": "gui/block_collection_mask"
+                }
             }
         ]
     }

@@ -10,7 +10,7 @@
             },
             "apply": [
                 {
-                    "model": "minecraft:block/acacia_planks_offset"
+                    "model": "minecraft:block/acacia_planks_vertical_half_slab"
                 }
             ]
         },
@@ -108,7 +108,7 @@
             },
             "apply": [
                 {
-                    "model": "minecraft:block/acacia_planks_offset",
+                    "model": "minecraft:block/acacia_planks_vertical_half_slab",
                     "y": 90
                 }
             ]
@@ -123,7 +123,7 @@
             },
             "apply": [
                 {
-                    "model": "minecraft:block/acacia_planks_offset",
+                    "model": "minecraft:block/acacia_planks_vertical_half_slab",
                     "y": 180
                 }
             ]
@@ -138,7 +138,7 @@
             },
             "apply": [
                 {
-                    "model": "minecraft:block/acacia_planks_offset",
+                    "model": "minecraft:block/acacia_planks_vertical_half_slab",
                     "y": 270
                 }
             ]
