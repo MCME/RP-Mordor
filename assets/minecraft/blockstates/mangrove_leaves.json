@@ -34,7 +34,11 @@
             "model": "block/replace_cutout",
             "y": 180
         },
-        "distance=2,persistent=true": { "model": "block/cooking_pot_large" },
+        "distance=2,persistent=true": [
+			{ "model": "block/cooking_pot_large" },
+			{ "model": "block/cooking_pot_large_2" },
+			{ "model": "block/cooking_pot_large_ filled" }
+		],
         "distance=3,persistent=true": {
             "model": "block/replace_cutout",
             "x": 90

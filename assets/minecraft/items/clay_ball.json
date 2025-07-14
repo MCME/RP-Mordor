@@ -4167,6 +4167,13 @@
                     "type": "model",
                     "model": "item/wide_wooden_spike_small_offset"
                 }
+            },
+			{
+                "threshold": 966,
+                "model": {
+                    "type": "model",
+                    "model": "block/tree_thin_vertical_short"
+                }
             }
         ]
     }
