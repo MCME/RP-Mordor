@@ -207,21 +207,21 @@
                 "threshold": 56,
                 "model": {
                     "type": "model",
-                    "model": "block/acacia_planks_offset"
+                    "model": "block/acacia_planks_vertical_half_slab"
                 }
             },
 			{
                 "threshold": 57,
                 "model": {
                     "type": "model",
-                    "model": "block/acacia_planks_offset_down"
+                    "model": "block/acacia_planks_half_slab"
                 }
             },
 			{
                 "threshold": 58,
                 "model": {
                     "type": "model",
-                    "model": "block/acacia_planks_offset_up"
+                    "model": "block/acacia_planks_half_slab_top"
                 }
             },
 			{
@@ -3525,21 +3525,21 @@
                 "threshold": 873,
                 "model": {
                     "type": "model",
-                    "model": "block/bamboo_mosaic_offset"
+                    "model": "block/bamboo_mosaic_vertical_half_slab"
                 }
             },
 			{
                 "threshold": 874,
                 "model": {
                     "type": "model",
-                    "model": "block/bamboo_mosaic_offset_up"
+                    "model": "block/bamboo_mosaic_half_slab_top"
                 }
             },
 			{
                 "threshold": 875,
                 "model": {
                     "type": "model",
-                    "model": "block/bamboo_mosaic_offset_down"
+                    "model": "block/bamboo_mosaic_half_slab"
                 }
             },
 			{
@@ -3574,21 +3574,21 @@
                 "threshold": 880,
                 "model": {
                     "type": "model",
-                    "model": "block/dark_oak_planks_offset_up"
+                    "model": "block/dark_oak_planks_half_slab_top"
                 }
             },
 			{
                 "threshold": 881,
                 "model": {
                     "type": "model",
-                    "model": "block/dark_oak_planks_offset_down"
+                    "model": "block/dark_oak_planks_half_slab"
                 }
             },
 			{
                 "threshold": 882,
                 "model": {
                     "type": "model",
-                    "model": "block/dark_oak_planks_offset"
+                    "model": "block/dark_oak_planks_vertical_half_slab"
                 }
             },
 			{
@@ -4023,21 +4023,21 @@
                 "threshold": 945,
                 "model": {
                     "type": "model",
-                    "model": "block/bamboo_planks_offset"
+                    "model": "block/bamboo_planks_vertical_half_slab"
                 }
             },
 			{
                 "threshold": 946,
                 "model": {
                     "type": "model",
-                    "model": "item/bamboo_planks_offset_down"
+                    "model": "block/bamboo_planks_half_slab"
                 }
             },
 			{
                 "threshold": 947,
                 "model": {
                     "type": "model",
-                    "model": "item/bamboo_planks_offset_up"
+                    "model": "block/bamboo_planks_half_slab_top"
                 }
             },
 			{
@@ -4166,6 +4166,20 @@
                 "model": {
                     "type": "model",
                     "model": "item/wide_wooden_spike_small_offset"
+                }
+            },
+			{
+                "threshold": 966,
+                "model": {
+                    "type": "model",
+                    "model": "block/tree_thin_vertical_short"
+                }
+            },
+			{
+                "threshold": 967,
+                "model": {
+                    "type": "model",
+                    "model": "block/smith_anvil"
                 }
             }
         ]
