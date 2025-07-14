@@ -35,12 +35,12 @@
             "y": 180
         },
         "distance=2,persistent=true": [
-			{ "model": "block/cooking_pot_large" },
-			{ "model": "block/cooking_pot_large_2" },
-			{ "model": "block/cooking_pot_large_3" },
-			{ "model": "block/cooking_pot_large_filled" },
-			{ "model": "block/cooking_pot_large_filled_2" }
-		],
+            { "model": "block/cooking_pot_large" },
+            { "model": "block/cooking_pot_large_2" },
+            { "model": "block/cooking_pot_large_3" },
+            { "model": "block/cooking_pot_large_filled" },
+            { "model": "block/cooking_pot_large_filled_2" }
+		    ],
         "distance=3,persistent=true": {
             "model": "block/replace_cutout",
             "x": 90
