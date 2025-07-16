@@ -4174,8 +4174,6 @@
                     "type": "model",
                     "model": "block/tree_thin_vertical_short"
                 }
-<<<<<<< Updated upstream
-=======
             },
 			{
                 "threshold": 967,
@@ -4190,7 +4188,6 @@
                     "type": "model",
                     "model": "block/hanging_hide_supported_3"
                 }
->>>>>>> Stashed changes
             }
         ]
     }
