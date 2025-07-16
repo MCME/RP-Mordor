@@ -1,7 +1,11 @@
 {
   "pack": {
     "pack_format": 46,
+<<<<<<< Updated upstream
     "description": "MCME Mordor v0.4.8"
+=======
+    "description": "MCME Mordor v0.4.11"
+>>>>>>> Stashed changes
   },
   "meta": {
     "game_version": "1.21.4"

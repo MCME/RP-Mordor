@@ -4174,6 +4174,23 @@
                     "type": "model",
                     "model": "block/tree_thin_vertical_short"
                 }
+<<<<<<< Updated upstream
+=======
+            },
+			{
+                "threshold": 967,
+                "model": {
+                    "type": "model",
+                    "model": "block/smith_anvil"
+                }
+            },
+			{
+                "threshold": 968,
+                "model": {
+                    "type": "model",
+                    "model": "block/hanging_hide_supported_3"
+                }
+>>>>>>> Stashed changes
             }
         ]
     }

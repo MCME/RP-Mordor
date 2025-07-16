@@ -1,7 +1,11 @@
 {
     "variants": {
-        "": {
-            "model": "minecraft:block/replace"
-        }
+        "": [
+			{ "model": "minecraft:block/loam_gravel_heavy_mix" },
+			{ "model": "minecraft:block/loam_gravel_heavy_mix_2" },
+			{ "model": "minecraft:block/loam_gravel_heavy_mix_3" },
+			{ "model": "minecraft:block/loam_gravel_heavy_mix_4" },
+			{ "model": "minecraft:block/loam_gravel_heavy_mix_5" }
+		]
     }
 }
