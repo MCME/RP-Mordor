@@ -4195,6 +4195,13 @@
                     "type": "model",
                     "model": "block/fire_floor0"
                 }
+            },
+			{
+                "threshold": 970,
+                "model": {
+                    "type": "model",
+                    "model": "block/shelf_deco_food"
+                }
             }
         ]
     }

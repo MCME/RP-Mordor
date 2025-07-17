@@ -43,6 +43,54 @@
 	   },
 	   "up=true,north=true,east=false,south=false,west=true,down=false": {
 			"model": "mcme:block/rope_3wide_diag", "y": 270
-	   }
+	   },
+	   "up=false,north=true,east=false,south=false,west=false,down=false": [
+		   { "model": "minecraft:block/shelf_deco_container", "y": 0 },
+		   { "model": "minecraft:block/shelf_deco_container_2", "y": 0 },
+		   { "model": "minecraft:block/shelf_deco_container_3", "y": 0 },
+		   { "model": "minecraft:block/shelf_deco_container_4", "y": 0 },
+		   { "model": "minecraft:block/shelf_deco_container_5", "y": 0 },
+		   { "model": "minecraft:block/shelf_deco_food", "y": 0 },
+		   { "model": "minecraft:block/shelf_deco_food_2", "y": 0 },
+		   { "model": "minecraft:block/shelf_deco_food_3", "y": 0 },
+		   { "model": "minecraft:block/shelf_deco_food_4", "y": 0 },
+		   { "model": "minecraft:block/shelf_deco_food_5", "y": 0 }
+	   ],
+	   "up=false,north=false,east=true,south=false,west=false,down=false": [
+		   { "model": "minecraft:block/shelf_deco_container", "y": 90 },
+		   { "model": "minecraft:block/shelf_deco_container_2", "y": 90 },
+		   { "model": "minecraft:block/shelf_deco_container_3", "y": 90 },
+		   { "model": "minecraft:block/shelf_deco_container_4", "y": 90 },
+		   { "model": "minecraft:block/shelf_deco_container_5", "y": 90 },
+		   { "model": "minecraft:block/shelf_deco_food", "y": 90 },
+		   { "model": "minecraft:block/shelf_deco_food_2", "y": 90 },
+		   { "model": "minecraft:block/shelf_deco_food_3", "y": 90 },
+		   { "model": "minecraft:block/shelf_deco_food_4", "y": 90 },
+		   { "model": "minecraft:block/shelf_deco_food_5", "y": 90 }
+	   ],
+	   "up=false,north=false,east=false,south=true,west=false,down=false": [
+		   { "model": "minecraft:block/shelf_deco_container", "y": 180 },
+		   { "model": "minecraft:block/shelf_deco_container_2", "y": 180 },
+		   { "model": "minecraft:block/shelf_deco_container_3", "y": 180 },
+		   { "model": "minecraft:block/shelf_deco_container_4", "y": 180 },
+		   { "model": "minecraft:block/shelf_deco_container_5", "y": 180 },
+		   { "model": "minecraft:block/shelf_deco_food", "y": 180 },
+		   { "model": "minecraft:block/shelf_deco_food_2", "y": 180 },
+		   { "model": "minecraft:block/shelf_deco_food_3", "y": 180 },
+		   { "model": "minecraft:block/shelf_deco_food_4", "y": 180 },
+		   { "model": "minecraft:block/shelf_deco_food_5", "y": 180 }
+	   ],
+	   "up=false,north=false,east=false,south=false,west=true,down=false": [
+		   { "model": "minecraft:block/shelf_deco_container", "y": 270 },
+		   { "model": "minecraft:block/shelf_deco_container_2", "y": 270 },
+		   { "model": "minecraft:block/shelf_deco_container_3", "y": 270 },
+		   { "model": "minecraft:block/shelf_deco_container_4", "y": 270 },
+		   { "model": "minecraft:block/shelf_deco_container_5", "y": 270 },
+		   { "model": "minecraft:block/shelf_deco_food", "y": 270 },
+		   { "model": "minecraft:block/shelf_deco_food_2", "y": 270 },
+		   { "model": "minecraft:block/shelf_deco_food_3", "y": 270 },
+		   { "model": "minecraft:block/shelf_deco_food_4", "y": 270 },
+		   { "model": "minecraft:block/shelf_deco_food_5", "y": 270 }
+	   ]
     }
 }
