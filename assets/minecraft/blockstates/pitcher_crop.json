@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "age=4,half=lower": { "model": "mcme:block/tripod_campfire" }
+  }
+}

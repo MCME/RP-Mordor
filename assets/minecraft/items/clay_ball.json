@@ -3028,7 +3028,7 @@
                 "threshold": 503,
                 "model": {
                     "type": "model",
-                    "model": "block/campfire_tripod"
+                    "model": "item/tripod_campfire"
                 }
             },
 			{
@@ -4187,6 +4187,13 @@
                 "model": {
                     "type": "model",
                     "model": "block/hanging_hide_supported_3"
+                }
+            },
+			{
+                "threshold": 969,
+                "model": {
+                    "type": "model",
+                    "model": "block/fire_floor0"
                 }
             }
         ]

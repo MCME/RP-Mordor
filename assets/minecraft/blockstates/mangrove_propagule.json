@@ -10,7 +10,7 @@
 	{ "model": "minecraft:block/candle_holder", "y": 270 },
 	{ "model": "minecraft:block/candle_holder_2", "y": 270 }
 	],
-    "age=0,stage=1": { "model": "minecraft:block/campfire_tripod", "y":90 },
+    "age=0,stage=1": { "model": "mcme:block/tripod_campfire" },
     "age=1,stage=0": { "model": "block/unused_cross_cutout", "y": 270 },
     "age=1,stage=1": {
       "model": "minecraft:block/unused_cross_cutout"
