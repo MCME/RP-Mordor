@@ -439,11 +439,6 @@
             "x": 180,
             "y": 270
         },
-        "waterlogged=true,east=none,north=low,south=low,west=none,up=false": {
-            "model": "mcme:block/pointy_spike_small",
-            "x": 180,
-            "y": 180
-        },
         "east=none,north=low,south=tall,west=none,up=true": [
             {
                 "model": "block/sandstone_wall_wedge"

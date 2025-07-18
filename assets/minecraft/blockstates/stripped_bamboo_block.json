@@ -3,9 +3,12 @@
         "axis=x": {
             "model": "minecraft:block/replace"
         },
-        "axis=y": {
-            "model": "minecraft:block/replace"
-        },
+        "axis=y": [
+			{ "model": "minecraft:block/stripped_bamboo_block" },
+			{ "model": "minecraft:block/stripped_bamboo_block_2" },
+			{ "model": "minecraft:block/stripped_bamboo_block_3" },
+			{ "model": "minecraft:block/stripped_bamboo_block_4" }
+		],
         "axis=z": {
             "model": "minecraft:block/replace"
         }

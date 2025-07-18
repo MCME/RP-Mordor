@@ -112,7 +112,8 @@
             },
             "apply": [
 			{  "model": "block/rack_weapons"  },
-			{  "model": "block/rack_weapons_2"  }
+			{  "model": "block/rack_weapons_2"  },
+			{  "model": "block/rack_weapons_3"  }
 			]
         },
         {
@@ -125,7 +126,8 @@
             },
             "apply": [
 			{ "model": "block/rack_weapons", "y": 90 },
-			{ "model": "block/rack_weapons_2", "y": 90 }
+			{ "model": "block/rack_weapons_2", "y": 90 },
+			{ "model": "block/rack_weapons_3", "y": 90 }
 			]
         },
         {
@@ -138,7 +140,8 @@
             },
             "apply": [
 			{  "model": "block/rack_weapons",  "y": 180   },
-			{  "model": "block/rack_weapons_2",  "y": 180   }
+			{  "model": "block/rack_weapons_2",  "y": 180   },
+			{  "model": "block/rack_weapons_3",  "y": 180   }
 			]
         },
         {
@@ -151,7 +154,8 @@
             },
             "apply": [
 			{  "model": "block/rack_weapons", "y":270   },
-			{  "model": "block/rack_weapons_2", "y":270   }
+			{  "model": "block/rack_weapons_2", "y":270   },
+			{  "model": "block/rack_weapons_3", "y":270   }
 			]
         },
         {

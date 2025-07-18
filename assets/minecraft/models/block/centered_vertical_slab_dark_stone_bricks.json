@@ -1,0 +1,6 @@
+{
+  "parent": "block/centered_vertical_slab",
+  "textures": {
+    "1": "block/chiseled_polished_blackstone"
+  }
+}

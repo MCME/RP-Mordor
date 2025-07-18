@@ -1,14 +1,35 @@
 {
     "variants": {
-        "type=bottom": {
-            "model": "minecraft:block/replace_slab"
-        },
+        "type=bottom": [
+            {
+                "model": "block/stripped_bamboo_slab"
+            },
+            {
+                "model": "block/stripped_bamboo_slab_2"
+            },
+            {
+                "model": "block/stripped_bamboo_slab_3"
+            },
+            {
+                "model": "block/stripped_bamboo_slab_4"
+            }
+        ],
         "type=double": {
             "model": "minecraft:block/replace"
         },
-        "type=top": {
-            "model": "minecraft:block/replace_slab",
-            "x": 180
-        }
+        "type=top": [
+            {
+                "model": "block/stripped_bamboo_slab", "x":180
+            },
+            {
+                "model": "block/stripped_bamboo_slab_2", "x":180
+            },
+            {
+                "model": "block/stripped_bamboo_slab_3", "x":180
+            },
+            {
+                "model": "block/stripped_bamboo_slab_4", "x":180
+            }
+        ]
     }
 }

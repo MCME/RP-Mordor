@@ -4202,6 +4202,41 @@
                     "type": "model",
                     "model": "block/shelf_deco_food"
                 }
+            },
+			{
+                "threshold": 971,
+                "model": {
+                    "type": "model",
+                    "model": "block/centered_vertical_slab_dark_stone_bricks"
+                }
+            },
+			{
+                "threshold": 972,
+                "model": {
+                    "type": "model",
+                    "model": "block/centered_vertical_slab_black_stone_bricks"
+                }
+            },
+			{
+                "threshold": 973,
+                "model": {
+                    "type": "model",
+                    "model": "block/centered_vertical_slab_very_black_stone_bricks"
+                }
+            },
+			{
+                "threshold": 974,
+                "model": {
+                    "type": "model",
+                    "model": "block/centered_vertical_slab_green_stone_bricks"
+                }
+            },
+			{
+                "threshold": 975,
+                "model": {
+                    "type": "model",
+                    "model": "block/grindstone"
+                }
             }
         ]
     }

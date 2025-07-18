@@ -1,0 +1,52 @@
+{
+    "variants": {
+        "east=none,north=tall,south=tall,west=none,up=false": [
+			{ "model": "block/centered_vertical_slab_dark_stone_bricks" },
+			{ "model": "block/centered_vertical_slab_dark_stone_bricks_2" },
+			{ "model": "block/centered_vertical_slab_dark_stone_bricks_3" },
+			{ "model": "block/centered_vertical_slab_dark_stone_bricks_4" }
+		],
+		"east=tall,north=none,south=none,west=tall,up=false": [
+			{ "model": "block/centered_vertical_slab_dark_stone_bricks", "y": 90 },
+			{ "model": "block/centered_vertical_slab_dark_stone_bricks_2", "y": 90 },
+			{ "model": "block/centered_vertical_slab_dark_stone_bricks_3", "y": 90 },
+			{ "model": "block/centered_vertical_slab_dark_stone_bricks_4", "y": 90 }
+		],
+		"east=none,north=low,south=low,west=none,up=false": [
+			{ "model": "block/centered_vertical_slab_black_stone_bricks" },
+			{ "model": "block/centered_vertical_slab_black_stone_bricks_2" },
+			{ "model": "block/centered_vertical_slab_black_stone_bricks_3" },
+			{ "model": "block/centered_vertical_slab_black_stone_bricks_4" }
+		],
+		"east=low,north=none,south=none,west=low,up=false": [
+			{ "model": "block/centered_vertical_slab_black_stone_bricks", "y": 90 },
+			{ "model": "block/centered_vertical_slab_black_stone_bricks_2", "y": 90 },
+			{ "model": "block/centered_vertical_slab_black_stone_bricks_3", "y": 90 },
+			{ "model": "block/centered_vertical_slab_black_stone_bricks_4", "y": 90 }
+		],
+		"east=none,north=tall,south=low,west=none,up=false": [
+			{ "model": "block/centered_vertical_slab_very_black_stone_bricks" },
+			{ "model": "block/centered_vertical_slab_very_black_stone_bricks_2" },
+			{ "model": "block/centered_vertical_slab_very_black_stone_bricks_3" },
+			{ "model": "block/centered_vertical_slab_very_black_stone_bricks_4" }
+		],
+		"east=tall,north=none,south=none,west=low,up=false": [
+			{ "model": "block/centered_vertical_slab_very_black_stone_bricks", "y": 90 },
+			{ "model": "block/centered_vertical_slab_very_black_stone_bricks_2", "y": 90 },
+			{ "model": "block/centered_vertical_slab_very_black_stone_bricks_3", "y": 90 },
+			{ "model": "block/centered_vertical_slab_very_black_stone_bricks_4", "y": 90 }
+		],
+		"east=none,north=low,south=tall,west=none,up=false": [
+			{ "model": "block/centered_vertical_slab_green_stone_bricks" },
+			{ "model": "block/centered_vertical_slab_green_stone_bricks_2" },
+			{ "model": "block/centered_vertical_slab_green_stone_bricks_3" },
+			{ "model": "block/centered_vertical_slab_green_stone_bricks_4" }
+		],
+		"east=low,north=none,south=none,west=tall,up=false": [
+			{ "model": "block/centered_vertical_slab_green_stone_bricks", "y": 90 },
+			{ "model": "block/centered_vertical_slab_green_stone_bricks_2", "y": 90 },
+			{ "model": "block/centered_vertical_slab_green_stone_bricks_3", "y": 90 },
+			{ "model": "block/centered_vertical_slab_green_stone_bricks_4", "y": 90 }
+		]
+    }
+}
