@@ -3091,7 +3091,7 @@
                 "threshold": 512,
                 "model": {
                     "type": "model",
-                    "model": "block/vase_1_1"
+                    "model": "block/vase_1_2"
                 }
             },
             {
