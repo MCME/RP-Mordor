@@ -3066,6 +3066,34 @@
                     "model": "block/powered_repeater_delay1_s"
                 }
             },
+			{
+                "threshold": 509,
+                "model": {
+                    "type": "model",
+                    "model": "block/cocoa_stage0"
+                }
+            },
+			{
+                "threshold": 510,
+                "model": {
+                    "type": "model",
+                    "model": "block/piston_head_sticky"
+                }
+            },
+			{
+                "threshold": 511,
+                "model": {
+                    "type": "model",
+                    "model": "block/large_wooden_wheel"
+                }
+            },
+			{
+                "threshold": 512,
+                "model": {
+                    "type": "model",
+                    "model": "block/vase_1_1"
+                }
+            },
             {
                 "threshold": 644,
                 "model": {
