@@ -68,11 +68,11 @@
           "x": 180
       },
       "facing=west,half=bottom,open=false,powered=false": {
-          "model": "minecraft:block/replace_thin_slab",
+          "model": "minecraft:block/large_wooden_wheel_floor",
           "y": 270
       },
       "facing=west,half=top,open=false,powered=false": {
-          "model": "minecraft:block/replace_thin_slab"
+          "model": "minecraft:block/large_wooden_wheel_ceiling"
       },
       "facing=east,half=bottom,open=false,powered=true": [
 	  { "model": "block/catwalk_down" },
@@ -102,9 +102,8 @@
 	  { "model": "block/catwalk_4" }, 
 	  { "model": "block/catwalk_4", "y":180 }
 	  ],
-      "facing=east,half=top,open=true,powered=true": {
-          "model": "minecraft:block/replace_thin_slab",
-          "x": 90,
+      "facing=west,half=top,open=true,powered=true": {
+          "model": "minecraft:block/large_wooden_wheel",
           "y": 90
       },
       "facing=north,half=bottom,open=false,powered=true": [
@@ -135,9 +134,8 @@
 	  { "model": "block/catwalk_45_4" }, 
 	  { "model": "block/catwalk_45_4", "y":180 }
 	  ],
-      "facing=north,half=top,open=true,powered=true": {
-          "model": "minecraft:block/replace_thin_slab",
-          "x": 90
+      "facing=south,half=top,open=true,powered=true": {
+          "model": "minecraft:block/large_wooden_wheel"
       },
       "facing=south,half=bottom,open=false,powered=true": [
 	  { "model": "block/catwalk_down", "y":90 }, 
@@ -167,9 +165,8 @@
 	  { "model": "block/catwalk_4", "y":90 }, 
 	  { "model": "block/catwalk_4", "y":270 }
 	  ],
-      "facing=south,half=top,open=true,powered=true": {
-          "model": "minecraft:block/replace_thin_slab",
-          "x": 90,
+      "facing=north,half=top,open=true,powered=true": {
+          "model": "minecraft:block/large_wooden_wheel",
           "y": 180
       },
       "facing=west,half=bottom,open=false,powered=true": [
@@ -200,9 +197,8 @@
 	  { "model": "block/catwalk_45_4", "y":90 }, 
 	  { "model": "block/catwalk_45_4", "y":270 }
 	  ],
-      "facing=west,half=top,open=true,powered=true": {
-          "model": "minecraft:block/replace_thin_slab",
-          "x": 90,
+      "facing=east,half=top,open=true,powered=true": {
+          "model": "minecraft:block/large_wooden_wheel",
           "y": 270
       }
   }
