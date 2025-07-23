@@ -47,7 +47,7 @@
             "model": "block/piston_head_sticky"
         },
         "distance=7,persistent=true": {
-            "model": "block/replace_cutout"
+            "model": "block/piston_head_sticky", "y":180
         }
     }
 }
