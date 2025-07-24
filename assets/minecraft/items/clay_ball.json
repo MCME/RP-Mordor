@@ -3094,6 +3094,13 @@
                     "model": "block/vase_1_2"
                 }
             },
+			{
+                "threshold": 513,
+                "model": {
+                    "type": "model",
+                    "model": "block/beam_bones"
+                }
+            },
             {
                 "threshold": 644,
                 "model": {
