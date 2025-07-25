@@ -1,9 +1,14 @@
 {
     "variants": {
         "": [
-            {
-                "model": "block/bats"
-            }
+            {  "model": "block/bats"  },
+			{  "model": "block/bats", "y":90  },
+			{  "model": "block/bats", "y":180  },
+			{  "model": "block/bats", "y":270  },
+			{  "model": "block/bats_2"  },
+			{  "model": "block/bats_2", "y":90  },
+			{  "model": "block/bats_2", "y":180  },
+			{  "model": "block/bats_2", "y":270  }
         ]
     }
 }
