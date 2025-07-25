@@ -3101,6 +3101,20 @@
                     "model": "block/beam_bones"
                 }
             },
+			{
+                "threshold": 514,
+                "model": {
+                    "type": "model",
+                    "model": "block/bats"
+                }
+            },
+			{
+                "threshold": 515,
+                "model": {
+                    "type": "model",
+                    "model": "block/boulders_poopy"
+                }
+            },
             {
                 "threshold": 644,
                 "model": {
