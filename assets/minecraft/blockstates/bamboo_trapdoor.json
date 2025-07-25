@@ -67,6 +67,12 @@
             "x": 180,
             "y": 270
         },
+		"facing=west,half=top,open=false,powered=true": [
+			{ "model": "block/trapdoor_stripped_bamboo_block", "x": 180 },
+			{ "model": "block/trapdoor_stripped_bamboo_block_2", "x": 180 },
+			{ "model": "block/trapdoor_stripped_bamboo_block_3", "x": 180 },
+			{ "model": "block/trapdoor_stripped_bamboo_block_4", "x": 180 }
+		],
         "facing=west,half=top,open=true": {
             "model": "minecraft:block/replace_thin_slab",
             "x": 90,

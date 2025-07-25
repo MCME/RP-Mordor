@@ -1,5 +1,29 @@
 {
     "variants": {
+		"north=none,east=none,south=low,west=tall,up=true": [
+		{ "model": "block/stripped_bamboo_block_side_stairs" },
+		{ "model": "block/stripped_bamboo_block_side_stairs_2" },
+		{ "model": "block/stripped_bamboo_block_side_stairs_3" },
+		{ "model": "block/stripped_bamboo_block_side_stairs_4" }
+		],
+		"north=none,east=low,south=tall,west=none,up=true": [
+		{ "model": "block/stripped_bamboo_block_side_stairs", "y": 270 },
+		{ "model": "block/stripped_bamboo_block_side_stairs_2", "y": 270 },
+		{ "model": "block/stripped_bamboo_block_side_stairs_3", "y": 270 },
+		{ "model": "block/stripped_bamboo_block_side_stairs_4", "y": 270 }
+		],
+		"north=low,east=tall,south=none,west=none,up=true": [
+		{ "model": "block/stripped_bamboo_block_side_stairs", "y": 180 },
+		{ "model": "block/stripped_bamboo_block_side_stairs_2", "y": 180 },
+		{ "model": "block/stripped_bamboo_block_side_stairs_3", "y": 180 },
+		{ "model": "block/stripped_bamboo_block_side_stairs_4", "y": 180 }
+		],
+		"north=tall,east=none,south=none,west=low,up=true": [
+		{ "model": "block/stripped_bamboo_block_side_stairs", "y": 90 },
+		{ "model": "block/stripped_bamboo_block_side_stairs_2", "y": 90 },
+		{ "model": "block/stripped_bamboo_block_side_stairs_3", "y": 90 },
+		{ "model": "block/stripped_bamboo_block_side_stairs_4", "y": 90 }
+		],
         "east=none,north=none,south=none,west=none,up=true": [
 		{ "model": "block/medium_oak_wood_pillar" },
 		{ "model": "block/medium_oak_wood_pillar", "y":90 },

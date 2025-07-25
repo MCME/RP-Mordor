@@ -4265,7 +4265,64 @@
                     "type": "model",
                     "model": "block/grindstone"
                 }
+            },
+			{
+                "threshold": 976,
+                "model": {
+                    "type": "model",
+                    "model": "block/stripped_bamboo_slab"
+                }
+            },
+			{
+                "threshold": 977,
+                "model": {
+                    "type": "model",
+                    "model": "block/vertical_slab_stripped_bamboo_block"
+                }
+            },
+			{
+                "threshold": 978,
+                "model": {
+                    "type": "model",
+                    "model": "block/stripped_bamboo_block_side_stairs"
+                }
+            },
+			{
+                "threshold": 979,
+                "model": {
+                    "type": "model",
+                    "model": "item/trapdoor_stripped_bamboo_block_side"
+                }
+            },
+			{
+                "threshold": 980,
+                "model": {
+                    "type": "model",
+                    "model": "block/trapdoor_stripped_bamboo_block"
+                }
+            },
+			{
+                "threshold": 981,
+                "model": {
+                    "type": "model",
+                    "model": "block/stripped_bamboo_block_half_slab"
+                }
+            },
+			{
+                "threshold": 982,
+                "model": {
+                    "type": "model",
+                    "model": "block/stripped_bamboo_block_half_slab"
+                }
+            },
+			{
+                "threshold": 983,
+                "model": {
+                    "type": "model",
+                    "model": "block/stripped_bamboo_block_half_slab"
+                }
             }
+			
         ]
     }
 }

@@ -54,9 +54,12 @@
             "model": "block/trapdoor_mixed_cobblestone_open",
             "y": 270
         },
-        "facing=north,half=bottom,open=false,powered=true": {
-            "model": "block/replace_thin_slab"
-        },
+        "facing=north,half=bottom,open=false,powered=true": [
+			{ "model": "block/trapdoor_stripped_bamboo_block" },
+			{ "model": "block/trapdoor_stripped_bamboo_block_2" },
+			{ "model": "block/trapdoor_stripped_bamboo_block_3" },
+			{ "model": "block/trapdoor_stripped_bamboo_block_4" }
+		],
         "facing=south,half=bottom,open=false,powered=true": {
             "model": "block/replace_thin_slab"
         },
