@@ -207,8 +207,8 @@
 	"attached=true,powered=true,disarmed=true,east=true,north=false,south=false,west=true": {
       "model": "mcme:block/straight_diagonal_tent_pole_3tall_top", "y": 270
     },
-    "attached=true,east=false,north=true,south=false,west=false": {
-      "model": "minecraft:block/unused_cross_cutout"
+    "attached=true,east=false,north=true,south=false,west=false,disarmed=true,powered=true": {
+      "model": "minecraft:block/great_goblin_throne"
     },
     "attached=true,east=false,north=true,south=false,west=true": {
       "model": "minecraft:block/unused_cross_cutout",
