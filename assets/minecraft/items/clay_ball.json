@@ -3115,6 +3115,20 @@
                     "model": "block/boulders_poopy"
                 }
             },
+			{
+                "threshold": 516,
+                "model": {
+                    "type": "model",
+                    "model": "block/oak_planks_offset_bottom_slab"
+                }
+            },
+			{
+                "threshold": 517,
+                "model": {
+                    "type": "model",
+                    "model": "block/oak_planks_offset_top_slab"
+                }
+            },
             {
                 "threshold": 644,
                 "model": {
