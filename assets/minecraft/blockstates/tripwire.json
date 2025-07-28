@@ -112,28 +112,28 @@
       "model": "mcme:block/diagonal_tent_pole_3tall", "y": 270
     },
 	"attached=false,disarmed=true,powered=false,east=true,north=false,south=true,west=false": {
-      "model": "minecraft:block/unused_cross_cutout"
+      "model": "minecraft:block/oak_planks_offset_bottom_slab"
     },
 	"attached=false,disarmed=false,powered=false,east=true,north=false,south=true,west=false": {
-      "model": "minecraft:block/unused_cross_cutout"
+      "model": "minecraft:block/oak_planks_offset_bottom_slab", "y": 90
     },
 	"attached=false,disarmed=false,powered=false,east=true,north=false,south=true,west=true": {
-      "model": "minecraft:block/unused_cross_cutout"
+      "model": "minecraft:block/oak_planks_offset_bottom_slab", "y": 180
     },
 	"attached=false,disarmed=true,powered=false,east=true,north=false,south=true,west=true": {
-      "model": "minecraft:block/unused_cross_cutout"
+      "model": "minecraft:block/oak_planks_offset_bottom_slab", "y": 270
     },
     "attached=false,disarmed=true,powered=true,east=true,north=false,south=true,west=false": {
-      "model": "minecraft:block/unused_cross_cutout"
+      "model": "minecraft:block/oak_planks_offset_top_slab"
     },
     "attached=false,disarmed=true,powered=true,east=true,north=false,south=true,west=true": {
-      "model": "minecraft:block/unused_cross_cutout"
+      "model": "minecraft:block/oak_planks_offset_top_slab", "y": 90
     },
 	"attached=false,disarmed=true,powered=true,east=true,north=false,south=false,west=false": {
-      "model": "minecraft:block/unused_cross_cutout"
+      "model": "minecraft:block/oak_planks_offset_top_slab", "y": 180
     },
     "attached=false,disarmed=true,powered=true,east=true,north=false,south=false,west=true": {
-      "model": "minecraft:block/unused_cross_cutout"
+      "model": "minecraft:block/oak_planks_offset_top_slab", "y": 270
     },
     "attached=true,powered=false,disarmed=false,east=false,north=false,south=false,west=false": {
       "model": "mcme:block/diagonal_tent_pole_3tall_2wide_top"
@@ -207,13 +207,18 @@
 	"attached=true,powered=true,disarmed=true,east=true,north=false,south=false,west=true": {
       "model": "mcme:block/straight_diagonal_tent_pole_3tall_top", "y": 270
     },
-    "attached=true,east=false,north=true,south=false,west=false": {
-      "model": "minecraft:block/unused_cross_cutout"
+    "attached=true,east=false,north=true,south=false,west=false,disarmed=true,powered=true": {
+      "model": "minecraft:block/great_goblin_throne"
     },
-    "attached=true,east=false,north=true,south=false,west=true": {
-      "model": "minecraft:block/unused_cross_cutout",
-      "y": 270
-    },
+    "attached=true,east=false,north=true,south=false,west=true,powered=true,disarmed=true": [
+		{ "model": "block/shield_floor_2"},
+		{ "model": "block/shield_floor_2", "y":90},
+		{ "model": "block/shield_floor_2", "y":180},
+		{ "model": "block/shield_floor_2", "y":270},
+		{ "model": "block/shield_floor_5"},
+		{ "model": "block/shield_floor_5", "y":90},
+		{ "model": "block/shield_floor_5", "y":180},
+		{ "model": "block/shield_floor_5", "y":270}],
     "attached=true,east=false,north=true,south=true,west=false": {
       "model": "minecraft:block/unused_cross_cutout"
     },

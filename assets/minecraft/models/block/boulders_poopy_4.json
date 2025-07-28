@@ -1,0 +1,13 @@
+{
+  "parent": "block/boulders_4",
+  "textures": {
+    "stone": "block/lime_concrete",
+    "stone_1": "block/podzol_snowy_2",
+    "stone_2": "block/lime_concrete_2",
+    "stone_3": "block/podzol_snowy_2",
+    "stone_4": "block/lime_concrete_3",
+    "stone_5": "block/podzol_snowy",
+    "stone_6": "block/lime_concrete",
+    "base": "block/podzol_snowy"
+  }
+}

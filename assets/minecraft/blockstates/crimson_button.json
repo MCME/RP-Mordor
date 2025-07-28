@@ -102,7 +102,7 @@
             { "model": "block/vase_4_4", "y":270 },
             { "model": "block/vase_5_4", "y":270 }    
         ],
-        "face=floor,facing=south,powered=false": { "model": "block/unused_cross_0", "y": 180 },
+        "face=floor,facing=south,powered=false": { "model": "block/cocoa_stage0", "x": 270 },
         "face=wall,facing=east,powered=false":  { "model": "block/cocoa_stage0", "y": 90 },
         "face=wall,facing=west,powered=false":  { "model": "block/cocoa_stage0", "y": 270 },
         "face=wall,facing=south,powered=false": { "model": "block/cocoa_stage0", "y":180 },

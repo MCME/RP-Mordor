@@ -3094,6 +3094,62 @@
                     "model": "block/vase_1_2"
                 }
             },
+			{
+                "threshold": 513,
+                "model": {
+                    "type": "model",
+                    "model": "block/beam_bones"
+                }
+            },
+			{
+                "threshold": 514,
+                "model": {
+                    "type": "model",
+                    "model": "block/bats"
+                }
+            },
+			{
+                "threshold": 515,
+                "model": {
+                    "type": "model",
+                    "model": "block/boulders_poopy"
+                }
+            },
+			{
+                "threshold": 516,
+                "model": {
+                    "type": "model",
+                    "model": "block/oak_planks_offset_bottom_slab"
+                }
+            },
+			{
+                "threshold": 517,
+                "model": {
+                    "type": "model",
+                    "model": "block/oak_planks_offset_top_slab"
+                }
+            },
+			{
+                "threshold": 518,
+                "model": {
+                    "type": "model",
+                    "model": "block/invisible"
+                }
+            },
+			{
+                "threshold": 519,
+                "model": {
+                    "type": "model",
+                    "model": "block/catwalk_up_long_inv"
+                }
+            },
+			{
+                "threshold": 520,
+                "model": {
+                    "type": "model",
+                    "model": "block/shield_floor_5"
+                }
+            },
             {
                 "threshold": 644,
                 "model": {
