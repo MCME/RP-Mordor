@@ -3129,6 +3129,20 @@
                     "model": "block/oak_planks_offset_top_slab"
                 }
             },
+			{
+                "threshold": 518,
+                "model": {
+                    "type": "model",
+                    "model": "block/invisible"
+                }
+            },
+			{
+                "threshold": 519,
+                "model": {
+                    "type": "model",
+                    "model": "block/catwalk_up_long_inv"
+                }
+            },
             {
                 "threshold": 644,
                 "model": {

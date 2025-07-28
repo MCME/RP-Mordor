@@ -1,73 +1,73 @@
 {
     "variants": {
-        "facing=east,half=bottom,open=false": {
-            "model": "minecraft:block/replace_thin_slab",
+        "facing=east,half=bottom,open=false,powered=false": {
+            "model": "mcme:block/catwalk_angled_3",
             "y": 90
         },
-        "facing=east,half=bottom,open=true": {
+        "facing=east,half=bottom,open=true,powered=false": {
             "model": "minecraft:block/replace_thin_slab",
             "x": 90,
             "y": 90
         },
-        "facing=east,half=top,open=false": {
+        "facing=east,half=top,open=false,powered=false": {
             "model": "minecraft:block/replace_thin_slab",
             "x": 180,
             "y": 90
         },
-        "facing=east,half=top,open=true": {
+        "facing=east,half=top,open=true,powered=false": {
             "model": "minecraft:block/replace_thin_slab",
             "x": 90,
             "y": 90
         },
-        "facing=north,half=bottom,open=false": {
-            "model": "minecraft:block/replace_thin_slab"
+        "facing=north,half=bottom,open=false,powered=false": {
+            "model": "mcme:block/catwalk_angled_3"
         },
-        "facing=north,half=bottom,open=true": {
+        "facing=north,half=bottom,open=true,powered=false": {
             "model": "minecraft:block/replace_thin_slab",
             "x": 90
         },
-        "facing=north,half=top,open=false": {
+        "facing=north,half=top,open=false,powered=false": {
             "model": "minecraft:block/replace_thin_slab",
             "x": 180
         },
-        "facing=north,half=top,open=true": {
+        "facing=north,half=top,open=true,powered=false": {
             "model": "minecraft:block/replace_thin_slab",
             "x": 90
         },
-        "facing=south,half=bottom,open=false": {
-            "model": "minecraft:block/replace_thin_slab",
+        "facing=south,half=bottom,open=false,powered=false": {
+            "model": "mcme:block/catwalk_angled_3",
             "y": 180
         },
-        "facing=south,half=bottom,open=true": {
+        "facing=south,half=bottom,open=true,powered=false": {
             "model": "minecraft:block/replace_thin_slab",
             "x": 90,
             "y": 180
         },
-        "facing=south,half=top,open=false": {
+        "facing=south,half=top,open=false,powered=false": {
             "model": "minecraft:block/replace_thin_slab",
             "x": 180,
             "y": 180
         },
-        "facing=south,half=top,open=true": {
+        "facing=south,half=top,open=true,powered=false": {
             "model": "minecraft:block/replace_thin_slab",
             "x": 90,
             "y": 180
         },
-        "facing=west,half=bottom,open=false": {
-            "model": "minecraft:block/replace_thin_slab",
+        "facing=west,half=bottom,open=false,powered=false": {
+            "model": "mcme:block/catwalk_angled_3",
             "y": 270
         },
-        "facing=west,half=bottom,open=true": {
+        "facing=west,half=bottom,open=true,powered=false": {
             "model": "minecraft:block/replace_thin_slab",
             "x": 90,
             "y": 270
         },
-        "facing=west,half=top,open=false": {
+        "facing=west,half=top,open=false,powered=false": {
             "model": "minecraft:block/replace_thin_slab",
             "x": 180,
             "y": 270
         },
-        "facing=west,half=top,open=true": {
+        "facing=west,half=top,open=true,powered=false": {
             "model": "minecraft:block/replace_thin_slab",
             "x": 90,
             "y": 270

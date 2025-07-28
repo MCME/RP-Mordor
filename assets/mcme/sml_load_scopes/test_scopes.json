@@ -129,6 +129,9 @@
 	"mcme:block/wide_wooden_spike_small",
 	"mcme:block/wide_wooden_spike_small_offset",
 	"mcme:block/straight_diagonal_tent_pole_3tall_2wide_top",
-	"mcme:block/straight_diagonal_tent_pole_3tall_top"
+	"mcme:block/straight_diagonal_tent_pole_3tall_top",
+	"mcme:block/catwalk_45_angled",
+	"mcme:block/catwalk_45_angled_3",
+	"mcme:block/catwalk_angled_3"
   ]
 }

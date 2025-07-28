@@ -55,16 +55,16 @@
             "y": 270
         },
         "facing=north,half=bottom,open=false,powered=true": {
-            "model": "block/replace_thin_slab"
+            "model": "mcme:block/catwalk_45_angled_3"
         },
         "facing=south,half=bottom,open=false,powered=true": {
-            "model": "block/replace_thin_slab"
+            "model": "mcme:block/catwalk_45_angled_3", "y":90
         },
         "facing=east,half=bottom,open=false,powered=true": {
-            "model": "block/replace_thin_slab"
+            "model": "mcme:block/catwalk_45_angled_3", "y":180
         },
         "facing=west,half=bottom,open=false,powered=true": {
-            "model": "block/replace_thin_slab"
+            "model": "mcme:block/catwalk_45_angled_3", "y":270
         },
         "facing=north,half=top,open=false,powered=true": [
             {
