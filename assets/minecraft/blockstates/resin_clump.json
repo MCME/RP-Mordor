@@ -1,5 +1,53 @@
 {
   "variants": {
+	"north=true,east=true,south=false,west=false,up=true,down=true": {
+      "model": "mcme:block/rope_2wide_left", "y":180
+    },
+	"north=false,east=true,south=true,west=false,up=true,down=true": {
+      "model": "mcme:block/rope_2wide_left", "y":270
+    },
+	"north=false,east=false,south=true,west=true,up=true,down=true": {
+      "model": "mcme:block/rope_2wide_left"
+    },
+	"north=true,east=false,south=false,west=true,up=true,down=true": {
+      "model": "mcme:block/rope_2wide_left", "y":90
+    },
+	"north=true,east=true,south=false,west=false,up=true,down=false": {
+      "model": "mcme:block/rope_2wide_right"
+    },
+	"north=false,east=true,south=true,west=false,up=true,down=false": {
+      "model": "mcme:block/rope_2wide_right", "y":90
+    },
+	"north=false,east=false,south=true,west=true,up=true,down=false": {
+      "model": "mcme:block/rope_2wide_right", "y":180
+    },
+	"north=true,east=false,south=false,west=true,up=true,down=false": {
+      "model": "mcme:block/rope_2wide_right", "y":270
+    },
+	"north=true,east=false,south=false,west=false,up=true,down=true": {
+      "model": "mcme:block/rope_3wide_right"
+    },
+	"north=false,east=true,south=false,west=false,up=true,down=true": {
+      "model": "mcme:block/rope_3wide_right", "y":90
+    },
+	"north=false,east=false,south=true,west=false,up=true,down=true": {
+      "model": "mcme:block/rope_3wide_right", "y":180
+    },
+	"north=false,east=false,south=false,west=true,up=true,down=true": {
+      "model": "mcme:block/rope_3wide_right", "y":270
+    },
+	"north=true,east=false,south=false,west=false,up=true,down=false": {
+      "model": "mcme:block/rope_3wide_left"
+    },
+	"north=false,east=true,south=false,west=false,up=true,down=false": {
+      "model": "mcme:block/rope_3wide_left", "y":90
+    },
+	"north=false,east=false,south=true,west=false,up=true,down=false": {
+      "model": "mcme:block/rope_3wide_left", "y":180
+    },
+	"north=false,east=false,south=false,west=true,up=true,down=false": {
+      "model": "mcme:block/rope_3wide_left", "y":270
+    },
     "north=true,east=false,south=false,west=true,up=false,down=true": {
       "model": "mcme:block/rope_2wide_diag_45",
       "y": 270

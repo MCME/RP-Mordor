@@ -132,6 +132,10 @@
 	"mcme:block/straight_diagonal_tent_pole_3tall_top",
 	"mcme:block/catwalk_45_angled",
 	"mcme:block/catwalk_45_angled_3",
-	"mcme:block/catwalk_angled_3"
+	"mcme:block/catwalk_angled_3",
+	"mcme:block/rope_3wide_left",
+	"mcme:block/rope_3wide_right",
+	"mcme:block/rope_2wide_right",
+	"mcme:block/rope_2wide_left"
   ]
 }
