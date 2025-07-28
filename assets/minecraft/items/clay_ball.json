@@ -3143,6 +3143,13 @@
                     "model": "block/catwalk_up_long_inv"
                 }
             },
+			{
+                "threshold": 520,
+                "model": {
+                    "type": "model",
+                    "model": "block/shield_floor_5"
+                }
+            },
             {
                 "threshold": 644,
                 "model": {
