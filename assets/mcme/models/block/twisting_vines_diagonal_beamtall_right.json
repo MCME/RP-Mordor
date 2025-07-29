@@ -1,0 +1,8 @@
+{
+  "parent": "special-model-loader:builtin/obj",
+  "flip_v": true,
+  "model": "mcme:models/block/twisting_vines_diagonal_beamtall_right.obj",
+  "particle": "mcme:block/catwalk_prep",
+  "ambientocclusion": true
+  
+}
