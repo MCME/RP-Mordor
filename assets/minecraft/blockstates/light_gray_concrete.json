@@ -1,9 +1,19 @@
 {
-    "variants": {
-        "": [
-            {
-                "model": "block/replace"
-            }
-        ]
-    }
+  "variants": {
+    "": [
+      { "model": "block/light_gray_concrete" },
+      {"model": "block/light_gray_concrete", "x": 90, "z": 90},
+      {"model": "block/light_gray_concrete", "x": 180, "z": 180},
+      {"model": "block/light_gray_concrete", "x": 270, "z": 270},
+      {"model": "block/light_gray_concrete_2"},
+      {"model": "block/light_gray_concrete_2", "x": 90, "z": 90},
+      {"model": "block/light_gray_concrete_2", "x": 180, "z": 180},
+      {"model": "block/light_gray_concrete_2", "x": 270, "z": 270},
+      {"model": "block/light_gray_concrete_3"},
+      {"model": "block/light_gray_concrete_3", "x": 90, "z": 90},
+      {"model": "block/light_gray_concrete_3", "x": 180, "z": 180},
+      {"model": "block/light_gray_concrete_3", "x": 270, "z": 270}
+    ]
+  }
 }
+

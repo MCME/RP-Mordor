@@ -1,6 +1,6 @@
 {
     "parent": "block/cube_all",
     "textures": {
-        "all": "block/cracked_deepslate_tiles"
+        "all": "block/light_gray_concrete"
     }
 }
