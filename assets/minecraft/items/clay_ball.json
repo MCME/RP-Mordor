@@ -3150,6 +3150,13 @@
                     "model": "block/shield_floor_5"
                 }
             },
+			{
+                "threshold": 521,
+                "model": {
+                    "type": "model",
+                    "model": "block/skulls"
+                }
+            },
             {
                 "threshold": 644,
                 "model": {
