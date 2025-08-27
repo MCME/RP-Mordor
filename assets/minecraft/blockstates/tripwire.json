@@ -214,11 +214,7 @@
 		{ "model": "block/shield_floor_2"},
 		{ "model": "block/shield_floor_2", "y":90},
 		{ "model": "block/shield_floor_2", "y":180},
-		{ "model": "block/shield_floor_2", "y":270},
-		{ "model": "block/shield_floor_5"},
-		{ "model": "block/shield_floor_5", "y":90},
-		{ "model": "block/shield_floor_5", "y":180},
-		{ "model": "block/shield_floor_5", "y":270}],
+		{ "model": "block/shield_floor_2", "y":270}],
     "attached=true,east=false,north=true,south=true,west=false": {
       "model": "minecraft:block/unused_cross_cutout"
     },
