@@ -4272,6 +4272,13 @@
                     "type": "model",
                     "model": "block/smith_anvil"
                 }
+            },
+			{
+                "threshold": 969,
+                "model": {
+                    "type": "model",
+                    "model": "block/fire_floor0"
+                }
             }
         ]
     }

@@ -137,9 +137,11 @@
 	"mcme:block/rope_3wide_right",
 	"mcme:block/rope_2wide_right",
 	"mcme:block/rope_2wide_left",
+	"mcme:block/rope_45_diagonal",
 	"mcme:block/twisting_vines_diagonal_beamlong_left",
 	"mcme:block/twisting_vines_diagonal_beamlong_right",
 	"mcme:block/twisting_vines_diagonal_beamtall_left",
-	"mcme:block/twisting_vines_diagonal_beamtall_right"
+	"mcme:block/twisting_vines_diagonal_beamtall_right",
+	"mcme:block/great_goblin_throne"
   ]
 }
