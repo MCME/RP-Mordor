@@ -98,22 +98,18 @@
             "y": 270
         },
         "facing=north,half=top,open=true,powered=true": {
-            "model": "block/replace_thin_slab",
-            "x": 90
+            "model": "block/rabbit_1"
         },
         "facing=south,half=top,open=true,powered=true": {
-            "model": "block/replace_thin_slab",
-            "x": 90,
+            "model": "block/rabbit_1",
             "y": 180
         },
         "facing=east,half=top,open=true,powered=true": {
-            "model": "block/replace_thin_slab",
-            "x": 90,
+            "model": "block/rabbit_1",
             "y": 90
         },
         "facing=west,half=top,open=true,powered=true": {
-            "model": "block/replace_thin_slab",
-            "x": 90,
+            "model": "block/rabbit_1",
             "y": 270
         }
     }
