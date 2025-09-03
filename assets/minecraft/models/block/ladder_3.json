@@ -1,4 +1,5 @@
 {
+	"format_version": "1.21.6",
 	"credit": "model_generated_using_mrcrayfish's_model_creator_(http://mrcrayfish.com/modelcreator/)",
 	"textures": {
 		"1": "block/ladder_model",
@@ -34,7 +35,7 @@
 		},
 		{
 			"from": [1, 1, 14],
-			"to": [17, 4, 15],
+			"to": [17, 4, 15.25],
 			"rotation": {"angle": 0, "axis": "y", "origin": [3, 1, 13]},
 			"faces": {
 				"north": {"uv": [0, 13, 16, 16], "texture": "#1"},
@@ -46,8 +47,8 @@
 			}
 		},
 		{
-			"from": [0, 6, 14],
-			"to": [16, 9, 15],
+			"from": [0, 6, 14.2],
+			"to": [16, 9, 15.5],
 			"rotation": {"angle": 0, "axis": "z", "origin": [8, 7.5, 14.5]},
 			"faces": {
 				"north": {"uv": [16, 0, 0, 3], "texture": "#1"},
@@ -59,8 +60,8 @@
 			}
 		},
 		{
-			"from": [-1, 12, 14],
-			"to": [15, 15, 15],
+			"from": [-1, 12, 13.75],
+			"to": [15, 15, 15.25],
 			"rotation": {"angle": 0, "axis": "y", "origin": [7, 13.5, 14.5]},
 			"faces": {
 				"north": {"uv": [0, 6, 16, 9], "texture": "#1"},
@@ -88,7 +89,7 @@
 			"scale": [0.4, 0.4, 0.4]
 		},
 		"firstperson_lefthand": {
-			"rotation": [0, 225, 0],
+			"rotation": [0, -135, 0],
 			"scale": [0.4, 0.4, 0.4]
 		},
 		"ground": {
