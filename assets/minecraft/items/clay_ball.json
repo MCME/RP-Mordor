@@ -4279,6 +4279,20 @@
                     "type": "model",
                     "model": "block/fire_floor0"
                 }
+            },
+			{
+                "threshold": 970,
+                "model": {
+                    "type": "model",
+                    "model": "block/rabbits_1"
+                }
+            },
+			{
+                "threshold": 971,
+                "model": {
+                    "type": "model",
+                    "model": "block/gong"
+                }
             }
         ]
     }
