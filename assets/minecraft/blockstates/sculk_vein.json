@@ -63,6 +63,12 @@
 	   {"model": "minecraft:block/skulls", "y": 270  },
 	    {"model": "minecraft:block/skulls_2", "y": 270  },
 		{"model": "minecraft:block/skulls_3", "y": 270  }
+		],
+		"up=false,north=false,east=false,south=false,west=false,down=true": [
+	   {"model": "minecraft:block/ground_weapons", "y": 90  },
+	    {"model": "minecraft:block/ground_weapons", "y": 180  },
+		{"model": "minecraft:block/ground_weapons", "y": 270  },
+		{"model": "minecraft:block/ground_weapons"  }
 		]
     }
 }

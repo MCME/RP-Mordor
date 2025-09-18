@@ -31,7 +31,7 @@
             "y": 90
         },
         "distance=3,persistent=true": {
-            "model": "minecraft:block/replace_cutout"
+            "model": "minecraft:block/barrel_poop_full_item"
         },
         "distance=4,persistent=true": {
             "model": "minecraft:block/replace_cutout",

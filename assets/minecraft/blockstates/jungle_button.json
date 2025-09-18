@@ -71,40 +71,37 @@
         "face=wall,facing=east,powered=false": {
             "model": "minecraft:block/jungle_button_corbel"
         },
-        "face=wall,facing=east,powered=true": {
-            "model": "minecraft:block/unused_cross_0",
-            "y": 90,
-            "x": 90,
-            "uvlock": true
-        },
+        "face=wall,facing=west,powered=true": [
+	{ "model": "block/hanging_paper", "y":90 },
+	{ "model": "block/hanging_paper_2", "y":90 },
+	{ "model": "block/hanging_paper_3", "y":90 }
+	],
         "face=wall,facing=north,powered=false": {
             "model": "minecraft:block/jungle_button_corbel",
             "y": 270
         },
-        "face=wall,facing=north,powered=true": {
-            "model": "minecraft:block/unused_cross_0",
-            "x": 90,
-            "uvlock": true
-        },
+        "face=wall,facing=north,powered=true": [
+	{ "model": "block/hanging_paper", "y":180 },
+	{ "model": "block/hanging_paper_2", "y":180 },
+	{ "model": "block/hanging_paper_3", "y":180 }
+	],
         "face=wall,facing=south,powered=false": {
             "model": "minecraft:block/jungle_button_corbel",
             "y": 90
         },
-        "face=wall,facing=south,powered=true": {
-            "model": "minecraft:block/unused_cross_0",
-            "y": 180,
-            "x": 90,
-            "uvlock": true
-        },
+        "face=wall,facing=east,powered=true": [
+	{ "model": "block/hanging_paper", "y":270 },
+	{ "model": "block/hanging_paper_2", "y":270 },
+	{ "model": "block/hanging_paper_3", "y":270 }
+	],
         "face=wall,facing=west,powered=false": {
             "model": "minecraft:block/jungle_button_corbel",
             "y": 180
         },
-        "face=wall,facing=west,powered=true": {
-            "model": "minecraft:block/unused_cross_0",
-            "y": 270,
-            "x": 90,
-            "uvlock": true
-        }
+        "face=wall,facing=south,powered=true": [
+	{ "model": "block/hanging_paper" },
+	{ "model": "block/hanging_paper_2" },
+	{ "model": "block/hanging_paper_3" }
+	]
     }
 }
