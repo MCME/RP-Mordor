@@ -4293,6 +4293,13 @@
                     "type": "model",
                     "model": "block/gong"
                 }
+            },
+			{
+                "threshold": 972,
+                "model": {
+                    "type": "model",
+                    "model": "block/uruk_sword"
+                }
             }
         ]
     }

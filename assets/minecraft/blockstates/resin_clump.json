@@ -124,6 +124,12 @@
     },
 	"north=false,east=true,south=false,west=true,up=true,down=false": {
       "model": "mcme:block/rope_45_diagonal"
-    }
+    },
+	"north=false,east=false,south=false,west=false,up=false,down=true": [
+	{ "model": "minecraft:block/uruk_sword" },
+	{ "model": "minecraft:block/uruk_sword", "y":90 },
+	{ "model": "minecraft:block/uruk_sword", "y":180 },
+	{ "model": "minecraft:block/uruk_sword", "y":270 }
+	]
   }
 }
