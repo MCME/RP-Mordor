@@ -4335,6 +4335,20 @@
                     "type": "model",
                     "model": "block/barrel_poop_full"
                 }
+            },
+			{
+                "threshold": 978,
+                "model": {
+                    "type": "model",
+                    "model": "block/small_horn_display"
+                }
+            },
+			{
+                "threshold": 979,
+                "model": {
+                    "type": "model",
+                    "model": "block/red_candle"
+                }
             }
         ]
     }
