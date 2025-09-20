@@ -35,10 +35,19 @@
                 "model": "block/unused_cross_cutout"
             }
         ],
-        "age=0": [
-            {
-                "model": "block/unused_cross_cutout"
-            }
+        "age=0": [   
+		{  "model": "block/helmet" },
+		{  "model": "block/helmet", "y":90  },
+		{  "model": "block/helmet", "y":180 },
+		{  "model": "block/helmet", "y":270  },
+		{  "model": "block/helmet_2" },
+		{  "model": "block/helmet_2", "y":90  },
+		{  "model": "block/helmet_2", "y":180 },
+		{  "model": "block/helmet_2", "y":270  },
+		{  "model": "block/helmet_3" },
+		{  "model": "block/helmet_3", "y":90  },
+		{  "model": "block/helmet_3", "y":180 },
+		{  "model": "block/helmet_3", "y":270  }
         ]
     }
 }

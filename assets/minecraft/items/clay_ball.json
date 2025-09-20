@@ -49,6 +49,13 @@
                     "model": "item/inv_mist_2"
                 }
             },
+			{
+                "threshold": 9,
+                "model": {
+                    "type": "model",
+                    "model": "block/helmet"
+                }
+            },
             {
                 "threshold": 16,
                 "model": {

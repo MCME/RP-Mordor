@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "": [
+	{ "model": "minecraft:block/soul_torch", "weight":5 },
+	{ "model": "minecraft:block/soul_torch_2", "weight":1 }
+	]
+  }
+}
