@@ -32,7 +32,7 @@
         ],
         "age=1": [
             {
-                "model": "block/unused_cross_cutout"
+                "model": "mcme:block/goblin_chandelier"
             }
         ],
         "age=0": [   
