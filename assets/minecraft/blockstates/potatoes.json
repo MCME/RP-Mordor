@@ -27,7 +27,7 @@
         ],
         "age=2": [
             {
-                "model": "block/unused_cross_cutout"
+                "model": "block/torture_press"
             }
         ],
         "age=1": [
