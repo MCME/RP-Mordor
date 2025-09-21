@@ -23,6 +23,18 @@
 		},
 			"facing=north,half=top,open=false,powered=false": { 
 			"model": "minecraft:block/green_stone_bricks_1x1arch"
+		},
+		"facing=north,half=bottom,open=true,powered=false": { 
+			"model": "minecraft:block/gong", "y":180
+		},
+		"facing=east,half=bottom,open=true,powered=false": { 
+			"model": "minecraft:block/gong", "y":270
+		},
+		"facing=west,half=bottom,open=true,powered=false": { 
+			"model": "minecraft:block/gong", "y":90
+		},
+		"facing=south,half=bottom,open=true,powered=false": { 
+			"model": "minecraft:block/gong"
 		}
 	}
 }

@@ -21,24 +21,49 @@
             }
         ],
         "age=3": [
-            {
-                "model": "block/unused_cross_cutout"
-            }
+            {  "model": "block/chalice" },
+			{  "model": "block/chalice", "y":90 },
+			{  "model": "block/chalice", "y":180 },
+			{  "model": "block/chalice", "y":270 },
+			{  "model": "block/chalice_2" },
+			{  "model": "block/chalice_2", "y":90 },
+			{  "model": "block/chalice_2", "y":180 },
+			{  "model": "block/chalice_2", "y":270 },
+			{  "model": "block/chalice_3" },
+			{  "model": "block/chalice_3", "y":90 },
+			{  "model": "block/chalice_3", "y":180 },
+			{  "model": "block/chalice_3", "y":270 },
+			{  "model": "block/gold_ingots" },
+			{  "model": "block/gold_ingots", "y":90 },
+			{  "model": "block/gold_ingots_2", "y":180 },
+			{  "model": "block/gold_ingots_2", "y":270 },
+			{  "model": "block/gold_ingots_3", "y":180 },
+			{  "model": "block/gold_ingots_3", "y":270 }
+			
         ],
         "age=2": [
             {
-                "model": "block/unused_cross_cutout"
+                "model": "block/torture_press"
             }
         ],
         "age=1": [
             {
-                "model": "block/unused_cross_cutout"
+                "model": "mcme:block/goblin_chandelier"
             }
         ],
-        "age=0": [
-            {
-                "model": "block/unused_cross_cutout"
-            }
+        "age=0": [   
+		{  "model": "block/helmet" },
+		{  "model": "block/helmet", "y":90  },
+		{  "model": "block/helmet", "y":180 },
+		{  "model": "block/helmet", "y":270  },
+		{  "model": "block/helmet_2" },
+		{  "model": "block/helmet_2", "y":90  },
+		{  "model": "block/helmet_2", "y":180 },
+		{  "model": "block/helmet_2", "y":270  },
+		{  "model": "block/helmet_3" },
+		{  "model": "block/helmet_3", "y":90  },
+		{  "model": "block/helmet_3", "y":180 },
+		{  "model": "block/helmet_3", "y":270  }
         ]
     }
 }

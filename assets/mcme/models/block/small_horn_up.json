@@ -2,6 +2,7 @@
   "parent": "special-model-loader:builtin/obj",
   "flip_v": true,
   "model": "mcme:models/block/small_horn_up.obj",
+  "particle": "mcme:block/huge_horn_prep",
   "ambientocclusion": false
   
 }

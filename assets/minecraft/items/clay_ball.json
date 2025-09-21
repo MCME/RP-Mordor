@@ -49,6 +49,34 @@
                     "model": "item/inv_mist_2"
                 }
             },
+			{
+                "threshold": 9,
+                "model": {
+                    "type": "model",
+                    "model": "block/helmet"
+                }
+            },
+			{
+                "threshold": 10,
+                "model": {
+                    "type": "model",
+                    "model": "block/chalice_3"
+                }
+            },
+			{
+                "threshold": 11,
+                "model": {
+                    "type": "model",
+                    "model": "block/skelesitting_inv"
+                }
+            },
+			{
+                "threshold": 12,
+                "model": {
+                    "type": "model",
+                    "model": "block/skelehanging_inv"
+                }
+            },
             {
                 "threshold": 16,
                 "model": {
@@ -4278,6 +4306,76 @@
                 "model": {
                     "type": "model",
                     "model": "block/fire_floor0"
+                }
+            },
+			{
+                "threshold": 970,
+                "model": {
+                    "type": "model",
+                    "model": "block/rabbits_1"
+                }
+            },
+			{
+                "threshold": 971,
+                "model": {
+                    "type": "model",
+                    "model": "block/gong"
+                }
+            },
+			{
+                "threshold": 972,
+                "model": {
+                    "type": "model",
+                    "model": "block/uruk_sword"
+                }
+            },
+			{
+                "threshold": 973,
+                "model": {
+                    "type": "model",
+                    "model": "block/coinpile"
+                }
+            },
+			{
+                "threshold": 974,
+                "model": {
+                    "type": "model",
+                    "model": "block/hanging_paper"
+                }
+            },
+			{
+                "threshold": 975,
+                "model": {
+                    "type": "model",
+                    "model": "block/knocker"
+                }
+            },
+			{
+                "threshold": 976,
+                "model": {
+                    "type": "model",
+                    "model": "block/ground_weapons"
+                }
+            },
+			{
+                "threshold": 977,
+                "model": {
+                    "type": "model",
+                    "model": "block/barrel_poop_full"
+                }
+            },
+			{
+                "threshold": 978,
+                "model": {
+                    "type": "model",
+                    "model": "block/small_horn_display"
+                }
+            },
+			{
+                "threshold": 979,
+                "model": {
+                    "type": "model",
+                    "model": "block/red_candle"
                 }
             }
         ]

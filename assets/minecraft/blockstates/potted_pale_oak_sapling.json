@@ -1,0 +1,18 @@
+{
+    "variants": {
+        "": [
+		{  "model": "minecraft:block/coinpile"  },
+		{  "model": "minecraft:block/coinpile", "y":90  },
+		{  "model": "minecraft:block/coinpile", "y":180  },
+		{  "model": "minecraft:block/coinpile", "y":270  },
+		{  "model": "minecraft:block/coinpile_2"  },
+		{  "model": "minecraft:block/coinpile_2", "y":90  },
+		{  "model": "minecraft:block/coinpile_2", "y":180  },
+		{  "model": "minecraft:block/coinpile_2", "y":270  },
+		{  "model": "minecraft:block/coinpile_3"  },
+		{  "model": "minecraft:block/coinpile_3", "y":90  },
+		{  "model": "minecraft:block/coinpile_3", "y":180  },
+		{  "model": "minecraft:block/coinpile_3", "y":270  }
+		]
+    }
+}

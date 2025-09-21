@@ -1,0 +1,6 @@
+{
+  "parent": "block/barrel_full_item",
+  "textures": {
+    "content": "block/podzol_snowy_2"
+  }
+}
