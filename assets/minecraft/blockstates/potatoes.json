@@ -21,9 +21,25 @@
             }
         ],
         "age=3": [
-            {
-                "model": "block/unused_cross_cutout"
-            }
+            {  "model": "block/chalice" },
+			{  "model": "block/chalice", "y":90 },
+			{  "model": "block/chalice", "y":180 },
+			{  "model": "block/chalice", "y":270 },
+			{  "model": "block/chalice_2" },
+			{  "model": "block/chalice_2", "y":90 },
+			{  "model": "block/chalice_2", "y":180 },
+			{  "model": "block/chalice_2", "y":270 },
+			{  "model": "block/chalice_3" },
+			{  "model": "block/chalice_3", "y":90 },
+			{  "model": "block/chalice_3", "y":180 },
+			{  "model": "block/chalice_3", "y":270 },
+			{  "model": "block/gold_ingots" },
+			{  "model": "block/gold_ingots", "y":90 },
+			{  "model": "block/gold_ingots_2", "y":180 },
+			{  "model": "block/gold_ingots_2", "y":270 },
+			{  "model": "block/gold_ingots_3", "y":180 },
+			{  "model": "block/gold_ingots_3", "y":270 }
+			
         ],
         "age=2": [
             {

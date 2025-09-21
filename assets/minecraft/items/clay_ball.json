@@ -56,6 +56,13 @@
                     "model": "block/helmet"
                 }
             },
+			{
+                "threshold": 10,
+                "model": {
+                    "type": "model",
+                    "model": "block/chalice_3"
+                }
+            },
             {
                 "threshold": 16,
                 "model": {
