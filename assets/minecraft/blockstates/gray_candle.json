@@ -1,25 +1,25 @@
 {
     "variants": {
         "candles=1,lit=false": {
-            "model": "minecraft:block/unused_cross_0"
+            "model": "mcme:block/skelesitting"
         },
         "candles=1,lit=true": {
             "model": "minecraft:block/unused_cross_luminous"
         },
         "candles=2,lit=false": {
-            "model": "minecraft:block/unused_cross_0"
+            "model": "mcme:block/skelesitting", "y":90
         },
         "candles=2,lit=true": {
             "model": "minecraft:block/unused_cross_luminous"
         },
         "candles=3,lit=false": {
-            "model": "minecraft:block/unused_cross_0"
+            "model": "mcme:block/skelesitting", "y":180
         },
         "candles=3,lit=true": {
             "model": "minecraft:block/unused_cross_luminous"
         },
         "candles=4,lit=false": {
-            "model": "minecraft:block/unused_cross_0"
+            "model": "mcme:block/skelesitting", "y":270
         },
         "candles=4,lit=true": {
             "model": "minecraft:block/unused_cross_luminous"

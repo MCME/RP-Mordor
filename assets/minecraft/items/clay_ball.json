@@ -63,6 +63,20 @@
                     "model": "block/chalice_3"
                 }
             },
+			{
+                "threshold": 11,
+                "model": {
+                    "type": "model",
+                    "model": "block/skelesitting_inv"
+                }
+            },
+			{
+                "threshold": 12,
+                "model": {
+                    "type": "model",
+                    "model": "block/skelehanging_inv"
+                }
+            },
             {
                 "threshold": 16,
                 "model": {

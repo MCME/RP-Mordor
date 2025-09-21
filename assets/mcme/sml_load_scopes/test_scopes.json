@@ -143,6 +143,8 @@
 	"mcme:block/twisting_vines_diagonal_beamtall_left",
 	"mcme:block/twisting_vines_diagonal_beamtall_right",
 	"mcme:block/great_goblin_throne",
-	"mcme:block/goblin_chandelier"
+	"mcme:block/goblin_chandelier",
+	"mcme:block/skelehanging",
+	"mcme:block/skelesitting"
   ]
 }
