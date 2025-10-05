@@ -10,7 +10,7 @@
             "model": "block/trapdoor_small_dark_bricks_bottom"
         },
         "facing=west,half=bottom,open=false,powered=false": {
-            "model": "block/replace_thin_slab"
+            "model": "mcme:block/goblin_zipline_seat"
         },
         "facing=north,half=top,open=false,powered=false": {
             "model": "block/trapdoor_small_black_bricks_top"

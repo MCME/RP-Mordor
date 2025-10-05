@@ -145,6 +145,7 @@
 	"mcme:block/great_goblin_throne",
 	"mcme:block/goblin_chandelier",
 	"mcme:block/skelehanging",
-	"mcme:block/skelesitting"
+	"mcme:block/skelesitting",
+	"mcme:block/goblin_zipline_seat"
   ]
 }
