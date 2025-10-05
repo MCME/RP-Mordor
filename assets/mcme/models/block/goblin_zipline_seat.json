@@ -2,6 +2,7 @@
   "parent": "special-model-loader:builtin/obj",
   "flip_v": true,
   "model": "mcme:models/block/goblin_zipline_seat.obj",
+  "particle": "mcme:block/catwalk_model",
   "ambientocclusion": false
   
 }
