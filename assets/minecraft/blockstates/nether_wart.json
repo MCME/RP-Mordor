@@ -1,10 +1,9 @@
 {
     "variants": {
         "age=0": [
-            {
-                "model": "block/unused_cross_cutout"
-            }
-        ],
+	{ "model": "minecraft:block/torch_unlit", "weight":5 },
+	{ "model": "minecraft:block/torch_unlit_2", "weight":1 }
+	],
         "age=1": [
       { "model": "block/nether_wart_2_0" },
       { "model": "block/nether_wart_2_1" },

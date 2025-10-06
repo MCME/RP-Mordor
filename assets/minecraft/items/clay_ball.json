@@ -77,6 +77,13 @@
                     "model": "block/skelehanging_inv"
                 }
             },
+			{
+                "threshold": 13,
+                "model": {
+                    "type": "model",
+                    "model": "block/torch_unlit"
+                }
+            },
             {
                 "threshold": 16,
                 "model": {
@@ -4312,7 +4319,7 @@
                 "threshold": 970,
                 "model": {
                     "type": "model",
-                    "model": "block/rabbits_1"
+                    "model": "block/rabbit_1"
                 }
             },
 			{
@@ -4361,7 +4368,7 @@
                 "threshold": 977,
                 "model": {
                     "type": "model",
-                    "model": "block/barrel_poop_full"
+                    "model": "block/barrel_poop_full_item"
                 }
             },
 			{
@@ -4376,6 +4383,13 @@
                 "model": {
                     "type": "model",
                     "model": "block/red_candle"
+                }
+            },
+			{
+                "threshold": 980,
+                "model": {
+                    "type": "model",
+                    "model": "block/zipline_seat"
                 }
             }
         ]

@@ -1,5 +1,8 @@
 {
   "variants": {
+	    "facing=west,half=bottom,open=false,powered=false": { 
+			"model": "mcme:block/goblin_zipline_seat", "y": 90
+		},
 		"facing=west,half=top,open=false,powered=true": { 
 			"model": "minecraft:block/dark_stone_bricks_1x1arch", "y": 90
 		},
