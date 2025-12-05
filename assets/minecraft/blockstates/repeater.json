@@ -70,18 +70,160 @@
         ],
         "delay=3,facing=south,locked=false,powered=false": [
             {
-                "model": "block/replace_thin_slab"
+                "model": "block/pink_concrete_powder_slab",
+                "weight": 10
             },
             {
-                "model": "block/replace_thin_slab"
+                "model": "block/pink_concrete_powder_slab",
+                "y": 90,
+                "weight": 10
             },
             {
-                "model": "block/replace_thin_slab"
+                "model": "block/pink_concrete_powder_slab",
+                "y": 180,
+                "weight": 10
+            },
+            {
+                "model": "block/pink_concrete_powder_slab",
+                "y": 270,
+                "weight": 10
+            },
+            {
+                "model": "block/pink_concrete_powder_slab_2",
+                "weight": 10
+            },
+            {
+                "model": "block/pink_concrete_powder_slab_2",
+                "y": 90,
+                "weight": 10
+            },
+            {
+                "model": "block/pink_concrete_powder_slab_2",
+                "y": 180,
+                "weight": 10
+            },
+            {
+                "model": "block/pink_concrete_powder_slab_2",
+                "y": 270,
+                "weight": 10
+            },
+            {
+                "model": "block/pink_concrete_powder_slab_3",
+                "weight": 10
+            },
+            {
+                "model": "block/pink_concrete_powder_slab_3",
+                "y": 90,
+                "weight": 10
+            },
+            {
+                "model": "block/pink_concrete_powder_slab_3",
+                "y": 180,
+                "weight": 10
+            },
+            {
+                "model": "block/pink_concrete_powder_slab_3",
+                "y": 270,
+                "weight": 10
+            },
+            {
+                "model": "block/pink_concrete_powder_slab_4",
+                "weight": 10
+            },
+            {
+                "model": "block/pink_concrete_powder_slab_4",
+                "y": 90,
+                "weight": 10
+            },
+            {
+                "model": "block/pink_concrete_powder_slab_4",
+                "y": 180,
+                "weight": 10
+            },
+            {
+                "model": "block/pink_concrete_powder_slab_4",
+                "y": 270,
+                "weight": 10
             }
         ],
-        "delay=3,facing=west,locked=false,powered=false": {
-            "model": "block/replace_thin_slab"
-        },
+        "delay=3,facing=west,locked=false,powered=false": [
+		{
+                "model": "block/red_concrete_powder_slab",
+                "weight": 10
+            },
+            {
+                "model": "block/red_concrete_powder_slab",
+                "y": 90,
+                "weight": 10
+            },
+            {
+                "model": "block/red_concrete_powder_slab",
+                "y": 180,
+                "weight": 10
+            },
+            {
+                "model": "block/red_concrete_powder_slab",
+                "y": 270,
+                "weight": 10
+            },
+            {
+                "model": "block/red_concrete_powder_slab_2",
+                "weight": 10
+            },
+            {
+                "model": "block/red_concrete_powder_slab_2",
+                "y": 90,
+                "weight": 10
+            },
+            {
+                "model": "block/red_concrete_powder_slab_2",
+                "y": 180,
+                "weight": 10
+            },
+            {
+                "model": "block/red_concrete_powder_slab_2",
+                "y": 270,
+                "weight": 10
+            },
+            {
+                "model": "block/red_concrete_powder_slab_3",
+                "weight": 10
+            },
+            {
+                "model": "block/red_concrete_powder_slab_3",
+                "y": 90,
+                "weight": 10
+            },
+            {
+                "model": "block/red_concrete_powder_slab_3",
+                "y": 180,
+                "weight": 10
+            },
+            {
+                "model": "block/red_concrete_powder_slab_3",
+                "y": 270,
+                "weight": 10
+            },
+            {
+                "model": "block/red_concrete_powder_slab_4",
+                "weight": 10
+            },
+            {
+                "model": "block/red_concrete_powder_slab_4",
+                "y": 90,
+                "weight": 10
+            },
+            {
+                "model": "block/red_concrete_powder_slab_4",
+                "y": 180,
+                "weight": 10
+            },
+            {
+                "model": "block/red_concrete_powder_slab_4",
+                "y": 270,
+                "weight": 10
+            }
+			],
         "delay=3,facing=north,locked=false,powered=false": {
             "model": "block/repeater_delay3_n"
         },
