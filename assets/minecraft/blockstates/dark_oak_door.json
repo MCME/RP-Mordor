@@ -59,9 +59,11 @@
                 "open": "false",
                 "powered": "false"
             },
-            "apply": {
-                "model": "block/dark_oak_door_bottom_hinge"
-            }
+            "apply": [
+			{  "model": "block/tool_rack",  "y": 270  },
+			{  "model": "block/tool_rack_2",  "y": 270  },
+			{  "model": "block/tool_rack_3",  "y": 270  }
+			]
         },
         {
             "when": {
@@ -71,10 +73,11 @@
                 "open": "false",
                 "powered": "false"
             },
-            "apply": {
-                "model": "block/dark_oak_door_bottom_hinge",
-                "y": 90
-            }
+            "apply": [
+			{  "model": "block/tool_rack"  },
+			{  "model": "block/tool_rack_2"  },
+			{  "model": "block/tool_rack_3"  }
+			]
         },
         {
             "when": {
@@ -84,10 +87,11 @@
                 "open": "false",
                 "powered": "false"
             },
-            "apply": {
-                "model": "block/dark_oak_door_bottom_hinge",
-                "y": 180
-            }
+            "apply": [
+			{  "model": "block/tool_rack",  "y": 90  },
+			{  "model": "block/tool_rack_2",  "y": 90  },
+			{  "model": "block/tool_rack_3",  "y": 90  }
+			]
         },
         {
             "when": {
@@ -97,10 +101,11 @@
                 "open": "false",
                 "powered": "false"
             },
-            "apply": {
-                "model": "block/dark_oak_door_bottom_hinge",
-                "y": 270
-            }
+            "apply": [
+			{  "model": "block/tool_rack",  "y": 180  },
+			{  "model": "block/tool_rack_2",  "y": 180  },
+			{  "model": "block/tool_rack_3",  "y": 180  }
+			]
         },
         {
             "when": {

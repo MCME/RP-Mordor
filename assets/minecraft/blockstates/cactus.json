@@ -128,9 +128,10 @@
                 "age": 11
             },
             "apply": [
-                {
-                    "model": "block/replace_cutout"
-                }
+                {  "model": "block/cactus_11"  },
+				{  "model": "block/cactus_11", "y":90  },
+				{  "model": "block/cactus_11", "y":180  },
+				{  "model": "block/cactus_11", "y":270  }
             ]
         },
         {

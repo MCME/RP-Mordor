@@ -46,9 +46,32 @@
 		{ "model": "block/boulders_poopy_6", "y":180  },
 		{ "model": "block/boulders_poopy_6", "y":270  }
 		],
-        "power=3": {
-            "model": "block/replace_pressure_plate"
-        },
+        "power=3": [
+		{ "model": "block/boulders_coal"  },
+		{ "model": "block/boulders_coal", "y":90  },
+		{ "model": "block/boulders_coal", "y":180  },
+		{ "model": "block/boulders_coal", "y":270  },
+		{ "model": "block/boulders_coal_2"  },
+		{ "model": "block/boulders_coal_2", "y":90  },
+		{ "model": "block/boulders_coal_2", "y":180  },
+		{ "model": "block/boulders_coal_2", "y":270  },
+		{ "model": "block/boulders_coal_3"  },
+		{ "model": "block/boulders_coal_3", "y":90  },
+		{ "model": "block/boulders_coal_3", "y":180  },
+		{ "model": "block/boulders_coal_3", "y":270  },
+		{ "model": "block/boulders_coal_4"  },
+		{ "model": "block/boulders_coal_4", "y":90  },
+		{ "model": "block/boulders_coal_4", "y":180  },
+		{ "model": "block/boulders_coal_4", "y":270  },
+		{ "model": "block/boulders_coal_5"  },
+		{ "model": "block/boulders_coal_5", "y":90  },
+		{ "model": "block/boulders_coal_5", "y":180  },
+		{ "model": "block/boulders_coal_5", "y":270  },
+		{ "model": "block/boulders_coal_6"  },
+		{ "model": "block/boulders_coal_6", "y":90  },
+		{ "model": "block/boulders_coal_6", "y":180  },
+		{ "model": "block/boulders_coal_6", "y":270  }
+		],
         "power=4": {
             "model": "block/replace_pressure_plate"
         },

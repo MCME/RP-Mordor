@@ -210,13 +210,28 @@
     "attached=true,east=false,north=true,south=false,west=false,disarmed=true,powered=true": {
       "model": "mcme:block/great_goblin_throne"
     },
+	"attached=true,east=false,north=true,south=false,west=false,disarmed=true,powered=false": [
+	{ "model": "minecraft:block/blood_splatter"  },
+	{ "model": "minecraft:block/blood_splatter", "y":90  },
+	{ "model": "minecraft:block/blood_splatter", "y":180  },
+	{ "model": "minecraft:block/blood_splatter", "y":270  }
+	],
     "attached=true,east=false,north=true,south=false,west=true,powered=true,disarmed=true": [
 		{ "model": "block/shield_floor_2"},
 		{ "model": "block/shield_floor_2", "y":90},
 		{ "model": "block/shield_floor_2", "y":180},
 		{ "model": "block/shield_floor_2", "y":270}],
-    "attached=true,east=false,north=true,south=true,west=false": {
-      "model": "minecraft:block/unused_cross_cutout"
+	"attached=true,east=false,north=true,south=false,west=true,powered=false,disarmed=false": [
+	{"model": "minecraft:block/slave_shackles"  },
+	{"model": "minecraft:block/slave_shackles", "y":90  },
+	{"model": "minecraft:block/slave_shackles", "y":180  },
+	{"model": "minecraft:block/slave_shackles", "y":270  }
+	],
+    "attached=true,east=false,north=true,south=false,west=true,powered=false,disarmed=true": {
+      "model": "minecraft:block/nether_wart_1"
+    },
+	"attached=true,east=false,north=true,south=false,west=true,powered=true,disarmed=false": {
+      "model": "minecraft:block/hook"
     },
     "attached=true,east=false,north=true,south=true,west=true": {
       "model": "minecraft:block/unused_cross_cutout",

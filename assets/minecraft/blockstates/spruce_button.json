@@ -28,10 +28,12 @@
             "model": "minecraft:block/green_stone_bricks_1x3arch_top",
             "y": 90
         },
-        "face=floor,facing=east,powered=false": {
-            "model": "minecraft:block/unused_cross_0",
-            "y": 90
-        },
+        "face=floor,facing=east,powered=false": [
+		{ "model": "minecraft:block/troll_club"  },
+		{ "model": "minecraft:block/troll_club",   "y": 90  },
+		{ "model": "minecraft:block/troll_club",   "y": 180  },
+		{ "model": "minecraft:block/troll_club",   "y": 270  }
+		],
         "face=floor,facing=east,powered=true": {
             "model": "minecraft:block/unused_cross_0",
             "y": 90
