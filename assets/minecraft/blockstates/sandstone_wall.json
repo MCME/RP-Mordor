@@ -439,10 +439,115 @@
             "x": 180,
             "y": 270
         },
-        "waterlogged=true,east=none,north=low,south=low,west=none,up=false": {
-            "model": "mcme:block/pointy_spike_small",
+		"east=none,north=low,south=tall,west=low,up=false": {
+            "model": "mcme:block/upwards_spike_large_diagonal",
+            "y": 180
+        },
+		"east=low,north=low,south=none,west=tall,up=false": {
+            "model": "mcme:block/upwards_spike_large_diagonal",
+            "y": 270
+        },
+		"east=low,north=tall,south=low,west=none,up=false": {
+            "model": "mcme:block/upwards_spike_large_diagonal"
+        },
+		"east=tall,north=none,south=low,west=low,up=false": {
+            "model": "mcme:block/upwards_spike_large_diagonal",
+            "y": 90
+        },
+		"east=none,north=tall,south=low,west=low,up=true": {
+            "model": "mcme:block/wall_spike_large_diagonal",
+            "y": 180
+        },
+		"east=tall,north=low,south=none,west=low,up=true": {
+            "model": "mcme:block/wall_spike_large_diagonal",
+            "y": 270
+        },
+		"east=low,north=low,south=tall,west=none,up=true": {
+            "model": "mcme:block/wall_spike_large_diagonal"
+        },
+		"east=low,north=none,south=low,west=tall,up=true": {
+            "model": "mcme:block/wall_spike_large_diagonal", "y":90
+        },
+		"east=tall,north=low,south=none,west=low,up=false": {
+            "model": "mcme:block/horizontal_spike_thin_diagonal",
+            "y": 270
+        },
+		"east=low,north=low,south=tall,west=none,up=false": {
+            "model": "mcme:block/horizontal_spike_thin_diagonal"
+        },
+		"east=low,north=none,south=low,west=tall,up=false": {
+            "model": "mcme:block/horizontal_spike_thin_diagonal",
+            "y": 90
+        },
+		"east=none,north=tall,south=low,west=low,up=false": {
+            "model": "mcme:block/horizontal_spike_thin_diagonal",
+            "y": 180
+        },
+		"waterlogged=false,east=tall,north=tall,south=none,west=low,up=false": {
+            "model": "mcme:block/pointy_spike_large_diagonal",
+            "y": 270
+        },
+		"waterlogged=false,east=tall,north=low,south=tall,west=none,up=false": {
+            "model": "mcme:block/pointy_spike_large_diagonal"
+        },
+		"waterlogged=false,east=low,north=none,south=tall,west=tall,up=false": {
+            "model": "mcme:block/pointy_spike_large_diagonal", "y":90
+        },
+		"waterlogged=false,east=none,north=tall,south=low,west=tall,up=false": {
+            "model": "mcme:block/pointy_spike_large_diagonal", "y":180
+        },
+		"waterlogged=false,east=none,north=low,south=none,west=tall,up=false": {
+            "model": "mcme:block/pointy_spike_large_diagonal",
+            "x": 180,
+            "y": 270
+        },
+		"waterlogged=false,east=low,north=tall,south=none,west=none,up=false": {
+            "model": "mcme:block/pointy_spike_large_diagonal",
+            "x": 180
+        },
+		"waterlogged=false,east=tall,north=none,south=low,west=none,up=false": {
+            "model": "mcme:block/pointy_spike_large_diagonal",
+            "x": 180,
+            "y": 90
+        },
+		"waterlogged=false,east=none,north=none,south=tall,west=low,up=false": {
+            "model": "mcme:block/pointy_spike_large_diagonal",
             "x": 180,
             "y": 180
+        },
+		"waterlogged=false,east=none,north=none,south=low,west=tall,up=true": {
+            "model": "mcme:block/pointy_spike_small_diagonal",
+            "x": 180,
+            "y": 180
+        },
+		"waterlogged=false,east=none,north=tall,south=none,west=low,up=true": {
+            "model": "mcme:block/pointy_spike_small_diagonal",
+            "x": 180,
+            "y": 270
+        },
+		"waterlogged=false,east=tall,north=low,south=none,west=none,up=true": {
+            "model": "mcme:block/pointy_spike_small_diagonal",
+            "x": 180
+        },
+		"waterlogged=false,east=low,north=none,south=tall,west=none,up=true": {
+            "model": "mcme:block/pointy_spike_small_diagonal",
+            "x": 180,
+            "y": 90
+        },
+		"waterlogged=false,east=none,north=none,south=low,west=tall,up=false": {
+            "model": "mcme:block/pointy_spike_small_diagonal",
+            "y": 180
+        },
+		"waterlogged=false,east=none,north=tall,south=none,west=low,up=false": {
+            "model": "mcme:block/pointy_spike_small_diagonal",
+            "y": 270
+        },
+		"waterlogged=false,east=tall,north=low,south=none,west=none,up=false": {
+            "model": "mcme:block/pointy_spike_small_diagonal"
+        },
+		"waterlogged=false,east=low,north=none,south=tall,west=none,up=false": {
+            "model": "mcme:block/pointy_spike_small_diagonal",
+            "y": 90
         },
         "east=none,north=low,south=tall,west=none,up=true": [
             {

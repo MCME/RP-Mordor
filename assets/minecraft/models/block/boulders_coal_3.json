@@ -1,0 +1,12 @@
+{
+  "parent": "block/boulders_3",
+  "textures": {
+    "stone": "block/netherrack",
+    "stone_1": "block/netherrack",
+    "stone_2": "block/netherrack",
+    "stone_3": "block/netherrack",
+	"stone_4": "block/netherrack",
+	"stone_5": "block/netherrack",
+    "base": "block/netherrack"
+  }
+}

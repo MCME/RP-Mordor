@@ -98,6 +98,13 @@
                     "model": "block/acacia_wood"
                 }
             },
+			{
+                "threshold": 19,
+                "model": {
+                    "type": "model",
+                    "model": "block/chorus_plant_side_display"
+                }
+            },
             {
                 "threshold": 25,
                 "model": {
@@ -4404,6 +4411,76 @@
                 "model": {
                     "type": "model",
                     "model": "block/red_concrete_powder_slab"
+                }
+            },
+			{
+                "threshold": 983,
+                "model": {
+                    "type": "model",
+                    "model": "block/cactus_11"
+                }
+            },
+			{
+                "threshold": 984,
+                "model": {
+                    "type": "model",
+                    "model": "block/chorus_flower_1"
+                }
+            },
+			{
+                "threshold": 985,
+                "model": {
+                    "type": "model",
+                    "model": "block/boulders_coal"
+                }
+            },
+			{
+                "threshold": 986,
+                "model": {
+                    "type": "model",
+                    "model": "block/troll_club"
+                }
+            },
+			{
+                "threshold": 987,
+                "model": {
+                    "type": "model",
+                    "model": "block/tool_rack"
+                }
+            },
+			{
+                "threshold": 988,
+                "model": {
+                    "type": "model",
+                    "model": "block/nether_wart_1"
+                }
+            },
+			{
+                "threshold": 989,
+                "model": {
+                    "type": "model",
+                    "model": "block/hook"
+                }
+            },
+			{
+                "threshold": 990,
+                "model": {
+                    "type": "model",
+                    "model": "block/slave_shackles"
+                }
+            },
+			{
+                "threshold": 991,
+                "model": {
+                    "type": "model",
+                    "model": "block/sickle"
+                }
+            },
+			{
+                "threshold": 992,
+                "model": {
+                    "type": "model",
+                    "model": "block/blood_splatter"
                 }
             }
         ]

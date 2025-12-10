@@ -146,6 +146,11 @@
 	"mcme:block/goblin_chandelier",
 	"mcme:block/skelehanging",
 	"mcme:block/skelesitting",
-	"mcme:block/goblin_zipline_seat"
+	"mcme:block/goblin_zipline_seat",
+	"mcme:block/pointy_spike_small_diagonal",
+	"mcme:block/pointy_spike_large_diagonal",
+	"mcme:block/horizontal_spike_thin_diagonal",
+	"mcme:block/wall_spike_large_diagonal",
+	"mcme:block/upwards_spike_large_diagonal"
   ]
 }
