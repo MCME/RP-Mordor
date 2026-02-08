@@ -1,7 +1,27 @@
 {
     "variants": {
-        "": {
-            "model": "minecraft:block/replace"
-        }
+        "": [
+            {
+                "model": "block/raw_iron_block"
+            },
+            {
+                "model": "block/raw_iron_block_2"
+            },
+            {
+                "model": "block/raw_iron_block_3"
+            },
+            {
+                "model": "block/raw_iron_block_4"
+            },
+            {
+                "model": "block/raw_iron_block_5"
+            },
+            {
+                "model": "block/raw_iron_block_6"
+            },
+            {
+                "model": "block/raw_iron_block_7"
+            }
+        ]
     }
 }
