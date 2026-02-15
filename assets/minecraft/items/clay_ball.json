@@ -4482,6 +4482,195 @@
                     "type": "model",
                     "model": "block/blood_splatter"
                 }
+            },
+			{
+                "threshold": 993,
+                "model": {
+                    "type": "model",
+                    "model": "block/chiseled_resin_brick_side_stairs"
+                }
+            },
+			{
+                "threshold": 994,
+                "model": {
+                    "type": "model",
+                    "model": "block/vertical_slab_chiseled_resin_bricks"
+                }
+            },
+			{
+                "threshold": 995,
+                "model": {
+                    "type": "model",
+                    "model": "block/trapdoor_chiseled_resin_bricks_side"
+                }
+            },
+			{
+                "threshold": 996,
+                "model": {
+                    "type": "model",
+                    "model": "block/trapdoor_chiseled_resin_bricks_bottom"
+                }
+            },
+			{
+                "threshold": 997,
+                "model": {
+                    "type": "model",
+                    "model": "block/chiseled_tuff_brick_side_stairs"
+                }
+            },
+			{
+                "threshold": 998,
+                "model": {
+                    "type": "model",
+                    "model": "block/vertical_slab_chiseled_tuff_bricks"
+                }
+            },
+			{
+                "threshold": 999,
+                "model": {
+                    "type": "model",
+                    "model": "block/trapdoor_chiseled_tuff_bricks_side"
+                }
+            },
+			{
+                "threshold": 1000,
+                "model": {
+                    "type": "model",
+                    "model": "block/trapdoor_chiseled_tuff_bricks_bottom"
+                }
+            },
+			{
+                "threshold": 1001,
+                "model": {
+                    "type": "model",
+                    "model": "block/bricks_side_stairs"
+                }
+            },
+			{
+                "threshold": 1002,
+                "model": {
+                    "type": "model",
+                    "model": "block/end_portal_frame_empty_east"
+                }
+            },
+			{
+                "threshold": 1003,
+                "model": {
+                    "type": "model",
+                    "model": "block/end_portal_frame_filled_east"
+                }
+            },
+			{
+                "threshold": 1004,
+                "model": {
+                    "type": "model",
+                    "model": "block/vertical_slab_red_mushroom_block_new"
+                }
+            },
+			{
+                "threshold": 1005,
+                "model": {
+                    "type": "model",
+                    "model": "block/vertical_slab_red_mushroom_block_neud"
+                }
+            },
+			{
+                "threshold": 1006,
+                "model": {
+                    "type": "model",
+                    "model": "block/vertical_slab_mossy_dark_gray_brick"
+                }
+            },
+			{
+                "threshold": 1007,
+                "model": {
+                    "type": "model",
+                    "model": "block/trapdoor_dark_gray_brick_open"
+                }
+            },
+			{
+                "threshold": 1008,
+                "model": {
+                    "type": "model",
+                    "model": "block/trapdoor_dark_gray_brick_bottom"
+                }
+            },
+			{
+                "threshold": 1009,
+                "model": {
+                    "type": "model",
+                    "model": "block/trapdoor_cracked_dark_gray_brick_open"
+                }
+            },
+			{
+                "threshold": 1010,
+                "model": {
+                    "type": "model",
+                    "model": "block/trapdoor_cracked_dark_gray_brick_bottom"
+                }
+            },
+			{
+                "threshold": 1011,
+                "model": {
+                    "type": "model",
+                    "model": "block/vertical_slab_dark_gray_brick"
+                }
+            },
+			{
+                "threshold": 1012,
+                "model": {
+                    "type": "model",
+                    "model": "block/double_slab_brick"
+                }
+            },
+			{
+                "threshold": 1013,
+                "model": {
+                    "type": "model",
+                    "model": "block/red_mushroom_block_newu"
+                }
+            },
+			{
+                "threshold": 1014,
+                "model": {
+                    "type": "model",
+                    "model": "block/red_mushroom_block_ns"
+                }
+            },
+			{
+                "threshold": 1015,
+                "model": {
+                    "type": "model",
+                    "model": "block/red_mushroom_block_new"
+                }
+            },
+			{
+                "threshold": 1016,
+                "model": {
+                    "type": "model",
+                    "model": "block/red_mushroom_block_neud"
+                }
+            },
+			{
+                "threshold": 1017,
+                "model": {
+                    "type": "model",
+                    "model": "block/brick_arch"
+                }
+            },
+			{
+                "threshold": 1018,
+                "model": {
+                    "type": "model",
+                    "model": "block/light_gray_glazed_terracotta_sw"
+                }
+            },
+			{
+                "threshold": 1019,
+                "model": {
+                    "type": "model",
+                    "model": "block/white_glazed_terracotta_sw"
+                }
             }
         ]
     }

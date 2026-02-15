@@ -1,5 +1,41 @@
 {
     "variants": {
+		"waterlogged=false,east=none,north=low,south=none,west=tall,up=true": [
+		{ "model": "block/chiseled_tuff_brick_side_stairs", "y":90 }
+		],
+		"waterlogged=false,east=low,north=tall,south=none,west=none,up=true": [
+		{ "model": "block/chiseled_tuff_brick_side_stairs", "y":180 }
+		],
+		"waterlogged=false,east=tall,north=none,south=low,west=none,up=true": [
+		{ "model": "block/chiseled_tuff_brick_side_stairs", "y":270 }
+		],
+		"waterlogged=false,east=none,north=none,south=tall,west=low,up=true": [
+		{ "model": "block/chiseled_tuff_brick_side_stairs" }
+		],
+		"waterlogged=false,east=none,north=tall,south=none,west=low,up=true": [
+		{ "model": "block/chiseled_resin_brick_side_stairs", "y":90 }
+		],
+		"waterlogged=false,east=tall,north=low,south=none,west=none,up=true": [
+		{ "model": "block/chiseled_resin_brick_side_stairs", "y":180 }
+		],
+		"waterlogged=false,east=low,north=none,south=tall,west=none,up=true": [
+		{ "model": "block/chiseled_resin_brick_side_stairs", "y":270 }
+		],
+		"waterlogged=false,east=none,north=none,south=low,west=tall,up=true": [
+		{ "model": "block/chiseled_resin_brick_side_stairs" }
+		],
+		"waterlogged=false,east=none,north=low,south=none,west=low,up=true": [
+		{ "model": "block/bricks_side_stairs", "y":90 }
+		],
+		"waterlogged=false,east=low,north=low,south=none,west=none,up=true": [
+		{ "model": "block/bricks_side_stairs", "y":180 }
+		],
+		"waterlogged=false,east=low,north=none,south=low,west=none,up=true": [
+		{ "model": "block/bricks_side_stairs", "y":270 }
+		],
+		"waterlogged=false,east=none,north=none,south=low,west=low,up=true": [
+		{ "model": "block/bricks_side_stairs" }
+		],
 		"waterlogged=false,east=none,north=none,south=none,west=none,up=true": [
 		{ "model": "block/prismarine_wall_pillar" },
 		{ "model": "block/prismarine_wall_pillar", "y":90 },

@@ -1,5 +1,81 @@
 {
     "variants": {
+		"facing=south,half=top,open=false,powered=true":
+		{ "model": "minecraft:block/brick_arch"},
+		"facing=west,half=top,open=false,powered=true":
+		{ "model": "minecraft:block/brick_arch", "y":90 },
+		"facing=north,half=bottom,open=true,powered=true": [
+		{ "model": "minecraft:block/trapdoor_chiseled_tuff_bricks_side", "y": 270 },
+		{ "model": "minecraft:block/trapdoor_chiseled_tuff_bricks_side_2", "y": 270 },
+		{ "model": "minecraft:block/trapdoor_chiseled_tuff_bricks_side_3", "y": 270 },
+		{ "model": "minecraft:block/trapdoor_chiseled_tuff_bricks_side_4", "y": 270 }
+		],
+		"facing=west,half=bottom,open=true,powered=true": [
+		{ "model": "minecraft:block/trapdoor_chiseled_tuff_bricks_side", "y": 180 },
+		{ "model": "minecraft:block/trapdoor_chiseled_tuff_bricks_side_2", "y": 180 },
+		{ "model": "minecraft:block/trapdoor_chiseled_tuff_bricks_side_3", "y": 180 },
+		{ "model": "minecraft:block/trapdoor_chiseled_tuff_bricks_side_4", "y": 180 }
+		],
+		"facing=east,half=bottom,open=true,powered=true": [
+		{ "model": "minecraft:block/trapdoor_chiseled_tuff_bricks_side" },
+		{ "model": "minecraft:block/trapdoor_chiseled_tuff_bricks_side_2" },
+		{ "model": "minecraft:block/trapdoor_chiseled_tuff_bricks_side_3" },
+		{ "model": "minecraft:block/trapdoor_chiseled_tuff_bricks_side_4" }
+		],
+		"facing=south,half=bottom,open=true,powered=true": [
+		{ "model": "minecraft:block/trapdoor_chiseled_tuff_bricks_side", "y": 90 },
+		{ "model": "minecraft:block/trapdoor_chiseled_tuff_bricks_side_2", "y": 90 },
+		{ "model": "minecraft:block/trapdoor_chiseled_tuff_bricks_side_3", "y": 90 },
+		{ "model": "minecraft:block/trapdoor_chiseled_tuff_bricks_side_4", "y": 90 }
+		],
+		"facing=east,half=bottom,open=false,powered=true": [
+		{ "model": "minecraft:block/trapdoor_chiseled_tuff_bricks_bottom" },
+		{ "model": "minecraft:block/trapdoor_chiseled_tuff_bricks_bottom_2" },
+		{ "model": "minecraft:block/trapdoor_chiseled_tuff_bricks_bottom_3" },
+		{ "model": "minecraft:block/trapdoor_chiseled_tuff_bricks_bottom_4" }
+		],
+		"facing=east,half=top,open=false,powered=true": [
+		{ "model": "minecraft:block/trapdoor_chiseled_tuff_bricks_bottom", "x":180 },
+		{ "model": "minecraft:block/trapdoor_chiseled_tuff_bricks_bottom_2", "x":180 },
+		{ "model": "minecraft:block/trapdoor_chiseled_tuff_bricks_bottom_3", "x":180 },
+		{ "model": "minecraft:block/trapdoor_chiseled_tuff_bricks_bottom_4", "x":180 }
+		],
+		"facing=north,half=top,open=true,powered=true": [
+		{ "model": "minecraft:block/trapdoor_chiseled_resin_bricks_side", "y": 270 },
+		{ "model": "minecraft:block/trapdoor_chiseled_resin_bricks_side_2", "y": 270 },
+		{ "model": "minecraft:block/trapdoor_chiseled_resin_bricks_side_3", "y": 270 },
+		{ "model": "minecraft:block/trapdoor_chiseled_resin_bricks_side_4", "y": 270 }
+		],
+		"facing=west,half=top,open=true,powered=true": [
+		{ "model": "minecraft:block/trapdoor_chiseled_resin_bricks_side", "y": 180 },
+		{ "model": "minecraft:block/trapdoor_chiseled_resin_bricks_side_2", "y": 180 },
+		{ "model": "minecraft:block/trapdoor_chiseled_resin_bricks_side_3", "y": 180 },
+		{ "model": "minecraft:block/trapdoor_chiseled_resin_bricks_side_4", "y": 180 }
+		],
+		"facing=east,half=top,open=true,powered=true": [
+		{ "model": "minecraft:block/trapdoor_chiseled_resin_bricks_side" },
+		{ "model": "minecraft:block/trapdoor_chiseled_resin_bricks_side_2" },
+		{ "model": "minecraft:block/trapdoor_chiseled_resin_bricks_side_3" },
+		{ "model": "minecraft:block/trapdoor_chiseled_resin_bricks_side_4" }
+		],
+		"facing=south,half=top,open=true,powered=true": [
+		{ "model": "minecraft:block/trapdoor_chiseled_resin_bricks_side", "y": 90 },
+		{ "model": "minecraft:block/trapdoor_chiseled_resin_bricks_side_2", "y": 90 },
+		{ "model": "minecraft:block/trapdoor_chiseled_resin_bricks_side_3", "y": 90 },
+		{ "model": "minecraft:block/trapdoor_chiseled_resin_bricks_side_4", "y": 90 }
+		],
+		"facing=north,half=bottom,open=false,powered=true": [
+		{ "model": "minecraft:block/trapdoor_chiseled_resin_bricks_bottom" },
+		{ "model": "minecraft:block/trapdoor_chiseled_resin_bricks_bottom_2" },
+		{ "model": "minecraft:block/trapdoor_chiseled_resin_bricks_bottom_3" },
+		{ "model": "minecraft:block/trapdoor_chiseled_resin_bricks_bottom_4" }
+		],
+		"facing=north,half=top,open=false,powered=true": [
+		{ "model": "minecraft:block/trapdoor_chiseled_resin_bricks_bottom", "x":180 },
+		{ "model": "minecraft:block/trapdoor_chiseled_resin_bricks_bottom_2", "x":180 },
+		{ "model": "minecraft:block/trapdoor_chiseled_resin_bricks_bottom_3", "x":180 },
+		{ "model": "minecraft:block/trapdoor_chiseled_resin_bricks_bottom_4", "x":180 }
+		],
         "facing=east,half=bottom,open=false,powered=false": {
             "model": "mcme:block/catwalk_angled_3",
             "y": 90
