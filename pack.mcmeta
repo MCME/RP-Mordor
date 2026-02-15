@@ -4,7 +4,7 @@
     "supported_formats": [15, 255],
     "min_format": 15,
     "max_format": 255,
-    "description": "MCME Mordor v0.4.22"
+    "description": "MCME Mordor v0.4.23"
   },
   "meta": {
     "game_version": "1.21.4"
