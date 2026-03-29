@@ -4671,6 +4671,34 @@
                     "type": "model",
                     "model": "block/white_glazed_terracotta_sw"
                 }
+            },
+			{
+                "threshold": 1100,
+                "model": {
+                    "type": "model",
+                    "model": "block/crenelation_half"
+                }
+            },
+			{
+                "threshold": 1101,
+                "model": {
+                    "type": "model",
+                    "model": "block/crimson_stem_corner_post"
+                }
+            },
+			{
+                "threshold": 1102,
+                "model": {
+                    "type": "model",
+                    "model": "block/brown_mushroom_block_nu_trim"
+                }
+            },
+			{
+                "threshold": 1103,
+                "model": {
+                    "type": "model",
+                    "model": "block/iron_block_trim"
+                }
             }
         ]
     }

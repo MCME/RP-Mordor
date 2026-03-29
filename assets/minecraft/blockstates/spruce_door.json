@@ -128,7 +128,8 @@
                 "powered": "false"
             },
             "apply": {
-                "model": "block/spruce_door_bottom_hinge"
+                "model": "block/iron_block_trim",
+                "y": 90
             }
         },
         {
@@ -140,8 +141,8 @@
                 "powered": "false"
             },
             "apply": {
-                "model": "block/spruce_door_bottom_hinge",
-                "y": 90
+                "model": "block/iron_block_trim",
+                "y": 180
             }
         },
         {
@@ -153,8 +154,8 @@
                 "powered": "false"
             },
             "apply": {
-                "model": "block/spruce_door_bottom_hinge",
-                "y": 180
+                "model": "block/iron_block_trim",
+                "y": 270
             }
         },
         {
@@ -166,8 +167,7 @@
                 "powered": "false"
             },
             "apply": {
-                "model": "block/spruce_door_bottom_hinge",
-                "y": 270
+                "model": "block/iron_block_trim"
             }
         },
         {
