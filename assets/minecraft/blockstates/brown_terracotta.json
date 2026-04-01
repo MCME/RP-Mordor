@@ -1,7 +1,24 @@
 {
     "variants": {
-        "": {
-            "model": "minecraft:block/replace"
-        }
+        "": [
+            {
+                "model": "block/brown_terracotta"
+            },
+            {
+                "model": "block/brown_terracotta_2"
+            },
+            {
+                "model": "block/brown_terracotta_3"
+            },
+            {
+                "model": "block/brown_terracotta_4"
+            },
+            {
+                "model": "block/brown_terracotta_5"
+            },
+            {
+                "model": "block/brown_terracotta_6"
+            }
+        ]
     }
 }

@@ -4699,6 +4699,90 @@
                     "type": "model",
                     "model": "block/iron_block_trim"
                 }
+            },
+			{
+                "threshold": 1104,
+                "model": {
+                    "type": "model",
+                    "model": "block/smooth_sandstone_vertical_quarter"
+                }
+            },
+			{
+                "threshold": 1105,
+                "model": {
+                    "type": "model",
+                    "model": "block/nether_bricks_vertical_quarter"
+                }
+            },
+			{
+                "threshold": 1106,
+                "model": {
+                    "type": "model",
+                    "model": "block/smooth_sandstone_quarter_bottom"
+                }
+            },
+			{
+                "threshold": 1107,
+                "model": {
+                    "type": "model",
+                    "model": "block/smooth_sandstone_quarter_top"
+                }
+            },
+			{
+                "threshold": 1108,
+                "model": {
+                    "type": "model",
+                    "model": "block/nether_bricks_quarter_top"
+                }
+            },
+			{
+                "threshold": 1109,
+                "model": {
+                    "type": "model",
+                    "model": "block/nether_bricks_quarter_bottom"
+                }
+            },
+			{
+                "threshold": 1110,
+                "model": {
+                    "type": "model",
+                    "model": "block/trapdoor_brown_mushroom_nu"
+                }
+            },
+			{
+                "threshold": 1111,
+                "model": {
+                    "type": "model",
+                    "model": "block/pipe_vertical"
+                }
+            },
+			{
+                "threshold": 1112,
+                "model": {
+                    "type": "model",
+                    "model": "block/pipe_corner"
+                }
+            },
+			{
+                "threshold": 1113,
+                "model": {
+                    "type": "model",
+                    "model": "block/pipe_corner_side"
+                }
+            },
+			{
+                "threshold": 1114,
+                "model": {
+                    "type": "model",
+                    "model": "block/pipe_corner_up"
+                }
+            },
+			{
+                "threshold": 1115,
+                "model": {
+                    "type": "model",
+                    "model": "block/pipe_brace"
+                }
             }
         ]
     }

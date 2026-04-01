@@ -1,9 +1,12 @@
 {
     "variants": {
-        "facing=east,half=bottom,open=false": {
-            "model": "minecraft:block/replace_thin_slab",
-            "y": 90
-        },
+        "facing=east,half=bottom,open=false": [
+		{ "model": "block/trapdoor_brown_mushroom_nu" },
+		{ "model": "block/trapdoor_brown_mushroom_nu_2"},
+		{ "model": "block/trapdoor_brown_mushroom_nu_3", "y":0},
+		{ "model": "block/trapdoor_brown_mushroom_nu_4", "y":0},
+		{ "model": "block/trapdoor_brown_mushroom_nu_5", "y":0}
+		],
         "facing=east,half=bottom,open=true": [
 		{ "model": "block/trapdoor_putrid_log_open", "y":90 },
 		{ "model": "block/trapdoor_putrid_log_open_2", "y":90},
@@ -11,11 +14,13 @@
 		{ "model": "block/trapdoor_putrid_log_open_4", "y":90},
 		{ "model": "block/trapdoor_putrid_log_open_5", "y":90}
 		],
-        "facing=east,half=top,open=false": {
-            "model": "minecraft:block/replace_thin_slab",
-            "x": 180,
-            "y": 90
-        },
+        "facing=east,half=top,open=false": [
+		{ "model": "block/trapdoor_brown_mushroom_nu", "x":180 },
+		{ "model": "block/trapdoor_brown_mushroom_nu_2", "x":180},
+		{ "model": "block/trapdoor_brown_mushroom_nu_3", "x":180},
+		{ "model": "block/trapdoor_brown_mushroom_nu_4", "x":180},
+		{ "model": "block/trapdoor_brown_mushroom_nu_5", "x":180}
+		],
         "facing=north,half=bottom,open=false": {
             "model": "minecraft:block/replace_thin_slab"
         },
