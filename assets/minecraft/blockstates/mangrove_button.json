@@ -1,7 +1,7 @@
 {
     "variants": {
         "face=ceiling,facing=east,powered=false": {
-            "model": "minecraft:block/unused_cross_0",
+            "model": "minecraft:block/pipe_brace",
             "x": 180,
             "y": 270
         },
@@ -11,7 +11,7 @@
             "y": 270
         },
         "face=ceiling,facing=north,powered=false": {
-            "model": "minecraft:block/unused_cross_0",
+            "model": "minecraft:block/pipe_brace",
             "x": 180,
             "y": 180
         },
@@ -39,7 +39,7 @@
             "y": 90
         },
         "face=floor,facing=east,powered=false": {
-            "model": "minecraft:block/unused_cross_0",
+            "model": "minecraft:block/pipe_brace",
             "y": 90
         },
         "face=floor,facing=east,powered=true": {
@@ -47,7 +47,7 @@
             "y": 90
         },
         "face=floor,facing=north,powered=false": {
-            "model": "minecraft:block/unused_cross_0"
+            "model": "minecraft:block/pipe_brace"
         },
         "face=floor,facing=north,powered=true": {
             "model": "minecraft:block/unused_cross_0"
@@ -70,27 +70,27 @@
         },
         "face=wall,facing=east,powered=false": { "model": "block/knocker", "y": 270},
         "face=wall,facing=east,powered=true": {
-            "model": "minecraft:block/unused_cross_0",
+            "model": "minecraft:block/pipe_brace",
             "uvlock": true,
             "x": 90,
             "y": 90
         },
         "face=wall,facing=north,powered=false": { "model": "block/knocker", "y": 180},
         "face=wall,facing=north,powered=true": {
-            "model": "minecraft:block/unused_cross_0",
+            "model": "minecraft:block/pipe_brace",
             "uvlock": true,
             "x": 90
         },
         "face=wall,facing=south,powered=false": { "model": "block/knocker"},
         "face=wall,facing=south,powered=true": {
-            "model": "minecraft:block/unused_cross_0",
+            "model": "minecraft:block/pipe_brace",
             "uvlock": true,
             "x": 90,
             "y": 180
         },
         "face=wall,facing=west,powered=false": { "model": "block/knocker", "y": 90},
         "face=wall,facing=west,powered=true": {
-            "model": "minecraft:block/unused_cross_0",
+            "model": "minecraft:block/pipe_brace",
             "uvlock": true,
             "x": 90,
             "y": 270

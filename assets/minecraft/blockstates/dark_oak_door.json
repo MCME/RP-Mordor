@@ -116,8 +116,7 @@
                 "powered": "false"
             },
             "apply": {
-                "model": "block/dark_oak_door_bottom_rh_open",
-                "y": 90
+                "model": "block/nether_bricks_quarter_bottom"
             }
         },
         {
@@ -129,8 +128,8 @@
                 "powered": "false"
             },
             "apply": {
-                "model": "block/dark_oak_door_bottom_rh_open",
-                "y": 180
+                "model": "block/nether_bricks_quarter_bottom",
+                "y": 90
             }
         },
         {
@@ -142,8 +141,7 @@
                 "powered": "false"
             },
             "apply": {
-                "model": "block/dark_oak_door_bottom_rh_open",
-                "y": 270
+                "model": "block/nether_bricks_quarter_bottom", "y":180
             }
         },
         {
@@ -155,7 +153,8 @@
                 "powered": "false"
             },
             "apply": {
-                "model": "block/dark_oak_door_bottom_rh_open"
+                "model": "block/nether_bricks_quarter_bottom",
+                "y": 270
             }
         },
         {

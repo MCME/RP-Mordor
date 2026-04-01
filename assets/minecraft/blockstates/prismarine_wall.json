@@ -1,5 +1,50 @@
 {
     "variants": {
+		"waterlogged=false,east=tall,north=low,south=none,west=none,up=false": [
+		{ "model": "block/pipe_corner", "x":90, "y":270 }
+		],
+		"waterlogged=false,east=low,north=none,south=tall,west=none,up=false": [
+		{ "model": "block/pipe_corner", "x":90 }
+		],
+		"waterlogged=false,east=none,north=none,south=low,west=tall,up=false": [
+		{ "model": "block/pipe_corner", "x":90, "y":90 }
+		],
+		"waterlogged=false,east=none,north=tall,south=none,west=low,up=false": [
+		{ "model": "block/pipe_corner", "x":90, "y":180 }
+		],
+		"waterlogged=false,east=low,north=tall,south=none,west=none,up=false": [
+		{ "model": "block/pipe_corner", "x":180 }
+		],
+		"waterlogged=false,east=tall,north=none,south=low,west=none,up=false": [
+		{ "model": "block/pipe_corner", "x":180, "y":90 }
+		],
+		"waterlogged=false,east=none,north=none,south=tall,west=low,up=false": [
+		{ "model": "block/pipe_corner", "x":180, "y":180 }
+		],
+		"waterlogged=false,east=none,north=low,south=none,west=tall,up=false": [
+		{ "model": "block/pipe_corner", "x":180, "y":270 }
+		],
+		"waterlogged=false,east=low,north=none,south=none,west=none,up=false": [
+		{ "model": "block/pipe_corner" }
+		],
+		"waterlogged=false,east=none,north=none,south=low,west=none,up=false": [
+		{ "model": "block/pipe_corner", "y":90 }
+		],
+		"waterlogged=false,east=none,north=none,south=none,west=low,up=false": [
+		{ "model": "block/pipe_corner", "y":180 }
+		],
+		"waterlogged=false,east=none,north=low,south=none,west=none,up=false": [
+		{ "model": "block/pipe_corner", "y":270 }
+		],
+		"waterlogged=false,east=tall,north=tall,south=tall,west=tall,up=false": [
+		{ "model": "block/pipe_vertical" }
+		],
+		"waterlogged=false,east=none,north=tall,south=tall,west=none,up=false": [
+		{ "model": "block/pipe_vertical", "x":90 }
+		],
+		"waterlogged=false,east=tall,north=none,south=none,west=tall,up=false": [
+		{ "model": "block/pipe_vertical", "x":90, "y":90 }
+		],
 		"waterlogged=false,east=none,north=low,south=none,west=tall,up=true": [
 		{ "model": "block/chiseled_tuff_brick_side_stairs", "y":90 }
 		],
