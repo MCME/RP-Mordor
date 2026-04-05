@@ -1,13 +1,21 @@
 {
     "variants": {
         "north=false,east=false,south=false,west=false,up=false,down=false": [
-            {
-                "model": "block/replace"
-            }
-        ],
-        "north=false,east=false,south=false,west=false,up=false,down=true": {
-            "model": "block/replace"
-        },
+      
+		{ "model": "minecraft:block/black_bookshelf" },
+		{ "model": "minecraft:block/black_bookshelf_2" },
+		{ "model": "minecraft:block/black_bookshelf_3" },
+		{ "model": "minecraft:block/black_bookshelf_4" }
+		
+    ],
+        "north=false,east=false,south=false,west=false,up=false,down=true": [
+      
+		{ "model": "minecraft:block/black_bookshelf", "y":90 },
+		{ "model": "minecraft:block/black_bookshelf_2", "y":90 },
+		{ "model": "minecraft:block/black_bookshelf_3", "y":90 },
+		{ "model": "minecraft:block/black_bookshelf_4", "y":90 }
+		
+    ],
         "north=false,east=false,south=false,west=false,up=true,down=false": {
             "model": "block/replace"
         },

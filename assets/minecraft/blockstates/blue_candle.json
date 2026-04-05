@@ -1,14 +1,20 @@
 {
     "variants": {
-        "candles=1,lit=false": {
-            "model": "minecraft:block/unused_cross_0"
-        },
+        "candles=1,lit=false": [
+		{  "model": "minecraft:block/book_open"  },
+		{  "model": "minecraft:block/book_open", "y":180 },
+		{  "model": "minecraft:block/book_open_2"  },
+		{  "model": "minecraft:block/book_open_2", "y":180 }
+		],
         "candles=1,lit=true": {
             "model": "minecraft:block/unused_cross_luminous"
         },
-        "candles=2,lit=false": {
-            "model": "minecraft:block/unused_cross_0"
-        },
+        "candles=2,lit=false": [
+		{  "model": "minecraft:block/book_open", "y":90 },
+		{  "model": "minecraft:block/book_open", "y":270 },
+		{  "model": "minecraft:block/book_open_2", "y":90 },
+		{  "model": "minecraft:block/book_open_2", "y":270 }
+		],
         "candles=2,lit=true": {
             "model": "minecraft:block/unused_cross_luminous"
         },
