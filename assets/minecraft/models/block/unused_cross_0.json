@@ -1,6 +1,6 @@
 {
   "parent": "block/cross",
   "textures": {
-    "cross": "block/black_stained_glass"
+    "cross": "block/barrel_wheat"
   }
 }

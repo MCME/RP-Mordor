@@ -4783,6 +4783,69 @@
                     "type": "model",
                     "model": "block/pipe_brace"
                 }
+            },
+			{
+                "threshold": 1116,
+                "model": {
+                    "type": "model",
+                    "model": "block/pillar_top_thin_black"
+                }
+            },
+			{
+                "threshold": 1117,
+                "model": {
+                    "type": "model",
+                    "model": "block/pillar_top_thin_blackest"
+                }
+            },
+			{
+                "threshold": 1118,
+                "model": {
+                    "type": "model",
+                    "model": "block/trapdoor_warped_hyphae"
+                }
+            },
+			{
+                "threshold": 1119,
+                "model": {
+                    "type": "model",
+                    "model": "block/trapdoor_stripped_warped_hyphae"
+                }
+            },
+			{
+                "threshold": 1120,
+                "model": {
+                    "type": "model",
+                    "model": "block/trapdoor_crimson_stem"
+                }
+            },
+			{
+                "threshold": 1121,
+                "model": {
+                    "type": "model",
+                    "model": "block/trapdoor_stripped_crimson_stem"
+                }
+            },
+			{
+                "threshold": 1122,
+                "model": {
+                    "type": "model",
+                    "model": "block/vertical_slab_coal_block"
+                }
+            },
+			{
+                "threshold": 1123,
+                "model": {
+                    "type": "model",
+                    "model": "block/black_bookshelf"
+                }
+            },
+			{
+                "threshold": 1124,
+                "model": {
+                    "type": "model",
+                    "model": "block/book_open"
+                }
             }
         ]
     }

@@ -268,7 +268,7 @@
                 "powered": "false"
             },
             "apply": {
-                "model": "block/dark_oak_door_top_hinge"
+                "model": "block/trapdoor_crimson_stem"
             }
         },
         {
@@ -280,7 +280,7 @@
                 "powered": "false"
             },
             "apply": {
-                "model": "block/dark_oak_door_top_hinge",
+                "model": "block/trapdoor_crimson_stem",
                 "y": 90
             }
         },
@@ -293,7 +293,7 @@
                 "powered": "false"
             },
             "apply": {
-                "model": "block/dark_oak_door_top_hinge",
+                "model": "block/trapdoor_crimson_stem",
                 "y": 180
             }
         },
@@ -306,7 +306,7 @@
                 "powered": "false"
             },
             "apply": {
-                "model": "block/dark_oak_door_top_hinge",
+                "model": "block/trapdoor_crimson_stem",
                 "y": 270
             }
         },
@@ -319,7 +319,7 @@
                 "powered": "false"
             },
             "apply": {
-                "model": "block/dark_oak_door_top_rh_open",
+                "model": "block/trapdoor_stripped_crimson_stem",
                 "y": 90
             }
         },
@@ -332,7 +332,7 @@
                 "powered": "false"
             },
             "apply": {
-                "model": "block/dark_oak_door_top_rh_open",
+                "model": "block/trapdoor_stripped_crimson_stem",
                 "y": 180
             }
         },
@@ -345,7 +345,7 @@
                 "powered": "false"
             },
             "apply": {
-                "model": "block/dark_oak_door_top_rh_open",
+                "model": "block/trapdoor_stripped_crimson_stem",
                 "y": 270
             }
         },
@@ -358,7 +358,7 @@
                 "powered": "false"
             },
             "apply": {
-                "model": "block/dark_oak_door_top_rh_open"
+                "model": "block/trapdoor_stripped_crimson_stem"
             }
         },
         {
