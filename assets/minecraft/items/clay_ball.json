@@ -4846,6 +4846,41 @@
                     "type": "model",
                     "model": "block/book_open"
                 }
+            },
+			{
+                "threshold": 1125,
+                "model": {
+                    "type": "model",
+                    "model": "block/metal_railing"
+                }
+            },
+			{
+                "threshold": 1126,
+                "model": {
+                    "type": "model",
+                    "model": "block/metal_railing_down"
+                }
+            },
+			{
+                "threshold": 1127,
+                "model": {
+                    "type": "model",
+                    "model": "block/brown_mushroom_block_nd"
+                }
+            },
+			{
+                "threshold": 1128,
+                "model": {
+                    "type": "model",
+                    "model": "block/brown_mushroom_block_u"
+                }
+            },
+			{
+                "threshold": 1129,
+                "model": {
+                    "type": "model",
+                    "model": "block/brown_mushroom_block_ud"
+                }
             }
         ]
     }
