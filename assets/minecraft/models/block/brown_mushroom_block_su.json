@@ -1,0 +1,7 @@
+{
+    "parent": "block/cube_column",
+    "textures": {
+        "end": "block/brown_mushroom_block_w",
+        "side": "block/brown_mushroom_block_su"
+    }
+}

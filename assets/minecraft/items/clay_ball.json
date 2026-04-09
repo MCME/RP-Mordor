@@ -4930,6 +4930,48 @@
                     "type": "model",
                     "model": "block/inscription"
                 }
+            },
+			{
+                "threshold": 1137,
+                "model": {
+                    "type": "model",
+                    "model": "block/brown_mushroom_block_es"
+                }
+            },
+			{
+                "threshold": 1138,
+                "model": {
+                    "type": "model",
+                    "model": "block/brown_mushroom_block_esd"
+                }
+            },
+			{
+                "threshold": 1139,
+                "model": {
+                    "type": "model",
+                    "model": "block/iron_block_cross"
+                }
+            },
+			{
+                "threshold": 1140,
+                "model": {
+                    "type": "model",
+                    "model": "block/carpet_2x3_r"
+                }
+            },
+			{
+                "threshold": 1141,
+                "model": {
+                    "type": "model",
+                    "model": "block/brown_mushroom_block_su"
+                }
+            },
+			{
+                "threshold": 1142,
+                "model": {
+                    "type": "model",
+                    "model": "block/brown_mushroom_block_sud"
+                }
             }
         ]
     }

@@ -27,6 +27,11 @@
 			"translation": [0, 2.5, 0],
 			"scale": [0.375, 0.375, 0.375]
 		},
+		"firstperson_righthand": {
+			"rotation": [3, 0, 0],
+			"translation": [8, 0, 0],
+			"scale": [0.54, 0.54, 0.54]
+		},
 		"gui": {
 			"rotation": [0, -13, 0],
 			"scale": [0.32, 0.32, 0.32]

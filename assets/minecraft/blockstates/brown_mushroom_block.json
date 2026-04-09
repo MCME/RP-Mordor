@@ -40,7 +40,7 @@
 		{  "model": "block/brown_mushroom_block_wu_2" }
 		],
         "north=false,east=false,south=false,west=true,up=true,down=true": {
-            "model": "block/replace"
+            "model": "block/iron_block_cross"
         },
         "north=false,east=false,south=true,west=false,up=false,down=false": [
       
@@ -52,13 +52,13 @@
 		
     ],
         "north=false,east=false,south=true,west=false,up=false,down=true": {
-            "model": "block/replace"
+            "model": "block/iron_block_cross_2"
         },
         "north=false,east=false,south=true,west=false,up=true,down=false": {
-            "model": "block/replace"
+            "model": "block/brown_mushroom_block_su"
         },
         "north=false,east=false,south=true,west=false,up=true,down=true": {
-            "model": "block/replace"
+            "model": "block/brown_mushroom_block_sud"
         },
         "north=false,east=false,south=true,west=true,up=false,down=false": {
             "model": "block/stucco_lime"
@@ -142,16 +142,16 @@
         ],
         "north=false,east=true,south=false,west=true,up=true,down=true": [
             {
-                "model": "block/purple_concrete_powder_0"
+                "model": "block/replace"
             },
             {
-                "model": "block/purple_concrete_powder_1"
+                "model": "block/replace"
             },
             {
-                "model": "block/purple_concrete_powder_2"
+                "model": "block/replace"
             },
             {
-                "model": "block/purple_concrete_powder_3"
+                "model": "block/replace"
             }
         ],
         "north=false,east=true,south=true,west=false,up=false,down=false": [
