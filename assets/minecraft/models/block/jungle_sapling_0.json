@@ -1,0 +1,13 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "block/jungle_sapling_0",
+    "particle": "block/jungle_sapling_0"
+  },
+  "display": {
+    "head": { 
+      "scale": [1.6, 1.6, 1.6],
+      "rotation": [0, 180, 0] 
+      }
+  }
+}

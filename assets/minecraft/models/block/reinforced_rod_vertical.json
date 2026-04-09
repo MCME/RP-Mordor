@@ -1,8 +1,9 @@
 {
+	"format_version": "1.21.11",
 	"credit": "Made with Blockbench",
 	"textures": {
-		"7": "block/topper_top",
-		"particle": "block/topper_top_2"
+		"7": "block/topper_top_model",
+		"particle": "block/topper_top_model_2"
 	},
 	"elements": [
 		{
@@ -20,8 +21,13 @@
 		}
 	],
 	"display": {
+		"firstperson_righthand": {
+			"rotation": [6, 0, 0],
+			"translation": [4, 0, 0],
+			"scale": [0.68, 0.68, 0.68]
+		},
 		"gui": {
-			"rotation": [30, 225, 0],
+			"rotation": [30, -135, 0],
 			"scale": [0.625, 0.625, 0.625]
 		}
 	}

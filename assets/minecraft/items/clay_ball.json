@@ -4881,6 +4881,34 @@
                     "type": "model",
                     "model": "block/brown_mushroom_block_ud"
                 }
+            },
+			{
+                "threshold": 1130,
+                "model": {
+                    "type": "model",
+                    "model": "block/fancy_banner"
+                }
+            },
+			{
+                "threshold": 1131,
+                "model": {
+                    "type": "model",
+                    "model": "block/chandelier_big_frame"
+                }
+            },
+			{
+                "threshold": 1132,
+                "model": {
+                    "type": "model",
+                    "model": "block/brown_mushroom_block_w"
+                }
+            },
+			{
+                "threshold": 1133,
+                "model": {
+                    "type": "model",
+                    "model": "block/brown_mushroom_block_wd"
+                }
             }
         ]
     }
