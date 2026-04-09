@@ -4916,6 +4916,20 @@
                     "type": "model",
                     "model": "block/brown_mushroom_block_wu"
                 }
+            },
+			{
+                "threshold": 1135,
+                "model": {
+                    "type": "model",
+                    "model": "block/exposed_cut_copper_vertical_quarter"
+                }
+            },
+			{
+                "threshold": 1136,
+                "model": {
+                    "type": "model",
+                    "model": "block/inscription"
+                }
             }
         ]
     }

@@ -36,10 +36,9 @@
 		{  "model": "block/brown_mushroom_block_wd_4" }
 		],
         "north=false,east=false,south=false,west=true,up=true,down=false": [
-            {
-                "model": "block/brown_mushroom_block_wu"
-            }
-        ],
+		{  "model": "block/brown_mushroom_block_wu" },
+		{  "model": "block/brown_mushroom_block_wu_2" }
+		],
         "north=false,east=false,south=false,west=true,up=true,down=true": {
             "model": "block/replace"
         },
