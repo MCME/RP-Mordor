@@ -4909,6 +4909,13 @@
                     "type": "model",
                     "model": "block/brown_mushroom_block_wd"
                 }
+            },
+			{
+                "threshold": 1134,
+                "model": {
+                    "type": "model",
+                    "model": "block/brown_mushroom_block_wu"
+                }
             }
         ]
     }
