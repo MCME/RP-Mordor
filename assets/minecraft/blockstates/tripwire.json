@@ -210,6 +210,14 @@
     "attached=true,east=false,north=true,south=false,west=false,disarmed=true,powered=true": {
       "model": "mcme:block/great_goblin_throne"
     },
+	"attached=true,east=false,north=true,south=false,west=false,disarmed=false,powered=true": [
+	{"model": "block/carpet_2x3_r" },
+	{"model": "block/carpet_2x3_r", "y":180 }
+	],
+	"attached=true,east=false,north=true,south=false,west=false,disarmed=false,powered=false": [
+	{"model": "block/carpet_2x3_r", "y":90 },
+	{"model": "block/carpet_2x3_r", "y":270 }
+	],
 	"attached=true,east=false,north=true,south=false,west=false,disarmed=true,powered=false": [
 	{ "model": "minecraft:block/blood_splatter"  },
 	{ "model": "minecraft:block/blood_splatter", "y":90  },

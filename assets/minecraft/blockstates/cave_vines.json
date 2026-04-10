@@ -482,9 +482,15 @@
                 "y": 270
             }
         ],
-        "berries=true,age=4": {
-                "model": "block/unused_cross_luminous_cutout"
-        },
+        "berries=true,age=4": [
+            {
+                "model": "minecraft:block/brazier_hanging"
+            },
+            {
+                "model": "minecraft:block/brazier_hanging",
+                "y": 180
+            }
+        ],
         "berries=true,age=5": {
                 "model": "block/unused_cross_luminous_cutout"
         },

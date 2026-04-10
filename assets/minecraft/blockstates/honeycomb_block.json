@@ -1,0 +1,36 @@
+{
+    "variants": {
+        "": [
+            {
+                "model": "block/honeycomb_block"
+            },
+            {
+                "model": "block/honeycomb_block_2"
+            },
+			{
+                "model": "block/honeycomb_block_3"
+            },
+			{
+                "model": "block/honeycomb_block_4"
+            },
+			{
+                "model": "block/honeycomb_block_5"
+            },
+			{
+                "model": "block/honeycomb_block_6"
+            },
+			{
+                "model": "block/honeycomb_block_7"
+            },
+			{
+                "model": "block/honeycomb_block_8"
+            },
+			{
+                "model": "block/honeycomb_block_9"
+            },
+			{
+                "model": "block/honeycomb_block_10"
+            }
+        ]
+    }
+}

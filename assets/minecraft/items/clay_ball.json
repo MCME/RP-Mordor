@@ -4846,6 +4846,160 @@
                     "type": "model",
                     "model": "block/book_open"
                 }
+            },
+			{
+                "threshold": 1125,
+                "model": {
+                    "type": "model",
+                    "model": "block/metal_railing"
+                }
+            },
+			{
+                "threshold": 1126,
+                "model": {
+                    "type": "model",
+                    "model": "block/metal_railing_down"
+                }
+            },
+			{
+                "threshold": 1127,
+                "model": {
+                    "type": "model",
+                    "model": "block/brown_mushroom_block_nd"
+                }
+            },
+			{
+                "threshold": 1128,
+                "model": {
+                    "type": "model",
+                    "model": "block/brown_mushroom_block_u"
+                }
+            },
+			{
+                "threshold": 1129,
+                "model": {
+                    "type": "model",
+                    "model": "block/brown_mushroom_block_ud"
+                }
+            },
+			{
+                "threshold": 1130,
+                "model": {
+                    "type": "model",
+                    "model": "block/fancy_banner"
+                }
+            },
+			{
+                "threshold": 1131,
+                "model": {
+                    "type": "model",
+                    "model": "block/chandelier_big_frame"
+                }
+            },
+			{
+                "threshold": 1132,
+                "model": {
+                    "type": "model",
+                    "model": "block/brown_mushroom_block_w"
+                }
+            },
+			{
+                "threshold": 1133,
+                "model": {
+                    "type": "model",
+                    "model": "block/brown_mushroom_block_wd"
+                }
+            },
+			{
+                "threshold": 1134,
+                "model": {
+                    "type": "model",
+                    "model": "block/brown_mushroom_block_wu"
+                }
+            },
+			{
+                "threshold": 1135,
+                "model": {
+                    "type": "model",
+                    "model": "block/exposed_cut_copper_vertical_quarter"
+                }
+            },
+			{
+                "threshold": 1136,
+                "model": {
+                    "type": "model",
+                    "model": "block/inscription"
+                }
+            },
+			{
+                "threshold": 1137,
+                "model": {
+                    "type": "model",
+                    "model": "block/brown_mushroom_block_es"
+                }
+            },
+			{
+                "threshold": 1138,
+                "model": {
+                    "type": "model",
+                    "model": "block/brown_mushroom_block_esd"
+                }
+            },
+			{
+                "threshold": 1139,
+                "model": {
+                    "type": "model",
+                    "model": "block/iron_block_cross"
+                }
+            },
+			{
+                "threshold": 1140,
+                "model": {
+                    "type": "model",
+                    "model": "block/carpet_2x3_r"
+                }
+            },
+			{
+                "threshold": 1141,
+                "model": {
+                    "type": "model",
+                    "model": "block/brown_mushroom_block_su"
+                }
+            },
+			{
+                "threshold": 1142,
+                "model": {
+                    "type": "model",
+                    "model": "block/brown_mushroom_block_sud"
+                }
+            },
+			{
+                "threshold": 1143,
+                "model": {
+                    "type": "model",
+                    "model": "block/brazier_hanging"
+                }
+            },
+			{
+                "threshold": 1144,
+                "model": {
+                    "type": "model",
+                    "model": "block/red_curtain_vertical_half"
+                }
+            },
+			{
+                "threshold": 1145,
+                "model": {
+                    "type": "model",
+                    "model": "block/trapdoor_red_curtain"
+                }
+            },
+			{
+                "threshold": 1146,
+                "model": {
+                    "type": "model",
+                    "model": "block/red_curtain_vertical_quarter"
+                }
             }
         ]
     }

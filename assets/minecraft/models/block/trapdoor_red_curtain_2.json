@@ -1,0 +1,8 @@
+{
+  "parent": "block/door_thin_wall",
+  "textures": {
+    "particle": "block/red_curtain_2",
+    "bottom": "block/red_curtain_2",
+    "top": "block/red_curtain_2"
+  }
+}

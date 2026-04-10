@@ -217,7 +217,7 @@
                 "powered": "false"
             },
             "apply": {
-                "model": "block/dark_oak_door_top"
+                "model": "block/inscription", "y":270
             }
         },
         {
@@ -229,8 +229,7 @@
                 "powered": "false"
             },
             "apply": {
-                "model": "block/dark_oak_door_top",
-                "y": 90
+                "model": "block/inscription"
             }
         },
         {
@@ -242,8 +241,8 @@
                 "powered": "false"
             },
             "apply": {
-                "model": "block/dark_oak_door_top",
-                "y": 180
+                "model": "block/inscription",
+                "y": 90
             }
         },
         {
@@ -255,8 +254,8 @@
                 "powered": "false"
             },
             "apply": {
-                "model": "block/dark_oak_door_top",
-                "y": 270
+                "model": "block/inscription",
+                "y": 180
             }
         },
         {
