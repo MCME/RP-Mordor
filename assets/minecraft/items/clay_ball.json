@@ -4972,6 +4972,13 @@
                     "type": "model",
                     "model": "block/brown_mushroom_block_sud"
                 }
+            },
+			{
+                "threshold": 1143,
+                "model": {
+                    "type": "model",
+                    "model": "block/brazier_hanging"
+                }
             }
         ]
     }
