@@ -1,0 +1,8 @@
+{
+  "parent": "block/vertical_slab",
+  "textures": {
+    "bottom": "block/red_curtain",
+    "top": "block/red_curtain",
+    "side": "block/red_curtain"
+  }
+}

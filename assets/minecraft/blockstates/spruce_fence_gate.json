@@ -9,7 +9,11 @@
             },
             "apply": [
                 {
-                    "model": "block/replace_vertical_slab",
+                    "model": "block/red_curtain_vertical_half",
+                    "uvlock": true
+                },
+				{
+                    "model": "block/red_curtain_vertical_half_2",
                     "uvlock": true
                 }
             ]
@@ -23,7 +27,12 @@
             },
             "apply": [
                 {
-                    "model": "block/replace_vertical_slab",
+                    "model": "block/red_curtain_vertical_half",
+                    "uvlock": true,
+                    "y": 90
+                },
+				{
+                    "model": "block/red_curtain_vertical_half_2",
                     "uvlock": true,
                     "y": 90
                 }
@@ -38,7 +47,12 @@
             },
             "apply": [
                 {
-                    "model": "block/replace_vertical_slab",
+                    "model": "block/red_curtain_vertical_half",
+                    "uvlock": true,
+                    "y": 180
+                },
+				{
+                    "model": "block/red_curtain_vertical_half_2",
                     "uvlock": true,
                     "y": 180
                 }
@@ -53,7 +67,12 @@
             },
             "apply": [
                 {
-                    "model": "block/replace_vertical_slab",
+                    "model": "block/red_curtain_vertical_half",
+                    "uvlock": true,
+                    "y": 270
+                },
+				{
+                    "model": "block/red_curtain_vertical_half_2",
                     "uvlock": true,
                     "y": 270
                 }

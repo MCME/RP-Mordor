@@ -4979,6 +4979,27 @@
                     "type": "model",
                     "model": "block/brazier_hanging"
                 }
+            },
+			{
+                "threshold": 1144,
+                "model": {
+                    "type": "model",
+                    "model": "block/red_curtain_vertical_half"
+                }
+            },
+			{
+                "threshold": 1145,
+                "model": {
+                    "type": "model",
+                    "model": "block/trapdoor_red_curtain"
+                }
+            },
+			{
+                "threshold": 1146,
+                "model": {
+                    "type": "model",
+                    "model": "block/red_curtain_vertical_quarter"
+                }
             }
         ]
     }
