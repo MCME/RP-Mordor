@@ -5056,6 +5056,13 @@
                     "type": "model",
                     "model": "block/potion_legs"
                 }
+            },
+			{
+                "threshold": 1155,
+                "model": {
+                    "type": "model",
+                    "model": "block/brown_mushroom_block_sw"
+                }
             }
         ]
     }
