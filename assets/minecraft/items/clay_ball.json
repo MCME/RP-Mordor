@@ -5063,6 +5063,13 @@
                     "type": "model",
                     "model": "block/brown_mushroom_block_sw"
                 }
+            },
+			{
+                "threshold": 1156,
+                "model": {
+                    "type": "model",
+                    "model": "block/metal_railing_diag"
+                }
             }
         ]
     }
