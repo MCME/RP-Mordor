@@ -1,0 +1,6 @@
+{
+  "parent": "block/half_slab",
+  "textures": {
+    	"slab": "block/chiseled_polished_blackstone"
+  }
+}

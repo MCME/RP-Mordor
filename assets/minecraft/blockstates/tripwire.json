@@ -241,6 +241,26 @@
 	"attached=true,east=false,north=true,south=false,west=true,powered=true,disarmed=false": {
       "model": "minecraft:block/hook"
     },
+	"attached=true,east=false,north=true,south=true,west=false,powered=true,disarmed=true": [
+	{"model": "minecraft:block/potion"  },
+	{"model": "minecraft:block/potion", "y":90  },
+	{"model": "minecraft:block/potion", "y":180  },
+	{"model": "minecraft:block/potion", "y":270  },
+	{"model": "minecraft:block/potion_2"  },
+	{"model": "minecraft:block/potion_2", "y":90  },
+	{"model": "minecraft:block/potion_2", "y":180  },
+	{"model": "minecraft:block/potion_2", "y":270  },
+	{"model": "minecraft:block/potion_3"  },
+	{"model": "minecraft:block/potion_3", "y":90  },
+	{"model": "minecraft:block/potion_3", "y":180  },
+	{"model": "minecraft:block/potion_3", "y":270  }
+	],
+	"attached=true,east=false,north=true,south=true,west=false,powered=false,disarmed=true": [
+	{"model": "minecraft:block/potion_legs"  },
+	{"model": "minecraft:block/potion_legs", "y":90  },
+	{"model": "minecraft:block/potion_legs", "y":180  },
+	{"model": "minecraft:block/potion_legs", "y":270  }
+	],
     "attached=true,east=false,north=true,south=true,west=true": {
       "model": "minecraft:block/unused_cross_cutout",
       "y": 180

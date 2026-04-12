@@ -5000,6 +5000,62 @@
                     "type": "model",
                     "model": "block/red_curtain_vertical_quarter"
                 }
+            },
+			{
+                "threshold": 1147,
+                "model": {
+                    "type": "model",
+                    "model": "block/pillar_top_half_blackest_quarter"
+                }
+            },
+			{
+                "threshold": 1148,
+                "model": {
+                    "type": "model",
+                    "model": "block/chiseled_polished_blackstone_vertical_quarter"
+                }
+            },
+			{
+                "threshold": 1149,
+                "model": {
+                    "type": "model",
+                    "model": "block/chiseled_polished_blackstone_quarter_top"
+                }
+            },
+			{
+                "threshold": 1150,
+                "model": {
+                    "type": "model",
+                    "model": "block/chiseled_polished_blackstone_quarter_bottom"
+                }
+            },
+			{
+                "threshold": 1151,
+                "model": {
+                    "type": "model",
+                    "model": "block/vertical_slab_brown_mushroom_block_su"
+                }
+            },
+			{
+                "threshold": 1152,
+                "model": {
+                    "type": "model",
+                    "model": "block/black_bookshelf_half"
+                }
+            },
+			{
+                "threshold": 1153,
+                "model": {
+                    "type": "model",
+                    "model": "block/potion"
+                }
+            },
+			{
+                "threshold": 1154,
+                "model": {
+                    "type": "model",
+                    "model": "block/potion_legs"
+                }
             }
         ]
     }

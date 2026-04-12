@@ -86,7 +86,7 @@
                 "powered": "false"
             },
             "apply": {
-                "model": "block/replace_vertical_slab",
+                "model": "block/vertical_slab_brown_mushroom_block_su",
                 "uvlock": true
             }
         },
@@ -98,7 +98,7 @@
                 "powered": "false"
             },
             "apply": {
-                "model": "block/replace_vertical_slab",
+                "model": "block/vertical_slab_brown_mushroom_block_su",
                 "uvlock": true,
                 "y": 90
             }
@@ -111,7 +111,7 @@
                 "powered": "false"
             },
             "apply": {
-                "model": "block/replace_vertical_slab",
+                "model": "block/vertical_slab_brown_mushroom_block_su",
                 "uvlock": true,
                 "y": 180
             }
@@ -124,7 +124,7 @@
                 "powered": "false"
             },
             "apply": {
-                "model": "block/replace_vertical_slab",
+                "model": "block/vertical_slab_brown_mushroom_block_su",
                 "uvlock": true,
                 "y": 270
             }
@@ -138,9 +138,11 @@
             },
             "apply": {
                 "model": "block/vertical_slab_stone_bricks",
-                "uvlock": true
-            }
-        },
+                "uvlock": true,
+                "y": 0
+		}
+		},
+            
         {
             "when": {
                 "facing": "west",
@@ -153,6 +155,7 @@
                 "uvlock": true,
                 "y": 90
             }
+            
         },
         {
             "when": {
@@ -239,11 +242,15 @@
                 "powered": "true"
             },
             "apply": [
-                {
-                    "model": "block/replace_vertical_slab",
-                    "uvlock": true
-                }
-            ]
+      
+		{ "model": "minecraft:block/black_bookshelf_half" },
+		{ "model": "minecraft:block/black_bookshelf_half_2" },
+		{ "model": "minecraft:block/black_bookshelf_half_3" },
+		{ "model": "minecraft:block/black_bookshelf_half_4" },
+		{ "model": "minecraft:block/black_bookshelf_half_5" },
+		{ "model": "minecraft:block/black_bookshelf_half_6" }
+		
+		]
         },
         {
             "when": {
@@ -253,12 +260,15 @@
                 "powered": "true"
             },
             "apply": [
-                {
-                    "model": "block/replace_vertical_slab",
-                    "uvlock": true,
-                    "y": 90
-                }
-            ]
+      
+		{ "model": "minecraft:block/black_bookshelf_half", "y":90 },
+		{ "model": "minecraft:block/black_bookshelf_half_2", "y":90 },
+		{ "model": "minecraft:block/black_bookshelf_half_3", "y":90 },
+		{ "model": "minecraft:block/black_bookshelf_half_4", "y":90 },
+		{ "model": "minecraft:block/black_bookshelf_half_5", "y":90 },
+		{ "model": "minecraft:block/black_bookshelf_half_6", "y":90 }
+		
+    ]
         },
         {
             "when": {
@@ -268,12 +278,15 @@
                 "powered": "true"
             },
             "apply": [
-                {
-                    "model": "block/replace_vertical_slab",
-                    "uvlock": true,
-                    "y": 180
-                }
-            ]
+      
+		{ "model": "minecraft:block/black_bookshelf_half", "y":180 },
+		{ "model": "minecraft:block/black_bookshelf_half_2", "y":180 },
+		{ "model": "minecraft:block/black_bookshelf_half_3", "y":180 },
+		{ "model": "minecraft:block/black_bookshelf_half_4", "y":180 },
+		{ "model": "minecraft:block/black_bookshelf_half_5", "y":180 },
+		{ "model": "minecraft:block/black_bookshelf_half_6", "y":180 }
+		
+    ]
         },
         {
             "when": {
@@ -283,12 +296,15 @@
                 "powered": "true"
             },
             "apply": [
-                {
-                    "model": "block/replace_vertical_slab",
-                    "uvlock": true,
-                    "y": 270
-                }
-            ]
+      
+		{ "model": "minecraft:block/black_bookshelf_half", "y":270 },
+		{ "model": "minecraft:block/black_bookshelf_half_2", "y":270 },
+		{ "model": "minecraft:block/black_bookshelf_half_3", "y":270 },
+		{ "model": "minecraft:block/black_bookshelf_half_4", "y":270 },
+		{ "model": "minecraft:block/black_bookshelf_half_5", "y":270 },
+		{ "model": "minecraft:block/black_bookshelf_half_6", "y":270 }
+		
+    ]
         },
         {
             "when": {
