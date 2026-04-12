@@ -3,8 +3,8 @@
 	"credit": "Made with Blockbench",
 	"ambientocclusion": false,
 	"textures": {
-		"particle": "block/red_curtain",
-		"slab": "block/red_curtain"
+		"particle": "block/chiseled_polished_blackstone",
+		"slab": "block/chiseled_polished_blackstone"
 	},
 	"elements": [
 		{

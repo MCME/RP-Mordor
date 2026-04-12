@@ -5,7 +5,9 @@
 		{ "model": "minecraft:block/black_bookshelf" },
 		{ "model": "minecraft:block/black_bookshelf_2" },
 		{ "model": "minecraft:block/black_bookshelf_3" },
-		{ "model": "minecraft:block/black_bookshelf_4" }
+		{ "model": "minecraft:block/black_bookshelf_4" },
+		{ "model": "minecraft:block/black_bookshelf_5" },
+		{ "model": "minecraft:block/black_bookshelf_6" }
 		
     ],
         "north=false,east=false,south=false,west=false,up=false,down=true": [
@@ -13,7 +15,9 @@
 		{ "model": "minecraft:block/black_bookshelf", "y":90 },
 		{ "model": "minecraft:block/black_bookshelf_2", "y":90 },
 		{ "model": "minecraft:block/black_bookshelf_3", "y":90 },
-		{ "model": "minecraft:block/black_bookshelf_4", "y":90 }
+		{ "model": "minecraft:block/black_bookshelf_4", "y":90 },
+		{ "model": "minecraft:block/black_bookshelf_5", "y":90 },
+		{ "model": "minecraft:block/black_bookshelf_6", "y":90 }
 		
     ],
         "north=false,east=false,south=false,west=false,up=true,down=false": {
@@ -60,9 +64,17 @@
         "north=false,east=false,south=true,west=false,up=true,down=true": {
             "model": "block/brown_mushroom_block_sud"
         },
-        "north=false,east=false,south=true,west=true,up=false,down=false": {
-            "model": "block/stucco_lime"
+        "north=false,east=false,south=true,west=true,up=false,down=false": [
+		{
+            "model": "block/brown_mushroom_block_sw"
         },
+		{
+            "model": "block/brown_mushroom_block_sw_2"
+        },
+		{
+            "model": "block/brown_mushroom_block_sw_3"
+        }
+		],
         "north=false,east=false,south=true,west=true,up=false,down=true": {
             "model": "block/stucco_light_gray"
         },
