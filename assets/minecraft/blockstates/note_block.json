@@ -518,10 +518,10 @@
             }
         ],
         "instrument=snare,note=0,powered=false,": {
-            "model": "block/replace_tile_entity"
+            "model": "block/hopper_light_gray_architrave"
         },
         "instrument=snare,note=1,powered=false,": {
-            "model": "block/replace_tile_entity",
+            "model": "block/dark_architrave",
             "y": 90
         },
         "instrument=snare,note=2,powered=false,": {

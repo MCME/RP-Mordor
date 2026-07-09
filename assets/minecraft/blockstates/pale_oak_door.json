@@ -222,6 +222,70 @@
     "facing\u003dwest,half\u003dupper,hinge\u003dleft,open\u003dtrue,powered\u003dtrue": {
       "model": "minecraft:block/chiseled_polished_blackstone_quarter_bottom",
       "y": 180
-    }
+    },
+	"facing\u003dnorth,half\u003dupper,hinge\u003dright,open\u003dfalse,powered\u003dtrue": [{
+      "model": "minecraft:block/stone_rim",
+      "y": 0
+    },
+	{
+      "model": "minecraft:block/stone_rim_2",
+      "y": 0
+    }],
+    "facing\u003deast,half\u003dupper,hinge\u003dright,open\u003dfalse,powered\u003dtrue": [{
+      "model": "minecraft:block/stone_rim",
+	  "y": 90
+    },
+	{
+      "model": "minecraft:block/stone_rim_2",
+	  "y": 90
+    }],
+    "facing\u003dsouth,half\u003dupper,hinge\u003dright,open\u003dfalse,powered\u003dtrue": [{
+      "model": "minecraft:block/stone_rim",
+      "y": 180
+    },
+	{
+      "model": "minecraft:block/stone_rim_2",
+      "y": 180
+    }],
+    "facing\u003dwest,half\u003dupper,hinge\u003dright,open\u003dfalse,powered\u003dtrue": [{
+      "model": "minecraft:block/stone_rim",
+      "y": 270
+    },
+	{
+      "model": "minecraft:block/stone_rim_2",
+      "y": 270
+    }],
+	"facing\u003dnorth,half\u003dupper,hinge\u003dright,open\u003dtrue,powered\u003dtrue": [{
+      "model": "minecraft:block/dark_stone_rim",
+      "y": 270
+    },
+	{
+      "model": "minecraft:block/dark_stone_rim_2",
+      "y": 270
+    }],
+    "facing\u003deast,half\u003dupper,hinge\u003dright,open\u003dtrue,powered\u003dtrue": [{
+      "model": "minecraft:block/dark_stone_rim",
+	  "y": 0
+    },
+	{
+      "model": "minecraft:block/dark_stone_rim_2",
+	  "y": 0
+    }],
+    "facing\u003dsouth,half\u003dupper,hinge\u003dright,open\u003dtrue,powered\u003dtrue": [{
+      "model": "minecraft:block/dark_stone_rim",
+      "y": 90
+    },
+	{
+      "model": "minecraft:block/dark_stone_rim_2",
+      "y": 90
+    }],
+    "facing\u003dwest,half\u003dupper,hinge\u003dright,open\u003dtrue,powered\u003dtrue": [{
+      "model": "minecraft:block/dark_stone_rim",
+      "y": 180
+    },
+	{
+      "model": "minecraft:block/dark_stone_rim_2",
+      "y": 180
+    }]
   }
 }

@@ -5315,6 +5315,55 @@
                     "type": "model",
                     "model": "block/anvil_damage1_sw"
                 }
+            },
+			{
+                "threshold": 1192,
+                "model": {
+                    "type": "model",
+                    "model": "block/hopper_light_gray_architrave"
+                }
+            },
+			{
+                "threshold": 1193,
+                "model": {
+                    "type": "model",
+                    "model": "block/dark_architrave"
+                }
+            },
+			{
+                "threshold": 1194,
+                "model": {
+                    "type": "model",
+                    "model": "block/dark_architrave_half"
+                }
+            },
+			{
+                "threshold": 1195,
+                "model": {
+                    "type": "model",
+                    "model": "block/red_mushroom_block_nswud"
+                }
+            },
+			{
+                "threshold": 1196,
+                "model": {
+                    "type": "model",
+                    "model": "block/pillar_top_stone_half"
+                }
+            },
+			{
+                "threshold": 1197,
+                "model": {
+                    "type": "model",
+                    "model": "block/stone_rim"
+                }
+            },
+			{
+                "threshold": 1198,
+                "model": {
+                    "type": "model",
+                    "model": "block/dark_stone_rim"
+                }
             }
         ]
     }
