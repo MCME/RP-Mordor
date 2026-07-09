@@ -2,7 +2,7 @@
     "variants": {
         "age=7": [
             {
-                "model": "block/unused_cross_cutout"
+                "model": "block/hanging_skull_cluster"
             }
         ],
         "age=6": [

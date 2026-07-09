@@ -5476,6 +5476,13 @@
                     "type": "model",
                     "model": "block/chiseled_resin_bricks_vertical_quarter"
                 }
+            },
+			{
+                "threshold": 1215,
+                "model": {
+                    "type": "model",
+                    "model": "block/hanging_skull_cluster"
+                }
             }
         ]
     }
