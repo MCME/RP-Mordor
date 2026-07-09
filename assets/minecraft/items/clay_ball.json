@@ -5070,6 +5070,146 @@
                     "type": "model",
                     "model": "block/metal_railing_diag"
                 }
+            },
+			{
+                "threshold": 1157,
+                "model": {
+                    "type": "model",
+                    "model": "block/trapdoor_large_gray_brick_bottom"
+                }
+            },
+			{
+                "threshold": 1158,
+                "model": {
+                    "type": "model",
+                    "model": "block/wooden_door_bottom"
+                }
+            },
+			{
+                "threshold": 1159,
+                "model": {
+                    "type": "model",
+                    "model": "block/trapdoor_mossy_large_gray_brick_bottom"
+                }
+            },
+			{
+                "threshold": 1160,
+                "model": {
+                    "type": "model",
+                    "model": "block/trapdoor_stonebrick_mossy_open"
+                }
+            },
+			{
+                "threshold": 1161,
+                "model": {
+                    "type": "model",
+                    "model": "block/trapdoor_stonebrick_cracked_open"
+                }
+            },
+			{
+                "threshold": 1162,
+                "model": {
+                    "type": "model",
+                    "model": "block/trapdoor_stonebrick_cracked_bottom"
+                }
+            },
+			{
+                "threshold": 1163,
+                "model": {
+                    "type": "model",
+                    "model": "block/stone_bricks_side_stairs"
+                }
+            },
+			{
+                "threshold": 1164,
+                "model": {
+                    "type": "model",
+                    "model": "block/end_portal_frame_filled_west"
+                }
+            },
+			{
+                "threshold": 1165,
+                "model": {
+                    "type": "model",
+                    "model": "block/end_portal_frame_empty_west"
+                }
+            },
+			{
+                "threshold": 1166,
+                "model": {
+                    "type": "model",
+                    "model": "block/red_mushroom_block_es"
+                }
+            },
+			{
+                "threshold": 1167,
+                "model": {
+                    "type": "model",
+                    "model": "block/stone_bricks_large"
+                }
+            },
+			{
+                "threshold": 1168,
+                "model": {
+                    "type": "model",
+                    "model": "block/piston_base_vert"
+                }
+            },
+			{
+                "threshold": 1169,
+                "model": {
+                    "type": "model",
+                    "model": "block/vertical_slab_stone_bricks"
+                }
+            },
+			{
+                "threshold": 1170,
+                "model": {
+                    "type": "model",
+                    "model": "block/vertical_slab_stonebrick_mossy"
+                }
+            },
+			{
+                "threshold": 1171,
+                "model": {
+                    "type": "model",
+                    "model": "block/red_mushroom_block_esd"
+                }
+            },
+			{
+                "threshold": 1172,
+                "model": {
+                    "type": "model",
+                    "model": "block/vertical_slab_red_mushroom_block_newud"
+                }
+            },
+			{
+                "threshold": 1173,
+                "model": {
+                    "type": "model",
+                    "model": "block/jungle_door_bottom_rh_open"
+                }
+            },
+			{
+                "threshold": 1174,
+                "model": {
+                    "type": "model",
+                    "model": "block/trapdoor_small_gray_brick_bottom"
+                }
+            },
+			{
+                "threshold": 1175,
+                "model": {
+                    "type": "model",
+                    "model": "block/powered_repeater_delay1_w"
+                }
+            },
+			{
+                "threshold": 1176,
+                "model": {
+                    "type": "model",
+                    "model": "block/jungle_fence_gate_powered_open"
+                }
             }
         ]
     }
