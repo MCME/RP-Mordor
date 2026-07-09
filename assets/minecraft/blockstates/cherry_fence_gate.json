@@ -52,7 +52,10 @@
           "powered": "false"
         },
         "apply": [
-	  {"model": "minecraft:block/replace_vertical_slab"}
+	  {"model": "minecraft:block/vertical_slab_green_marble"},
+	  {"model": "minecraft:block/vertical_slab_green_marble_3"},
+	  {"model": "minecraft:block/vertical_slab_green_marble_2"},
+	  {"model": "minecraft:block/vertical_slab_green_marble_4"}
 	  ]
     
       },
@@ -64,7 +67,10 @@
           "powered": "false"
         },
         "apply": [
-	  {"model": "minecraft:block/replace_vertical_slab", "y":90}
+	  {"model": "minecraft:block/vertical_slab_green_marble", "y":90},
+	  {"model": "minecraft:block/vertical_slab_green_marble_3", "y":90},
+	  {"model": "minecraft:block/vertical_slab_green_marble_2", "y":90},
+	  {"model": "minecraft:block/vertical_slab_green_marble_4", "y":90}
 	  ]
       },
       {
@@ -75,7 +81,10 @@
           "powered": "false"
         },
         "apply": [
-	  {"model": "minecraft:block/replace_vertical_slab", "y":180}
+	  {"model": "minecraft:block/vertical_slab_green_marble", "y":180},
+	  {"model": "minecraft:block/vertical_slab_green_marble_3", "y":180},
+	  {"model": "minecraft:block/vertical_slab_green_marble_2", "y":180},
+	  {"model": "minecraft:block/vertical_slab_green_marble_4", "y":180}
 	  ]
       },
       {
@@ -86,7 +95,10 @@
           "powered": "false"
         },
         "apply": [
-	  {"model": "minecraft:block/replace_vertical_slab", "y":270}
+	  {"model": "minecraft:block/vertical_slab_green_marble", "y":270},
+	  {"model": "minecraft:block/vertical_slab_green_marble_3", "y":270},
+	  {"model": "minecraft:block/vertical_slab_green_marble_2", "y":270},
+	  {"model": "minecraft:block/vertical_slab_green_marble_4", "y":270}
 	  ]
       },
       {
@@ -97,7 +109,7 @@
           "powered": "false"
         },
         "apply": [
-	  {"model": "minecraft:block/replace_vertical_slab"}
+	  {"model": "minecraft:block/green_architrave_half"}
 	  ]
       },
       {
@@ -108,7 +120,7 @@
           "powered": "false"
         },
         "apply": [
-	  {"model": "minecraft:block/replace_vertical_slab", "y":90}
+	  {"model": "minecraft:block/green_architrave_half", "y":90}
 	  ]
       },
       {
@@ -119,7 +131,7 @@
           "powered": "false"
         },
         "apply": [
-	  {"model": "minecraft:block/replace_vertical_slab", "y":180}
+	  {"model": "minecraft:block/green_architrave_half", "y":180}
 	  ]
       },
       {
@@ -130,7 +142,7 @@
           "powered": "false"
         },
         "apply": [
-	  {"model": "minecraft:block/replace_vertical_slab", "y":270}
+	  {"model": "minecraft:block/green_architrave_half", "y":270}
 	  ]
       },
       {
@@ -141,7 +153,7 @@
           "powered": "false"
         },
         "apply": [
-	  {"model": "minecraft:block/replace_vertical_slab"}
+	  {"model": "minecraft:block/vertical_slab_purpur_pillar"}
 	  ]
       },
       {
@@ -152,7 +164,7 @@
           "powered": "false"
         },
         "apply": [
-	  {"model": "minecraft:block/replace_vertical_slab", "y":90}
+	  {"model": "minecraft:block/vertical_slab_purpur_pillar", "y":90}
 	  ]
       },
       {
@@ -163,7 +175,7 @@
           "powered": "false"
         },
         "apply": [
-	  {"model": "minecraft:block/replace_vertical_slab", "y":180}
+	  {"model": "minecraft:block/vertical_slab_purpur_pillar", "y":180}
 	  ]
       },
       {
@@ -174,7 +186,7 @@
           "powered": "false"
         },
         "apply": [
-	  {"model": "minecraft:block/replace_vertical_slab", "y":270}
+	  {"model": "minecraft:block/vertical_slab_purpur_pillar", "y":270}
 	  ]
       },
       {

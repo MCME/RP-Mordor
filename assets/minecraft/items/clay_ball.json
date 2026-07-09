@@ -5483,6 +5483,34 @@
                     "type": "model",
                     "model": "block/hanging_skull_cluster"
                 }
+            },
+			{
+                "threshold": 1216,
+                "model": {
+                    "type": "model",
+                    "model": "block/vertical_slab_green_marble"
+                }
+            },
+			{
+                "threshold": 1217,
+                "model": {
+                    "type": "model",
+                    "model": "block/green_architrave_half"
+                }
+            },
+			{
+                "threshold": 1218,
+                "model": {
+                    "type": "model",
+                    "model": "block/vertical_slab_purpur_pillar"
+                }
+            },
+			{
+                "threshold": 1219,
+                "model": {
+                    "type": "model",
+                    "model": "block/fancy_banner_green"
+                }
             }
         ]
     }

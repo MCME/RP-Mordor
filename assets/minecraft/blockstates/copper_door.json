@@ -160,19 +160,19 @@
       "y": 180
     },
 	"facing\u003dnorth,half\u003dlower,hinge\u003dright,open\u003dfalse,powered\u003dtrue": {
-      "model": "minecraft:block/replace_thin_slab",
+      "model": "minecraft:block/fancy_banner_green",
       "y": 180
     },
     "facing\u003deast,half\u003dlower,hinge\u003dright,open\u003dfalse,powered\u003dtrue": {
-      "model": "minecraft:block/replace_thin_slab",
+      "model": "minecraft:block/fancy_banner_green",
 	  "y": 270
     },
     "facing\u003dsouth,half\u003dlower,hinge\u003dright,open\u003dfalse,powered\u003dtrue": {
-      "model": "minecraft:block/replace_thin_slab",
+      "model": "minecraft:block/fancy_banner_green",
       "y": 0
     },
     "facing\u003dwest,half\u003dlower,hinge\u003dright,open\u003dfalse,powered\u003dtrue": {
-      "model": "minecraft:block/replace_thin_slab",
+      "model": "minecraft:block/fancy_banner_green",
       "y": 90
     },
 	"facing\u003dnorth,half\u003dlower,hinge\u003dright,open\u003dtrue,powered\u003dtrue": [
