@@ -1,80 +1,386 @@
 {
-    "variants": {
-        "facing=east,in_wall=false,open=false": {
-            "model": "minecraft:block/replace_vertical_slab",
-            "uvlock": false,
-            "y": 270
+    "multipart": [
+      {
+        "when": {
+          "facing": "south",
+          "in_wall": "false",
+          "open": "false",
+          "powered": "false"
         },
-        "facing=east,in_wall=false,open=true": {
-            "model": "minecraft:block/replace_vertical_slab",
-            "uvlock": false,
-            "y": 270
+        "apply": [
+	  {"model": "minecraft:block/pillar_top_stone_half"}
+	  ]
+      },
+      {
+        "when": {
+          "facing": "west",
+          "in_wall": "false",
+          "open": "false",
+          "powered": "false"
         },
-        "facing=east,in_wall=true,open=false": {
-            "model": "minecraft:block/replace_vertical_slab",
-            "uvlock": false,
-            "y": 270
+        "apply": [
+	  {"model": "minecraft:block/pillar_top_stone_half", "y":90}
+	  ]
+      },
+      {
+        "when": {
+          "facing": "north",
+          "in_wall": "false",
+          "open": "false",
+          "powered": "false"
         },
-        "facing=east,in_wall=true,open=true": {
-            "model": "minecraft:block/replace_vertical_slab",
-            "uvlock": false,
-            "y": 270
+        "apply": [
+	  {"model": "minecraft:block/pillar_top_stone_half", "y":180}
+	  ]
+      },
+      {
+        "when": {
+          "facing": "east",
+          "in_wall": "false",
+          "open": "false",
+          "powered": "false"
         },
-        "facing=north,in_wall=false,open=false": {
-            "model": "minecraft:block/replace_vertical_slab",
-            "uvlock": false,
-            "y": 180
+        "apply": [
+	  {"model": "minecraft:block/pillar_top_stone_half", "y":270}
+	  ]
+      },
+      {
+        "when": {
+          "facing": "south",
+          "in_wall": "false",
+          "open": "true",
+          "powered": "false"
         },
-        "facing=north,in_wall=false,open=true": {
-            "model": "minecraft:block/replace_vertical_slab",
-            "uvlock": false,
-            "y": 180
+        "apply": [
+	  {"model": "minecraft:block/vertical_slab_green_marble"},
+	  {"model": "minecraft:block/vertical_slab_green_marble_3"},
+	  {"model": "minecraft:block/vertical_slab_green_marble_2"},
+	  {"model": "minecraft:block/vertical_slab_green_marble_4"}
+	  ]
+    
+      },
+      {
+        "when": {
+          "facing": "west",
+          "in_wall": "false",
+          "open": "true",
+          "powered": "false"
         },
-        "facing=north,in_wall=true,open=false": {
-            "model": "minecraft:block/replace_vertical_slab",
-            "uvlock": false,
-            "y": 180
+        "apply": [
+	  {"model": "minecraft:block/vertical_slab_green_marble", "y":90},
+	  {"model": "minecraft:block/vertical_slab_green_marble_3", "y":90},
+	  {"model": "minecraft:block/vertical_slab_green_marble_2", "y":90},
+	  {"model": "minecraft:block/vertical_slab_green_marble_4", "y":90}
+	  ]
+      },
+      {
+        "when": {
+          "facing": "north",
+          "in_wall": "false",
+          "open": "true",
+          "powered": "false"
         },
-        "facing=north,in_wall=true,open=true": {
-            "model": "minecraft:block/replace_vertical_slab",
-            "uvlock": false,
-            "y": 180
+        "apply": [
+	  {"model": "minecraft:block/vertical_slab_green_marble", "y":180},
+	  {"model": "minecraft:block/vertical_slab_green_marble_3", "y":180},
+	  {"model": "minecraft:block/vertical_slab_green_marble_2", "y":180},
+	  {"model": "minecraft:block/vertical_slab_green_marble_4", "y":180}
+	  ]
+      },
+      {
+        "when": {
+          "facing": "east",
+          "in_wall": "false",
+          "open": "true",
+          "powered": "false"
         },
-        "facing=south,in_wall=false,open=false": {
-            "model": "minecraft:block/replace_vertical_slab",
-            "uvlock": false
+        "apply": [
+	  {"model": "minecraft:block/vertical_slab_green_marble", "y":270},
+	  {"model": "minecraft:block/vertical_slab_green_marble_3", "y":270},
+	  {"model": "minecraft:block/vertical_slab_green_marble_2", "y":270},
+	  {"model": "minecraft:block/vertical_slab_green_marble_4", "y":270}
+	  ]
+      },
+      {
+        "when": {
+          "facing": "south",
+          "in_wall": "true",
+          "open": "false",
+          "powered": "false"
         },
-        "facing=south,in_wall=false,open=true": {
-            "model": "minecraft:block/replace_vertical_slab",
-            "uvlock": false
+        "apply": [
+	  {"model": "minecraft:block/green_architrave_half"}
+	  ]
+      },
+      {
+        "when": {
+          "facing": "west",
+          "in_wall": "true",
+          "open": "false",
+          "powered": "false"
         },
-        "facing=south,in_wall=true,open=false": {
-            "model": "minecraft:block/replace_vertical_slab",
-            "uvlock": false
+        "apply": [
+	  {"model": "minecraft:block/green_architrave_half", "y":90}
+	  ]
+      },
+      {
+        "when": {
+          "facing": "north",
+          "in_wall": "true",
+          "open": "false",
+          "powered": "false"
         },
-        "facing=south,in_wall=true,open=true": {
-            "model": "minecraft:block/replace_vertical_slab",
-            "uvlock": false
+        "apply": [
+	  {"model": "minecraft:block/green_architrave_half", "y":180}
+	  ]
+      },
+      {
+        "when": {
+          "facing": "east",
+          "in_wall": "true",
+          "open": "false",
+          "powered": "false"
         },
-        "facing=west,in_wall=false,open=false": {
-            "model": "minecraft:block/replace_vertical_slab",
-            "uvlock": false,
-            "y": 90
+        "apply": [
+	  {"model": "minecraft:block/green_architrave_half", "y":270}
+	  ]
+      },
+      {
+        "when": {
+          "facing": "south",
+          "in_wall": "true",
+          "open": "true",
+          "powered": "false"
         },
-        "facing=west,in_wall=false,open=true": {
-            "model": "minecraft:block/replace_vertical_slab",
-            "uvlock": false,
-            "y": 90
+        "apply": [
+	  {"model": "minecraft:block/vertical_slab_purpur_pillar"}
+	  ]
+      },
+      {
+        "when": {
+          "facing": "west",
+          "in_wall": "true",
+          "open": "true",
+          "powered": "false"
         },
-        "facing=west,in_wall=true,open=false": {
-            "model": "minecraft:block/replace_vertical_slab",
-            "uvlock": false,
-            "y": 90
+        "apply": [
+	  {"model": "minecraft:block/vertical_slab_purpur_pillar", "y":90}
+	  ]
+      },
+      {
+        "when": {
+          "facing": "north",
+          "in_wall": "true",
+          "open": "true",
+          "powered": "false"
         },
-        "facing=west,in_wall=true,open=true": {
-            "model": "minecraft:block/replace_vertical_slab",
-            "uvlock": false,
-            "y": 90
+        "apply": [
+	  {"model": "minecraft:block/vertical_slab_purpur_pillar", "y":180}
+	  ]
+      },
+      {
+        "when": {
+          "facing": "east",
+          "in_wall": "true",
+          "open": "true",
+          "powered": "false"
+        },
+        "apply": [
+	  {"model": "minecraft:block/vertical_slab_purpur_pillar", "y":270}
+	  ]
+      },
+      {
+        "when": {
+          "facing": "south",
+          "in_wall": "false",
+          "open": "false",
+          "powered": "true"
+        },
+        "apply": [
+	  {"model": "minecraft:block/replace_vertical_slab", "y":180}
+	  ]
+      },
+      {
+        "when": {
+          "facing": "west",
+          "in_wall": "false",
+          "open": "false",
+          "powered": "true"
+        },
+        "apply": [
+	  {"model": "minecraft:block/replace_vertical_slab", "y":270}
+	  ]
+      },
+      {
+        "when": {
+          "facing": "north",
+          "in_wall": "false",
+          "open": "false",
+          "powered": "true"
+        },
+        "apply": [
+	  {"model": "minecraft:block/replace_vertical_slab"}
+	  ]
+      },
+      {
+        "when": {
+          "facing": "east",
+          "in_wall": "false",
+          "open": "false",
+          "powered": "true"
+        },
+        "apply": [
+	  {"model": "minecraft:block/replace_vertical_slab", "y":90}
+	  ]
+      },
+      {
+        "when": {
+          "facing": "south",
+          "in_wall": "false",
+          "open": "true",
+          "powered": "true"
+        },
+        "apply": {
+          "model": "block/replace_vertical_slab"
         }
-    }
-}
+      },
+      {
+        "when": {
+          "facing": "west",
+          "in_wall": "false",
+          "open": "true",
+          "powered": "true"
+        },
+        "apply": {
+          "model": "block/replace_vertical_slab",
+          "y": 90
+        }
+      },
+      {
+        "when": {
+          "facing": "north",
+          "in_wall": "false",
+          "open": "true",
+          "powered": "true"
+        },
+        "apply": {
+          "model": "block/replace_vertical_slab",
+		  "y": 180
+        }
+      },
+      {
+        "when": {
+          "facing": "east",
+          "in_wall": "false",
+          "open": "true",
+          "powered": "true"
+        },
+        "apply": {
+          "model": "block/replace_vertical_slab",
+          "y": 270
+        }
+      },
+      {
+        "when": {
+          "facing": "south",
+          "in_wall": "true",
+          "open": "false",
+          "powered": "true"
+        },
+        "apply": {
+          "model": "block/replace_vertical_slab",
+          "uvlock": false
+        }
+      },
+      {
+        "when": {
+          "facing": "west",
+          "in_wall": "true",
+          "open": "false",
+          "powered": "true"
+        },
+        "apply": {
+          "model": "block/replace_vertical_slab",
+          "uvlock": false,
+          "y": 90
+        }
+      },
+      {
+        "when": {
+          "facing": "north",
+          "in_wall": "true",
+          "open": "false",
+          "powered": "true"
+        },
+        "apply": {
+          "model": "block/replace_vertical_slab",
+          "uvlock": false,
+          "y": 180
+        }
+      },
+      {
+        "when": {
+          "facing": "east",
+          "in_wall": "true",
+          "open": "false",
+          "powered": "true"
+        },
+        "apply": {
+          "model": "block/replace_vertical_slab",
+          "uvlock": false,
+          "y": 270
+        }
+      },
+      {
+        "when": {
+          "facing": "south",
+          "in_wall": "true",
+          "open": "true",
+          "powered": "true"
+        },
+        "apply": {
+          "model": "block/replace_vertical_slab",
+          "uvlock": false
+        }
+      },
+      {
+        "when": {
+          "facing": "west",
+          "in_wall": "true",
+          "open": "true",
+          "powered": "true"
+        },
+        "apply": {
+          "model": "block/replace_vertical_slab",
+          "uvlock": false,
+          "y": 90
+        }
+      },
+      {
+        "when": {
+          "facing": "north",
+          "in_wall": "true",
+          "open": "true",
+          "powered": "true"
+        },
+        "apply": {
+          "model": "block/replace_vertical_slab", "y":180,
+          "uvlock": false
+        }
+      },
+      {
+        "when": {
+          "facing": "east",
+          "in_wall": "true",
+          "open": "true",
+          "powered": "true"
+        },
+        "apply": {
+          "model": "block/replace_vertical_slab",
+          "uvlock": false,
+          "y": 270
+        }
+      }
+    ]
+  }
+  
