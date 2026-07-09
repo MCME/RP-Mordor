@@ -5210,6 +5210,111 @@
                     "type": "model",
                     "model": "block/jungle_fence_gate_powered_open"
                 }
+            },
+			{
+                "threshold": 1177,
+                "model": {
+                    "type": "model",
+                    "model": "block/scaffolding_1x1arch"
+                }
+            },
+			{
+                "threshold": 1178,
+                "model": {
+                    "type": "model",
+                    "model": "block/scaffolding_stone_window"
+                }
+            },
+			{
+                "threshold": 1179,
+                "model": {
+                    "type": "model",
+                    "model": "block/scaffolding_stone_window_down"
+                }
+            },
+			{
+                "threshold": 1180,
+                "model": {
+                    "type": "model",
+                    "model": "block/smooth_quartz_stairs_1x2arch"
+                }
+            },
+			{
+                "threshold": 1181,
+                "model": {
+                    "type": "model",
+                    "model": "block/dark_oak_button_1x3arch_top"
+                }
+            },
+			{
+                "threshold": 1182,
+                "model": {
+                    "type": "model",
+                    "model": "block/stone_bricks_1x3arch"
+                }
+            },
+			{
+                "threshold": 1183,
+                "model": {
+                    "type": "model",
+                    "model": "block/wooden_door_top"
+                }
+            },
+			{
+                "threshold": 1184,
+                "model": {
+                    "type": "model",
+                    "model": "block/trapdoor_smooth_light_gray_stone_bottom"
+                }
+            },
+			{
+                "threshold": 1185,
+                "model": {
+                    "type": "model",
+                    "model": "block/trapdoor_smooth_gray_stone_open"
+                }
+            },
+			{
+                "threshold": 1186,
+                "model": {
+                    "type": "model",
+                    "model": "block/trapdoor_smooth_gray_stone_bottom"
+                }
+            },
+			{
+                "threshold": 1187,
+                "model": {
+                    "type": "model",
+                    "model": "block/petrified_oak_slab"
+                }
+            },
+			{
+                "threshold": 1188,
+                "model": {
+                    "type": "model",
+                    "model": "block/vertical_slab_double_slab_brick_seamless"
+                }
+            },
+			{
+                "threshold": 1189,
+                "model": {
+                    "type": "model",
+                    "model": "block/powered_repeater_delay1_e"
+                }
+            },
+			{
+                "threshold": 1190,
+                "model": {
+                    "type": "model",
+                    "model": "block/vertical_slab_double_slab_stonebrick_seamless"
+                }
+            },
+			{
+                "threshold": 1191,
+                "model": {
+                    "type": "model",
+                    "model": "block/anvil_damage1_sw"
+                }
             }
         ]
     }
