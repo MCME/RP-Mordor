@@ -5364,6 +5364,76 @@
                     "type": "model",
                     "model": "block/dark_stone_rim"
                 }
+            },
+			{
+                "threshold": 1199,
+                "model": {
+                    "type": "model",
+                    "model": "block/bricks_quarter_bottom"
+                }
+            },
+			{
+                "threshold": 1200,
+                "model": {
+                    "type": "model",
+                    "model": "block/bricks_quarter_top"
+                }
+            },
+			{
+                "threshold": 1201,
+                "model": {
+                    "type": "model",
+                    "model": "block/stone_bricks_quarter_bottom"
+                }
+            },
+			{
+                "threshold": 1202,
+                "model": {
+                    "type": "model",
+                    "model": "block/stone_bricks_quarter_top"
+                }
+            },
+			{
+                "threshold": 1203,
+                "model": {
+                    "type": "model",
+                    "model": "block/warped_wart_block_quarter_bottom"
+                }
+            },
+			{
+                "threshold": 1204,
+                "model": {
+                    "type": "model",
+                    "model": "block/warped_wart_block_quarter_top"
+                }
+            },
+			{
+                "threshold": 1205,
+                "model": {
+                    "type": "model",
+                    "model": "block/chiseled_tuff_bricks_quarter_bottom"
+                }
+            },
+			{
+                "threshold": 1206,
+                "model": {
+                    "type": "model",
+                    "model": "block/chiseled_tuff_bricks_quarter_top"
+                }
+            },
+			{
+                "threshold": 1207,
+                "model": {
+                    "type": "model",
+                    "model": "block/chiseled_resin_bricks_quarter_bottom"
+                }
+            },
+			{
+                "threshold": 1208,
+                "model": {
+                    "type": "model",
+                    "model": "block/chiseled_resin_bricks_quarter_top"
+                }
             }
         ]
     }
