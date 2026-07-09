@@ -5434,6 +5434,48 @@
                     "type": "model",
                     "model": "block/chiseled_resin_bricks_quarter_top"
                 }
+            },
+			{
+                "threshold": 1209,
+                "model": {
+                    "type": "model",
+                    "model": "block/stone_bricks_vertical_quarter"
+                }
+            },
+			{
+                "threshold": 1210,
+                "model": {
+                    "type": "model",
+                    "model": "block/bricks_vertical_quarter"
+                }
+            },
+			{
+                "threshold": 1211,
+                "model": {
+                    "type": "model",
+                    "model": "block/warped_wart_block_vertical_quarter"
+                }
+            },
+			{
+                "threshold": 1212,
+                "model": {
+                    "type": "model",
+                    "model": "block/brick_pile"
+                }
+            },
+			{
+                "threshold": 1213,
+                "model": {
+                    "type": "model",
+                    "model": "block/chiseled_tuff_bricks_vertical_quarter"
+                }
+            },
+			{
+                "threshold": 1214,
+                "model": {
+                    "type": "model",
+                    "model": "block/chiseled_resin_bricks_vertical_quarter"
+                }
             }
         ]
     }
