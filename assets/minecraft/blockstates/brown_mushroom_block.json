@@ -75,18 +75,38 @@
             "model": "block/brown_mushroom_block_sw_3"
         }
 		],
-        "north=false,east=false,south=true,west=true,up=false,down=true": {
-            "model": "block/stucco_light_gray"
-        },
-        "north=false,east=false,south=true,west=true,up=true,down=false": {
-            "model": "block/stucco_gray"
-        },
-        "north=false,east=false,south=true,west=true,up=true,down=true": {
-            "model": "block/stucco_yellow"
-        },
-        "north=false,east=true,south=false,west=false,up=false,down=false": {
-            "model": "block/stucco_orange"
-        },
+        "north=false,east=false,south=true,west=true,up=false,down=true": [
+      
+		{ "model": "minecraft:block/brown_mushroom_block_swd" },
+		{ "model": "minecraft:block/brown_mushroom_block_swd_2" },
+		{ "model": "minecraft:block/brown_mushroom_block_swd_3" }
+		
+    ],
+        "north=false,east=false,south=true,west=true,up=true,down=false": [
+      
+		{ "model": "minecraft:block/brown_mushroom_block_swu" },
+		{ "model": "minecraft:block/brown_mushroom_block_swu_2" },
+		{ "model": "minecraft:block/brown_mushroom_block_swu_3" },
+		{ "model": "minecraft:block/brown_mushroom_block_swu_4" },
+		{ "model": "minecraft:block/brown_mushroom_block_swu_5" }
+		
+    ],
+        "north=false,east=false,south=true,west=true,up=true,down=true": [
+      
+		{ "model": "minecraft:block/brown_mushroom_block_swud" },
+		{ "model": "minecraft:block/brown_mushroom_block_swud_2" },
+		{ "model": "minecraft:block/brown_mushroom_block_swud_3" }
+		
+    ],
+        "north=false,east=true,south=false,west=false,up=false,down=false": [
+      
+		{ "model": "minecraft:block/brown_mushroom_block_e" },
+		{ "model": "minecraft:block/brown_mushroom_block_e_2" },
+		{ "model": "minecraft:block/brown_mushroom_block_e_3" },
+		{ "model": "minecraft:block/brown_mushroom_block_e_4" },
+		{ "model": "minecraft:block/brown_mushroom_block_e_5" }
+		
+    ],
         "north=false,east=true,south=false,west=false,up=false,down=true": {
             "model": "block/stucco_red"
         },
