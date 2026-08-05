@@ -5539,6 +5539,20 @@
                     "type": "model",
                     "model": "block/brown_mushroom_block_e"
                 }
+            },
+			{
+                "threshold": 1224,
+                "model": {
+                    "type": "model",
+                    "model": "block/green_brick_arch"
+                }
+            },
+			{
+                "threshold": 1225,
+                "model": {
+                    "type": "model",
+                    "model": "block/end_portal_frame_empty_north"
+                }
             }
         ]
     }

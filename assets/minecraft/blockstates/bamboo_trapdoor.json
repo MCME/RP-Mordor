@@ -86,8 +86,7 @@
             "y": 90
         },
         "facing=east,half=top,open=false,powered=false": {
-            "model": "minecraft:block/replace_thin_slab",
-            "x": 180,
+            "model": "minecraft:block/green_brick_arch",
             "y": 90
         },
         "facing=east,half=top,open=true,powered=false": {
@@ -103,8 +102,8 @@
             "x": 90
         },
         "facing=north,half=top,open=false,powered=false": {
-            "model": "minecraft:block/replace_thin_slab",
-            "x": 180
+            "model": "minecraft:block/green_brick_arch",
+            "y": 0
         },
         "facing=north,half=top,open=true,powered=false": {
             "model": "minecraft:block/replace_thin_slab",
