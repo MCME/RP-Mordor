@@ -1,10 +1,10 @@
 {
   "parent": "block/block",
   "textures": {
-    "particle": "block/sandstone",
-    "bottom": "block/sandstone",
-    "top": "block/sandstone",
-    "side": "block/sandstone"
+    "particle": "block/chiseled_resin_bricks",
+    "bottom": "block/chiseled_resin_bricks",
+    "top": "block/chiseled_resin_bricks",
+    "side": "block/chiseled_resin_bricks"
   },
   "elements": [
     {
