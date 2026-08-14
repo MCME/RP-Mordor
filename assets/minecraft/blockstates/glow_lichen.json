@@ -1,150 +1,45 @@
 {
-    "multipart": [
-        {
-            "apply": {
-                "model": "minecraft:block/replace_luminous_plane"
-            },
-            "when": {
-                "north": "true"
-            }
-        },
-        {
-            "apply": {
-                "model": "minecraft:block/replace_luminous_plane"
-            },
-            "when": {
-                "down": "false",
-                "east": "false",
-                "north": "false",
-                "south": "false",
-                "up": "false",
-                "west": "false"
-            }
-        },
-        {
-            "apply": {
-                "model": "minecraft:block/replace_luminous_plane",
-                "uvlock": true,
-                "y": 90
-            },
-            "when": {
-                "east": "true"
-            }
-        },
-        {
-            "apply": {
-                "model": "minecraft:block/replace_luminous_plane",
-                "uvlock": true,
-                "y": 90
-            },
-            "when": {
-                "down": "false",
-                "east": "false",
-                "north": "false",
-                "south": "false",
-                "up": "false",
-                "west": "false"
-            }
-        },
-        {
-            "apply": {
-                "model": "minecraft:block/replace_luminous_plane",
-                "uvlock": true,
-                "y": 180
-            },
-            "when": {
-                "south": "true"
-            }
-        },
-        {
-            "apply": {
-                "model": "minecraft:block/replace_luminous_plane",
-                "uvlock": true,
-                "y": 180
-            },
-            "when": {
-                "down": "false",
-                "east": "false",
-                "north": "false",
-                "south": "false",
-                "up": "false",
-                "west": "false"
-            }
-        },
-        {
-            "apply": {
-                "model": "minecraft:block/replace_luminous_plane",
-                "uvlock": true,
-                "y": 270
-            },
-            "when": {
-                "west": "true"
-            }
-        },
-        {
-            "apply": {
-                "model": "minecraft:block/replace_luminous_plane",
-                "uvlock": true,
-                "y": 270
-            },
-            "when": {
-                "down": "false",
-                "east": "false",
-                "north": "false",
-                "south": "false",
-                "up": "false",
-                "west": "false"
-            }
-        },
-        {
-            "apply": {
-                "model": "minecraft:block/replace_luminous_plane",
-                "uvlock": true,
-                "x": 270
-            },
-            "when": {
-                "up": "true"
-            }
-        },
-        {
-            "apply": {
-                "model": "minecraft:block/replace_luminous_plane",
-                "uvlock": true,
-                "x": 270
-            },
-            "when": {
-                "down": "false",
-                "east": "false",
-                "north": "false",
-                "south": "false",
-                "up": "false",
-                "west": "false"
-            }
-        },
-        {
-            "apply": {
-                "model": "minecraft:block/replace_luminous_plane",
-                "uvlock": true,
-                "x": 90
-            },
-            "when": {
-                "down": "true"
-            }
-        },
-        {
-            "apply": {
-                "model": "minecraft:block/replace_luminous_plane",
-                "uvlock": true,
-                "x": 90
-            },
-            "when": {
-                "down": "false",
-                "east": "false",
-                "north": "false",
-                "south": "false",
-                "up": "false",
-                "west": "false"
-            }
-        }
-    ]
+    "variants": {
+        
+	"up=false,north=true,east=false,south=false,west=false,down=false": {
+			"model": "minecraft:block/vertical_slab_lava", "y":180
+	   },
+	 "up=false,north=false,east=true,south=false,west=false,down=false": {
+			"model": "minecraft:block/vertical_slab_lava", "y":270
+	   },
+	"up=false,north=false,east=false,south=true,west=false,down=false": {
+			"model": "minecraft:block/vertical_slab_lava", "y":0
+	   },
+	"up=false,north=false,east=false,south=false,west=true,down=false": {
+			"model": "minecraft:block/vertical_slab_lava", "y":90
+	   },
+	"up=false,north=true,east=false,south=false,west=false,down=true": {
+			"model": "minecraft:block/vertical_stairs_lava", "y":180
+	   },
+	 "up=false,north=false,east=true,south=false,west=false,down=true": {
+			"model": "minecraft:block/vertical_stairs_lava", "y":270
+	   },
+	"up=false,north=false,east=false,south=true,west=false,down=true": {
+			"model": "minecraft:block/vertical_stairs_lava", "y":0
+	   },
+	"up=false,north=false,east=false,south=false,west=true,down=true": {
+			"model": "minecraft:block/vertical_stairs_lava", "y":90
+	   },
+    
+	"up=true,north=true,east=false,south=false,west=false,down=false": {
+			"model": "minecraft:block/vertical_quarter_lava", "y":180
+	   },
+	 "up=true,north=false,east=true,south=false,west=false,down=false": {
+			"model": "minecraft:block/vertical_quarter_lava", "y":270
+	   },
+	"up=true,north=false,east=false,south=true,west=false,down=false": {
+			"model": "minecraft:block/vertical_quarter_lava", "y":0
+	   },
+	"up=true,north=false,east=false,south=false,west=true,down=false": {
+			"model": "minecraft:block/vertical_quarter_lava", "y":90
+	   },
+	"up=true,north=true,east=true,south=true,west=true,down=true": {
+			"model": "minecraft:block/lava_full", "y":0
+	   }
+	}
 }
