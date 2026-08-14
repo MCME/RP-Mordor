@@ -5553,6 +5553,34 @@
                     "type": "model",
                     "model": "block/end_portal_frame_empty_north"
                 }
+            },
+			{
+                "threshold": 1226,
+                "model": {
+                    "type": "model",
+                    "model": "block/vertical_slab_lava"
+                }
+            },
+			{
+                "threshold": 1227,
+                "model": {
+                    "type": "model",
+                    "model": "block/vertical_stairs_lava"
+                }
+            },
+			{
+                "threshold": 1228,
+                "model": {
+                    "type": "model",
+                    "model": "block/vertical_quarter_lava"
+                }
+            },
+			{
+                "threshold": 1229,
+                "model": {
+                    "type": "model",
+                    "model": "block/lava_full"
+                }
             }
         ]
     }
