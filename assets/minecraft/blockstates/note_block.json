@@ -610,6 +610,10 @@
 		"instrument=hat,note=7,powered=false,": {
             "model": "block/pillar_top_dark_green",
             "y": 270
+        },
+		"instrument=hat,note=8,powered=false,": {
+            "model": "block/pillar_top_dark_green",
+            "x":180, "y": 270
         }
     }
 }
