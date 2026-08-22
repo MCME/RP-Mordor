@@ -5581,6 +5581,20 @@
                     "type": "model",
                     "model": "block/lava_full"
                 }
+            },
+			{
+                "threshold": 1230,
+                "model": {
+                    "type": "model",
+                    "model": "block/pillar_top_dark_green_down"
+                }
+            },
+			{
+                "threshold": 1231,
+                "model": {
+                    "type": "model",
+                    "model": "block/green_architrave_half_down"
+                }
             }
         ]
     }
