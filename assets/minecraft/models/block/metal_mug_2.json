@@ -1,4 +1,5 @@
 {
+	"format_version": "1.21.11",
 	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "block/unrusted_models",
@@ -15,8 +16,7 @@
 				"east": {"uv": [5, 7, 9, 11], "texture": "#0"},
 				"south": {"uv": [9, 5, 13, 9], "texture": "#0"},
 				"west": {"uv": [9, 5, 13, 9], "texture": "#0"},
-				"up": {"uv": [16, 16, 12.14, 12.14], "texture": "#1"},
-				"down": {"uv": [7.11, 10.89, 2, 16], "texture": "#0"}
+				"up": {"uv": [16, 16, 12.14, 12.14], "texture": "#1"}
 			}
 		},
 		{
@@ -24,7 +24,6 @@
 			"to": [11.89478, 9.2775, 18.01125],
 			"rotation": {"angle": 45, "axis": "y", "origin": [8.16478, 4.4375, 13.72625]},
 			"faces": {
-				"north": {"uv": [7, 7, 8.46, 8.21], "texture": "#0"},
 				"east": {"uv": [6, 8.79, 9.4, 9], "texture": "#0"},
 				"south": {"uv": [8, 8.79, 8.46, 9], "texture": "#0"},
 				"west": {"uv": [6, 8, 9, 9], "texture": "#0"},
@@ -37,7 +36,6 @@
 			"to": [11.89478, 3.7025, 18.01125],
 			"rotation": {"angle": 45, "axis": "y", "origin": [8.16478, 4.4375, 13.72625]},
 			"faces": {
-				"north": {"uv": [5, 6, 6.46, 7.21], "texture": "#0"},
 				"east": {"uv": [4, 7.79, 7.4, 8], "texture": "#0"},
 				"south": {"uv": [6, 7.79, 6.46, 8], "texture": "#0"},
 				"west": {"uv": [4, 7, 7, 8], "texture": "#0"},
@@ -54,8 +52,7 @@
 				"east": {"uv": [6, 7, 10, 10], "texture": "#0"},
 				"south": {"uv": [2, 7, 6, 10], "texture": "#0"},
 				"west": {"uv": [5, 6, 9, 9], "texture": "#0"},
-				"up": {"uv": [6, 5, 10, 9], "texture": "#0"},
-				"down": {"uv": [2.84, 5, -3, 10.84], "texture": "#0"}
+				"up": {"uv": [6, 5, 10, 9], "texture": "#0"}
 			}
 		},
 		{
@@ -79,9 +76,7 @@
 				"north": {"uv": [8.96, 5.62, 8, 10], "rotation": 180, "texture": "#0"},
 				"east": {"uv": [4.62, 8.54, 8, 9], "rotation": 270, "texture": "#0"},
 				"south": {"uv": [7.46, 6.38, 7, 10.38], "texture": "#0"},
-				"west": {"uv": [4.62, 8.54, 8, 9], "rotation": 90, "texture": "#0"},
-				"up": {"uv": [2, 12.54, 3.46, 14], "rotation": 180, "texture": "#0"},
-				"down": {"uv": [8.54, 9, 10, 10.46], "texture": "#0"}
+				"west": {"uv": [4.62, 8.54, 8, 9], "rotation": 90, "texture": "#0"}
 			}
 		}
 	],
@@ -89,6 +84,7 @@
 		{
 			"name": "bone",
 			"origin": [0, 4.62167, 3.15583],
+			"scope": 0,
 			"color": 0,
 			"children": [0, 1, 2, 3, 4, 5]
 		}
