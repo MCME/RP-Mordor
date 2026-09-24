@@ -1,11 +1,12 @@
 {
+	"format_version": "1.21.11",
 	"credit": "Made with Blockbench",
 	"parent": "block/tinted_cross",
 	"ambientocclusion": false,
 	"texture_size": [64, 64],
 	"textures": {
 		"6": "block/cook_pot_large",
-		"particle": "#6"
+		"particle": "block/cook_pot_large"
 	},
 	"elements": [
 		{
@@ -305,10 +306,8 @@
 			"to": [10.25, 4.5, 3.75],
 			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8.5, 8]},
 			"faces": {
-				"north": {"uv": [8.25, 19, 9.375, 19.1875], "texture": "#6"},
 				"south": {"uv": [4.5, 6.5, 5.625, 6.6875], "texture": "#6"},
-				"up": {"uv": [3.5, 5.5, 4.625, 5.7125], "texture": "#6"},
-				"down": {"uv": [6, 19, 7.125, 19.2125], "texture": "#6"}
+				"up": {"uv": [3.5, 5.5, 4.625, 5.7125], "texture": "#6"}
 			}
 		},
 		{
@@ -515,23 +514,27 @@
 		{
 			"name": "Pot",
 			"origin": [8, 8, 8],
+			"scope": 0,
 			"color": 0,
 			"children": [
 				0,
 				{
 					"name": "Handles",
 					"origin": [8, 21, 25.5],
+					"scope": 0,
 					"color": 0,
 					"children": [
 						{
 							"name": "group",
 							"origin": [8, 21, -9.5],
+							"scope": 0,
 							"color": 0,
 							"children": [1, 2, 3]
 						},
 						{
 							"name": "group",
 							"origin": [8, 21, 25.5],
+							"scope": 0,
 							"color": 0,
 							"children": [4, 5, 6]
 						}
@@ -540,12 +543,14 @@
 				{
 					"name": "Trim",
 					"origin": [8, 8, 8],
+					"scope": 0,
 					"color": 0,
 					"children": [7, 8, 9, 10, 11, 12, 13, 14]
 				},
 				{
 					"name": "Sides",
 					"origin": [8, 8, 8],
+					"scope": 0,
 					"color": 0,
 					"children": [
 						15,
@@ -559,6 +564,7 @@
 						{
 							"name": "Sides",
 							"origin": [8, 8, 8],
+							"scope": 0,
 							"color": 0,
 							"children": [23, 24, 25, 26, 27, 28, 29, 30]
 						}
@@ -567,6 +573,7 @@
 				{
 					"name": "Bottom",
 					"origin": [8, 8, 8],
+					"scope": 0,
 					"color": 0,
 					"children": []
 				}
@@ -575,6 +582,7 @@
 		{
 			"name": "Bottom",
 			"origin": [8, 8, 8],
+			"scope": 0,
 			"color": 0,
 			"children": [31, 32, 33, 34, 35, 36, 37, 38, 39]
 		}

@@ -17,7 +17,7 @@
             {
                 "threshold": 2,
                 "model": {
-                    "type": "model", 
+                    "type": "model",
                     "model": "block/farmland_moisture1"
                 }
             },
@@ -39,45 +39,45 @@
                 "threshold": 7,
                 "model": {
                     "type": "model",
-                    "model": "item/inv_mist"
+                    "model": "block/inventory/inv_mist"
                 }
             },
             {
                 "threshold": 8,
                 "model": {
                     "type": "model",
-                    "model": "item/inv_mist_2"
+                    "model": "block/inventory/inv_mist_2"
                 }
             },
-			{
+            {
                 "threshold": 9,
                 "model": {
                     "type": "model",
                     "model": "block/helmet"
                 }
             },
-			{
+            {
                 "threshold": 10,
                 "model": {
                     "type": "model",
                     "model": "block/chalice_3"
                 }
             },
-			{
+            {
                 "threshold": 11,
                 "model": {
                     "type": "model",
                     "model": "block/skelesitting_inv"
                 }
             },
-			{
+            {
                 "threshold": 12,
                 "model": {
                     "type": "model",
                     "model": "block/skelehanging_inv"
                 }
             },
-			{
+            {
                 "threshold": 13,
                 "model": {
                     "type": "model",
@@ -98,7 +98,7 @@
                     "model": "block/acacia_wood"
                 }
             },
-			{
+            {
                 "threshold": 19,
                 "model": {
                     "type": "model",
@@ -109,105 +109,105 @@
                 "threshold": 25,
                 "model": {
                     "type": "model",
-                    "model": "item/grass_block_patches_inventory"
+                    "model": "block/inventory/grass_block_patches_inventory"
                 }
             },
             {
                 "threshold": 26,
                 "model": {
                     "type": "model",
-                    "model": "item/grass_block_stones_inventory"
+                    "model": "block/inventory/grass_block_stones_inventory"
                 }
             },
-			{
+            {
                 "threshold": 27,
                 "model": {
                     "type": "model",
                     "model": "block/retaining_wall"
                 }
             },
-			{
+            {
                 "threshold": 28,
                 "model": {
                     "type": "model",
                     "model": "block/warped_door_cross_railing"
                 }
             },
-			{
+            {
                 "threshold": 29,
                 "model": {
                     "type": "model",
                     "model": "block/warped_door_railing"
                 }
             },
-			{
+            {
                 "threshold": 30,
                 "model": {
                     "type": "model",
                     "model": "block/warped_door_woven_fence"
                 }
             },
-			{
+            {
                 "threshold": 31,
                 "model": {
                     "type": "model",
                     "model": "block/acacia_door_fence"
                 }
             },
-			{
+            {
                 "threshold": 32,
                 "model": {
                     "type": "model",
                     "model": "block/acacia_door_railing"
                 }
             },
-			{
+            {
                 "threshold": 33,
                 "model": {
                     "type": "model",
                     "model": "block/acacia_door_railing_corner"
                 }
             },
-			{
+            {
                 "threshold": 34,
                 "model": {
                     "type": "model",
                     "model": "block/acacia_door_railing_diagonal"
                 }
             },
-			{
+            {
                 "threshold": 35,
                 "model": {
                     "type": "model",
                     "model": "block/log_palisade"
                 }
             },
-			{
+            {
                 "threshold": 36,
                 "model": {
                     "type": "model",
                     "model": "block/log_palisade_top"
                 }
             },
-			{
+            {
                 "threshold": 37,
                 "model": {
                     "type": "model",
                     "model": "block/catwalk"
                 }
             },
-			{
+            {
                 "threshold": 38,
                 "model": {
                     "type": "model",
                     "model": "block/catwalk_up"
                 }
             },
-			{
+            {
                 "threshold": 39,
                 "model": {
                     "type": "model",
-                    "model": "item/catwalk_wide"
+                    "model": "block/inventory/catwalk_wide"
                 }
             },
             {
@@ -217,329 +217,329 @@
                     "model": "block/beetroots_stage0"
                 }
             },
-			{
+            {
                 "threshold": 52,
                 "model": {
                     "type": "model",
                     "model": "block/crimson_fence_gate_powered_closed"
                 }
             },
-			{
+            {
                 "threshold": 53,
                 "model": {
                     "type": "model",
                     "model": "block/acacia_planks_side_stairs"
                 }
             },
-			{
+            {
                 "threshold": 54,
                 "model": {
                     "type": "model",
                     "model": "block/trapdoor_acacia_planks_side"
                 }
             },
-			{
+            {
                 "threshold": 55,
                 "model": {
                     "type": "model",
                     "model": "block/trapdoor_acacia_planks_bottom"
                 }
             },
-			{
+            {
                 "threshold": 56,
                 "model": {
                     "type": "model",
                     "model": "block/acacia_planks_vertical_half_slab"
                 }
             },
-			{
+            {
                 "threshold": 57,
                 "model": {
                     "type": "model",
                     "model": "block/acacia_planks_half_slab"
                 }
             },
-			{
+            {
                 "threshold": 58,
                 "model": {
                     "type": "model",
                     "model": "block/acacia_planks_half_slab_top"
                 }
             },
-			{
+            {
                 "threshold": 59,
                 "model": {
                     "type": "model",
                     "model": "block/crimson_fence_gate_open"
                 }
             },
-			{
+            {
                 "threshold": 60,
                 "model": {
                     "type": "model",
                     "model": "block/jungle_fence_gate_open"
                 }
             },
-			{
+            {
                 "threshold": 61,
                 "model": {
                     "type": "model",
                     "model": "block/crimson_fence_gate_powered_open"
                 }
             },
-			{
+            {
                 "threshold": 62,
                 "model": {
                     "type": "model",
                     "model": "block/target_block_power7"
                 }
             },
-			{
+            {
                 "threshold": 63,
                 "model": {
                     "type": "model",
                     "model": "block/vertical_slab_iron_block"
                 }
             },
-			{
+            {
                 "threshold": 64,
                 "model": {
                     "type": "model",
                     "model": "block/trapdoor_double_slab_iron_block_seamless_open"
                 }
             },
-			{
+            {
                 "threshold": 65,
                 "model": {
                     "type": "model",
                     "model": "block/trapdoor_iron_block_display_down"
                 }
             },
-			{
+            {
                 "threshold": 66,
                 "model": {
                     "type": "model",
                     "model": "block/brown_mushroom_block_nesud"
                 }
             },
-			{
+            {
                 "threshold": 67,
                 "model": {
                     "type": "model",
                     "model": "block/red_mushroom_block_ewu"
                 }
             },
-			{
+            {
                 "threshold": 68,
                 "model": {
                     "type": "model",
                     "model": "block/beam_horizontal_metal"
                 }
             },
-			{
+            {
                 "threshold": 69,
                 "model": {
                     "type": "model",
                     "model": "block/beam_horizontal_metal_down"
                 }
             },
-			{
+            {
                 "threshold": 70,
                 "model": {
                     "type": "model",
                     "model": "block/beam_core_steel"
                 }
             },
-			{
+            {
                 "threshold": 71,
                 "model": {
                     "type": "model",
                     "model": "block/exposed_cut_copper_side_stairs"
                 }
             },
-			{
+            {
                 "threshold": 72,
                 "model": {
                     "type": "model",
                     "model": "block/acacia_door_bottom"
                 }
             },
-			{
+            {
                 "threshold": 73,
                 "model": {
                     "type": "model",
                     "model": "block/acacia_door_bottom_down_display"
                 }
             },
-			{
+            {
                 "threshold": 74,
                 "model": {
                     "type": "model",
                     "model": "block/vertical_slab_exposed_cut_copper"
                 }
             },
-			{
+            {
                 "threshold": 75,
                 "model": {
                     "type": "model",
                     "model": "block/end_portal_frame_empty_south"
                 }
             },
-			{
+            {
                 "threshold": 76,
                 "model": {
                     "type": "model",
-                    "model": "item/blue_stained_glass_pane_ne"
+                    "model": "block/inventory/blue_stained_glass_pane_ne"
                 }
             },
-			{
+            {
                 "threshold": 77,
                 "model": {
                     "type": "model",
                     "model": "block/sandstone_wall_wedge"
                 }
             },
-			{
+            {
                 "threshold": 78,
                 "model": {
                     "type": "model",
-                    "model": "item/sandstone_wall_arch"
+                    "model": "block/inventory/sandstone_wall_arch"
                 }
             },
-			{
+            {
                 "threshold": 79,
                 "model": {
                     "type": "model",
-                    "model": "item/rusty_blue_stained_glass_pane_ne"
+                    "model": "block/inventory/rusty_blue_stained_glass_pane_ne"
                 }
             },
-			{
+            {
                 "threshold": 80,
                 "model": {
                     "type": "model",
                     "model": "block/waxed_weathered_cut_copper_side_stairs"
                 }
             },
-			{
+            {
                 "threshold": 81,
                 "model": {
                     "type": "model",
                     "model": "block/jungle_door_top_rh_open"
                 }
             },
-			{
+            {
                 "threshold": 82,
                 "model": {
                     "type": "model",
                     "model": "block/trapdoor_dried_kelp_block_bottom"
                 }
             },
-			{
+            {
                 "threshold": 83,
                 "model": {
                     "type": "model",
                     "model": "block/vertical_slab_dried_kelp_block"
                 }
             },
-			{
+            {
                 "threshold": 84,
                 "model": {
                     "type": "model",
                     "model": "block/waxed_cut_oxidized_copper_side_stairs"
                 }
             },
-			{
+            {
                 "threshold": 85,
                 "model": {
                     "type": "model",
                     "model": "block/trapdoor_waxed_oxidized_cut_copper_bottom"
                 }
             },
-			{
+            {
                 "threshold": 86,
                 "model": {
                     "type": "model",
                     "model": "block/trapdoor_waxed_oxidized_cut_copper_side"
                 }
             },
-			{
+            {
                 "threshold": 87,
                 "model": {
                     "type": "model",
                     "model": "block/vertical_slab_waxed_oxidized_cut_copper"
                 }
             },
-			{
+            {
                 "threshold": 88,
                 "model": {
                     "type": "model",
                     "model": "block/waxed_cut_copper_side_stairs"
                 }
             },
-			{
+            {
                 "threshold": 89,
                 "model": {
                     "type": "model",
                     "model": "block/trapdoor_waxed_cut_copper_bottom"
                 }
             },
-			{
+            {
                 "threshold": 90,
                 "model": {
                     "type": "model",
                     "model": "block/trapdoor_waxed_cut_copper_side"
                 }
             },
-			{
+            {
                 "threshold": 91,
                 "model": {
                     "type": "model",
                     "model": "block/vertical_slab_waxed_cut_copper"
                 }
             },
-			{
+            {
                 "threshold": 92,
                 "model": {
                     "type": "model",
                     "model": "block/beam_core_rusty"
                 }
             },
-			{
+            {
                 "threshold": 97,
                 "model": {
                     "type": "model",
                     "model": "block/beam_horizontal_rusty"
                 }
             },
-			{
+            {
                 "threshold": 93,
                 "model": {
                     "type": "model",
                     "model": "block/beam_horizontal_rusty_down"
                 }
             },
-			{
+            {
                 "threshold": 94,
                 "model": {
                     "type": "model",
                     "model": "block/trapdoor_rusty_steel_bottom"
                 }
             },
-			{
+            {
                 "threshold": 95,
                 "model": {
                     "type": "model",
                     "model": "block/trapdoor_rusty_steel_side"
                 }
             },
-			{
+            {
                 "threshold": 96,
                 "model": {
                     "type": "model",
                     "model": "block/vertical_slab_lapis_block"
                 }
             },
-			{
+            {
                 "threshold": 98,
                 "model": {
                     "type": "model",
@@ -588,336 +588,336 @@
                     "model": "block/marker_info"
                 }
             },
-			{
+            {
                 "threshold": 106,
                 "model": {
                     "type": "model",
                     "model": "block/crenelation"
                 }
             },
-			{
+            {
                 "threshold": 107,
                 "model": {
                     "type": "model",
-                    "model": "item/crenelation_spike"
+                    "model": "block/inventory/crenelation_spike"
                 }
             },
-			{
+            {
                 "threshold": 108,
                 "model": {
                     "type": "model",
-                    "model": "item/spike_prism"
+                    "model": "block/inventory/spike_prism"
                 }
             },
-			{
+            {
                 "threshold": 111,
                 "model": {
                     "type": "model",
-                    "model": "item/spike_pyramid"
+                    "model": "block/inventory/spike_pyramid"
                 }
             },
-			{
+            {
                 "threshold": 112,
                 "model": {
                     "type": "model",
-                    "model": "item/spike_deco_small"
+                    "model": "block/inventory/spike_deco_small"
                 }
             },
-			{
+            {
                 "threshold": 113,
                 "model": {
                     "type": "model",
-                    "model": "item/spike_deco_large"
+                    "model": "block/inventory/spike_deco_large"
                 }
             },
-			{
+            {
                 "threshold": 114,
                 "model": {
                     "type": "model",
-                    "model": "item/spike_diag_small"
+                    "model": "block/inventory/spike_diag_small"
                 }
             },
-			{
+            {
                 "threshold": 115,
                 "model": {
                     "type": "model",
-                    "model": "item/spike_wall_xl"
+                    "model": "block/inventory/spike_wall_xl"
                 }
             },
-			{
+            {
                 "threshold": 116,
                 "model": {
                     "type": "model",
-                    "model": "item/spike_wall_small"
+                    "model": "block/inventory/spike_wall_small"
                 }
             },
-			{
+            {
                 "threshold": 117,
                 "model": {
                     "type": "model",
-                    "model": "item/spike_wall_large"
+                    "model": "block/inventory/spike_wall_large"
                 }
             },
-			{
+            {
                 "threshold": 118,
                 "model": {
                     "type": "model",
-                    "model": "item/spike_upwards_large"
+                    "model": "block/inventory/spike_upwards_large"
                 }
             },
-			{
+            {
                 "threshold": 119,
                 "model": {
                     "type": "model",
-                    "model": "item/spike_downwards_large"
+                    "model": "block/inventory/spike_downwards_large"
                 }
             },
-			{
+            {
                 "threshold": 120,
                 "model": {
                     "type": "model",
-                    "model": "item/spike_upwards_xl"
+                    "model": "block/inventory/spike_upwards_xl"
                 }
             },
-			{
+            {
                 "threshold": 121,
                 "model": {
                     "type": "model",
-                    "model": "item/spike_downwards_xl"
+                    "model": "block/inventory/spike_downwards_xl"
                 }
             },
-			{
+            {
                 "threshold": 122,
                 "model": {
                     "type": "model",
-                    "model": "item/wedge_large"
+                    "model": "block/inventory/wedge_large"
                 }
             },
-			{
+            {
                 "threshold": 123,
                 "model": {
                     "type": "model",
-                    "model": "item/wedge_spike_large"
+                    "model": "block/inventory/wedge_spike_large"
                 }
             },
-			{
+            {
                 "threshold": 124,
                 "model": {
                     "type": "model",
-                    "model": "item/corbel_large"
+                    "model": "block/inventory/corbel_large"
                 }
             },
-			{
+            {
                 "threshold": 126,
                 "model": {
                     "type": "model",
-                    "model": "item/wedge_small"
+                    "model": "block/inventory/wedge_small"
                 }
             },
-			{
+            {
                 "threshold": 127,
                 "model": {
                     "type": "model",
-                    "model": "item/corbel_small"
+                    "model": "block/inventory/corbel_small"
                 }
             },
-			{
+            {
                 "threshold": 128,
                 "model": {
                     "type": "model",
-                    "model": "item/spike_upwards_small"
+                    "model": "block/inventory/spike_upwards_small"
                 }
             },
-			{
+            {
                 "threshold": 129,
                 "model": {
                     "type": "model",
-                    "model": "item/metal_window"
+                    "model": "block/inventory/metal_window"
                 }
             },
-			{
+            {
                 "threshold": 130,
                 "model": {
                     "type": "model",
-                    "model": "item/metal_window_down"
+                    "model": "block/inventory/metal_window_down"
                 }
             },
-			{
+            {
                 "threshold": 131,
                 "model": {
                     "type": "model",
                     "model": "block/reinforced_strip_wall"
                 }
             },
-			{
+            {
                 "threshold": 132,
                 "model": {
                     "type": "model",
                     "model": "block/reinforced_strip_wall_deco"
                 }
             },
-			{
+            {
                 "threshold": 133,
                 "model": {
                     "type": "model",
                     "model": "block/reinforced_strip_wall_wide"
                 }
             },
-			{
+            {
                 "threshold": 134,
                 "model": {
                     "type": "model",
                     "model": "block/reinforced_rod_end"
                 }
             },
-			{
+            {
                 "threshold": 135,
                 "model": {
                     "type": "model",
                     "model": "block/reinforced_rod_end_big"
                 }
             },
-			{
+            {
                 "threshold": 136,
                 "model": {
                     "type": "model",
                     "model": "block/reinforced_strip_floor"
                 }
             },
-			{
+            {
                 "threshold": 137,
                 "model": {
                     "type": "model",
                     "model": "block/reinforced_strip_ceyling"
                 }
             },
-			{
+            {
                 "threshold": 138,
                 "model": {
                     "type": "model",
                     "model": "block/reinforced_strip_floor_deco"
                 }
             },
-			{
+            {
                 "threshold": 139,
                 "model": {
                     "type": "model",
                     "model": "block/reinforced_strip_ceyling_deco"
                 }
             },
-			{
+            {
                 "threshold": 140,
                 "model": {
                     "type": "model",
                     "model": "block/reinforced_strip_floor_wide"
                 }
             },
-			{
+            {
                 "threshold": 141,
                 "model": {
                     "type": "model",
                     "model": "block/reinforced_strip_ceyling_wide"
                 }
             },
-			{
+            {
                 "threshold": 142,
                 "model": {
                     "type": "model",
                     "model": "block/trapdoor_dark_brick_bottom"
                 }
             },
-			{
+            {
                 "threshold": 143,
                 "model": {
                     "type": "model",
                     "model": "block/trapdoor_dark_brick_side"
                 }
             },
-			{
+            {
                 "threshold": 144,
                 "model": {
                     "type": "model",
                     "model": "block/dark_oak_fence_gate_closed"
                 }
             },
-			{
+            {
                 "threshold": 145,
                 "model": {
                     "type": "model",
                     "model": "block/chiseled_polished_blackstone_side_stairs"
                 }
             },
-			{
+            {
                 "threshold": 146,
                 "model": {
                     "type": "model",
                     "model": "block/brown_mushroom_block_neswud"
                 }
             },
-			{
+            {
                 "threshold": 147,
                 "model": {
                     "type": "model",
                     "model": "block/brown_mushroom_block_neswu"
                 }
             },
-			{
+            {
                 "threshold": 148,
                 "model": {
                     "type": "model",
                     "model": "block/trapdoor_small_dark_bricks_bottom"
                 }
             },
-			{
+            {
                 "threshold": 149,
                 "model": {
                     "type": "model",
                     "model": "block/trapdoor_small_dark_bricks_side"
                 }
             },
-			{
+            {
                 "threshold": 150,
                 "model": {
                     "type": "model",
                     "model": "block/vertical_slab_small_dark_bricks"
                 }
             },
-			{
+            {
                 "threshold": 151,
                 "model": {
                     "type": "model",
                     "model": "block/brown_mushroom_block_neswd"
                 }
             },
-			{
+            {
                 "threshold": 152,
                 "model": {
                     "type": "model",
                     "model": "block/brown_mushroom_block_nesw"
                 }
             },
-			{
+            {
                 "threshold": 153,
                 "model": {
                     "type": "model",
                     "model": "block/brown_mushroom_block_esu"
                 }
             },
-			{
+            {
                 "threshold": 154,
                 "model": {
                     "type": "model",
                     "model": "block/pillar_top_dark_gray"
                 }
             },
-			{
+            {
                 "threshold": 155,
                 "model": {
                     "type": "model",
                     "model": "block/pillar_top_half_dark_gray"
                 }
             },
-			{
+            {
                 "threshold": 156,
                 "model": {
                     "type": "model",
@@ -928,122 +928,122 @@
                 "threshold": 158,
                 "model": {
                     "type": "model",
-                    "model": "item/redstone_dust_power4_center"
+                    "model": "block/inventory/redstone_dust_power4_center"
                 }
             },
             {
                 "threshold": 159,
                 "model": {
                     "type": "model",
-                    "model": "item/redstone_dust_power5_center"
+                    "model": "block/inventory/redstone_dust_power5_center"
                 }
             },
-			{
+            {
                 "threshold": 163,
                 "model": {
                     "type": "model",
                     "model": "block/vertical_slab_stripped_warped_hyphae"
                 }
             },
-			{
+            {
                 "threshold": 164,
                 "model": {
                     "type": "model",
                     "model": "block/vertical_slab_polished_basalt"
                 }
             },
-			{
+            {
                 "threshold": 165,
                 "model": {
                     "type": "model",
                     "model": "block/vertical_slab_basalt"
                 }
             },
-			{
+            {
                 "threshold": 166,
                 "model": {
                     "type": "model",
                     "model": "block/white_glazed_terracotta_ne"
                 }
             },
-			{
+            {
                 "threshold": 167,
                 "model": {
                     "type": "model",
                     "model": "block/pink_glazed_terracotta_ne"
                 }
             },
-			{
+            {
                 "threshold": 168,
                 "model": {
                     "type": "model",
                     "model": "block/lime_glazed_terracotta_ne"
                 }
             },
-			{
+            {
                 "threshold": 169,
                 "model": {
                     "type": "model",
                     "model": "block/light_gray_glazed_terracotta_ne"
                 }
             },
-			{
+            {
                 "threshold": 170,
                 "model": {
                     "type": "model",
                     "model": "block/nether_bricks_side_stairs"
                 }
             },
-			{
+            {
                 "threshold": 171,
                 "model": {
                     "type": "model",
                     "model": "block/vertical_slab_black_bricks_seamless"
                 }
             },
-			{
+            {
                 "threshold": 172,
                 "model": {
                     "type": "model",
                     "model": "block/trapdoor_black_brick_bottom"
                 }
             },
-			{
+            {
                 "threshold": 173,
                 "model": {
                     "type": "model",
                     "model": "block/trapdoor_black_bricks_side"
                 }
             },
-			{
+            {
                 "threshold": 174,
                 "model": {
                     "type": "model",
                     "model": "block/brown_mushroom_block_ned"
                 }
             },
-			{
+            {
                 "threshold": 175,
                 "model": {
                     "type": "model",
                     "model": "block/brown_mushroom_block_newu"
                 }
             },
-			{
+            {
                 "threshold": 176,
                 "model": {
                     "type": "model",
                     "model": "block/brown_mushroom_block_newud"
                 }
             },
-			{
+            {
                 "threshold": 177,
                 "model": {
                     "type": "model",
                     "model": "block/brown_mushroom_block_neu"
                 }
             },
-			{
+            {
                 "threshold": 178,
                 "model": {
                     "type": "model",
@@ -1057,133 +1057,133 @@
                     "model": "block/podzol_snowy"
                 }
             },
-			{
+            {
                 "threshold": 190,
                 "model": {
                     "type": "model",
                     "model": "block/brown_mushroom_block_newd"
                 }
             },
-			{
+            {
                 "threshold": 191,
                 "model": {
                     "type": "model",
                     "model": "block/brown_mushroom_block_new"
                 }
             },
-			{
+            {
                 "threshold": 192,
                 "model": {
                     "type": "model",
                     "model": "block/trapdoor_small_black_bricks_bottom"
                 }
             },
-			{
+            {
                 "threshold": 193,
                 "model": {
                     "type": "model",
                     "model": "block/trapdoor_small_black_bricks_side"
                 }
             },
-			{
+            {
                 "threshold": 194,
                 "model": {
                     "type": "model",
                     "model": "block/vertical_slab_small_black_bricks"
                 }
             },
-			{
+            {
                 "threshold": 195,
                 "model": {
                     "type": "model",
                     "model": "block/brown_mushroom_block_ne"
                 }
             },
-			{
+            {
                 "threshold": 196,
                 "model": {
                     "type": "model",
                     "model": "block/pillar_top_black"
                 }
             },
-			{
+            {
                 "threshold": 197,
                 "model": {
                     "type": "model",
                     "model": "block/pillar_top_half_black"
                 }
             },
-			{
+            {
                 "threshold": 198,
                 "model": {
                     "type": "model",
                     "model": "block/nether_bricks_stone_arch"
                 }
             },
-			{
+            {
                 "threshold": 199,
                 "model": {
                     "type": "model",
                     "model": "block/vertical_slab_stripped_warped_stem"
                 }
             },
-			{
+            {
                 "threshold": 200,
                 "model": {
                     "type": "model",
                     "model": "block/vertical_slab_warped_hyphae"
                 }
             },
-			{
+            {
                 "threshold": 201,
                 "model": {
                     "type": "model",
                     "model": "block/vertical_slab_warped_stem"
                 }
             },
-			{
+            {
                 "threshold": 202,
                 "model": {
                     "type": "model",
                     "model": "block/cyan_glazed_terracotta"
                 }
             },
-			{
+            {
                 "threshold": 203,
                 "model": {
                     "type": "model",
                     "model": "block/magenta_glazed_terracotta"
                 }
             },
-			{
+            {
                 "threshold": 204,
                 "model": {
                     "type": "model",
                     "model": "block/purple_glazed_terracotta_ne"
                 }
             },
-			{
+            {
                 "threshold": 205,
                 "model": {
                     "type": "model",
                     "model": "block/yellow_glazed_terracotta_ne"
                 }
             },
-			{
+            {
                 "threshold": 206,
                 "model": {
                     "type": "model",
                     "model": "block/brown_mushroom_block_nesd"
                 }
             },
-			{
+            {
                 "threshold": 207,
                 "model": {
                     "type": "model",
                     "model": "block/smooth_sandstone_side_stairs"
                 }
             },
-			{
+            {
                 "threshold": 208,
                 "model": {
                     "type": "model",
@@ -1316,280 +1316,280 @@
                     "model": "block/comparator_powered_subtract_w"
                 }
             },
-			{
+            {
                 "threshold": 228,
                 "model": {
                     "type": "model",
                     "model": "block/trapdoor_red_black_bricks_bottom"
                 }
             },
-			{
+            {
                 "threshold": 229,
                 "model": {
                     "type": "model",
                     "model": "block/trapdoor_red_black_bricks_side"
                 }
             },
-			{
+            {
                 "threshold": 230,
                 "model": {
                     "type": "model",
                     "model": "block/brown_mushroom_block_esw"
                 }
             },
-			{
+            {
                 "threshold": 231,
                 "model": {
                     "type": "model",
                     "model": "block/brown_mushroom_block_nw"
                 }
             },
-			{
+            {
                 "threshold": 232,
                 "model": {
                     "type": "model",
                     "model": "block/brown_mushroom_block_nwd"
                 }
             },
-			{
+            {
                 "threshold": 233,
                 "model": {
                     "type": "model",
                     "model": "block/brown_mushroom_block_eswd"
                 }
             },
-			{
+            {
                 "threshold": 234,
                 "model": {
                     "type": "model",
                     "model": "block/brown_mushroom_block_nu"
                 }
             },
-			{
+            {
                 "threshold": 235,
                 "model": {
                     "type": "model",
                     "model": "block/brown_mushroom_block_nud"
                 }
             },
-			{
+            {
                 "threshold": 236,
                 "model": {
                     "type": "model",
                     "model": "block/trapdoor_blackest_small_bricks_bottom"
                 }
             },
-			{
+            {
                 "threshold": 237,
                 "model": {
                     "type": "model",
                     "model": "block/trapdoor_blackest_small_bricks_side"
                 }
             },
-			{
+            {
                 "threshold": 238,
                 "model": {
                     "type": "model",
                     "model": "block/vertical_slab_red_sandstone"
                 }
             },
-			{
+            {
                 "threshold": 239,
                 "model": {
                     "type": "model",
                     "model": "block/brown_mushroom_block_esud"
                 }
             },
-			{
+            {
                 "threshold": 240,
                 "model": {
                     "type": "model",
                     "model": "block/pillar_top_blackest"
                 }
             },
-			{
+            {
                 "threshold": 241,
                 "model": {
                     "type": "model",
                     "model": "block/pillar_top_half_blackest"
                 }
             },
-			{
+            {
                 "threshold": 242,
                 "model": {
                     "type": "model",
                     "model": "block/smooth_sandstone_stone_arch"
                 }
             },
-			{
+            {
                 "threshold": 243,
                 "model": {
                     "type": "model",
                     "model": "block/vertical_slab_stripped_crimson_stem"
                 }
             },
-			{
+            {
                 "threshold": 244,
                 "model": {
                     "type": "model",
                     "model": "block/vertical_slab_crimson_stem"
                 }
             },
-			{
+            {
                 "threshold": 245,
                 "model": {
                     "type": "model",
                     "model": "block/powder_snow"
                 }
             },
-			{
+            {
                 "threshold": 246,
                 "model": {
                     "type": "model",
                     "model": "block/vertical_slab_red_mushroom_block_nwud"
                 }
             },
-			{
+            {
                 "threshold": 247,
                 "model": {
                     "type": "model",
                     "model": "block/vertical_slab_cobblestone"
                 }
             },
-			{
+            {
                 "threshold": 248,
                 "model": {
                     "type": "model",
                     "model": "block/red_mushroom_block_nwud"
                 }
             },
-			{
+            {
                 "threshold": 249,
                 "model": {
                     "type": "model",
                     "model": "block/red_mushroom_block_nesud"
                 }
             },
-			{
+            {
                 "threshold": 250,
                 "model": {
                     "type": "model",
                     "model": "block/red_mushroom_block_neswud"
                 }
             },
-			{
+            {
                 "threshold": 251,
                 "model": {
                     "type": "model",
                     "model": "block/trapdoor_cobblestone_bottom"
                 }
             },
-			{
+            {
                 "threshold": 252,
                 "model": {
                     "type": "model",
                     "model": "block/trapdoor_cobblestone_open"
                 }
             },
-			{
+            {
                 "threshold": 253,
                 "model": {
                     "type": "model",
                     "model": "block/trapdoor_mossy_cobblestone_open"
                 }
             },
-			{
+            {
                 "threshold": 254,
                 "model": {
                     "type": "model",
                     "model": "block/trapdoor_mossy_cobblestone_bottom"
                 }
             },
-			{
+            {
                 "threshold": 255,
                 "model": {
                     "type": "model",
                     "model": "block/vertical_slab_cobblestone_mossy"
                 }
             },
-			{
+            {
                 "threshold": 256,
                 "model": {
                     "type": "model",
                     "model": "block/target_block_power1"
                 }
             },
-			{
+            {
                 "threshold": 257,
                 "model": {
                     "type": "model",
                     "model": "block/double_slab_cobblestone"
                 }
             },
-			{
+            {
                 "threshold": 258,
                 "model": {
                     "type": "model",
                     "model": "block/trapdoor_dark_cobblestone_open"
                 }
             },
-			{
+            {
                 "threshold": 259,
                 "model": {
                     "type": "model",
                     "model": "block/trapdoor_dark_cobblestone_bottom"
                 }
             },
-			{
+            {
                 "threshold": 260,
                 "model": {
                     "type": "model",
                     "model": "block/trapdoor_mixed_cobblestone_open"
                 }
             },
-			{
+            {
                 "threshold": 261,
                 "model": {
                     "type": "model",
                     "model": "block/trapdoor_mixed_cobblestone_bottom"
                 }
             },
-			{
+            {
                 "threshold": 264,
                 "model": {
                     "type": "model",
                     "model": "block/double_slab_purpur"
                 }
             },
-			{
+            {
                 "threshold": 267,
                 "model": {
                     "type": "model",
                     "model": "block/powered_repeater_delay2_w"
                 }
             },
-			{
+            {
                 "threshold": 268,
                 "model": {
                     "type": "model",
                     "model": "block/vertical_slab_double_slab_cobblestone"
                 }
             },
-			{
+            {
                 "threshold": 270,
                 "model": {
                     "type": "model",
                     "model": "block/powered_repeater_delay2_n"
                 }
             },
-			{
+            {
                 "threshold": 271,
                 "model": {
                     "type": "model",
                     "model": "block/vertical_slab_double_slab_cobblestone_seamless"
                 }
             },
-			{
+            {
                 "threshold": 272,
                 "model": {
                     "type": "model",
@@ -1603,238 +1603,238 @@
                     "model": "block/polished_diorite_slab_double"
                 }
             },
-			{
+            {
                 "threshold": 280,
                 "model": {
                     "type": "model",
                     "model": "block/vertical_slab_dark_cobble"
                 }
             },
-			{
+            {
                 "threshold": 281,
                 "model": {
                     "type": "model",
                     "model": "block/trapdoor_dark_cobble_bottom"
                 }
             },
-			{
+            {
                 "threshold": 282,
                 "model": {
                     "type": "model",
                     "model": "block/trapdoor_dark_cobble_side"
                 }
             },
-			{
+            {
                 "threshold": 283,
                 "model": {
                     "type": "model",
                     "model": "block/trapdoor_black_cobble_open"
                 }
             },
-			{
+            {
                 "threshold": 284,
                 "model": {
                     "type": "model",
                     "model": "block/trapdoor_black_cobble_bottom"
                 }
             },
-			{
+            {
                 "threshold": 285,
                 "model": {
                     "type": "model",
                     "model": "block/vertical_slab_black_cobble_seamless"
                 }
             },
-			{
+            {
                 "threshold": 286,
                 "model": {
                     "type": "model",
                     "model": "block/trapdoor_red_nether_brick_bottom"
                 }
             },
-			{
+            {
                 "threshold": 287,
                 "model": {
                     "type": "model",
                     "model": "block/trapdoor_red_nether_brick_open"
                 }
             },
-			{
+            {
                 "threshold": 288,
                 "model": {
                     "type": "model",
                     "model": "block/vertical_slab_red_nether_brick"
                 }
             },
-			{
+            {
                 "threshold": 289,
                 "model": {
                     "type": "model",
                     "model": "block/double_slab_nether_brick_seamless"
                 }
             },
-			{
+            {
                 "threshold": 290,
                 "model": {
                     "type": "model",
                     "model": "block/double_slab_nether_brick"
                 }
             },
-			{
+            {
                 "threshold": 291,
                 "model": {
                     "type": "model",
                     "model": "block/dark_oak_door_bottom"
                 }
             },
-			{
+            {
                 "threshold": 292,
                 "model": {
                     "type": "model",
                     "model": "block/trapdoor_brown_brick_bottom"
                 }
             },
-			{
+            {
                 "threshold": 293,
                 "model": {
                     "type": "model",
                     "model": "block/trapdoor_double_slab_nether_brick_side"
                 }
             },
-			{
+            {
                 "threshold": 294,
                 "model": {
                     "type": "model",
                     "model": "block/trapdoor_mossy_brown_brick_bottom"
                 }
             },
-			{
+            {
                 "threshold": 295,
                 "model": {
                     "type": "model",
                     "model": "block/repeater_delay4_s"
                 }
             },
-			{
+            {
                 "threshold": 296,
                 "model": {
                     "type": "model",
                     "model": "block/vertical_slab_double_slab_nether_brick_seamless"
                 }
             },
-			{
+            {
                 "threshold": 297,
                 "model": {
                     "type": "model",
                     "model": "block/vertical_slab_double_slab_nether_brick"
                 }
             },
-			{
+            {
                 "threshold": 298,
                 "model": {
                     "type": "model",
                     "model": "block/repeater_delay4_w"
                 }
             },
-			{
+            {
                 "threshold": 299,
                 "model": {
                     "type": "model",
                     "model": "block/target_block_power9"
                 }
             },
-			{
+            {
                 "threshold": 300,
                 "model": {
                     "type": "model",
                     "model": "block/lime_glazed_terracotta_sw"
                 }
             },
-			{
+            {
                 "threshold": 301,
                 "model": {
                     "type": "model",
                     "model": "block/warped_wart_block_side_stairs"
                 }
             },
-			{
+            {
                 "threshold": 302,
                 "model": {
                     "type": "model",
                     "model": "block/vertical_slab_green_bricks"
                 }
             },
-			{
+            {
                 "threshold": 303,
                 "model": {
                     "type": "model",
                     "model": "block/trapdoor_green_brick_bottom"
                 }
             },
-			{
+            {
                 "threshold": 304,
                 "model": {
                     "type": "model",
                     "model": "block/trapdoor_green_brick_open"
                 }
             },
-			{
+            {
                 "threshold": 305,
                 "model": {
                     "type": "model",
                     "model": "block/brown_mushroom_block_nwud"
                 }
             },
-			{
+            {
                 "threshold": 306,
                 "model": {
                     "type": "model",
                     "model": "block/brown_mushroom_block_nsw"
                 }
             },
-			{
+            {
                 "threshold": 307,
                 "model": {
                     "type": "model",
                     "model": "block/brown_mushroom_block_ns"
                 }
             },
-			{
+            {
                 "threshold": 308,
                 "model": {
                     "type": "model",
                     "model": "block/brown_mushroom_block_nsu"
                 }
             },
-			{
+            {
                 "threshold": 309,
                 "model": {
                     "type": "model",
                     "model": "block/brown_mushroom_block_nsud"
                 }
             },
-			{
+            {
                 "threshold": 310,
                 "model": {
                     "type": "model",
                     "model": "block/trapdoor_green_small_brick_bottom"
                 }
             },
-			{
+            {
                 "threshold": 311,
                 "model": {
                     "type": "model",
                     "model": "block/trapdoor_green_small_bricks_open"
                 }
             },
-			{
+            {
                 "threshold": 312,
                 "model": {
                     "type": "model",
                     "model": "block/vertical_slab_green_bricks_small"
                 }
             },
-			{
+            {
                 "threshold": 313,
                 "model": {
                     "type": "model",
@@ -1869,133 +1869,133 @@
                     "model": "block/boulders_mossy"
                 }
             },
-			{
+            {
                 "threshold": 320,
                 "model": {
                     "type": "model",
                     "model": "block/pillar_top_dark_green"
                 }
             },
-			{
+            {
                 "threshold": 321,
                 "model": {
                     "type": "model",
                     "model": "block/prismarine_wall_pillar"
                 }
             },
-			{
+            {
                 "threshold": 322,
                 "model": {
                     "type": "model",
-                    "model": "item/charred_fern"
+                    "model": "block/inventory/charred_fern"
                 }
             },
-			{
+            {
                 "threshold": 323,
                 "model": {
                     "type": "model",
                     "model": "block/dead_tube_coral"
                 }
             },
-			{
+            {
                 "threshold": 324,
                 "model": {
                     "type": "model",
                     "model": "block/horn_coral"
                 }
             },
-			{
+            {
                 "threshold": 325,
                 "model": {
                     "type": "model",
                     "model": "block/decidous_sapling_dead"
                 }
             },
-			{
+            {
                 "threshold": 326,
                 "model": {
                     "type": "model",
                     "model": "block/dry_heather"
                 }
             },
-			{
+            {
                 "threshold": 327,
                 "model": {
                     "type": "model",
                     "model": "block/dead_heather"
                 }
             },
-			{
+            {
                 "threshold": 328,
                 "model": {
                     "type": "model",
                     "model": "block/tall_grass"
                 }
             },
-			{
+            {
                 "threshold": 329,
                 "model": {
                     "type": "model",
                     "model": "block/grass"
                 }
             },
-			{
+            {
                 "threshold": 330,
                 "model": {
                     "type": "model",
                     "model": "block/putrid_log"
                 }
             },
-			{
+            {
                 "threshold": 331,
                 "model": {
                     "type": "model",
                     "model": "block/stripped_acacia_wood"
                 }
             },
-			{
+            {
                 "threshold": 332,
                 "model": {
                     "type": "model",
                     "model": "block/dead_log_horizontal"
                 }
             },
-			{
+            {
                 "threshold": 333,
                 "model": {
                     "type": "model",
                     "model": "block/vertical_slab_putrid_log"
                 }
             },
-			{
+            {
                 "threshold": 334,
                 "model": {
                     "type": "model",
                     "model": "block/trapdoor_putrid_log_open"
                 }
             },
-			{
+            {
                 "threshold": 335,
                 "model": {
                     "type": "model",
-                    "model": "item/putrid_stump_inv"
+                    "model": "block/inventory/putrid_stump_inv"
                 }
             },
-			{
+            {
                 "threshold": 336,
                 "model": {
                     "type": "model",
-                    "model": "item/putrid_sticks_inv"
+                    "model": "block/inventory/putrid_sticks_inv"
                 }
             },
-			{
+            {
                 "threshold": 337,
                 "model": {
                     "type": "model",
                     "model": "block/putrid_top_cover"
                 }
             },
-			{
+            {
                 "threshold": 338,
                 "model": {
                     "type": "model",
@@ -2006,70 +2006,70 @@
                 "threshold": 339,
                 "model": {
                     "type": "model",
-                    "model": "item/stationary_lava"
+                    "model": "block/inventory/stationary_lava"
                 }
             },
             {
                 "threshold": 340,
                 "model": {
                     "type": "model",
-                    "model": "item/stationary_lava_height2"
+                    "model": "block/inventory/stationary_lava_height2"
                 }
             },
             {
                 "threshold": 341,
                 "model": {
                     "type": "model",
-                    "model": "item/stationary_water"
+                    "model": "block/inventory/stationary_water"
                 }
             },
             {
                 "threshold": 342,
                 "model": {
                     "type": "model",
-                    "model": "item/stationary_water_height2"
+                    "model": "block/inventory/stationary_water_height2"
                 }
             },
             {
                 "threshold": 343,
                 "model": {
                     "type": "model",
-                    "model": "item/stationary_water_height4"
+                    "model": "block/inventory/stationary_water_height4"
                 }
             },
             {
                 "threshold": 344,
                 "model": {
                     "type": "model",
-                    "model": "item/stationary_water_height6"
+                    "model": "block/inventory/stationary_water_height6"
                 }
             },
             {
                 "threshold": 345,
                 "model": {
                     "type": "model",
-                    "model": "item/stationary_water_height8"
+                    "model": "block/inventory/stationary_water_height8"
                 }
             },
             {
                 "threshold": 346,
                 "model": {
                     "type": "model",
-                    "model": "item/stationary_water_height10"
+                    "model": "block/inventory/stationary_water_height10"
                 }
             },
             {
                 "threshold": 347,
                 "model": {
                     "type": "model",
-                    "model": "item/stationary_water_height12"
+                    "model": "block/inventory/stationary_water_height12"
                 }
             },
             {
                 "threshold": 348,
                 "model": {
                     "type": "model",
-                    "model": "item/stationary_water_height14"
+                    "model": "block/inventory/stationary_water_height14"
                 }
             },
             {
@@ -2079,7 +2079,7 @@
                     "model": "block/double_slab_planks_jungle_1"
                 }
             },
-			{
+            {
                 "threshold": 350,
                 "model": {
                     "type": "model",
@@ -2097,42 +2097,42 @@
                 "threshold": 355,
                 "model": {
                     "type": "model",
-                    "model": "item/stationary_lava_height4"
+                    "model": "block/inventory/stationary_lava_height4"
                 }
             },
             {
                 "threshold": 356,
                 "model": {
                     "type": "model",
-                    "model": "item/stationary_lava_height6"
+                    "model": "block/inventory/stationary_lava_height6"
                 }
             },
             {
                 "threshold": 357,
                 "model": {
                     "type": "model",
-                    "model": "item/stationary_lava_height8"
+                    "model": "block/inventory/stationary_lava_height8"
                 }
             },
             {
                 "threshold": 358,
                 "model": {
                     "type": "model",
-                    "model": "item/stationary_lava_height10"
+                    "model": "block/inventory/stationary_lava_height10"
                 }
             },
             {
                 "threshold": 359,
                 "model": {
                     "type": "model",
-                    "model": "item/stationary_lava_height12"
+                    "model": "block/inventory/stationary_lava_height12"
                 }
             },
             {
                 "threshold": 360,
                 "model": {
                     "type": "model",
-                    "model": "item/stationary_lava_height14"
+                    "model": "block/inventory/stationary_lava_height14"
                 }
             },
             {
@@ -2177,182 +2177,182 @@
                     "model": "block/red_mushroom_block_es"
                 }
             },
-			{
+            {
                 "threshold": 375,
                 "model": {
                     "type": "model",
                     "model": "block/double_slab_planks_oak"
                 }
             },
-			{
+            {
                 "threshold": 376,
                 "model": {
                     "type": "model",
                     "model": "block/double_slab_planks_birch_2"
                 }
             },
-			{
+            {
                 "threshold": 377,
                 "model": {
                     "type": "model",
                     "model": "block/big_barrel"
                 }
             },
-			{
+            {
                 "threshold": 378,
                 "model": {
                     "type": "model",
                     "model": "block/wood_basket"
                 }
             },
-			{
+            {
                 "threshold": 379,
                 "model": {
                     "type": "model",
                     "model": "block/wooden_crate_broken"
                 }
             },
-			{
+            {
                 "threshold": 380,
                 "model": {
                     "type": "model",
                     "model": "block/thatch_basket"
                 }
             },
-			{
+            {
                 "threshold": 381,
                 "model": {
                     "type": "model",
                     "model": "block/big_basket"
                 }
             },
-			{
+            {
                 "threshold": 382,
                 "model": {
                     "type": "model",
                     "model": "block/rope"
                 }
             },
-			{
+            {
                 "threshold": 383,
                 "model": {
                     "type": "model",
                     "model": "block/rope_asc"
                 }
             },
-			{
+            {
                 "threshold": 384,
                 "model": {
                     "type": "model",
                     "model": "block/rope_asc_right"
                 }
             },
-			{
+            {
                 "threshold": 385,
                 "model": {
                     "type": "model",
                     "model": "block/rope_corner"
                 }
             },
-			{
+            {
                 "threshold": 386,
                 "model": {
                     "type": "model",
-                    "model": "item/rope_right_2x1"
+                    "model": "block/inventory/rope_right_2x1"
                 }
             },
-			{
+            {
                 "threshold": 387,
                 "model": {
                     "type": "model",
-                    "model": "item/rope_left_2x1"
+                    "model": "block/inventory/rope_left_2x1"
                 }
             },
-			{
+            {
                 "threshold": 388,
                 "model": {
                     "type": "model",
-                    "model": "item/rope_45_2x1"
+                    "model": "block/inventory/rope_45_2x1"
                 }
             },
-			{
+            {
                 "threshold": 389,
                 "model": {
                     "type": "model",
                     "model": "block/rope_diagonal"
                 }
             },
-			{
+            {
                 "threshold": 390,
                 "model": {
                     "type": "model",
                     "model": "block/rope_flat"
                 }
             },
-			{
+            {
                 "threshold": 391,
                 "model": {
                     "type": "model",
                     "model": "block/powered_rail_raised"
                 }
             },
-			{
+            {
                 "threshold": 392,
                 "model": {
                     "type": "model",
                     "model": "block/powered_rail"
                 }
             },
-			{
+            {
                 "threshold": 393,
                 "model": {
                     "type": "model",
                     "model": "block/powered_rail_vertical"
                 }
             },
-			{
+            {
                 "threshold": 394,
                 "model": {
                     "type": "model",
                     "model": "block/powered_rail_diagonal"
                 }
             },
-			{
+            {
                 "threshold": 395,
                 "model": {
                     "type": "model",
                     "model": "block/nether_wart_2_0"
                 }
             },
-			{
+            {
                 "threshold": 397,
                 "model": {
                     "type": "model",
                     "model": "block/hand_crank"
                 }
             },
-			{
+            {
                 "threshold": 398,
                 "model": {
                     "type": "model",
                     "model": "block/hand_crank_2"
                 }
             },
-			{
+            {
                 "threshold": 399,
                 "model": {
                     "type": "model",
                     "model": "block/dropper_seu"
                 }
             },
-			{
+            {
                 "threshold": 400,
                 "model": {
                     "type": "model",
                     "model": "block/dropper_nwd"
                 }
             },
-			{
+            {
                 "threshold": 401,
                 "model": {
                     "type": "model",
@@ -2363,276 +2363,276 @@
                 "threshold": 402,
                 "model": {
                     "type": "model",
-                    "model": "item/grass_block_stones_only_inventory"
+                    "model": "block/inventory/grass_block_stones_only_inventory"
                 }
             },
-			{
+            {
                 "threshold": 403,
                 "model": {
                     "type": "model",
                     "model": "block/thick_chain"
                 }
             },
-			{
+            {
                 "threshold": 404,
                 "model": {
                     "type": "model",
                     "model": "block/thick_chain_hook"
                 }
             },
-			{
+            {
                 "threshold": 405,
                 "model": {
                     "type": "model",
                     "model": "block/thick_chain_side"
                 }
             },
-			{
+            {
                 "threshold": 406,
                 "model": {
                     "type": "model",
                     "model": "block/ground_chain"
                 }
             },
-			{
+            {
                 "threshold": 407,
                 "model": {
                     "type": "model",
                     "model": "block/pot_6"
                 }
             },
-			{
+            {
                 "threshold": 408,
                 "model": {
                     "type": "model",
                     "model": "block/pot_4"
                 }
             },
-			{
+            {
                 "threshold": 409,
                 "model": {
                     "type": "model",
                     "model": "block/campfire_lit"
                 }
             },
-			{
+            {
                 "threshold": 410,
                 "model": {
                     "type": "model",
                     "model": "block/ladder"
                 }
             },
-			{
+            {
                 "threshold": 411,
                 "model": {
                     "type": "model",
                     "model": "block/burnt_firepit"
                 }
             },
-			{
+            {
                 "threshold": 412,
                 "model": {
                     "type": "model",
                     "model": "block/dropper_powered_nwd"
                 }
             },
-			{
+            {
                 "threshold": 413,
                 "model": {
                     "type": "model",
                     "model": "block/stacked_wood"
                 }
             },
-			{
+            {
                 "threshold": 414,
                 "model": {
                     "type": "model",
                     "model": "block/stacked_logs_top"
                 }
             },
-			{
+            {
                 "threshold": 415,
                 "model": {
                     "type": "model",
                     "model": "block/stacked_logs_top"
                 }
             },
-			{
+            {
                 "threshold": 416,
                 "model": {
                     "type": "model",
                     "model": "block/sawhorse"
                 }
             },
-			{
+            {
                 "threshold": 417,
                 "model": {
                     "type": "model",
                     "model": "block/chandelier"
                 }
             },
-			{
+            {
                 "threshold": 418,
                 "model": {
                     "type": "model",
                     "model": "block/chandelier_big"
                 }
             },
-			{
+            {
                 "threshold": 419,
                 "model": {
                     "type": "model",
                     "model": "block/candle_holder"
                 }
             },
-			{
+            {
                 "threshold": 420,
                 "model": {
                     "type": "model",
                     "model": "block/lantern"
                 }
             },
-			{
+            {
                 "threshold": 421,
                 "model": {
                     "type": "model",
                     "model": "block/soul_lantern"
                 }
             },
-			{
+            {
                 "threshold": 422,
                 "model": {
                     "type": "model",
                     "model": "block/brazier"
                 }
             },
-			{
+            {
                 "threshold": 423,
                 "model": {
                     "type": "model",
                     "model": "block/bellows"
                 }
             },
-			{
+            {
                 "threshold": 424,
                 "model": {
                     "type": "model",
                     "model": "block/tools"
                 }
             },
-			{
+            {
                 "threshold": 425,
                 "model": {
                     "type": "model",
                     "model": "block/shovel"
                 }
             },
-			{
+            {
                 "threshold": 426,
                 "model": {
                     "type": "model",
                     "model": "block/pickaxe"
                 }
             },
-			{
+            {
                 "threshold": 427,
                 "model": {
                     "type": "model",
                     "model": "block/tongs"
                 }
             },
-			{
+            {
                 "threshold": 428,
                 "model": {
                     "type": "model",
                     "model": "block/hammer"
                 }
             },
-			{
+            {
                 "threshold": 429,
                 "model": {
                     "type": "model",
                     "model": "block/axe"
                 }
             },
-			{
+            {
                 "threshold": 430,
                 "model": {
                     "type": "model",
                     "model": "block/iron_sheets_ground"
                 }
             },
-			{
+            {
                 "threshold": 431,
                 "model": {
                     "type": "model",
                     "model": "block/hanging_hide"
                 }
             },
-			{
+            {
                 "threshold": 432,
                 "model": {
                     "type": "model",
                     "model": "block/ground_hide"
                 }
             },
-			{
+            {
                 "threshold": 433,
                 "model": {
                     "type": "model",
                     "model": "block/retaining_wall_hide"
                 }
             },
-			{
+            {
                 "threshold": 434,
                 "model": {
                     "type": "model",
                     "model": "block/plate_1"
                 }
             },
-			{
+            {
                 "threshold": 435,
                 "model": {
                     "type": "model",
                     "model": "block/plate_stack"
                 }
             },
-			{
+            {
                 "threshold": 436,
                 "model": {
                     "type": "model",
                     "model": "block/pan"
                 }
             },
-			{
+            {
                 "threshold": 437,
                 "model": {
                     "type": "model",
                     "model": "block/pan_2"
                 }
             },
-			{
+            {
                 "threshold": 438,
                 "model": {
                     "type": "model",
                     "model": "block/hanging_pans"
                 }
             },
-			{
+            {
                 "threshold": 439,
                 "model": {
                     "type": "model",
                     "model": "block/wooden_cutlery_wall"
                 }
             },
-			{
+            {
                 "threshold": 440,
                 "model": {
                     "type": "model",
                     "model": "block/wooden_cutlery_floor"
                 }
             },
-			{
+            {
                 "threshold": 441,
                 "model": {
                     "type": "model",
@@ -2646,105 +2646,105 @@
                     "model": "block/mycelium_snow"
                 }
             },
-			{
+            {
                 "threshold": 443,
                 "model": {
                     "type": "model",
                     "model": "block/wooden_bowl"
                 }
             },
-			{
+            {
                 "threshold": 444,
                 "model": {
                     "type": "model",
                     "model": "block/metal_mug"
                 }
             },
-			{
+            {
                 "threshold": 445,
                 "model": {
                     "type": "model",
                     "model": "block/bottle"
                 }
             },
-			{
+            {
                 "threshold": 446,
                 "model": {
                     "type": "model",
-                    "model": "item/goblin_banner"
+                    "model": "block/inventory/goblin_banner"
                 }
             },
-			{
+            {
                 "threshold": 447,
                 "model": {
                     "type": "model",
                     "model": "block/anvil_damage2_ne"
                 }
             },
-			{
+            {
                 "threshold": 448,
                 "model": {
                     "type": "model",
                     "model": "block/wall_banner"
                 }
             },
-			{
+            {
                 "threshold": 449,
                 "model": {
                     "type": "model",
                     "model": "block/iron_ingots"
                 }
             },
-			{
+            {
                 "threshold": 450,
                 "model": {
                     "type": "model",
                     "model": "block/cooking_pot_hanging"
                 }
             },
-			{
+            {
                 "threshold": 451,
                 "model": {
                     "type": "model",
                     "model": "block/cooking_pot_large"
                 }
             },
-			{
+            {
                 "threshold": 452,
                 "model": {
                     "type": "model",
                     "model": "block/cooking_pot_small"
                 }
             },
-			{
+            {
                 "threshold": 453,
                 "model": {
                     "type": "model",
                     "model": "block/drum"
                 }
             },
-			{
+            {
                 "threshold": 454,
                 "model": {
                     "type": "model",
                     "model": "block/drum_big"
                 }
             },
-			{
+            {
                 "threshold": 455,
                 "model": {
                     "type": "model",
                     "model": "block/burnt_firepit_big"
                 }
             },
-			{
+            {
                 "threshold": 456,
                 "model": {
                     "type": "model",
                     "model": "block/tree_thin_oak_vertical"
                 }
             },
-			{
+            {
                 "threshold": 457,
                 "model": {
                     "type": "model",
@@ -2755,444 +2755,444 @@
                 "threshold": 458,
                 "model": {
                     "type": "model",
-                    "model": "item/dark_oak_leaves_grass_soil_inventory"
+                    "model": "block/inventory/dark_oak_leaves_grass_soil_inventory"
                 }
             },
-			{
+            {
                 "threshold": 459,
                 "model": {
                     "type": "model",
                     "model": "block/meat_slab"
                 }
             },
-			{
+            {
                 "threshold": 460,
                 "model": {
                     "type": "model",
                     "model": "block/meat_spit"
                 }
             },
-			{
+            {
                 "threshold": 461,
                 "model": {
                     "type": "model",
                     "model": "block/meat_vertical"
                 }
             },
-			{
+            {
                 "threshold": 462,
                 "model": {
                     "type": "model",
                     "model": "block/wooden_shelving_simple"
                 }
             },
-			{
+            {
                 "threshold": 463,
                 "model": {
                     "type": "model",
                     "model": "block/bed_grey_half"
                 }
             },
-			{
+            {
                 "threshold": 464,
                 "model": {
                     "type": "model",
                     "model": "block/barrel"
                 }
             },
-			{
+            {
                 "threshold": 465,
                 "model": {
                     "type": "model",
                     "model": "block/barrel_meat_half_item"
                 }
             },
-			{
+            {
                 "threshold": 466,
                 "model": {
                     "type": "model",
                     "model": "block/barrel_coal_half_item"
                 }
             },
-			{
+            {
                 "threshold": 467,
                 "model": {
                     "type": "model",
                     "model": "block/barrel_coal_full_item"
                 }
             },
-			{
+            {
                 "threshold": 468,
                 "model": {
                     "type": "model",
                     "model": "block/barrel_water_half_item"
                 }
             },
-			{
+            {
                 "threshold": 469,
                 "model": {
                     "type": "model",
                     "model": "block/barrel_water_full_item"
                 }
             },
-			{
+            {
                 "threshold": 470,
                 "model": {
                     "type": "model",
                     "model": "block/primitive_roof_support"
                 }
             },
-			{
+            {
                 "threshold": 471,
                 "model": {
                     "type": "model",
                     "model": "block/minecart"
                 }
             },
-			{
+            {
                 "threshold": 472,
                 "model": {
                     "type": "model",
                     "model": "block/weathering_marks"
                 }
             },
-			{
+            {
                 "threshold": 473,
                 "model": {
                     "type": "model",
                     "model": "block/burn_marks"
                 }
             },
-			{
+            {
                 "threshold": 474,
                 "model": {
                     "type": "model",
                     "model": "block/sewage_marks"
                 }
             },
-			{
+            {
                 "threshold": 475,
                 "model": {
                     "type": "model",
                     "model": "block/chair"
                 }
             },
-			{
+            {
                 "threshold": 476,
                 "model": {
                     "type": "model",
                     "model": "block/small_table"
                 }
             },
-			{
+            {
                 "threshold": 477,
                 "model": {
                     "type": "model",
                     "model": "block/stool"
                 }
             },
-			{
+            {
                 "threshold": 478,
                 "model": {
                     "type": "model",
                     "model": "block/double_slab_wood_old"
                 }
             },
-			{
+            {
                 "threshold": 479,
                 "model": {
                     "type": "model",
                     "model": "block/paper"
                 }
             },
-			{
+            {
                 "threshold": 480,
                 "model": {
                     "type": "model",
                     "model": "block/paper_stack"
                 }
             },
-			{
+            {
                 "threshold": 481,
                 "model": {
                     "type": "model",
                     "model": "block/bell_0"
                 }
             },
-			{
+            {
                 "threshold": 482,
                 "model": {
                     "type": "model",
                     "model": "block/wheat_1"
                 }
             },
-			{
+            {
                 "threshold": 483,
                 "model": {
                     "type": "model",
                     "model": "block/plate_cutlery"
                 }
             },
-			{
+            {
                 "threshold": 484,
                 "model": {
                     "type": "model",
                     "model": "block/bread"
                 }
             },
-			{
+            {
                 "threshold": 485,
                 "model": {
                     "type": "model",
                     "model": "block/empty_rack"
                 }
             },
-			{
+            {
                 "threshold": 486,
                 "model": {
                     "type": "model",
                     "model": "block/cactus_5"
                 }
             },
-			{
+            {
                 "threshold": 487,
                 "model": {
                     "type": "model",
                     "model": "block/cactus_12"
                 }
             },
-			{
+            {
                 "threshold": 488,
                 "model": {
                     "type": "model",
                     "model": "block/tripwire_hook"
                 }
             },
-			{
+            {
                 "threshold": 489,
                 "model": {
                     "type": "model",
                     "model": "block/arrows"
                 }
             },
-			{
+            {
                 "threshold": 490,
                 "model": {
                     "type": "model",
                     "model": "block/spears_up"
                 }
             },
-			{
+            {
                 "threshold": 491,
                 "model": {
                     "type": "model",
                     "model": "block/rack_weapons"
                 }
             },
-			{
+            {
                 "threshold": 492,
                 "model": {
                     "type": "model",
                     "model": "block/shield_floor"
                 }
             },
-			{
+            {
                 "threshold": 493,
                 "model": {
                     "type": "model",
                     "model": "block/wall_shield"
                 }
             },
-			{
+            {
                 "threshold": 494,
                 "model": {
                     "type": "model",
                     "model": "block/grate"
                 }
             },
-			{
+            {
                 "threshold": 495,
                 "model": {
                     "type": "model",
                     "model": "block/note_block_25"
                 }
             },
-			{
+            {
                 "threshold": 496,
                 "model": {
                     "type": "model",
                     "model": "block/boulders_black"
                 }
             },
-			{
+            {
                 "threshold": 497,
                 "model": {
                     "type": "model",
                     "model": "block/bows"
                 }
             },
-			{
+            {
                 "threshold": 498,
                 "model": {
                     "type": "model",
-                    "model": "item/straw_mat"
+                    "model": "block/inventory/straw_mat"
                 }
             },
-			{
+            {
                 "threshold": 499,
                 "model": {
                     "type": "model",
                     "model": "block/fish_1"
                 }
             },
-			{
+            {
                 "threshold": 500,
                 "model": {
                     "type": "model",
                     "model": "block/brown_mushroom"
                 }
             },
-			{
+            {
                 "threshold": 501,
                 "model": {
                     "type": "model",
                     "model": "block/putrid_mushroom"
                 }
             },
-			{
+            {
                 "threshold": 502,
                 "model": {
                     "type": "model",
                     "model": "block/cornflower"
                 }
             },
-			{
+            {
                 "threshold": 503,
                 "model": {
                     "type": "model",
                     "model": "block/campfire_tripod"
                 }
             },
-			{
+            {
                 "threshold": 504,
                 "model": {
                     "type": "model",
                     "model": "block/ground_hide_2_offset"
                 }
             },
-			{
+            {
                 "threshold": 505,
                 "model": {
                     "type": "model",
                     "model": "block/ground_wide_hides"
                 }
             },
-			{
+            {
                 "threshold": 506,
                 "model": {
                     "type": "model",
-                    "model": "item/waste_cover"
+                    "model": "block/inventory/waste_cover"
                 }
             },
-			{
+            {
                 "threshold": 507,
                 "model": {
                     "type": "model",
                     "model": "block/repeater_delay1_w"
                 }
             },
-			{
+            {
                 "threshold": 508,
                 "model": {
                     "type": "model",
                     "model": "block/powered_repeater_delay1_s"
                 }
             },
-			{
+            {
                 "threshold": 509,
                 "model": {
                     "type": "model",
                     "model": "block/cocoa_stage0"
                 }
             },
-			{
+            {
                 "threshold": 510,
                 "model": {
                     "type": "model",
                     "model": "block/piston_head_sticky"
                 }
             },
-			{
+            {
                 "threshold": 511,
                 "model": {
                     "type": "model",
                     "model": "block/large_wooden_wheel"
                 }
             },
-			{
+            {
                 "threshold": 512,
                 "model": {
                     "type": "model",
                     "model": "block/vase_1_2"
                 }
             },
-			{
+            {
                 "threshold": 513,
                 "model": {
                     "type": "model",
                     "model": "block/beam_bones"
                 }
             },
-			{
+            {
                 "threshold": 514,
                 "model": {
                     "type": "model",
                     "model": "block/bats"
                 }
             },
-			{
+            {
                 "threshold": 515,
                 "model": {
                     "type": "model",
                     "model": "block/boulders_poopy"
                 }
             },
-			{
+            {
                 "threshold": 516,
                 "model": {
                     "type": "model",
                     "model": "block/oak_planks_offset_bottom_slab"
                 }
             },
-			{
+            {
                 "threshold": 517,
                 "model": {
                     "type": "model",
                     "model": "block/oak_planks_offset_top_slab"
                 }
             },
-			{
+            {
                 "threshold": 518,
                 "model": {
                     "type": "model",
                     "model": "block/invisible"
                 }
             },
-			{
+            {
                 "threshold": 519,
                 "model": {
                     "type": "model",
                     "model": "block/catwalk_up_long_inv"
                 }
             },
-			{
+            {
                 "threshold": 520,
                 "model": {
                     "type": "model",
                     "model": "block/shield_floor_5"
                 }
             },
-			{
+            {
                 "threshold": 521,
                 "model": {
                     "type": "model",
@@ -3296,2300 +3296,2297 @@
                     "type": "model",
                     "model": "block/dark_oak_button_1x3arch_top"
                 }
-			},
-			{
+            },
+            {
                 "threshold": 822,
                 "model": {
                     "type": "model",
                     "model": "block/oak_planks_side_stairs"
                 }
             },
-			{
+            {
                 "threshold": 823,
                 "model": {
                     "type": "model",
                     "model": "block/oak_log_transition"
                 }
             },
-			{
+            {
                 "threshold": 824,
                 "model": {
                     "type": "model",
                     "model": "block/red_mushroom_block_ew"
                 }
             },
-			{
+            {
                 "threshold": 825,
                 "model": {
                     "type": "model",
                     "model": "block/red_mushroom_block_esu"
                 }
             },
-			{
+            {
                 "threshold": 826,
                 "model": {
                     "type": "model",
                     "model": "block/crimson_planks_double_slab"
                 }
             },
-			{
+            {
                 "threshold": 827,
                 "model": {
                     "type": "model",
                     "model": "block/iron_trapdoor_bottom_s"
                 }
             },
-			{
+            {
                 "threshold": 828,
                 "model": {
                     "type": "model",
                     "model": "block/iron_trapdoor_top_open"
                 }
             },
-			{
+            {
                 "threshold": 829,
                 "model": {
                     "type": "model",
                     "model": "block/trapdoor_double_slab_planks_acacia_open"
                 }
             },
-			{
+            {
                 "threshold": 830,
                 "model": {
                     "type": "model",
                     "model": "block/iron_trapdoor_bottom_e"
                 }
             },
-			{
+            {
                 "threshold": 831,
                 "model": {
                     "type": "model",
                     "model": "block/oak_fence_gate_powered_closed"
                 }
             },
-			{
+            {
                 "threshold": 832,
                 "model": {
                     "type": "model",
                     "model": "block/vertical_slab_double_slab_planks_acacia"
                 }
             },
-			{
+            {
                 "threshold": 833,
                 "model": {
                     "type": "model",
                     "model": "block/double_slab_planks_acacia"
                 }
             },
-			{
+            {
                 "threshold": 834,
                 "model": {
                     "type": "model",
                     "model": "block/powered_repeater_delay3_s"
                 }
             },
-			{
+            {
                 "threshold": 835,
                 "model": {
                     "type": "model",
                     "model": "block/red_mushroom_block_ewud"
                 }
             },
-			{
+            {
                 "threshold": 836,
                 "model": {
                     "type": "model",
                     "model": "block/oak_planks_offset"
                 }
             },
-			{
+            {
                 "threshold": 837,
                 "model": {
                     "type": "model",
                     "model": "block/beam_diagonal_s_down"
                 }
             },
-			{
+            {
                 "threshold": 838,
                 "model": {
                     "type": "model",
                     "model": "block/beam_horizontal_down"
                 }
             },
-			{
+            {
                 "threshold": 839,
                 "model": {
                     "type": "model",
                     "model": "block/beam_horizontal"
                 }
             },
-			{
+            {
                 "threshold": 840,
                 "model": {
                     "type": "model",
                     "model": "block/target_block_power0"
                 }
             },
-			{
+            {
                 "threshold": 841,
                 "model": {
                     "type": "model",
                     "model": "block/note_block_sticks"
                 }
             },
-			{
+            {
                 "threshold": 842,
                 "model": {
                     "type": "model",
                     "model": "block/twisting_vines_stair"
                 }
             },
-			{
+            {
                 "threshold": 843,
                 "model": {
                     "type": "model",
                     "model": "block/twisting_vines_stair_2"
                 }
             },
-			{
+            {
                 "threshold": 844,
                 "model": {
                     "type": "model",
                     "model": "block/twisting_vines_diagonal_beam"
                 }
             },
-			{
+            {
                 "threshold": 845,
                 "model": {
                     "type": "model",
                     "model": "block/twisting_vines_diagonal_beam_1"
                 }
             },
-			{
+            {
                 "threshold": 846,
                 "model": {
                     "type": "model",
                     "model": "block/twisting_vines_diagonal_beam_2"
                 }
             },
-			{
+            {
                 "threshold": 847,
                 "model": {
                     "type": "model",
                     "model": "block/twisting_vines_diagonal_beam_3"
                 }
             },
-			{
+            {
                 "threshold": 848,
                 "model": {
                     "type": "model",
                     "model": "block/twisting_vines_diagonal_beam_4"
                 }
             },
-			{
+            {
                 "threshold": 849,
                 "model": {
                     "type": "model",
                     "model": "block/twisting_vines_diagonal_beam_5"
                 }
             },
-			{
+            {
                 "threshold": 850,
                 "model": {
                     "type": "model",
                     "model": "block/beam_diagonal_s"
                 }
             },
-			{
+            {
                 "threshold": 851,
                 "model": {
                     "type": "model",
                     "model": "block/beam_diagonal_s_support"
                 }
             },
-			{
+            {
                 "threshold": 852,
                 "model": {
                     "type": "model",
                     "model": "block/reinforced_wood_topper"
                 }
             },
-			{
+            {
                 "threshold": 853,
                 "model": {
                     "type": "model",
                     "model": "block/reinforced_wood_bottom"
                 }
             },
-			{
+            {
                 "threshold": 854,
                 "model": {
                     "type": "model",
                     "model": "block/beam_diagonal_rope_s_down"
                 }
             },
-			{
+            {
                 "threshold": 855,
                 "model": {
                     "type": "model",
                     "model": "block/beam_diagonal_rope_s"
                 }
             },
-			{
+            {
                 "threshold": 856,
                 "model": {
                     "type": "model",
                     "model": "block/beam_diagonal_rope_s_support"
                 }
             },
-			{
+            {
                 "threshold": 857,
                 "model": {
                     "type": "model",
                     "model": "block/beam_diagonal_metal_s_down"
                 }
             },
-			{
+            {
                 "threshold": 858,
                 "model": {
                     "type": "model",
                     "model": "block/beam_diagonal_metal_s"
                 }
             },
-			{
+            {
                 "threshold": 859,
                 "model": {
                     "type": "model",
                     "model": "block/beam_diagonal_metal_s_support"
                 }
             },
-			{
+            {
                 "threshold": 860,
                 "model": {
                     "type": "model",
                     "model": "block/beam_core_wide"
                 }
             },
-			{
+            {
                 "threshold": 861,
                 "model": {
                     "type": "model",
                     "model": "block/birch_planks_side_stairs"
                 }
             },
-			{
+            {
                 "threshold": 862,
                 "model": {
                     "type": "model",
                     "model": "block/medium_jungle_log_pillar"
                 }
             },
-			{
+            {
                 "threshold": 863,
                 "model": {
                     "type": "model",
                     "model": "block/red_mushroom_block_ewd"
                 }
             },
-			{
+            {
                 "threshold": 864,
                 "model": {
                     "type": "model",
                     "model": "block/red_mushroom_block_esud"
                 }
             },
-			{
+            {
                 "threshold": 865,
                 "model": {
                     "type": "model",
                     "model": "block/prismarine_brick_double_slab"
                 }
             },
-			{
+            {
                 "threshold": 866,
                 "model": {
                     "type": "model",
                     "model": "block/red_mushroom_block_eu"
                 }
             },
-			{
+            {
                 "threshold": 867,
                 "model": {
                     "type": "model",
                     "model": "block/red_mushroom_block_ewu"
                 }
             },
-			{
+            {
                 "threshold": 868,
                 "model": {
                     "type": "model",
                     "model": "block/spruce_door_bottom"
                 }
             },
-			{
+            {
                 "threshold": 869,
                 "model": {
                     "type": "model",
                     "model": "block/iron_trapdoor_bottom_w"
                 }
             },
-			{
+            {
                 "threshold": 870,
                 "model": {
                     "type": "model",
                     "model": "block/birch_fence_gate_powered_closed"
                 }
             },
-			{
+            {
                 "threshold": 871,
                 "model": {
                     "type": "model",
                     "model": "block/medium_oak_wood_pillar"
                 }
             },
-			{
+            {
                 "threshold": 872,
                 "model": {
                     "type": "model",
                     "model": "block/medium_spruce_log_pillar"
                 }
             },
-			{
+            {
                 "threshold": 873,
                 "model": {
                     "type": "model",
                     "model": "block/bamboo_mosaic_vertical_half_slab"
                 }
             },
-			{
+            {
                 "threshold": 874,
                 "model": {
                     "type": "model",
                     "model": "block/bamboo_mosaic_half_slab_top"
                 }
             },
-			{
+            {
                 "threshold": 875,
                 "model": {
                     "type": "model",
                     "model": "block/bamboo_mosaic_half_slab"
                 }
             },
-			{
+            {
                 "threshold": 876,
                 "model": {
                     "type": "model",
                     "model": "block/trapdoor_bamboo_mosaic_side"
                 }
             },
-			{
+            {
                 "threshold": 877,
                 "model": {
                     "type": "model",
                     "model": "block/trapdoor_bamboo_mosaic_bottom"
                 }
             },
-			{
+            {
                 "threshold": 878,
                 "model": {
                     "type": "model",
                     "model": "block/bamboo_mosaic_side_stairs"
                 }
             },
-			{
+            {
                 "threshold": 879,
                 "model": {
                     "type": "model",
                     "model": "block/vertical_slab_bamboo_mosaic"
                 }
             },
-			{
+            {
                 "threshold": 880,
                 "model": {
                     "type": "model",
                     "model": "block/dark_oak_planks_half_slab_top"
                 }
             },
-			{
+            {
                 "threshold": 881,
                 "model": {
                     "type": "model",
                     "model": "block/dark_oak_planks_half_slab"
                 }
             },
-			{
+            {
                 "threshold": 882,
                 "model": {
                     "type": "model",
                     "model": "block/dark_oak_planks_vertical_half_slab"
                 }
             },
-			{
+            {
                 "threshold": 883,
                 "model": {
                     "type": "model",
                     "model": "block/trapdoor_dark_oak_planks_side"
                 }
             },
-			{
+            {
                 "threshold": 884,
                 "model": {
                     "type": "model",
                     "model": "block/trapdoor_dark_oak_planks_bottom"
                 }
             },
-			{
+            {
                 "threshold": 885,
                 "model": {
                     "type": "model",
                     "model": "block/dark_oak_planks_side_stairs"
                 }
             },
-			{
+            {
                 "threshold": 886,
                 "model": {
                     "type": "model",
                     "model": "block/vertical_slab_dark_oak_planks"
                 }
             },
-			{
+            {
                 "threshold": 887,
                 "model": {
                     "type": "model",
                     "model": "block/redstone_dust_power8_center"
                 }
             },
-			{
+            {
                 "threshold": 888,
                 "model": {
                     "type": "model",
                     "model": "block/redstone_dust_power7_center_4"
                 }
             },
-			{
+            {
                 "threshold": 889,
                 "model": {
                     "type": "model",
                     "model": "block/portal_ns"
                 }
             },
-			{
+            {
                 "threshold": 890,
                 "model": {
                     "type": "model",
                     "model": "block/vertical_slab_diabase"
                 }
             },
-			{
+            {
                 "threshold": 891,
                 "model": {
                     "type": "model",
                     "model": "block/diabase_slab"
                 }
-
             },
-			{
+            {
                 "threshold": 892,
                 "model": {
                     "type": "model",
                     "model": "block/diabase_dark_slab"
                 }
             },
-			{
+            {
                 "threshold": 893,
                 "model": {
                     "type": "model",
                     "model": "block/shale_slab"
                 }
             },
-			{
+            {
                 "threshold": 894,
                 "model": {
                     "type": "model",
                     "model": "block/diabase_stairs"
                 }
             },
-			{
+            {
                 "threshold": 895,
                 "model": {
                     "type": "model",
                     "model": "block/cage_square"
                 }
             },
-			{
+            {
                 "threshold": 896,
                 "model": {
                     "type": "model",
                     "model": "block/troll_shackles"
                 }
             },
-			{
+            {
                 "threshold": 897,
                 "model": {
                     "type": "model",
                     "model": "block/light_gravel_slab"
                 }
             },
-			{
+            {
                 "threshold": 898,
                 "model": {
                     "type": "model",
                     "model": "block/dark_gravel_slab"
                 }
             },
-			{
+            {
                 "threshold": 899,
                 "model": {
                     "type": "model",
-                    "model": "minecraft:item/rough_beam_45_inv"
+                    "model": "minecraft:block/inventory/rough_beam_45_inv"
                 }
             },
-			{
+            {
                 "threshold": 900,
                 "model": {
                     "type": "model",
-                    "model": "minecraft:item/rough_beam_22.5_inv"
+                    "model": "minecraft:block/inventory/rough_beam_22.5_inv"
                 }
             },
-			{
+            {
                 "threshold": 901,
                 "model": {
                     "type": "model",
                     "model": "minecraft:block/dark_stone_bricks_1x1arch"
                 }
             },
-			{
+            {
                 "threshold": 902,
                 "model": {
                     "type": "model",
                     "model": "minecraft:block/dark_stone_brick_window"
                 }
             },
-			{
+            {
                 "threshold": 903,
                 "model": {
                     "type": "model",
                     "model": "minecraft:block/dark_stone_brick_window_bottom"
                 }
             },
-			{
+            {
                 "threshold": 904,
                 "model": {
                     "type": "model",
                     "model": "minecraft:block/dark_stone_bricks_1x2arch"
                 }
             },
-			{
+            {
                 "threshold": 905,
                 "model": {
                     "type": "model",
                     "model": "minecraft:block/dark_stone_bricks_1x3arch"
                 }
             },
-			{
+            {
                 "threshold": 906,
                 "model": {
                     "type": "model",
                     "model": "minecraft:block/dark_stone_bricks_1x3arch_top"
                 }
             },
-			{
+            {
                 "threshold": 907,
                 "model": {
                     "type": "model",
                     "model": "minecraft:block/darker_stone_bricks_1x1arch"
                 }
             },
-			{
+            {
                 "threshold": 908,
                 "model": {
                     "type": "model",
                     "model": "minecraft:block/darker_stone_brick_window"
                 }
             },
-			{
+            {
                 "threshold": 909,
                 "model": {
                     "type": "model",
                     "model": "minecraft:block/darker_stone_brick_window_bottom"
                 }
             },
-			{
+            {
                 "threshold": 910,
                 "model": {
                     "type": "model",
                     "model": "minecraft:block/darker_stone_bricks_1x2arch"
                 }
             },
-			{
+            {
                 "threshold": 911,
                 "model": {
                     "type": "model",
                     "model": "minecraft:block/darker_stone_bricks_1x3arch"
                 }
             },
-			{
+            {
                 "threshold": 912,
                 "model": {
                     "type": "model",
                     "model": "minecraft:block/darker_stone_bricks_1x3arch_top"
                 }
             },
-			{
+            {
                 "threshold": 913,
-                "model": { 
+                "model": {
                     "type": "model",
                     "model": "minecraft:block/very_dark_stone_bricks_1x1arch"
                 }
             },
-			{
+            {
                 "threshold": 914,
                 "model": {
                     "type": "model",
                     "model": "minecraft:block/very_dark_stone_brick_window"
                 }
             },
-			{
+            {
                 "threshold": 915,
                 "model": {
                     "type": "model",
                     "model": "minecraft:block/very_dark_stone_brick_window_bottom"
                 }
             },
-			{
+            {
                 "threshold": 916,
                 "model": {
                     "type": "model",
                     "model": "minecraft:block/very_dark_stone_bricks_1x2arch"
                 }
             },
-			{
+            {
                 "threshold": 917,
                 "model": {
                     "type": "model",
                     "model": "minecraft:block/very_dark_stone_bricks_1x3arch"
                 }
             },
-			{
+            {
                 "threshold": 918,
                 "model": {
                     "type": "model",
                     "model": "minecraft:block/very_dark_stone_bricks_1x3arch_top"
                 }
             },
-			{
+            {
                 "threshold": 919,
                 "model": {
                     "type": "model",
                     "model": "minecraft:block/green_stone_bricks_1x1arch"
                 }
             },
-			{
+            {
                 "threshold": 920,
                 "model": {
                     "type": "model",
                     "model": "minecraft:block/green_stone_brick_window"
                 }
             },
-			{
+            {
                 "threshold": 921,
                 "model": {
                     "type": "model",
                     "model": "minecraft:block/green_stone_brick_window_bottom"
                 }
             },
-			{
+            {
                 "threshold": 922,
                 "model": {
                     "type": "model",
                     "model": "minecraft:block/green_stone_bricks_1x2arch"
                 }
             },
-			{
+            {
                 "threshold": 923,
                 "model": {
                     "type": "model",
                     "model": "minecraft:block/green_stone_bricks_1x3arch"
                 }
             },
-			{
+            {
                 "threshold": 924,
                 "model": {
                     "type": "model",
                     "model": "minecraft:block/green_stone_bricks_1x3arch_top"
                 }
             },
-			{
+            {
                 "threshold": 925,
                 "model": {
                     "type": "model",
-                    "model": "minecraft:item/metal_arrow_slit"
+                    "model": "minecraft:block/inventory/metal_arrow_slit"
                 }
             },
-			{
+            {
                 "threshold": 926,
                 "model": {
                     "type": "model",
-                    "model": "minecraft:item/dark_stone_brick_arrow_slit"
+                    "model": "minecraft:block/inventory/dark_stone_brick_arrow_slit"
                 }
             },
-			{
+            {
                 "threshold": 927,
                 "model": {
                     "type": "model",
-                    "model": "minecraft:item/black_stone_brick_arrow_slit"
+                    "model": "minecraft:block/inventory/black_stone_brick_arrow_slit"
                 }
             },
-			{
+            {
                 "threshold": 928,
                 "model": {
                     "type": "model",
-                    "model": "minecraft:item/very_black_stone_brick_arrow_slit"
+                    "model": "minecraft:block/inventory/very_black_stone_brick_arrow_slit"
                 }
             },
-			{
+            {
                 "threshold": 929,
                 "model": {
                     "type": "model",
-                    "model": "minecraft:item/green_stone_brick_arrow_slit"
+                    "model": "minecraft:block/inventory/green_stone_brick_arrow_slit"
                 }
             },
-			{
+            {
                 "threshold": 930,
                 "model": {
                     "type": "model",
                     "model": "minecraft:block/dripstone_dark_block"
                 }
             },
-			{
+            {
                 "threshold": 931,
                 "model": {
                     "type": "model",
                     "model": "minecraft:block/vertical_slab_dripstone"
                 }
             },
-			{
+            {
                 "threshold": 932,
                 "model": {
                     "type": "model",
                     "model": "minecraft:block/dripstone_vertical_thin_slab"
                 }
             },
-			{
+            {
                 "threshold": 933,
                 "model": {
                     "type": "model",
                     "model": "minecraft:block/dripstone_transition"
                 }
             },
-			{
+            {
                 "threshold": 934,
                 "model": {
                     "type": "model",
                     "model": "minecraft:block/dripstone_medium"
                 }
             },
-			{
+            {
                 "threshold": 935,
                 "model": {
                     "type": "model",
                     "model": "minecraft:block/dripstone_thin"
                 }
             },
-			{
+            {
                 "threshold": 937,
                 "model": {
                     "type": "model",
                     "model": "minecraft:block/dripstone_dark_slab"
                 }
             },
-			{
+            {
                 "threshold": 938,
                 "model": {
                     "type": "model",
                     "model": "minecraft:block/vertical_slab_dark_dripstone"
                 }
             },
-			{
+            {
                 "threshold": 939,
                 "model": {
                     "type": "model",
-                    "model": "item/rope_45_2x1_low"
+                    "model": "block/inventory/rope_45_2x1_low"
                 }
             },
-			{
+            {
                 "threshold": 940,
                 "model": {
                     "type": "model",
                     "model": "block/redstone_dust_power9_center"
                 }
             },
-			{
+            {
                 "threshold": 941,
                 "model": {
                     "type": "model",
                     "model": "block/vertical_slab_bamboo_planks"
                 }
             },
-			{
+            {
                 "threshold": 942,
                 "model": {
                     "type": "model",
                     "model": "block/bamboo_planks_side_stairs"
                 }
             },
-			{
+            {
                 "threshold": 943,
                 "model": {
                     "type": "model",
-                    "model": "item/trapdoor_bamboo_planks_side"
+                    "model": "block/inventory/trapdoor_bamboo_planks_side"
                 }
             },
-			{
+            {
                 "threshold": 944,
                 "model": {
                     "type": "model",
                     "model": "block/trapdoor_bamboo_planks"
                 }
             },
-			{
+            {
                 "threshold": 945,
                 "model": {
                     "type": "model",
                     "model": "block/bamboo_planks_vertical_half_slab"
                 }
             },
-			{
+            {
                 "threshold": 946,
                 "model": {
                     "type": "model",
                     "model": "block/bamboo_planks_half_slab"
                 }
             },
-			{
+            {
                 "threshold": 947,
                 "model": {
                     "type": "model",
                     "model": "block/bamboo_planks_half_slab_top"
                 }
             },
-			{
+            {
                 "threshold": 948,
                 "model": {
                     "type": "model",
-                    "model": "item/rope_left_3x1"
+                    "model": "block/inventory/rope_left_3x1"
                 }
             },
-			{
+            {
                 "threshold": 949,
                 "model": {
                     "type": "model",
-                    "model": "item/rope_right_3x1"
+                    "model": "block/inventory/rope_right_3x1"
                 }
             },
-			{
+            {
                 "threshold": 950,
                 "model": {
                     "type": "model",
-                    "model": "item/rope_45_3x1"
+                    "model": "block/inventory/rope_45_3x1"
                 }
             },
-			{
+            {
                 "threshold": 951,
                 "model": {
                     "type": "model",
-                    "model": "item/rope_45_3x1_low"
+                    "model": "block/inventory/rope_45_3x1_low"
                 }
             },
-			{
+            {
                 "threshold": 952,
                 "model": {
                     "type": "model",
-                    "model": "item/steep_diagonal_tent_pole"
+                    "model": "block/inventory/steep_diagonal_tent_pole"
                 }
             },
-			{
+            {
                 "threshold": 953,
                 "model": {
                     "type": "model",
-                    "model": "item/diagonal_tent_pole"
+                    "model": "block/inventory/diagonal_tent_pole"
                 }
             },
-			{
+            {
                 "threshold": 954,
                 "model": {
                     "type": "model",
-                    "model": "item/steep_diagonal_tent_pole_top"
+                    "model": "block/inventory/steep_diagonal_tent_pole_top"
                 }
             },
-			{
+            {
                 "threshold": 955,
                 "model": {
                     "type": "model",
-                    "model": "item/diagonal_tent_pole_top"
+                    "model": "block/inventory/diagonal_tent_pole_top"
                 }
             },
-			{
+            {
                 "threshold": 956,
                 "model": {
                     "type": "model",
-                    "model": "item/thin_steep_diagonal_tent_pole"
+                    "model": "block/inventory/thin_steep_diagonal_tent_pole"
                 }
             },
-			{
+            {
                 "threshold": 957,
                 "model": {
                     "type": "model",
-                    "model": "item/thin_diagonal_tent_pole"
+                    "model": "block/inventory/thin_diagonal_tent_pole"
                 }
             },
-			{
+            {
                 "threshold": 958,
                 "model": {
                     "type": "model",
-                    "model": "item/thin_steep_diagonal_tent_pole_top"
+                    "model": "block/inventory/thin_steep_diagonal_tent_pole_top"
                 }
             },
-			{
+            {
                 "threshold": 959,
                 "model": {
                     "type": "model",
-                    "model": "item/thin_diagonal_tent_pole_top"
+                    "model": "block/inventory/thin_diagonal_tent_pole_top"
                 }
             },
-			{
+            {
                 "threshold": 960,
                 "model": {
                     "type": "model",
                     "model": "block/tree_wide_vertical"
                 }
             },
-			{
+            {
                 "threshold": 961,
                 "model": {
                     "type": "model",
                     "model": "block/tree_thin_vertical_offset"
                 }
             },
-			
-			
-			{
+            {
                 "threshold": 962,
                 "model": {
                     "type": "model",
-                    "model": "item/wooden_spike_small"
+                    "model": "block/inventory/wooden_spike_small"
                 }
             },
-			{
+            {
                 "threshold": 963,
                 "model": {
                     "type": "model",
-                    "model": "item/wooden_spike_small_offset"
+                    "model": "block/inventory/wooden_spike_small_offset"
                 }
             },
-			{
+            {
                 "threshold": 964,
                 "model": {
                     "type": "model",
-                    "model": "item/wide_wooden_spike_small"
+                    "model": "block/inventory/wide_wooden_spike_small"
                 }
             },
-			{
+            {
                 "threshold": 965,
                 "model": {
                     "type": "model",
-                    "model": "item/wide_wooden_spike_small_offset"
+                    "model": "block/inventory/wide_wooden_spike_small_offset"
                 }
             },
-			{
+            {
                 "threshold": 966,
                 "model": {
                     "type": "model",
                     "model": "block/tree_thin_vertical_short"
                 }
             },
-			{
+            {
                 "threshold": 967,
                 "model": {
                     "type": "model",
                     "model": "block/smith_anvil"
                 }
             },
-			{
+            {
                 "threshold": 969,
                 "model": {
                     "type": "model",
                     "model": "block/fire_floor0"
                 }
             },
-			{
+            {
                 "threshold": 970,
                 "model": {
                     "type": "model",
                     "model": "block/rabbit_1"
                 }
             },
-			{
+            {
                 "threshold": 971,
                 "model": {
                     "type": "model",
                     "model": "block/gong"
                 }
             },
-			{
+            {
                 "threshold": 972,
                 "model": {
                     "type": "model",
                     "model": "block/uruk_sword"
                 }
             },
-			{
+            {
                 "threshold": 973,
                 "model": {
                     "type": "model",
                     "model": "block/coinpile"
                 }
             },
-			{
+            {
                 "threshold": 974,
                 "model": {
                     "type": "model",
                     "model": "block/hanging_paper"
                 }
             },
-			{
+            {
                 "threshold": 975,
                 "model": {
                     "type": "model",
                     "model": "block/knocker"
                 }
             },
-			{
+            {
                 "threshold": 976,
                 "model": {
                     "type": "model",
                     "model": "block/ground_weapons"
                 }
             },
-			{
+            {
                 "threshold": 977,
                 "model": {
                     "type": "model",
                     "model": "block/barrel_poop_full_item"
                 }
             },
-			{
+            {
                 "threshold": 978,
                 "model": {
                     "type": "model",
                     "model": "block/small_horn_display"
                 }
             },
-			{
+            {
                 "threshold": 979,
                 "model": {
                     "type": "model",
                     "model": "block/red_candle"
                 }
             },
-			{
+            {
                 "threshold": 980,
                 "model": {
                     "type": "model",
                     "model": "block/zipline_seat"
                 }
             },
-			{
+            {
                 "threshold": 981,
                 "model": {
                     "type": "model",
                     "model": "block/pink_concrete_powder_slab"
                 }
             },
-			{
+            {
                 "threshold": 982,
                 "model": {
                     "type": "model",
                     "model": "block/red_concrete_powder_slab"
                 }
             },
-			{
+            {
                 "threshold": 983,
                 "model": {
                     "type": "model",
                     "model": "block/cactus_11"
                 }
             },
-			{
+            {
                 "threshold": 984,
                 "model": {
                     "type": "model",
                     "model": "block/chorus_flower_1"
                 }
             },
-			{
+            {
                 "threshold": 985,
                 "model": {
                     "type": "model",
                     "model": "block/boulders_coal"
                 }
             },
-			{
+            {
                 "threshold": 986,
                 "model": {
                     "type": "model",
                     "model": "block/troll_club"
                 }
             },
-			{
+            {
                 "threshold": 987,
                 "model": {
                     "type": "model",
                     "model": "block/tool_rack"
                 }
             },
-			{
+            {
                 "threshold": 988,
                 "model": {
                     "type": "model",
                     "model": "block/nether_wart_1"
                 }
             },
-			{
+            {
                 "threshold": 989,
                 "model": {
                     "type": "model",
                     "model": "block/hook"
                 }
             },
-			{
+            {
                 "threshold": 990,
                 "model": {
                     "type": "model",
                     "model": "block/slave_shackles"
                 }
             },
-			{
+            {
                 "threshold": 991,
                 "model": {
                     "type": "model",
                     "model": "block/sickle"
                 }
             },
-			{
+            {
                 "threshold": 992,
                 "model": {
                     "type": "model",
                     "model": "block/blood_splatter"
                 }
             },
-			{
+            {
                 "threshold": 993,
                 "model": {
                     "type": "model",
                     "model": "block/chiseled_resin_brick_side_stairs"
                 }
             },
-			{
+            {
                 "threshold": 994,
                 "model": {
                     "type": "model",
                     "model": "block/vertical_slab_chiseled_resin_bricks"
                 }
             },
-			{
+            {
                 "threshold": 995,
                 "model": {
                     "type": "model",
                     "model": "block/trapdoor_chiseled_resin_bricks_side"
                 }
             },
-			{
+            {
                 "threshold": 996,
                 "model": {
                     "type": "model",
                     "model": "block/trapdoor_chiseled_resin_bricks_bottom"
                 }
             },
-			{
+            {
                 "threshold": 997,
                 "model": {
                     "type": "model",
                     "model": "block/chiseled_tuff_brick_side_stairs"
                 }
             },
-			{
+            {
                 "threshold": 998,
                 "model": {
                     "type": "model",
                     "model": "block/vertical_slab_chiseled_tuff_bricks"
                 }
             },
-			{
+            {
                 "threshold": 999,
                 "model": {
                     "type": "model",
                     "model": "block/trapdoor_chiseled_tuff_bricks_side"
                 }
             },
-			{
+            {
                 "threshold": 1000,
                 "model": {
                     "type": "model",
                     "model": "block/trapdoor_chiseled_tuff_bricks_bottom"
                 }
             },
-			{
+            {
                 "threshold": 1001,
                 "model": {
                     "type": "model",
                     "model": "block/bricks_side_stairs"
                 }
             },
-			{
+            {
                 "threshold": 1002,
                 "model": {
                     "type": "model",
                     "model": "block/end_portal_frame_empty_east"
                 }
             },
-			{
+            {
                 "threshold": 1003,
                 "model": {
                     "type": "model",
                     "model": "block/end_portal_frame_filled_east"
                 }
             },
-			{
+            {
                 "threshold": 1004,
                 "model": {
                     "type": "model",
                     "model": "block/vertical_slab_red_mushroom_block_new"
                 }
             },
-			{
+            {
                 "threshold": 1005,
                 "model": {
                     "type": "model",
                     "model": "block/vertical_slab_red_mushroom_block_neud"
                 }
             },
-			{
+            {
                 "threshold": 1006,
                 "model": {
                     "type": "model",
                     "model": "block/vertical_slab_mossy_dark_gray_brick"
                 }
             },
-			{
+            {
                 "threshold": 1007,
                 "model": {
                     "type": "model",
                     "model": "block/trapdoor_dark_gray_brick_open"
                 }
             },
-			{
+            {
                 "threshold": 1008,
                 "model": {
                     "type": "model",
                     "model": "block/trapdoor_dark_gray_brick_bottom"
                 }
             },
-			{
+            {
                 "threshold": 1009,
                 "model": {
                     "type": "model",
                     "model": "block/trapdoor_cracked_dark_gray_brick_open"
                 }
             },
-			{
+            {
                 "threshold": 1010,
                 "model": {
                     "type": "model",
                     "model": "block/trapdoor_cracked_dark_gray_brick_bottom"
                 }
             },
-			{
+            {
                 "threshold": 1011,
                 "model": {
                     "type": "model",
                     "model": "block/vertical_slab_dark_gray_brick"
                 }
             },
-			{
+            {
                 "threshold": 1012,
                 "model": {
                     "type": "model",
                     "model": "block/double_slab_brick"
                 }
             },
-			{
+            {
                 "threshold": 1013,
                 "model": {
                     "type": "model",
                     "model": "block/red_mushroom_block_newu"
                 }
             },
-			{
+            {
                 "threshold": 1014,
                 "model": {
                     "type": "model",
                     "model": "block/red_mushroom_block_ns"
                 }
             },
-			{
+            {
                 "threshold": 1015,
                 "model": {
                     "type": "model",
                     "model": "block/red_mushroom_block_new"
                 }
             },
-			{
+            {
                 "threshold": 1016,
                 "model": {
                     "type": "model",
                     "model": "block/red_mushroom_block_neud"
                 }
             },
-			{
+            {
                 "threshold": 1017,
                 "model": {
                     "type": "model",
                     "model": "block/brick_arch"
                 }
             },
-			{
+            {
                 "threshold": 1018,
                 "model": {
                     "type": "model",
                     "model": "block/light_gray_glazed_terracotta_sw"
                 }
             },
-			{
+            {
                 "threshold": 1019,
                 "model": {
                     "type": "model",
                     "model": "block/white_glazed_terracotta_sw"
                 }
             },
-			{
+            {
                 "threshold": 1100,
                 "model": {
                     "type": "model",
                     "model": "block/crenelation_half"
                 }
             },
-			{
+            {
                 "threshold": 1101,
                 "model": {
                     "type": "model",
                     "model": "block/crimson_stem_corner_post"
                 }
             },
-			{
+            {
                 "threshold": 1102,
                 "model": {
                     "type": "model",
                     "model": "block/brown_mushroom_block_nu_trim"
                 }
             },
-			{
+            {
                 "threshold": 1103,
                 "model": {
                     "type": "model",
                     "model": "block/iron_block_trim"
                 }
             },
-			{
+            {
                 "threshold": 1104,
                 "model": {
                     "type": "model",
                     "model": "block/smooth_sandstone_vertical_quarter"
                 }
             },
-			{
+            {
                 "threshold": 1105,
                 "model": {
                     "type": "model",
                     "model": "block/nether_bricks_vertical_quarter"
                 }
             },
-			{
+            {
                 "threshold": 1106,
                 "model": {
                     "type": "model",
                     "model": "block/smooth_sandstone_quarter_bottom"
                 }
             },
-			{
+            {
                 "threshold": 1107,
                 "model": {
                     "type": "model",
                     "model": "block/smooth_sandstone_quarter_top"
                 }
             },
-			{
+            {
                 "threshold": 1108,
                 "model": {
                     "type": "model",
                     "model": "block/nether_bricks_quarter_top"
                 }
             },
-			{
+            {
                 "threshold": 1109,
                 "model": {
                     "type": "model",
                     "model": "block/nether_bricks_quarter_bottom"
                 }
             },
-			{
+            {
                 "threshold": 1110,
                 "model": {
                     "type": "model",
                     "model": "block/trapdoor_brown_mushroom_nu"
                 }
             },
-			{
+            {
                 "threshold": 1111,
                 "model": {
                     "type": "model",
                     "model": "block/pipe_vertical"
                 }
             },
-			{
+            {
                 "threshold": 1112,
                 "model": {
                     "type": "model",
                     "model": "block/pipe_corner"
                 }
             },
-			{
+            {
                 "threshold": 1113,
                 "model": {
                     "type": "model",
                     "model": "block/pipe_corner_side"
                 }
             },
-			{
+            {
                 "threshold": 1114,
                 "model": {
                     "type": "model",
                     "model": "block/pipe_corner_up"
                 }
             },
-			{
+            {
                 "threshold": 1115,
                 "model": {
                     "type": "model",
                     "model": "block/pipe_brace"
                 }
             },
-			{
+            {
                 "threshold": 1116,
                 "model": {
                     "type": "model",
                     "model": "block/pillar_top_thin_black"
                 }
             },
-			{
+            {
                 "threshold": 1117,
                 "model": {
                     "type": "model",
                     "model": "block/pillar_top_thin_blackest"
                 }
             },
-			{
+            {
                 "threshold": 1118,
                 "model": {
                     "type": "model",
                     "model": "block/trapdoor_warped_hyphae"
                 }
             },
-			{
+            {
                 "threshold": 1119,
                 "model": {
                     "type": "model",
                     "model": "block/trapdoor_stripped_warped_hyphae"
                 }
             },
-			{
+            {
                 "threshold": 1120,
                 "model": {
                     "type": "model",
                     "model": "block/trapdoor_crimson_stem"
                 }
             },
-			{
+            {
                 "threshold": 1121,
                 "model": {
                     "type": "model",
                     "model": "block/trapdoor_stripped_crimson_stem"
                 }
             },
-			{
+            {
                 "threshold": 1122,
                 "model": {
                     "type": "model",
                     "model": "block/vertical_slab_coal_block"
                 }
             },
-			{
+            {
                 "threshold": 1123,
                 "model": {
                     "type": "model",
                     "model": "block/black_bookshelf"
                 }
             },
-			{
+            {
                 "threshold": 1124,
                 "model": {
                     "type": "model",
                     "model": "block/book_open"
                 }
             },
-			{
+            {
                 "threshold": 1125,
                 "model": {
                     "type": "model",
                     "model": "block/metal_railing"
                 }
             },
-			{
+            {
                 "threshold": 1126,
                 "model": {
                     "type": "model",
                     "model": "block/metal_railing_down"
                 }
             },
-			{
+            {
                 "threshold": 1127,
                 "model": {
                     "type": "model",
                     "model": "block/brown_mushroom_block_nd"
                 }
             },
-			{
+            {
                 "threshold": 1128,
                 "model": {
                     "type": "model",
                     "model": "block/brown_mushroom_block_u"
                 }
             },
-			{
+            {
                 "threshold": 1129,
                 "model": {
                     "type": "model",
                     "model": "block/brown_mushroom_block_ud"
                 }
             },
-			{
+            {
                 "threshold": 1130,
                 "model": {
                     "type": "model",
                     "model": "block/fancy_banner"
                 }
             },
-			{
+            {
                 "threshold": 1131,
                 "model": {
                     "type": "model",
                     "model": "block/chandelier_big_frame"
                 }
             },
-			{
+            {
                 "threshold": 1132,
                 "model": {
                     "type": "model",
                     "model": "block/brown_mushroom_block_w"
                 }
             },
-			{
+            {
                 "threshold": 1133,
                 "model": {
                     "type": "model",
                     "model": "block/brown_mushroom_block_wd"
                 }
             },
-			{
+            {
                 "threshold": 1134,
                 "model": {
                     "type": "model",
                     "model": "block/brown_mushroom_block_wu"
                 }
             },
-			{
+            {
                 "threshold": 1135,
                 "model": {
                     "type": "model",
                     "model": "block/exposed_cut_copper_vertical_quarter"
                 }
             },
-			{
+            {
                 "threshold": 1136,
                 "model": {
                     "type": "model",
                     "model": "block/inscription"
                 }
             },
-			{
+            {
                 "threshold": 1137,
                 "model": {
                     "type": "model",
                     "model": "block/brown_mushroom_block_es"
                 }
             },
-			{
+            {
                 "threshold": 1138,
                 "model": {
                     "type": "model",
                     "model": "block/brown_mushroom_block_esd"
                 }
             },
-			{
+            {
                 "threshold": 1139,
                 "model": {
                     "type": "model",
                     "model": "block/iron_block_cross"
                 }
             },
-			{
+            {
                 "threshold": 1140,
                 "model": {
                     "type": "model",
                     "model": "block/carpet_2x3_r"
                 }
             },
-			{
+            {
                 "threshold": 1141,
                 "model": {
                     "type": "model",
                     "model": "block/brown_mushroom_block_su"
                 }
             },
-			{
+            {
                 "threshold": 1142,
                 "model": {
                     "type": "model",
                     "model": "block/brown_mushroom_block_sud"
                 }
             },
-			{
+            {
                 "threshold": 1143,
                 "model": {
                     "type": "model",
                     "model": "block/brazier_hanging"
                 }
             },
-			{
+            {
                 "threshold": 1144,
                 "model": {
                     "type": "model",
                     "model": "block/red_curtain_vertical_half"
                 }
             },
-			{
+            {
                 "threshold": 1145,
                 "model": {
                     "type": "model",
                     "model": "block/trapdoor_red_curtain"
                 }
             },
-			{
+            {
                 "threshold": 1146,
                 "model": {
                     "type": "model",
                     "model": "block/red_curtain_vertical_quarter"
                 }
             },
-			{
+            {
                 "threshold": 1147,
                 "model": {
                     "type": "model",
                     "model": "block/pillar_top_half_blackest_quarter"
                 }
             },
-			{
+            {
                 "threshold": 1148,
                 "model": {
                     "type": "model",
                     "model": "block/chiseled_polished_blackstone_vertical_quarter"
                 }
             },
-			{
+            {
                 "threshold": 1149,
                 "model": {
                     "type": "model",
                     "model": "block/chiseled_polished_blackstone_quarter_top"
                 }
             },
-			{
+            {
                 "threshold": 1150,
                 "model": {
                     "type": "model",
                     "model": "block/chiseled_polished_blackstone_quarter_bottom"
                 }
             },
-			{
+            {
                 "threshold": 1151,
                 "model": {
                     "type": "model",
                     "model": "block/vertical_slab_brown_mushroom_block_su"
                 }
             },
-			{
+            {
                 "threshold": 1152,
                 "model": {
                     "type": "model",
                     "model": "block/black_bookshelf_half"
                 }
             },
-			{
+            {
                 "threshold": 1153,
                 "model": {
                     "type": "model",
                     "model": "block/potion"
                 }
             },
-			{
+            {
                 "threshold": 1154,
                 "model": {
                     "type": "model",
                     "model": "block/potion_legs"
                 }
             },
-			{
+            {
                 "threshold": 1155,
                 "model": {
                     "type": "model",
                     "model": "block/brown_mushroom_block_sw"
                 }
             },
-			{
+            {
                 "threshold": 1156,
                 "model": {
                     "type": "model",
                     "model": "block/metal_railing_diag"
                 }
             },
-			{
+            {
                 "threshold": 1157,
                 "model": {
                     "type": "model",
                     "model": "block/trapdoor_large_gray_brick_bottom"
                 }
             },
-			{
+            {
                 "threshold": 1158,
                 "model": {
                     "type": "model",
                     "model": "block/wooden_door_bottom"
                 }
             },
-			{
+            {
                 "threshold": 1159,
                 "model": {
                     "type": "model",
                     "model": "block/trapdoor_mossy_large_gray_brick_bottom"
                 }
             },
-			{
+            {
                 "threshold": 1160,
                 "model": {
                     "type": "model",
                     "model": "block/trapdoor_stonebrick_mossy_open"
                 }
             },
-			{
+            {
                 "threshold": 1161,
                 "model": {
                     "type": "model",
                     "model": "block/trapdoor_stonebrick_cracked_open"
                 }
             },
-			{
+            {
                 "threshold": 1162,
                 "model": {
                     "type": "model",
                     "model": "block/trapdoor_stonebrick_cracked_bottom"
                 }
             },
-			{
+            {
                 "threshold": 1163,
                 "model": {
                     "type": "model",
                     "model": "block/stone_bricks_side_stairs"
                 }
             },
-			{
+            {
                 "threshold": 1164,
                 "model": {
                     "type": "model",
                     "model": "block/end_portal_frame_filled_west"
                 }
             },
-			{
+            {
                 "threshold": 1165,
                 "model": {
                     "type": "model",
                     "model": "block/end_portal_frame_empty_west"
                 }
             },
-			{
+            {
                 "threshold": 1166,
                 "model": {
                     "type": "model",
                     "model": "block/red_mushroom_block_es"
                 }
             },
-			{
+            {
                 "threshold": 1167,
                 "model": {
                     "type": "model",
                     "model": "block/stone_bricks_large"
                 }
             },
-			{
+            {
                 "threshold": 1168,
                 "model": {
                     "type": "model",
                     "model": "block/piston_base_vert"
                 }
             },
-			{
+            {
                 "threshold": 1169,
                 "model": {
                     "type": "model",
                     "model": "block/vertical_slab_stone_bricks"
                 }
             },
-			{
+            {
                 "threshold": 1170,
                 "model": {
                     "type": "model",
                     "model": "block/vertical_slab_stonebrick_mossy"
                 }
             },
-			{
+            {
                 "threshold": 1171,
                 "model": {
                     "type": "model",
                     "model": "block/red_mushroom_block_esd"
                 }
             },
-			{
+            {
                 "threshold": 1172,
                 "model": {
                     "type": "model",
                     "model": "block/vertical_slab_red_mushroom_block_newud"
                 }
             },
-			{
+            {
                 "threshold": 1173,
                 "model": {
                     "type": "model",
                     "model": "block/jungle_door_bottom_rh_open"
                 }
             },
-			{
+            {
                 "threshold": 1174,
                 "model": {
                     "type": "model",
                     "model": "block/trapdoor_small_gray_brick_bottom"
                 }
             },
-			{
+            {
                 "threshold": 1175,
                 "model": {
                     "type": "model",
                     "model": "block/powered_repeater_delay1_w"
                 }
             },
-			{
+            {
                 "threshold": 1176,
                 "model": {
                     "type": "model",
                     "model": "block/jungle_fence_gate_powered_open"
                 }
             },
-			{
+            {
                 "threshold": 1177,
                 "model": {
                     "type": "model",
                     "model": "block/scaffolding_1x1arch"
                 }
             },
-			{
+            {
                 "threshold": 1178,
                 "model": {
                     "type": "model",
                     "model": "block/scaffolding_stone_window"
                 }
             },
-			{
+            {
                 "threshold": 1179,
                 "model": {
                     "type": "model",
                     "model": "block/scaffolding_stone_window_down"
                 }
             },
-			{
+            {
                 "threshold": 1180,
                 "model": {
                     "type": "model",
                     "model": "block/smooth_quartz_stairs_1x2arch"
                 }
             },
-			{
+            {
                 "threshold": 1181,
                 "model": {
                     "type": "model",
                     "model": "block/dark_oak_button_1x3arch_top"
                 }
             },
-			{
+            {
                 "threshold": 1182,
                 "model": {
                     "type": "model",
                     "model": "block/stone_bricks_1x3arch"
                 }
             },
-			{
+            {
                 "threshold": 1183,
                 "model": {
                     "type": "model",
                     "model": "block/wooden_door_top"
                 }
             },
-			{
+            {
                 "threshold": 1184,
                 "model": {
                     "type": "model",
                     "model": "block/trapdoor_smooth_light_gray_stone_bottom"
                 }
             },
-			{
+            {
                 "threshold": 1185,
                 "model": {
                     "type": "model",
                     "model": "block/trapdoor_smooth_gray_stone_open"
                 }
             },
-			{
+            {
                 "threshold": 1186,
                 "model": {
                     "type": "model",
                     "model": "block/trapdoor_smooth_gray_stone_bottom"
                 }
             },
-			{
+            {
                 "threshold": 1187,
                 "model": {
                     "type": "model",
                     "model": "block/petrified_oak_slab"
                 }
             },
-			{
+            {
                 "threshold": 1188,
                 "model": {
                     "type": "model",
                     "model": "block/vertical_slab_double_slab_brick_seamless"
                 }
             },
-			{
+            {
                 "threshold": 1189,
                 "model": {
                     "type": "model",
                     "model": "block/powered_repeater_delay1_e"
                 }
             },
-			{
+            {
                 "threshold": 1190,
                 "model": {
                     "type": "model",
                     "model": "block/vertical_slab_double_slab_stonebrick_seamless"
                 }
             },
-			{
+            {
                 "threshold": 1191,
                 "model": {
                     "type": "model",
                     "model": "block/anvil_damage1_sw"
                 }
             },
-			{
+            {
                 "threshold": 1192,
                 "model": {
                     "type": "model",
                     "model": "block/hopper_light_gray_architrave"
                 }
             },
-			{
+            {
                 "threshold": 1193,
                 "model": {
                     "type": "model",
                     "model": "block/dark_architrave"
                 }
             },
-			{
+            {
                 "threshold": 1194,
                 "model": {
                     "type": "model",
                     "model": "block/dark_architrave_half"
                 }
             },
-			{
+            {
                 "threshold": 1195,
                 "model": {
                     "type": "model",
                     "model": "block/red_mushroom_block_nswud"
                 }
             },
-			{
+            {
                 "threshold": 1196,
                 "model": {
                     "type": "model",
                     "model": "block/pillar_top_stone_half"
                 }
             },
-			{
+            {
                 "threshold": 1197,
                 "model": {
                     "type": "model",
                     "model": "block/stone_rim"
                 }
             },
-			{
+            {
                 "threshold": 1198,
                 "model": {
                     "type": "model",
                     "model": "block/dark_stone_rim"
                 }
             },
-			{
+            {
                 "threshold": 1199,
                 "model": {
                     "type": "model",
                     "model": "block/bricks_quarter_bottom"
                 }
             },
-			{
+            {
                 "threshold": 1200,
                 "model": {
                     "type": "model",
                     "model": "block/bricks_quarter_top"
                 }
             },
-			{
+            {
                 "threshold": 1201,
                 "model": {
                     "type": "model",
                     "model": "block/stone_bricks_quarter_bottom"
                 }
             },
-			{
+            {
                 "threshold": 1202,
                 "model": {
                     "type": "model",
                     "model": "block/stone_bricks_quarter_top"
                 }
             },
-			{
+            {
                 "threshold": 1203,
                 "model": {
                     "type": "model",
                     "model": "block/warped_wart_block_quarter_bottom"
                 }
             },
-			{
+            {
                 "threshold": 1204,
                 "model": {
                     "type": "model",
                     "model": "block/warped_wart_block_quarter_top"
                 }
             },
-			{
+            {
                 "threshold": 1205,
                 "model": {
                     "type": "model",
                     "model": "block/chiseled_tuff_bricks_quarter_bottom"
                 }
             },
-			{
+            {
                 "threshold": 1206,
                 "model": {
                     "type": "model",
                     "model": "block/chiseled_tuff_bricks_quarter_top"
                 }
             },
-			{
+            {
                 "threshold": 1207,
                 "model": {
                     "type": "model",
                     "model": "block/chiseled_resin_bricks_quarter_bottom"
                 }
             },
-			{
+            {
                 "threshold": 1208,
                 "model": {
                     "type": "model",
                     "model": "block/chiseled_resin_bricks_quarter_top"
                 }
             },
-			{
+            {
                 "threshold": 1209,
                 "model": {
                     "type": "model",
                     "model": "block/stone_bricks_vertical_quarter"
                 }
             },
-			{
+            {
                 "threshold": 1210,
                 "model": {
                     "type": "model",
                     "model": "block/bricks_vertical_quarter"
                 }
             },
-			{
+            {
                 "threshold": 1211,
                 "model": {
                     "type": "model",
                     "model": "block/warped_wart_block_vertical_quarter"
                 }
             },
-			{
+            {
                 "threshold": 1212,
                 "model": {
                     "type": "model",
                     "model": "block/brick_pile"
                 }
             },
-			{
+            {
                 "threshold": 1213,
                 "model": {
                     "type": "model",
                     "model": "block/chiseled_tuff_bricks_vertical_quarter"
                 }
             },
-			{
+            {
                 "threshold": 1214,
                 "model": {
                     "type": "model",
                     "model": "block/chiseled_resin_bricks_vertical_quarter"
                 }
             },
-			{
+            {
                 "threshold": 1215,
                 "model": {
                     "type": "model",
                     "model": "block/hanging_skull_cluster"
                 }
             },
-			{
+            {
                 "threshold": 1216,
                 "model": {
                     "type": "model",
                     "model": "block/vertical_slab_green_marble"
                 }
             },
-			{
+            {
                 "threshold": 1217,
                 "model": {
                     "type": "model",
                     "model": "block/green_architrave_half"
                 }
             },
-			{
+            {
                 "threshold": 1218,
                 "model": {
                     "type": "model",
                     "model": "block/vertical_slab_purpur_pillar"
                 }
             },
-			{
+            {
                 "threshold": 1219,
                 "model": {
                     "type": "model",
                     "model": "block/fancy_banner_green"
                 }
             },
-			{
+            {
                 "threshold": 1220,
                 "model": {
                     "type": "model",
                     "model": "block/brown_mushroom_block_swd"
                 }
             },
-			{
+            {
                 "threshold": 1221,
                 "model": {
                     "type": "model",
                     "model": "block/brown_mushroom_block_swu"
                 }
             },
-			{
+            {
                 "threshold": 1222,
                 "model": {
                     "type": "model",
                     "model": "block/brown_mushroom_block_swud"
                 }
             },
-			{
+            {
                 "threshold": 1223,
                 "model": {
                     "type": "model",
                     "model": "block/brown_mushroom_block_e"
                 }
             },
-			{
+            {
                 "threshold": 1224,
                 "model": {
                     "type": "model",
                     "model": "block/green_brick_arch"
                 }
             },
-			{
+            {
                 "threshold": 1225,
                 "model": {
                     "type": "model",
                     "model": "block/end_portal_frame_empty_north"
                 }
             },
-			{
+            {
                 "threshold": 1226,
                 "model": {
                     "type": "model",
                     "model": "block/vertical_slab_lava"
                 }
             },
-			{
+            {
                 "threshold": 1227,
                 "model": {
                     "type": "model",
                     "model": "block/vertical_stairs_lava"
                 }
             },
-			{
+            {
                 "threshold": 1228,
                 "model": {
                     "type": "model",
                     "model": "block/vertical_quarter_lava"
                 }
             },
-			{
+            {
                 "threshold": 1229,
                 "model": {
                     "type": "model",
                     "model": "block/lava_full"
                 }
             },
-			{
+            {
                 "threshold": 1230,
                 "model": {
                     "type": "model",
                     "model": "block/pillar_top_dark_green_down"
                 }
             },
-			{
+            {
                 "threshold": 1231,
                 "model": {
                     "type": "model",
@@ -5599,5 +5596,3 @@
         ]
     }
 }
-
-
