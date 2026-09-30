@@ -111,19 +111,19 @@
       "y": 270
     },
 	"north=true,east=false,south=true,west=false,up=false,down=true": {
-      "model": "minecraft:block/rope_45_diagonal",
+      "model": "mcme:block/rope_45_diagonal",
       "y": 270
     },
 	"north=true,east=false,south=true,west=false,up=true,down=false": {
-      "model": "minecraft:block/rope_45_diagonal",
+      "model": "mcme:block/rope_45_diagonal",
       "y": 90
     },
 	"north=false,east=true,south=false,west=true,up=false,down=true": {
-      "model": "minecraft:block/rope_45_diagonal",
+      "model": "mcme:block/rope_45_diagonal",
       "y": 180
     },
 	"north=false,east=true,south=false,west=true,up=true,down=false": {
-      "model": "minecraft:block/rope_45_diagonal"
+      "model": "mcme:block/rope_45_diagonal"
     },
 	"north=false,east=false,south=false,west=false,up=false,down=true": [
 	{ "model": "minecraft:block/uruk_sword" },
