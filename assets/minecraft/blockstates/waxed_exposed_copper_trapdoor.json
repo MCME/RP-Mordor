@@ -1,7 +1,7 @@
 {
   "variants": {
 	    "facing=west,half=bottom,open=false,powered=false": { 
-			"model": "mcme:block/goblin_zipline_seat", "y": 90
+			"model": "minecraft:block/goblin_zipline", "y": 90
 		},
 		"facing=east,half=bottom,open=false,powered=false": { 
 			"model": "minecraft:block/metal_railing_diag", "y": 0
