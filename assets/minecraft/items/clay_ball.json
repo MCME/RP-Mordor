@@ -67,14 +67,14 @@
                 "threshold": 11,
                 "model": {
                     "type": "model",
-                    "model": "block/skelesitting_inv"
+                    "model": "block/skeleton_sitting"
                 }
             },
             {
                 "threshold": 12,
                 "model": {
                     "type": "model",
-                    "model": "block/skelehanging_inv"
+                    "model": "block/skeleton_hanging"
                 }
             },
             {
