@@ -3,19 +3,13 @@
         "": [
             {
                 "model": "block/infested_cobblestone"
-            },
-            {
-                "model": "block/infested_cobblestone_2"
-            },
-            {
-                "model": "block/infested_cobblestone_3"
-            },
-            {
-                "model": "block/infested_cobblestone_4"
-            },
-            {
-                "model": "block/infested_cobblestone_5"
             }
         ]
-    }
+    },
+    "rpOrganizerSwitchedOff": [
+        { "in": "variants/", "index": 1, "entry": { "model": "block/infested_cobblestone_2" } },
+        { "in": "variants/", "index": 2, "entry": { "model": "block/infested_cobblestone_3" } },
+        { "in": "variants/", "index": 3, "entry": { "model": "block/infested_cobblestone_4" } },
+        { "in": "variants/", "index": 4, "entry": { "model": "block/infested_cobblestone_5" } }
+    ]
 }
