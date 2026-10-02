@@ -98,6 +98,7 @@ vec4 sampleRGSS(sampler2D source, vec2 uv, vec2 pixelSize) {
 
 #define Sampler0 u_BlockTex
 #moj_import <minecraft:objmc_fragment.glsl>
+#moj_import <minecraft:far_terrain.glsl>
 #moj_import <minecraft:fire_eye_config.glsl>
 #moj_import <minecraft:fire_eye.glsl>
 
@@ -122,7 +123,7 @@ void main() {
         color = fireColor();
         // with a distant terrain mod the sky draws the eye from FIRE_HANDOVER on
         // (core/sky.fsh), where this block can no longer be: it hands over
-        if (fireFarTerrain(u_RenderFog.x)) color.a *= 1.0 - fireHandover(length(fireCentre));
+        if (farTerrain(u_RenderFog.x)) color.a *= 1.0 - fireHandover(length(fireCentre));
         if (color.a <= 0.0) discard;              // only what's fully gone
     }
 

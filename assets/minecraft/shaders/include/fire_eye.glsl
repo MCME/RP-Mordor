@@ -67,14 +67,6 @@ float fireNoise(vec2 uv, float footprint, int layer) {
     return mix(0.5, n, 1.0 / max(footprint, 1.0));
 }
 
-// Whether a distant terrain mod draws the world past the render distance,
-// from the render distance fog's start, which they move far off: Distant
-// Horizons to 4.2e14 blocks, with vanilla fog switched off in its settings
-// (its default), and Voxy to 1e9. Nothing else moves it past 1e8.
-bool fireFarTerrain(float renderFogStart) {
-    return renderFogStart > 1.0e8;
-}
-
 // How far the eye's block hands over to the sky's eye, at distance blocks
 // from the camera: 0 well inside FIRE_HANDOVER, 1 at it - over its last chunk.
 float fireHandover(float distance) {

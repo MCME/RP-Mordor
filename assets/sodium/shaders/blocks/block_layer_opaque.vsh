@@ -53,6 +53,7 @@ flat out float fireTime;
 
 #define Sampler0 u_BlockTex
 #moj_import <minecraft:objmc_tools.glsl>
+#moj_import <minecraft:far_terrain.glsl>
 #moj_import <minecraft:fire_eye_config.glsl>
 
 uvec3 _get_relative_chunk_coord(uint pos) {

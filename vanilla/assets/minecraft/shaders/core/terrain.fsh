@@ -111,6 +111,7 @@ vec4 sampleRGSS(sampler2D source, vec2 uv, vec2 pixelSize) {
 }
 
 #moj_import <objmc_fragment.glsl>
+#moj_import <far_terrain.glsl>
 #moj_import <fire_eye_config.glsl>
 #moj_import <fire_eye.glsl>
 
@@ -134,7 +135,7 @@ void main() {
         color = fireColor();
         // with a distant terrain mod the sky draws the eye from FIRE_HANDOVER on
         // (core/sky.fsh), where this block can no longer be: it hands over
-        if (fireFarTerrain(FogRenderDistanceStart)) color.a *= 1.0 - fireHandover(length(fireCentre));
+        if (farTerrain(FogRenderDistanceStart)) color.a *= 1.0 - fireHandover(length(fireCentre));
         if (color.a <= 0.0) discard;              // only what's fully gone
     }
     // A chunk that has just loaded fades in from the fog colour, as in vanilla.

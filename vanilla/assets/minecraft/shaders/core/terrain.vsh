@@ -40,6 +40,7 @@ flat out float fireTime;
 // END COMMENTED 1.21.4 BLOCK-LIGHTING VARYINGS
 
 #moj_import <objmc_tools.glsl>
+#moj_import <far_terrain.glsl>
 #moj_import <fire_eye_config.glsl>
 
 vec4 minecraft_sample_lightmap(sampler2D lightMap, ivec2 uv) {

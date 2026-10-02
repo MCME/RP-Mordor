@@ -18,6 +18,7 @@ in vec3 skyDirection;
 out vec4 fragColor;
 
 // the fire eye: only the eye from fireColor(), its glow from fireGlowLight()
+#moj_import <minecraft:far_terrain.glsl>
 #moj_import <minecraft:fire_eye_config.glsl>
 #define FIRE_NO_GLOW
 int fireLayer = 0;
@@ -31,7 +32,7 @@ vec3 fireRay = vec3(0.0, 0.0, -1.0);
 void main() {
     fragColor = apply_fog(ColorModulator, sphericalVertexDistance, cylindricalVertexDistance, 0.0, FogSkyEnd, FogSkyEnd, FogSkyEnd, FogColor);
 
-    if (fireFarTerrain(FogRenderDistanceStart)) {
+    if (farTerrain(FogRenderDistanceStart)) {
         // relative to the camera
         fireCentre = vec3(FIRE_EYE_BLOCK - CameraBlockPos) + 0.5 + CameraOffset;
         float shown = fireHandover(length(fireCentre));
