@@ -6,7 +6,7 @@
 #define FIRE_DESCRIPTOR_X 8
 
 // Where the eye is - its block - for what draws it from afar: shader packs
-// (patch_shaderpack.py) and, with Distant Horizons, the sky (core/sky.fsh)...
+// (patch_shaderpack.py) and, with a distant terrain mod, the sky (core/sky.fsh)...
 #define FIRE_EYE_BLOCK ivec3(12447, 678, 2629)
 // ...past this distance, in blocks: the server's view distance, 15 chunks,
 // beyond which the eye's chunk is never sent and its block never drawn

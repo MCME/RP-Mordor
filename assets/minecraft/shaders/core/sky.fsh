@@ -1,10 +1,11 @@
 #version 330
 
 // Vanilla 26.2's sky fragment shader, with the fire eye painted onto it where
-// its block can't be drawn: past FIRE_HANDOVER, when Distant Horizons draws
-// the world out there. The sky is behind everything, so what is nearer -
-// terrain, Distant Horizons' terrain, the clouds - covers it, as it should.
-// Without Distant Horizons there is nothing out there, and no eye either.
+// its block can't be drawn: past FIRE_HANDOVER, when a distant terrain mod
+// (Distant Horizons, Voxy) draws the world out there. The sky is behind
+// everything, so what is nearer - terrain, the mod's terrain, the clouds -
+// covers it, as it should. Without one there is nothing out there, and no
+// eye either.
 
 #moj_import <minecraft:fog.glsl>
 #moj_import <minecraft:dynamictransforms.glsl>
@@ -30,7 +31,7 @@ vec3 fireRay = vec3(0.0, 0.0, -1.0);
 void main() {
     fragColor = apply_fog(ColorModulator, sphericalVertexDistance, cylindricalVertexDistance, 0.0, FogSkyEnd, FogSkyEnd, FogSkyEnd, FogColor);
 
-    if (fireDistantHorizons(FogRenderDistanceStart)) {
+    if (fireFarTerrain(FogRenderDistanceStart)) {
         // relative to the camera
         fireCentre = vec3(FIRE_EYE_BLOCK - CameraBlockPos) + 0.5 + CameraOffset;
         float shown = fireHandover(length(fireCentre));
