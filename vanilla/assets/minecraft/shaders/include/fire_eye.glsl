@@ -62,6 +62,11 @@ float fireNoise(vec2 uv, float footprint, int layer) {
     return mix(0.5, n, 1.0 / max(footprint, 1.0));
 }
 
+// How solid the eye is where fireColor() last drew: 1 on the ball and the
+// almond's thickest, falling to 0 in their glow. Shader packs record the
+// eye's depth only where it is solid.
+float fireCover = 0.0;
+
 // The eye's colour on its layer's quad, alpha 0 where it draws nothing. Its
 // own light: no shading, no light map.
 vec4 fireColor() {
@@ -218,6 +223,7 @@ vec4 fireColor() {
     float ballT = disc > 0.0 ? -b - sqrt(disc) : 1.0e9;
     vec3 rgb;
     float cover = max(ballCover, eyeCover);
+    fireCover = cover;
     if (almondT > 0.0 && almondT < ballT) {
         float eyeAlpha = clamp(max(max(eyeFire.r, max(eyeFire.g, eyeFire.b)), eyeCover), 0.0, 1.0);
         vec3 behind = ball * ballCover + (ballGlow + corona) * (1.0 - ballCover);
