@@ -5,6 +5,13 @@
 // one per glow layer (assets/minecraft/textures/block/fire_eye.png).
 #define FIRE_DESCRIPTOR_X 8
 
+// Where the eye is - its block - for what draws it from afar: shader packs
+// (patch_shaderpack.py) and, with Distant Horizons, the sky (core/sky.fsh)...
+#define FIRE_EYE_BLOCK ivec3(12447, 678, 2629)
+// ...past this distance, in blocks: the server's view distance, 15 chunks,
+// beyond which the eye's chunk is never sent and its block never drawn
+#define FIRE_HANDOVER 240.0
+
 #define FIRE_RADIUS 8.3              // the ball's radius, in blocks; everything else scales with it
 #define FIRE_GLOW 8.0                // how far the glow reaches, in radii; keep it past FIRE_EYE_WIDTH and under FIRE_HALO
 #define FIRE_GLOW_FALLOFF 0.8        // how quickly it eases away from the ball; lower spreads it wider

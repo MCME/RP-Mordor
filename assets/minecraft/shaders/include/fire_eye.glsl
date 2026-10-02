@@ -67,6 +67,19 @@ float fireNoise(vec2 uv, float footprint, int layer) {
     return mix(0.5, n, 1.0 / max(footprint, 1.0));
 }
 
+// Whether Distant Horizons draws the world past the render distance, from the
+// render distance fog's start: with vanilla fog switched off in its settings
+// (its default), it moves that to 4.2e14 blocks, which nothing else does.
+bool fireDistantHorizons(float renderFogStart) {
+    return renderFogStart > 1.0e13;
+}
+
+// How far the eye's block hands over to the sky's eye, at distance blocks
+// from the camera: 0 well inside FIRE_HANDOVER, 1 at it - over its last chunk.
+float fireHandover(float distance) {
+    return smoothstep(FIRE_HANDOVER - 16.0, FIRE_HANDOVER, distance);
+}
+
 // The glow round the ball, unpixelated: one glow, orange by the ball,
 // reddening and easing away to nothing by FIRE_GLOW radii, and a second,
 // larger, fainter one over FIRE_HALO radii. passSmooth is how close the view

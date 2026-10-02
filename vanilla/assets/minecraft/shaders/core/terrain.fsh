@@ -132,6 +132,9 @@ void main() {
     // the fire eye: its own light, no shading, no light map
     if (fireLayer >= 0) {
         color = fireColor();
+        // with Distant Horizons the sky draws the eye from FIRE_HANDOVER on
+        // (core/sky.fsh), where this block can no longer be: it hands over
+        if (fireDistantHorizons(FogRenderDistanceStart)) color.a *= 1.0 - fireHandover(length(fireCentre));
         if (color.a <= 0.0) discard;              // only what's fully gone
     }
     // A chunk that has just loaded fades in from the fog colour, as in vanilla.
