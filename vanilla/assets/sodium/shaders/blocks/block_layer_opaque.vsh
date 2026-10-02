@@ -46,9 +46,14 @@ flat out int noshadow;
 flat out int maxLod;
 flat out int blendTexture;
 flat out vec4 texRect;
+// the fire eye (fire_eye_main.glsl)
+flat out int fireLayer;
+flat out vec3 fireCentre;
+flat out float fireTime;
 
 #define Sampler0 u_BlockTex
 #moj_import <minecraft:objmc_tools.glsl>
+#moj_import <minecraft:fire_eye_config.glsl>
 
 uvec3 _get_relative_chunk_coord(uint pos) {
     // Packing scheme is defined by LocalSectionIndex
@@ -85,10 +90,17 @@ void main() {
 #define GameTime 0.0
 #define BLOCK
 #moj_import <minecraft:objmc_main.glsl>
+    // the fire eye: Sodium's clock is milliseconds since this region was
+    // made, so it restarts when the region is
+#define FIRE_MODELVIEW u_ModelViewMatrix
+#define FIRE_SECONDS (float(u_CurrentTime) / 1000.0)
+#moj_import <minecraft:fire_eye_main.glsl>
 #undef texCoord
 
 #ifdef USE_FOG
     v_FragDistance = getFragDistance(Pos);
+    // the fire eye is fogged as one thing, at its centre's distance
+    if (fireLayer >= 0) v_FragDistance = getFragDistance(fireCentre);
 
     int chunkId = int(_draw_id);
     int chunkFade = texelFetch(u_SectionTimeInfo, int((u_RegionID * 256u) + uint(chunkId))).r;

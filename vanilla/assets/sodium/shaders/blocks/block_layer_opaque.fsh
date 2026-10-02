@@ -24,6 +24,10 @@ flat in int noshadow;
 flat in int maxLod;
 flat in int blendTexture;
 flat in vec4 texRect;
+// the fire eye (fire_eye.glsl)
+flat in int fireLayer;
+flat in vec3 fireCentre;
+flat in float fireTime;
 
 uniform sampler2D u_BlockTex; // The block texture
 
@@ -94,6 +98,8 @@ vec4 sampleRGSS(sampler2D source, vec2 uv, vec2 pixelSize) {
 
 #define Sampler0 u_BlockTex
 #moj_import <minecraft:objmc_fragment.glsl>
+#moj_import <minecraft:fire_eye_config.glsl>
+#moj_import <minecraft:fire_eye.glsl>
 
 vec4 sampleColor(vec2 uv) {
     // Taken before branching: derivatives are undefined in divergent control flow.
@@ -111,6 +117,11 @@ void main() {
 #define BLOCK
 #define SODIUM
 #moj_import <minecraft:objmc_light.glsl>
+    // the fire eye: its own light, no shading, no light map
+    if (fireLayer >= 0) {
+        color = fireColor();
+        if (color.a <= 0.0) discard;              // only what's fully gone
+    }
 
     objmcEdges(color, v_TexCoord, 1.0 / u_TexelSize);
 

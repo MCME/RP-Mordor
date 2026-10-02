@@ -28,6 +28,10 @@ flat out int noshadow;
 flat out int maxLod;
 flat out int blendTexture;
 flat out vec4 texRect;
+// the fire eye (fire_eye_main.glsl)
+flat out int fireLayer;
+flat out vec3 fireCentre;
+flat out float fireTime;
 // BEGIN COMMENTED 1.21.4 BLOCK-LIGHTING VARYINGS
 // flat out float baseBrightness;
 // flat out float aoIntensity;
@@ -36,6 +40,7 @@ flat out vec4 texRect;
 // END COMMENTED 1.21.4 BLOCK-LIGHTING VARYINGS
 
 #moj_import <objmc_tools.glsl>
+#moj_import <fire_eye_config.glsl>
 
 vec4 minecraft_sample_lightmap(sampler2D lightMap, ivec2 uv) {
     return texture(lightMap, clamp(uv / 256.0, vec2(0.5 / 16.0), vec2(15.5 / 16.0)));
@@ -64,7 +69,18 @@ void main() {
     #define BLOCK
     #moj_import <objmc_main.glsl>
 
+    // the fire eye: GameTime is the day's fraction, restarting each day
+    #define FIRE_MODELVIEW ModelViewMat
+    #define FIRE_SECONDS (GameTime * 1200.0)
+    #moj_import <fire_eye_main.glsl>
+
     gl_Position = ProjMat * ModelViewMat * vec4(Pos, 1.0);
     sphericalVertexDistance = fog_spherical_distance(Pos);
     cylindricalVertexDistance = fog_cylindrical_distance(Pos);
+    // the fire eye is fogged as one thing, at its centre's distance - not by
+    // its quad's far-flung corners, smeared across it
+    if (fireLayer >= 0) {
+        sphericalVertexDistance = fog_spherical_distance(fireCentre);
+        cylindricalVertexDistance = fog_cylindrical_distance(fireCentre);
+    }
 }

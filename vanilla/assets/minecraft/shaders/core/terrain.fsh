@@ -23,6 +23,10 @@ flat in int noshadow;
 flat in int maxLod;
 flat in int blendTexture;
 flat in vec4 texRect;
+// the fire eye (fire_eye.glsl)
+flat in int fireLayer;
+flat in vec3 fireCentre;
+flat in float fireTime;
 // BEGIN COMMENTED 1.21.4 BLOCK-LIGHTING VARYINGS
 // flat in float baseBrightness;
 // flat in float aoIntensity;
@@ -107,6 +111,8 @@ vec4 sampleRGSS(sampler2D source, vec2 uv, vec2 pixelSize) {
 }
 
 #moj_import <objmc_fragment.glsl>
+#moj_import <fire_eye_config.glsl>
+#moj_import <fire_eye.glsl>
 
 vec4 sampleColor(vec2 uv) {
     // Taken before branching: derivatives are undefined in divergent control flow.
@@ -123,6 +129,11 @@ void main() {
     //custom lighting
     #define BLOCK
     #moj_import<objmc_light.glsl>
+    // the fire eye: its own light, no shading, no light map
+    if (fireLayer >= 0) {
+        color = fireColor();
+        if (color.a <= 0.0) discard;              // only what's fully gone
+    }
     // A chunk that has just loaded fades in from the fog colour, as in vanilla.
     color = mix(FogColor * vec4(1, 1, 1, color.a), color, ChunkVisibility);
 
