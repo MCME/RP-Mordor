@@ -7,6 +7,11 @@
 //
 // Shared by vanilla's terrain.fsh and Sodium's block_layer_opaque.fsh. Pos is
 // the fragment's position relative to the camera.
+//
+// Shader packs can't draw the eye's wide glow on quads: theirs cut off the fog
+// and clouds behind anything translucent. They define FIRE_NO_GLOW, so that
+// fireColor() is only the eye, and add fireGlowLight() over their finished
+// scene instead.
 
 uint fireHash(ivec4 p) {
     uint h = uint(p.x) * 73856093u ^ uint(p.y) * 19349663u ^ uint(p.z) * 83492791u ^ uint(p.w) * 2654435761u;
@@ -62,10 +67,33 @@ float fireNoise(vec2 uv, float footprint, int layer) {
     return mix(0.5, n, 1.0 / max(footprint, 1.0));
 }
 
-// How solid the eye is where fireColor() last drew: 1 on the ball and the
-// almond's thickest, falling to 0 in their glow. Shader packs record the
-// eye's depth only where it is solid.
-float fireCover = 0.0;
+// The glow round the ball, unpixelated: one glow, orange by the ball,
+// reddening and easing away to nothing by FIRE_GLOW radii, and a second,
+// larger, fainter one over FIRE_HALO radii. passSmooth is how close the view
+// ray passes the eye's centre, in radii.
+vec3 fireBallGlow(float passSmooth) {
+    vec3 glowShade = mix(fireShade(0.9), vec3(1.0, 0.55, 0.3), smoothstep(1.0, 2.5, passSmooth));
+    return FIRE_GLOW_STRENGTH * glowShade * exp(-max(passSmooth - 0.9, 0.0) * FIRE_GLOW_FALLOFF)
+         * (1.0 - smoothstep(FIRE_GLOW * 0.25, FIRE_GLOW, passSmooth));
+}
+
+// The second glow thins from the start, with no flat middle to end in a rim,
+// and eases into nothing; and it is a light, warm orange - in the resource
+// pack it is blended over the sky, not added to it, and a deep red would
+// darken a pale sky into a disc.
+vec3 fireHalo(float passSmooth) {
+    float h = min(passSmooth / FIRE_HALO, 1.0);
+    return FIRE_HALO_STRENGTH * vec3(1.0, 0.6, 0.35) * (1.0 - h) * (1.0 - h) * (1.0 - h);
+}
+
+// Both glows, as light to add along view ray rayDir (normalised), for the eye
+// centred at centre; both relative to the camera, in blocks. None over the
+// ball itself.
+vec3 fireGlowLight(vec3 rayDir, vec3 centre) {
+    vec3 eye = -centre / FIRE_RADIUS;
+    float passSmooth = length(eye + rayDir * max(dot(-eye, rayDir), 0.0));
+    return (fireBallGlow(passSmooth) + fireHalo(passSmooth)) * smoothstep(0.82, 1.0, passSmooth);
+}
 
 // The eye's colour on its layer's quad, alpha 0 where it draws nothing. Its
 // own light: no shading, no light map.
@@ -143,9 +171,11 @@ vec4 fireColor() {
     float ballCover = 1.0 - smoothstep(0.82, 1.0, pass);
     // (both glows are taken from the true ray, unpixelated, so they fade
     // smoothly)
-    vec3 glowShade = mix(fireShade(0.9), vec3(1.0, 0.55, 0.3), smoothstep(1.0, 2.5, passSmooth));
-    vec3 ballGlow = FIRE_GLOW_STRENGTH * glowShade * exp(-max(passSmooth - 0.9, 0.0) * FIRE_GLOW_FALLOFF)
-                  * (1.0 - smoothstep(FIRE_GLOW * 0.25, FIRE_GLOW, passSmooth));
+#ifdef FIRE_NO_GLOW
+    vec3 ballGlow = vec3(0.0);
+#else
+    vec3 ballGlow = fireBallGlow(passSmooth);
+#endif
 
     // ---- the slit pupil: tall, black, its edges flickering, a bright rim.
     // It looks about: every FIRE_LOOK_HOLD seconds it moves to a new spot -
@@ -223,7 +253,6 @@ vec4 fireColor() {
     float ballT = disc > 0.0 ? -b - sqrt(disc) : 1.0e9;
     vec3 rgb;
     float cover = max(ballCover, eyeCover);
-    fireCover = cover;
     if (almondT > 0.0 && almondT < ballT) {
         float eyeAlpha = clamp(max(max(eyeFire.r, max(eyeFire.g, eyeFire.b)), eyeCover), 0.0, 1.0);
         vec3 behind = ball * ballCover + (ballGlow + corona) * (1.0 - ballCover);
@@ -233,12 +262,10 @@ vec4 fireColor() {
         rgb = mix(eyeFire + ballGlow + corona, ball + eyeFire * rim * 0.6, ballCover);
     }
 
-    // a second, larger glow, over FIRE_HALO radii. It thins from the start,
-    // with no flat middle to end in a rim, and eases into nothing; and it is a
-    // light, warm orange - it is blended over the sky, not added to it, and a
-    // deep red would darken a pale sky into a disc
-    float h = min(passSmooth / FIRE_HALO, 1.0);
-    rgb += FIRE_HALO_STRENGTH * vec3(1.0, 0.6, 0.35) * (1.0 - h) * (1.0 - h) * (1.0 - h) * (1.0 - cover);
+    // the second, larger glow
+#ifndef FIRE_NO_GLOW
+    rgb += fireHalo(passSmooth) * (1.0 - cover);
+#endif
 
     // a dither of under one colour step, so faint fades don't break into
     // bands - only where there is something, so that beyond the glow stays
