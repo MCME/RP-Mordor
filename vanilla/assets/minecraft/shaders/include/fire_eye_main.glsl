@@ -1,14 +1,21 @@
 // The fire eye's vertex part, imported into main() right after objmc_main.glsl,
-// whose atlasSize, uv and uvHigh it reads. Shared by vanilla's terrain.vsh and
+// whose atlasSize, uv (the texel the face's UV is in), uvHigh (which corner of
+// it the vertex has) and isCustom it reads. Shared by vanilla's terrain.vsh and
 // Sodium's block_layer_opaque.vsh: Position is the vertex's section-local
-// position, FIRE_MODELVIEW the model-view matrix and FIRE_SECONDS a clock in
-// seconds, set there.
+// position, Pos its position relative to the camera, FIRE_MODELVIEW the
+// model-view matrix and FIRE_SECONDS a clock in seconds, set there. Shader
+// packs set those themselves, and FIRE_BLOCK_CENTRE, the block's centre
+// relative to the camera, too.
 //
 // The eye's model is small faces in its block's middle (models/block/
 // fire_eye.json), each pointing - UV inside one texel - at a descriptor in its
 // sheet: an alpha of 254, so the faces go in the translucent layer, and an
 // offset back to the sheet's top-left, which holds a marker and the eye's
 // signature. The first face is the eye's, the rest its glow's layers, from 1.
+
+#ifndef FIRE_BLOCK_CENTRE
+#define FIRE_BLOCK_CENTRE (floor(Position) + 0.5 + (Pos - Position))
+#endif
 
 fireLayer = -1;
 fireCentre = vec3(0.0);
@@ -34,7 +41,7 @@ if (isCustom == 0) {
 // dithered, rather than being cut off where blocks cross one. Each corner is
 // told apart by its texture coordinate, as objmc's are.
 if (fireLayer >= 0) {
-    fireCentre = floor(Position) + 0.5 + (Pos - Position);      // camera-relative
+    fireCentre = FIRE_BLOCK_CENTRE;                             // camera-relative
     float reach = FIRE_RADIUS * (fireLayer >= 1 ? FIRE_HALO : max(FIRE_EYE_WIDTH, 1.0) * 1.1);
     vec3 centre = (FIRE_MODELVIEW * vec4(fireCentre, 1.0)).xyz;  // view space, looking down -z
     float depth = max(-centre.z, 0.3);
