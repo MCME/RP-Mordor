@@ -4,7 +4,8 @@
 
 // Distant Horizons 3.3.2's LOD terrain vertex shader (RP-Mordor: an override,
 // kept to DH's own), passing on where the fire eye is and the time, for
-// frag.fsh to paint it onto the terrain behind it.
+// frag.fsh to paint it onto the terrain behind it, and what frag.fsh needs to
+// draw lava as the resource pack's shaders do.
 
 #moj_import <minecraft:fire_eye_config.glsl>
 #moj_import <minecraft:fire_eye_clock.glsl>
@@ -27,6 +28,9 @@ layout(location = 5) flat out uint vTextureTileId;
 // the eye's centre, relative to the camera, and the time, in seconds
 layout(location = 7) flat out vec3 vFireCentre;
 layout(location = 8) flat out float vFireTime;
+// lava (lava.glsl): the LOD's material, and its position, mod 64 blocks
+layout(location = 9) flat out uint vMaterial;
+layout(location = 10) out vec3 vLavaWorld;
 
 layout (std140) uniform vertUniqueUniformBlock
 {
@@ -129,6 +133,12 @@ void main()
         vFireCentre.xz = vFireCentre.xz * sin(phi) / max(phi, 1.0e-6);
     }
     vFireTime = fireClockSeconds(uLightMap);
+
+    // lava: DH's material for it (EDhApiBlockMaterial.LAVA is 6), and where
+    // the vertex is, its LOD's place taken mod 64 - not the vertex's, which
+    // would wrap across a face
+    vMaterial = irisMaterial;
+    vLavaWorld = vec3(vPosition) + mod(uModelOffset, 64.0);
 
     gl_Position = uCombinedMatrix * vec4(vertexWorldPos, 1.0);
     

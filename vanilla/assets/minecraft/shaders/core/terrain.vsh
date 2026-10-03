@@ -32,6 +32,11 @@ flat out vec4 texRect;
 flat out int fireLayer;
 flat out vec3 fireCentre;
 flat out float fireTime;
+// lava and water (fluid.glsl): the position, mod 64 blocks
+out vec3 lavaWorld;
+// water (water.glsl): each corner's brightness, for its shores
+out vec4 waterLights;
+out vec4 waterWeights;
 // BEGIN COMMENTED 1.21.4 BLOCK-LIGHTING VARYINGS
 // flat out float baseBrightness;
 // flat out float aoIntensity;
@@ -42,6 +47,7 @@ flat out float fireTime;
 #moj_import <objmc_tools.glsl>
 #moj_import <far_terrain.glsl>
 #moj_import <fire_eye_config.glsl>
+#moj_import <water_corner.glsl>
 
 vec4 minecraft_sample_lightmap(sampler2D lightMap, ivec2 uv) {
     return texture(lightMap, clamp(uv / 256.0, vec2(0.5 / 16.0), vec2(15.5 / 16.0)));
@@ -62,6 +68,10 @@ void main() {
     // underShadowStrength = 1.0;
     // END COMMENTED 1.21.4 BLOCK-LIGHTING DEFAULTS
     Pos = Position + (ChunkPosition - CameraBlockPos) + CameraOffset;
+    // lava: the vertex's place in its section, plus the section's position
+    // mod 64 - as Sodium's shader gives it
+    lavaWorld = Position + vec3(ChunkPosition & 63);
+    waterCorner(gl_VertexID, Color.rgb, waterLights, waterWeights);
     vertexColor = Color;
     lightColor = minecraft_sample_lightmap(Sampler2, UV2);
     texCoord = UV0;
