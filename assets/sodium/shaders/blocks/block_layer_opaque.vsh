@@ -50,11 +50,18 @@ flat out vec4 texRect;
 flat out int fireLayer;
 flat out vec3 fireCentre;
 flat out float fireTime;
+// lava and water (fluid.glsl): the position, mod 64 blocks
+out vec3 lavaWorld;
+// water (water.glsl): each corner's brightness - with its smooth
+// lighting's occlusion - for its shores
+out vec4 waterLights;
+out vec4 waterWeights;
 
 #define Sampler0 u_BlockTex
 #moj_import <minecraft:objmc_tools.glsl>
 #moj_import <minecraft:far_terrain.glsl>
 #moj_import <minecraft:fire_eye_config.glsl>
+#moj_import <minecraft:water_corner.glsl>
 
 uvec3 _get_relative_chunk_coord(uint pos) {
     // Packing scheme is defined by LocalSectionIndex
@@ -71,6 +78,10 @@ void main() {
     // Transform the chunk-local vertex position into world model space
     vec3 translation = u_RegionOffset + _get_draw_translation(_draw_id);
     Pos = _vert_position + translation;
+    // lava: the vertex's place in its region - 8x4x8 sections, on the
+    // world's grid of 128x64x128 blocks - mod 64, as vanilla's shader gives it
+    lavaWorld = _vert_position + mod(_get_draw_translation(_draw_id), 64.0);
+    waterCorner(gl_VertexID, _vert_color.rgb, waterLights, waterWeights);
 
     vertexColor = _vert_color;
     lightColor = texture(u_LightTex, _vert_tex_light_coord);

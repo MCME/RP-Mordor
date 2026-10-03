@@ -6,7 +6,8 @@
 // override, kept to DH's own), with the fire eye and its glow painted onto
 // the terrain behind it, past FIRE_HANDOVER - where its block isn't drawn -
 // as core/sky.fsh paints them onto the sky: so terrain in front of the eye
-// hides it, and terrain behind it doesn't.
+// hides it, and terrain behind it doesn't. Its lava is drawn as the resource
+// pack's terrain shaders draw it (lava.glsl).
 
 // order matters, this must match the vertex shader's outputs
 layout(location = 0) in vec3 vPos;
@@ -18,6 +19,8 @@ layout(location = 5) flat in uint vTextureTileId;
 layout(location = 6) in vec4 gl_FragCoord;
 layout(location = 7) flat in vec3 vFireCentre;
 layout(location = 8) flat in float vFireTime;
+layout(location = 9) flat in uint vMaterial;
+layout(location = 10) in vec3 vLavaWorld;
 
 layout(location = 0) out vec4 fragColor;
 
@@ -52,6 +55,12 @@ vec3 fireRay = vec3(0.0, 0.0, -1.0);
 #define Pos fireRay
 #moj_import <minecraft:fire_eye.glsl>
 #undef Pos
+
+// lava, as the resource pack's terrain shaders draw it: still, as DH's LODs
+// don't say which way it flows
+#moj_import <minecraft:fluid.glsl>
+#moj_import <minecraft:lava_config.glsl>
+#moj_import <minecraft:lava.glsl>
 
 // the eye and its glow over this terrain, if it lies behind the eye's front;
 // not on water and the like, but on what is under it
@@ -167,6 +176,8 @@ vec2 blockFaceUv()
 void main()
 {
     fragColor = vertexColor;
+    // taken before branching, as it needs derivatives
+    FluidFrame fluidHere = fluidFrame(vLavaWorld, vertexWorldPos, vec2(0.0));
     
     if (vTextureTileId != 0u)
     {
@@ -219,6 +230,12 @@ void main()
     {
         applyNoise(fragColor, viewDist);
     }
-    
+
+    // lava: its own light, its sides a little darker, as DH shades them
+    if (vMaterial == 6u)
+    {
+        fragColor.rgb = lavaColor(LAVA_STILL, fluidHere, vFireTime) * (vNormalIndex == 1u ? 1.0 : mix(1.0, 0.7, LAVA_SHADING));
+    }
+
     applyFireEye(fragColor, viewDist);
 }

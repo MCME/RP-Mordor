@@ -27,6 +27,10 @@ flat in vec4 texRect;
 flat in int fireLayer;
 flat in vec3 fireCentre;
 flat in float fireTime;
+// lava and water (fluid.glsl)
+in vec3 lavaWorld;
+in vec4 waterLights;
+in vec4 waterWeights;
 // BEGIN COMMENTED 1.21.4 BLOCK-LIGHTING VARYINGS
 // flat in float baseBrightness;
 // flat in float aoIntensity;
@@ -114,6 +118,11 @@ vec4 sampleRGSS(sampler2D source, vec2 uv, vec2 pixelSize) {
 #moj_import <far_terrain.glsl>
 #moj_import <fire_eye_config.glsl>
 #moj_import <fire_eye.glsl>
+#moj_import <fluid.glsl>
+#moj_import <lava_config.glsl>
+#moj_import <lava.glsl>
+#moj_import <water_config.glsl>
+#moj_import <water.glsl>
 
 vec4 sampleColor(vec2 uv) {
     // Taken before branching: derivatives are undefined in divergent control flow.
@@ -126,10 +135,28 @@ vec4 sampleColor(vec2 uv) {
 
 void main() {
     vec4 color = mix(sampleColor(texCoord), sampleColor(texCoord2), transition);
+    // taken before branching, as it needs derivatives
+    FluidFrame fluidHere = fluidFrame(lavaWorld, Pos, texCoord);
+    WaterShore shore = waterShore(waterLights, waterWeights);
 
     //custom lighting
     #define BLOCK
     #moj_import<objmc_light.glsl>
+    // lava: its own light, with only the game's shading of its sides;
+    // GameTime is the day's fraction, as for the eye
+    int fluid = isCustom == 0 && fireLayer < 0 ? fluidKind(Sampler0, texCoord) : -1;
+    if (fluid == LAVA_STILL || fluid == LAVA_FLOWING) {
+        color = vec4(lavaColor(fluid, fluidHere, GameTime * 1200.0) * mix(vec3(1.0), vertexColor.rgb, LAVA_SHADING), 1.0);
+    }
+    // water: its colour and light as ever, its pattern and opacity its own,
+    // taking the sky's colour - the fog's - at a glance, where there is sky
+    // light to see it by
+    if (fluid == WATER_STILL || fluid == WATER_FLOWING) {
+        WaterLook water = waterLook(fluid, fluidHere, GameTime * 1200.0, shore);
+        vec3 lit = vertexColor.rgb * lightColor.rgb;
+        vec3 rgb = mix(lit * water.shade, FogColor.rgb * max(lightColor.r, max(lightColor.g, lightColor.b)), water.sheen);
+        color = vec4(mix(rgb, WATER_FOAM_COLOR * lightColor.rgb, water.foam), water.alpha);
+    }
     // the fire eye: its own light, no shading, no light map
     if (fireLayer >= 0) {
         color = fireColor();
