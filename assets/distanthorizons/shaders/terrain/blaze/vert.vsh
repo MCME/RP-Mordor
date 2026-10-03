@@ -8,7 +8,7 @@
 // draw lava as the resource pack's shaders do.
 
 #moj_import <minecraft:fire_eye_config.glsl>
-#moj_import <minecraft:fire_eye_clock.glsl>
+#moj_import <minecraft:mcme_clock.glsl>
 
 layout(location = 0) in uvec3 vPosition;
 layout(location = 1) in uint meta; // contains light and micro-offset data
@@ -132,7 +132,7 @@ void main()
         vFireCentre.y += (cos(phi) - 1.0) * localRadius;
         vFireCentre.xz = vFireCentre.xz * sin(phi) / max(phi, 1.0e-6);
     }
-    vFireTime = fireClockSeconds(uLightMap);
+    vFireTime = mcmeClockSeconds(uLightMap);
 
     // lava: DH's material for it (EDhApiBlockMaterial.LAVA is 6), and where
     // the vertex is, its LOD's place taken mod 64 - not the vertex's, which
