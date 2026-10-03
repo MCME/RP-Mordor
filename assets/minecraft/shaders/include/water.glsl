@@ -38,6 +38,7 @@ struct WaterShore {
     vec2 at;          // where on its face: 0 to 1 along each side
     vec2 dx, dy;      // at's change to the next pixel across and up
     vec4 shore;       // per corner: 1 on a shore, 0 not, -1 not this triangle's
+    float open;       // the brightest corner's brightness: the face's own, unoccluded
 };
 
 // The corners of a face, in the order its vertices come in.
@@ -58,6 +59,7 @@ WaterShore waterShore(vec4 lights, vec4 weights) {
         // light would make it
         s.shore[k] = weights[k] > 1.0e-3 ? (corner[k] < brightest * 0.92 ? 1.0 : 0.0) : -1.0;
     }
+    s.open = brightest;
     s.dx = dFdx(s.at);
     s.dy = dFdy(s.at);
     return s;

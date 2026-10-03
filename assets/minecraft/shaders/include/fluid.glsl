@@ -1,5 +1,5 @@
-// What the lava (lava.glsl) and the water (water.glsl) share: telling their
-// faces apart from every other, where on such a face a fragment is, and
+// What the lava (lava.glsl), the water (water.glsl) and the ice (ice.glsl)
+// share: telling their faces apart from every other, where on such a face a fragment is, and
 // patterns fixed to the world that repeat as it does.
 //
 // Shared by vanilla's terrain.fsh, Sodium's block_layer_opaque.fsh and
@@ -7,12 +7,12 @@
 // Voxy, another mod - shows the fluids' textures, which this leaves looking
 // as they did.
 //
-// The fluids are told by their textures, block/lava_still, lava_flow,
-// water_still and water_flow: the lowest two bits of each texel's red, green
+// They are told by their textures, block/lava_still, lava_flow, water_still,
+// water_flow, packed_ice and blue_ice: the lowest two bits of each texel's red, green
 // and blue hold a code, by the texel's place in its 4x4 block of the sprite
 // and by the sprite (fluidCode) - at most 3 steps in 255, which no one sees.
 // A texel's code is checked, and if it is a fluid's, the codes of its whole
-// 4x4 block. Lava's texels are opaque, water's needn't be. Editing the
+// 4x4 block. Lava's and ice's texels are opaque, water's needn't be. Editing the
 // textures loses the codes: write them again with ResourcePackScripts'
 // lavaSignature/sign_fluids.py.
 //
@@ -28,6 +28,9 @@
 #define FLUID_LAVA_FLOWING 1
 #define FLUID_WATER_STILL 2
 #define FLUID_WATER_FLOWING 3
+#define FLUID_PACKED_ICE 4
+#define FLUID_BLUE_ICE 5
+#define FLUID_KINDS 6
 
 uint fluidHash(ivec4 p) {
     uint h = uint(p.x) * 73856093u ^ uint(p.y) * 19349663u ^ uint(p.z) * 83492791u ^ uint(p.w) * 2654435761u;
@@ -47,28 +50,30 @@ int fluidCode(int kind, ivec2 t) {
     return int(fluidHash(ivec4(t & 3, kind, 731)) >> 26u);
 }
 
-// Whether a texel at atlas texel t holds kind's code: opaque, for lava.
+// Whether a texel at atlas texel t holds kind's code: opaque, but for water.
 bool fluidFits(int kind, vec4 texel, ivec2 t) {
     ivec4 c = ivec4(texel * 255.0 + 0.5);
-    return (kind < FLUID_WATER_STILL ? c.a == 255 : c.a > 0)
+    return (kind == FLUID_WATER_STILL || kind == FLUID_WATER_FLOWING ? c.a > 0 : c.a == 255)
         && (((c.r & 3) << 4) | ((c.g & 3) << 2) | (c.b & 3)) == fluidCode(kind, t);
 }
 
-// Which fluid sprite the atlas holds at uv - a FLUID_ kind - or -1 if none.
+// Which of their sprites the atlas holds at uv - a FLUID_ kind - or -1 if none.
+// A texel's code can be more than one kind's: each such kind is checked on
+// the whole 4x4 block.
 int fluidKind(sampler2D atlas, vec2 uv) {
     ivec2 t = ivec2(floor(uv * vec2(textureSize(atlas, 0))));
     vec4 texel = texelFetch(atlas, t, 0);
-    int kind = -1;
-    for (int k = 0; k < 4; k++) {
-        if (kind < 0 && fluidFits(k, texel, t)) kind = k;
-    }
-    if (kind < 0) return -1;
     ivec2 block = t - (t & 3);
-    for (int i = 0; i < 16; i++) {
-        ivec2 p = block + ivec2(i & 3, i >> 2);
-        if (!fluidFits(kind, texelFetch(atlas, p, 0), p)) return -1;
+    for (int k = 0; k < FLUID_KINDS; k++) {
+        if (!fluidFits(k, texel, t)) continue;
+        bool all = true;
+        for (int i = 0; i < 16 && all; i++) {
+            ivec2 p = block + ivec2(i & 3, i >> 2);
+            all = fluidFits(k, texelFetch(atlas, p, 0), p);
+        }
+        if (all) return k;
     }
-    return kind;
+    return -1;
 }
 
 // ---------------------------------------------------------------- where it is
