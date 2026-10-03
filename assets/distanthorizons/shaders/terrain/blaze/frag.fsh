@@ -66,7 +66,7 @@ void applyFireEye(inout vec4 color, float viewDist)
     // the eye, where the ray passes near enough to meet it
     vec3 from = -fireCentre / FIRE_RADIUS;
     float pass = length(from + fireRay * max(dot(-from, fireRay), 0.0));
-    if (pass < max(FIRE_EYE_WIDTH, FIRE_CORONA) * 1.05)
+    if (pass < max(FIRE_EYE_WIDTH, FIRE_CORONA) * 1.1)
     {
         vec4 eye = fireColor();
         float behind = smoothstep(fireDistance - FIRE_RADIUS * 1.2, fireDistance - FIRE_RADIUS * 0.7, viewDist);

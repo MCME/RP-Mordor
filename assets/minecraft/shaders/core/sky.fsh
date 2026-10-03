@@ -61,7 +61,7 @@ void main() {
     // the eye, where the ray passes near enough to meet it
     vec3 from = -fireCentre / FIRE_RADIUS;
     float pass = length(from + fireRay * max(dot(-from, fireRay), 0.0));
-    if (pass < max(FIRE_EYE_WIDTH, FIRE_CORONA) * 1.05) {
+    if (pass < max(FIRE_EYE_WIDTH, FIRE_CORONA) * 1.1) {
         vec4 eye = fireColor();
         fragColor.rgb = mix(fragColor.rgb, eye.rgb, eye.a * shown);
         painted = eye.a * shown > 0.0;
