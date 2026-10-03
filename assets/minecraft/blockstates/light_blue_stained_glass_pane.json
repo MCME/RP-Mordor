@@ -1,7 +1,7 @@
 {
     "variants": {
         "east=false,north=false,south=false,west=false": {
-            "model": "block/unused_cross_0"
+            "model": "block/spray"
         },
         "east=false,north=false,south=false,west=true": {
             "model": "block/unused_cross_0",

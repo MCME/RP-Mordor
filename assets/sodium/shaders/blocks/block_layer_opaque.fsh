@@ -32,6 +32,11 @@ flat in float fireTime;
 in vec3 lavaWorld;
 in vec4 waterLights;
 in vec4 waterWeights;
+// clouds and smoke (fog_volume.glsl): which, if any, this is, and its
+// block's middle, relative to the camera and in the world mod 64
+flat in int volumeKind;
+flat in vec3 volumeCentre;
+flat in vec3 volumeBlock;
 
 uniform sampler2D u_BlockTex; // The block texture
 // lava: the light map, for the time of day core/lightmap.fsh hides in it -
@@ -117,6 +122,9 @@ vec4 sampleRGSS(sampler2D source, vec2 uv, vec2 pixelSize) {
 #moj_import <minecraft:water.glsl>
 #moj_import <minecraft:ice_config.glsl>
 #moj_import <minecraft:ice.glsl>
+#moj_import <minecraft:fog_block_config.glsl>
+#moj_import <minecraft:fog_volume.glsl>
+#moj_import <minecraft:fog_block.glsl>
 #moj_import <minecraft:tar_config.glsl>
 #moj_import <minecraft:tar.glsl>
 
@@ -140,7 +148,7 @@ void main() {
 #define SODIUM
 #moj_import <minecraft:objmc_light.glsl>
     // lava: its own light, with only the game's shading of its sides
-    int fluid = isCustom == 0 && fireLayer < 0 ? fluidKind(u_BlockTex, v_TexCoord) : -1;
+    int fluid = isCustom == 0 && fireLayer < 0 && volumeKind == 0 ? fluidKind(u_BlockTex, v_TexCoord) : -1;
     if (fluid == LAVA_STILL || fluid == LAVA_FLOWING) {
         color = vec4(lavaColor(fluid, fluidHere, fireClockSeconds(u_LightTex)) * mix(vec3(1.0), vertexColor.rgb, LAVA_SHADING), 1.0);
     }
@@ -158,6 +166,22 @@ void main() {
         vec3 open = vertexColor.rgb / max(max(vertexColor.r, max(vertexColor.g, vertexColor.b)), 1.0e-3) * shore.open;
         color = vec4(ice.color * mix(vertexColor.rgb, open, ice.frost) * lightColor.rgb, ice.alpha);
     }
+    // fog: the mist the view passes through in its block, lit by the
+    // light alone - no shading of its faces, which would show them
+    if (fluid == FOG_BLOCK) {
+        vec4 fog = fogLook(fluidHere, fireClockSeconds(u_LightTex), u_FogColor.rgb);
+        color = vec4(fog.rgb * lightColor.rgb, fog.a);
+    }
+    // spray: the same, rising round waterfalls
+    if (fluid == SPRAY_BLOCK) {
+        vec4 spray = sprayLook(fluidHere, fireClockSeconds(u_LightTex));
+        color = vec4(spray.rgb * lightColor.rgb, spray.a);
+    }
+    // clouds and smoke: their volumes traced, lit by the light alone
+    if (volumeKind > 0) {
+        vec4 volume = volumeLook(volumeKind, volumeCentre, volumeBlock, Pos, fireClockSeconds(u_LightTex));
+        color = vec4(volume.rgb * lightColor.rgb, volume.a);
+    }
     // tar: lit and shaded as any block
     if (fluid == TAR) {
         color = vec4(tarColor(fluidHere, fireClockSeconds(u_LightTex), shore) * vertexColor.rgb * lightColor.rgb, 1.0);
@@ -174,7 +198,9 @@ void main() {
     objmcEdges(color, v_TexCoord, 1.0 / u_TexelSize);
 
 #ifdef ALPHA_CUTOUT
-    if (color.a < ALPHA_CUTOUT) {
+    // (not clouds' and smoke's thin edges: only what's fully clear, which
+    // mustn't hide what is drawn after it)
+    if (color.a < (volumeKind > 0 ? 1.0 / 255.0 : ALPHA_CUTOUT)) {
         discard;
     }
 #endif

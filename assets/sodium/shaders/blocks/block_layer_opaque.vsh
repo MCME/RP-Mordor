@@ -56,12 +56,19 @@ out vec3 lavaWorld;
 // lighting's occlusion - for its shores
 out vec4 waterLights;
 out vec4 waterWeights;
+// clouds and smoke (fog_volume.glsl): which, if any, this is, and its
+// block's middle, relative to the camera and in the world mod 64
+flat out int volumeKind;
+flat out vec3 volumeCentre;
+flat out vec3 volumeBlock;
 
 #define Sampler0 u_BlockTex
 #moj_import <minecraft:objmc_tools.glsl>
 #moj_import <minecraft:far_terrain.glsl>
 #moj_import <minecraft:fire_eye_config.glsl>
 #moj_import <minecraft:water_corner.glsl>
+#moj_import <minecraft:fog_block_config.glsl>
+#moj_import <minecraft:fog_volume.glsl>
 
 uvec3 _get_relative_chunk_coord(uint pos) {
     // Packing scheme is defined by LocalSectionIndex
@@ -107,12 +114,17 @@ void main() {
 #define FIRE_MODELVIEW u_ModelViewMatrix
 #define FIRE_SECONDS (float(u_CurrentTime) / 1000.0)
 #moj_import <minecraft:fire_eye_main.glsl>
+    // clouds and smoke: spread over their volumes
+#define VOLUME_MODELVIEW u_ModelViewMatrix
+#moj_import <minecraft:fog_volume_main.glsl>
 #undef texCoord
 
 #ifdef USE_FOG
     v_FragDistance = getFragDistance(Pos);
     // the fire eye is fogged as one thing, at its centre's distance
     if (fireLayer >= 0) v_FragDistance = getFragDistance(fireCentre);
+    // a volume too, at its block's
+    if (volumeKind > 0) v_FragDistance = getFragDistance(volumeCentre);
 
     int chunkId = int(_draw_id);
     int chunkFade = texelFetch(u_SectionTimeInfo, int((u_RegionID * 256u) + uint(chunkId))).r;

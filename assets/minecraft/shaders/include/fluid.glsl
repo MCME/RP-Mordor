@@ -1,5 +1,5 @@
 // What the lava (lava.glsl), the water (water.glsl), the ice (ice.glsl), the
-// tar (tar.glsl) share: telling their faces apart from every other, where on such a face a fragment is, and
+// fog and spray (fog_block.glsl) and the tar (tar.glsl) share: telling their faces apart from every other, where on such a face a fragment is, and
 // patterns fixed to the world that repeat as it does.
 //
 // Shared by vanilla's terrain.fsh, Sodium's block_layer_opaque.fsh and
@@ -8,7 +8,7 @@
 // as they did.
 //
 // They are told by their textures, block/lava_still, lava_flow, water_still,
-// water_flow, ice and the tar's, powder_snow to powder_snow_4: the lowest two bits of each texel's red, green
+// water_flow, ice, fog, spray and the tar's, powder_snow to powder_snow_4: the lowest two bits of each texel's red, green
 // and blue hold a code, by the texel's place in its 4x4 block of the sprite
 // and by the sprite (fluidCode) - at most 3 steps in 255, which no one sees.
 // A texel's code is checked, and if it is a fluid's, the codes of its whole
@@ -29,8 +29,10 @@
 #define FLUID_WATER_STILL 2
 #define FLUID_WATER_FLOWING 3
 #define FLUID_ICE 4
-#define FLUID_TAR 6                  // (5 is kept for the fog block, on its own branch)
-#define FLUID_KINDS 7
+#define FLUID_FOG 5
+#define FLUID_TAR 6
+#define FLUID_SPRAY 7
+#define FLUID_KINDS 8
 
 uint fluidHash(ivec4 p) {
     uint h = uint(p.x) * 73856093u ^ uint(p.y) * 19349663u ^ uint(p.z) * 83492791u ^ uint(p.w) * 2654435761u;

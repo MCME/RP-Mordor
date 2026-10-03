@@ -37,6 +37,11 @@ out vec3 lavaWorld;
 // water (water.glsl): each corner's brightness, for its shores
 out vec4 waterLights;
 out vec4 waterWeights;
+// clouds and smoke (fog_volume.glsl): which, if any, this is, and its
+// block's middle, relative to the camera and in the world mod 64
+flat out int volumeKind;
+flat out vec3 volumeCentre;
+flat out vec3 volumeBlock;
 // BEGIN COMMENTED 1.21.4 BLOCK-LIGHTING VARYINGS
 // flat out float baseBrightness;
 // flat out float aoIntensity;
@@ -48,6 +53,8 @@ out vec4 waterWeights;
 #moj_import <far_terrain.glsl>
 #moj_import <fire_eye_config.glsl>
 #moj_import <water_corner.glsl>
+#moj_import <fog_block_config.glsl>
+#moj_import <fog_volume.glsl>
 
 vec4 minecraft_sample_lightmap(sampler2D lightMap, ivec2 uv) {
     return texture(lightMap, clamp(uv / 256.0, vec2(0.5 / 16.0), vec2(15.5 / 16.0)));
@@ -85,6 +92,10 @@ void main() {
     #define FIRE_SECONDS (GameTime * 1200.0)
     #moj_import <fire_eye_main.glsl>
 
+    // clouds and smoke: spread over their volumes
+    #define VOLUME_MODELVIEW ModelViewMat
+    #moj_import <fog_volume_main.glsl>
+
     gl_Position = ProjMat * ModelViewMat * vec4(Pos, 1.0);
     sphericalVertexDistance = fog_spherical_distance(Pos);
     cylindricalVertexDistance = fog_cylindrical_distance(Pos);
@@ -93,5 +104,10 @@ void main() {
     if (fireLayer >= 0) {
         sphericalVertexDistance = fog_spherical_distance(fireCentre);
         cylindricalVertexDistance = fog_cylindrical_distance(fireCentre);
+    }
+    // a volume too, at its block's
+    if (volumeKind > 0) {
+        sphericalVertexDistance = fog_spherical_distance(volumeCentre);
+        cylindricalVertexDistance = fog_cylindrical_distance(volumeCentre);
     }
 }

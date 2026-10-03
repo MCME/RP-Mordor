@@ -42,7 +42,7 @@
                 "west": false
             },
             "apply": {
-                "model": "block/unused_cross_0"
+                "model": "block/volume_column_top"
             }
         }
     ]
