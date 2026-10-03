@@ -99,9 +99,11 @@ float waterAway(WaterShore s, FluidFrame f, vec3 shift) {
 const float WATER_WAVE_TIMES[4] = float[4](20.0, 24.0, 30.0, 40.0);
 
 // A small wave on still water at here (blocks): in some squares of
-// WATER_WAVE_SPACING now and then, a short crest, bowed forward, crossing
-// WATER_WAVE_TRAVEL blocks one of eight ways as it rises and dies away.
-float waterWave(vec2 here, float time) {
+// WATER_WAVE_SPACING now and then, a crest of foam crossing WATER_WAVE_TRAVEL
+// blocks from the west or the north-west as it rises and dies away, a trail
+// of foam behind it thinning and breaking up. Each its own: longer or
+// shorter, straighter or more bowed, gapped along its crest.
+float waterWave(vec2 here, float time, float pixel) {
     vec2 g = here / WATER_WAVE_SPACING;
     ivec2 cell = ivec2(floor(g));
     int mask = int(64.0 / WATER_WAVE_SPACING) - 1;
@@ -115,16 +117,27 @@ float waterWave(vec2 here, float time) {
         float life = fract(t) / 0.4;
         if (life >= 1.0 || fluidRand(ivec4(id, rise, 701)) > WATER_WAVES) continue;
         vec2 start = (vec2(o) + vec2(fluidRand(ivec4(id, rise, 702)), fluidRand(ivec4(id, rise, 703)))) * WATER_WAVE_SPACING;
-        float a = floor(fluidRand(ivec4(id, rise, 704)) * 8.0) * 0.7853982;
+        // east, or south-east (+x, +z), give or take a little
+        float a = fluidRand(ivec4(id, rise, 704)) * 0.7853982 + (fluidRand(ivec4(id, rise, 705)) - 0.5) * 0.25;
         vec2 dir = vec2(cos(a), sin(a));
+        float half_ = 0.6 + 1.2 * fluidRand(ivec4(id, rise, 706));
+        float bow = (fluidRand(ivec4(id, rise, 707)) - 0.3) * 0.25 / half_;
         vec2 d = here - start - dir * life * WATER_WAVE_TRAVEL;
         float across = dot(d, vec2(-dir.y, dir.x));
-        float ahead = dot(d, dir) + 0.25 * across * across;
-        // its crest two pixels deep, and a wake fading out behind it
-        float crest = (1.0 - smoothstep(WATER_PIXEL, WATER_PIXEL * 2.0, abs(ahead)))
-                    + (ahead < 0.0 ? exp(ahead * 6.0) * 0.35 : 0.0);
-        crest *= 1.0 - smoothstep(0.7, 1.3, abs(across));
-        wave = max(wave, min(crest, 1.0) * sin(life * 3.1415927));
+        float ahead = dot(d, dir) + bow * across * across;
+        float reach = 1.0 - smoothstep(half_ * 0.6, half_, abs(across));
+        // gaps along its crest, fixed to the wave as it goes
+        float gaps = fluidNoise(vec2(across * 2.0, float(rise)) + vec2(id) * 3.0, vec2(2.0, 1.0), pixel, 708);
+        float crest = (1.0 - smoothstep(WATER_PIXEL, WATER_PIXEL * 2.0, abs(ahead))) * step(0.3, gaps);
+        // the trail: streaks of foam left behind across its width, breaking
+        // up and fading the further back they lie, no longer than the wave
+        // has gone
+        float behind = -ahead / WATER_WAVE_TRAIL;
+        float left = behind > 0.0 && behind * WATER_WAVE_TRAIL < life * WATER_WAVE_TRAVEL ? 1.0 - behind : 0.0;
+        float streaks = fluidNoise(vec2(across * 6.0, -ahead * 1.5) + vec2(id) * 7.0 + float(rise), vec2(1.0, 1.0), pixel, 709);
+        float trail = left > 0.0 ? step(1.0 - 0.6 * left, streaks) * left * left : 0.0;
+        float foam = max(crest, trail * 0.7) * reach;
+        wave = max(wave, foam * sin(life * 3.1415927));
     }
     return wave;
 }
@@ -188,8 +201,11 @@ WaterLook waterLook(int kind, FluidFrame f, float time, WaterShore shore) {
     vec2 c = along * (here - vec2(flowing ? way * steps : FLUID_STIR[0] * WATER_STIR) * FLUID_STEP * time);
     float streak = 0.0;
     if (flowing) {
+        // two sets of lines, the finer running a little ahead, light on
+        // their ridges and a little darker between
         float lines = 1.0 - abs(2.0 * fluidNoise(c + fluidWarp(c, vec2(0.5, 1.0), pixel, 136) * 0.5, vec2(0.25, 4.0), pixel, 135) - 1.0);
-        streak = smoothstep(0.75, 0.95, lines);
+        float fine = 1.0 - abs(2.0 * fluidNoise(c * vec2(1.0, 1.0) + 31.0, vec2(0.5, 8.0), pixel, 137) - 1.0);
+        streak = smoothstep(0.7, 0.92, lines) + smoothstep(0.8, 0.96, fine) * 0.6 - (1.0 - lines) * 0.3;
     }
 
     WaterLook look;
@@ -204,9 +220,10 @@ WaterLook waterLook(int kind, FluidFrame f, float time, WaterShore shore) {
         float streaks = fluidNoise(c, vec2(1.0, 4.0) * stretch, pixel, 130) * 0.6 + fluidNoise(c + 7.0, vec2(2.0, 8.0) * stretch, pixel, 131) * 0.4;
         foam = smoothstep(1.0 - amount * 0.75, 1.0 - amount * 0.75 + 0.12, streaks + (fluidNoise(c, vec2(8.0, 16.0), pixel, 134) - 0.5) * 0.12);
     } else if (top) {
-        foam = waterWave(here, time) * 1.6;
+        foam = waterWave(here, time, pixel) * WATER_WAVE_OPACITY / WATER_FOAM_OPACITY;
     }
-    float away = waterAway(shore, f, shift);
+    // (not on flowing water: its streaks are its own)
+    float away = flowing ? 1.0e9 : waterAway(shore, f, shift);
     // a band along the shore, its edge lapping in and out, and a thin line
     // of foam beyond it, washing in and out on its own swell
     float lap = fluidNoise(c + vec2(FLUID_STIR[2]) * FLUID_STEP * time * 4.0, vec2(2.0), pixel, 132);

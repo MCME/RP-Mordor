@@ -5,9 +5,9 @@
 // ripples, in layers under the surface as the lava's are
 #define WATER_LAYERS 3               // how many (up to 6)
 #define WATER_LAYER_DEPTH 0.3        // how far apart they are, in blocks
-#define WATER_RIPPLE 0.1             // how much they lighten and darken it
-#define WATER_CREST 0.12             // how bright the light caught on their crests is
-#define WATER_STREAK 0.2             // how bright the streaks along flowing water are
+#define WATER_RIPPLE 0.16            // how much they lighten and darken it
+#define WATER_CREST 0.22             // how bright the light caught on their crests is
+#define WATER_STREAK 0.35            // how bright the streaks along flowing water are
 
 // how fast it moves, in whole steps of 64 blocks a day (0.053 blocks a
 // second), so that it is back where it started when the day's clock starts over
@@ -24,7 +24,10 @@
 #define WATER_SHORE_FOAM 1.0         // along its shores - with Sodium only, see water.glsl
 #define WATER_FOAM_COLOR vec3(0.92, 0.95, 0.96)
 
-// small waves now and then on still water: a short crest of foam crossing it
+// small waves now and then on still water: a crest of foam crossing it,
+// always from the west, or the north-west, a trail of foam behind it
 #define WATER_WAVE_SPACING 8.0       // at most one at a time in each square this wide, in blocks (a power of two)
-#define WATER_WAVES 0.5              // in how many of them, 0 to 1
+#define WATER_WAVES 0.25             // in how many of them, 0 to 1
 #define WATER_WAVE_TRAVEL 4.0        // how far each crosses, in blocks (under WATER_WAVE_SPACING)
+#define WATER_WAVE_TRAIL 1.6         // how long the trail behind it is, in blocks
+#define WATER_WAVE_OPACITY 0.75      // how opaque its foam is at most
