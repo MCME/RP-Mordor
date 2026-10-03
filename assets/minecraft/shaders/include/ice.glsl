@@ -1,24 +1,32 @@
-// Ice, seen into - through its faces, in layers going half a block deep as
-// the lava's and water's do: big straight cracks frozen into it, finer ones
-// between, a few trapped bubbles and clouding, bluer the deeper; faint
-// scratches on its surface, a sheen at a glance, and frost where it meets
-// other blocks, glinting now and then. Drawn per pixel over the faces of
-// what shows block/ice, fixed in the world. Pixelated as a 16px texture is
-// (ICE_PIXEL) - each layer inside too, on a grid of its own, so that as the
-// eye moves the layers slide by whole pixels rather than shimmer. Its
-// settings are in ice_config.glsl. Needs fluid.glsl, which tells its faces
-// from others (fluidKind), and water.glsl, whose shores give its frost: the
-// game shades the corners of a block's faces that other blocks crowd, with
-// smooth lighting, in vanilla as with Sodium - see there.
+// Ice: see-through, with what is frozen into it - big straight cracks,
+// finer ones between, wandering fractures, a few trapped bubbles and
+// clouding, in layers, the deeper fainter and bluer - faint scratches on its
+// surface, and frost where it meets other blocks, glinting now and then.
+// Drawn per pixel over the faces of what shows block/ice, fixed in the
+// world, the same from wherever it is seen, so nothing in it shifts or
+// flickers as the eye moves; no reflections, as nothing else in the world
+// has them. Pixelated as a 16px texture is (ICE_PIXEL); its cracks never
+// thinner than a pixel on screen, so they hold far off. Its settings are in
+// ice_config.glsl. Needs fluid.glsl, which tells its faces from others
+// (fluidKind), and water.glsl, whose shores give its frost: the game shades
+// the corners of a block's faces that other blocks crowd, with smooth
+// lighting, in vanilla as with Sodium - see there.
 
 #define ICE FLUID_ICE
 
-// How near q is to a crack in a pattern of cells about size blocks across:
-// the borders between them, nearly straight, as ice cracks, with a little
-// jag. 1 on a crack, a pixel wide. salt picks the pattern.
-float iceCrack(vec2 q, float size, int salt) {
-    vec2 p = (q + fluidWarp(q, vec2(0.25), 0.0, salt + 300) * 0.25 * size
-              + fluidWarp(q, vec2(8.0), 0.0, salt + 310) * 0.05) / size;
+// What the ice looks like at a fragment, for its shader to light.
+struct IceLook {
+    vec3 color;
+    float alpha;
+    float frost;    // how much of it is frost, which the shade of what crowds it doesn't dim
+};
+
+// The borders between cells about size blocks across, warped by bend (in
+// cells) and jag (in blocks): 1 within width blocks of one. salt picks the
+// pattern.
+float iceBorder(vec2 q, float size, float bend, float jag, float width, int salt) {
+    vec2 p = (q + fluidWarp(q, vec2(0.5 / size), 0.0, salt + 300) * bend * size
+              + fluidWarp(q, vec2(8.0), 0.0, salt + 310) * jag) / size;
     ivec2 cell = ivec2(floor(p));
     int mask = int(64.0 / size) - 1;
     float near = 1.0e9, second = 1.0e9;
@@ -29,7 +37,7 @@ float iceCrack(vec2 q, float size, int salt) {
         second = d < near ? near : min(second, d);
         near = min(near, d);
     }
-    return 1.0 - step(ICE_PIXEL * 0.6, (second - near) * 0.5 * size);
+    return 1.0 - step(width, (second - near) * 0.5 * size);
 }
 
 // A trapped bubble at q: in some cells of a quarter block, a pixel or two
@@ -44,59 +52,53 @@ float iceBubble(vec2 q, int salt) {
     return 1.0 - step(r, length(b - at));
 }
 
-// The ice's colour at f, time seconds into the day, and how much of it is
-// frost (alpha), which the shade of what crowds it doesn't dim; shore from
-// water.glsl's waterShore, sky the sky's colour.
-vec4 iceColor(FluidFrame f, float time, WaterShore shore, vec3 sky) {
+// The ice's look at f, time seconds into the day; shore from water.glsl's
+// waterShore.
+IceLook iceLook(FluidFrame f, float time, WaterShore shore) {
     vec3 n = fluidNormal(f);
     bool top = abs(n.y) > 0.6;
     vec3 axisU = top ? vec3(1.0, 0.0, 0.0) : abs(n.x) > abs(n.z) ? vec3(0.0, 0.0, 1.0) : vec3(1.0, 0.0, 0.0);
     vec3 axisV = top ? vec3(0.0, 0.0, 1.0) : vec3(0.0, 1.0, 0.0);
 
-    // pixelated: the face is cut into squares of ICE_PIXEL blocks, each
-    // traced once, through its middle
+    // pixelated: the face is cut into squares of ICE_PIXEL blocks
     vec2 s = vec2(dot(f.world, axisU), dot(f.world, axisV));
     vec2 snap = (floor(s / ICE_PIXEL) + 0.5) * ICE_PIXEL - s;
     vec3 shift = axisU * snap.x + axisV * snap.y;
-    vec3 world = f.world + shift;
-    vec3 ray = normalize(f.pos + shift);
+    vec2 here = s + snap;
     float pixel = max(max(length(f.dx), length(f.dy)), ICE_PIXEL);
+    // lines a pixel wide, on screen at least
+    float width = 0.6 * pixel;
 
-    // ---- inside: layer after layer going in, each on its own pixel grid,
-    // the light from each dimmed by what lies in front of it - clouding, and
-    // the ice itself; the big cracks lie in the first layer, the finer ones
-    // in the third
-    float into = max(-dot(ray, n), 0.3);
+    // ---- what is frozen into it, layer by layer, each fainter and bluer
+    // than the one above and dimmed by what lies over it
+    IceLook look;
     vec3 color = vec3(0.0);
     float through = 1.0;
+    float solid = 0.0;
     for (int i = 0; i < ICE_LAYERS; i++) {
-        float depth = (float(i) + 0.5) / float(ICE_LAYERS) * ICE_DEPTH;
-        vec3 at = world + ray * (depth / into);
-        vec2 grid = (floor(vec2(dot(at, axisU), dot(at, axisV)) / ICE_PIXEL) + 0.5) * ICE_PIXEL;
-        // each layer's clouding along its own axes, turned, so they don't line up
-        vec2 q = FLUID_TURN[i] * grid;
+        float deep = (float(i) + 0.5) / float(ICE_LAYERS);
+        vec2 q = FLUID_TURN[i] * here;
         float cloud = fluidNoise(q, vec2(1.0), pixel, i + 350) * 0.6 + fluidNoise(q + 5.0, vec2(2.0), pixel, i + 360) * 0.4;
         cloud = smoothstep(0.35, 0.8, cloud) * ICE_CLOUD;
-        vec3 layer = mix(ICE_SURFACE, ICE_DEEP, (float(i) + 0.5) / float(ICE_LAYERS));
-        // cracks and bubbles thinner than a pixel far off fade, rather than flicker
-        float crack = 0.0;
-        if (i == 0) crack = iceCrack(grid, ICE_CRACK_SIZE, 0) * (1.0 - smoothstep(1.0, 2.0, pixel / ICE_PIXEL));
-        if (i == 2) crack = iceCrack(grid, ICE_CRACK_SIZE * 0.5, 1) * step(1.0 - ICE_FINE_CRACKS, fluidNoise(grid, vec2(0.5), pixel, 330))
-                            * (1.0 - smoothstep(1.0, 2.0, pixel / ICE_PIXEL)) * 0.7;
-        float bubble = i > 0 ? iceBubble(grid, i) * (1.0 - smoothstep(1.5, 3.0, pixel / ICE_PIXEL)) : 0.0;
-        vec3 seen = layer * (0.75 + 0.5 * cloud) + vec3(0.95, 0.98, 1.0) * (crack * ICE_CRACKS + bubble * 0.4);
+        float lines = 0.0;
+        if (i == 0) lines = iceBorder(here, ICE_CRACK_SIZE, 0.25, 0.05, width, 0) * ICE_CRACKS;
+        if (i == 1) lines = iceBorder(here, ICE_FRACTURE_SIZE, 1.2, 0.1, width, 2) * smoothstep(0.35, 0.6, fluidNoise(here, vec2(1.0), pixel, 332)) * ICE_FRACTURES;
+        if (i == 2) lines = iceBorder(here, ICE_CRACK_SIZE * 0.5, 0.25, 0.05, width, 1)
+                          * step(1.0 - ICE_FINE_CRACKS, fluidNoise(here, vec2(0.5), pixel, 330)) * ICE_CRACKS * 0.6;
+        if (i == 3) lines = iceBorder(here + 17.0, ICE_FRACTURE_SIZE, 1.2, 0.1, width, 3) * smoothstep(0.4, 0.65, fluidNoise(here, vec2(1.0), pixel, 333)) * ICE_FRACTURES * 0.7;
+        float bubble = i > 0 ? iceBubble(q, i) * (1.0 - smoothstep(1.5, 3.0, pixel / ICE_PIXEL)) : 0.0;
+        vec3 layer = mix(ICE_SURFACE, ICE_DEEP, deep) * (0.75 + 0.5 * cloud) + vec3(0.95, 0.98, 1.0) * (lines + bubble * 0.4);
         float share = 1.0 / float(ICE_LAYERS) + cloud * 0.4;
-        color += seen * share * through;
+        color += layer * share * through;
+        solid = max(solid, max(lines, bubble * 0.6) * (1.0 - 0.5 * deep));
         through *= 1.0 - min(share, 0.9);
+        solid = max(solid, cloud * 0.5 * (1.0 - deep));
     }
     color += ICE_DEEP * through;
 
-    // ---- its surface: faint scratches, and the sky's colour at a glance
-    vec2 here = vec2(dot(world, axisU), dot(world, axisV));
-    float scratches = 1.0 - abs(2.0 * fluidNoise(here + fluidWarp(here, vec2(2.0), pixel, 370) * 0.3, vec2(8.0, 1.0), pixel, 372) - 1.0);
+    // ---- its surface: faint scratches
+    float scratches = 1.0 - abs(2.0 * fluidNoise(here + fluidWarp(here, vec2(2.0), 0.0, 370) * 0.3, vec2(8.0, 1.0), pixel, 372) - 1.0);
     color += vec3(0.06) * smoothstep(0.92, 0.98, scratches);
-    float glance = pow(1.0 - clamp(-dot(ray, n), 0.0, 1.0), 3.0);
-    color = mix(color, sky, glance * ICE_SHEEN);
 
     // ---- frost where other blocks crowd it, its edge ragged, a few of its
     // pixels glinting in turn
@@ -108,5 +110,9 @@ vec4 iceColor(FluidFrame f, float time, WaterShore shore, vec3 sky) {
     float twinkle = smoothstep(0.9, 1.0, sin(time * (6.2831853 * 60.0 / 1200.0) + glint * 6.2831853 * 7.0));
     color = mix(color, ICE_FROST_COLOR * (0.85 + 0.25 * ragged), frost);
     color += vec3(0.5) * frost * step(1.0 - ICE_SPARKLE, glint) * twinkle;
-    return vec4(color, frost);
+
+    look.color = color;
+    look.alpha = mix(ICE_ALPHA, 0.95, max(solid, frost));
+    look.frost = frost;
+    return look;
 }

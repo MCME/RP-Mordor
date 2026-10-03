@@ -152,9 +152,9 @@ void main() {
     // ice: seen into, lit and shaded as any block - its frost by its face's
     // own shade, not the occlusion that puts it there
     if (fluid == ICE) {
-        vec4 ice = iceColor(fluidHere, fireClockSeconds(u_LightTex), shore, u_FogColor.rgb);
+        IceLook ice = iceLook(fluidHere, fireClockSeconds(u_LightTex), shore);
         vec3 open = vertexColor.rgb / max(max(vertexColor.r, max(vertexColor.g, vertexColor.b)), 1.0e-3) * shore.open;
-        color = vec4(ice.rgb * mix(vertexColor.rgb, open, ice.a) * lightColor.rgb, ICE_ALPHA);
+        color = vec4(ice.color * mix(vertexColor.rgb, open, ice.frost) * lightColor.rgb, ice.alpha);
     }
     // the fire eye: its own light, no shading, no light map
     if (fireLayer >= 0) {
