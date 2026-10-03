@@ -1,5 +1,5 @@
-// What the lava (lava.glsl), the water (water.glsl) and the ice (ice.glsl)
-// share: telling their faces apart from every other, where on such a face a fragment is, and
+// What the lava (lava.glsl), the water (water.glsl), the ice (ice.glsl), the
+// tar (tar.glsl) share: telling their faces apart from every other, where on such a face a fragment is, and
 // patterns fixed to the world that repeat as it does.
 //
 // Shared by vanilla's terrain.fsh, Sodium's block_layer_opaque.fsh and
@@ -8,11 +8,11 @@
 // as they did.
 //
 // They are told by their textures, block/lava_still, lava_flow, water_still,
-// water_flow and ice: the lowest two bits of each texel's red, green
+// water_flow, ice and the tar's, powder_snow to powder_snow_4: the lowest two bits of each texel's red, green
 // and blue hold a code, by the texel's place in its 4x4 block of the sprite
 // and by the sprite (fluidCode) - at most 3 steps in 255, which no one sees.
 // A texel's code is checked, and if it is a fluid's, the codes of its whole
-// 4x4 block. Lava's texels are opaque, water's and ice's needn't be. Editing the
+// 4x4 block. Lava's texels are opaque, the others' needn't be. Editing the
 // textures loses the codes: write them again with ResourcePackScripts'
 // lavaSignature/sign_fluids.py.
 //
@@ -29,7 +29,8 @@
 #define FLUID_WATER_STILL 2
 #define FLUID_WATER_FLOWING 3
 #define FLUID_ICE 4
-#define FLUID_KINDS 5
+#define FLUID_TAR 6                  // (5 is kept for the fog block, on its own branch)
+#define FLUID_KINDS 7
 
 uint fluidHash(ivec4 p) {
     uint h = uint(p.x) * 73856093u ^ uint(p.y) * 19349663u ^ uint(p.z) * 83492791u ^ uint(p.w) * 2654435761u;
@@ -49,10 +50,10 @@ int fluidCode(int kind, ivec2 t) {
     return int(fluidHash(ivec4(t & 3, kind, 731)) >> 26u);
 }
 
-// Whether a texel at atlas texel t holds kind's code: opaque, for lava.
+// Whether a texel at atlas texel t holds kind's code: opaque, for lava and tar.
 bool fluidFits(int kind, vec4 texel, ivec2 t) {
     ivec4 c = ivec4(texel * 255.0 + 0.5);
-    return (kind < FLUID_WATER_STILL ? c.a == 255 : c.a > 0)
+    return (kind < FLUID_WATER_STILL || kind == FLUID_TAR ? c.a == 255 : c.a > 0)
         && (((c.r & 3) << 4) | ((c.g & 3) << 2) | (c.b & 3)) == fluidCode(kind, t);
 }
 
@@ -127,6 +128,26 @@ float fluidNoise(vec2 q, vec2 cells, float pixel, int salt) {
     float n = mix(mix(fluidRand(ivec4(c0, salt, 640)), fluidRand(ivec4(c1.x, c0.y, salt, 640)), f.x),
                   mix(fluidRand(ivec4(c0.x, c1.y, salt, 640)), fluidRand(ivec4(c1, salt, 640)), f.x), f.y);
     return mix(0.5, n, 1.0 / max(pixel * max(cells.x, cells.y) * 2.0, 1.0));
+}
+
+// Smooth value noise in three dimensions, on a lattice of cells per block,
+// repeating every 64 blocks along each axis, as the world's coordinates here
+// do - or 64 of whatever units else, such as time in steps.
+float fluidNoise3(vec3 p, float cells, int salt) {
+    vec3 g = p * cells;
+    ivec3 c = ivec3(floor(g));
+    vec3 f = fract(g);
+    f = f * f * (3.0 - 2.0 * f);
+    int period = int(64.0 * cells + 0.5);
+    ivec3 c0 = c - period * ivec3(floor(vec3(c) / float(period)));
+    float n = 0.0;
+    for (int k = 0; k < 8; k++) {
+        ivec3 o = ivec3(k & 1, (k >> 1) & 1, (k >> 2) & 1);
+        ivec3 at = c0 + o - period * ivec3(greaterThanEqual(c0 + o, ivec3(period)));
+        vec3 w = mix(1.0 - f, f, vec3(o));
+        n += w.x * w.y * w.z * fluidRand(ivec4(at, salt));
+    }
+    return n;
 }
 
 // A pair of it, for warping coordinates by: from -0.5 to 0.5.

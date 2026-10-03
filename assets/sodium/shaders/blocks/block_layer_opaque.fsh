@@ -117,6 +117,8 @@ vec4 sampleRGSS(sampler2D source, vec2 uv, vec2 pixelSize) {
 #moj_import <minecraft:water.glsl>
 #moj_import <minecraft:ice_config.glsl>
 #moj_import <minecraft:ice.glsl>
+#moj_import <minecraft:tar_config.glsl>
+#moj_import <minecraft:tar.glsl>
 
 vec4 sampleColor(vec2 uv) {
     // Taken before branching: derivatives are undefined in divergent control flow.
@@ -155,6 +157,10 @@ void main() {
         IceLook ice = iceLook(fluidHere, fireClockSeconds(u_LightTex), shore);
         vec3 open = vertexColor.rgb / max(max(vertexColor.r, max(vertexColor.g, vertexColor.b)), 1.0e-3) * shore.open;
         color = vec4(ice.color * mix(vertexColor.rgb, open, ice.frost) * lightColor.rgb, ice.alpha);
+    }
+    // tar: lit and shaded as any block
+    if (fluid == TAR) {
+        color = vec4(tarColor(fluidHere, fireClockSeconds(u_LightTex), shore) * vertexColor.rgb * lightColor.rgb, 1.0);
     }
     // the fire eye: its own light, no shading, no light map
     if (fireLayer >= 0) {
