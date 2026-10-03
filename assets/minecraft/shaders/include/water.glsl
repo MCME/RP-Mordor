@@ -1,8 +1,9 @@
-// Water: the game's water, its colour the biome's as ever, with ripples
-// drifting over it in layers - deeper ones shifting with the view, as the
-// lava's do - see-through looking down and taking the sky's colour at a
-// glance, and foam where it is rough: streaks where it flows, more on falls,
-// and, with Sodium, along its shores. Drawn per pixel over water's faces -
+// Water: the game's water, its colour the biome's as ever, with faint
+// ripples drifting over it in layers - deeper ones shifting with the view, as
+// the lava's do - streaks where it flows, and foam, blended in: on flowing
+// water and falls, now and then in a small wave crossing still water, and,
+// with Sodium, along its shores. No reflections, as nothing else in the
+// world has them. Drawn per pixel over water's faces -
 // the fluid's, and the pack's models textured with it - fixed in the world.
 // Pixelated as a 16px texture is (WATER_PIXEL); its settings are in
 // water_config.glsl. Needs fluid.glsl, which tells its faces from others
@@ -26,7 +27,6 @@
 // colour and light it has always had.
 struct WaterLook {
     float shade;    // its brightness, over its own lit colour: about 1
-    float sheen;    // how much of the sky's colour it takes, 0 to 1
     float foam;     // how much of it is foam, 0 to 1
     float alpha;
 };
@@ -94,6 +94,41 @@ float waterAway(WaterShore s, FluidFrame f, vec3 shift) {
     return away;
 }
 
+// How long a wave takes to come round again, in seconds: each divides the
+// day's 1200, so waves come back as the day's clock starts over.
+const float WATER_WAVE_TIMES[4] = float[4](20.0, 24.0, 30.0, 40.0);
+
+// A small wave on still water at here (blocks): in some squares of
+// WATER_WAVE_SPACING now and then, a short crest, bowed forward, crossing
+// WATER_WAVE_TRAVEL blocks one of eight ways as it rises and dies away.
+float waterWave(vec2 here, float time) {
+    vec2 g = here / WATER_WAVE_SPACING;
+    ivec2 cell = ivec2(floor(g));
+    int mask = int(64.0 / WATER_WAVE_SPACING) - 1;
+    float wave = 0.0;
+    for (int k = 0; k < 9; k++) {
+        ivec2 o = cell + ivec2(k % 3 - 1, k / 3 - 1);
+        ivec2 id = o & mask;
+        float period = WATER_WAVE_TIMES[int(fluidRand(ivec4(id, 0, 700)) * 3.99)];
+        float t = time / period + fluidRand(ivec4(id, 1, 700)) * 3.0;
+        int rise = int(floor(t)) % int(1200.0 / period);
+        float life = fract(t) / 0.4;
+        if (life >= 1.0 || fluidRand(ivec4(id, rise, 701)) > WATER_WAVES) continue;
+        vec2 start = (vec2(o) + vec2(fluidRand(ivec4(id, rise, 702)), fluidRand(ivec4(id, rise, 703)))) * WATER_WAVE_SPACING;
+        float a = floor(fluidRand(ivec4(id, rise, 704)) * 8.0) * 0.7853982;
+        vec2 dir = vec2(cos(a), sin(a));
+        vec2 d = here - start - dir * life * WATER_WAVE_TRAVEL;
+        float across = dot(d, vec2(-dir.y, dir.x));
+        float ahead = dot(d, dir) + 0.25 * across * across;
+        // its crest two pixels deep, and a wake fading out behind it
+        float crest = (1.0 - smoothstep(WATER_PIXEL, WATER_PIXEL * 2.0, abs(ahead)))
+                    + (ahead < 0.0 ? exp(ahead * 6.0) * 0.35 : 0.0);
+        crest *= 1.0 - smoothstep(0.7, 1.3, abs(across));
+        wave = max(wave, min(crest, 1.0) * sin(life * 3.1415927));
+    }
+    return wave;
+}
+
 // The water's look at f, a face of kind, time seconds into the day; shore
 // from waterShore.
 WaterLook waterLook(int kind, FluidFrame f, float time, WaterShore shore) {
@@ -126,12 +161,11 @@ WaterLook waterLook(int kind, FluidFrame f, float time, WaterShore shore) {
 
     // ---- ripples: layers of soft swells, deeper ones seen further along
     // the view ray, each drifting and turned its own way; light caught on
-    // the crests of the top one, which also tilts the surface
+    // the crests of the top one
     float into = max(-dot(ray, n), 0.3);
     float ripple = 0.0;
     float weight = 0.0;
     float crest = 0.0;
-    vec2 tilt = vec2(0.0);
     for (int i = 0; i < WATER_LAYERS; i++) {
         vec3 at = world + ray * (float(i) * WATER_LAYER_DEPTH / into);
         vec2 q = vec2(dot(at, axisU), dot(at, axisV));
@@ -145,35 +179,32 @@ WaterLook waterLook(int kind, FluidFrame f, float time, WaterShore shore) {
         float w = 1.0 / (1.0 + 0.6 * float(i));
         ripple += a * w;
         weight += w;
-        if (i == 0) {
-            crest = smoothstep(0.86, 0.97, 1.0 - abs(2.0 * a - 1.0));
-            // the slope of the swells, a quarter of a cell across
-            vec2 e = 0.25 / cells;
-            tilt = vec2(fluidNoise(q + vec2(e.x, 0.0), cells, pixel, i + 100) - fluidNoise(q - vec2(e.x, 0.0), cells, pixel, i + 100),
-                        fluidNoise(q + vec2(0.0, e.y), cells, pixel, i + 100) - fluidNoise(q - vec2(0.0, e.y), cells, pixel, i + 100));
-        }
+        if (i == 0) crest = smoothstep(0.86, 0.97, 1.0 - abs(2.0 * a - 1.0));
     }
     ripple = ripple / weight - 0.5;
 
-    WaterLook look;
-    look.shade = 1.0 + ripple * 2.0 * WATER_RIPPLE + crest * WATER_CREST;
-
-    // ---- how it takes the sky's colour: more the more it is seen along
-    // its surface, tilted by the swells, so the sheen shimmers
-    vec3 wavy = normalize(n + (axisU * tilt.x + axisV * tilt.y) * WATER_WAVE * 4.0);
-    float glance = pow(1.0 - clamp(-dot(ray, wavy), 0.0, 1.0), 3.0);
-    look.sheen = glance * WATER_SHEEN;
-    look.alpha = mix(WATER_ALPHA, WATER_ALPHA_GLANCE, glance);
-
-    // ---- foam: streaks where it flows - more where its top runs steeper,
-    // most on falls - and, with Sodium, a lapping band along its shores;
-    // broken up into bubbles at its edges
+    // ---- streaks along flowing water, top and falls: fine lines drawn out
+    // along it, running with it
     vec2 c = along * (here - vec2(flowing ? way * steps : FLUID_STIR[0] * WATER_STIR) * FLUID_STEP * time);
+    float streak = 0.0;
+    if (flowing) {
+        float lines = 1.0 - abs(2.0 * fluidNoise(c + fluidWarp(c, vec2(0.5, 1.0), pixel, 136) * 0.5, vec2(0.25, 4.0), pixel, 135) - 1.0);
+        streak = smoothstep(0.75, 0.95, lines);
+    }
+
+    WaterLook look;
+    look.shade = 1.0 + ripple * 2.0 * WATER_RIPPLE + crest * WATER_CREST + streak * WATER_STREAK;
+
+    // ---- foam: where it flows - more where its top runs steeper, most on
+    // falls - now and then a small wave crossing still water, and, with
+    // Sodium, a lapping band along its shores; softened and broken up
     float foam = 0.0;
     if (flowing) {
         float amount = top ? WATER_FOAM * (0.4 + 0.6 * (1.0 - smoothstep(0.75, 0.98, abs(n.y)))) : WATER_FALL_FOAM;
         float streaks = fluidNoise(c, vec2(1.0, 4.0) * stretch, pixel, 130) * 0.6 + fluidNoise(c + 7.0, vec2(2.0, 8.0) * stretch, pixel, 131) * 0.4;
-        foam = step(1.0 - amount * 0.75, streaks + (fluidNoise(c, vec2(8.0, 16.0), pixel, 134) - 0.5) * 0.12);
+        foam = smoothstep(1.0 - amount * 0.75, 1.0 - amount * 0.75 + 0.12, streaks + (fluidNoise(c, vec2(8.0, 16.0), pixel, 134) - 0.5) * 0.12);
+    } else if (top) {
+        foam = waterWave(here, time) * 1.6;
     }
     float away = waterAway(shore, f, shift);
     // a band along the shore, its edge lapping in and out, and a thin line
@@ -183,10 +214,10 @@ WaterLook waterLook(int kind, FluidFrame f, float time, WaterShore shore) {
     // (172 swells a day, so they too are where they were when the day's
     // clock starts over)
     float wash = band + (0.1 + 0.04 * sin(time * (6.2831853 * 172.0 / 1200.0) + lap * 6.0)) * WATER_SHORE_FOAM;
-    foam = max(foam, 1.0 - step(band, away));
-    foam = max(foam, (step(wash, away) - step(wash + 0.06, away)) * step(0.45, lap));
+    foam = max(foam, (1.0 - smoothstep(band - WATER_PIXEL, band, away)) * 0.8);
+    foam = max(foam, (step(wash, away) - step(wash + 0.06, away)) * step(0.45, lap) * 0.6);
     float bubbles = fluidNoise(c, vec2(16.0), pixel, 133);
-    look.foam = foam * smoothstep(0.25, 0.45, bubbles + foam * 0.5);
-    look.alpha = mix(look.alpha, 0.95, look.foam);
+    look.foam = foam * smoothstep(0.2, 0.6, bubbles + foam * 0.4) * WATER_FOAM_OPACITY;
+    look.alpha = mix(WATER_ALPHA, 0.9, look.foam);
     return look;
 }

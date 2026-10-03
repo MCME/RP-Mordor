@@ -150,14 +150,11 @@ void main() {
     if (fluid == LAVA_STILL || fluid == LAVA_FLOWING) {
         color = vec4(lavaColor(fluid, fluidHere, GameTime * 1200.0) * mix(vec3(1.0), vertexColor.rgb, LAVA_SHADING), 1.0);
     }
-    // water: its colour and light as ever, its pattern and opacity its own,
-    // taking the sky's colour - the fog's - at a glance, where there is sky
-    // light to see it by
+    // water: its colour and light as ever, its pattern and opacity its own
     if (fluid == WATER_STILL || fluid == WATER_FLOWING) {
         WaterLook water = waterLook(fluid, fluidHere, GameTime * 1200.0, shore);
         vec3 lit = vertexColor.rgb * lightColor.rgb;
-        vec3 rgb = mix(lit * water.shade, FogColor.rgb * max(lightColor.r, max(lightColor.g, lightColor.b)), water.sheen);
-        color = vec4(mix(rgb, WATER_FOAM_COLOR * lightColor.rgb, water.foam), water.alpha);
+        color = vec4(mix(lit * water.shade, WATER_FOAM_COLOR * lightColor.rgb, water.foam), water.alpha);
     }
     // ice: seen into, lit and shaded as any block - its frost by its face's
     // own shade, not the occlusion that puts it there
