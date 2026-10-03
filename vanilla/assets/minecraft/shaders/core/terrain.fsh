@@ -123,6 +123,8 @@ vec4 sampleRGSS(sampler2D source, vec2 uv, vec2 pixelSize) {
 #moj_import <lava.glsl>
 #moj_import <water_config.glsl>
 #moj_import <water.glsl>
+#moj_import <ice_config.glsl>
+#moj_import <ice.glsl>
 
 vec4 sampleColor(vec2 uv) {
     // Taken before branching: derivatives are undefined in divergent control flow.
@@ -156,6 +158,13 @@ void main() {
         vec3 lit = vertexColor.rgb * lightColor.rgb;
         vec3 rgb = mix(lit * water.shade, FogColor.rgb * max(lightColor.r, max(lightColor.g, lightColor.b)), water.sheen);
         color = vec4(mix(rgb, WATER_FOAM_COLOR * lightColor.rgb, water.foam), water.alpha);
+    }
+    // ice: seen into, lit and shaded as any block - its frost by its face's
+    // own shade, not the occlusion that puts it there
+    if (fluid == ICE_PACKED || fluid == ICE_BLUE) {
+        vec4 ice = iceColor(fluid, fluidHere, GameTime * 1200.0, shore, FogColor.rgb);
+        vec3 open = vertexColor.rgb / max(max(vertexColor.r, max(vertexColor.g, vertexColor.b)), 1.0e-3) * shore.open;
+        color = vec4(ice.rgb * mix(vertexColor.rgb, open, ice.a) * lightColor.rgb, 1.0);
     }
     // the fire eye: its own light, no shading, no light map
     if (fireLayer >= 0) {
