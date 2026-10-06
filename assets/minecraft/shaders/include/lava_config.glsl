@@ -26,3 +26,7 @@
 #define LAVA_BUBBLES 0.45            // in how many of them, 0 to 1
 
 #define LAVA_SHADING 0.55            // how much the game's shading of its sides darkens it, 0 to 1
+
+// under a shader pack, which makes lava glow: how much more it glows than the
+// pack's own lava - its emission, which its bloom and light come from (MCME's mod)
+#define LAVA_GLOW 1.5

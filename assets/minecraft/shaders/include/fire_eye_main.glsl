@@ -19,15 +19,16 @@
 
 fireLayer = -1;
 fireCentre = vec3(0.0);
+fireOrigin = vec3(0.0);
 fireTime = FIRE_SECONDS;
 if (isCustom == 0) {
     ivec4 firePointer = ivec4(texelFetch(Sampler0, uv, 0) * 255.0 + 0.5);
     if (firePointer.a == 254) {
-        ivec2 fireOrigin = uv - ivec2(firePointer.r * 16 + (firePointer.g >> 4), (firePointer.g & 15) * 256 + firePointer.b);
-        if (all(greaterThanEqual(fireOrigin, ivec2(0)))
-                && ivec4(texelFetch(Sampler0, fireOrigin, 0) * 255.0 + 0.5) == ivec4(98, 76, 54, 255)
-                && ivec4(texelFetch(Sampler0, fireOrigin + ivec2(1, 0), 0) * 255.0 + 0.5) == ivec4(13, 57, 93, 255))
-            fireLayer = uv.x - fireOrigin.x - FIRE_DESCRIPTOR_X;
+        ivec2 fireSheet = uv - ivec2(firePointer.r * 16 + (firePointer.g >> 4), (firePointer.g & 15) * 256 + firePointer.b);
+        if (all(greaterThanEqual(fireSheet, ivec2(0)))
+                && ivec4(texelFetch(Sampler0, fireSheet, 0) * 255.0 + 0.5) == ivec4(98, 76, 54, 255)
+                && ivec4(texelFetch(Sampler0, fireSheet + ivec2(1, 0), 0) * 255.0 + 0.5) == ivec4(13, 57, 93, 255))
+            fireLayer = uv.x - fireSheet.x - FIRE_DESCRIPTOR_X;
     }
 }
 
@@ -42,6 +43,13 @@ if (isCustom == 0) {
 // told apart by its texture coordinate, as objmc's are.
 if (fireLayer >= 0) {
     fireCentre = FIRE_BLOCK_CENTRE;                             // camera-relative
+#ifdef FIRE_PROJECTION
+    // where the camera truly is: the game puts its view bobbing into the
+    // projection, moving it off the origin as the player walks - the centre
+    // the projection draws towards, which it maps to w = 0
+    vec4 fireEyePoint = inverse(FIRE_PROJECTION * FIRE_MODELVIEW) * vec4(0.0, 0.0, 1.0, 0.0);
+    if (abs(fireEyePoint.w) > 1.0e-6) fireOrigin = fireEyePoint.xyz / fireEyePoint.w;
+#endif
     float reach = FIRE_RADIUS * (fireLayer >= 1 ? FIRE_HALO : max(FIRE_EYE_WIDTH, 1.0) * 1.1);
     vec3 centre = (FIRE_MODELVIEW * vec4(fireCentre, 1.0)).xyz;  // view space, looking down -z
     float depth = max(-centre.z, 0.3);

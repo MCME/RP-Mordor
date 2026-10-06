@@ -1,5 +1,6 @@
 // How far the world is drawn, for the shaders that need to know: the eye
-// (fire_eye.glsl), the sky (core/sky.fsh) and particles (core/particle.vsh).
+// (fire_eye.glsl), the clouds carrying it from afar (core/rendertype_clouds.vsh)
+// and particles (core/particle.vsh).
 
 // The server's view distance, 15 chunks, in blocks: chunks past it are never
 // sent, so nothing in them is drawn.
