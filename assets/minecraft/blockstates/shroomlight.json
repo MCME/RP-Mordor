@@ -1,7 +1,7 @@
 {
     "variants": {
         "": {
-            "model": "minecraft:block/replace_luminous"
+            "model": "minecraft:block/fire_eye"
         }
     }
 }
