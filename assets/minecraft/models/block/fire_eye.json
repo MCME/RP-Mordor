@@ -171,16 +171,16 @@
             }
         },
         {
-            "__comment": "Distant Horizons colours a block's LOD from its model's faces on its sides: this one's nearly clear texture keeps the eye's block from showing there as a box. Of no size, it draws nothing here.",
+            "__comment": "Distant Horizons colours a block's LOD from its model's faces on its sides: this one's nearly clear texture (fire_eye_lod) keeps the eye's block out of LODs - the MCME mod leaves out blocks with such a face. Tiny and clear, it draws nothing here; Minecraft drops an element of no size.",
             "from": [
-                8,
-                8,
-                8
+                7.95,
+                7.95,
+                7.95
             ],
             "to": [
-                8,
-                8,
-                8
+                8.05,
+                8.05,
+                8.05
             ],
             "faces": {
                 "up": {

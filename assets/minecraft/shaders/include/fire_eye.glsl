@@ -91,6 +91,14 @@ float fireHandover(float distance) {
     return smoothstep(FIRE_HANDOVER - 16.0, FIRE_HANDOVER, distance);
 }
 
+// How much of Distant Horizons' fog at the eye it takes on, centre relative to
+// the camera: all of it up to FIRE_FOG_LOW degrees above the horizon, where
+// it's seen over the fogged land, none from FIRE_FOG_HIGH up
+float fireFogShare(vec3 centre) {
+    float elevation = degrees(asin(clamp(centre.y / max(length(centre), 1.0), -1.0, 1.0)));
+    return 1.0 - smoothstep(FIRE_FOG_LOW, FIRE_FOG_HIGH, elevation);
+}
+
 // How bright each shell's and each of the iris's streams' flames are on
 // average, over the noise they're cut from: what they fade to where they're
 // finer than a pixel, so the ball keeps its glow from afar

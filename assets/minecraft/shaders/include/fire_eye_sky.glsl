@@ -12,6 +12,12 @@ bool fireSkyPulled() {
         && length(vec3(FIRE_EYE_BLOCK - CameraBlockPos)) > FIRE_HANDOVER - 16.0;
 }
 
+// Distant Horizons' fog at the eye, 0 to 1 (far_terrain.glsl), which it
+// takes on near the horizon only (fire_eye.glsl's fireFogShare)
+float fireSkyFog() {
+    return farTerrainFog(FogRenderDistanceStart, FogRenderDistanceEnd);
+}
+
 // Where vanilla's sky disc above - a fan from (0, 16, 0) to 8 points at 512
 // round it, 45 degrees apart - lies in direction dir, and the fog distances
 // its vertices give there: false past its rim, where the frame's clear colour

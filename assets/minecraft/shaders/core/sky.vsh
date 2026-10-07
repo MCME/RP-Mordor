@@ -1,7 +1,7 @@
 #version 330
 
 // Vanilla 26.2's sky vertex shader, passing on the direction each point of
-// the sky lies in, for the fire eye in sky.fsh.
+// the sky lies in, and where the camera truly is, for the fire eye in sky.fsh.
 //
 // The sky above is a flat disc, 16 up and 512 out, so it ends just above the
 // horizon, and the eye can't be painted below that - where it mostly is, seen
@@ -23,6 +23,7 @@ out float sphericalVertexDistance;
 out float cylindricalVertexDistance;
 out vec3 skyDirection;
 out float skyAbove;
+flat out vec3 skyOrigin;
 
 void main() {
     vec3 position = Position;
@@ -37,4 +38,10 @@ void main() {
     cylindricalVertexDistance = fog_cylindrical_distance(position);
     // around the camera, in the world's directions
     skyDirection = position;
+    // where the camera truly is, as fire_eye_main.glsl finds it: the game
+    // puts its view bobbing into the projection, moving it off the origin as
+    // the player walks - the centre the projection draws towards, which it
+    // maps to w = 0
+    vec4 eyePoint = inverse(ProjMat * ModelViewMat) * vec4(0.0, 0.0, 1.0, 0.0);
+    skyOrigin = abs(eyePoint.w) > 1.0e-6 ? eyePoint.xyz / eyePoint.w : vec3(0.0);
 }
