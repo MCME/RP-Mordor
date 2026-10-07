@@ -1,0 +1,9 @@
+{
+  "modules": ["lava"],
+  "fluids": {
+    "powder_snow": 6,
+    "powder_snow_2": 6,
+    "powder_snow_3": 6,
+    "powder_snow_4": 6
+  }
+}

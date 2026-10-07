@@ -40,49 +40,8 @@ uniform int uNoiseDropoff;
 uniform bool uDitherDhRendering;
 
 
-// the fire eye: only the eye from fireColor(), its glow from fireGlowLight()
-#moj_import <minecraft:far_terrain.glsl>
-#moj_import <minecraft:fire_eye_config.glsl>
-#define FIRE_NO_GLOW
-int fireLayer = 0;
-vec3 fireCentre = vec3(0.0);
-float fireTime = 0.0;
-vec3 fireRay = vec3(0.0, 0.0, -1.0);
-#define Pos fireRay
-#moj_import <minecraft:fire_eye.glsl>
-#undef Pos
-
-// lava, as the resource pack's terrain shaders draw it: still, as DH's LODs
-// don't say which way it flows
-#moj_import <minecraft:fluid.glsl>
-#moj_import <minecraft:lava_config.glsl>
-#moj_import <minecraft:lava.glsl>
-
-// the eye and its glow over this terrain, if it lies behind the eye's front;
-// not on water and the like, but on what is under it
-void applyFireEye(inout vec4 color, float viewDist)
-{
-    fireCentre = vFireCentre;
-    float fireDistance = length(fireCentre);
-    float shown = fireHandover(fireDistance);
-    if (shown <= 0.0 || color.a < 0.99) return;
-    fireTime = vFireTime;
-    fireRay = normalize(vertexWorldPos);
-    // the eye, where the ray passes near enough to meet it
-    vec3 from = -fireCentre / FIRE_RADIUS;
-    float pass = length(from + fireRay * max(dot(-from, fireRay), 0.0));
-    if (pass < max(FIRE_EYE_WIDTH, FIRE_CORONA) * 1.05)
-    {
-        vec4 eye = fireColor();
-        float behind = smoothstep(fireDistance - FIRE_RADIUS * 1.2, fireDistance - FIRE_RADIUS * 0.7, viewDist);
-        color.rgb = mix(color.rgb, eye.rgb, eye.a * behind * shown);
-    }
-    // its glow, as over the sky: none in front of the ball, all of it
-    // FIRE_GLOW_DEPTH radii behind
-    vec3 glow = fireGlowLight(fireRay, fireCentre) * shown
-              * smoothstep(fireDistance - FIRE_RADIUS, fireDistance + FIRE_RADIUS * FIRE_GLOW_DEPTH, viewDist);
-    color.rgb = glow + color.rgb * (1.0 - max(glow.r, max(glow.g, glow.b)));
-}
+// the fire eye, and lava and water as the resource pack draws them (RP-Mordor)
+#moj_import <minecraft:mordor_dh_terrain.glsl>
 
 // The random functions for diffrent dimentions
 float rand(float co) { return fract(sin(co*(91.3458)) * 47453.5453); }
@@ -175,7 +134,10 @@ void main()
     // taken before branching, as it needs derivatives
     FluidFrame fluidHere = fluidFrame(vLavaWorld, vertexWorldPos, vec2(0.0));
     
-    if (vTextureTileId != 0u)
+    // water (DH's material 12) keeps its base colour, its biome's: the pack's
+    // water texture is near white, for MCME's water shader to colour, and a
+    // tile doubles what it's laid on where it's that light (MCME)
+    if (vTextureTileId != 0u && vMaterial != 12u)
     {
         // tile id -> grid cell -> exact texel.
         // texture() allow us to use mipmaps
@@ -227,11 +189,5 @@ void main()
         applyNoise(fragColor, viewDist);
     }
 
-    // lava: its own light, its sides a little darker, as DH shades them
-    if (vMaterial == 6u)
-    {
-        fragColor.rgb = lavaColor(LAVA_STILL, fluidHere, vFireTime) * (vNormalIndex == 1u ? 1.0 : mix(1.0, 0.7, LAVA_SHADING));
-    }
-
-    applyFireEye(fragColor, viewDist);
+    mcmeDhTerrain(fragColor, fluidHere, viewDist);
 }
