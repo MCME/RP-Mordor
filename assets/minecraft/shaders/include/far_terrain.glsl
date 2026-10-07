@@ -13,3 +13,13 @@
 bool farTerrain(float renderFogStart) {
     return renderFogStart > 1.0e8;
 }
+
+// How thick Distant Horizons' fog is at the fire eye, 0 to 1, from the render
+// distance fog: with its start far past anything drawn, its end makes no fog,
+// and MCME's mod sets it to the start * (2 + that). 0 without the mod (the
+// end is then vanilla's, far under the start), or without DH's fog. DH fogs
+// only its LODs, not the sky the eye is painted on from afar (fire_eye_sky.glsl).
+float farTerrainFog(float renderFogStart, float renderFogEnd) {
+    if (!farTerrain(renderFogStart)) return 0.0;
+    return clamp(renderFogEnd / renderFogStart - 2.0, 0.0, 1.0);
+}

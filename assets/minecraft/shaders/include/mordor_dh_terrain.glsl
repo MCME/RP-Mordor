@@ -24,14 +24,17 @@ vec3 fireRay = vec3(0.0, 0.0, -1.0);
 #moj_import <minecraft:lava.glsl>
 #moj_import <minecraft:water_config.glsl>
 
-// the eye and its glow over this terrain, if it lies behind the eye's front;
-// not on water and the like, but on what is under it
+// the eye and its glow over this terrain, if it lies behind the eye's front:
+// on water and the like as well as on what is under them, so that what DH
+// blends over its LODs (its see-through ones, drawn after) leaves the eye
+// as it is - the eye mixed into both, and the glow lighting both, blend back
+// to them
 void applyFireEye(inout vec4 color, float viewDist)
 {
     fireCentre = vFireCentre;
     float fireDistance = length(fireCentre);
     float shown = fireHandover(fireDistance);
-    if (shown <= 0.0 || color.a < 0.99) return;
+    if (shown <= 0.0) return;
     fireTime = vFireTime;
     fireRay = normalize(vertexWorldPos);
     // the eye, where the ray passes near enough to meet it

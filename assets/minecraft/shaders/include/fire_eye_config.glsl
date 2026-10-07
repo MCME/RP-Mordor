@@ -11,6 +11,11 @@
 // ...past this distance, in blocks, beyond which the eye's chunk is never sent
 // and its block never drawn (far_terrain.glsl, imported first)
 #define FIRE_HANDOVER SERVER_VIEW_DISTANCE
+// ...where it takes on Distant Horizons' fog at its own distance, not that of
+// the LODs behind it: all of it up to FIRE_FOG_LOW degrees above the horizon,
+// none from FIRE_FOG_HIGH up, where it's over the sky, not the fogged land
+#define FIRE_FOG_LOW 3.0
+#define FIRE_FOG_HIGH 8.0
 
 #define FIRE_RADIUS 10.5             // the ball's radius, in blocks; everything else scales with it
 #define FIRE_PIXEL 0.25              // its pixels' size, in blocks
