@@ -1,0 +1,249 @@
+{
+    "textures": {
+        "0": "minecraft:block/fire_eye",
+        "particle": "minecraft:block/shroomlight",
+        "lod": "minecraft:block/fire_eye_lod"
+    },
+    "elements": [
+        {
+            "from": [
+                7.5,
+                8,
+                7.5
+            ],
+            "to": [
+                8.5,
+                8,
+                8.5
+            ],
+            "shade": false,
+            "rotation": {
+                "origin": [
+                    8,
+                    8,
+                    8
+                ],
+                "axis": "x",
+                "angle": 22.5
+            },
+            "faces": {
+                "up": {
+                    "uv": [
+                        8.25,
+                        8.25,
+                        8.75,
+                        8.75
+                    ],
+                    "texture": "#0"
+                }
+            }
+        },
+        {
+            "from": [
+                7.5,
+                7.9,
+                7.5
+            ],
+            "to": [
+                8.5,
+                7.9,
+                8.5
+            ],
+            "shade": false,
+            "rotation": {
+                "origin": [
+                    8,
+                    8,
+                    8
+                ],
+                "axis": "x",
+                "angle": 22.5
+            },
+            "faces": {
+                "up": {
+                    "uv": [
+                        9.25,
+                        8.25,
+                        9.75,
+                        8.75
+                    ],
+                    "texture": "#0"
+                }
+            }
+        },
+        {
+            "from": [
+                7.5,
+                7.800000000000001,
+                7.5
+            ],
+            "to": [
+                8.5,
+                7.800000000000001,
+                8.5
+            ],
+            "shade": false,
+            "rotation": {
+                "origin": [
+                    8,
+                    8,
+                    8
+                ],
+                "axis": "x",
+                "angle": 22.5
+            },
+            "faces": {
+                "up": {
+                    "uv": [
+                        10.25,
+                        8.25,
+                        10.75,
+                        8.75
+                    ],
+                    "texture": "#0"
+                }
+            }
+        },
+        {
+            "from": [
+                7.5,
+                7.7,
+                7.5
+            ],
+            "to": [
+                8.5,
+                7.7,
+                8.5
+            ],
+            "shade": false,
+            "rotation": {
+                "origin": [
+                    8,
+                    8,
+                    8
+                ],
+                "axis": "x",
+                "angle": 22.5
+            },
+            "faces": {
+                "up": {
+                    "uv": [
+                        11.25,
+                        8.25,
+                        11.75,
+                        8.75
+                    ],
+                    "texture": "#0"
+                }
+            }
+        },
+        {
+            "from": [
+                7.5,
+                7.6000000000000005,
+                7.5
+            ],
+            "to": [
+                8.5,
+                7.6000000000000005,
+                8.5
+            ],
+            "shade": false,
+            "rotation": {
+                "origin": [
+                    8,
+                    8,
+                    8
+                ],
+                "axis": "x",
+                "angle": 22.5
+            },
+            "faces": {
+                "up": {
+                    "uv": [
+                        12.25,
+                        8.25,
+                        12.75,
+                        8.75
+                    ],
+                    "texture": "#0"
+                }
+            }
+        },
+        {
+            "__comment": "Distant Horizons colours a block's LOD from its model's faces on its sides: this one's nearly clear texture (fire_eye_lod) keeps the eye's block out of LODs - the MCME mod leaves out blocks with such a face. Tiny and clear, it draws nothing here; Minecraft drops an element of no size.",
+            "from": [
+                7.95,
+                7.95,
+                7.95
+            ],
+            "to": [
+                8.05,
+                8.05,
+                8.05
+            ],
+            "faces": {
+                "up": {
+                    "uv": [
+                        0,
+                        0,
+                        1,
+                        1
+                    ],
+                    "texture": "#lod",
+                    "cullface": "up"
+                },
+                "down": {
+                    "uv": [
+                        0,
+                        0,
+                        1,
+                        1
+                    ],
+                    "texture": "#lod",
+                    "cullface": "down"
+                },
+                "north": {
+                    "uv": [
+                        0,
+                        0,
+                        1,
+                        1
+                    ],
+                    "texture": "#lod",
+                    "cullface": "north"
+                },
+                "south": {
+                    "uv": [
+                        0,
+                        0,
+                        1,
+                        1
+                    ],
+                    "texture": "#lod",
+                    "cullface": "south"
+                },
+                "east": {
+                    "uv": [
+                        0,
+                        0,
+                        1,
+                        1
+                    ],
+                    "texture": "#lod",
+                    "cullface": "east"
+                },
+                "west": {
+                    "uv": [
+                        0,
+                        0,
+                        1,
+                        1
+                    ],
+                    "texture": "#lod",
+                    "cullface": "west"
+                }
+            }
+        }
+    ]
+}
