@@ -6,9 +6,9 @@
 // docs/shader-base.md).
 
 // the fire eye (fire_eye_main.glsl)
-layout(location = 18) flat out int fireLayer;
-layout(location = 19) flat out vec3 fireCentre;
-layout(location = 20) flat out vec3 fireOrigin;
+layout(location = 21) flat out int fireLayer;
+layout(location = 22) flat out vec3 fireCentre;
+layout(location = 23) flat out vec3 fireOrigin;
 float fireTime;     // (the fragment shader keeps its own: the game's, everywhere)
 #include <minecraft:far_terrain.glsl>
 #include <minecraft:fire_eye_config.glsl>

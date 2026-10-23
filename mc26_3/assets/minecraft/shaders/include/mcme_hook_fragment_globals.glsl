@@ -7,9 +7,9 @@
 // lava module, which Mordor turns on in its .mcme-shaders.json.
 
 // the fire eye (fire_eye.glsl)
-layout(location = 18) flat in int fireLayer;
-layout(location = 19) flat in vec3 fireCentre;
-layout(location = 20) flat in vec3 fireOrigin;
+layout(location = 21) flat in int fireLayer;
+layout(location = 22) flat in vec3 fireCentre;
+layout(location = 23) flat in vec3 fireOrigin;
 #define FIRE_ORIGIN fireOrigin
 // the game's time, set in main: Sodium's own clock restarts with each region,
 // and the sky, which draws the eye from afar, has only the game's
